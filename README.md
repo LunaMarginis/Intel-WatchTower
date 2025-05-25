@@ -17,6 +17,8 @@ This table shows top 10 malware names with their unique IOC hashes and counts.
 
 
 
+
+
 <!-- url_summary_start -->
 ## 🔗 URL Summary
 
@@ -34,13 +36,13 @@ This table shows top 10 malware names with their unique IOC hashes and counts.
 | 2511,AsyncRAT,pw-2511 | 1 |
 | 32-bit,ECh0raix,elf | 1 |
 | 32-bit,arm,elf | 7 |
-| 32-bit,arm,elf,Mozi | 17 |
+| 32-bit,arm,elf,Mozi | 15 |
 | 32-bit,arm,elf,mirai | 2 |
-| 32-bit,arm,elf,mirai,Mozi | 3203 |
+| 32-bit,arm,elf,mirai,Mozi | 3207 |
 | 32-bit,elf | 18 |
 | 32-bit,elf,Mozi | 8 |
 | 32-bit,elf,mips | 82 |
-| 32-bit,elf,mips,Mozi | 11234 |
+| 32-bit,elf,mips,Mozi | 11240 |
 | 32-bit,elf,mips,mirai | 22 |
 | 32-bit,elf,mips,mirai,Mozi | 4 |
 | 32-bit,elf,mirai | 19 |
@@ -670,4 +672,5 @@ This table shows top 10 malware names with their unique IOC hashes and counts.
 | younglotus | 2 |
 | zip | 6 |
 <!-- url_summary_end -->
+
 
