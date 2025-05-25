@@ -2,6 +2,9 @@ import pandas as pd
 import requests
 from io import StringIO
 import re
+from datetime import datetime
+
+execution_time = datetime.utcnow().strftime("%Y-%m-%d %H:%M:%S UTC")
 
 # Step 1: Fetch data
 url = "https://urlhaus.abuse.ch/downloads/csv_recent/"
@@ -53,7 +56,7 @@ summary = summary.sort_values(by='count', ascending=False)
 md_lines = [
     "\n\n<!-- url_summary_start -->",
     "## 🔗 URLs:\n",
-    "Automated URL Collections, grouped by Tags: Every day at 03:00 UTC.\n",
+    f"Automated URL Collections, grouped by Tags: Every day at 03:00 UTC. Last executed {execution_time}.\n",
     "| Tag | Count |",
     "|-----|-------|",
 ]
