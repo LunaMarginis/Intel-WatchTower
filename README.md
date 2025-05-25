@@ -19,10 +19,12 @@ This table shows top 10 malware names with their unique hashes and counts.
 
 
 
+
+
 <!-- url_summary_start -->
 ## 🔗 URLs:
 
-Automated URL Collections, grouped by Tags: Every day at 03:00 UTC. Last executed 2025-05-25 18:52:01 UTC.
+Automated URL Collections, grouped by Tags: Every day at 03:00 UTC. Last executed 2025-05-25 18:55:12 UTC.
 
 | Tag | Count |
 |-----|-------|
@@ -675,4 +677,5 @@ Automated URL Collections, grouped by Tags: Every day at 03:00 UTC. Last execute
 | ua-wget,xml | 1 |
 | remcos | 1 |
 <!-- url_summary_end -->
+
 
