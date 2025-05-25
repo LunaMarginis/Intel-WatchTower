@@ -23,20 +23,17 @@ grouped = df.groupby(['ioc_value', 'fk_malware', 'malware_alias', 'malware_print
 grouped.to_csv("mhash.csv", index=False)
 
 
-# Prepare Markdown summary
-summary_df = grouped.rename(columns={
+summary_df = grouped.copy()
+
+# Collapse malware fields into a single 'Malware Name' using backfill (left to right)
+summary_df['Malware Name'] = summary_df[['fk_malware', 'malware_alias', 'malware_printable']].bfill(axis=1).iloc[:, 0]
+
+# Build final summary table
+summary_df = summary_df[['ioc_value', 'Malware Name', 'count']]
+summary_df = summary_df.rename(columns={
     'ioc_value': 'HashValue',
-    'fk_malware': 'Malware Name',
-    'malware_alias': 'Malware Name',
-    'malware_printable': 'Malware Name',
     'count': 'Count'
 })
-
-
-# Drop duplicates after collapsing columns to a single Malware Name
-summary_df['Malware Name'] = summary_df[['fk_malware', 'malware_alias', 'malware_printable']].bfill(axis=1).iloc[:, 0]
-summary_df = summary_df[['HashValue', 'Malware Name', 'Count']]
-
 # Keep top 10 for summary
 top_summary = summary_df.sort_values(by='Count', ascending=False).head(10)
 
@@ -64,7 +61,7 @@ else:
     readme += f"\n\n{new_section}"
 
 # Save updated README
-with open(readme_path, "w") as f:
+with open(readme_path, "w", encoding="utf-8") as f:
     f.write(readme)
 
 print("mhash.csv and README.md updated.")
