@@ -1,4 +1,11 @@
 tags,url,url_status
+"32-bit,arm,elf,Mozi",http[:]//124[.]234[.]239[.]31[:]58382/i,offline
+"32-bit,arm,elf,mirai,Mozi",http[:]//116[.]53[.]43[.]254[:]42883/bin[.]sh,online
+"32-bit,elf,mips,Mozi",http[:]//125[.]41[.]7[.]58[:]35786/bin[.]sh,online
+"32-bit,elf,mips,Mozi",http[:]//59[.]98[.]117[.]189[:]46052/i,online
+"c2-monitor-auto,dropped-by-amadey",http[:]//185[.]156[.]72[.]2/files/2043702969/fXh4V7t[.]exe,online
+"32-bit,elf,mips,Mozi",http[:]//117[.]209[.]19[.]231[:]57826/i,online
+"32-bit,elf,mips,Mozi",http[:]//222[.]137[.]146[.]133[:]37200/i,online
 "32-bit,elf,mips,Mozi",http[:]//59[.]98[.]117[.]189[:]46052/bin[.]sh,online
 "32-bit,elf,mips,Mozi",http[:]//222[.]137[.]146[.]133[:]37200/bin[.]sh,online
 "32-bit,elf,mips,Mozi",http[:]//112[.]248[.]105[.]233[:]40023/i,online
@@ -12,7 +19,7 @@ tags,url,url_status
 "32-bit,elf,mips,Mozi",http[:]//123[.]129[.]132[.]226[:]39881/bin[.]sh,online
 "32-bit,arm,elf,mirai,Mozi",http[:]//222[.]127[.]246[.]21[:]47827/i,online
 "32-bit,arm,elf,mirai,Mozi",http[:]//175[.]30[.]83[.]74[:]34208/i,online
-"32-bit,elf,mips,Mozi",http[:]//120[.]61[.]167[.]236[:]33149/i,online
+"32-bit,elf,mips,Mozi",http[:]//120[.]61[.]167[.]236[:]33149/i,offline
 "32-bit,elf,mips,Mozi",http[:]//61[.]168[.]162[.]20[:]39909/i,online
 "32-bit,arm,elf,mirai,Mozi",http[:]//180[.]191[.]52[.]66[:]58336/i,online
 "32-bit,elf,mips,Mozi",http[:]//112[.]248[.]12[.]113[:]46335/i,online
@@ -89,7 +96,7 @@ xworm,https[:]//drive[.]usercontent[.]google[.]com/download?id=1OfmwqGG7_yKr3-m2
 "32-bit,arm,elf,mirai,Mozi",http[:]//118[.]232[.]137[.]101[:]37238/i,online
 "32-bit,elf,mips,Mozi",http[:]//182[.]116[.]72[.]93[:]49054/bin[.]sh,online
 "32-bit,elf,mips,Mozi",http[:]//123[.]10[.]131[.]39[:]55547/bin[.]sh,online
-"32-bit,elf,mips,Mozi",http[:]//38[.]137[.]250[.]211[:]45542/i,online
+"32-bit,elf,mips,Mozi",http[:]//38[.]137[.]250[.]211[:]45542/i,offline
 "32-bit,elf,mips,Mozi",http[:]//61[.]3[.]221[.]51[:]58216/i,offline
 "c2-monitor-auto,dropped-by-amadey,xworm",http[:]//185[.]156[.]72[.]2/files/7276312541/KT3QQR7[.]bat,offline
 "32-bit,elf,mips,Mozi",http[:]//59[.]178[.]75[.]86[:]35351/i,offline
@@ -158,12 +165,12 @@ xworm,https[:]//drive[.]usercontent[.]google[.]com/download?id=1OfmwqGG7_yKr3-m2
 "32-bit,elf,mips,Mozi",http[:]//61[.]3[.]210[.]85[:]44511/bin[.]sh,offline
 "32-bit,elf,mips,Mozi",http[:]//61[.]3[.]128[.]109[:]52681/bin[.]sh,offline
 "32-bit,elf,mips,Mozi",http[:]//115[.]49[.]66[.]134[:]54654/i,offline
-"32-bit,elf,mips,Mozi",http[:]//42[.]178[.]61[.]79[:]57870/bin[.]sh,online
+"32-bit,elf,mips,Mozi",http[:]//42[.]178[.]61[.]79[:]57870/bin[.]sh,offline
 "32-bit,elf,mips,Mozi",http[:]//125[.]47[.]84[.]150[:]36272/i,online
 "32-bit,elf,mips,Mozi",http[:]//117[.]206[.]233[.]72[:]47429/bin[.]sh,offline
 "32-bit,elf,mips,Mozi",http[:]//115[.]49[.]209[.]173[:]58856/i,online
 "32-bit,elf,mips,Mozi",http[:]//200[.]59[.]88[.]115[:]46459/i,online
-"32-bit,elf,mips,Mozi",http[:]//115[.]49[.]66[.]134[:]54654/bin[.]sh,online
+"32-bit,elf,mips,Mozi",http[:]//115[.]49[.]66[.]134[:]54654/bin[.]sh,offline
 "32-bit,elf,mips,Mozi",http[:]//182[.]119[.]186[.]22[:]44791/i,online
 "32-bit,elf,mips,Mozi",http[:]//125[.]47[.]84[.]150[:]36272/bin[.]sh,online
 "32-bit,elf,mips,Mozi",http[:]//115[.]49[.]209[.]173[:]58856/bin[.]sh,online
@@ -226,7 +233,7 @@ xworm,https[:]//drive[.]usercontent[.]google[.]com/download?id=1OfmwqGG7_yKr3-m2
 "32-bit,elf,mips,Mozi",http[:]//117[.]206[.]232[.]204[:]50636/bin[.]sh,offline
 "32-bit,arm,elf,mirai,Mozi",http[:]//103[.]15[.]56[.]80[:]55261/i,offline
 "32-bit,elf,mips,Mozi",http[:]//175[.]165[.]122[.]131[:]54108/bin[.]sh,offline
-"32-bit,elf,mips,Mozi",http[:]//182[.]126[.]114[.]144[:]49172/bin[.]sh,online
+"32-bit,elf,mips,Mozi",http[:]//182[.]126[.]114[.]144[:]49172/bin[.]sh,offline
 "32-bit,arm,elf,mirai,Mozi",http[:]//222[.]127[.]51[.]218[:]48557/i,online
 "32-bit,elf,mips,Mozi",http[:]//27[.]223[.]128[.]227[:]60543/i,offline
 "32-bit,elf,mips,Mozi",http[:]//115[.]55[.]240[.]75[:]40062/bin[.]sh,online
@@ -264,7 +271,7 @@ hajime,http[:]//110[.]182[.]97[.]111[:]57170/[.]i,offline
 "32-bit,arm,elf,mirai,Mozi",http[:]//14[.]153[.]217[.]160[:]38256/i,online
 "32-bit,elf,mips,Mozi",http[:]//200[.]59[.]85[.]179[:]55992/bin[.]sh,online
 hajime,http[:]//116[.]55[.]72[.]18[:]7803/[.]i,offline
-"32-bit,elf,mips,Mozi",http[:]//59[.]88[.]224[.]25[:]54813/i,online
+"32-bit,elf,mips,Mozi",http[:]//59[.]88[.]224[.]25[:]54813/i,offline
 "32-bit,elf,mips,Mozi",http[:]//117[.]200[.]115[.]104[:]36051/bin[.]sh,offline
 hajime,http[:]//113[.]221[.]72[.]40[:]24862/[.]i,offline
 "32-bit,arm,elf,Mozi",http[:]//101[.]108[.]250[.]245[:]57143/bin[.]sh,offline
@@ -274,7 +281,7 @@ hajime,http[:]//171[.]213[.]156[.]13[:]43115/[.]i,offline
 ,http[:]//211[.]101[.]236[.]73[:]8866/4[.]ps1,offline
 hajime,http[:]//162[.]244[.]207[.]135[:]10527/[.]i,online
 "32-bit,elf,mips,Mozi",http[:]//117[.]251[.]166[.]249[:]38253/bin[.]sh,offline
-"32-bit,elf,mips,Mozi",http[:]//117[.]209[.]85[.]41[:]41368/bin[.]sh,online
+"32-bit,elf,mips,Mozi",http[:]//117[.]209[.]85[.]41[:]41368/bin[.]sh,offline
 "32-bit,elf,mips,Mozi",http[:]//182[.]121[.]11[.]132[:]47027/bin[.]sh,online
 "32-bit,elf,mips,Mozi",http[:]//182[.]116[.]15[.]230[:]39747/i,online
 "32-bit,elf,mips,Mozi",http[:]//115[.]49[.]122[.]109[:]39838/i,offline
@@ -329,7 +336,7 @@ hajime,http[:]//110[.]183[.]56[.]163[:]54373/[.]i,offline
 "32-bit,elf,mips,Mozi",http[:]//115[.]48[.]151[.]38[:]56155/bin[.]sh,offline
 "32-bit,elf,mips,Mozi",http[:]//42[.]239[.]153[.]80[:]45389/bin[.]sh,online
 hajime,http[:]//114[.]226[.]169[.]23[:]47976/[.]i,offline
-"32-bit,elf,mips,Mozi",http[:]//182[.]121[.]41[.]213[:]58420/i,online
+"32-bit,elf,mips,Mozi",http[:]//182[.]121[.]41[.]213[:]58420/i,offline
 "32-bit,elf,mips,Mozi",http[:]//175[.]165[.]82[.]184[:]52626/bin[.]sh,online
 hajime,http[:]//110[.]183[.]28[.]246[:]58684/[.]i,offline
 hajime,http[:]//117[.]63[.]84[.]170[:]11272/[.]i,offline
@@ -339,12 +346,12 @@ hajime,http[:]//117[.]63[.]84[.]170[:]11272/[.]i,offline
 "32-bit,elf,mips,Mozi",http[:]//182[.]127[.]121[.]128[:]35430/bin[.]sh,online
 "32-bit,elf,mips,Mozi",http[:]//115[.]52[.]28[.]237[:]38185/bin[.]sh,online
 "32-bit,elf,mips,Mozi",http[:]//182[.]113[.]203[.]2[:]40382/i,online
-"32-bit,elf,mips,Mozi",http[:]//117[.]209[.]89[.]177[:]59928/i,online
+"32-bit,elf,mips,Mozi",http[:]//117[.]209[.]89[.]177[:]59928/i,offline
 "32-bit,arm,elf,mirai,Mozi",http[:]//120[.]28[.]201[.]217[:]54067/i,online
 "32-bit,elf,mips,Mozi",http[:]//115[.]56[.]149[.]185[:]58359/bin[.]sh,offline
 "elf,mirai,ua-wget",http[:]//45[.]38[.]4[.]50/bins/sora[.]ppc,online
-"32-bit,elf,mips,Mozi",http[:]//182[.]127[.]166[.]218[:]59990/bin[.]sh,online
-"32-bit,arm,elf,mirai,Mozi",http[:]//121[.]231[.]251[.]39[:]43369/bin[.]sh,online
+"32-bit,elf,mips,Mozi",http[:]//182[.]127[.]166[.]218[:]59990/bin[.]sh,offline
+"32-bit,arm,elf,mirai,Mozi",http[:]//121[.]231[.]251[.]39[:]43369/bin[.]sh,offline
 "32-bit,elf,mips,Mozi",http[:]//182[.]119[.]186[.]22[:]44791/bin[.]sh,online
 "elf,mirai,ua-wget",http[:]//45[.]38[.]4[.]50/bins/sora[.]arm6,online
 "32-bit,elf,mips,Mozi",http[:]//117[.]199[.]79[.]96[:]43036/bin[.]sh,offline
@@ -375,7 +382,7 @@ hajime,http[:]//1[.]70[.]166[.]56[:]19109/[.]i,offline
 "32-bit,elf,mips,Mozi",http[:]//61[.]53[.]117[.]4[:]56265/bin[.]sh,offline
 hajime,http[:]//113[.]24[.]149[.]55[:]28668/[.]i,offline
 "32-bit,elf,mips,Mozi",http[:]//42[.]239[.]190[.]199[:]51597/bin[.]sh,online
-"32-bit,elf,mips,Mozi",http[:]//117[.]205[.]94[.]183[:]51100/bin[.]sh,online
+"32-bit,elf,mips,Mozi",http[:]//117[.]205[.]94[.]183[:]51100/bin[.]sh,offline
 "32-bit,elf,mips,Mozi",http[:]//113[.]229[.]37[.]207[:]33592/bin[.]sh,offline
 "32-bit,elf,mips,Mozi",http[:]//154[.]208[.]50[.]71[:]43009/bin[.]sh,offline
 "32-bit,elf,mips,Mozi",http[:]//154[.]208[.]50[.]71[:]43009/i,offline
@@ -697,7 +704,7 @@ CoinMiner,https[:]//raw[.]githubusercontent[.]com/USC10001/Di/main/DNSLookup[.]c
 "DBatLoader,hta",http[:]//209[.]54[.]101[.]190/xampp/pom/weseethebestkingswithbetterperofrmance[.]hta,offline
 "AgentTesla,exe",http[:]//107[.]172[.]132[.]31/Paramelaconite[.]exe,online
 "exe,SnakeKeylogger",http[:]//213[.]209[.]150[.]18/obihh3[.]exe,online
-"32-bit,elf,mips,Mozi",http[:]//42[.]227[.]237[.]162[:]34425/i,online
+"32-bit,elf,mips,Mozi",http[:]//42[.]227[.]237[.]162[:]34425/i,offline
 "DBatLoader,hta",http[:]//209[.]54[.]101[.]190/xampp/pom/po/weseethebestkingswithbetterperofrmance[.]hta,offline
 "32-bit,elf,mips,Mozi",http[:]//219[.]157[.]22[.]207[:]35981/bin[.]sh,offline
 "32-bit,elf,mips,Mozi",http[:]//61[.]1[.]238[.]190[:]60888/bin[.]sh,offline
@@ -744,7 +751,7 @@ DBatLoader,http[:]//209[.]54[.]101[.]190/580/TiWorker[.]exe,offline
 "32-bit,arm,elf,mirai,Mozi",http[:]//124[.]235[.]174[.]214[:]59072/bin[.]sh,offline
 "32-bit,elf,mips,Mozi",http[:]//117[.]253[.]68[.]218[:]36750/i,offline
 "32-bit,elf,mips,Mozi",http[:]//182[.]120[.]37[.]164[:]51944/i,online
-"32-bit,elf,mips",http[:]//42[.]6[.]139[.]3[:]36024/i,offline
+"32-bit,elf,mips",http[:]//42[.]6[.]139[.]3[:]36024/i,online
 "32-bit,elf,mips,Mozi",http[:]//112[.]238[.]5[.]3[:]57604/bin[.]sh,online
 "32-bit,elf,mips,Mozi",http[:]//112[.]239[.]100[.]221[:]47891/i,online
 "32-bit,elf,mips,Mozi",http[:]//221[.]15[.]93[.]216[:]39059/bin[.]sh,online
@@ -755,7 +762,7 @@ DBatLoader,http[:]//209[.]54[.]101[.]190/580/TiWorker[.]exe,offline
 "32-bit,elf,mips,Mozi",http[:]//61[.]53[.]75[.]250[:]43901/i,offline
 "32-bit,elf,mips,Mozi",http[:]//112[.]239[.]100[.]221[:]47891/bin[.]sh,online
 "32-bit,elf,mips,Mozi",http[:]//182[.]119[.]61[.]220[:]56880/bin[.]sh,offline
-"32-bit,elf,mips,Mozi",http[:]//42[.]227[.]4[.]251[:]41281/i,online
+"32-bit,elf,mips,Mozi",http[:]//42[.]227[.]4[.]251[:]41281/i,offline
 "32-bit,elf,mips,Mozi",http[:]//182[.]121[.]131[.]79[:]55709/i,online
 "32-bit,elf,mips,Mozi",http[:]//182[.]125[.]22[.]2[:]50422/i,offline
 "32-bit,elf,mips,Mozi",http[:]//61[.]53[.]75[.]250[:]43901/bin[.]sh,offline
@@ -867,7 +874,7 @@ hajime,http[:]//27[.]205[.]136[.]162[:]9697/[.]i,offline
 "32-bit,elf,mips,Mozi",http[:]//123[.]14[.]176[.]176[:]32821/bin[.]sh,offline
 "32-bit,elf,mips,Mozi",http[:]//117[.]248[.]25[.]190[:]50500/bin[.]sh,offline
 "32-bit,elf,mips,Mozi",http[:]//219[.]157[.]170[.]58[:]55699/i,offline
-"32-bit,arm,elf,mirai,Mozi",http[:]//171[.]37[.]8[.]127[:]38795/bin[.]sh,online
+"32-bit,arm,elf,mirai,Mozi",http[:]//171[.]37[.]8[.]127[:]38795/bin[.]sh,offline
 "32-bit,elf,mips,Mozi",http[:]//182[.]113[.]36[.]89[:]41724/bin[.]sh,offline
 "32-bit,elf,mips,Mozi",http[:]//27[.]222[.]57[.]213[:]33921/i,offline
 "32-bit,arm,elf,mirai,Mozi",http[:]//117[.]131[.]92[.]150[:]49101/i,online
@@ -906,7 +913,7 @@ hajime,http[:]//27[.]205[.]136[.]162[:]9697/[.]i,offline
 "32-bit,elf,mips,Mozi",http[:]//113[.]231[.]220[.]116[:]57508/i,online
 "32-bit,elf,mips,Mozi",http[:]//115[.]63[.]53[.]129[:]52732/i,offline
 "32-bit,elf,mips,Mozi",http[:]//119[.]189[.]238[.]222[:]44944/bin[.]sh,offline
-"32-bit,elf,mips,Mozi",http[:]//115[.]52[.]31[.]199[:]50732/bin[.]sh,online
+"32-bit,elf,mips,Mozi",http[:]//115[.]52[.]31[.]199[:]50732/bin[.]sh,offline
 "32-bit,elf,mips,Mozi",http[:]//42[.]224[.]120[.]215[:]45333/i,offline
 "elf,mirai,ua-wget",http[:]//176[.]65[.]149[.]192/hiddenbin/boatnet[.]arm5,offline
 "elf,mirai,ua-wget",http[:]//176[.]65[.]149[.]192/hiddenbin/boatnet[.]x86,offline
@@ -973,7 +980,7 @@ hajime,http[:]//27[.]205[.]136[.]162[:]9697/[.]i,offline
 "32-bit,elf,mips,Mozi",http[:]//117[.]216[.]189[.]46[:]42594/i,offline
 "32-bit,elf,mips,Mozi",http[:]//61[.]52[.]45[.]50[:]48928/i,online
 "32-bit,elf,mips,Mozi",http[:]//59[.]97[.]253[.]70[:]59741/bin[.]sh,offline
-"32-bit,arm,elf,mirai,Mozi",http[:]//121[.]228[.]62[.]174[:]49104/i,online
+"32-bit,arm,elf,mirai,Mozi",http[:]//121[.]228[.]62[.]174[:]49104/i,offline
 "32-bit,elf,mips,Mozi",http[:]//222[.]140[.]186[.]11[:]33092/i,online
 "32-bit,elf,mips,Mozi",http[:]//119[.]186[.]191[.]247[:]42757/bin[.]sh,offline
 "32-bit,elf,mips,Mozi",http[:]//115[.]49[.]114[.]84[:]39283/bin[.]sh,online
@@ -1354,7 +1361,7 @@ SocGholish,https[:]//prepare[.]adroitbookkeeping[.]com/profileLayout,offline
 "32-bit,elf,mips,Mozi",http[:]//117[.]213[.]123[.]125[:]37042/bin[.]sh,offline
 "32-bit,elf,mips,Mozi",http[:]//222[.]140[.]184[.]215[:]49766/bin[.]sh,offline
 "32-bit,elf,mips,Mozi",http[:]//123[.]4[.]210[.]218[:]41909/bin[.]sh,offline
-"32-bit,elf,mips,Mozi",http[:]//60[.]18[.]84[.]169[:]40277/i,online
+"32-bit,elf,mips,Mozi",http[:]//60[.]18[.]84[.]169[:]40277/i,offline
 "32-bit,elf,mips,Mozi",http[:]//39[.]87[.]38[.]245[:]54473/i,offline
 "32-bit,elf,mips,Mozi",http[:]//60[.]23[.]237[.]35[:]34430/i,offline
 "32-bit,arm,elf,mirai,Mozi",http[:]//112[.]243[.]36[.]13[:]59543/bin[.]sh,offline
@@ -1507,7 +1514,7 @@ jpg-base64-loader,http[:]//208[.]89[.]61[.]141/xampp/vc/new_image[.]jpg,online
 "censys,elf,mirai,ua-wget",http[:]//82[.]214[.]95[.]157/hiddenbin/boatnet[.]arm6,online
 "censys,elf,mirai,ua-wget",http[:]//176[.]65[.]149[.]164/tsuki[.]arm6,offline
 "censys,elf,gafgyt,ua-wget",http[:]//89[.]187[.]25[.]251/mipsel,offline
-PureLogStealer,http[:]//94[.]154[.]35[.]115/user_profiles_photo/update[.]exe,online
+"PureLogStealer,Rhadamanthys",http[:]//94[.]154[.]35[.]115/user_profiles_photo/update[.]exe,online
 "censys,gafgyt,sh,ua-wget",http[:]//89[.]187[.]25[.]251/sex[.]sh,offline
 "censys,elf,gafgyt,ua-wget",http[:]//89[.]187[.]25[.]251/arm61,offline
 "censys,elf,mirai,moobot,ua-wget",http[:]//162[.]240[.]231[.]156/main_mpsl,online
@@ -1972,7 +1979,7 @@ CobaltStrike,http[:]//scintillating-taffy-213dd3[.]netlify[.]app/sh2[.]exe,offli
 CobaltStrike,http[:]//boisterous-travesseiro-aff021[.]netlify[.]app/sh[.]exe,offline
 CobaltStrike,http[:]//scintillating-taffy-213dd3[.]netlify[.]app/sh3[.]exe,offline
 CobaltStrike,http[:]//scintillating-taffy-213dd3[.]netlify[.]app/sh5[.]exe,offline
-"32-bit,elf,mips,Mozi",http[:]//112[.]237[.]159[.]241[:]51502/bin[.]sh,online
+"32-bit,elf,mips,Mozi",http[:]//112[.]237[.]159[.]241[:]51502/bin[.]sh,offline
 ,https[:]//raw[.]githubusercontent[.]com/sigmaboi123323/fileserver/main/audioservice[.]exe,offline
 AsyncRAT,https[:]//raw[.]githubusercontent[.]com/SAMET10R/ProxyListforchecker/main/a[.]exe,online
 AsyncRAT,https[:]//raw[.]githubusercontent[.]com/SAMET10R/ProxyListforchecker/main/AsyncClient[.]exe,online
@@ -2039,7 +2046,7 @@ exe,https[:]//store5[.]gofile[.]io/download/web/8b926d8a-e602-40ac-a32d-c63dcad8
 "censys,CobaltStrike",http[:]//47[.]92[.]209[.]232[:]9090/02[.]08[.]2022[.]exe,offline
 "censys,CobaltStrike",http[:]//154[.]198[.]50[.]83[:]4444/02[.]08[.]2022[.]exe,online
 "censys,CobaltStrike",http[:]//223[.]254[.]131[.]213/02[.]08[.]2022[.]exe,offline
-"censys,CobaltStrike",http[:]//5[.]58[.]172[.]98[:]8080/02[.]08[.]2022[.]exe,online
+"censys,CobaltStrike",http[:]//5[.]58[.]172[.]98[:]8080/02[.]08[.]2022[.]exe,offline
 "censys,CobaltStrike",http[:]//5[.]58[.]172[.]98/02[.]08[.]2022[.]exe,offline
 "censys,CobaltStrike",http[:]//49[.]51[.]135[.]62/02[.]08[.]2022[.]exe,online
 "backdoor,censys,elf,sshdkit",http[:]//59[.]182[.]115[.]212[:]2000/sshd,offline
@@ -2766,7 +2773,7 @@ ClearFake,https[:]//ow[.]lyzyf[.]ru/,offline
 hajime,http[:]//42[.]242[.]82[.]34[:]52003/[.]i,offline
 "32-bit,elf,mips,Mozi",http[:]//182[.]121[.]45[.]128[:]50054/i,offline
 "32-bit,elf,mips,Mozi",http[:]//115[.]48[.]15[.]228[:]43780/bin[.]sh,offline
-"32-bit,arm,elf,mirai,Mozi",http[:]//117[.]63[.]193[.]149[:]57684/i,online
+"32-bit,arm,elf,mirai,Mozi",http[:]//117[.]63[.]193[.]149[:]57684/i,offline
 "32-bit,arm,elf,mirai,Mozi",http[:]//113[.]26[.]168[.]141[:]54581/i,offline
 "32-bit,elf,mips,Mozi",http[:]//42[.]231[.]31[.]216[:]38546/i,offline
 "32-bit,elf,mips,Mozi",http[:]//182[.]120[.]146[.]99[:]52379/i,offline
@@ -2902,7 +2909,7 @@ donutloader,http[:]//185[.]156[.]72[.]2/files/927321151/f9zLXGi[.]exe,offline
 "32-bit,elf,mips,Mozi",http[:]//117[.]206[.]27[.]85[:]57271/bin[.]sh,offline
 "32-bit,elf,mips,Mozi",http[:]//59[.]96[.]143[.]95[:]50835/bin[.]sh,offline
 "32-bit,elf,mips,Mozi",http[:]//182[.]121[.]114[.]120[:]47027/i,offline
-"32-bit,elf,mips,Mozi",http[:]//222[.]139[.]228[.]197[:]43617/i,online
+"32-bit,elf,mips,Mozi",http[:]//222[.]139[.]228[.]197[:]43617/i,offline
 "32-bit,elf,mips,Mozi",http[:]//117[.]206[.]71[.]27[:]35403/bin[.]sh,offline
 mirai,https[:]//raw[.]githubusercontent[.]com/caonim2le/yournigas/main/arm,online
 mirai,https[:]//raw[.]githubusercontent[.]com/caonim2le/yournigas/main/m68k,online
@@ -3116,7 +3123,7 @@ hajime,http[:]//211[.]92[.]26[.]78[:]1897/[.]i,offline
 "32-bit,elf,mips,Mozi",http[:]//123[.]13[.]74[.]244[:]40984/bin[.]sh,offline
 "32-bit,elf,mips,Mozi",http[:]//117[.]203[.]159[.]126[:]55758/i,offline
 "32-bit,elf,mips,Mozi",http[:]//123[.]5[.]2[.]223[:]47352/bin[.]sh,offline
-"32-bit,elf,mips,Mozi",http[:]//113[.]239[.]223[.]181[:]39252/bin[.]sh,online
+"32-bit,elf,mips,Mozi",http[:]//113[.]239[.]223[.]181[:]39252/bin[.]sh,offline
 "32-bit,elf,mips,Mozi",http[:]//117[.]209[.]41[.]245[:]49546/bin[.]sh,offline
 "32-bit,elf,mips,Mozi",http[:]//117[.]213[.]248[.]250[:]42914/bin[.]sh,offline
 "32-bit,elf,mips,Mozi",http[:]//42[.]233[.]105[.]31[:]56471/i,offline
@@ -3199,7 +3206,7 @@ hajime,http[:]//211[.]92[.]26[.]78[:]1897/[.]i,offline
 "32-bit,elf,mips,Mozi",http[:]//123[.]4[.]144[.]173[:]60216/i,offline
 "32-bit,elf,mips,Mozi",http[:]//182[.]84[.]139[.]128[:]39745/i,offline
 "32-bit,elf,mips,Mozi",http[:]//123[.]5[.]129[.]222[:]52633/bin[.]sh,offline
-"32-bit,elf,mips,Mozi",http[:]//58[.]59[.]247[.]195[:]41325/i,online
+"32-bit,elf,mips,Mozi",http[:]//58[.]59[.]247[.]195[:]41325/i,offline
 "32-bit,elf,mips,Mozi",http[:]//42[.]232[.]230[.]243[:]36611/bin[.]sh,offline
 "32-bit,elf,mips,Mozi",http[:]//116[.]139[.]25[.]202[:]55031/i,offline
 "32-bit,elf,mips,Mozi",http[:]//117[.]215[.]102[.]226[:]55762/i,offline
@@ -3228,7 +3235,7 @@ ClearFake,https[:]//nk[.]zujer[.]ru/wvdb[.]sh,offline
 "32-bit,arm,elf,mirai,Mozi",http[:]//138[.]255[.]176[.]234[:]58035/i,offline
 "32-bit,elf,mips,Mozi",http[:]//119[.]187[.]205[.]141[:]42405/i,offline
 "32-bit,arm,elf,mirai,Mozi",http[:]//113[.]206[.]184[.]52[:]60817/bin[.]sh,online
-"32-bit,arm,elf,mirai,Mozi",http[:]//27[.]215[.]23[.]170[:]32865/bin[.]sh,online
+"32-bit,arm,elf,mirai,Mozi",http[:]//27[.]215[.]23[.]170[:]32865/bin[.]sh,offline
 "32-bit,elf,mips,Mozi",http[:]//117[.]216[.]183[.]234[:]50686/bin[.]sh,offline
 "32-bit,arm,elf,mirai,Mozi",http[:]//119[.]4[.]53[.]28[:]34259/i,offline
 "32-bit,elf,mips,Mozi",http[:]//219[.]155[.]130[.]18[:]45928/bin[.]sh,offline
@@ -3247,7 +3254,7 @@ ClearFake,https[:]//nk[.]zujer[.]ru/wvdb[.]sh,offline
 "32-bit,elf,mips,Mozi",http[:]//115[.]53[.]237[.]169[:]35546/bin[.]sh,offline
 "32-bit,elf,mips,Mozi",http[:]//222[.]140[.]180[.]46[:]38016/bin[.]sh,offline
 "32-bit,arm,elf,mirai,Mozi",http[:]//123[.]185[.]222[.]59[:]44386/bin[.]sh,online
-ua-wget,http[:]//23[.]27[.]143[.]73[:]4646/payment[.]py,online
+ua-wget,http[:]//23[.]27[.]143[.]73[:]4646/payment[.]py,offline
 ua-wget,http[:]//23[.]27[.]143[.]73[:]4646/invoice[.]py,offline
 ua-wget,http[:]//23[.]27[.]143[.]73[:]4646/pay[.]bat,offline
 ua-wget,http[:]//23[.]27[.]143[.]73[:]4646/Payment[.]lnk,offline
@@ -3364,12 +3371,12 @@ vjw0rm,http[:]//185[.]196[.]9[.]216[:]6204/Vre,offline
 "32-bit,elf,mips,Mozi",http[:]//125[.]45[.]68[.]69[:]38809/bin[.]sh,offline
 "connectwise,screenconnect",https[:]//manage[.]brovanti[.]com/bin/support[.]client[.]exe?i=&e=Support&y=Guest&r=,online
 "mirai,opendir,ua-wget",http[:]//81[.]94[.]155[.]251/hiddenbin/boatnet[.]spc,offline
-"mirai,opendir,ua-wget",http[:]//81[.]94[.]155[.]251/hiddenbin/boatnet[.]arc,offline
+"mirai,opendir,ua-wget",http[:]//81[.]94[.]155[.]251/hiddenbin/boatnet[.]arc,online
 "mirai,opendir,ua-wget",http[:]//81[.]94[.]155[.]251/hiddenbin/boatnet[.]mpsl,offline
 "mirai,opendir,ua-wget",http[:]//81[.]94[.]155[.]251/hiddenbin/boatnet[.]arm,offline
 "mirai,opendir,ua-wget",http[:]//81[.]94[.]155[.]251/hiddenbin/boatnet[.]arm6,offline
-"mirai,opendir,ua-wget",http[:]//81[.]94[.]155[.]251/hiddenbin/boatnet[.]ppc,online
-"mirai,opendir,ua-wget",http[:]//81[.]94[.]155[.]251/hiddenbin/boatnet[.]arm7,online
+"mirai,opendir,ua-wget",http[:]//81[.]94[.]155[.]251/hiddenbin/boatnet[.]ppc,offline
+"mirai,opendir,ua-wget",http[:]//81[.]94[.]155[.]251/hiddenbin/boatnet[.]arm7,offline
 "mirai,opendir,ua-wget",http[:]//81[.]94[.]155[.]251/hiddenbin/boatnet[.]m68k,online
 "mirai,opendir,ua-wget",http[:]//81[.]94[.]155[.]251/hiddenbin/boatnet[.]arm5,offline
 "mirai,opendir,ua-wget",http[:]//81[.]94[.]155[.]251/hiddenbin/boatnet[.]i686,offline
@@ -3572,7 +3579,7 @@ AsyncRAT,https[:]//cachepeak[.]cfd/BJPJGBFB[.]exe,offline
 "32-bit,elf,mips,Mozi",http[:]//115[.]56[.]176[.]88[:]45894/bin[.]sh,offline
 "32-bit,elf,mips,Mozi",http[:]//117[.]200[.]150[.]207[:]58887/i,offline
 "32-bit,arm,elf,mirai,Mozi",http[:]//182[.]114[.]193[.]87[:]60509/bin[.]sh,online
-"32-bit,arm,elf,mirai,Mozi",http[:]//124[.]6[.]168[.]74[:]37536/bin[.]sh,online
+"32-bit,arm,elf,mirai,Mozi",http[:]//124[.]6[.]168[.]74[:]37536/bin[.]sh,offline
 "32-bit,elf,mips,Mozi",http[:]//117[.]200[.]150[.]207[:]58887/bin[.]sh,offline
 "32-bit,elf,mips,Mozi",http[:]//112[.]249[.]111[.]215[:]38881/bin[.]sh,offline
 "32-bit,arm,elf,mirai,Mozi",http[:]//49[.]73[.]175[.]6[:]55722/i,offline
@@ -3722,7 +3729,7 @@ NetSupport,https[:]//k2bsc[.]top/lvl/ddas[.]php,offline
 "censys,CobaltStrike",http[:]//122[.]10[.]25[.]26[:]808/02[.]08[.]2022[.]exe,offline
 "censys,CobaltStrike",http[:]//124[.]223[.]220[.]137/02[.]08[.]2022[.]exe,offline
 "censys,CobaltStrike",http[:]//123[.]249[.]45[.]6[:]8011/02[.]08[.]2022[.]exe,online
-"censys,CobaltStrike",http[:]//45[.]125[.]33[.]150/02[.]08[.]2022[.]exe,online
+"censys,CobaltStrike",http[:]//45[.]125[.]33[.]150/02[.]08[.]2022[.]exe,offline
 "censys,CobaltStrike",http[:]//47[.]117[.]137[.]32[:]8010/02[.]08[.]2022[.]exe,online
 "censys,CobaltStrike",http[:]//47[.]110[.]226[.]27/02[.]08[.]2022[.]exe,offline
 "censys,CobaltStrike",http[:]//103[.]45[.]65[.]80/02[.]08[.]2022[.]exe,offline
@@ -4549,7 +4556,7 @@ exe,http[:]//8t[.]tattlererun[.]life/88[.]ext[.]bin,offline
 "AgentTesla,encrypted,GuLoader",http[:]//209[.]54[.]102[.]157/ZnkxiGIQh214[.]bin,online
 "encrypted,GuLoader",http[:]//75[.]127[.]7[.]164/sLUnzeWidMaa112[.]bin,offline
 "encrypted,GuLoader,rat,RemcosRAT",https[:]//drive[.]google[.]com/uc?export=download&id=1ed2w0zvvx53_mFifdSZYSLLeuRuB40zO,offline
-"32-bit,arm,elf,mirai,Mozi",http[:]//106[.]41[.]138[.]142[:]40875/bin[.]sh,online
+"32-bit,arm,elf,mirai,Mozi",http[:]//106[.]41[.]138[.]142[:]40875/bin[.]sh,offline
 "32-bit,elf,mips,Mozi",http[:]//123[.]11[.]206[.]182[:]53392/bin[.]sh,offline
 "32-bit,elf,mips,Mozi",http[:]//61[.]52[.]157[.]117[:]36135/bin[.]sh,offline
 NetSupport,http[:]//sti-salyk[.]com/update/NSM[.]lic,offline
@@ -5360,7 +5367,7 @@ ps1,http[:]//rtjj[.]store/f/h,offline
 "32-bit,elf,mips,Mozi",http[:]//42[.]230[.]214[.]32[:]33831/bin[.]sh,offline
 "32-bit,elf,mips,Mozi",http[:]//117[.]205[.]163[.]183[:]50508/i,offline
 "32-bit,elf,mips,Mozi",http[:]//182[.]121[.]141[.]159[:]48018/i,offline
-"32-bit,arm,elf,mirai,Mozi",http[:]//223[.]9[.]41[.]16[:]56423/bin[.]sh,offline
+"32-bit,arm,elf,mirai,Mozi",http[:]//223[.]9[.]41[.]16[:]56423/bin[.]sh,online
 "32-bit,elf,mips,Mozi",http[:]//115[.]49[.]5[.]225[:]46307/bin[.]sh,offline
 "32-bit,elf,mips,Mozi",http[:]//59[.]182[.]77[.]191[:]36035/i,offline
 "32-bit,elf,mips,Mozi",http[:]//117[.]198[.]200[.]37[:]46152/bin[.]sh,offline
@@ -5457,7 +5464,7 @@ ps1,http[:]//rtjj[.]store/f/h,offline
 "censys,elf,hajime",http[:]//87[.]119[.]108[.]21[:]40462/i,offline
 "censys,elf,hajime",http[:]//5[.]201[.]135[.]228[:]10980/i,online
 "censys,elf,hajime",http[:]//78[.]38[.]49[.]93[:]20065/i,offline
-"censys,elf,hajime",http[:]//94[.]190[.]104[.]145[:]6237/i,online
+"censys,elf,hajime",http[:]//94[.]190[.]104[.]145[:]6237/i,offline
 "backdoor,censys,elf,sshdkit",http[:]//84[.]236[.]147[.]129/sshd,offline
 "backdoor,censys,elf,sshdkit",http[:]//1[.]55[.]182[.]164/sshd,online
 "backdoor,censys,elf,sshdkit",http[:]//181[.]200[.]17[.]123[:]8080/sshd,offline
@@ -8133,7 +8140,7 @@ hajime,http[:]//113[.]26[.]83[.]97[:]6626/[.]i,offline
 "32-bit,elf,mips,Mozi",http[:]//117[.]209[.]93[.]221[:]46132/i,offline
 "32-bit,elf,mips,Mozi",http[:]//222[.]137[.]147[.]70[:]53668/bin[.]sh,offline
 "32-bit,elf,mips,Mozi",http[:]//42[.]235[.]64[.]209[:]43189/bin[.]sh,offline
-"32-bit,arm,elf,mirai,Mozi",http[:]//223[.]13[.]81[.]89[:]53138/bin[.]sh,online
+"32-bit,arm,elf,mirai,Mozi",http[:]//223[.]13[.]81[.]89[:]53138/bin[.]sh,offline
 "32-bit,elf,mips,Mozi",http[:]//42[.]238[.]254[.]130[:]55813/i,offline
 "32-bit,elf,mips,Mozi",http[:]//117[.]209[.]93[.]221[:]46132/bin[.]sh,offline
 "32-bit,elf,mips,Mozi",http[:]//117[.]209[.]93[.]7[:]34257/bin[.]sh,offline
@@ -8550,7 +8557,7 @@ elf,http[:]//193[.]32[.]162[.]74/bins/arm7,offline
 "censys,CobaltStrike",http[:]//193[.]124[.]41[.]54/02[.]08[.]2022[.]exe,offline
 "censys,CobaltStrike",http[:]//8[.]137[.]60[.]154[:]7777/02[.]08[.]2022[.]exe,online
 "censys,CobaltStrike",http[:]//124[.]70[.]25[.]169/02[.]08[.]2022[.]exe,offline
-"censys,CobaltStrike",http[:]//8[.]134[.]80[.]60[:]12345/02[.]08[.]2022[.]exe,online
+"censys,CobaltStrike",http[:]//8[.]134[.]80[.]60[:]12345/02[.]08[.]2022[.]exe,offline
 "censys,CobaltStrike",http[:]//180[.]76[.]138[.]238/02[.]08[.]2022[.]exe,offline
 "censys,CobaltStrike",http[:]//62[.]234[.]97[.]159[:]7777/02[.]08[.]2022[.]exe,offline
 "censys,CobaltStrike",http[:]//43[.]143[.]216[.]185[:]801/02[.]08[.]2022[.]exe,offline
@@ -8944,7 +8951,7 @@ xml-opendir,http[:]//45[.]151[.]62[.]2/Documents/John_Hardy_Marketing_Position[.
 "censys,CobaltStrike",http[:]//118[.]178[.]192[.]36[:]8088/02[.]08[.]2022[.]exe,offline
 "censys,CobaltStrike",http[:]//47[.]120[.]45[.]216[:]9009/02[.]08[.]2022[.]exe,offline
 "censys,CobaltStrike",http[:]//43[.]140[.]243[.]146[:]5000/02[.]08[.]2022[.]exe,offline
-"censys,CobaltStrike",http[:]//115[.]159[.]71[.]204[:]801/02[.]08[.]2022[.]exe,online
+"censys,CobaltStrike",http[:]//115[.]159[.]71[.]204[:]801/02[.]08[.]2022[.]exe,offline
 "censys,CobaltStrike",http[:]//196[.]251[.]69[.]233[:]8088/02[.]08[.]2022[.]exe,offline
 "censys,CobaltStrike",http[:]//47[.]236[.]58[.]201/02[.]08[.]2022[.]exe,offline
 "censys,CobaltStrike",http[:]//122[.]51[.]30[.]157[:]443/02[.]08[.]2022[.]exe,offline
@@ -9089,7 +9096,7 @@ mirai,http[:]//176[.]65[.]142[.]122/bns/gang123isgodloluaintgettingthesebinslike
 "32-bit,elf,mips,Mozi",http[:]//42[.]235[.]64[.]221[:]59864/bin[.]sh,offline
 "32-bit,arm,elf,mirai,Mozi",http[:]//196[.]191[.]231[.]12[:]50790/bin[.]sh,offline
 "32-bit,elf,mips,Mozi",http[:]//117[.]211[.]151[.]82[:]53602/i,offline
-"32-bit,arm,elf,mirai,Mozi",http[:]//112[.]229[.]79[.]110[:]36437/bin[.]sh,offline
+"32-bit,arm,elf,mirai,Mozi",http[:]//112[.]229[.]79[.]110[:]36437/bin[.]sh,online
 "32-bit,elf,mips,Mozi",http[:]//42[.]224[.]121[.]21[:]48581/bin[.]sh,offline
 "32-bit,elf,mips,Mozi",http[:]//123[.]9[.]244[.]40[:]40349/i,offline
 "32-bit,elf,mips,Mozi",http[:]//42[.]180[.]8[.]72[:]55945/bin[.]sh,offline
@@ -10133,7 +10140,7 @@ SocGholish,https[:]//www[.]roammco[.]com/profileLayout,offline
 "32-bit,elf,mips,Mozi",http[:]//27[.]37[.]105[.]40[:]56102/i,offline
 "32-bit,arm,elf,mirai,Mozi",http[:]//121[.]239[.]201[.]108[:]48539/bin[.]sh,offline
 "32-bit,elf,mips,Mozi",http[:]//59[.]182[.]232[.]154[:]59994/bin[.]sh,offline
-"32-bit,arm,elf,mirai,Mozi",http[:]//182[.]235[.]148[.]10[:]49049/bin[.]sh,online
+"32-bit,arm,elf,mirai,Mozi",http[:]//182[.]235[.]148[.]10[:]49049/bin[.]sh,offline
 elf,http[:]//61[.]3[.]19[.]82[:]51152/Mozi[.]m,offline
 "32-bit,arm,elf,mirai,Mozi",http[:]//125[.]24[.]13[.]187[:]52685/bin[.]sh,offline
 "32-bit,arm,elf,mirai,Mozi",http[:]//113[.]26[.]153[.]131[:]50163/i,offline
@@ -16537,7 +16544,7 @@ Mozi,http[:]//102[.]97[.]103[.]87[:]50770/Mozi[.]m,offline
 "mirai,Mozi",http[:]//112[.]227[.]82[.]198[:]38515/Mozi[.]m,offline
 Mozi,http[:]//36[.]255[.]18[.]86[:]42779/Mozi[.]m,offline
 "mirai,Mozi",http[:]//116[.]99[.]48[.]170[:]50841/Mozi[.]m,offline
-"mirai,Mozi",http[:]//123[.]133[.]87[.]149[:]35548/Mozi[.]m,online
+"mirai,Mozi",http[:]//123[.]133[.]87[.]149[:]35548/Mozi[.]m,offline
 Mozi,http[:]//178[.]141[.]16[.]12[:]49731/Mozi[.]m,offline
 Mozi,http[:]//102[.]33[.]11[.]76[:]47386/Mozi[.]m,offline
 Mozi,http[:]//59[.]93[.]21[.]126[:]60315/Mozi[.]m,offline
@@ -18137,7 +18144,7 @@ hajime,http[:]//113[.]221[.]10[.]253[:]53811/[.]i,offline
 "censys,elf,hajime",http[:]//210[.]96[.]44[.]219[:]45071/i,offline
 "censys,elf,hajime",http[:]//122[.]193[.]74[.]237[:]38744/i,offline
 "censys,elf,hajime",http[:]//27[.]69[.]109[.]140[:]7418/i,offline
-"censys,CobaltStrike",http[:]//20[.]169[.]41[.]5[:]2086/02[.]08[.]2022[.]exe,offline
+"censys,CobaltStrike",http[:]//20[.]169[.]41[.]5[:]2086/02[.]08[.]2022[.]exe,online
 "censys,elf,hajime",http[:]//27[.]77[.]136[.]147[:]8704/i,offline
 "censys,elf,hajime",http[:]//119[.]120[.]90[.]208[:]3347/i,offline
 "censys,elf,hajime",http[:]//78[.]157[.]28[.]41[:]8497/i,offline
@@ -19208,7 +19215,7 @@ Mozi,http[:]//102[.]98[.]68[.]203[:]38059/Mozi[.]m,offline
 "censys,elf,mirai,opendir",http[:]//176[.]65[.]144[.]197/niggabin/nigga[.]sh4,offline
 "censys,elf,mirai,opendir",http[:]//176[.]65[.]144[.]197/niggabin/nigga[.]arc,offline
 "censys,elf,mirai,opendir",http[:]//176[.]65[.]144[.]197/niggabin/nigga[.]arm7,offline
-"censys,elf,mirai,opendir",http[:]//176[.]65[.]144[.]197/niggabin/nigga[.]arm5,online
+"censys,elf,mirai,opendir",http[:]//176[.]65[.]144[.]197/niggabin/nigga[.]arm5,offline
 "censys,elf,mirai,opendir",http[:]//176[.]65[.]144[.]197/niggabin/nigga[.]m68k,offline
 "censys,elf,mirai,opendir",http[:]//176[.]65[.]144[.]197/niggabin/nigga[.]ppc,offline
 "botnetdomain,censys,elf,mirai,moobot",http[:]//sapoud[.]ddns[.]net/main_arm5,offline
@@ -21953,7 +21960,7 @@ ClearFake,https[:]//hywod[.]press/10c1545ad038470f8ad785c46d21b09c[.]txt,offline
 "censys,CobaltStrike",http[:]//118[.]107[.]221[.]14[:]9988/02[.]08[.]2022[.]exe,offline
 "censys,CobaltStrike",http[:]//124[.]71[.]106[.]116[:]8080/02[.]08[.]2022[.]exe,offline
 "censys,CobaltStrike",http[:]//27[.]106[.]121[.]98[:]4444/02[.]08[.]2022[.]exe,offline
-"censys,CobaltStrike",http[:]//148[.]66[.]16[.]227/02[.]08[.]2022[.]exe,online
+"censys,CobaltStrike",http[:]//148[.]66[.]16[.]227/02[.]08[.]2022[.]exe,offline
 "censys,CobaltStrike,shellcode",http[:]//193[.]122[.]74[.]238[:]443/02[.]08[.]2022[.]exe,online
 "censys,CobaltStrike",http[:]//47[.]237[.]19[.]29[:]9000/02[.]08[.]2022[.]exe,offline
 ClearFake,https[:]//hywod[.]press/,offline
@@ -24342,7 +24349,7 @@ hajime,http[:]//1[.]70[.]9[.]147[:]33792/[.]i,offline
 "backdoor,censys,elf,sshdkit",http[:]//83[.]224[.]151[.]15/sshd,offline
 "censys,elf,hajime",http[:]//31[.]135[.]123[.]146[:]8465/i,offline
 "booking,ClickFix,FakeCaptcha",https[:]//booking[.]secure-partener[.]com/,offline
-"censys,elf,hajime",http[:]//85[.]95[.]183[.]178[:]23157/i,offline
+"censys,elf,hajime",http[:]//85[.]95[.]183[.]178[:]23157/i,online
 "censys,elf,hajime",http[:]//121[.]171[.]162[.]63[:]17945/i,online
 "censys,elf,hajime",http[:]//194[.]187[.]151[.]7[:]8226/i,online
 "censys,elf,hajime",http[:]//188[.]255[.]246[.]128[:]53465/i,offline
