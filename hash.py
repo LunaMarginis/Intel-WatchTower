@@ -73,7 +73,8 @@ markdown_content = "\n".join(md_lines)
 # Write to README.md (overwrites or create)
 with open("README.md", "w", encoding="utf-8") as f:
     f.write("# IOC Summary\n\n")
-    f.write("This table shows top 10 malware names with their unique IOC hashes and counts.\n\n")
+    f.write("Automated Hash Collections: Every day at 02:00 UTC")
+    f.write("This table shows top 10 malware names with their unique hashes and counts.\n\n")
     f.write(markdown_content)
 
 print("mhash.csv and README.md updated.")
