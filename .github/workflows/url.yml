@@ -34,3 +34,4 @@ jobs:
         env:
           # Use a token with push permission configured as a secret
           PAT_TOKEN: ${{ secrets.PAT_TOKEN }}
+          SLACK_WEBHOOK_URL: ${{ secrets.SLACK_WEBHOOK_URL }}
