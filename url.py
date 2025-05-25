@@ -3,8 +3,15 @@ import requests
 from io import StringIO
 import re
 from datetime import datetime
+import os
+import requests
 
 execution_time = datetime.utcnow().strftime("%Y-%m-%d %H:%M:%S UTC")
+SLACK_WEBHOOK_URL = os.getenv("SLACK_WEBHOOK_URL")
+
+if not SLACK_WEBHOOK_URL:
+    raise ValueError("SLACK_WEBHOOK_URL environment variable is not set")
+
 
 # Step 1: Fetch data
 url = "https://urlhaus.abuse.ch/downloads/csv_recent/"
@@ -83,3 +90,27 @@ else:
 with open(readme_path, "w", encoding="utf-8") as f:
     f.write(updated_readme)
 print("✅ urls.csv and README.md updated.")
+
+# Read README.md content (or summary section)
+with open("README.md", "r", encoding="utf-8") as f:
+    readme_content = f.read()
+
+section_start = "<!-- url_summary_start -->"
+section_end = "<!-- url_summary_end -->"
+if section_start in readme_content and section_end in readme_content:
+    start_idx = readme_content.index(section_start)
+    end_idx = readme_content.index(section_end) + len(section_end)
+    summary_text = readme_content[start_idx:end_idx]
+else:
+    summary_text = readme_content  # fallback: send whole README
+
+payload = {
+    "text": f"Updated README Summary:\n{summary_text}"
+}
+
+response = requests.post(SLACK_WEBHOOK_URL, json=payload)
+
+if response.status_code == 200:
+    print("✅ Slack notification sent successfully.")
+else:
+    print(f"❌ Failed to send Slack notification: {response.status_code} - {response.text}")
