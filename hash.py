@@ -8,7 +8,7 @@ response = requests.get(url)
 response.raise_for_status()
 
 # Convert to DataFrame
-df = pd.read_csv(StringIO(response.text), comment='#')
+df = pd.read_csv(StringIO(response.text), comment='#', on_bad_lines='skip')
 
 # Group and count
 grouped = df.groupby(['ioc_value', 'fk_malware', 'malware_alias', 'malware_printable']).size().reset_index(name='count')
