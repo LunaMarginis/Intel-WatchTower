@@ -1,6 +1,7 @@
 import pandas as pd
 import requests
 from io import StringIO
+import re
 
 # Step 1: Fetch data
 url = "https://urlhaus.abuse.ch/downloads/csv_recent/"
@@ -15,6 +16,9 @@ resp.raise_for_status()
 # Step 3: Read as tab-separated values
 #df = pd.read_csv(StringIO(cleaned_data), sep=',')  # This CSV is comma-separated after removing the comment lines
 
+def sanitize_url(url):
+    return re.sub(r"\.", "[.]", url).replace(":", "[:]")
+    
 
 df = pd.read_csv(StringIO(resp.text), comment='#', header=None, on_bad_lines='skip')
 
@@ -28,6 +32,8 @@ df = df.rename(columns={
 # Step 4: Group by 'tags' column
 # First, filter out empty or NaN tags
 #df = df[df['tags'].notna()]
+
+df['url'] = df['url'].apply(sanitize_url)
 df[['tags', 'url', 'url_status']].to_csv("urls.csv", index=False)
 
 
