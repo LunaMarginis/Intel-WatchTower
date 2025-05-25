@@ -33,7 +33,7 @@ df[['tags', 'url', 'url_status']].to_csv("urls.csv", index=False)
 
 # Step 7: Save to CSV
 
-summary = df.groupby(['tags', 'url']).size().reset_index(name='count')
+summary = df.groupby('tags').size().reset_index(name='count')
 
 print(summary)
 readme_path = "README.md"
@@ -47,13 +47,13 @@ except FileNotFoundError:
 md_lines = [
     "\n\n<!-- url_summary_start -->",
     "## 🔗 URL Summary\n",
-    "| Tag | Count |   Url  |",
-    "|-----|-------|---------",
+    "| Tag | Count |",
+    "|-----|-------|",
 ]
 
 # Create summary table from 'summary' DataFrame
 for _, row in summary.iterrows():
-    md_lines.append(f"| {row['tags']} | {row['count']} | {row['url']} |")
+    md_lines.append(f"| {row['tags']} | {row['count']} |")
 
 md_lines.append("<!-- url_summary_end -->\n")
 summary_md = "\n".join(md_lines)
