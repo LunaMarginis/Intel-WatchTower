@@ -59,11 +59,11 @@ except FileNotFoundError:
     readme = ""
 
 # Build markdown summary table
-summary = summary.sort_values(by='count', ascending=False)
+summary = summary.sort_values(by='count', ascending=False).head(10)
 md_lines = [
     "\n\n<!-- url_summary_start -->",
-    "## 🔗 URLs:\n",
-    f"Automated URL Collections, grouped by Tags: Every day at 03:00 UTC. Last executed {execution_time}.\n",
+    "## 🔗 Top 10 URLs:\n",
+    f"Automated URL Collections, grouped by Tags: Every day at 03:00 UTC. Last Updated: {execution_time}.\n",
     "| Tag | Count |",
     "|-----|-------|",
 ]
