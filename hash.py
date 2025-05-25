@@ -1,6 +1,9 @@
 import pandas as pd
 import requests
 from io import StringIO
+from datetime import datetime
+
+execution_time = datetime.utcnow().strftime("%Y-%m-%d %H:%M:%S UTC")
 
 # Download CSV
 url = "https://threatfox.abuse.ch/export/csv/md5/recent/"
@@ -73,7 +76,7 @@ markdown_content = "\n".join(md_lines)
 # Write to README.md (overwrites or create)
 with open("README.md", "w", encoding="utf-8") as f:
     f.write("# IOC Summary\n\n")
-    f.write("Automated Hash Collections: Every day at 02:00 UTC.\n\n")
+    f.write("Automated Hash Collections: Every day at 02:00 UTC. (==Last Updated: {execution_time})==\n\n")
     f.write("This table shows top 10 malware names with their unique hashes and counts.\n\n")
     f.write(markdown_content)
 
