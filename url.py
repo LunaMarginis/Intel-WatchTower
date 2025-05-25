@@ -53,7 +53,7 @@ summary = summary.sort_values(by='count', ascending=False)
 md_lines = [
     "\n\n<!-- url_summary_start -->",
     "## 🔗 URLs:\n",
-    "Automated URL Collections, grouped by Tags: Every day at 03:00 UTC",
+    "Automated URL Collections, grouped by Tags: Every day at 03:00 UTC.\n",
     "| Tag | Count |",
     "|-----|-------|",
 ]
