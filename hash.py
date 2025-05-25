@@ -17,6 +17,7 @@ df = df.rename(columns={
     7: 'malware_printable'   # Column H
 })
 
+
 grouped = df.groupby(['ioc_value', 'fk_malware', 'malware_alias', 'malware_printable']).size().reset_index(name='count')
 
 # Save to CSV
@@ -28,40 +29,51 @@ summary_df = grouped.copy()
 # Collapse malware fields into a single 'Malware Name' using backfill (left to right)
 summary_df['Malware Name'] = summary_df[['fk_malware', 'malware_alias', 'malware_printable']].bfill(axis=1).iloc[:, 0]
 
-# Build final summary table
-summary_df = summary_df[['ioc_value', 'Malware Name', 'count']]
-summary_df = summary_df.rename(columns={
-    'ioc_value': 'HashValue',
-    'count': 'Count'
-})
-# Keep top 10 for summary
-top_summary = summary_df.sort_values(by='Count', ascending=False).head(10)
+unique_iocs = summary_df[['ioc_value', 'Malware Name']].drop_duplicates()
 
-# Format as Markdown
-table_md = "| HashValue | Malware Name | Count |\n|-----------|--------------|-------|\n"
-table_md += "\n".join(f"| {row.HashValue} | {row['Malware Name']} | {row.Count} |" for _, row in top_summary.iterrows())
 
-# Update README.md
-readme_path = "README.md"
-section_start = "<!-- ioc_summary_start -->"
-section_end = "<!-- ioc_summary_end -->"
-new_section = f"{section_start}\n\n### 🔍 IOC Summary (Top 10)\n\n{table_md}\n\n{section_end}"
+# Count unique ioc_value per Malware Name
+malware_counts = unique_iocs.groupby('Malware Name')['ioc_value'].nunique().reset_index(name='Count')
 
-# Read existing README or create
-try:
-    with open(readme_path, "r") as f:
-        readme = f.read()
-except FileNotFoundError:
-    readme = ""
 
-# Replace or insert section
-if section_start in readme and section_end in readme:
-    readme = readme.split(section_start)[0] + new_section + readme.split(section_end)[1]
-else:
-    readme += f"\n\n{new_section}"
+# Sort by count descending and take top 10
+top_summary = malware_counts.sort_values(by='Count', ascending=False).head(10)
 
-# Save updated README
-with open(readme_path, "w", encoding="utf-8") as f:
-    f.write(readme)
+# Rename for display consistency
+top_summary = top_summary.rename(columns={'Malware Name': 'Malware Name', 'Count': 'Count'})
+
+
+# Merge to get the ioc_values per malware name
+top_malware_names = top_summary['Malware Name'].tolist()
+
+# Filter original summary for only top malware names
+filtered_df = summary_df[summary_df['Malware Name'].isin(top_malware_names)]
+
+# Group ioc_values as list per malware
+grouped_iocs = filtered_df.groupby('Malware Name')['ioc_value'].apply(list).reset_index()
+
+# Merge with count info
+final_md_df = pd.merge(top_summary, grouped_iocs, on='Malware Name')
+
+# Build markdown table string
+md_lines = [
+    "| Malware Name | ioc_value (Hashes) | Count |",
+    "|--------------|--------------------|-------|"
+]
+
+for _, row in final_md_df.iterrows():
+    malware = row['Malware Name']
+    count = row['Count']
+    # Join ioc_values with <br> for multiline in markdown cells (GitHub supports it)
+    iocs_md = "<br>".join(row['ioc_value'])
+    md_lines.append(f"| {malware} | {iocs_md} | {count} |")
+
+markdown_content = "\n".join(md_lines)
+
+# Write to README.md (overwrites or create)
+with open("README.md", "w", encoding="utf-8") as f:
+    f.write("# IOC Summary\n\n")
+    f.write("This table shows top 10 malware names with their unique IOC hashes and counts.\n\n")
+    f.write(markdown_content)
 
 print("mhash.csv and README.md updated.")
