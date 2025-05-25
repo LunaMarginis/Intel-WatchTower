@@ -1,0 +1,35 @@
+name: Fetch and Process MD5 IOCs
+
+on:
+  schedule:
+    - cron: '0 2 * * *'  # Every day at 02:00 UTC
+  workflow_dispatch:      # Allow manual trigger
+
+jobs:
+  fetch-threatfox-data:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.10'
+
+      - name: Install dependencies
+        run: pip install pandas requests
+
+      - name: Run Python script
+        run: python process_md5.py
+
+      - name: Commit and push CSV
+        run: |
+          git config user.name "github-actions"
+          git config user.email "github-actions@github.com"
+          git add mhash.csv
+          git commit -m "Update mhash.csv with latest MD5 data" || echo "No changes to commit"
+          git push
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
