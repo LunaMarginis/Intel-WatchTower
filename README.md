@@ -1,6 +1,6 @@
 # IOC Summary
 
-Automated Hash Collections: Every day at 02:00 UTC.
+Automated Hash Collections: Every day at 02:00 UTC. (==Last Updated: {execution_time})==
 
 This table shows top 10 malware names with their unique hashes and counts.
 
