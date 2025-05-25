@@ -1,4 +1,4 @@
-name: Fetch and Process MD5 IOCs
+name: MD5 Summary
 
 on:
   schedule:
