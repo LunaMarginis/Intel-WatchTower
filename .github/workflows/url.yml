@@ -23,6 +23,8 @@ jobs:
 
       - name: Run URLHaus summary script
         run: python url.py
+        env:
+           SLACK_WEBHOOK_URL: ${{ secrets.SLACK_WEBHOOK_URL }}
 
       - name: Commit and push changes
         run: |
