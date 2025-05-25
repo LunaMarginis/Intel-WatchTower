@@ -1,11 +1,17 @@
 tags,url,url_status
-"32-bit,arm,elf,Mozi",http://112.198.133.117:51106/i,online
+"32-bit,elf,mips,Mozi",http://61.168.162.20:39909/i,online
+"32-bit,arm,elf,Mozi",http://180.191.52.66:58336/i,online
+"32-bit,elf,mips,Mozi",http://112.248.12.113:46335/i,online
+"32-bit,elf,mips,Mozi",http://39.79.151.49:54739/i,online
+"32-bit,arm,elf,Mozi",http://222.127.246.21:47827/bin.sh,online
+"c2-monitor-auto,dropped-by-amadey",http://185.156.72.2/files/5373782173/6TmBxmX.exe,online
+"32-bit,arm,elf,mirai,Mozi",http://112.198.133.117:51106/i,online
 "32-bit,elf,mips,Mozi",http://123.11.74.156:44431/i,online
 "32-bit,elf,mips,Mozi",http://117.254.99.150:60488/bin.sh,online
 "c2-monitor-auto,dropped-by-amadey",http://185.156.72.2/files/2043702969/cvEcDp2.exe,online
 "32-bit,elf,mips,Mozi",http://117.209.83.100:48056/i,online
 "32-bit,elf,mips,Mozi",http://39.73.165.39:53369/bin.sh,online
-"32-bit,arm,elf,Mozi",http://180.191.52.66:58336/bin.sh,online
+"32-bit,arm,elf,mirai,Mozi",http://180.191.52.66:58336/bin.sh,online
 hajime,http://113.205.47.244:18330/.i,online
 "32-bit,elf,mips,Mozi",http://123.11.4.69:39864/i,online
 "32-bit,elf,mips,Mozi",http://37.52.154.85:44932/i,online
@@ -1169,7 +1175,7 @@ mirai,http://176.65.141.103/1.sh,online
 "32-bit,elf,mips,Mozi",http://182.121.174.8:54601/bin.sh,online
 "32-bit,elf,mips,Mozi",http://117.251.174.51:35769/i,offline
 "32-bit,arm,elf,mirai,Mozi",http://175.155.98.56:49895/i,offline
-"32-bit,arm,elf,mirai,Mozi",http://221.232.172.185:40727/bin.sh,online
+"32-bit,arm,elf,mirai,Mozi",http://221.232.172.185:40727/bin.sh,offline
 "32-bit,elf,mips,Mozi",http://61.53.133.238:34033/bin.sh,online
 "32-bit,elf,mips,Mozi",http://120.61.193.32:53336/bin.sh,offline
 "32-bit,elf,mips,Mozi",http://188.38.3.30:34927/i,online
@@ -2352,7 +2358,7 @@ opendir,http://159.89.205.160:8080/mark_v7.exe,offline
 "32-bit,elf,mips,Mozi",http://123.12.40.237:34133/i,offline
 "32-bit,arm,elf,mirai,Mozi",http://125.116.42.16:49419/bin.sh,offline
 "32-bit,elf,mips,Mozi",http://117.205.170.105:38310/i,offline
-"32-bit,elf,mips,Mozi",http://42.5.236.132:44737/i,offline
+"32-bit,elf,mips,Mozi",http://42.5.236.132:44737/i,online
 "32-bit,elf,mips,Mozi",http://188.18.66.123:49894/bin.sh,offline
 "32-bit,elf,mips,Mozi",http://115.56.128.203:34597/i,offline
 "32-bit,elf,mips,Mozi",http://123.9.243.247:39059/i,offline
@@ -4529,7 +4535,7 @@ exe,http://8t.tattlererun.life/88.ext.bin,offline
 "AgentTesla,encrypted,GuLoader",http://209.54.102.157/ZnkxiGIQh214.bin,online
 "encrypted,GuLoader",http://75.127.7.164/sLUnzeWidMaa112.bin,offline
 "encrypted,GuLoader,rat,RemcosRAT",https://drive.google.com/uc?export=download&id=1ed2w0zvvx53_mFifdSZYSLLeuRuB40zO,offline
-"32-bit,arm,elf,mirai,Mozi",http://106.41.138.142:40875/bin.sh,offline
+"32-bit,arm,elf,mirai,Mozi",http://106.41.138.142:40875/bin.sh,online
 "32-bit,elf,mips,Mozi",http://123.11.206.182:53392/bin.sh,offline
 "32-bit,elf,mips,Mozi",http://61.52.157.117:36135/bin.sh,offline
 NetSupport,http://sti-salyk.com/update/NSM.lic,offline
