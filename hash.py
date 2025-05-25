@@ -86,7 +86,7 @@ markdown_content = "\n".join(md_lines)
 with open("README.md", "w", encoding="utf-8") as f:
     f.write("# IOC Summary\n\n")
     f.write(f"Automated Hash Collections: Every day at 02:00 UTC. Last Updated: {execution_time}\n\n")
-    f.write("This table shows top 10 malware names with their unique hashes and counts. [[For Complete list, check the CSV files]]\n\n")
+    f.write("This table shows top 10 malware names with their unique hashes and counts. [For Complete list, check the CSV files]\n\n")
     f.write(markdown_content)
 
 print("mhash.csv and README.md updated.")
