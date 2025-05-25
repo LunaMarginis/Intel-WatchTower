@@ -41,7 +41,6 @@ df[['tags', 'url', 'url_status']].to_csv("urls.csv", index=False)
 
 summary = df.groupby('tags').size().reset_index(name='count')
 
-print(summary)
 readme_path = "README.md"
 try:
     with open(readme_path, "r", encoding="utf-8") as f:
@@ -50,6 +49,7 @@ except FileNotFoundError:
     readme = ""
 
 # Build markdown summary table
+summary = summary.sort_values(by='count', ascending=False)
 md_lines = [
     "\n\n<!-- url_summary_start -->",
     "## 🔗 URL Summary\n",
