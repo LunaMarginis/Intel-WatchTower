@@ -8,13 +8,20 @@ response = requests.get(url)
 response.raise_for_status()
 
 # Convert to DataFrame
-df = pd.read_csv(StringIO(response.text), comment='#', on_bad_lines='skip')
+df = pd.read_csv(StringIO(response.text), comment='#', header=None, on_bad_lines='skip')
 
-# Group and count
+df = df.rename(columns={
+    2: 'ioc_value',          # Column C
+    5: 'fk_malware',         # Column F
+    6: 'malware_alias',      # Column G
+    7: 'malware_printable'   # Column H
+})
+
 grouped = df.groupby(['ioc_value', 'fk_malware', 'malware_alias', 'malware_printable']).size().reset_index(name='count')
 
 # Save to CSV
 grouped.to_csv("mhash.csv", index=False)
+
 
 # Prepare Markdown summary
 summary_df = grouped.rename(columns={
@@ -24,6 +31,7 @@ summary_df = grouped.rename(columns={
     'malware_printable': 'Malware Name',
     'count': 'Count'
 })
+
 
 # Drop duplicates after collapsing columns to a single Malware Name
 summary_df['Malware Name'] = summary_df[['fk_malware', 'malware_alias', 'malware_printable']].bfill(axis=1).iloc[:, 0]
