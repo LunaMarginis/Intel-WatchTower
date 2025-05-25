@@ -1,0 +1,36 @@
+name: URLHaus Tags Summary
+
+on:
+  schedule:
+    - cron: '0 3 * * *'   # Runs daily at 03:00 UTC
+  workflow_dispatch:       # Manual trigger
+
+jobs:
+  update-urls-summary:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v3
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: "3.x"
+
+      - name: Install dependencies
+        run: pip install pandas requests
+
+      - name: Run URLHaus summary script
+        run: python url.py
+
+      - name: Commit and push changes
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add urls.csv README.md
+          git commit -m "Update URLHaus tags summary and CSV" || echo "No changes to commit"
+          git push
+        env:
+          # Use a token with push permission configured as a secret
+          PAT_TOKEN: ${{ secrets.PAT_TOKEN }}
