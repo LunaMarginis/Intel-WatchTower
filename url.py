@@ -52,7 +52,8 @@ except FileNotFoundError:
 summary = summary.sort_values(by='count', ascending=False)
 md_lines = [
     "\n\n<!-- url_summary_start -->",
-    "## 🔗 URL Summary\n",
+    "## 🔗 URLs:\n",
+    "Automated URL Collections, grouped by Tags: Every day at 03:00 UTC",
     "| Tag | Count |",
     "|-----|-------|",
 ]
