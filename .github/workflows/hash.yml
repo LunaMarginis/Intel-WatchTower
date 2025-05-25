@@ -22,7 +22,7 @@ jobs:
         run: pip install pandas requests
 
       - name: Run Python script
-        run: python process_md5.py
+        run: python hash.py
 
       - name: Commit and push CSV
         run: |
