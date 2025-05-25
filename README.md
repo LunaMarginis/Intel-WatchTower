@@ -1,6 +1,6 @@
 # IOC Summary
 
-Automated Hash Collections: Every day at 02:00 UTC. Last Updated: 2025-05-25 18:16:20 UTC
+Automated Hash Collections: Every day at 02:00 UTC. Last Updated: 2025-05-25 19:03:07 UTC
 
 This table shows top 10 malware names with their unique hashes and counts.
 
@@ -16,31 +16,3 @@ This table shows top 10 malware names with their unique hashes and counts.
 |  "win.valley_rat" |  "063bdcef4d16dda3436122c4cf3f2ef8"<br> "1a8060bbf78281a3e6afaa4ea3d8bf6c"<br> "2540f584a576a1546ff8ed64bc057e8d"<br> "4eea5c2000d91f819c00dcecfc0aa0e7"<br> "595799cf6199cb6c65ded59cc6360376"<br> "eb98f450373ea0a2ec726b1f11785663" | 6 |
 |  "win.rhadamanthys" |  "162e14546e2cda7f8c8ef3e629c96c67"<br> "3e04a83946205df02e7298ad1d7b2fc8"<br> "d0a5867e1a9aebdcb07f6b2317da1b0b"<br> "d8b5f62eeebf2cab804d1c3bfabf4138" | 4 |
 |  "win.masslogger" |  "c12bffda39a17ae4200d2b002130883f"<br> "e3e85dbd48988eccd2319a3fc5090d59"<br> "ef16638ba70a08e80fdfdd8cde1b2a9a" | 3 |
-
-
-
-
-
-
-
-<!-- url_summary_start -->
-## 🔗 Top 10 URLs:
-
-Automated URL Collections, grouped by Tags: Every day at 03:00 UTC. Last Updated: 2025-05-25 18:58:10 UTC.
-
-| Tag | Count |
-|-----|-------|
-| 32-bit,elf,mips,Mozi | 11250 |
-| 32-bit,arm,elf,mirai,Mozi | 3209 |
-| hajime | 1368 |
-| Mozi | 995 |
-| elf,mirai,ua-wget | 757 |
-| censys,elf,hajime | 654 |
-| elf,mirai | 462 |
-| backdoor,censys,elf,sshdkit | 422 |
-| censys,elf,mirai,ua-wget | 397 |
-| ClearFake | 326 |
-<!-- url_summary_end -->
-
-
-
