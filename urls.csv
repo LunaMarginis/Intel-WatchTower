@@ -1281,7 +1281,7 @@ mirai,http[:]//176[.]65[.]141[.]103/1[.]sh,online
 "32-bit,arm,elf,mirai,Mozi",http[:]//176[.]185[.]196[.]45[:]32811/i,offline
 hajime,http[:]//182[.]247[.]129[.]82[:]47049/[.]i,offline
 "32-bit,elf,mips,Mozi",http[:]//117[.]247[.]145[.]63[:]36684/bin[.]sh,offline
-"32-bit,arm,elf,mirai,Mozi",http[:]//122[.]233[.]198[.]91[:]35875/i,offline
+"32-bit,arm,elf,mirai,Mozi",http[:]//122[.]233[.]198[.]91[:]35875/i,online
 "32-bit,elf,mips,Mozi",http[:]//61[.]53[.]94[.]76[:]54990/i,offline
 "32-bit,arm,elf,mirai,Mozi",http[:]//176[.]185[.]196[.]45[:]32811/bin[.]sh,offline
 "32-bit,elf,mips,Mozi",http[:]//182[.]119[.]199[.]158[:]39122/i,offline
