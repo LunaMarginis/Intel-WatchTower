@@ -16,3 +16,22 @@ This table shows top 10 malware names with their unique hashes and counts. [For 
 |  "win.rhadamanthys" |  "162e14546e2cda7f8c8ef3e629c96c67"<br> "3e04a83946205df02e7298ad1d7b2fc8"<br> "d0a5867e1a9aebdcb07f6b2317da1b0b"<br> "d8b5f62eeebf2cab804d1c3bfabf4138" | 4 |
 |  "win.stealc" |  "25b8b6ae510f80d5fd11926e95a34908"<br> "82023e4b2af5a4a52d302da889d55999"<br> "9be374511f90bd82da2b1f929fab0376" | 3 |
 |  "win.formbook" |  "5e75c088ea46fe04d56d05efa660328d"<br> "919263ae38179392a8cbdb6f8cfe5a50"<br> "c9190759ef8ca738fee52aeb18b7f85e" | 3 |
+
+<!-- url_summary_start -->
+## 🔗 Top 10 URLs:
+
+Automated URL Collections, grouped by Tags: Every day at 03:00 UTC. Last Updated: 2025-05-26 03:38:50 UTC.
+
+| Tag | Count |
+|-----|-------|
+| 32-bit,elf,mips,Mozi | 10940 |
+| 32-bit,arm,elf,mirai,Mozi | 3120 |
+| hajime | 1306 |
+| Mozi | 900 |
+| elf,mirai,ua-wget | 780 |
+| censys,elf,hajime | 627 |
+| elf,mirai | 462 |
+| backdoor,censys,elf,sshdkit | 400 |
+| censys,elf,mirai,ua-wget | 397 |
+| ClearFake | 317 |
+<!-- url_summary_end -->
