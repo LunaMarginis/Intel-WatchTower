@@ -1,7 +1,9 @@
 ioc_value,fk_malware,malware_alias,malware_printable,count
-" ""27182f9017d8e4212fbc32e954e19d37"""," ""win.akira"""," ""REDBIKE"""," ""Akira""",1
-" ""31df49092ddf396610481e390f663671"""," ""win.nitrogen"""," ""None"""," ""Nitrogen Loader""",1
-" ""4d43e35962c8c7fdca5f64da8f561f5a"""," ""win.akira"""," ""REDBIKE"""," ""Akira""",1
-" ""6d8f70bda63f1ced222715dbf92a025a"""," ""win.nitrogen"""," ""None"""," ""Nitrogen Loader""",1
-" ""ab359be0ab33876eb32325706e43f0c1"""," ""win.akira"""," ""REDBIKE"""," ""Akira""",1
-" ""f17b6cdcbac9462f01da65bd4f8636db"""," ""win.akira"""," ""REDBIKE"""," ""Akira""",1
+" ""43725d046e1e6db97a3e00fc465f532f"""," ""unknown"""," ""None"""," ""Unknown malware""",1
+" ""4a06c0e6bc28b1b7e6b29a76664c413b"""," ""unknown"""," ""None"""," ""Unknown malware""",1
+" ""65da1a9026cf171a5a7779bc5ee45fb1"""," ""unknown"""," ""None"""," ""Unknown malware""",1
+" ""8d47d8a5d6e25c96c5e7c7505d430684"""," ""unknown"""," ""None"""," ""Unknown malware""",1
+" ""ae6f61c0fc092233abf666643d88d0f3"""," ""unknown"""," ""None"""," ""Unknown malware""",1
+" ""d54187089a44e825d6a0e8e3793d5516"""," ""unknown"""," ""None"""," ""Unknown malware""",1
+" ""f65a194814d4e0b8fdcf74f523e06ddf"""," ""unknown"""," ""None"""," ""Unknown malware""",1
+" ""f6664f4e77b7bcc59772cd359fdf271c"""," ""unknown"""," ""None"""," ""Unknown malware""",1
