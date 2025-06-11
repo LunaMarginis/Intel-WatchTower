@@ -1,34 +1,9 @@
 # IOC Summary
 
-Automated Hash Collections: Every day at 02:00 UTC. Last Updated: 2025-06-08 03:22:33 UTC
+Automated Hash Collections: Every day at 02:00 UTC. Last Updated: 2025-06-11 03:15:58 UTC
 
 This table shows top 10 malware names with their unique hashes and counts. [For Complete list, check the CSV files]
 
 | Malware Name | ioc_value (Hashes) | Count |
 |--------------|--------------------|-------|
-|  "unknown" |  "003291d904b89142bada57a9db732ae7"<br> "00fdc504be1788231aa7b7d2d1335893"<br> "29a2cc59a9ebd334103ce146bca38522"<br> "3e581aad42a2a9e080a4a676de42f015"<br> "5cab4fabffeb5903f684c936a90e0b46"<br> "71dc9540eb03f2ed4d1b6496b13fe839"<br> "d1013bbaa2f151195d563b2b65126fa3"<br> "edec051ce461d62fbbd3abf09534b731" | 8 |
-
-
-
-
-
-<!-- url_summary_start -->
-## 🔗 Top 10 URLs:
-
-Automated URL Collections, grouped by Tags: Every day at 03:00 UTC. Last Updated: 2025-06-10 03:40:53 UTC.
-
-| Tag | Count |
-|-----|-------|
-| 32-bit,elf,mips,Mozi | 6381 |
-| 32-bit,arm,elf,mirai,Mozi | 1449 |
-| elf,mirai,ua-wget | 1151 |
-| hajime | 633 |
-| opendir | 597 |
-| github | 486 |
-| censys,elf,hajime | 473 |
-| censys,elf,mirai,ua-wget | 471 |
-| backdoor,censys,elf,sshdkit | 397 |
-| elf,ua-wget | 331 |
-<!-- url_summary_end -->
-
-
+|  "elf.disgomoji" |  "1a17955be2f99813c03d9f4970131593"<br> "2d9fb9303512a6b6e9a67c4d956a0e07"<br> "43e4260c595b20e357be75c0c1fbec29"<br> "452cd18570471e80dd6bf34addede334"<br> "68fbe197c62a3777d2299f9eabed2c70"<br> "c763ecf315481525afcd47c5f32c1fd7"<br> "c8c21b4642f12c28f6e5e0389bbf8c36"<br> "d24c797f94933a3ec5227a6f57e15358"<br> "d5a3766e744a563278b18267d6bd7113"<br> "e429ebfbc827ac8a865dce20470d3e8b"<br> "fe7bb6d0835879043e4b9fef7fa59375" | 11 |
