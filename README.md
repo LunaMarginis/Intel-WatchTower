@@ -8,21 +8,24 @@ This table shows top 10 malware names with their unique hashes and counts. [For 
 |--------------|--------------------|-------|
 |  "win.crimson" |  "33ac03a2a13d5870261233349fc9aef0"<br> "6c3dcb8f513f46eabed0d1564c065ec6"<br> "948571781f0a6edfd6d9357441fbfbb8" | 3 |
 
+
+
 <!-- url_summary_start -->
 ## 🔗 Top 10 URLs:
 
-Automated URL Collections, grouped by Tags: Every day at 03:00 UTC. Last Updated: 2025-06-20 03:39:52 UTC.
+Automated URL Collections, grouped by Tags: Every day at 03:00 UTC. Last Updated: 2025-06-21 03:37:40 UTC.
 
 | Tag | Count |
 |-----|-------|
-| 32-bit,elf,mips,Mozi | 2911 |
+| 32-bit,elf,mips,Mozi | 2572 |
 | CoinMiner,opendir | 1784 |
-| elf,mirai,ua-wget | 1661 |
+| elf,mirai,ua-wget | 1701 |
 | opendir | 973 |
-| 32-bit,arm,elf,mirai,Mozi | 594 |
 | github | 530 |
-| elf,ua-wget | 460 |
-| censys,elf,hajime | 404 |
-| backdoor,censys,elf,sshdkit | 392 |
+| 32-bit,arm,elf,mirai,Mozi | 508 |
+| elf,ua-wget | 446 |
+| censys,elf,hajime | 397 |
+| backdoor,censys,elf,sshdkit | 394 |
 | censys,elf,mirai,ua-wget | 377 |
 <!-- url_summary_end -->
+
