@@ -16,24 +16,27 @@ This table shows top 10 malware names with their unique hashes and counts. [For 
 
 
 
+
+
 <!-- url_summary_start -->
 ## 🔗 Top 10 URLs:
 
-Automated URL Collections, grouped by Tags: Every day at 03:00 UTC. Last Updated: 2025-06-24 03:41:36 UTC.
+Automated URL Collections, grouped by Tags: Every day at 03:00 UTC. Last Updated: 2025-06-25 03:43:33 UTC.
 
 | Tag | Count |
 |-----|-------|
 | CoinMiner,opendir | 1784 |
-| elf,mirai,ua-wget | 1620 |
-| 32-bit,elf,mips,Mozi | 1453 |
-| opendir | 1000 |
+| elf,mirai,ua-wget | 1637 |
+| 32-bit,elf,mips,Mozi | 1167 |
+| opendir | 1002 |
 | github | 530 |
-| elf,ua-wget | 413 |
-| censys,elf,mirai,ua-wget | 390 |
-| backdoor,censys,elf,sshdkit | 384 |
-| censys,elf,hajime | 364 |
-| mirai,opendir | 358 |
+| censys,elf,mirai,ua-wget | 400 |
+| backdoor,censys,elf,sshdkit | 397 |
+| elf,ua-wget | 395 |
+| censys,elf,hajime | 372 |
+| mirai,opendir | 361 |
 <!-- url_summary_end -->
+
 
 
 
