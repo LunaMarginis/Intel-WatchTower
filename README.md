@@ -1,43 +1,11 @@
 # IOC Summary
 
-Automated Hash Collections: Every day at 02:00 UTC. Last Updated: 2025-06-20 03:15:13 UTC
+Automated Hash Collections: Every day at 02:00 UTC. Last Updated: 2025-06-26 03:16:45 UTC
 
 This table shows top 10 malware names with their unique hashes and counts. [For Complete list, check the CSV files]
 
 | Malware Name | ioc_value (Hashes) | Count |
 |--------------|--------------------|-------|
-|  "win.crimson" |  "33ac03a2a13d5870261233349fc9aef0"<br> "6c3dcb8f513f46eabed0d1564c065ec6"<br> "948571781f0a6edfd6d9357441fbfbb8" | 3 |
-
-
-
-
-
-
-
-
-
-
-
-<!-- url_summary_start -->
-## 🔗 Top 10 URLs:
-
-Automated URL Collections, grouped by Tags: Every day at 03:00 UTC. Last Updated: 2025-06-25 03:43:33 UTC.
-
-| Tag | Count |
-|-----|-------|
-| CoinMiner,opendir | 1784 |
-| elf,mirai,ua-wget | 1637 |
-| 32-bit,elf,mips,Mozi | 1167 |
-| opendir | 1002 |
-| github | 530 |
-| censys,elf,mirai,ua-wget | 400 |
-| backdoor,censys,elf,sshdkit | 397 |
-| elf,ua-wget | 395 |
-| censys,elf,hajime | 372 |
-| mirai,opendir | 361 |
-<!-- url_summary_end -->
-
-
-
-
-
+|  "win.bianlian" |  "146229561a3746053f85aa8a11559eac"<br> "1d9feae452cf392ca417d6f3617848bc"<br> "215a7c28d07eb446eaee352ac2af62a3"<br> "2b5db2277171dc9e45677b0a4b6ac4a7"<br> "318249067514a04331bde3d08785e7b5"<br> "4a432dac581e5ebf31008f8f7041e96e"<br> "4d0c2ba892fd166f6e9001b5adf61022"<br> "4e8f9792dd5abeb31acdb7850e1feb31"<br> "55d87f659e61d135b9f52966715df05c"<br> "609554db75e2068d1e1d49b202ae92da"<br> "65d3a8dbd5a5ee902fee141f467b325a"<br> "681d2e6fca521c29ac8bf056e5473c4a"<br> "68d8a369cdf2e92c0f7ac2310f633b45"<br> "752a495b34b244acc86aba16b6353343"<br> "7cc78f1b6c65c6b0cdc57e8a01c7b235"<br> "88e332e259b78210bbf56ee417dce6c3"<br> "8a2e26ab771132300b56478fee1dd634"<br> "a31e7d2550535d43cb8a27919734b23c"<br> "b328ae69291cef117df2d3bfba83e2a2"<br> "b77e3902bd93e320e01d8df1d3a858fb"<br> "be5361057039c171e2870f727c930a35"<br> "c5af959e620a6641f5e9965a1be215e0"<br> "e245f8d129e8eadb00e165c569a14b71"<br> "e5f1be8d5b7b33096e8f9ebb413b0466"<br> "f3a04246ae21015bb91269c68690dbbc"<br> "f454c52f40d1de3e7f0c9763e21d7d05"<br> "fdce2762c69cf4a5e4cb9f6caeb508b8"<br> "fdeccb927db95a038e0934564282044d" | 28 |
+|  "win.lockbit" |  "05299013ef48e5bf6c70d13dd37ddd88"<br> "054314733888215dd469adcbdee14d46"<br> "7a8bec10e0b76544714397b1b134c45c"<br> "811ff9d270089a3fdf2a223e656aee99"<br> "8670dc5beb4133a84ea86c250f2ce10b"<br> "c433928566927fb281056a3cda7e2751"<br> "c5cc3c5cef6b382568a54f579b2965ff"<br> "d8f694deb7dab13efa540ea6731efccf"<br> "df0cf77728db7b41a053fe0fab9bd505"<br> "dfac83994c43a8cba786c678f383e8f3"<br> "ed6fa9757400a0de9596d59bd0262ebd"<br> "eea61d49ac1bb0aab8a38dba1470ee2f"<br> "f828044c91ac00afffcd77b4ce680857"<br> "f8a72ea0a65f86a865a8b09b49f76fb0"<br> "f954f24e6eb85ef1b64e315491dad816" | 15 |
+|  "win.akira" |  "3ba89bd7dbada6ce288d99dd6f8b8de5"<br> "f1bda525dcb1803b8fb88efd22eda2f2" | 2 |
