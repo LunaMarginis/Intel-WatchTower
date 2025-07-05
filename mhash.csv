@@ -1,5 +1,4 @@
 ioc_value,fk_malware,malware_alias,malware_printable,count
-" ""38d29f5ac47583f39a2ff5dc1c366f7d"""," ""win.purelogs"""," ""None"""," ""PureLogs Stealer""",1
-" ""ab250bb831a9715a47610f89d0998f86"""," ""win.purelogs"""," ""None"""," ""PureLogs Stealer""",1
-" ""cec53e8df6c115eb7494c9ad7d2963d4"""," ""win.purelogs"""," ""None"""," ""PureLogs Stealer""",1
-" ""eedc8bb54465bd6720f28b41f7a2acf6"""," ""win.purelogs"""," ""None"""," ""PureLogs Stealer""",1
+" ""88826c773788a68300b0dd78a92af12a"""," ""win.nitrogen"""," ""None"""," ""Nitrogen Loader""",1
+" ""a4b24c189f63204efd2b36ce5ab3aaaa"""," ""win.nitrogen"""," ""None"""," ""Nitrogen Loader""",1
+" ""e14d7baf640bfb479e186d0281a27179"""," ""win.nitrogen"""," ""None"""," ""Nitrogen Loader""",1
