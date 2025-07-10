@@ -9,21 +9,24 @@ This table shows top 10 malware names with their unique hashes and counts. [For 
 |  "unknown" |  "08759d9ea2712d693891c870bbebbde3" | 1 |
 |  "win.nitrogen" |  "7482d1cece44511ee978f8d418040867" | 1 |
 
+
+
 <!-- url_summary_start -->
 ## 🔗 Top 10 URLs:
 
-Automated URL Collections, grouped by Tags: Every day at 03:00 UTC. Last Updated: 2025-07-09 03:46:07 UTC.
+Automated URL Collections, grouped by Tags: Every day at 03:00 UTC. Last Updated: 2025-07-10 03:45:26 UTC.
 
 | Tag | Count |
 |-----|-------|
-| 32-bit,elf,mips,Mozi | 4355 |
-| elf,mirai,ua-wget | 1858 |
+| 32-bit,elf,mips,Mozi | 4761 |
+| elf,mirai,ua-wget | 1996 |
 | CoinMiner,opendir | 1813 |
-| opendir | 830 |
-| 32-bit,arm,elf,mirai,Mozi | 607 |
-| mirai,opendir | 559 |
-| elf,ua-wget | 399 |
-| backdoor,censys,elf,sshdkit | 342 |
-| mirai,sh,ua-wget | 338 |
-| censys,elf,hajime | 319 |
+| opendir | 815 |
+| 32-bit,arm,elf,mirai,Mozi | 640 |
+| mirai,opendir | 544 |
+| elf,ua-wget | 409 |
+| mirai,sh,ua-wget | 352 |
+| backdoor,censys,elf,sshdkit | 318 |
+| c2-monitor-auto,dropped-by-amadey | 306 |
 <!-- url_summary_end -->
+
