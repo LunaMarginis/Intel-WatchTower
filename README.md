@@ -45,24 +45,27 @@ This table shows top 10 malware names with their unique hashes and counts. [For 
 
 
 
+
+
 <!-- url_summary_start -->
 ## 🔗 Top 10 URLs:
 
-Automated URL Collections, grouped by Tags: Every day at 03:00 UTC. Last Updated: 2025-07-27 04:00:39 UTC.
+Automated URL Collections, grouped by Tags: Every day at 03:00 UTC. Last Updated: 2025-07-28 04:00:07 UTC.
 
 | Tag | Count |
 |-----|-------|
-| 32-bit,elf,mips,Mozi | 8364 |
-| elf,mirai,ua-wget | 2240 |
-| 32-bit,arm,elf,mirai,Mozi | 969 |
-| mirai,opendir | 773 |
-| elf,ua-wget | 521 |
-| botnetdomain,mirai,opendir | 445 |
+| 32-bit,elf,mips,Mozi | 8565 |
+| elf,mirai,ua-wget | 2220 |
+| 32-bit,arm,elf,mirai,Mozi | 989 |
+| mirai,opendir | 837 |
+| elf,ua-wget | 513 |
+| botnetdomain,mirai,opendir | 477 |
 | opendir | 389 |
-| censys,elf,hajime | 336 |
+| censys,elf,hajime | 335 |
 | backdoor,censys,elf,sshdkit | 309 |
 | mirai,sh,ua-wget | 261 |
 <!-- url_summary_end -->
+
 
 
 
