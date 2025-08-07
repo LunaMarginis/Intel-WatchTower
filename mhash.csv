@@ -1,59 +1,74 @@
 ioc_value,fk_malware,malware_alias,malware_printable,count
-" ""0176178320d60f6dfe2cd46dfb3eb2f6"""," ""unknown"""," ""None"""," ""Unknown malware""",1
-" ""04b1e0cfa3502a6873c95a78ac68b307"""," ""unknown"""," ""None"""," ""Unknown malware""",1
-" ""05013190ac2d1cd87e74aaa675eac501"""," ""unknown"""," ""None"""," ""Unknown malware""",1
-" ""0ca38cddd100f677a208414bef656ae0"""," ""unknown"""," ""None"""," ""Unknown malware""",1
-" ""0cae23e6509fd71f8c7d1c5163a158bf"""," ""unknown"""," ""None"""," ""Unknown malware""",1
-" ""0d7e80ec85db5cb45642235cb2381a0c"""," ""unknown"""," ""None"""," ""Unknown malware""",1
-" ""10f3e50a71af882523b68873d0822ce9"""," ""unknown"""," ""None"""," ""Unknown malware""",1
-" ""1476c8e1dbfa9f632034e6db64007550"""," ""unknown"""," ""None"""," ""Unknown malware""",1
-" ""1bb3616096e43df935dfaf1ac29411e6"""," ""unknown"""," ""None"""," ""Unknown malware""",1
-" ""1f380a954dc714571894d0ebb859e253"""," ""unknown"""," ""None"""," ""Unknown malware""",1
-" ""23e757137868cad4d2aa21a05fb80495"""," ""unknown"""," ""None"""," ""Unknown malware""",1
-" ""26b7a5d87d56034486b4f29cf7a44def"""," ""unknown"""," ""None"""," ""Unknown malware""",1
-" ""28c2f89da2b0132e519b73ff026850b8"""," ""unknown"""," ""None"""," ""Unknown malware""",1
-" ""3318dd066104591b12e0223b44ab9aaf"""," ""unknown"""," ""None"""," ""Unknown malware""",1
-" ""378e7860a734c3cf3f11418e904a8cb8"""," ""unknown"""," ""None"""," ""Unknown malware""",1
-" ""3a5be9663e8f105cf77cad03bb0671da"""," ""unknown"""," ""None"""," ""Unknown malware""",1
-" ""3a85719dbff65644c8dca5c0faa911cf"""," ""unknown"""," ""None"""," ""Unknown malware""",1
-" ""3f4eeebcef93932e2c254f8fe54a8474"""," ""unknown"""," ""None"""," ""Unknown malware""",1
-" ""3f7456eef5d61775a6a0be1077896825"""," ""unknown"""," ""None"""," ""Unknown malware""",1
-" ""3f7dfc499c5dad1e69e86cdf44c7d6ae"""," ""unknown"""," ""None"""," ""Unknown malware""",1
-" ""4428877ed92384d2a6bd09e7c4e8805c"""," ""unknown"""," ""None"""," ""Unknown malware""",1
-" ""459d196f8392d61f1b5f32639194c838"""," ""unknown"""," ""None"""," ""Unknown malware""",1
-" ""4c74caa9c0eeb2c7637da9bbde9535d7"""," ""unknown"""," ""None"""," ""Unknown malware""",1
-" ""503c35c37d00d04ff2793c2b4bf5038f"""," ""unknown"""," ""None"""," ""Unknown malware""",1
-" ""5a6af006c815a93ecd59ab0ed76efc5f"""," ""unknown"""," ""None"""," ""Unknown malware""",1
-" ""66a7b3b9d77c39719e83f4751f1a4bba"""," ""unknown"""," ""None"""," ""Unknown malware""",1
-" ""68a6333d3775f2aed498fc71773a99d9"""," ""unknown"""," ""None"""," ""Unknown malware""",1
-" ""7286f8e0a7c344462186f35d46b6ae71"""," ""unknown"""," ""None"""," ""Unknown malware""",1
-" ""76bd025d914bd520a0e8ce3766c4fc81"""," ""unknown"""," ""None"""," ""Unknown malware""",1
-" ""81279668f2392d40feafb219ec715b55"""," ""unknown"""," ""None"""," ""Unknown malware""",1
-" ""815c70afeacd13f4c4b89c2ad65265f2"""," ""unknown"""," ""None"""," ""Unknown malware""",1
-" ""90c5fc4b8707e611a9614f0d9dee81fc"""," ""unknown"""," ""None"""," ""Unknown malware""",1
-" ""91798710166ed4e63d8ed8432aa9b905"""," ""unknown"""," ""None"""," ""Unknown malware""",1
-" ""921b6c8615db433c7843aca5cd82d06a"""," ""unknown"""," ""None"""," ""Unknown malware""",1
-" ""95d57da61705c2d819309e708cdecb1c"""," ""unknown"""," ""None"""," ""Unknown malware""",1
-" ""9a578a7646202d704f9c2bbc802658e4"""," ""unknown"""," ""None"""," ""Unknown malware""",1
-" ""9d3f17172657186dc8dad6221ffc0618"""," ""unknown"""," ""None"""," ""Unknown malware""",1
-" ""a087e994db776a0c657e45d315851186"""," ""unknown"""," ""None"""," ""Unknown malware""",1
-" ""a3c0caca7cb6667a9feb37442da3d322"""," ""unknown"""," ""None"""," ""Unknown malware""",1
-" ""a74ee50d2f91f77f010ecb154aa6b30b"""," ""unknown"""," ""None"""," ""Unknown malware""",1
-" ""ad938c8aa558ff9a2332ac6a3e24705a"""," ""unknown"""," ""None"""," ""Unknown malware""",1
-" ""b859fc33281054900595598330ba86f3"""," ""unknown"""," ""None"""," ""Unknown malware""",1
-" ""ba59e1d90d8ff1763e9afbb627553d81"""," ""unknown"""," ""None"""," ""Unknown malware""",1
-" ""bc8f706130597467bd61db3b4e056036"""," ""unknown"""," ""None"""," ""Unknown malware""",1
-" ""c12f0dc245f7b6d21f28a84cc1f549b7"""," ""unknown"""," ""None"""," ""Unknown malware""",1
-" ""c2ba0259ae8cfc7a4b57e6a17d244c7c"""," ""unknown"""," ""None"""," ""Unknown malware""",1
-" ""ccd6399740f3fa55cd34a900ec5cf363"""," ""unknown"""," ""None"""," ""Unknown malware""",1
-" ""ce9742ce6f771663ff82c57b72ef90e4"""," ""unknown"""," ""None"""," ""Unknown malware""",1
-" ""d9d78320352f15730774221c1b323bad"""," ""unknown"""," ""None"""," ""Unknown malware""",1
-" ""da8ca8da179421288a989d7733822c1e"""," ""unknown"""," ""None"""," ""Unknown malware""",1
-" ""dab718453b3e4177cb40a4cd034585f1"""," ""unknown"""," ""None"""," ""Unknown malware""",1
-" ""e564eb1ffa8fc3cd25632e4ed9f771bc"""," ""unknown"""," ""None"""," ""Unknown malware""",1
-" ""e72035694559e5d1464d97713a868384"""," ""unknown"""," ""None"""," ""Unknown malware""",1
-" ""e807d6a39004f115f10a671b2b39b715"""," ""unknown"""," ""None"""," ""Unknown malware""",1
-" ""e9b0bc2afd0451c70e4ce10705383672"""," ""unknown"""," ""None"""," ""Unknown malware""",1
-" ""ea4f969d395faf904d150f051ed0bc04"""," ""unknown"""," ""None"""," ""Unknown malware""",1
-" ""f02dc56492666b2652f554013a163a56"""," ""unknown"""," ""None"""," ""Unknown malware""",1
-" ""f0fb1e51df2440862c339c0d9fac20a5"""," ""unknown"""," ""None"""," ""Unknown malware""",1
+" ""045cc2c4aba816e19100b079a34fef97"""," ""win.luca_stealer"""," ""None"""," ""Luca Stealer""",1
+" ""05d0ddfc999a185a974cf5c3a3dbd0c2"""," ""win.krakenkeylogger"""," ""None"""," ""KrakenKeylogger""",1
+" ""0db0ed2706885981aa95cc8b067563ce"""," ""win.troldesh"""," ""Shade"""," ""Troldesh""",1
+" ""139b54a2757c7cd2721a39362a914bc5"""," ""win.luca_stealer"""," ""None"""," ""Luca Stealer""",1
+" ""141c9978c6d7cdec4b2b7e255a9213d2"""," ""osx.amos"""," ""Atomic macOS Stealer"""," ""AMOS""",1
+" ""144b0f293cb6793e30091267031d413e"""," ""win.mars_stealer"""," ""None"""," ""Mars Stealer""",1
+" ""14ab819b24b9fdd7a381bc5af60b6a3f"""," ""win.stealc"""," ""None"""," ""Stealc""",1
+" ""18a4a08a233ffd5986cd74e052368ab2"""," ""win.troldesh"""," ""Shade"""," ""Troldesh""",1
+" ""19c0c0cb6b87dbd88d8e81fdfd622d39"""," ""win.formbook"""," ""win.xloader"""," ""Formbook""",1
+" ""1a41df110a0a5f90ed98058a8b1e3f1b"""," ""osx.amos"""," ""Atomic macOS Stealer"""," ""AMOS""",1
+" ""211013cfdb48e16e952f68274de3fd7b"""," ""win.formbook"""," ""win.xloader"""," ""Formbook""",1
+" ""2227c10d6762173233b396c9cf771e7a"""," ""win.formbook"""," ""win.xloader"""," ""Formbook""",1
+" ""25602d044c77bc7c814c3f6e6eef1384"""," ""win.luca_stealer"""," ""None"""," ""Luca Stealer""",1
+" ""285e3164b5c9bcbed49ce3d92146fe81"""," ""win.luca_stealer"""," ""None"""," ""Luca Stealer""",1
+" ""28d9eae488891cf62157d465c1253418"""," ""win.strelastealer"""," ""None"""," ""StrelaStealer""",1
+" ""2937cf586a80aea535ac8afb28179b6b"""," ""win.janela_rat"""," ""None"""," ""JanelaRAT""",1
+" ""2f87edf24f991ac02a414f2b5ee12d38"""," ""osx.amos"""," ""Atomic macOS Stealer"""," ""AMOS""",1
+" ""30e1ddadfc347bd1d47cf3cc40a823b8"""," ""win.luca_stealer"""," ""None"""," ""Luca Stealer""",1
+" ""30ef0446483f7973b08b1751a0678d43"""," ""win.luca_stealer"""," ""None"""," ""Luca Stealer""",1
+" ""3c9ab7df8952b0c867eaf099fd8769fb"""," ""win.luca_stealer"""," ""None"""," ""Luca Stealer""",1
+" ""3e207e2a1ec37c4fb72840334f09310e"""," ""win.mars_stealer"""," ""None"""," ""Mars Stealer""",1
+" ""3f1194fd8a88063cb101487214ad9a76"""," ""win.skimer"""," ""None"""," ""Skimer""",1
+" ""3f9d838259f269140418f134f8510a09"""," ""osx.amos"""," ""Atomic macOS Stealer"""," ""AMOS""",1
+" ""4312e9211ef1f5cb2c52094ba1331da6"""," ""win.strelastealer"""," ""None"""," ""StrelaStealer""",1
+" ""4a63e0c5cb019cbd584680f4e71e175e"""," ""win.typhon_stealer"""," ""Typhon Reborn V2"""," ""Typhon Stealer""",1
+" ""4b4b802c44e11e8d417b572079b47f0a"""," ""win.rhadamanthys"""," ""None"""," ""Rhadamanthys""",1
+" ""4cc39f14e45afd1f351eb3a4d8111777"""," ""win.janela_rat"""," ""None"""," ""JanelaRAT""",1
+" ""4fe27c9593b078661eec08c795217ed0"""," ""win.quantloader"""," ""None"""," ""QuantLoader""",1
+" ""51c56775967d9811753cd3864d268e77"""," ""osx.amos"""," ""Atomic macOS Stealer"""," ""AMOS""",1
+" ""51e144b7d2a4ca3f819d4a18ce89c2d9"""," ""win.luca_stealer"""," ""None"""," ""Luca Stealer""",1
+" ""52c8cce9809288b4afbecc4f243afc1c"""," ""win.redline_stealer"""," ""RECORDSTEALER"""," ""RedLine Stealer""",1
+" ""5622e68b21047a8df013ee6b067b0916"""," ""win.gcleaner"""," ""None"""," ""GCleaner""",1
+" ""5fa62aa883d435e5be004a9bfbfb99a7"""," ""win.luca_stealer"""," ""None"""," ""Luca Stealer""",1
+" ""65cc58dbf78697dcacf70ae4be51173d"""," ""win.darkcloud"""," ""None"""," ""DarkCloud Stealer""",1
+" ""675b73d49a04487194bd6d491e2152c2"""," ""win.strelastealer"""," ""None"""," ""StrelaStealer""",1
+" ""6932fb7398f823948a5b9e00979f2c38"""," ""osx.amos"""," ""Atomic macOS Stealer"""," ""AMOS""",1
+" ""6ceb2e537e18263949f4af2de957e741"""," ""win.deltastealer"""," ""None"""," ""DeltaStealer""",1
+" ""6ceb71f988e0a34ee85ed12d145d3582"""," ""osx.amos"""," ""Atomic macOS Stealer"""," ""AMOS""",1
+" ""7667f74f2125d4d7164270f282c29a09"""," ""osx.amos"""," ""Atomic macOS Stealer"""," ""AMOS""",1
+" ""77d8ff25203fb95e3be27436c7422473"""," ""win.dcrat"""," ""DarkCrystal RAT"""," ""DCRat""",1
+" ""83e68b890251dcd8dfbef2c5e888edf6"""," ""win.luca_stealer"""," ""None"""," ""Luca Stealer""",1
+" ""90c81cc9279c6c0b277d534bc0019772"""," ""win.strelastealer"""," ""None"""," ""StrelaStealer""",1
+" ""93d44109e21707d8434c2cdd4b838bae"""," ""win.luca_stealer"""," ""None"""," ""Luca Stealer""",1
+" ""97cfeca437e9a3d7c04a18994d22f1d0"""," ""win.rhadamanthys"""," ""None"""," ""Rhadamanthys""",1
+" ""988b3913f9f496ffc1fdd2f9102a2e14"""," ""osx.amos"""," ""Atomic macOS Stealer"""," ""AMOS""",1
+" ""9c18999781feee9a7c6099b005fa0e2e"""," ""osx.amos"""," ""Atomic macOS Stealer"""," ""AMOS""",1
+" ""9c9e2a43a455b67c20793497c1284b4a"""," ""osx.amos"""," ""Atomic macOS Stealer"""," ""AMOS""",1
+" ""a15c75786052dd28f6b6c0368694a402"""," ""win.strelastealer"""," ""None"""," ""StrelaStealer""",1
+" ""a1ee3b4001ab9a267ec468d55a57b55f"""," ""win.valley_rat"""," ""Winos"""," ""ValleyRAT""",1
+" ""a3f443355039706188a4c39b80698e3f"""," ""win.krakenkeylogger"""," ""None"""," ""KrakenKeylogger""",1
+" ""a5832b2b910b58ef6f7cdc56a0da722b"""," ""win.strelastealer"""," ""None"""," ""StrelaStealer""",1
+" ""a5fce6f903925a63a8ce91e0e6d12d40"""," ""win.xworm"""," ""None"""," ""XWorm""",1
+" ""a785076ad6f8b3d7d8a3ddd696d98f10"""," ""win.strelastealer"""," ""None"""," ""StrelaStealer""",1
+" ""aa183a51c8a3a0aa512aedae532bcb6e"""," ""osx.amos"""," ""Atomic macOS Stealer"""," ""AMOS""",1
+" ""ab7d8f307767638ee6ed462c191b8923"""," ""win.amadey"""," ""None"""," ""Amadey""",1
+" ""abecbc4dbed5809df67c446202c8ee57"""," ""win.fatal_rat"""," ""Sainbox RAT"""," ""FatalRat""",1
+" ""abf27842cd768eb06f17f432fcd34822"""," ""win.fatal_rat"""," ""Sainbox RAT"""," ""FatalRat""",1
+" ""ac44f516a0a6fc6af3348a7596a04693"""," ""win.xworm"""," ""None"""," ""XWorm""",1
+" ""ad80e72d13c64c27ab4803f488925337"""," ""win.rhadamanthys"""," ""None"""," ""Rhadamanthys""",1
+" ""b100cc3e9c7c3ca9c40130a0d310fc97"""," ""win.formbook"""," ""win.xloader"""," ""Formbook""",1
+" ""b58a22f8d5eefe38fb122bf42c8ffe89"""," ""win.luca_stealer"""," ""None"""," ""Luca Stealer""",1
+" ""b6e215d3c306a9c5e28ea118b38f7c08"""," ""win.formbook"""," ""win.xloader"""," ""Formbook""",1
+" ""ba45510ca2a9ec49a11e8aae4de95a91"""," ""win.rhadamanthys"""," ""None"""," ""Rhadamanthys""",1
+" ""bf276a7790d96155e7fb46f6227841d3"""," ""win.vidar"""," ""None"""," ""Vidar""",1
+" ""c02f20ef35ee3c8d4eebc214fc6b36e3"""," ""win.formbook"""," ""win.xloader"""," ""Formbook""",1
+" ""c2c1cfd09d9ff972fe7ee8006174b04b"""," ""win.strelastealer"""," ""None"""," ""StrelaStealer""",1
+" ""cbf4991548af0ee3dbcadc934a637c38"""," ""osx.amos"""," ""Atomic macOS Stealer"""," ""AMOS""",1
+" ""d93a28dd21085f2c8a1e720e789e9172"""," ""win.formbook"""," ""win.xloader"""," ""Formbook""",1
+" ""d9d7d38b5ddef8734c61519efa4805f7"""," ""win.troystealer"""," ""None"""," ""troystealer""",1
+" ""e26979e6edb00c3a82c4c74de19a2cdb"""," ""win.amadey"""," ""None"""," ""Amadey""",1
+" ""e319ea3f32d6834b2a5bab92bd6e3601"""," ""win.rhadamanthys"""," ""None"""," ""Rhadamanthys""",1
+" ""ed2a4edf0216139058778c48f713ae32"""," ""win.formbook"""," ""win.xloader"""," ""Formbook""",1
+" ""f810a8847050c05616565f305c4a81ed"""," ""win.luca_stealer"""," ""None"""," ""Luca Stealer""",1
