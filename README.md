@@ -16,3 +16,22 @@ This table shows top 10 malware names with their unique hashes and counts. [For 
 |  "win.vidar" |  "3fc612f6f17fe05f683953046bc0e17c"<br> "d46539a39f8e452f1435cc641f77a590"<br> "da1ec633cbc721da3503c1892e9f257e" | 3 |
 |  "win.strelastealer" |  "6239c0ef51053deaf34396209c56daf6"<br> "838730e736434e633df209264ddc3748"<br> "a5ad7fc19478d1141e1ebe9adfdf4d95" | 3 |
 |  "win.masslogger" |  "0c5fe9c5efc8518ae098948f69eaaa4a"<br> "5d9d44a09f5cb2efccc92456c1b6b675"<br> "eb6dec3e545d5ad9d08556349db9daa8" | 3 |
+
+<!-- url_summary_start -->
+## 🔗 Top 10 URLs:
+
+Automated URL Collections, grouped by Tags: Every day at 03:00 UTC. Last Updated: 2025-08-11 03:58:58 UTC.
+
+| Tag | Count |
+|-----|-------|
+| 32-bit,elf,mips,Mozi | 6328 |
+| elf,mirai,ua-wget | 1791 |
+| mirai,opendir | 729 |
+| 32-bit,arm,elf,mirai,Mozi | 659 |
+| botnetdomain,elf,mirai,ua-wget | 567 |
+| botnetdomain,mirai,opendir | 490 |
+| elf,ua-wget | 461 |
+| backdoor,censys,elf,sshdkit | 356 |
+| botnetdomain,elf,mirai,opendir | 354 |
+| censys,elf,hajime | 351 |
+<!-- url_summary_end -->
