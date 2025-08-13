@@ -16,3 +16,22 @@ This table shows top 10 malware names with their unique hashes and counts. [For 
 |  "win.valley_rat" |  "8deb32007e7ee8b9752d61c38347a4d4"<br> "a9b837e05666b46d68c6b3f0fbfbaee5"<br> "bbc4fd1a3c41d4d068402ab2b7052cbf"<br> "bd25d55d8ff0716e51ce66a1fba3fc7f"<br> "c4c5ff2b7bca41f867e31af6d3025940"<br> "c5b6d7a45cb935809e8e1193f892da51" | 6 |
 |  "win.xworm" |  "180fea5a7e2c9887b9e3900b7deccf9b"<br> "22315421315d5ab969377ccb331b0294"<br> "5baf621b92b0327e3b0052241d7d8872"<br> "97d1f1d26c8d04ca5a1f325704d62542"<br> "ca51e7783b9291c5abe7f5c7a17de3f2"<br> "e6dcfaf43ba9ea018b80e5e8cc9f12be" | 6 |
 |  "win.luca_stealer" |  "2276b76282b6a6dfbb35bca643980361"<br> "258e45c774d38b089c4319fca6d22201"<br> "4a08675e3788f44107406cbc8c95bdb6"<br> "7c86458a4f9d9af4f641696cc5fa5c5b"<br> "bffe3a99ca06ec04fb12e6077aefbbbb" | 5 |
+
+<!-- url_summary_start -->
+## 🔗 Top 10 URLs:
+
+Automated URL Collections, grouped by Tags: Every day at 03:00 UTC. Last Updated: 2025-08-13 03:43:47 UTC.
+
+| Tag | Count |
+|-----|-------|
+| 32-bit,elf,mips,Mozi | 6359 |
+| elf,mirai,ua-wget | 1771 |
+| mirai,opendir | 695 |
+| 32-bit,arm,elf,mirai,Mozi | 665 |
+| botnetdomain,elf,mirai,ua-wget | 567 |
+| botnetdomain,mirai,opendir | 490 |
+| elf,ua-wget | 464 |
+| botnetdomain,elf,mirai,opendir | 354 |
+| censys,elf,hajime | 351 |
+| 32-bit,elf,Mozi | 351 |
+<!-- url_summary_end -->
