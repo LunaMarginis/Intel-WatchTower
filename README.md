@@ -16,3 +16,22 @@ This table shows top 10 malware names with their unique hashes and counts. [For 
 |  "win.gcleaner" |  "7c7a2ed756bf8f8222f7d2fe9b790984"<br> "b0693cb0717fb2096f98eab35dd4cf91"<br> "d3526bf5b74831753366c51edea11e59" | 3 |
 |  "win.dcrat" |  "0b42ba80bcaed59a2160b8da478f693c"<br> "1d773d202e49b29a1936d51d76ab8b09"<br> "4c731e8c8e744cdf9f3f0b85b44294e9" | 3 |
 |  "win.coinminer" |  "0bfae7cbb85b7023f7cecf59218e226a"<br> "46d32b7e96d5d442afd21bbdc68a96e7"<br> "f4714a4f9594c094c371ae4b7541db07" | 3 |
+
+<!-- url_summary_start -->
+## 🔗 Top 10 URLs:
+
+Automated URL Collections, grouped by Tags: Every day at 03:00 UTC. Last Updated: 2025-08-14 03:44:21 UTC.
+
+| Tag | Count |
+|-----|-------|
+| 32-bit,elf,mips,Mozi | 6355 |
+| elf,mirai,ua-wget | 1648 |
+| mirai,opendir | 694 |
+| 32-bit,arm,elf,mirai,Mozi | 670 |
+| botnetdomain,elf,mirai,ua-wget | 606 |
+| botnetdomain,mirai,opendir | 490 |
+| elf,ua-wget | 481 |
+| 32-bit,elf,Mozi | 374 |
+| botnetdomain,elf,geofenced,mirai,ua-wget,USA | 356 |
+| botnetdomain,elf,mirai,opendir | 354 |
+<!-- url_summary_end -->
