@@ -1,47 +1,4 @@
 ioc_value,fk_malware,malware_alias,malware_printable,count
-" ""06234947f48f69ff534867f5ed1cc587"""," ""win.nimgrabber"""," ""None"""," ""NimGrabber""",1
 " ""0c527f2ab60c6e6bcb59e0d6084cfc69"""," ""unknown"""," ""None"""," ""Unknown malware""",1
-" ""0cbe6bd3494ac1a989ab74a828d93a37"""," ""win.formbook"""," ""win.xloader"""," ""Formbook""",1
-" ""0f6f36d04f03fe09fc10e95c206a6139"""," ""win.luca_stealer"""," ""None"""," ""Luca Stealer""",1
-" ""11b5b1899397c48b4ab6a05814d57c97"""," ""win.luca_stealer"""," ""None"""," ""Luca Stealer""",1
-" ""1399a2c34b345559cc361d0e9a396e48"""," ""win.xworm"""," ""None"""," ""XWorm""",1
-" ""141b9abb06dfc21d994f4e1304833bad"""," ""win.darkstrat"""," ""None"""," ""DarkStRat""",1
-" ""149ed3a67b532e690b4f78d00c95ad5e"""," ""win.nimgrabber"""," ""None"""," ""NimGrabber""",1
 " ""1779b5ad3f448627d97e0bd8f660ae6a"""," ""unknown"""," ""None"""," ""Unknown malware""",1
-" ""1824cc8915891fb052aab74a025f0129"""," ""win.njrat"""," ""Bladabindi","Lime-Worm""",1
-" ""1851dc48b25b34d01dce54dd74e1a7f0"""," ""win.xworm"""," ""None"""," ""XWorm""",1
-" ""1ab14694b269f879403441f033cdf8e2"""," ""win.krakenkeylogger"""," ""None"""," ""KrakenKeylogger""",1
-" ""1c50fbde3316fa7e72590a7c515f43d4"""," ""win.xworm"""," ""None"""," ""XWorm""",1
-" ""215f3abf5f180560d7ef95581a1c07dc"""," ""win.redline_stealer"""," ""RECORDSTEALER"""," ""RedLine Stealer""",1
-" ""276c53bf2f1cbc62cbdb0f2cae10f0a6"""," ""win.asyncrat"""," ""None"""," ""AsyncRAT""",1
-" ""27a06f939ccb3cd8b7a182633f433489"""," ""win.asyncrat"""," ""None"""," ""AsyncRAT""",1
-" ""2ab826fa6860671dd9a1836cac3c9d8e"""," ""win.luca_stealer"""," ""None"""," ""Luca Stealer""",1
-" ""2d98402fa34579c22792a61072d36875"""," ""win.xworm"""," ""None"""," ""XWorm""",1
-" ""319c061f9312536aeff64095c35f2b58"""," ""win.sliver"""," ""None"""," ""Sliver""",1
-" ""46d32b7e96d5d442afd21bbdc68a96e7"""," ""win.coinminer"""," ""None"""," ""Coinminer""",1
-" ""5126edd73cff35025ea55c9e23987cfd"""," ""win.luca_stealer"""," ""None"""," ""Luca Stealer""",1
-" ""57c315775b2057dbb4caf4a9a1b398b5"""," ""win.formbook"""," ""win.xloader"""," ""Formbook""",1
-" ""610cf410b594790106bfe7ea5bfeda75"""," ""win.sombrat"""," ""None"""," ""SombRAT""",1
-" ""64b42bd8c5c61b6262a7698eed8c7189"""," ""win.asyncrat"""," ""None"""," ""AsyncRAT""",1
-" ""6587b3cbc9c6adecc115310a9184a423"""," ""win.rokrat"""," ""DOGCALL"""," ""RokRAT""",1
-" ""6f7d2ade454e54b5b9a7b2d500908b15"""," ""win.vjw0rm"""," ""None"""," ""Vjw0rm""",1
 " ""7857ea54154ebfca2cb88635a4207560"""," ""unknown"""," ""None"""," ""Unknown malware""",1
-" ""7a583af49b02e87896873b58d924a95c"""," ""win.luca_stealer"""," ""None"""," ""Luca Stealer""",1
-" ""7c7a2ed756bf8f8222f7d2fe9b790984"""," ""win.gcleaner"""," ""None"""," ""GCleaner""",1
-" ""82c3a153dad861a503ad9c9c944fe6d4"""," ""win.asyncrat"""," ""None"""," ""AsyncRAT""",1
-" ""85b65d7f1754ce60a2ee62aa6bf24338"""," ""win.amadey"""," ""None"""," ""Amadey""",1
-" ""8c84aadd00107e3cd69446dd176028cb"""," ""win.luca_stealer"""," ""None"""," ""Luca Stealer""",1
-" ""9ebcb5d648c22fb22f0e0f2dc00d2118"""," ""win.formbook"""," ""win.xloader"""," ""Formbook""",1
-" ""aa8519660c3e8e709659bff563e4c49b"""," ""win.asyncrat"""," ""None"""," ""AsyncRAT""",1
-" ""abf77e28a053c2ea21c19bd6f1d3bd11"""," ""win.luca_stealer"""," ""None"""," ""Luca Stealer""",1
-" ""b0693cb0717fb2096f98eab35dd4cf91"""," ""win.gcleaner"""," ""None"""," ""GCleaner""",1
-" ""ba3928b87a009dccc8522a52955a47f5"""," ""win.rhadamanthys"""," ""None"""," ""Rhadamanthys""",1
-" ""baa1bdf93e10e2b12da498fef4231e31"""," ""win.purelogs"""," ""None"""," ""PureLogs Stealer""",1
-" ""bc7935f44cf658456f3a8e1bff3c78a3"""," ""win.luca_stealer"""," ""None"""," ""Luca Stealer""",1
-" ""c9a7bf2db885ecfe9852fd5886e268b6"""," ""win.darkstrat"""," ""None"""," ""DarkStRat""",1
-" ""d3526bf5b74831753366c51edea11e59"""," ""win.gcleaner"""," ""None"""," ""GCleaner""",1
-" ""e58ae9ac8306013d7dc1b23ff41b41e2"""," ""win.luca_stealer"""," ""None"""," ""Luca Stealer""",1
-" ""f447d465aeb908aa17e0e51982949ce0"""," ""win.formbook"""," ""win.xloader"""," ""Formbook""",1
-" ""f4714a4f9594c094c371ae4b7541db07"""," ""win.coinminer"""," ""None"""," ""Coinminer""",1
-" ""f48a66c4e2f4f9eb54a3f60ca43814f4"""," ""win.typhon_stealer"""," ""Typhon Reborn V2"""," ""Typhon Stealer""",1
-" ""fb638f33f3e2b00632fb57631db18742"""," ""win.xworm"""," ""None"""," ""XWorm""",1
