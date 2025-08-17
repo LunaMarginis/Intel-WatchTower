@@ -16,3 +16,22 @@ This table shows top 10 malware names with their unique hashes and counts. [For 
 |  "win.strelastealer" |  "1ed16ea4a6d60cab5f15b830e3fd934b"<br> "95ca11ff00293585dca9c0109a408f66" | 2 |
 |  "win.amadey" |  "ea4074142cbc09d33f8a6a065f02cbf4" | 1 |
 |  "win.formbook" |  "5dadeaf5d4464ff613723c7f929a2633" | 1 |
+
+<!-- url_summary_start -->
+## 🔗 Top 10 URLs:
+
+Automated URL Collections, grouped by Tags: Every day at 03:00 UTC. Last Updated: 2025-08-17 03:48:31 UTC.
+
+| Tag | Count |
+|-----|-------|
+| 32-bit,elf,mips,Mozi | 6529 |
+| elf,mirai,ua-wget | 1519 |
+| botnetdomain,elf,mirai,ua-wget | 866 |
+| botnetdomain,mirai,opendir | 765 |
+| mirai,opendir | 736 |
+| 32-bit,arm,elf,mirai,Mozi | 693 |
+| elf,ua-wget | 575 |
+| 32-bit,elf,Mozi | 449 |
+| botnetdomain,elf,geofenced,mirai,ua-wget,USA | 356 |
+| botnetdomain,elf,mirai,opendir | 354 |
+<!-- url_summary_end -->
