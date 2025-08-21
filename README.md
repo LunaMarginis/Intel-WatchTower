@@ -16,3 +16,22 @@ This table shows top 10 malware names with their unique hashes and counts. [For 
 |  "win.coinminer" |  "fcb7009ab298bb4b59a28bc958b30a6d" | 1 |
 |  "win.purpleink" |  "5db9a032b31a74b6b64614424818899f" | 1 |
 |  "win.krakenkeylogger" |  "a72fbedc6515423321246d11c82db58e" | 1 |
+
+<!-- url_summary_start -->
+## 🔗 Top 10 URLs:
+
+Automated URL Collections, grouped by Tags: Every day at 03:00 UTC. Last Updated: 2025-08-21 03:33:12 UTC.
+
+| Tag | Count |
+|-----|-------|
+| 32-bit,elf,mips,Mozi | 6672 |
+| elf,mirai,ua-wget | 1560 |
+| botnetdomain,elf,mirai,ua-wget | 897 |
+| botnetdomain,mirai,opendir | 825 |
+| 32-bit,arm,elf,mirai,Mozi | 727 |
+| mirai,opendir | 661 |
+| elf,ua-wget | 576 |
+| 32-bit,elf,Mozi | 530 |
+| botnetdomain,elf,geofenced,mirai,ua-wget,USA | 356 |
+| botnetdomain,elf,mirai,opendir | 354 |
+<!-- url_summary_end -->
