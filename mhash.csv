@@ -10,6 +10,7 @@ ioc_value,fk_malware,malware_alias,malware_printable,count
 " ""2ec65ea39e10130c9ef1b4959cd8c1b6"""," ""win.stealc"""," ""None"""," ""Stealc""",1
 " ""34876a9697f92cc1c159053d5a670e5d"""," ""win.xworm"""," ""None"""," ""XWorm""",1
 " ""53caeb10cf0f802ec7597cff67bc9a13"""," ""win.formbook"""," ""win.xloader"""," ""Formbook""",1
+" ""5ab23ac79ede02166d6f5013d89738f9"""," ""win.xenorat"""," ""None"""," ""XenoRAT""",1
 " ""5db9a032b31a74b6b64614424818899f"""," ""win.purpleink"""," ""None"""," ""purpleink""",1
 " ""5f85b9eca6c9f0ddea551d99fa9dbc8d"""," ""win.redline_stealer"""," ""RECORDSTEALER"""," ""RedLine Stealer""",1
 " ""6352f7e42c001ab0776afa150b942fbf"""," ""win.vipkeylogger"""," ""None"""," ""VIP Keylogger""",1
@@ -31,6 +32,7 @@ ioc_value,fk_malware,malware_alias,malware_printable,count
 " ""cc36da35f070a8d624b1dee90fd38046"""," ""win.gcleaner"""," ""None"""," ""GCleaner""",1
 " ""dfd1b59e6825391fb8ca57543e2b35fd"""," ""win.xworm"""," ""None"""," ""XWorm""",1
 " ""e0703500ff017c45a3364a473bce1bda"""," ""win.havoc"""," ""Havokiz"""," ""Havoc""",1
+" ""e0b465d3bd1ec5e95aee016951d55640"""," ""win.xenorat"""," ""None"""," ""XenoRAT""",1
 " ""eb774e7c8fbc7976cbae2afc2a55f9ea"""," ""win.luca_stealer"""," ""None"""," ""Luca Stealer""",1
 " ""f2642117458898700b711c42223cbf1f"""," ""win.luca_stealer"""," ""None"""," ""Luca Stealer""",1
 " ""fb5d864ea260cea1e75d825d88d4152b"""," ""win.xworm"""," ""None"""," ""XWorm""",1

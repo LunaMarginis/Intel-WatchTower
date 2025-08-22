@@ -1,6 +1,6 @@
 # IOC Summary
 
-Automated Hash Collections: Every day at 02:00 UTC. Last Updated: 2025-08-21 03:06:02 UTC
+Automated Hash Collections: Every day at 02:00 UTC. Last Updated: 2025-08-22 03:06:32 UTC
 
 This table shows top 10 malware names with their unique hashes and counts. [For Complete list, check the CSV files]
 
@@ -11,27 +11,8 @@ This table shows top 10 malware names with their unique hashes and counts. [For 
 |  "win.gcleaner" |  "0ade37df44fc167eb53b80ef66bb02b9"<br> "90ae9ea4403cc0cf5c92af2d3d82c7e3"<br> "a9452a306bef9139dc7d80fb222f01e7"<br> "acb29c97ebee5f59080292255f22b272"<br> "ada31b3b06c23a13f9e5d6f520b1b539"<br> "cc36da35f070a8d624b1dee90fd38046" | 6 |
 |  "win.amadey" |  "6f4151c124693d9dfd2092b7e01df0d4"<br> "9d1ee858be90e34a8e70bdb8ad2c5e5a"<br> "fdb6f1e48ff8ec82a5d30d1aa2084078" | 3 |
 |  "win.formbook" |  "53caeb10cf0f802ec7597cff67bc9a13"<br> "77bb7e58c81684e5b380ea7a15bb8f6a"<br> "9ac6847453af1e7ae25c2356e17ee0df" | 3 |
+|  "win.xenorat" |  "5ab23ac79ede02166d6f5013d89738f9"<br> "e0b465d3bd1ec5e95aee016951d55640" | 2 |
 |  "win.redline_stealer" |  "5f85b9eca6c9f0ddea551d99fa9dbc8d"<br> "888f19d6a9aa7e7dbf0a0631a2846092" | 2 |
 |  "win.vipkeylogger" |  "0bfa29caf0bf03aa51021cf0060b3b41"<br> "6352f7e42c001ab0776afa150b942fbf" | 2 |
 |  "win.coinminer" |  "fcb7009ab298bb4b59a28bc958b30a6d" | 1 |
-|  "win.purpleink" |  "5db9a032b31a74b6b64614424818899f" | 1 |
-|  "win.krakenkeylogger" |  "a72fbedc6515423321246d11c82db58e" | 1 |
-
-<!-- url_summary_start -->
-## 🔗 Top 10 URLs:
-
-Automated URL Collections, grouped by Tags: Every day at 03:00 UTC. Last Updated: 2025-08-21 03:33:12 UTC.
-
-| Tag | Count |
-|-----|-------|
-| 32-bit,elf,mips,Mozi | 6672 |
-| elf,mirai,ua-wget | 1560 |
-| botnetdomain,elf,mirai,ua-wget | 897 |
-| botnetdomain,mirai,opendir | 825 |
-| 32-bit,arm,elf,mirai,Mozi | 727 |
-| mirai,opendir | 661 |
-| elf,ua-wget | 576 |
-| 32-bit,elf,Mozi | 530 |
-| botnetdomain,elf,geofenced,mirai,ua-wget,USA | 356 |
-| botnetdomain,elf,mirai,opendir | 354 |
-<!-- url_summary_end -->
+|  "win.havoc" |  "e0703500ff017c45a3364a473bce1bda" | 1 |
