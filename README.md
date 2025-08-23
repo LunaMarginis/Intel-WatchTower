@@ -16,3 +16,22 @@ This table shows top 10 malware names with their unique hashes and counts. [For 
 |  "win.xenorat" |  "5ab23ac79ede02166d6f5013d89738f9"<br> "e0b465d3bd1ec5e95aee016951d55640" | 2 |
 |  "win.darkcloud" |  "7b044369fad1ca21c404364a89febb6a" | 1 |
 |  "win.asyncrat" |  "d73083657e41a741076a3f5949301a54" | 1 |
+
+<!-- url_summary_start -->
+## 🔗 Top 10 URLs:
+
+Automated URL Collections, grouped by Tags: Every day at 03:00 UTC. Last Updated: 2025-08-23 03:28:04 UTC.
+
+| Tag | Count |
+|-----|-------|
+| 32-bit,elf,mips,Mozi | 6813 |
+| elf,mirai,ua-wget | 1549 |
+| botnetdomain,elf,mirai,ua-wget | 952 |
+| botnetdomain,mirai,opendir | 840 |
+| 32-bit,arm,elf,mirai,Mozi | 746 |
+| mirai,opendir | 692 |
+| elf,ua-wget | 590 |
+| 32-bit,elf,Mozi | 583 |
+| backdoor,censys,elf,sshdkit | 361 |
+| botnetdomain,elf,geofenced,mirai,ua-wget,USA | 356 |
+<!-- url_summary_end -->
