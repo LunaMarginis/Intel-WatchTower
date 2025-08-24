@@ -16,3 +16,22 @@ This table shows top 10 malware names with their unique hashes and counts. [For 
 |  "win.skimer" |  "9c80ed13dc24ef9a10f70284ddcee86d"<br> "a9066e20457658d3a0a90491b9c1271b"<br> "e7d1386579d9f0beabefeb2705d17e7f" | 3 |
 |  "win.fatal_rat" |  "0421529fc293bf95184d0c39789b0403"<br> "38d40e37e5c26de58ce243b02373cce2"<br> "6054e2c80c02e98fb85faa2ee923ca4e" | 3 |
 |  "win.formbook" |  "124436d3d167617af47a29aa4adb4df6"<br> "a0a536fb3e70307fa8bcbe775281c92f"<br> "f026baf363988b26713193fa6b4fb674" | 3 |
+
+<!-- url_summary_start -->
+## 🔗 Top 10 URLs:
+
+Automated URL Collections, grouped by Tags: Every day at 03:00 UTC. Last Updated: 2025-08-24 03:41:01 UTC.
+
+| Tag | Count |
+|-----|-------|
+| 32-bit,elf,mips,Mozi | 6862 |
+| elf,mirai,ua-wget | 1543 |
+| botnetdomain,elf,mirai,ua-wget | 961 |
+| botnetdomain,mirai,opendir | 840 |
+| 32-bit,arm,elf,mirai,Mozi | 751 |
+| mirai,opendir | 692 |
+| 32-bit,elf,Mozi | 604 |
+| elf,ua-wget | 539 |
+| ua-wget | 365 |
+| backdoor,censys,elf,sshdkit | 361 |
+<!-- url_summary_end -->
