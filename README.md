@@ -16,3 +16,22 @@ This table shows top 10 malware names with their unique hashes and counts. [For 
 |  "win.troystealer" |  "8ea9a672b39c627d0b45a622459613e4"<br> "97e012c2a3f7d2212f2e7ca12ca01165"<br> "b183aa077bb2d83367602c1d34496360"<br> "b73c43d6d24bd33e4ffd274862b45408" | 4 |
 |  "win.stealc" |  "038465414ca1bcb2e3347c521fc6cba9"<br> "4b0a11394934fa0a303d05544e5d8c91"<br> "d788262429afeccc7e1ba162b532aec2" | 3 |
 |  "win.skimer" |  "9c80ed13dc24ef9a10f70284ddcee86d"<br> "a9066e20457658d3a0a90491b9c1271b"<br> "e7d1386579d9f0beabefeb2705d17e7f" | 3 |
+
+<!-- url_summary_start -->
+## 🔗 Top 10 URLs:
+
+Automated URL Collections, grouped by Tags: Every day at 03:00 UTC. Last Updated: 2025-08-25 03:40:00 UTC.
+
+| Tag | Count |
+|-----|-------|
+| 32-bit,elf,mips,Mozi | 6875 |
+| elf,mirai,ua-wget | 1539 |
+| botnetdomain,elf,mirai,ua-wget | 973 |
+| 32-bit,arm,elf,mirai,Mozi | 755 |
+| mirai,opendir | 632 |
+| 32-bit,elf,Mozi | 615 |
+| elf,ua-wget | 542 |
+| botnetdomain,mirai,opendir | 476 |
+| ua-wget | 378 |
+| botnetdomain,elf,geofenced,mirai,ua-wget,USA | 356 |
+<!-- url_summary_end -->
