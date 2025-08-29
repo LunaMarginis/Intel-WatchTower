@@ -16,3 +16,22 @@ This table shows top 10 malware names with their unique hashes and counts. [For 
 |  "win.coinminer" |  "0265844719a7a439f4f89a6e2d26dd85"<br> "07f36f68b890600cada91a2c2628efd9"<br> "1b6a9b389c86f3713e269f258f7e92ad"<br> "28f28287eed545cfe506e1aca7255a27"<br> "bab6342902911fbc5c3a3cacf2fb9034"<br> "e885ea941084bf5f4a416dd4eb5b5e50" | 6 |
 |  "win.rhadamanthys" |  "04627b90fa2ef4f4a851452bf5dcf6f7"<br> "18df92826301d35ec512fc5234d20a33"<br> "648770e269332fa19a4b75564389cd96"<br> "6956a0b1ce88b5c9689f375cebaec8ab"<br> "6b80d416f05a8210947c7385209a2b12" | 5 |
 |  "win.krakenkeylogger" |  "2395074286e98b50455f0800748e2fdb"<br> "46c6e04502e58ea0363ab6cb369a9cbf"<br> "6a00044f0e543d0175f46c347aa61dbd"<br> "e08cc8e33ca8500bb73bf515ff2f8f1a"<br> "f9cf07396b9af7038b231da3c160d35e" | 5 |
+
+<!-- url_summary_start -->
+## 🔗 Top 10 URLs:
+
+Automated URL Collections, grouped by Tags: Every day at 03:00 UTC. Last Updated: 2025-08-29 03:27:36 UTC.
+
+| Tag | Count |
+|-----|-------|
+| 32-bit,elf,mips,Mozi | 7024 |
+| elf,mirai,ua-wget | 1539 |
+| 32-bit,arm,elf,mirai,Mozi | 780 |
+| 32-bit,elf,Mozi | 685 |
+| elf,ua-wget | 609 |
+| botnetdomain,elf,mirai,ua-wget | 608 |
+| mirai,opendir | 575 |
+| botnetdomain,mirai,opendir | 474 |
+| ua-wget | 396 |
+| backdoor,censys,elf,sshdkit | 355 |
+<!-- url_summary_end -->
