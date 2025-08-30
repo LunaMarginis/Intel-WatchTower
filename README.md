@@ -16,3 +16,22 @@ This table shows top 10 malware names with their unique hashes and counts. [For 
 |  "win.spark_rat" |  "37320cc3cb7741f5b3b4777db93d87c5"<br> "677bd0c0a255a00773b3f6056590d05a"<br> "6fe0ed915de0327d7265b68ecef9adfd" | 3 |
 |  "win.krakenkeylogger" |  "2395074286e98b50455f0800748e2fdb"<br> "46c6e04502e58ea0363ab6cb369a9cbf"<br> "e08cc8e33ca8500bb73bf515ff2f8f1a" | 3 |
 |  "win.luca_stealer" |  "106f5a44da3a06934b1de3c6e6ce788a"<br> "b449f98bb1b284be3a20712482fa4716"<br> "fdab882bf24bc7a5595e080134b51be3" | 3 |
+
+<!-- url_summary_start -->
+## 🔗 Top 10 URLs:
+
+Automated URL Collections, grouped by Tags: Every day at 03:00 UTC. Last Updated: 2025-08-30 03:21:18 UTC.
+
+| Tag | Count |
+|-----|-------|
+| 32-bit,elf,mips,Mozi | 7096 |
+| elf,mirai,ua-wget | 1506 |
+| 32-bit,arm,elf,mirai,Mozi | 781 |
+| 32-bit,elf,Mozi | 681 |
+| elf,ua-wget | 634 |
+| botnetdomain,elf,mirai,ua-wget | 605 |
+| mirai,opendir | 589 |
+| botnetdomain,mirai,opendir | 503 |
+| ua-wget | 395 |
+| botnetdomain,elf,mirai,opendir | 354 |
+<!-- url_summary_end -->
