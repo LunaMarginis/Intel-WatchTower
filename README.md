@@ -16,3 +16,22 @@ This table shows top 10 malware names with their unique hashes and counts. [For 
 |  "win.stealc" |  "2eb8f67ca799139c5a9e75a769e384b4"<br> "cb7d153e0b6288be03b05d92c9636b04"<br> "fb7c5ff4f14d10b8940c93a8f549e07a" | 3 |
 |  "win.asyncrat" |  "71d1e6bfcee6c05a69302333c95c4119"<br> "8972f137d51fd08434fa011094f99854" | 2 |
 |  "win.swaet_rat" |  "3d4fd69e3b6234e425a1842e004e88c1"<br> "769f2b951fbd8fb34aef50f2a61d1d01" | 2 |
+
+<!-- url_summary_start -->
+## 🔗 Top 10 URLs:
+
+Automated URL Collections, grouped by Tags: Every day at 03:00 UTC. Last Updated: 2025-08-31 03:30:26 UTC.
+
+| Tag | Count |
+|-----|-------|
+| 32-bit,elf,mips,Mozi | 7070 |
+| elf,mirai,ua-wget | 1510 |
+| 32-bit,arm,elf,mirai,Mozi | 795 |
+| 32-bit,elf,Mozi | 677 |
+| elf,ua-wget | 653 |
+| botnetdomain,elf,mirai,ua-wget | 605 |
+| mirai,opendir | 574 |
+| botnetdomain,mirai,opendir | 503 |
+| ua-wget | 395 |
+| backdoor,censys,elf,sshdkit | 360 |
+<!-- url_summary_end -->
