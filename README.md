@@ -16,3 +16,22 @@ This table shows top 10 malware names with their unique hashes and counts. [For 
 |  "win.vipkeylogger" |  "28485e92124a53aef5700265ad0bc658"<br> "35753ae0697f31ee6ca9ab92a4f980c9"<br> "3c576cf8efcf5554c22717dbfedb07a6"<br> "50a45ffb4edd95232ee419d8281a6277"<br> "75c1f46a98c8cdcdc230c2976fb23351"<br> "7baa5dde762eed51eeee6710cd077d36"<br> "834afd86ad4bab0887ff4fb3d1adfebf"<br> "9756664c0053426fe68db7b618b348a9"<br> "e6640ac5a6c0fa0f692cc0268e35a472" | 9 |
 |  "win.quantloader" |  "064e238d29f4d2650db138dae656b0d1"<br> "186696bf61e05ab662166af76b0b913c"<br> "1c1a09f1fc0f9541a923fa32ae7e5b43"<br> "28595f6a1d0e5f197258f2fddb911ba7"<br> "5a98faed8f5cdb690def154929da30aa"<br> "caa6a0c52daee6540ac71d68a45049f9" | 6 |
 |  "win.troystealer" |  "0137c9a42509c342c6f19bacb8112fe3"<br> "24e4d6993acba50fc3c1f29f47edd1ba"<br> "67bf85932d317fd90a50c164da52193c"<br> "9d13a6fa9b8804005488148190972696"<br> "a599a5c898faeebe03fbc781f3bb4b22"<br> "ffcd4aa8f1e387d9a92621c6f2b716d0" | 6 |
+
+<!-- url_summary_start -->
+## 🔗 Top 10 URLs:
+
+Automated URL Collections, grouped by Tags: Every day at 03:00 UTC. Last Updated: 2025-09-06 03:18:48 UTC.
+
+| Tag | Count |
+|-----|-------|
+| 32-bit,elf,mips,Mozi | 7142 |
+| elf,mirai,ua-wget | 1442 |
+| 32-bit,arm,elf,mirai,Mozi | 779 |
+| 32-bit,elf,Mozi | 764 |
+| botnetdomain,elf,mirai,ua-wget | 682 |
+| elf,ua-wget | 619 |
+| botnetdomain,mirai,opendir | 493 |
+| mirai,opendir | 488 |
+| ua-wget | 389 |
+| backdoor,censys,elf,sshdkit | 354 |
+<!-- url_summary_end -->
