@@ -16,3 +16,22 @@ This table shows top 10 malware names with their unique hashes and counts. [For 
 |  "win.asyncrat" |  "8341c41df42418a3e60b58aeada9382c" | 1 |
 |  "win.coinminer" |  "a6d0b3ea5887015f7816884671bdea22" | 1 |
 |  "win.formbook" |  "cdbe4af95f7a48f000691d3a3bbc8fa8" | 1 |
+
+<!-- url_summary_start -->
+## 🔗 Top 10 URLs:
+
+Automated URL Collections, grouped by Tags: Every day at 03:00 UTC. Last Updated: 2025-09-08 03:32:08 UTC.
+
+| Tag | Count |
+|-----|-------|
+| 32-bit,elf,mips,Mozi | 7145 |
+| elf,mirai,ua-wget | 1472 |
+| 32-bit,arm,elf,mirai,Mozi | 763 |
+| 32-bit,elf,Mozi | 758 |
+| botnetdomain,elf,mirai,ua-wget | 755 |
+| elf,ua-wget | 651 |
+| botnetdomain,mirai,opendir | 633 |
+| mirai,opendir | 490 |
+| ua-wget | 396 |
+| backdoor,censys,elf,sshdkit | 345 |
+<!-- url_summary_end -->
