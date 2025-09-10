@@ -1,6 +1,6 @@
 # IOC Summary
 
-Automated Hash Collections: Every day at 02:00 UTC. Last Updated: 2025-09-09 02:59:55 UTC
+Automated Hash Collections: Every day at 02:00 UTC. Last Updated: 2025-09-10 02:53:49 UTC
 
 This table shows top 10 malware names with their unique hashes and counts. [For Complete list, check the CSV files]
 
@@ -16,22 +16,3 @@ This table shows top 10 malware names with their unique hashes and counts. [For 
 |  "win.guidloader" |  "45ad9739c72ea73223a1b2f608568729" | 1 |
 |  "win.dcrat" |  "a8a5820911feaef78cbfd9595ffd93bf" | 1 |
 |  "win.luca_stealer" |  "78ccde31d900a0108b4dc18c029c8173" | 1 |
-
-<!-- url_summary_start -->
-## 🔗 Top 10 URLs:
-
-Automated URL Collections, grouped by Tags: Every day at 03:00 UTC. Last Updated: 2025-09-09 03:26:22 UTC.
-
-| Tag | Count |
-|-----|-------|
-| 32-bit,elf,mips,Mozi | 7164 |
-| elf,mirai,ua-wget | 1490 |
-| 32-bit,arm,elf,mirai,Mozi | 767 |
-| 32-bit,elf,Mozi | 762 |
-| botnetdomain,elf,mirai,ua-wget | 735 |
-| botnetdomain,mirai,opendir | 671 |
-| elf,ua-wget | 668 |
-| mirai,opendir | 490 |
-| ua-wget | 412 |
-| ClearFake | 361 |
-<!-- url_summary_end -->
