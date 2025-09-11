@@ -1,37 +1,18 @@
 # IOC Summary
 
-Automated Hash Collections: Every day at 02:00 UTC. Last Updated: 2025-09-10 02:53:49 UTC
+Automated Hash Collections: Every day at 02:00 UTC. Last Updated: 2025-09-11 02:58:37 UTC
 
 This table shows top 10 malware names with their unique hashes and counts. [For Complete list, check the CSV files]
 
 | Malware Name | ioc_value (Hashes) | Count |
 |--------------|--------------------|-------|
-|  "win.formbook" |  "23eaef6c5a51838be5435790213c536b"<br> "3fff8586600f532c8e22967571ca15fe"<br> "5964ecc729d220d84df2965ba6bd73ef"<br> "88b7386af103d98f5ea47f5f616c45a3"<br> "c76fb89f48be25f869f4a327d3581ed1"<br> "d5ea0d27a4346578c2fe5eeb1d6da224" | 6 |
-|  "win.xworm" |  "39a201fd01d6139dc067ec1ecfacd27b"<br> "a464639bbcc77bf2429eefa47d5f1242"<br> "a5ec74e225545190e29b021ceee03b75"<br> "a631de9442942294df88c9df3bc22732"<br> "da9e4702e74dc016535667ba152e18fe" | 5 |
-|  "win.masslogger" |  "1d56f717bbc50858cdcfa6ae273b9af1"<br> "2b6c4e1e73321d08e08efa6f42de93ab"<br> "3625d38d7ff12f966749804282ec8cd9"<br> "6b3256805f492d561e2c32310f4fa8f6"<br> "7265f9e99a4f94426a95c237c271dadb" | 5 |
-|  "win.amadey" |  "4378c6c5c81e8f7c1df82eac0bdc5e56"<br> "539ca6a0f3e9e161794b35da6d5af7fd"<br> "aaaa70400894543ed5ad2acbe930504d"<br> "f0fb4c7db5ce32ea40472ffe8ff58cc1" | 4 |
-|  "win.krakenkeylogger" |  "38cf4949d96a027602eb2e7610d75f36"<br> "6144b30bd4c7ceeab4a66f24ad72bb4d" | 2 |
-|  "win.troystealer" |  "8fa4b8f5d1ae61ba8f4538e70b4099c5"<br> "d4c2c116572589e9c903cf58cdaabfdb" | 2 |
-|  "win.asyncrat" |  "c98402c1eec630df75ae8373cfd42724"<br> "d4857622852c67a99a06ced85abd05d1" | 2 |
-|  "win.guidloader" |  "45ad9739c72ea73223a1b2f608568729" | 1 |
-|  "win.dcrat" |  "a8a5820911feaef78cbfd9595ffd93bf" | 1 |
-|  "win.luca_stealer" |  "78ccde31d900a0108b4dc18c029c8173" | 1 |
-
-<!-- url_summary_start -->
-## 🔗 Top 10 URLs:
-
-Automated URL Collections, grouped by Tags: Every day at 03:00 UTC. Last Updated: 2025-09-10 03:19:36 UTC.
-
-| Tag | Count |
-|-----|-------|
-| 32-bit,elf,mips,Mozi | 7177 |
-| elf,mirai,ua-wget | 1530 |
-| 32-bit,elf,Mozi | 780 |
-| 32-bit,arm,elf,mirai,Mozi | 768 |
-| botnetdomain,elf,mirai,ua-wget | 735 |
-| elf,ua-wget | 693 |
-| botnetdomain,mirai,opendir | 670 |
-| mirai,opendir | 462 |
-| ua-wget | 422 |
-| ClearFake | 390 |
-<!-- url_summary_end -->
+|  "win.amadey" |  "25248e4f50ef341c537fde0c906a9a43"<br> "3f20f68d42fa93d86e303ee4f1123821"<br> "670ab5c0028a64e6e3a1d2c8bddd3d8e"<br> "7753b82ba7a6dc503bfc9f926832bac8"<br> "96c666a8de6c87f0161dcc3fbb973efa"<br> "a1d3bc7b91de9cc5a7b04ae9049b1cd2"<br> "a47eb3b7010a61b95ad1fa8974ceb33b"<br> "ab8636948bf170a95fd610d069c770ae"<br> "ad23667c19896d953a3455d09d2bd468" | 9 |
+|  "win.troystealer" |  "2fcdf6f7728d0b1cf228f5bc62be042f"<br> "3cc4e6ad725ba33ddc6fe3d84ace8f35"<br> "57db6c4f01fed6eaa5724126b21eef16"<br> "8532ffc328629776849585c44151bca4"<br> "992d4ef8af61c15fa945ec411658d470"<br> "9e0c6791f6173fb87e16096e3494add0"<br> "b3d21e6ab683e04031ded1283c0bfe3d"<br> "fbd5e1cdd47464182aefd4c48e3d335a" | 8 |
+|  "win.luca_stealer" |  "54adc9578379b5099e2d13b17273a418"<br> "54e7e12486248e0d06b0a61cd1c17e51"<br> "56d1dbf58be3547416dfe140e38f94bd"<br> "663cab926b8123f46825d2bfacb64266"<br> "b5bb62b58fff390f3f8d25f877c3cdc1"<br> "caccd07e3ef250887519851ea048c522"<br> "f601482a221c89b955d050b5c006672b" | 7 |
+|  "win.skimer" |  "041b8fa710ea56def9e3b2e22b13581e"<br> "5b571b0823e074de913420de2754af70"<br> "6fea926aa5fe12448933436411df3d08"<br> "77421f699e7c9961d7d85523cacf223b"<br> "b682bd0ea36ef147bce6ff2af6a42636" | 5 |
+|  "win.xworm" |  "1fe69372d8ee32779cea80675b77248d"<br> "a2b66dc98958c9ffad6e57914ee2d150"<br> "a566e32dece5d057d46d2e198c69da05"<br> "cde70b458b2de95022fe0de6aa041fae" | 4 |
+|  "win.krakenkeylogger" |  "22a6faaae2e3dc2b586321495c5dc5cb"<br> "85934f31db6b7f647a07bcbf56ece758"<br> "9ac45a299e92bfa013e83a2dc424aabc"<br> "c1643274e82632dc6056c5020462f39e" | 4 |
+|  "win.agent_tesla" |  "09a2b213c8c9f6d382695ce77fa35939"<br> "4ee6b3ff22244e09052132dc9cae7561"<br> "cab2ce6a1a23905f86061e0739e37421"<br> "e44be3c0f49575e143b4988fa63579ba" | 4 |
+|  "win.remcos" |  "7e10585f0831482fe27b2823d85c1ec7"<br> "96c94605fee9d49639b745885a242a67"<br> "d7e6c7a4821eaada9993b9d1462e407b" | 3 |
+|  "win.formbook" |  "5e58e8a4ad32bed650ca8310702f0f4d"<br> "7c4c18b51aeb0f41cfcf595c3b5ec953"<br> "c55941da9a8d5d4b58c5712509d76147" | 3 |
+|  "win.dcrat" |  "91c40e2dd027c7f496a6e71717ab637c"<br> "c889f1dd65a410f4c84dd5f13ca70cb9" | 2 |
