@@ -16,3 +16,22 @@ This table shows top 10 malware names with their unique hashes and counts. [For 
 |  "win.rhadamanthys" |  "10577f6ced6336e22b57279f99d028e3"<br> "389b49084f5f96fa499bf0c59f718244"<br> "8444a33d0ede27e48a20ce65d8ac6e2b"<br> "8d2b4fd695a4165d0b920e3aa7cd83f7"<br> "c0f6847b5ddb86aa0093ba6f8bc6f221"<br> "df12fc4a75d3be8a6ed898d7d38a8174" | 6 |
 |  "win.xworm" |  "1a1d02f23b4010b9891ffc357d562c14"<br> "1fe69372d8ee32779cea80675b77248d"<br> "5bf4d5df640c1060dbcf90a0b14adbf4"<br> "a2b66dc98958c9ffad6e57914ee2d150"<br> "a566e32dece5d057d46d2e198c69da05"<br> "cde70b458b2de95022fe0de6aa041fae" | 6 |
 |  "win.asyncrat" |  "0add78af83f0c9216537a3836757a885"<br> "45dfcc1a3abe638b37ced67d7bf6dcef"<br> "734645ae1d4f96093cd88ea7bf501ffd"<br> "87c366d2b5ad013d345f18f2e49623d5"<br> "ed21b499270801aa58801c039ea11306" | 5 |
+
+<!-- url_summary_start -->
+## 🔗 Top 10 URLs:
+
+Automated URL Collections, grouped by Tags: Every day at 03:00 UTC. Last Updated: 2025-09-12 03:19:15 UTC.
+
+| Tag | Count |
+|-----|-------|
+| 32-bit,elf,mips,Mozi | 7212 |
+| elf,mirai,ua-wget | 1516 |
+| 32-bit,elf,Mozi | 798 |
+| 32-bit,arm,elf,mirai,Mozi | 768 |
+| botnetdomain,elf,mirai,ua-wget | 727 |
+| botnetdomain,mirai,opendir | 670 |
+| elf,ua-wget | 665 |
+| ClearFake | 546 |
+| mirai,opendir | 438 |
+| ua-wget | 412 |
+<!-- url_summary_end -->
