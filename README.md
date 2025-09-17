@@ -16,3 +16,22 @@ This table shows top 10 malware names with their unique hashes and counts. [For 
 |  "win.masslogger" |  "0585f848edb2a9075e464b1ff32b432d"<br> "318a6d31746ddf04e2665f1b41b96be2"<br> "323404a09867d721d4d6ff433baac6cc" | 3 |
 |  "win.screenlocker" |  "e02f637e42fe069a3617c498045ad9bb"<br> "eba932b7a081215624875013efa73bdf" | 2 |
 |  "win.krakenkeylogger" |  "00c2e03a774c38525654db4822d0be46"<br> "be8cd0c6f400602ab7fee05784a4b726" | 2 |
+
+<!-- url_summary_start -->
+## 🔗 Top 10 URLs:
+
+Automated URL Collections, grouped by Tags: Every day at 03:00 UTC. Last Updated: 2025-09-17 03:19:51 UTC.
+
+| Tag | Count |
+|-----|-------|
+| 32-bit,elf,mips,Mozi | 7294 |
+| elf,mirai,ua-wget | 1351 |
+| 32-bit,elf,Mozi | 907 |
+| ClearFake | 789 |
+| 32-bit,arm,elf,mirai,Mozi | 750 |
+| elf,ua-wget | 591 |
+| mirai,opendir | 488 |
+| botnetdomain,elf,mirai,ua-wget | 444 |
+| botnetdomain,mirai,opendir | 395 |
+| ua-wget | 336 |
+<!-- url_summary_end -->
