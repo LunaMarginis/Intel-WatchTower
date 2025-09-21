@@ -16,3 +16,22 @@ This table shows top 10 malware names with their unique hashes and counts. [For 
 |  "win.stealc" |  "0c6b725f88830a6c5361b86f991de010"<br> "27ef3cd830f44d5a20e914d6ab7ed5bc"<br> "e61406f9ba02fd810a07856095ee5619" | 3 |
 |  "win.troystealer" |  "1025f0954808bdbfd67630b347f23aee"<br> "722a7e45fd9fea5ccdfcd4eef87cc1bf"<br> "d611c3356b41602e07ae6919162593e1" | 3 |
 |  "win.redline_stealer" |  "3f7661295900b6738aa6bce3aec8c7bc"<br> "983dd4762613dbb6e5e33e22bcbbc1c1" | 2 |
+
+<!-- url_summary_start -->
+## 🔗 Top 10 URLs:
+
+Automated URL Collections, grouped by Tags: Every day at 03:00 UTC. Last Updated: 2025-09-21 03:31:42 UTC.
+
+| Tag | Count |
+|-----|-------|
+| 32-bit,elf,mips,Mozi | 7260 |
+| elf,mirai,ua-wget | 1263 |
+| ClearFake | 1126 |
+| 32-bit,elf,Mozi | 982 |
+| 32-bit,arm,elf,mirai,Mozi | 732 |
+| elf,ua-wget | 622 |
+| mirai,opendir | 454 |
+| botnetdomain,elf,mirai,ua-wget | 374 |
+| elf,mirai | 369 |
+| backdoor,censys,elf,sshdkit | 313 |
+<!-- url_summary_end -->
