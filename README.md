@@ -16,3 +16,22 @@ This table shows top 10 malware names with their unique hashes and counts. [For 
 |  "win.amadey" |  "14503ecfabad1a1fc7eb044104b2a07c" | 1 |
 |  "win.purpleink" |  "8134d7d50dd227b6c4c31c079b4a98dd" | 1 |
 |  "win.redline_stealer" |  "6a43d142104436e3f0323245c3b7567a" | 1 |
+
+<!-- url_summary_start -->
+## 🔗 Top 10 URLs:
+
+Automated URL Collections, grouped by Tags: Every day at 03:00 UTC. Last Updated: 2025-09-23 03:22:45 UTC.
+
+| Tag | Count |
+|-----|-------|
+| 32-bit,elf,mips,Mozi | 7203 |
+| ClearFake | 1582 |
+| elf,mirai,ua-wget | 1292 |
+| 32-bit,elf,Mozi | 995 |
+| 32-bit,arm,elf,mirai,Mozi | 724 |
+| elf,ua-wget | 628 |
+| mirai,opendir | 454 |
+| elf,mirai | 345 |
+| botnetdomain,elf,mirai,ua-wget | 315 |
+| backdoor,censys,elf,sshdkit | 309 |
+<!-- url_summary_end -->
