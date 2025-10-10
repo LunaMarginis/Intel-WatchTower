@@ -16,3 +16,22 @@ This table shows top 10 malware names with their unique hashes and counts. [For 
 |  "win.coinminer" |  "02b214a1c45453a01667d3622b961568"<br> "22a88a21370738b8d68dda97ea7e86a0"<br> "cf2b4ae66fbc48d4cb64cb86736c9bb7"<br> "fc37c5d11fc04d76692f1b4aee6a0250" | 4 |
 |  "win.salatstealer" |  "29eb8469e0b597aef5a0841ab85f61be"<br> "a1f1465a403dc2b4922af69a0cc0f719"<br> "bfccb08c5455f05b8d64a06179863636"<br> "dadf612e1af2ef87d22344f772fb64fa" | 4 |
 |  "win.taleret" |  "144a580d45e3bedd80975e5234aaa289"<br> "34e42f1cd11d90799c4c8ab975712a32"<br> "63947ed775f4c8051cbc31c160442ff7"<br> "7be8e2c38bb16695ee8b1ef44736d68e" | 4 |
+
+<!-- url_summary_start -->
+## 🔗 Top 10 URLs:
+
+Automated URL Collections, grouped by Tags: Every day at 03:00 UTC. Last Updated: 2025-10-10 03:25:21 UTC.
+
+| Tag | Count |
+|-----|-------|
+| CoinMiner | 19288 |
+| 32-bit,elf,mips,Mozi | 7027 |
+| ClearFake | 4948 |
+| 32-bit,elf,Mozi | 1046 |
+| elf,mirai,ua-wget | 1044 |
+| 32-bit,arm,elf,mirai,Mozi | 895 |
+| botnetdomain,elf,mirai | 705 |
+| elf,ua-wget | 468 |
+| mirai,opendir | 456 |
+| backdoor,censys,elf,sshdkit | 315 |
+<!-- url_summary_end -->
