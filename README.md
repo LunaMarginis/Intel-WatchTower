@@ -1,37 +1,18 @@
 # IOC Summary
 
-Automated Hash Collections: Every day at 02:00 UTC. Last Updated: 2025-10-11 02:52:13 UTC
+Automated Hash Collections: Every day at 02:00 UTC. Last Updated: 2025-10-12 03:00:46 UTC
 
 This table shows top 10 malware names with their unique hashes and counts. [For Complete list, check the CSV files]
 
 | Malware Name | ioc_value (Hashes) | Count |
 |--------------|--------------------|-------|
-|  "win.formbook" |  "00248255a8d48223af34b491b00fe8aa"<br> "007c8958f98021f506e2e9f5a11215fe"<br> "0220675233eb42f43941a400c41fb551"<br> "098c710ff0332792254749d8928a4a6b"<br> "2799bd4c00158879aa32aff63adc408d"<br> "4328411f89e531e5b83a155b507e054b"<br> "54d90ab20f269d615de3c636b1ea3a1f"<br> "56ddae7d1c3b3471f8cd5e323eaf67ab"<br> "694fb91407ae5d7884b04a8fb1679f90"<br> "76b9f28397e1d0d842cfb50ec948c597"<br> "7ca85a83ecf84258325b5af4ac6d85ad"<br> "80b063951b759a37bf8db0cc8be4ffae"<br> "a0c5c0f9486b85083a50ea4c6c51735d"<br> "a97484936efdcbf51c43e2e190f3c47e"<br> "af455485695997ca4917d7b8fd8369e8"<br> "c0b5b42b35025f991160b4ac07bdfab8"<br> "c1b9c3fb59a1d5ad2657977565c8c361"<br> "c9af1ae157551026ab856e3bc465246d"<br> "cff6e9de3e9634aec6196c35de72ae5b"<br> "e1e8796469651894732e016297dcd56c"<br> "e53209dd1aae7c6f3a28c94680e640f7"<br> "ed48238816a8e971efd541ab559d7f04"<br> "f711b83e84676ba0dc92721c5e9e7764"<br> "f8676f19184a37e8b8f62f645b36c5f5" | 24 |
-|  "win.guidloader" |  "0178c32cc9e050194c1e656a59ba142f"<br> "6b4268c33037e261e3b2bea0b2f37871"<br> "7c00ca581a2791d24954f3fbd347a3fe"<br> "8f52e3cd74064d5bbc04df77135045a7"<br> "9c263035ff69f93a7342b243011bbfea"<br> "c4670cd792091a1b59c3acfcda7303a4" | 6 |
-|  "win.masslogger" |  "0177cf7cc15e3ec8316b019156f51a4e"<br> "10b9883eec04b8f38b10bea1ba770ff9"<br> "2487bcf38f6347817400a896f8a142aa"<br> "abdddff253f08516d39b5966d2bbdc95"<br> "cdac91c241ffa46bcd20796efde1c7c6"<br> "f68014c348ab92f106a6d0ee0a84adaf" | 6 |
-|  "win.asyncrat" |  "118b634961d975dfa659e9b8e71c5524"<br> "11e7a133c9f1d3d5ded4b361d70bbd76"<br> "1d12fc4b539ac84fe5876087bf6f4525"<br> "7f901500ca3e44dc47fd065324f62009" | 4 |
-|  "win.radrat" |  "bd0d9340cab52d1514c77ffdd37b9133"<br> "f23e793cfb638d4f77dc29ad419d4df3" | 2 |
-|  "win.krakenkeylogger" |  "0401e7c02146a18123b793fe0433b65f"<br> "b67ed3ed2436a5a17c65bca2143da377" | 2 |
-|  "win.gogoogle" |  "115e71cecbd932f4420846c16b12c4c8"<br> "3f49ef39af81a63511b67b66c3eed45b" | 2 |
-|  "win.salatstealer" |  "29eb8469e0b597aef5a0841ab85f61be"<br> "dadf612e1af2ef87d22344f772fb64fa" | 2 |
-|  "win.darktortilla" |  "8a78ee276b61a32e43ed01f2e4ab370b" | 1 |
-|  "win.expiro" |  "78ba1ff15b8658b703fdbdc13764cc4b" | 1 |
-
-<!-- url_summary_start -->
-## 🔗 Top 10 URLs:
-
-Automated URL Collections, grouped by Tags: Every day at 03:00 UTC. Last Updated: 2025-10-11 03:18:28 UTC.
-
-| Tag | Count |
-|-----|-------|
-| CoinMiner | 19296 |
-| 32-bit,elf,mips,Mozi | 6993 |
-| ClearFake | 5385 |
-| 32-bit,elf,Mozi | 1044 |
-| elf,mirai,ua-wget | 1008 |
-| 32-bit,arm,elf,mirai,Mozi | 919 |
-| botnetdomain,elf,mirai | 789 |
-| mirai,opendir | 474 |
-| elf,ua-wget | 467 |
-| backdoor,censys,elf,sshdkit | 304 |
-<!-- url_summary_end -->
+|  "win.rhadamanthys" |  "0341fdae6b9747864f926824f448d919"<br> "15c139b35777f1d801d8481c055683ec"<br> "31780b9156f622e96579370e7ca7bd8e"<br> "3b9447c7a1018e107b7a523fbbc6af66"<br> "40fa070802d086dc5091cb2990ec6616"<br> "5aed4d05b838cbd524e7f172271edf77"<br> "68f82970dcd9807e3b5e45c09055a9b3"<br> "734403b3344f08a37af0caf9b9f9b989"<br> "762394c261f14b8ef892bf2e64c0d4df"<br> "7a24b783992cafaa666fe2916adebfc5"<br> "af1e49b40bada9430ff0805087795221"<br> "eebfed6caddb4cd4ddaed069d7ffb277" | 12 |
+|  "win.xworm" |  "0196fbca1d4e30487ed8ce0b09fa1b1a"<br> "0432ba7a2f50b979166e1cc129a0537b"<br> "0e792b216accaef0340579db1a3d2a8f"<br> "48d3ec525c15f96bc155ee2371c29821"<br> "571380eccccbad23b45a943683832cc4"<br> "604c844ca92b15923abc0effba04c540"<br> "bc3f09fdad444ac3df8c66e521f0c28b"<br> "ec13697037467fd57c40a9544721522d"<br> "ee4f8e3f39bc33a72746be653a200fba"<br> "f906b9bd1ab505c8855b779c01f4f0d7"<br> "fb2aaf4f621e9f67cf438a697c454a36" | 11 |
+|  "win.socks5_systemz" |  "0562be9fc140c0d624607fce2a38877f"<br> "4102c72900986e67993f78f229033337"<br> "5623ed6bf00b6be80223dca1ddb1fd9a"<br> "747255fce708225ccaf2f140761b42b6"<br> "b6df93cab55f321d0093b40eafd1feeb"<br> "c81138424fd794712c28b0a59e31d1c9"<br> "e49550ac4ce21211c66788d9179e72cf" | 7 |
+|  "win.coinminer" |  "2ab4dee1acb3f040da45c6fa2a4fab78"<br> "3cc54a5035be82dc43ae2a347dcbe5d9"<br> "4bf50d94512f5f928354cdb74025c8a3"<br> "df0f1ce24e88839d40985706429ac3eb" | 4 |
+|  "win.vidar" |  "807958e30d9a23336603134fd742f4bd"<br> "a2bb6697a5657ca7eb721b09d3d46ba9"<br> "ab9106074c0597424add46b38ef55e4a"<br> "e03f9be1224d0900c38750c52f178742" | 4 |
+|  "win.gogoogle" |  "1cbdaed49ac1e76a7a83893b017f5720"<br> "6c9ec25c3fadcdc1d8241985721ef099"<br> "6fcbc219ae4f43e8138b49cb071e6899"<br> "927a37cf304934e15da583d068fb078b" | 4 |
+|  "win.formbook" |  "7f30c0ae4c795bab3e11f72588afa37d"<br> "c02872b60c7236282d36c3f640d974ab" | 2 |
+|  "win.nimgrabber" |  "d40d0818ed7ec2f167be2c4dc7cc55dd"<br> "ddd68f29908757f7fee0eb3529e1d594" | 2 |
+|  "win.nighthawk" |  "8557ff4c6ca376d2d073febe43a57ddd"<br> "f58269ea40e97f17b15795a5c43640c8" | 2 |
+|  "win.krakenkeylogger" |  "49d431bb14a5dbffe494d6f4ba00ff0a"<br> "edd14ed068cc66e17ffe0237fa99737c" | 2 |
