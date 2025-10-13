@@ -5,14 +5,21 @@ ioc_value,fk_malware,malware_alias,malware_printable,count
 " ""0432ba7a2f50b979166e1cc129a0537b"""," ""win.xworm"""," ""None"""," ""XWorm""",1
 " ""0562be9fc140c0d624607fce2a38877f"""," ""win.socks5_systemz"""," ""None"""," ""Socks5 Systemz""",1
 " ""088d841626003e124b5b7ed6ac617ab5"""," ""win.arkei_stealer"""," ""ArkeiStealer"""," ""Arkei Stealer""",1
+" ""096bc88f6527455c96b046d78370d770"""," ""win.xworm"""," ""None"""," ""XWorm""",1
+" ""098b0fce4e52a2dfb1174d9828680633"""," ""win.xworm"""," ""None"""," ""XWorm""",1
 " ""0e792b216accaef0340579db1a3d2a8f"""," ""win.xworm"""," ""None"""," ""XWorm""",1
 " ""1374d8db3bb14774d80e45aacf145892"""," ""win.masad_stealer"""," ""None"""," ""Masad Stealer""",1
 " ""13fce201563bfa90c75b3d8941b526b1"""," ""win.radrat"""," ""None"""," ""RadRAT""",1
 " ""15c139b35777f1d801d8481c055683ec"""," ""win.rhadamanthys"""," ""None"""," ""Rhadamanthys""",1
+" ""16bb18b13996980fe1c7f0a4a7897421"""," ""win.gcleaner"""," ""None"""," ""GCleaner""",1
 " ""1cbdaed49ac1e76a7a83893b017f5720"""," ""win.gogoogle"""," ""BossiTossi"""," ""GoGoogle""",1
+" ""200bd2d283520b23415ee8fb6f820986"""," ""win.valley_rat"""," ""Winos"""," ""ValleyRAT""",1
+" ""228e307b706d78a82ba202d9ed8d6732"""," ""win.xworm"""," ""None"""," ""XWorm""",1
+" ""2339f9f6981bb8b51a4683ff9c972eea"""," ""win.krakenkeylogger"""," ""None"""," ""KrakenKeylogger""",1
 " ""2ab4dee1acb3f040da45c6fa2a4fab78"""," ""win.coinminer"""," ""None"""," ""Coinminer""",1
 " ""2ddc771aa0f6909beda5af07c2dd6a1a"""," ""win.purecrypter"""," ""None"""," ""PureCrypter""",1
 " ""31780b9156f622e96579370e7ca7bd8e"""," ""win.rhadamanthys"""," ""None"""," ""Rhadamanthys""",1
+" ""3b5aeb4197a7a44a6f2a23c3f33c4103"""," ""win.socks5_systemz"""," ""None"""," ""Socks5 Systemz""",1
 " ""3b9447c7a1018e107b7a523fbbc6af66"""," ""win.rhadamanthys"""," ""None"""," ""Rhadamanthys""",1
 " ""3cc54a5035be82dc43ae2a347dcbe5d9"""," ""win.coinminer"""," ""None"""," ""Coinminer""",1
 " ""40fa070802d086dc5091cb2990ec6616"""," ""win.rhadamanthys"""," ""None"""," ""Rhadamanthys""",1
@@ -29,15 +36,20 @@ ioc_value,fk_malware,malware_alias,malware_printable,count
 " ""6fcbc219ae4f43e8138b49cb071e6899"""," ""win.gogoogle"""," ""BossiTossi"""," ""GoGoogle""",1
 " ""7242b70219659840e66cbf8603241bc7"""," ""win.amadey"""," ""None"""," ""Amadey""",1
 " ""734403b3344f08a37af0caf9b9f9b989"""," ""win.rhadamanthys"""," ""None"""," ""Rhadamanthys""",1
+" ""73694fc4dfa2d1791e9bf085f697d465"""," ""win.formbook"""," ""win.xloader"""," ""Formbook""",1
 " ""747255fce708225ccaf2f140761b42b6"""," ""win.socks5_systemz"""," ""None"""," ""Socks5 Systemz""",1
+" ""760febc564988eaa7926a40a4eadca55"""," ""win.valley_rat"""," ""Winos"""," ""ValleyRAT""",1
 " ""762394c261f14b8ef892bf2e64c0d4df"""," ""win.rhadamanthys"""," ""None"""," ""Rhadamanthys""",1
 " ""7a24b783992cafaa666fe2916adebfc5"""," ""win.rhadamanthys"""," ""None"""," ""Rhadamanthys""",1
 " ""7f30c0ae4c795bab3e11f72588afa37d"""," ""win.formbook"""," ""win.xloader"""," ""Formbook""",1
 " ""807958e30d9a23336603134fd742f4bd"""," ""win.vidar"""," ""None"""," ""Vidar""",1
 " ""8557ff4c6ca376d2d073febe43a57ddd"""," ""win.nighthawk"""," ""None"""," ""Nighthawk""",1
+" ""879c8a15dc5b32399ca9e93bcc66f9c6"""," ""win.shimrat"""," ""None"""," ""Shim RAT""",1
+" ""8bf8f3b72d3a99b3dd87b7ca17092637"""," ""win.coinminer"""," ""None"""," ""Coinminer""",1
 " ""90c2c2f452c2ecd6207251eaca1cb721"""," ""win.salatstealer"""," ""None"""," ""SalatStealer""",1
 " ""927a37cf304934e15da583d068fb078b"""," ""win.gogoogle"""," ""BossiTossi"""," ""GoGoogle""",1
 " ""a2bb6697a5657ca7eb721b09d3d46ba9"""," ""win.vidar"""," ""None"""," ""Vidar""",1
+" ""a8e21ad0252398a5086b782ae59d680b"""," ""win.valley_rat"""," ""Winos"""," ""ValleyRAT""",1
 " ""ab9106074c0597424add46b38ef55e4a"""," ""win.vidar"""," ""None"""," ""Vidar""",1
 " ""af1e49b40bada9430ff0805087795221"""," ""win.rhadamanthys"""," ""None"""," ""Rhadamanthys""",1
 " ""b6df93cab55f321d0093b40eafd1feeb"""," ""win.socks5_systemz"""," ""None"""," ""Socks5 Systemz""",1
@@ -47,6 +59,7 @@ ioc_value,fk_malware,malware_alias,malware_printable,count
 " ""bd69f0b5b7baa356e35eb8c2dfd0fcc2"""," ""win.xenorat"""," ""None"""," ""XenoRAT""",1
 " ""bd73d4ea81f427ba133f06c4d50dcf2e"""," ""win.moker"""," ""None"""," ""Moker""",1
 " ""c02872b60c7236282d36c3f640d974ab"""," ""win.formbook"""," ""win.xloader"""," ""Formbook""",1
+" ""c03ff778d5bcca3d8b107dd5f6a8bc53"""," ""win.ufrstealer"""," ""Usteal"""," ""UFR Stealer""",1
 " ""c81138424fd794712c28b0a59e31d1c9"""," ""win.socks5_systemz"""," ""None"""," ""Socks5 Systemz""",1
 " ""cbcad8450bc746778f9a775ead828c75"""," ""win.ghostsocks"""," ""None"""," ""GhostSocks""",1
 " ""d40d0818ed7ec2f167be2c4dc7cc55dd"""," ""win.nimgrabber"""," ""None"""," ""NimGrabber""",1
@@ -54,6 +67,7 @@ ioc_value,fk_malware,malware_alias,malware_printable,count
 " ""df0f1ce24e88839d40985706429ac3eb"""," ""win.coinminer"""," ""None"""," ""Coinminer""",1
 " ""e03f9be1224d0900c38750c52f178742"""," ""win.vidar"""," ""None"""," ""Vidar""",1
 " ""e49550ac4ce21211c66788d9179e72cf"""," ""win.socks5_systemz"""," ""None"""," ""Socks5 Systemz""",1
+" ""ebd36d39dd4eec42b40009634613f25e"""," ""win.poscardstealer"""," ""None"""," ""poscardstealer""",1
 " ""ec13697037467fd57c40a9544721522d"""," ""win.xworm"""," ""None"""," ""XWorm""",1
 " ""edd14ed068cc66e17ffe0237fa99737c"""," ""win.krakenkeylogger"""," ""None"""," ""KrakenKeylogger""",1
 " ""ee4f8e3f39bc33a72746be653a200fba"""," ""win.xworm"""," ""None"""," ""XWorm""",1
