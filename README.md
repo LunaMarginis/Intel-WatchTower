@@ -17,21 +17,24 @@ This table shows top 10 malware names with their unique hashes and counts. [For 
 |  "win.ufrstealer" |  "41d85a23571e09d57856ccf8706e87a8"<br> "56420977b897ab1c95dc1c58e7404b55" | 2 |
 |  "unknown_stealer" |  "65036efbb6befc29d27ef1ab26344428" | 1 |
 
+
+
 <!-- url_summary_start -->
 ## 🔗 Top 10 URLs:
 
-Automated URL Collections, grouped by Tags: Every day at 03:00 UTC. Last Updated: 2025-10-18 03:20:08 UTC.
+Automated URL Collections, grouped by Tags: Every day at 03:00 UTC. Last Updated: 2025-10-19 03:38:46 UTC.
 
 | Tag | Count |
 |-----|-------|
-| CoinMiner | 19312 |
-| ClearFake | 7046 |
-| 32-bit,elf,mips,Mozi | 6808 |
+| CoinMiner | 19307 |
+| ClearFake | 7086 |
+| 32-bit,elf,mips,Mozi | 6777 |
 | botnetdomain,elf,mirai,opendir | 5294 |
-| botnetdomain,elf,mirai | 1074 |
-| elf,mirai,ua-wget | 1012 |
-| 32-bit,arm,elf,mirai,Mozi | 955 |
-| 32-bit,elf,Mozi | 944 |
-| mirai,opendir | 644 |
-| elf,ua-wget | 528 |
+| botnetdomain,elf,mirai | 1050 |
+| elf,mirai,ua-wget | 1044 |
+| 32-bit,arm,elf,mirai,Mozi | 966 |
+| 32-bit,elf,Mozi | 935 |
+| mirai,opendir | 713 |
+| elf,ua-wget | 498 |
 <!-- url_summary_end -->
+
