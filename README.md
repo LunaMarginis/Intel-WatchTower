@@ -1,6 +1,6 @@
 # IOC Summary
 
-Automated Hash Collections: Every day at 02:00 UTC. Last Updated: 2025-11-04 03:08:34 UTC
+Automated Hash Collections: Every day at 02:00 UTC. Last Updated: 2025-11-05 03:10:03 UTC
 
 This table shows top 10 malware names with their unique hashes and counts. [For Complete list, check the CSV files]
 
@@ -10,28 +10,9 @@ This table shows top 10 malware names with their unique hashes and counts. [For 
 |  "win.formbook" |  "2b90eb1793b2c4423b4aa120510cc3e5"<br> "645f73971ee0553c87b9e178a4a8ffa2"<br> "a9b225f8adafbe0b087f03a17d5ad43a"<br> "c0f9ceba05b4d0cfed4d4fdecaefa090"<br> "e10a671ef7dca4dbe366e9aafd5d429a"<br> "eba14fae94b5b7c37548ead259895c2e"<br> "ec7b2961178a644a933ad638f0e0f15c"<br> "f671033f3350e6e08ab9a9d2ae6df01c"<br> "fd80c7c3fba30e5924fd26254ed4a1b8" | 9 |
 |  "win.coinminer" |  "07a201a13569d7f59c47ebb8aa389984"<br> "20ad32ea8a59f468f8ec217da040ec1e"<br> "32dee17f069c9ce9f5c4952ae39636ef"<br> "dcf7e0f0d4e16559138bc93bb3239c8c" | 4 |
 |  "elf.polaredge" |  "1fb2dfb09a31f0e8c63cc83283532f06"<br> "571088182ed7e33d986b3aa2c51efd27"<br> "7fa5fb15098efdf76e4c016e2e17bb38"<br> "96b3be4cf3ad232ca456f343f468da0e" | 4 |
+|  "unknown_stealer" |  "25be0d9c91ae366cccd47b5dc10705b0"<br> "83ad85a90cf242de2eda99e67dc5b026"<br> "ae3ffebe3072bd558851bc748079e62c"<br> "fc0ab97197cc60c885aacd428d0692c5" | 4 |
 |  "win.strelastealer" |  "3478f272298653f407c99793cd23b6c9"<br> "4b3147b0a5bb2edad6d257273fd41975" | 2 |
 |  "win.masslogger" |  "a6977db9a576fd4ca2a6985b763dedc2"<br> "cb696966028453e0b2475cbf8dd33811" | 2 |
 |  "win.vidar" |  "616dcc56f596f0dba7b195e34c775516"<br> "ab384259ee46b5ffb3b30faafc951995" | 2 |
 |  "win.masad_stealer" |  "f803b6f154df8f475b28fb77cdaadf65" | 1 |
 |  "win.krakenkeylogger" |  "c6d6658b83517a5aa1d4c5bcccae3d78" | 1 |
-|  "win.guidloader" |  "e453682bfd90c7b82eb4aef8b7a67a40" | 1 |
-
-<!-- url_summary_start -->
-## 🔗 Top 10 URLs:
-
-Automated URL Collections, grouped by Tags: Every day at 03:00 UTC. Last Updated: 2025-11-04 03:35:46 UTC.
-
-| Tag | Count |
-|-----|-------|
-| ClearFake | 7986 |
-| 32-bit,elf,mips,Mozi | 7680 |
-| botnetdomain,elf,mirai,opendir | 5322 |
-| CoinMiner | 2053 |
-| botnetdomain,elf,mirai | 987 |
-| 32-bit,arm,elf,mirai,Mozi | 981 |
-| 32-bit,elf,Mozi | 893 |
-| botnetdomain,mirai,opendir | 820 |
-| elf,mirai,ua-wget | 685 |
-| mirai,opendir | 678 |
-<!-- url_summary_end -->

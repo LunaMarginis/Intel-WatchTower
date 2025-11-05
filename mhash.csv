@@ -7,6 +7,7 @@ ioc_value,fk_malware,malware_alias,malware_printable,count
 " ""19d4b391bc7cd0cbde03b457bf431c0d"""," ""win.rhadamanthys"""," ""None"""," ""Rhadamanthys""",1
 " ""1fb2dfb09a31f0e8c63cc83283532f06"""," ""elf.polaredge"""," ""None"""," ""PolarEdge""",1
 " ""20ad32ea8a59f468f8ec217da040ec1e"""," ""win.coinminer"""," ""None"""," ""Coinminer""",1
+" ""25be0d9c91ae366cccd47b5dc10705b0"""," ""unknown_stealer"""," ""None"""," ""Unknown Stealer""",1
 " ""2a5468c4dce6a8af895ab86ca22c9285"""," ""win.rhadamanthys"""," ""None"""," ""Rhadamanthys""",1
 " ""2b90eb1793b2c4423b4aa120510cc3e5"""," ""win.formbook"""," ""win.xloader"""," ""Formbook""",1
 " ""305a3cdd2d323872ffeeb446fceb22c6"""," ""win.rhadamanthys"""," ""None"""," ""Rhadamanthys""",1
@@ -30,6 +31,7 @@ ioc_value,fk_malware,malware_alias,malware_printable,count
 " ""7fa5fb15098efdf76e4c016e2e17bb38"""," ""elf.polaredge"""," ""None"""," ""PolarEdge""",1
 " ""80f74089f7e9887de3cf393b373c4457"""," ""win.rhadamanthys"""," ""None"""," ""Rhadamanthys""",1
 " ""82158a50a84e46fc445f3b6a05d1c98d"""," ""win.rhadamanthys"""," ""None"""," ""Rhadamanthys""",1
+" ""83ad85a90cf242de2eda99e67dc5b026"""," ""unknown_stealer"""," ""None"""," ""Unknown Stealer""",1
 " ""8eaaa36834d4b963033aba4301b86a06"""," ""win.rhadamanthys"""," ""None"""," ""Rhadamanthys""",1
 " ""96b3be4cf3ad232ca456f343f468da0e"""," ""elf.polaredge"""," ""None"""," ""PolarEdge""",1
 " ""a00e13d5d4bac56403708b77e34cc1b5"""," ""win.rhadamanthys"""," ""None"""," ""Rhadamanthys""",1
@@ -38,6 +40,7 @@ ioc_value,fk_malware,malware_alias,malware_printable,count
 " ""a9b225f8adafbe0b087f03a17d5ad43a"""," ""win.formbook"""," ""win.xloader"""," ""Formbook""",1
 " ""ab384259ee46b5ffb3b30faafc951995"""," ""win.vidar"""," ""None"""," ""Vidar""",1
 " ""ae0d5688de17b23ac3cb832e4dbf982a"""," ""win.rhadamanthys"""," ""None"""," ""Rhadamanthys""",1
+" ""ae3ffebe3072bd558851bc748079e62c"""," ""unknown_stealer"""," ""None"""," ""Unknown Stealer""",1
 " ""b60bc38bbb94784fe7c500027cc69e93"""," ""win.rhadamanthys"""," ""None"""," ""Rhadamanthys""",1
 " ""b65e68608eb4b6701f174cd62a968b30"""," ""win.valley_rat"""," ""Winos"""," ""ValleyRAT""",1
 " ""babcb7c6441fe7688800781f714b073c"""," ""win.rhadamanthys"""," ""None"""," ""Rhadamanthys""",1
@@ -59,6 +62,7 @@ ioc_value,fk_malware,malware_alias,malware_printable,count
 " ""f671033f3350e6e08ab9a9d2ae6df01c"""," ""win.formbook"""," ""win.xloader"""," ""Formbook""",1
 " ""f77ac483a38698d2ef6a71260af93028"""," ""win.rhadamanthys"""," ""None"""," ""Rhadamanthys""",1
 " ""f803b6f154df8f475b28fb77cdaadf65"""," ""win.masad_stealer"""," ""None"""," ""Masad Stealer""",1
+" ""fc0ab97197cc60c885aacd428d0692c5"""," ""unknown_stealer"""," ""None"""," ""Unknown Stealer""",1
 " ""fca0c5f1d0178e08bdf16c24878d4c94"""," ""win.rhadamanthys"""," ""None"""," ""Rhadamanthys""",1
 " ""fd80c7c3fba30e5924fd26254ed4a1b8"""," ""win.formbook"""," ""win.xloader"""," ""Formbook""",1
 " ""ff550391f24c66a08998bad46227dcaf"""," ""win.rhadamanthys"""," ""None"""," ""Rhadamanthys""",1
