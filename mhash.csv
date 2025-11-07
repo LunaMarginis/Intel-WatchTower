@@ -2,7 +2,6 @@ ioc_value,fk_malware,malware_alias,malware_printable,count
 " ""01818e883a3d8efc6e2fea66f1b35b42"""," ""win.formbook"""," ""win.xloader"""," ""Formbook""",1
 " ""0be8f0b62a7ede9474cb09588488c1e9"""," ""win.swaet_rat"""," ""None"""," ""SwaetRAT""",1
 " ""240ee2a123295e4680ba4b3a33b1a3ac"""," ""win.krakenkeylogger"""," ""None"""," ""KrakenKeylogger""",1
-" ""25be0d9c91ae366cccd47b5dc10705b0"""," ""unknown_stealer"""," ""None"""," ""Unknown Stealer""",1
 " ""2ca12a121c0b8b56404f046551cb37f9"""," ""win.guidloader"""," ""None"""," ""GUIDLOADER""",1
 " ""3072d0c32ffedbdf1f9f5df9f02e4257"""," ""win.xenorat"""," ""None"""," ""XenoRAT""",1
 " ""352568df205aabbfe413f749217d3442"""," ""win.nimgrabber"""," ""None"""," ""NimGrabber""",1
@@ -24,18 +23,15 @@ ioc_value,fk_malware,malware_alias,malware_printable,count
 " ""7b24546c341884520eb2e254890bd637"""," ""win.arkei_stealer"""," ""ArkeiStealer"""," ""Arkei Stealer""",1
 " ""7bb83d32203f1604785ddc909bcce6da"""," ""win.formbook"""," ""win.xloader"""," ""Formbook""",1
 " ""7f1efb05f5c8025fb2f6913d356835d5"""," ""win.guidloader"""," ""None"""," ""GUIDLOADER""",1
-" ""83ad85a90cf242de2eda99e67dc5b026"""," ""unknown_stealer"""," ""None"""," ""Unknown Stealer""",1
 " ""8d102ab0e723a245c2ec291fc6364688"""," ""win.arkei_stealer"""," ""ArkeiStealer"""," ""Arkei Stealer""",1
 " ""9b48679233f2f5ad150278c3a109a993"""," ""win.arkei_stealer"""," ""ArkeiStealer"""," ""Arkei Stealer""",1
 " ""a1975008ece68fae1ccb17df20a61290"""," ""win.masslogger"""," ""None"""," ""MASS Logger""",1
 " ""a20834b8baa8d3e7a7d1bda6abdb29c3"""," ""win.arkei_stealer"""," ""ArkeiStealer"""," ""Arkei Stealer""",1
 " ""a962b63930691ca3e7665dc084e00ac2"""," ""win.guidloader"""," ""None"""," ""GUIDLOADER""",1
-" ""ae3ffebe3072bd558851bc748079e62c"""," ""unknown_stealer"""," ""None"""," ""Unknown Stealer""",1
 " ""c384138b5ea21c5ba6962a7d01f8266d"""," ""win.formbook"""," ""win.xloader"""," ""Formbook""",1
 " ""c7bb8e629a40b50af84d8caf27236e1a"""," ""win.masad_stealer"""," ""None"""," ""Masad Stealer""",1
 " ""caf0b5a87447c5bcaac97febd1cdf3e8"""," ""win.asyncrat"""," ""None"""," ""AsyncRAT""",1
 " ""d2ff3e2da68a6344a8d425d3b2f07cf2"""," ""win.nimgrabber"""," ""None"""," ""NimGrabber""",1
 " ""d7ce6c361cf0a395853a7f06df22c71f"""," ""win.formbook"""," ""win.xloader"""," ""Formbook""",1
 " ""f01e7c38b1d307924929e21a4b394463"""," ""win.formbook"""," ""win.xloader"""," ""Formbook""",1
-" ""fc0ab97197cc60c885aacd428d0692c5"""," ""unknown_stealer"""," ""None"""," ""Unknown Stealer""",1
 " ""fd3aba1d9c336fc238653f3bcc51e1e1"""," ""win.luca_stealer"""," ""None"""," ""Luca Stealer""",1
