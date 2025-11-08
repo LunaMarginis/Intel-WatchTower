@@ -1,37 +1,18 @@
 # IOC Summary
 
-Automated Hash Collections: Every day at 02:00 UTC. Last Updated: 2025-11-07 03:09:07 UTC
+Automated Hash Collections: Every day at 02:00 UTC. Last Updated: 2025-11-08 03:00:50 UTC
 
 This table shows top 10 malware names with their unique hashes and counts. [For Complete list, check the CSV files]
 
 | Malware Name | ioc_value (Hashes) | Count |
 |--------------|--------------------|-------|
-|  "win.formbook" |  "01818e883a3d8efc6e2fea66f1b35b42"<br> "4be1ae298b7174f13c9ef8dce3b7d800"<br> "7bb83d32203f1604785ddc909bcce6da"<br> "c384138b5ea21c5ba6962a7d01f8266d"<br> "d7ce6c361cf0a395853a7f06df22c71f"<br> "f01e7c38b1d307924929e21a4b394463" | 6 |
-|  "win.arkei_stealer" |  "4c44cfdb59732e763af97d5c450966dd"<br> "7b24546c341884520eb2e254890bd637"<br> "8d102ab0e723a245c2ec291fc6364688"<br> "9b48679233f2f5ad150278c3a109a993"<br> "a20834b8baa8d3e7a7d1bda6abdb29c3" | 5 |
-|  "win.asyncrat" |  "547065f0250c8b0536d88d75e3d82172"<br> "5922ffeb6ed95c70df6e06260204344b"<br> "caf0b5a87447c5bcaac97febd1cdf3e8" | 3 |
-|  "win.guidloader" |  "2ca12a121c0b8b56404f046551cb37f9"<br> "7f1efb05f5c8025fb2f6913d356835d5"<br> "a962b63930691ca3e7665dc084e00ac2" | 3 |
-|  "win.nimgrabber" |  "352568df205aabbfe413f749217d3442"<br> "70a1f790807ffb9453e72d16147aa7c4"<br> "d2ff3e2da68a6344a8d425d3b2f07cf2" | 3 |
-|  "win.krakenkeylogger" |  "240ee2a123295e4680ba4b3a33b1a3ac"<br> "778c3c2b1f927713599ffff8639f3373" | 2 |
-|  "win.swaet_rat" |  "0be8f0b62a7ede9474cb09588488c1e9"<br> "698aaef134cace60b8aa39d3d814e58a" | 2 |
-|  "win.ufrstealer" |  "3823c59afe93ad5f687644b57664f81c"<br> "4faaa162681238002113151603b23cf3" | 2 |
-|  "win.gcleaner" |  "5757e496af8ec484f294eba16cde2e23" | 1 |
-|  "win.darkcloud" |  "37c8269e339be5c440256d4adb187217" | 1 |
-
-<!-- url_summary_start -->
-## 🔗 Top 10 URLs:
-
-Automated URL Collections, grouped by Tags: Every day at 03:00 UTC. Last Updated: 2025-11-07 03:36:36 UTC.
-
-| Tag | Count |
-|-----|-------|
-| 32-bit,elf,mips,Mozi | 7915 |
-| ClearFake | 7762 |
-| botnetdomain,elf,mirai,opendir | 5402 |
-| 32-bit,arm,elf,mirai,Mozi | 933 |
-| 32-bit,elf,Mozi | 908 |
-| botnetdomain,elf,mirai | 890 |
-| botnetdomain,mirai,opendir | 744 |
-| CoinMiner | 686 |
-| mirai,opendir | 630 |
-| elf,mirai,ua-wget | 618 |
-<!-- url_summary_end -->
+|  "win.krakenkeylogger" |  "07aabd0f071a14dbeb8e3bfce7cd024a"<br> "1dfd87b7982ae2c5ca34d2801116a539"<br> "2c43d370ee388007fa9fb7fe94c24b3f"<br> "3f1f8681b9edd421dcadc71ae158e9fe"<br> "4fcbe8d0f71f4dd6bb8a6a8a44624512"<br> "69535b9884681d64fcfb422f62ce4b16"<br> "77691f885b83f6e1d71855133f67dfaf"<br> "77d0a86dd5f16ac92f361b8c70d93e33"<br> "7aaf691478f614925e4dc36e743c5031"<br> "810c8d5b68126470102a648e6e548b28"<br> "9d742de1427435bf6b989efca7a6609d" | 11 |
+|  "win.masslogger" |  "18d8427df8d5ec307478a45b90da4f25"<br> "333cab45fad9a4bd07d1ff971a8e3b1f"<br> "3b4a6119440136a1b3f286e815189ae8"<br> "42096523f8957136758c1d42734cdc86"<br> "6a07cfab7ed1ed1af1ecd30f4c3a1caa"<br> "75903b081c298631a3abb48fa534f5e4"<br> "db5f75dcf2566d1f8e4e9350492470ec" | 7 |
+|  "win.formbook" |  "52391b59838aeb2be8896e605d1c08ee"<br> "53d4f5fc91e3d48fcb0b5c77302d9abb"<br> "567031aff2844274adeac339dd16f620"<br> "775e01a5267f1c89490bd3e949f7fcce"<br> "df19196a99f510512dae7ef05d7a99a0"<br> "ee26ccca26c5a0bcf266a252ed6f5aa0" | 6 |
+|  "win.valley_rat" |  "001eeee6aec12bc3bcee3d4b537091d4"<br> "548488410b5fdabb1202d1166a420c74"<br> "64323da0889df17fbd61728dadaedfb1"<br> "e4c9215ceac03dde05155c4fb667f69c" | 4 |
+|  "win.asyncrat" |  "5aec0116d967d2779ef6ae3a26be2cd1"<br> "606ab7e0f084def3fcb50207a0baf663"<br> "73679c33aee16082a8ec2aa26a2477b7"<br> "7afc7fc7c70a769cc29bd2984621bcb5" | 4 |
+|  "win.guidloader" |  "33593316d51d84f5a399070cdc4f85f4"<br> "b613573db4706a955f6c4c8c09e84d15"<br> "f6ce91ff89c95233e6a2e03f8961653b" | 3 |
+|  "win.luca_stealer" |  "5c582e2f9d24407c0cd60c267bf0708f"<br> "98b70a84de51676c02109ec04cd0b981"<br> "ba4e4e29689a32c4c04433c8bd9b2255" | 3 |
+|  "win.troystealer" |  "76215b0aab74a110075081d4af77b24e"<br> "a2a7203b3782ea3c43087ed6bbc832f7" | 2 |
+|  "win.strelastealer" |  "98f553408ab18a799a14a38f7467888c"<br> "f105b3ebeaccb1c5a2a297229e1b6146" | 2 |
+|  "win.acr_stealer" |  "02d100919d48d9e54e3c906aa0d0a776" | 1 |
