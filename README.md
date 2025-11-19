@@ -17,21 +17,24 @@ This table shows top 10 malware names with their unique hashes and counts. [For 
 |  "win.poscardstealer" |  "6cc83c61a4e2677da656c98c5cb2bea1"<br> "cfa1277b223991f9713dc760d103219f" | 2 |
 |  "win.vidar" |  "35f83371a8b50ae5dfa5f79c023e534a"<br> "9542f67abd1f31513699502fa3e80a45" | 2 |
 
+
+
 <!-- url_summary_start -->
 ## 🔗 Top 10 URLs:
 
-Automated URL Collections, grouped by Tags: Every day at 03:00 UTC. Last Updated: 2025-11-18 03:38:05 UTC.
+Automated URL Collections, grouped by Tags: Every day at 03:00 UTC. Last Updated: 2025-11-19 03:37:32 UTC.
 
 | Tag | Count |
 |-----|-------|
-| 32-bit,elf,mips,Mozi | 8652 |
-| ClearFake | 5303 |
-| elf,ua-wget | 3562 |
-| CoinMiner | 2096 |
-| 32-bit,arm,elf,mirai,Mozi | 917 |
-| 32-bit,elf,Mozi | 829 |
-| botnetdomain,mirai,opendir | 680 |
-| elf,mirai,ua-wget | 555 |
+| 32-bit,elf,mips,Mozi | 8429 |
+| ClearFake | 5354 |
+| elf,ua-wget | 3563 |
+| CoinMiner | 2097 |
+| 32-bit,arm,elf,mirai,Mozi | 879 |
+| 32-bit,elf,Mozi | 842 |
+| botnetdomain,mirai,opendir | 806 |
+| elf,mirai,ua-wget | 557 |
 | Amos,ClearFake | 404 |
-| elf,mirai | 349 |
+| botnetdomain,elf,mirai | 356 |
 <!-- url_summary_end -->
+
