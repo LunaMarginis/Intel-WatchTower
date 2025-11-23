@@ -19,22 +19,25 @@ This table shows top 10 malware names with their unique hashes and counts. [For 
 
 
 
+
+
 <!-- url_summary_start -->
 ## 🔗 Top 10 URLs:
 
-Automated URL Collections, grouped by Tags: Every day at 03:00 UTC. Last Updated: 2025-11-22 03:31:04 UTC.
+Automated URL Collections, grouped by Tags: Every day at 03:00 UTC. Last Updated: 2025-11-23 03:51:11 UTC.
 
 | Tag | Count |
 |-----|-------|
-| 32-bit,elf,mips,Mozi | 7890 |
-| ClearFake | 5295 |
-| elf,ua-wget | 3566 |
-| CoinMiner | 2106 |
-| 32-bit,elf,Mozi | 968 |
-| 32-bit,arm,elf,mirai,Mozi | 804 |
-| botnetdomain,mirai,opendir | 803 |
-| elf,mirai,ua-wget | 607 |
-| botnetdomain,elf,mirai | 429 |
+| 32-bit,elf,mips,Mozi | 7793 |
+| ClearFake | 5226 |
+| elf,ua-wget | 3596 |
+| CoinMiner | 2110 |
+| 32-bit,elf,Mozi | 1000 |
+| 32-bit,arm,elf,mirai,Mozi | 791 |
+| botnetdomain,mirai,opendir | 773 |
+| elf,mirai,ua-wget | 626 |
 | Amos,ClearFake | 404 |
+| botnetdomain,elf,mirai | 371 |
 <!-- url_summary_end -->
+
 
