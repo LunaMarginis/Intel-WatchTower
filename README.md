@@ -1,6 +1,6 @@
 # IOC Summary
 
-Automated Hash Collections: Every day at 02:00 UTC. Last Updated: 2025-11-29 03:10:06 UTC
+Automated Hash Collections: Every day at 02:00 UTC. Last Updated: 2025-11-30 03:25:27 UTC
 
 This table shows top 10 malware names with their unique hashes and counts. [For Complete list, check the CSV files]
 
@@ -12,26 +12,7 @@ This table shows top 10 malware names with their unique hashes and counts. [For 
 |  "win.vidar" |  "013d66f477b3bc791c1bd12fdb45955d"<br> "1d65da41b37ed1857308249bb7431987"<br> "5fe477b71131d33513317df1a2b7adaf"<br> "9c184eafe2a554e1410ab7838de1380b"<br> "c5dd4f4bd26fbd0d981a1f76b32dca3c"<br> "ef6e7e9488b901d0578990edae9f9f02"<br> "f5d05a50d6f44c79c053130ff51114f7"<br> "f8ea271552118b139871acf7ced18a6b" | 8 |
 |  "win.formbook" |  "16dd1c1e6afc87d0f7e7cee89876b77f"<br> "8db0c1ecfe2a304e6386b3cacb341c29"<br> "c6265319bc946f1f95fcc5b71ed64ed0"<br> "d46c6ecf1d1dbeac81399df8b6f0e94e"<br> "ed307e10182c307e31a7c21435b96a81" | 5 |
 |  "win.guidloader" |  "64d033b001a6b02d4f8c7bd19421b52c"<br> "a20575faafe893992a0b148e5f9b8208"<br> "a5f05c8a89fdd3dfefd971b4061aac6c" | 3 |
-|  "win.coinminer" |  "42a479fce79c7eb0db9873ab207677ea"<br> "f61e712fb0831953d3db7e34dd13e114"<br> "fec463a6df0ea87e76b4455f8f74a28b" | 3 |
 |  "win.socks5_systemz" |  "0c2dabf07b23f83b6831b79a2802ecbd"<br> "511955035b6fab68c51375327bd2aaea"<br> "8554566888e5ddb6b7d5f362d30b389f" | 3 |
-|  "win.troystealer" |  "b569a16bfa06be57b8902e291c6ac9ed"<br> "ec94090082acb2dab2bc11ec4427ea45" | 2 |
+|  "win.coinminer" |  "42a479fce79c7eb0db9873ab207677ea"<br> "f61e712fb0831953d3db7e34dd13e114"<br> "fec463a6df0ea87e76b4455f8f74a28b" | 3 |
 |  "win.salatstealer" |  "a9a4710c1bbdfade91e1feb96327a5ab"<br> "efd707e43bb79abecdc6fec2d6e9e817" | 2 |
-
-<!-- url_summary_start -->
-## 🔗 Top 10 URLs:
-
-Automated URL Collections, grouped by Tags: Every day at 03:00 UTC. Last Updated: 2025-11-29 03:37:46 UTC.
-
-| Tag | Count |
-|-----|-------|
-| 32-bit,elf,mips,Mozi | 7976 |
-| ClearFake | 4384 |
-| elf,ua-wget | 3547 |
-| CoinMiner | 2112 |
-| 32-bit,elf,Mozi | 1072 |
-| elf,mirai,ua-wget | 794 |
-| 32-bit,arm,elf,mirai,Mozi | 772 |
-| mirai,opendir | 473 |
-| botnetdomain,elf,mirai | 377 |
-| Amos,ClearFake | 329 |
-<!-- url_summary_end -->
+|  "win.poscardstealer" |  "5dd3d8ab517307ba78902ea39f88dfab"<br> "ac25648ccb58e84dd1f1333f3ee11942" | 2 |

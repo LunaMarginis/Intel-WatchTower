@@ -74,7 +74,6 @@ ioc_value,fk_malware,malware_alias,malware_printable,count
 " ""f5d05a50d6f44c79c053130ff51114f7"""," ""win.vidar"""," ""None"""," ""Vidar""",1
 " ""f61e712fb0831953d3db7e34dd13e114"""," ""win.coinminer"""," ""None"""," ""Coinminer""",1
 " ""f662135bdd8bf792a941ea222e8a1330"""," ""elf.krustyloader"""," ""None"""," ""KrustyLoader""",1
-" ""f68872773a88652541bd8d6ca9bda058"""," ""win.wormhole"""," ""None"""," ""WORMHOLE""",1
 " ""f809bfbbcad332b4c6e9931be72147d5"""," ""win.xenorat"""," ""None"""," ""XenoRAT""",1
 " ""f8ea271552118b139871acf7ced18a6b"""," ""win.vidar"""," ""None"""," ""Vidar""",1
 " ""fc2ae0b717c99fc84195eb2ad2bd24e2"""," ""win.darktortilla"""," ""None"""," ""DarkTortilla""",1
