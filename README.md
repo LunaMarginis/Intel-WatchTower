@@ -16,3 +16,22 @@ This table shows top 10 malware names with their unique hashes and counts. [For 
 |  "win.nimgrabber" |  "b3b485c7b3df8af17c0e8970962bb6c2" | 1 |
 |  "win.ghostsocks" |  "efbc97b2e32d5876b07922a2d7241cec" | 1 |
 |  "win.luca_stealer" |  "15f33a5f2bf75fea1cf96a4b6ab48af7" | 1 |
+
+<!-- url_summary_start -->
+## 🔗 Top 10 URLs:
+
+Automated URL Collections, grouped by Tags: Every day at 03:00 UTC. Last Updated: 2025-12-01 04:05:27 UTC.
+
+| Tag | Count |
+|-----|-------|
+| 32-bit,elf,mips,Mozi | 8061 |
+| ClearFake | 4091 |
+| elf,ua-wget | 3551 |
+| CoinMiner | 2399 |
+| 32-bit,elf,Mozi | 1065 |
+| elf,mirai,ua-wget | 853 |
+| 32-bit,arm,elf,mirai,Mozi | 807 |
+| botnetdomain,elf,mirai,ua-wget | 500 |
+| mirai,opendir | 425 |
+| botnetdomain,elf,mirai | 377 |
+<!-- url_summary_end -->
