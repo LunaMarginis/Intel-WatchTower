@@ -2,13 +2,17 @@ ioc_value,fk_malware,malware_alias,malware_printable,count
 " ""04387c900c2791835e8d896c0c993c50"""," ""win.asyncrat"""," ""None"""," ""AsyncRAT""",1
 " ""044135f840081de0807b9de96e1786be"""," ""win.acr_stealer"""," ""None"""," ""ACR Stealer""",1
 " ""0f0cdb04f0a8e89915138814f35150f2"""," ""win.vidar"""," ""None"""," ""Vidar""",1
+" ""11375fb0cee4c06b5cefa2031ee2ed6d"""," ""win.njrat"""," ""Bladabindi","Lime-Worm""",1
 " ""11532619ca9fd44b140cb7ef7b69476d"""," ""win.asyncrat"""," ""None"""," ""AsyncRAT""",1
 " ""12e25a923917143e722fee54ae405b25"""," ""win.strelastealer"""," ""None"""," ""StrelaStealer""",1
 " ""13bfbf67e6e0e203af33f7a5dc627559"""," ""win.vidar"""," ""None"""," ""Vidar""",1
 " ""1526e6d78347a5daff1cbe281f7b91c7"""," ""win.stealc"""," ""None"""," ""Stealc""",1
 " ""15f33a5f2bf75fea1cf96a4b6ab48af7"""," ""win.luca_stealer"""," ""None"""," ""Luca Stealer""",1
+" ""16a8e7c990a1f22d35d62fda3ca8896b"""," ""win.njrat"""," ""Bladabindi","Lime-Worm""",1
+" ""19967e886edcd2f22f8d4a58c8ea3773"""," ""win.njrat"""," ""Bladabindi","Lime-Worm""",1
 " ""1a3b64fb427061df323ef9ab5bb56b6f"""," ""win.vidar"""," ""None"""," ""Vidar""",1
 " ""1c13cbe2b61c8dbab5fcfd1d304208d8"""," ""win.vidar"""," ""None"""," ""Vidar""",1
+" ""1e97881fc5987c1f8797963a2a46d084"""," ""win.njrat"""," ""Bladabindi","Lime-Worm""",1
 " ""258b448a0d5bb2eb03216808c1de72be"""," ""win.redline_stealer"""," ""RECORDSTEALER"""," ""RedLine Stealer""",1
 " ""2ae734f7ba08ad957dc402cbf8e066a3"""," ""win.asyncrat"""," ""None"""," ""AsyncRAT""",1
 " ""3a84f892d57cb3ccbc05ad0866b5ab58"""," ""win.stealc"""," ""None"""," ""Stealc""",1
@@ -34,10 +38,15 @@ ioc_value,fk_malware,malware_alias,malware_printable,count
 " ""94c66e17535c99e27499321f9e538af4"""," ""win.socks5_systemz"""," ""None"""," ""Socks5 Systemz""",1
 " ""971d91c11dfda23eddb44690aedb97ae"""," ""win.poscardstealer"""," ""None"""," ""poscardstealer""",1
 " ""a4f9c8e107f32e094cda6ebecaf12798"""," ""win.troystealer"""," ""None"""," ""troystealer""",1
+" ""a73edb60b80a2dfa86735d821bea7b19"""," ""win.njrat"""," ""Bladabindi","Lime-Worm""",1
+" ""a93349ba5e621cfb7a46dc9f401fd998"""," ""win.njrat"""," ""Bladabindi","Lime-Worm""",1
 " ""a9fd2d245f51800d4d5d04c96dfd873c"""," ""win.acr_stealer"""," ""None"""," ""ACR Stealer""",1
 " ""b3b485c7b3df8af17c0e8970962bb6c2"""," ""win.nimgrabber"""," ""None"""," ""NimGrabber""",1
+" ""b5b92ab89e76a8e5c5c78a9d27fe028f"""," ""win.njrat"""," ""Bladabindi","Lime-Worm""",1
+" ""b9feab657ee7505549a8eddef8bb99ab"""," ""win.njrat"""," ""Bladabindi","Lime-Worm""",1
 " ""cacc58e25e2a85bfa716314e70057a93"""," ""win.vidar"""," ""None"""," ""Vidar""",1
 " ""cdd286a1bf594e10f30c13d3edae7b44"""," ""win.acr_stealer"""," ""None"""," ""ACR Stealer""",1
+" ""cef141d894400bc2e0096d1ed0c8f95b"""," ""win.njrat"""," ""Bladabindi","Lime-Worm""",1
 " ""cf6bac31f27140e44561b61d9ed79080"""," ""win.vidar"""," ""None"""," ""Vidar""",1
 " ""d0d3f6f7466c2e7cc2d48dabc6d40eaa"""," ""win.vidar"""," ""None"""," ""Vidar""",1
 " ""db2d94edc5a6aeb988162109787a6bf3"""," ""win.masad_stealer"""," ""None"""," ""Masad Stealer""",1
