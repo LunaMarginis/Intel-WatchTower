@@ -1,2 +1,72 @@
 ioc_value,fk_malware,malware_alias,malware_printable,count
-" ""e818a9afd55693d556a47002a7b7ef31"""," ""win.smokeloader"""," ""Dofoil",Sharik,1
+" ""02ce49901dea7f64e8944b48eb9d9e04"""," ""win.smokeloader"""," ""Dofoil",Sharik,1
+" ""02ed4ae4c851d46a77b1a02c25618048"""," ""win.socks5_systemz"""," ""None"""," ""Socks5 Systemz""",1
+" ""0491307c88b983c3537707a8add31329"""," ""win.xworm"""," ""None"""," ""XWorm""",1
+" ""063ce49f625ed510229bdf401459c7f3"""," ""win.valley_rat"""," ""Winos"""," ""ValleyRAT""",1
+" ""0be5b92bd1e8acef055ef1f1de67aef5"""," ""win.cobalt_strike"""," ""Agentemis",BEACON,1
+" ""0d161fe363fdcb75c6d99489573f3384"""," ""win.xworm"""," ""None"""," ""XWorm""",1
+" ""0d69ea6a5e608bdb74260ee1e4d100e6"""," ""win.xworm"""," ""None"""," ""XWorm""",1
+" ""0ff05fe7afc2ffab2e2e3527e2a34918"""," ""win.xworm"""," ""None"""," ""XWorm""",1
+" ""11bf0445497a41f6991c3b5cbdbe0d2c"""," ""win.smokeloader"""," ""Dofoil",Sharik,1
+" ""12347ddd45e256778bd3382c5d6e6d09"""," ""win.smokeloader"""," ""Dofoil",Sharik,1
+" ""158a92efcbd66aaa89a2a8c891b44522"""," ""win.cobalt_strike"""," ""Agentemis",BEACON,1
+" ""19cf3629e4bd11f43865448dc858f48e"""," ""win.zstealer"""," ""Z*Stealer"""," ""ZStealer""",1
+" ""1c7a8a806668d6811027ffa23acd8ec6"""," ""win.valley_rat"""," ""Winos"""," ""ValleyRAT""",1
+" ""1f186c07cdce08d76246584824a27b2a"""," ""win.salatstealer"""," ""None"""," ""SalatStealer""",1
+" ""23aff7f212a069974b206b0b50fe6d7b"""," ""win.zstealer"""," ""Z*Stealer"""," ""ZStealer""",1
+" ""24b0b98848fa287cd687c3a15befac4e"""," ""win.zstealer"""," ""Z*Stealer"""," ""ZStealer""",1
+" ""251aef2998b8efc72e15b5213d368b12"""," ""win.valley_rat"""," ""Winos"""," ""ValleyRAT""",1
+" ""2641f51bcd7547c588ef01bd4eb93a8e"""," ""win.cobalt_strike"""," ""Agentemis",BEACON,1
+" ""2f3ea5d9cab9ec48107f8d3806bbd966"""," ""win.salatstealer"""," ""None"""," ""SalatStealer""",1
+" ""379af136be94c87aed5965df0c0666c8"""," ""win.coffee_loader"""," ""None"""," ""CoffeeLoader""",1
+" ""394a532d3f9930f9e5ce6829a144a7a4"""," ""win.zstealer"""," ""Z*Stealer"""," ""ZStealer""",1
+" ""39b05a25bbb5096ce57e941b340ef75b"""," ""win.zstealer"""," ""Z*Stealer"""," ""ZStealer""",1
+" ""3ba6c334dc55d3738acd2d66c8465fc2"""," ""win.asyncrat"""," ""None"""," ""AsyncRAT""",1
+" ""3ee81730605831e5a0e8daa813ab769d"""," ""win.zstealer"""," ""Z*Stealer"""," ""ZStealer""",1
+" ""3fda95b694d43ff94ccb68987261cdc7"""," ""win.smokeloader"""," ""Dofoil",Sharik,1
+" ""40e2dbd555f80d3df18fc46547ad95b3"""," ""win.socks5_systemz"""," ""None"""," ""Socks5 Systemz""",1
+" ""4238b83c3542b6a13b86149d550c15ad"""," ""win.zstealer"""," ""Z*Stealer"""," ""ZStealer""",1
+" ""4890acdc735d5ac8e9c547f3e83051db"""," ""win.zstealer"""," ""Z*Stealer"""," ""ZStealer""",1
+" ""5494553f6688833c25cddf506e35ca8c"""," ""win.vidar"""," ""None"""," ""Vidar""",1
+" ""5728c495e52e029c0ca0efac85d1902b"""," ""win.vidar"""," ""None"""," ""Vidar""",1
+" ""5747ad5e21506c7dcfea3890b61d5762"""," ""win.zstealer"""," ""Z*Stealer"""," ""ZStealer""",1
+" ""5985bab7950b69ac64abd036d2f35d7c"""," ""win.zstealer"""," ""Z*Stealer"""," ""ZStealer""",1
+" ""604595d4c9e64dc8f06d5846194d99be"""," ""win.masad_stealer"""," ""None"""," ""Masad Stealer""",1
+" ""619b3d91c05f96053a329dd9c3d78141"""," ""win.salatstealer"""," ""None"""," ""SalatStealer""",1
+" ""717a9267f1f4b00c0b8e44e9abca7fc0"""," ""win.xworm"""," ""None"""," ""XWorm""",1
+" ""7560635d4e52608fc9e7a26900a592ab"""," ""win.xworm"""," ""None"""," ""XWorm""",1
+" ""7967156e138a66f3ee1bfce81836d8d0"""," ""win.troystealer"""," ""None"""," ""troystealer""",1
+" ""79f486707b5da5ca4ef1dd99b1b5a9a0"""," ""win.remcos"""," ""RemcosRAT",Remvio,1
+" ""7dd6a5905353bce9b6b7b67fddf14b0d"""," ""win.zstealer"""," ""Z*Stealer"""," ""ZStealer""",1
+" ""7ec9f649dab808c12620f5960efd9f1d"""," ""win.salatstealer"""," ""None"""," ""SalatStealer""",1
+" ""7f42ec81cff038c3fb0c7ecf6793faee"""," ""win.zstealer"""," ""Z*Stealer"""," ""ZStealer""",1
+" ""81fa4bb844407b3cfdacd65902b7970d"""," ""win.xworm"""," ""None"""," ""XWorm""",1
+" ""84f9389fa2e5ace44a78c40085421c56"""," ""win.hijackloader"""," ""DOILoader",GHOSTPULSE,1
+" ""8770f629d003faeb7c12aad29609a504"""," ""win.zstealer"""," ""Z*Stealer"""," ""ZStealer""",1
+" ""8a4d24723a1afb9f87ca0902e83bdf47"""," ""win.cobalt_strike"""," ""Agentemis",BEACON,1
+" ""8f23c142ec3a311dbed1983e7288d6fc"""," ""win.njrat"""," ""Bladabindi","Lime-Worm""",1
+" ""8ff8774e8417df329cb839e254995577"""," ""win.stealc"""," ""None"""," ""Stealc""",1
+" ""9586dc195c9ba76ad25139448d8a5fa2"""," ""win.htran"""," ""HUC Packet Transmit Tool","lcx""",1
+" ""99a30ae153774cabefa03e2f531f2d87"""," ""win.asyncrat"""," ""None"""," ""AsyncRAT""",1
+" ""a5b2aff1e1cef7fcfa779144a95e2155"""," ""win.socks5_systemz"""," ""None"""," ""Socks5 Systemz""",1
+" ""a8a13734712adfb8af30ca8219e4a655"""," ""win.xworm"""," ""None"""," ""XWorm""",1
+" ""ab5da234fe64408217985fa9e25b5a4f"""," ""win.zstealer"""," ""Z*Stealer"""," ""ZStealer""",1
+" ""afb2da283f6f141108d505182363144f"""," ""win.zstealer"""," ""Z*Stealer"""," ""ZStealer""",1
+" ""b2cebdeae4012362652ab8b00cd39753"""," ""win.smokeloader"""," ""Dofoil",Sharik,1
+" ""b31b882d97d4028414b2e4b880065a21"""," ""win.cobalt_strike"""," ""Agentemis",BEACON,1
+" ""bba156d3af1f02508a291fe866abccf6"""," ""win.masslogger"""," ""None"""," ""MASS Logger""",1
+" ""bbbc19140a79c8a49102e9ec0d5c8826"""," ""win.valley_rat"""," ""Winos"""," ""ValleyRAT""",1
+" ""c155b975aac837e098b6b35bf3fb926d"""," ""win.salatstealer"""," ""None"""," ""SalatStealer""",1
+" ""c2c041e66801a7384ca64ac26c546a14"""," ""win.zstealer"""," ""Z*Stealer"""," ""ZStealer""",1
+" ""c6303e71a65f42c26067269fa26b8580"""," ""win.salatstealer"""," ""None"""," ""SalatStealer""",1
+" ""cc4d99645fcda75fe95a5e6c59739da3"""," ""win.remcos"""," ""RemcosRAT",Remvio,1
+" ""d0afd781ce8872358047a5857f4dcb8a"""," ""win.smokeloader"""," ""Dofoil",Sharik,1
+" ""d343df200b5c1942a1e58b4f26ffdfaf"""," ""win.troystealer"""," ""None"""," ""troystealer""",1
+" ""d46aa12c03579e67390f41b88e3f4f7f"""," ""win.zstealer"""," ""Z*Stealer"""," ""ZStealer""",1
+" ""de5ded784a5662abc6e96cbae4b6ea6b"""," ""win.salatstealer"""," ""None"""," ""SalatStealer""",1
+" ""e57f0bc4924dfc879e316db637f19147"""," ""win.cobalt_strike"""," ""Agentemis",BEACON,1
+" ""e8e2672fb39ea2d848ce08c9a12a1446"""," ""win.zstealer"""," ""Z*Stealer"""," ""ZStealer""",1
+" ""eea299da2fc4ef7abf9957196a99c569"""," ""win.htran"""," ""HUC Packet Transmit Tool","lcx""",1
+" ""ef8ddfc89f244884e525cbc1c0c0fb6b"""," ""win.socks5_systemz"""," ""None"""," ""Socks5 Systemz""",1
+" ""f75acb993323f2ed4515faa4e0814662"""," ""win.zstealer"""," ""Z*Stealer"""," ""ZStealer""",1
+" ""fda3cbb7ca00beee2e96fa7120dc440e"""," ""win.smokeloader"""," ""Dofoil",Sharik,1
