@@ -1,6 +1,6 @@
 # IOC Summary
 
-Automated Hash Collections: Every day at 02:00 UTC. Last Updated: 2025-12-12 03:21:56 UTC
+Automated Hash Collections: Every day at 02:00 UTC. Last Updated: 2025-12-13 03:14:31 UTC
 
 This table shows top 10 malware names with their unique hashes and counts. [For Complete list, check the CSV files]
 
@@ -16,22 +16,3 @@ This table shows top 10 malware names with their unique hashes and counts. [For 
 |  "win.guidloader" |  "715c3d207254bf9f95dd4afc92b7ffe4"<br> "d0ed0abcf3fa360c725e0dbce00f96de" | 2 |
 |  "win.socks5_systemz" |  "1380c5049910ad9aab621d8556ee6479"<br> "24a29bee4edfe0bf450b2a11dad5928e" | 2 |
 |  "win.valley_rat" |  "04b7b3a7c3f3acb40efd2b3881c1e357"<br> "97191744c914d67488aa726d374560e9" | 2 |
-
-<!-- url_summary_start -->
-## 🔗 Top 10 URLs:
-
-Automated URL Collections, grouped by Tags: Every day at 03:00 UTC. Last Updated: 2025-12-12 03:50:39 UTC.
-
-| Tag | Count |
-|-----|-------|
-| 32-bit,elf,mips,Mozi | 7565 |
-| elf,ua-wget | 3550 |
-| ClearFake | 3240 |
-| CoinMiner | 1608 |
-| elf,mirai,ua-wget | 1185 |
-| 32-bit,elf,Mozi | 1159 |
-| 32-bit,arm,elf,mirai,Mozi | 746 |
-| mirai,opendir | 681 |
-| botnetdomain,elf,mirai,ua-wget | 618 |
-| huntio,opendir | 336 |
-<!-- url_summary_end -->
