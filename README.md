@@ -1,40 +1,9 @@
 # IOC Summary
 
-Automated Hash Collections: Every day at 02:00 UTC. Last Updated: 2025-12-17 03:18:56 UTC
+Automated Hash Collections: Every day at 02:00 UTC. Last Updated: 2025-12-19 03:22:45 UTC
 
 This table shows top 10 malware names with their unique hashes and counts. [For Complete list, check the CSV files]
 
 | Malware Name | ioc_value (Hashes) | Count |
 |--------------|--------------------|-------|
-|  "win.xworm" |  "0f40be79ea1a15b0632bfd006a2981ae"<br> "19bcd537467e603961fc6a1b7371ee97"<br> "5875acc94c099b35807ee696039a10d4"<br> "88ba15506ae497efd8995b5971a91ef3"<br> "9bb57c2ab14025c856918021a0ef249b"<br> "c97a4714e38aa7f36e38735972d5ea23"<br> "f659eba25efc7657d10ea90674a909de" | 7 |
-|  "win.salatstealer" |  "133a7866f62290cc81d02349b0758e53"<br> "aaf0f26390a830eef3b8691d2a8e8917"<br> "b0e6853cb1094abbaffda31e9924e406"<br> "cf652361ca2f17e91d077b083b566e20" | 4 |
-|  "win.vidar" |  "847d65e755ad8d1dacc351b2e2a66ebd"<br> "cb43f733b83699a4a8e65eea9430c47d"<br> "e59d08c96d9491b4a8cf07d0957e669c" | 3 |
-|  "win.valley_rat" |  "19b066ed4fae241bf7e9f22bdf56f647"<br> "1a55fc085063b6e48f6ecd6867f9c139"<br> "5c8bea324b7bb8a41976cc0e4b6c2dad" | 3 |
-|  "win.stealc" |  "0b6d833a53f813296cd1d225ee9e0834"<br> "d9de836e645c40db5576d7334976fd8a" | 2 |
-|  "win.owlproxy" |  "5d7d14945cd43b8b43a6dfc9bc22af4e"<br> "69c79d91868ee1b9f38c9a0dcbadd935" | 2 |
-|  "win.dcrat" |  "72b77e7a8de1016a13900301d60f780a"<br> "e64ee138457305a42952c5458dffb41f" | 2 |
-|  "win.asyncrat" |  "c9df8aeb2bec09c26c75258dbf64b51b"<br> "ebdd73e4e7ca746e1ea6e8cccc4c0295" | 2 |
-|  "win.poscardstealer" |  "c185148ae90b947e36bcea6a70a653bc"<br> "e9852c0cf42165ae949ba7b7745c2d0e" | 2 |
-|  "win.amadey" |  "ee1bc9874ec99137e07baab2f998886c" | 1 |
-
-
-
-<!-- url_summary_start -->
-## 🔗 Top 10 URLs:
-
-Automated URL Collections, grouped by Tags: Every day at 03:00 UTC. Last Updated: 2025-12-18 03:48:08 UTC.
-
-| Tag | Count |
-|-----|-------|
-| 32-bit,elf,mips,Mozi | 6104 |
-| ClearFake | 4403 |
-| elf,mirai,ua-wget | 1405 |
-| 32-bit,elf,Mozi | 1228 |
-| CoinMiner | 965 |
-| mirai,opendir | 744 |
-| botnetdomain,elf,mirai,ua-wget | 703 |
-| 32-bit,arm,elf,mirai,Mozi | 580 |
-| elf,ua-wget | 534 |
-| botnetdomain,mirai,opendir | 357 |
-<!-- url_summary_end -->
-
+|  "elf.mirai" |  "1c03d82026b6bcf5acd8fc4bcf48ed00"<br> "2078af54891b32ea0b1d1bf08b552fe8"<br> "2fd5481e9d20dad6d27e320d5464f71e"<br> "33435ec640fbd3451f5316c9e45d46e8"<br> "34dfa5bc38b8c6108406b1e4da9a21e4"<br> "3a172e3a2d330c49d7baa42ead3b6539"<br> "4cd750f32ee5d4f9e335751ae992ce64"<br> "51cfe61eac636aae33a88aa5f95e5185"<br> "5490fb81cf24a2defa87ea251f553d11"<br> "5f4ed952e69abb337f9405352cb5cc05"<br> "726557aaebee929541f9c60ec86d356e"<br> "8011ed1d1851c6ae31274c2ac8edfc06"<br> "85ba20e982ed8088bb1ba7ed23b0c497"<br> "887747dc1687953902488489b805d965"<br> "9053cef2ea429339b64f3df88cad8e3f"<br> "95efbc9fdc5c7bcbf469de3a0cc35699"<br> "9b37f3bf3b91aa4f135a6c64aba643bd"<br> "b1d4739d692d70c3e715f742ac329b05"<br> "b688c22aabcd83138bba4afb9b3ef4fc"<br> "b89ee1304b94f0951af31433dac9a1bd"<br> "bda398fcd6da2ddd4c756e7e7c47f8d8"<br> "bf06011784990b3cca02fe997ff9b33d"<br> "cf7960034540cd25840d619702c73a26"<br> "d086086b35d6c2ecf60b405e79f36d05"<br> "dfe8d1f591d53259e573b98acb178e84"<br> "e4be95de21627b8f988ba9b55c34380c"<br> "e96073b7ed4a8eb40bed6980a287bc9f"<br> "ea7e4930b7506c1a5ca7fee10547ef6b"<br> "f8a70ca813a6f5123c3869d418f00fe5" | 29 |
