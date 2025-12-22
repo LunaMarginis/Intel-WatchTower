@@ -17,21 +17,24 @@ This table shows top 10 malware names with their unique hashes and counts. [For 
 |  "win.valley_rat" |  "0ba338462106d5b37ab31cfd1a988017"<br> "ede3e31819fde45b923e40aa1a700a89" | 2 |
 |  "win.metastealer" |  "95143cac1bf31faa2847ce36c39e8359"<br> "96c71fcb8c1642af13da711e8e14fd39" | 2 |
 
+
+
 <!-- url_summary_start -->
 ## 🔗 Top 10 URLs:
 
-Automated URL Collections, grouped by Tags: Every day at 03:00 UTC. Last Updated: 2025-12-21 03:54:49 UTC.
+Automated URL Collections, grouped by Tags: Every day at 03:00 UTC. Last Updated: 2025-12-22 03:58:42 UTC.
 
 | Tag | Count |
 |-----|-------|
-| 32-bit,elf,mips,Mozi | 6741 |
-| ClearFake | 4796 |
-| elf,mirai,ua-wget | 1469 |
-| 32-bit,elf,Mozi | 1147 |
-| CoinMiner | 965 |
-| botnetdomain,elf,mirai,ua-wget | 719 |
-| 32-bit,arm,elf,mirai,Mozi | 634 |
+| 32-bit,elf,mips,Mozi | 6901 |
+| ClearFake | 4864 |
+| elf,mirai,ua-wget | 1579 |
+| 32-bit,elf,Mozi | 1110 |
+| CoinMiner | 954 |
+| botnetdomain,elf,mirai,ua-wget | 717 |
+| 32-bit,arm,elf,mirai,Mozi | 641 |
 | mirai,opendir | 628 |
-| elf,ua-wget | 508 |
+| elf,ua-wget | 526 |
 | huntio,opendir | 333 |
 <!-- url_summary_end -->
+
