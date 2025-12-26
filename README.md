@@ -1,49 +1,18 @@
 # IOC Summary
 
-Automated Hash Collections: Every day at 02:00 UTC. Last Updated: 2025-12-21 03:27:54 UTC
+Automated Hash Collections: Every day at 02:00 UTC. Last Updated: 2025-12-26 03:23:25 UTC
 
 This table shows top 10 malware names with their unique hashes and counts. [For Complete list, check the CSV files]
 
 | Malware Name | ioc_value (Hashes) | Count |
 |--------------|--------------------|-------|
-|  "win.lazarloader" |  "3775785ad32200f185f3a01af08dade2"<br> "47fcd4b9b922cd5f88e86e165d39ebd7"<br> "7b7990d49ba60bd9e66f5f0d0ef12b8a"<br> "9748def1acb43dfab58075fafcd19fc2"<br> "aa73093aca9d140176c7c00855bea2a2"<br> "ef54a7f0a584841da925b16f03417489"<br> "f932caa25a2a737e6297bbff229c1863" | 7 |
-|  "win.guidloader" |  "19ddcab4e91746ff74cdd3b817129ab4"<br> "3155da301a502e751a2805f5c7d3afa8"<br> "4523eff67adee63cfef9bde436ce8a7c"<br> "9af64b588e684eabc7688ebd18c6c952"<br> "eeb0884fd4ad33f809c64b3678c5be3d" | 5 |
-|  "win.vidar" |  "6a1fe547f6b32f418818528ed8498e56"<br> "75696e5ad1bac2965be28aa4ba2d9408"<br> "95d73ab73bbf835f15aa943a9b467c47"<br> "a867fceb541137462fbdbf64f84aa459"<br> "d16f127f8280482a53e804e2998bebda" | 5 |
-|  "win.asyncrat" |  "12e3fdc59be7f551e0f4520cf2d9e111"<br> "1d9d2e054a611fd8e18fec5d2b0542d9"<br> "567a87fbefde837e22ea571f862dea70"<br> "6507c9a87ddb7658473280a1dd46b50c" | 4 |
-|  "win.strelastealer" |  "42d4ba846ced59641f58e28bdce3f44b"<br> "93b2869c836bc38d392633bb2eb7f597"<br> "be27796e8ab0967f155bcb6e81b1be27" | 3 |
-|  "win.stealc" |  "47aa6081a8c4457ea63993dd092c297f"<br> "a50dfdd0152877c28f16eceab84d0b41"<br> "ad6f5190fdc7db6e36b79f6a076f4926" | 3 |
-|  "win.amadey" |  "970858f1d92c8ba2312db57bcae9a3d7"<br> "b8856ad35346120c9961a4a49f0c46d8"<br> "e1b159dd347eaa90a80480055c8edcd2" | 3 |
-|  "win.expiro" |  "7f573d4fcfa5f5017701d3fb77dfa5b2"<br> "cf1ebbc3c0d62dfa03e9e0339a40a78a" | 2 |
-|  "win.valley_rat" |  "0ba338462106d5b37ab31cfd1a988017"<br> "ede3e31819fde45b923e40aa1a700a89" | 2 |
-|  "win.metastealer" |  "95143cac1bf31faa2847ce36c39e8359"<br> "96c71fcb8c1642af13da711e8e14fd39" | 2 |
-
-
-
-
-
-
-
-
-
-<!-- url_summary_start -->
-## 🔗 Top 10 URLs:
-
-Automated URL Collections, grouped by Tags: Every day at 03:00 UTC. Last Updated: 2025-12-25 03:53:32 UTC.
-
-| Tag | Count |
-|-----|-------|
-| 32-bit,elf,mips,Mozi | 7022 |
-| ClearFake | 5095 |
-| elf,mirai,ua-wget | 1637 |
-| CoinMiner | 1314 |
-| 32-bit,elf,Mozi | 1031 |
-| botnetdomain,elf,mirai,ua-wget | 873 |
-| mirai,opendir | 666 |
-| 32-bit,arm,elf,mirai,Mozi | 647 |
-| elf,ua-wget | 567 |
-| botnetdomain,mirai,opendir | 337 |
-<!-- url_summary_end -->
-
-
-
-
+|  "win.adaptix_c2" |  "05742241859eb55ff0ad69e2aedd8277"<br> "069ac792037506df2d926ad53702e2f6"<br> "0b9cfeb38d4cb7fba777ca52faebc52c"<br> "0dbaee8bcc15e1b4b424d07e8a4b8e4d"<br> "11609064f34537f722ed00513d9d89ac"<br> "23be339b732b225ca0ea89c57d93a60e"<br> "42aa979f9af39fb092113434e0990002"<br> "b99e63930e606f3be6fe9d91549c3189"<br> "bbfdb7f47559bfde4090b7c113c9d274"<br> "bc5543b39d89cda6832706948945f567" | 10 |
+|  "win.vidar" |  "022c41be0bda02c3e0d557186e8a6c50"<br> "249a7e5f1e1c3af2b97f6fd30ae62558"<br> "66516308445beefb68926d3ea061e8d7"<br> "9983e2fb72cbd03945a2ed305537e69c"<br> "cf0a119aa90c4caabea0b310d68a15e8"<br> "e226f9ac6b062ca0af4b2b75316de0f2" | 6 |
+|  "win.remoteadmin" |  "35acaeebbcd497aeb296c6e6cda42743"<br> "75ac66217fab820b521106a63cef8445"<br> "9cd4a1bc54e137ad80a3e9a54c332f7c" | 3 |
+|  "win.merlin" |  "7b13d4494a8483482f22330a5e4b5b66"<br> "c22c3acb5bdf0d66dd9a4c849fa0a894"<br> "c492a5e8596f42decb172ba9e38cc478" | 3 |
+|  "win.stealc" |  "179ac1047c00229c3d041b042fccffa5"<br> "2570aa2d6bec5c5c98e55b776dd39fa0"<br> "50fc6559127c76fc8112f9dab70f1b8f" | 3 |
+|  "win.poscardstealer" |  "3904bde96ca576cf5824fcf237235fac"<br> "47293d99962eee46f45384ad95b77ef3" | 2 |
+|  "win.luca_stealer" |  "27b437c50ea1dc18927c9dd175f1d40f"<br> "fb75b4572d6698c8febcad33a82b0851" | 2 |
+|  "win.gcleaner" |  "25543a5746f9a767c835e8e6ebcb3189"<br> "faebf99fcf44f223214717256eaeab4e" | 2 |
+|  "win.strelastealer" |  "00036fbe5dceab7b0ca486e3f589a496"<br> "a20549cc494317598f8bc7474709b396" | 2 |
+|  "win.amadey" |  "d9364eaf2a9bddb813bff9a1caba6d8f" | 1 |
