@@ -1,6 +1,6 @@
 # IOC Summary
 
-Automated Hash Collections: Every day at 02:00 UTC. Last Updated: 2025-12-26 03:23:25 UTC
+Automated Hash Collections: Every day at 02:00 UTC. Last Updated: 2025-12-27 03:21:41 UTC
 
 This table shows top 10 malware names with their unique hashes and counts. [For Complete list, check the CSV files]
 
@@ -16,22 +16,3 @@ This table shows top 10 malware names with their unique hashes and counts. [For 
 |  "win.gcleaner" |  "25543a5746f9a767c835e8e6ebcb3189"<br> "faebf99fcf44f223214717256eaeab4e" | 2 |
 |  "win.strelastealer" |  "00036fbe5dceab7b0ca486e3f589a496"<br> "a20549cc494317598f8bc7474709b396" | 2 |
 |  "win.amadey" |  "d9364eaf2a9bddb813bff9a1caba6d8f" | 1 |
-
-<!-- url_summary_start -->
-## 🔗 Top 10 URLs:
-
-Automated URL Collections, grouped by Tags: Every day at 03:00 UTC. Last Updated: 2025-12-26 03:51:18 UTC.
-
-| Tag | Count |
-|-----|-------|
-| 32-bit,elf,mips,Mozi | 6960 |
-| ClearFake | 5154 |
-| elf,mirai,ua-wget | 1596 |
-| CoinMiner | 1314 |
-| 32-bit,elf,Mozi | 1008 |
-| botnetdomain,elf,mirai,ua-wget | 904 |
-| mirai,opendir | 666 |
-| 32-bit,arm,elf,mirai,Mozi | 630 |
-| elf,ua-wget | 558 |
-| huntio,opendir | 351 |
-<!-- url_summary_end -->
