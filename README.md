@@ -17,21 +17,24 @@ This table shows top 10 malware names with their unique hashes and counts. [For 
 |  "win.strelastealer" |  "00036fbe5dceab7b0ca486e3f589a496"<br> "a20549cc494317598f8bc7474709b396" | 2 |
 |  "win.amadey" |  "d9364eaf2a9bddb813bff9a1caba6d8f" | 1 |
 
+
+
 <!-- url_summary_start -->
 ## 🔗 Top 10 URLs:
 
-Automated URL Collections, grouped by Tags: Every day at 03:00 UTC. Last Updated: 2025-12-27 03:48:32 UTC.
+Automated URL Collections, grouped by Tags: Every day at 03:00 UTC. Last Updated: 2025-12-28 04:02:24 UTC.
 
 | Tag | Count |
 |-----|-------|
-| 32-bit,elf,mips,Mozi | 6928 |
-| ClearFake | 5124 |
-| elf,mirai,ua-wget | 1604 |
-| CoinMiner | 1314 |
-| 32-bit,elf,Mozi | 989 |
-| botnetdomain,elf,mirai,ua-wget | 916 |
+| 32-bit,elf,mips,Mozi | 6855 |
+| ClearFake | 5041 |
+| elf,mirai,ua-wget | 1622 |
+| CoinMiner | 1312 |
+| 32-bit,elf,Mozi | 978 |
+| botnetdomain,elf,mirai,ua-wget | 941 |
 | mirai,opendir | 710 |
-| 32-bit,arm,elf,mirai,Mozi | 618 |
-| elf,ua-wget | 583 |
+| 32-bit,arm,elf,mirai,Mozi | 612 |
+| elf,ua-wget | 600 |
 | botnetdomain,mirai,opendir | 370 |
 <!-- url_summary_end -->
+
