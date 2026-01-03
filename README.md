@@ -1,6 +1,6 @@
 # IOC Summary
 
-Automated Hash Collections: Every day at 02:00 UTC. Last Updated: 2026-01-02 03:38:37 UTC
+Automated Hash Collections: Every day at 02:00 UTC. Last Updated: 2026-01-03 03:20:51 UTC
 
 This table shows top 10 malware names with their unique hashes and counts. [For Complete list, check the CSV files]
 
@@ -16,22 +16,3 @@ This table shows top 10 malware names with their unique hashes and counts. [For 
 |  "win.poscardstealer" |  "2977d7fd9592d2bf3f7f17d94be5d67f"<br> "91763fd6a0da2fb89df38b3ed2ee1f69" | 2 |
 |  "win.coffee_loader" |  "935e797ff363a08ee130ca80d2c32d8c" | 1 |
 |  "win.berserk_stealer" |  "ac089345d62de1dd397b4b6be9a782b1" | 1 |
-
-<!-- url_summary_start -->
-## 🔗 Top 10 URLs:
-
-Automated URL Collections, grouped by Tags: Every day at 03:00 UTC. Last Updated: 2026-01-02 03:57:16 UTC.
-
-| Tag | Count |
-|-----|-------|
-| 32-bit,elf,mips,Mozi | 6796 |
-| ClearFake | 4462 |
-| elf,mirai,ua-wget | 1644 |
-| CoinMiner | 1045 |
-| botnetdomain,elf,mirai,ua-wget | 886 |
-| 32-bit,elf,Mozi | 886 |
-| elf,ua-wget | 638 |
-| 32-bit,arm,elf,mirai,Mozi | 565 |
-| mirai,opendir | 547 |
-| CoinMiner,iframe | 407 |
-<!-- url_summary_end -->
