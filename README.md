@@ -17,21 +17,24 @@ This table shows top 10 malware names with their unique hashes and counts. [For 
 |  "win.coffee_loader" |  "935e797ff363a08ee130ca80d2c32d8c" | 1 |
 |  "win.berserk_stealer" |  "ac089345d62de1dd397b4b6be9a782b1" | 1 |
 
+
+
 <!-- url_summary_start -->
 ## 🔗 Top 10 URLs:
 
-Automated URL Collections, grouped by Tags: Every day at 03:00 UTC. Last Updated: 2026-01-03 03:48:04 UTC.
+Automated URL Collections, grouped by Tags: Every day at 03:00 UTC. Last Updated: 2026-01-04 04:05:47 UTC.
 
 | Tag | Count |
 |-----|-------|
-| elf,mips,32-bit,Mozi | 6787 |
-| ClearFake | 4296 |
-| elf,ua-wget,mirai | 1554 |
-| CoinMiner | 984 |
-| elf,ua-wget,botnetdomain,mirai | 886 |
-| 32-bit,elf,Mozi | 864 |
-| elf,ua-wget | 641 |
-| elf,arm,32-bit,Mozi,mirai | 553 |
-| opendir,mirai | 473 |
+| 32-bit,elf,mips,Mozi | 6819 |
+| ClearFake | 4239 |
+| elf,mirai,ua-wget | 1545 |
+| 32-bit,elf,Mozi | 881 |
+| botnetdomain,elf,mirai,ua-wget | 836 |
+| CoinMiner | 772 |
+| elf,ua-wget | 620 |
+| mirai,opendir | 554 |
+| 32-bit,arm,elf,mirai,Mozi | 552 |
 | CoinMiner,iframe | 407 |
 <!-- url_summary_end -->
+
