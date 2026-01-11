@@ -16,3 +16,22 @@ This table shows top 10 malware names with their unique hashes and counts. [For 
 |  "win.poscardstealer" |  "2f87675e90953121627b9d42c78fa0e6"<br> "db72c217f173856469a24585ba66e1ca"<br> "edcbfd32473e784ceb72db601442d641" | 3 |
 |  "win.masad_stealer" |  "3beaa43023ad2ec06bad08b3b8f36dde"<br> "6b16544200f712036844281d6be4615e"<br> "6e53902a1ef573709b2f5d4e77c0053b" | 3 |
 |  "win.owlproxy" |  "066e5b41aa01b8cfcf36e6e2551af6af"<br> "aea9fbc6555f0e458e151a6a70b94cbc" | 2 |
+
+<!-- url_summary_start -->
+## 🔗 Top 10 URLs:
+
+Automated URL Collections, grouped by Tags: Every day at 03:00 UTC. Last Updated: 2026-01-11 04:04:49 UTC.
+
+| Tag | Count |
+|-----|-------|
+| 32-bit,elf,mips,Mozi | 7024 |
+| ClearFake | 4037 |
+| elf,mirai,ua-wget | 1466 |
+| 32-bit,elf,Mozi | 796 |
+| botnetdomain,elf,mirai,ua-wget | 709 |
+| elf,mips,Mozi | 693 |
+| CoinMiner | 672 |
+| elf,ua-wget | 631 |
+| 32-bit,arm,elf,mirai,Mozi | 562 |
+| mirai,opendir | 343 |
+<!-- url_summary_end -->
