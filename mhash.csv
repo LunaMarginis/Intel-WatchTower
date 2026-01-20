@@ -1,21 +1,79 @@
 ioc_value,fk_malware,malware_alias,malware_printable,count
-" ""0f85e1cc2090e3426eb24011c2bb4b98"""," ""unknown"""," ""None"""," ""Unknown malware""",1
-" ""467360d71126e9ca886ee8929bf0fd36"""," ""unknown"""," ""None"""," ""Unknown malware""",1
-" ""4cadd3e503e79af2161d857f71e60d31"""," ""unknown"""," ""None"""," ""Unknown malware""",1
-" ""5474a41d142f72654c46c45cce1e602c"""," ""unknown"""," ""None"""," ""Unknown malware""",1
-" ""5ab6ef0270b38a93d1620c90965cb456"""," ""unknown"""," ""None"""," ""Unknown malware""",1
-" ""6fc4b4e2abf47a4484c7d59704f34c0b"""," ""unknown"""," ""None"""," ""Unknown malware""",1
-" ""79f3be41931e1e32559980fbe037862b"""," ""unknown"""," ""None"""," ""Unknown malware""",1
-" ""7a254f2a75ddb5bb500c08dfc10b26f5"""," ""unknown"""," ""None"""," ""Unknown malware""",1
-" ""7d839393902da99828af8a4abd260254"""," ""unknown"""," ""None"""," ""Unknown malware""",1
-" ""83f9ae3c31db07746f0a3ea44a33dbb3"""," ""unknown"""," ""None"""," ""Unknown malware""",1
-" ""91b64dea4d5b91b552af9af3e73b21e9"""," ""unknown"""," ""None"""," ""Unknown malware""",1
-" ""9810bc6f3c8a0cfebf10aa1ac18a94fe"""," ""unknown"""," ""None"""," ""Unknown malware""",1
-" ""9e80e5794cd8447e3bae73f8e43eb93a"""," ""unknown"""," ""None"""," ""Unknown malware""",1
-" ""a38cb0f56f5dd6bdae50079078813293"""," ""unknown"""," ""None"""," ""Unknown malware""",1
-" ""b51568fb3a22f9816fe412dc01e3ae34"""," ""unknown"""," ""None"""," ""Unknown malware""",1
-" ""d1f3e8aca0c9d86982c0b60400961a08"""," ""unknown"""," ""None"""," ""Unknown malware""",1
-" ""d52fa479098e9ca3d5f28191311f588c"""," ""unknown"""," ""None"""," ""Unknown malware""",1
-" ""d66e63db75816f1612ee66e5ef80a1a1"""," ""unknown"""," ""None"""," ""Unknown malware""",1
-" ""d8fbe7bd2d399131611c9a57541e4444"""," ""unknown"""," ""None"""," ""Unknown malware""",1
-" ""e0d83d943cb03dc982a9cceae3324575"""," ""unknown"""," ""None"""," ""Unknown malware""",1
+" ""0634c78ea40ae9fc00ab3adf15f48bc0"""," ""win.valley_rat"""," ""Winos"""," ""ValleyRAT""",1
+" ""0cafe08cfc60ef2ddcbd3c9802363fe7"""," ""win.metastealer"""," ""None"""," ""MetaStealer""",1
+" ""1942e8f698c4c3951b326f5fd1889064"""," ""win.vidar"""," ""None"""," ""Vidar""",1
+" ""1a8760101ab75a700619a267f2f80c9e"""," ""win.mirai"""," ""None"""," ""Mirai""",1
+" ""32d8b5f9d0eb800acdb091d592de61fd"""," ""win.remoteadmin"""," ""None"""," ""RemoteAdmin""",1
+" ""37b9c4229fe6aa6e51f8e3bdcf0ac799"""," ""win.gcleaner"""," ""None"""," ""GCleaner""",1
+" ""3a916975ded123c3f722930bcf7d3cf6"""," ""win.gcleaner"""," ""None"""," ""GCleaner""",1
+" ""3b3a6bd6375d0e3942a7892607963e29"""," ""win.remoteadmin"""," ""None"""," ""RemoteAdmin""",1
+" ""3ddc6875fab1c8465e6c5e5481574720"""," ""win.guidloader"""," ""None"""," ""GUIDLOADER""",1
+" ""462e198713218139c9cbe7d8f2d485d2"""," ""win.remoteadmin"""," ""None"""," ""RemoteAdmin""",1
+" ""484e225f9da8632d2ecb5d0ae0c49252"""," ""win.dcrat"""," ""DarkCrystal RAT"""," ""DCRat""",1
+" ""4c31d43f4948351cf778ab0f1502e24e"""," ""win.remoteadmin"""," ""None"""," ""RemoteAdmin""",1
+" ""4c49f3233a24dd2678dbb2879f87c3f5"""," ""win.gcleaner"""," ""None"""," ""GCleaner""",1
+" ""4ecd918213e9803c90d0db86292fb9a5"""," ""win.salatstealer"""," ""None"""," ""SalatStealer""",1
+" ""4fa38010141842d9d031732674f1b0e4"""," ""win.remoteadmin"""," ""None"""," ""RemoteAdmin""",1
+" ""504ef3357bae688d1930fb51de4fe6e8"""," ""win.remoteadmin"""," ""None"""," ""RemoteAdmin""",1
+" ""50db79c90abf3a13caaf3ab4dc6ff915"""," ""win.remoteadmin"""," ""None"""," ""RemoteAdmin""",1
+" ""51b5031f0ae706300495afbfb91e9a5d"""," ""win.gcleaner"""," ""None"""," ""GCleaner""",1
+" ""532deced5f092b6b35e983f4f73f6208"""," ""win.remoteadmin"""," ""None"""," ""RemoteAdmin""",1
+" ""5f18d632b444d4f5aab9e28b86d9f325"""," ""win.remoteadmin"""," ""None"""," ""RemoteAdmin""",1
+" ""5fa4d3a8dd96a9d7300788ac2ec902c3"""," ""win.asyncrat"""," ""None"""," ""AsyncRAT""",1
+" ""619f4629f0b4924680e92f5af3156138"""," ""win.dcrat"""," ""DarkCrystal RAT"""," ""DCRat""",1
+" ""61f2afdb6cefa34f216f94b8eb54902e"""," ""win.asyncrat"""," ""None"""," ""AsyncRAT""",1
+" ""6a37e2d60f2af6cdc262dc06c78d748f"""," ""win.vidar"""," ""None"""," ""Vidar""",1
+" ""6db49fdf6d36de4354b96aa49b45af90"""," ""win.stealc"""," ""None"""," ""Stealc""",1
+" ""70d2c200b61d7011f944ed3683b03e55"""," ""win.gcleaner"""," ""None"""," ""GCleaner""",1
+" ""722139ba13e0f38263b049baaa4cc42f"""," ""win.dcrat"""," ""DarkCrystal RAT"""," ""DCRat""",1
+" ""7a1390b939ed399ec542de82ed8ea494"""," ""win.salatstealer"""," ""None"""," ""SalatStealer""",1
+" ""7ab8fb29aa88c4c5c768f60a2e2d0973"""," ""win.gcleaner"""," ""None"""," ""GCleaner""",1
+" ""7fe37b3e7604a0f714f6f6feabc81d78"""," ""win.vidar"""," ""None"""," ""Vidar""",1
+" ""81b8982a93406afad461ce93b6c0c06f"""," ""win.remoteadmin"""," ""None"""," ""RemoteAdmin""",1
+" ""838b339d9cea29114ee65c5c354e29d9"""," ""win.vidar"""," ""None"""," ""Vidar""",1
+" ""85dd0661cdf08ea206b9374137bebaaf"""," ""win.remoteadmin"""," ""None"""," ""RemoteAdmin""",1
+" ""865a3ea415cb2a283ab17c1f03a1b36c"""," ""win.remoteadmin"""," ""None"""," ""RemoteAdmin""",1
+" ""88d4fde9d1db9e04482219236c0cdcf1"""," ""win.vidar"""," ""None"""," ""Vidar""",1
+" ""89d4d7ec62b1cb493ccbea52a358adc3"""," ""win.troystealer"""," ""None"""," ""troystealer""",1
+" ""8a0cab4e3230e9c1ad2042aeba09c22e"""," ""win.gcleaner"""," ""None"""," ""GCleaner""",1
+" ""8e77a94f9c25d8f514038473d50cc5f4"""," ""win.tofsee"""," ""Gheg"""," ""Tofsee""",1
+" ""8f734f509e79eb5b29953776fba97b4e"""," ""win.gcleaner"""," ""None"""," ""GCleaner""",1
+" ""8faf3d7c9d2b357d3a282cc406ee0177"""," ""win.remoteadmin"""," ""None"""," ""RemoteAdmin""",1
+" ""931ab4e4d617a406ef2ea34a2c1c90c5"""," ""win.gcleaner"""," ""None"""," ""GCleaner""",1
+" ""93b96d9d6b0680794482d49b8917e1ec"""," ""win.metastealer"""," ""None"""," ""MetaStealer""",1
+" ""953a9f61dbdffb8beb0473599a8760db"""," ""win.gcleaner"""," ""None"""," ""GCleaner""",1
+" ""98d9e347563d43e0ebeace80d66e4ba6"""," ""win.gcleaner"""," ""None"""," ""GCleaner""",1
+" ""9a0f1c9e8a79b6f1fc43ac6d2725fc2b"""," ""win.salatstealer"""," ""None"""," ""SalatStealer""",1
+" ""a044762e6ec3f8ed4b6c2bb5ed66af9f"""," ""win.remoteadmin"""," ""None"""," ""RemoteAdmin""",1
+" ""a4988f202080ce82d7de0cd3c345f4f4"""," ""win.gcleaner"""," ""None"""," ""GCleaner""",1
+" ""a63b698f4ebe8eafb2a43dd821c91826"""," ""win.remoteadmin"""," ""None"""," ""RemoteAdmin""",1
+" ""a7e8405b18a70f3edee0a6771f037ae8"""," ""win.vidar"""," ""None"""," ""Vidar""",1
+" ""a82e7a612e779f28ff89aa744cb1c940"""," ""win.remoteadmin"""," ""None"""," ""RemoteAdmin""",1
+" ""a9ef5f866311847539dfbac143384bbd"""," ""win.gcleaner"""," ""None"""," ""GCleaner""",1
+" ""abea307f72dd7cb7e0cec440040b0483"""," ""win.remoteadmin"""," ""None"""," ""RemoteAdmin""",1
+" ""ad8c94a4d41bcc31568d334e2e463a7a"""," ""win.salatstealer"""," ""None"""," ""SalatStealer""",1
+" ""b0d0f0e4a228486bf7cacb522cbc9142"""," ""win.vidar"""," ""None"""," ""Vidar""",1
+" ""b35d82cc53ffea9f11977bc03c0b8708"""," ""win.coinminer"""," ""None"""," ""Coinminer""",1
+" ""be0896531008279101a6f9ae5e838d71"""," ""win.asyncrat"""," ""None"""," ""AsyncRAT""",1
+" ""c8d9ad858a92f86cd38987377c70f02e"""," ""win.vidar"""," ""None"""," ""Vidar""",1
+" ""c9f45a8b82969f5c11972c3e7f14aa8a"""," ""win.stealc"""," ""None"""," ""Stealc""",1
+" ""cb0dd2de3edc2121e5080ca3ec1c6342"""," ""win.coinminer"""," ""None"""," ""Coinminer""",1
+" ""cbf5737905704e80195d2a4af99eeb3f"""," ""win.remoteadmin"""," ""None"""," ""RemoteAdmin""",1
+" ""d7697960bf84da4963303a43202fe7e2"""," ""win.metastealer"""," ""None"""," ""MetaStealer""",1
+" ""d78fb6b547e0d05e2775a0a5aaffd5d8"""," ""win.gcleaner"""," ""None"""," ""GCleaner""",1
+" ""d7b50d66a003e6cb3653d46408d57740"""," ""win.metastealer"""," ""None"""," ""MetaStealer""",1
+" ""da52bd37e41e5fd178c2a2ba5e389a46"""," ""win.gcleaner"""," ""None"""," ""GCleaner""",1
+" ""db1b2eb41cd1b37caf662eb0c5196591"""," ""win.salatstealer"""," ""None"""," ""SalatStealer""",1
+" ""e5825cbe2706565dfe9a898db1ec6458"""," ""win.gcleaner"""," ""None"""," ""GCleaner""",1
+" ""e5d0a01803e95fd1e2c641ab692d2053"""," ""win.remoteadmin"""," ""None"""," ""RemoteAdmin""",1
+" ""e699a618f4a2f3e19fd2344f30fd8a37"""," ""win.asyncrat"""," ""None"""," ""AsyncRAT""",1
+" ""e9b8a9ead99941b76e8c7bdea9e68d90"""," ""win.poscardstealer"""," ""None"""," ""poscardstealer""",1
+" ""ed98d401f10ce37a14b11efea97e0af6"""," ""win.vidar"""," ""None"""," ""Vidar""",1
+" ""f12ae6ec750008533a9be0ac11ad2394"""," ""win.gcleaner"""," ""None"""," ""GCleaner""",1
+" ""f2ae1f5d044bf4defc6bc8300e9782f7"""," ""win.gcleaner"""," ""None"""," ""GCleaner""",1
+" ""f42eec194719224bc45a068850483c1b"""," ""win.gcleaner"""," ""None"""," ""GCleaner""",1
+" ""f44045d42854fc2e226ba91838d77454"""," ""win.salatstealer"""," ""None"""," ""SalatStealer""",1
+" ""f6943d05fdc174a0aef20f4385bef95c"""," ""win.remoteadmin"""," ""None"""," ""RemoteAdmin""",1
+" ""f901c1b46f5155e626028b141ce703ca"""," ""win.remoteadmin"""," ""None"""," ""RemoteAdmin""",1
+" ""fd1efb726c809865abdd42a6004d8b75"""," ""win.salatstealer"""," ""None"""," ""SalatStealer""",1
+" ""ff473ecd0a7518053a21701201c5ba59"""," ""win.remoteadmin"""," ""None"""," ""RemoteAdmin""",1
