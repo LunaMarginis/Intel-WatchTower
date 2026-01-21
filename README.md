@@ -16,3 +16,22 @@ This table shows top 10 malware names with their unique hashes and counts. [For 
 |  "win.coinminer" |  "b35d82cc53ffea9f11977bc03c0b8708"<br> "cb0dd2de3edc2121e5080ca3ec1c6342" | 2 |
 |  "win.stealc" |  "6db49fdf6d36de4354b96aa49b45af90"<br> "c9f45a8b82969f5c11972c3e7f14aa8a" | 2 |
 |  "win.mirai" |  "1a8760101ab75a700619a267f2f80c9e" | 1 |
+
+<!-- url_summary_start -->
+## 🔗 Top 10 URLs:
+
+Automated URL Collections, grouped by Tags: Every day at 03:00 UTC. Last Updated: 2026-01-21 03:59:37 UTC.
+
+| Tag | Count |
+|-----|-------|
+| 32-bit,elf,mips,Mozi | 7480 |
+| ClearFake | 1488 |
+| elf,mirai,ua-wget | 1475 |
+| botnetdomain,elf,mirai,ua-wget | 932 |
+| CoinMiner | 800 |
+| elf,mips,Mozi | 693 |
+| 32-bit,elf,Mozi | 691 |
+| elf,ua-wget | 631 |
+| 32-bit,arm,elf,mirai,Mozi | 598 |
+| elf,mirai | 304 |
+<!-- url_summary_end -->
