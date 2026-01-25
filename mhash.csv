@@ -1,66 +1,45 @@
 ioc_value,fk_malware,malware_alias,malware_printable,count
-" ""0014e18b7e72bbabd17a8e39c9448563"""," ""win.dragonforce"""," ""None"""," ""DragonForce""",1
-" ""01fe9ec52001743d53b7b82b685b1801"""," ""win.remcos"""," ""RemcosRAT",Remvio,1
-" ""081ee44c6b94f15d7eb6bb783ff283ad"""," ""win.dcrat"""," ""DarkCrystal RAT"""," ""DCRat""",1
-" ""0d1b251406af24179e5210d168ada9f8"""," ""win.darkvision_rat"""," ""None"""," ""DarkVision RAT""",1
-" ""0ff8bd1f1ca84b2483307286ab529da9"""," ""win.formbook"""," ""win.xloader"""," ""Formbook""",1
-" ""1158732b09c452dfc91b2715fb0093c7"""," ""win.attor"""," ""None"""," ""Attor""",1
-" ""13aecf3495cd078b778749de67f4b30b"""," ""win.expiro"""," ""Xpiro"""," ""Expiro""",1
-" ""150a0d59b5c6e86985b3315e1aaa103e"""," ""win.nitrogen_ransomware"""," ""None"""," ""Nitrogen Ransomware""",1
-" ""1a92e729703b09b11c39fff4055c3a09"""," ""win.socks5_systemz"""," ""None"""," ""Socks5 Systemz""",1
-" ""1b637a43abca552acaee11c01913db18"""," ""win.nitrogen_ransomware"""," ""None"""," ""Nitrogen Ransomware""",1
-" ""1d28cd3104227d122c5a3cff75052ed2"""," ""win.quantloader"""," ""None"""," ""QuantLoader""",1
-" ""1dd23c68683eeb956d043c338668534c"""," ""win.swaet_rat"""," ""None"""," ""SwaetRAT""",1
-" ""203dd619f92192331f488854ccde6178"""," ""win.pony"""," ""Siplog","Fareit""",1
-" ""3139c8e0d0dd9683ebfecdb2e4f1b6bb"""," ""win.nitrogen_ransomware"""," ""None"""," ""Nitrogen Ransomware""",1
-" ""352ae8c2dff6e401fb14f86d702a06fa"""," ""win.dragonforce"""," ""None"""," ""DragonForce""",1
-" ""365062334429339b5aa3610d7aa69552"""," ""win.asyncrat"""," ""None"""," ""AsyncRAT""",1
-" ""4212832505c40663f887c6197d19c2f8"""," ""win.vidar"""," ""None"""," ""Vidar""",1
-" ""46788513abe0249be6e91828315aeb09"""," ""win.coinminer"""," ""None"""," ""Coinminer""",1
-" ""4cea87712364bcc12b941d51ca1b3be1"""," ""win.darkvision_rat"""," ""None"""," ""DarkVision RAT""",1
-" ""4eaf0516cbf78a31a9bbe63abf3688df"""," ""win.troystealer"""," ""None"""," ""troystealer""",1
-" ""5364f71675abf2bd4fde9747d6b3ea5f"""," ""win.deltastealer"""," ""None"""," ""DeltaStealer""",1
-" ""5846e2e356dbc36741db509380af6a42"""," ""win.bolek"""," ""KBOT"""," ""Bolek""",1
-" ""5d6bd66a425dd270e72e63c6d150443c"""," ""win.masslogger"""," ""None"""," ""MASS Logger""",1
-" ""5f90e8bef55bb6c67a0900eb5e3f610e"""," ""win.guidloader"""," ""None"""," ""GUIDLOADER""",1
-" ""5fa251ce06de7db855473795ca470093"""," ""win.poscardstealer"""," ""None"""," ""poscardstealer""",1
-" ""642d0b10fd04b51b60662a9a902025c7"""," ""win.vidar"""," ""None"""," ""Vidar""",1
-" ""67bc6e3b82515dffeb04328c7f8a1322"""," ""win.nitrogen_ransomware"""," ""None"""," ""Nitrogen Ransomware""",1
-" ""6c856327dcb9f8c341c601867b1622c5"""," ""win.redline_stealer"""," ""RECORDSTEALER"""," ""RedLine Stealer""",1
-" ""723063e6026c2fcf86dc61f5a399d329"""," ""win.troystealer"""," ""None"""," ""troystealer""",1
-" ""7eef63a52a32fa3dcb03154de03573a5"""," ""win.poscardstealer"""," ""None"""," ""poscardstealer""",1
-" ""85eb41510e60350f6c9d42576964ffd4"""," ""win.redenergy_stealer"""," ""None"""," ""RedEnergy Stealer""",1
-" ""87c2fe364be5c08c86e4d08aa53ecdbc"""," ""unknown"""," ""None"""," ""Unknown malware""",1
-" ""8a75dc4bd62b64ea987d8dc8b4a46a10"""," ""win.formbook"""," ""win.xloader"""," ""Formbook""",1
-" ""96110d9369bdc35ddc1ed8844a0b076f"""," ""win.dragonforce"""," ""None"""," ""DragonForce""",1
-" ""97c636d3ec31cd21e118284c4c92e5bb"""," ""win.nitrogen_ransomware"""," ""None"""," ""Nitrogen Ransomware""",1
-" ""97e189c6dd9196fa7a6893190d6d8b93"""," ""win.arkei_stealer"""," ""ArkeiStealer"""," ""Arkei Stealer""",1
-" ""987fded6c678044ab8277c04d9555e14"""," ""win.stealc"""," ""None"""," ""Stealc""",1
-" ""a0524bf02968db6eae5081b9ab92af31"""," ""win.dragonforce"""," ""None"""," ""DragonForce""",1
-" ""a3d346e9dbdc4ca5092746a4c583bfec"""," ""win.formbook"""," ""win.xloader"""," ""Formbook""",1
-" ""a90c3969bcd05e191205da92fd43c88f"""," ""win.nitrogen_ransomware"""," ""None"""," ""Nitrogen Ransomware""",1
-" ""a9297a8acbee74ba0169333ee38be2ef"""," ""win.nitrogen_ransomware"""," ""None"""," ""Nitrogen Ransomware""",1
-" ""ad61b949f2c3d8a8936305da847f2ab6"""," ""win.nitrogen_ransomware"""," ""None"""," ""Nitrogen Ransomware""",1
-" ""b4336b206409550d78e0029065cdcc75"""," ""win.krakenkeylogger"""," ""None"""," ""KrakenKeylogger""",1
-" ""b49677c0152004f52deb9f603d87d18d"""," ""win.quantloader"""," ""None"""," ""QuantLoader""",1
-" ""baafddfda8404d2dbfcc8ac31a02af74"""," ""win.quantloader"""," ""None"""," ""QuantLoader""",1
-" ""bbef5e097987e72a2da600021bb9053b"""," ""win.vidar"""," ""None"""," ""Vidar""",1
-" ""c4653e35b11836efdd273d8661b3ad94"""," ""win.masad_stealer"""," ""None"""," ""Masad Stealer""",1
-" ""cc729b30c34c7e3573b8b71b99fb72b0"""," ""win.redline_stealer"""," ""RECORDSTEALER"""," ""RedLine Stealer""",1
-" ""cce695285866b9ce840cbecdff1a8995"""," ""win.krakenkeylogger"""," ""None"""," ""KrakenKeylogger""",1
-" ""cd5dbbc7e14897ccd1fad1b4d21a0b9f"""," ""win.bolek"""," ""KBOT"""," ""Bolek""",1
-" ""cde0775cac845f31932312622ba906e1"""," ""win.masad_stealer"""," ""None"""," ""Masad Stealer""",1
-" ""d5aa41e1c40dd5fea93db920292829ba"""," ""win.nitrogen_ransomware"""," ""None"""," ""Nitrogen Ransomware""",1
-" ""d871692ba9b68a8c564b650407919c4d"""," ""win.coinminer"""," ""None"""," ""Coinminer""",1
-" ""d90666b71ae82f8ad4a7d921324c2d54"""," ""unknown"""," ""None"""," ""Unknown malware""",1
-" ""de9bd25b8185a04ba6ac06b66b168294"""," ""win.stealc"""," ""None"""," ""Stealc""",1
-" ""e1d4fef47f5b8057d275fcd67b37b139"""," ""unknown"""," ""None"""," ""Unknown malware""",1
-" ""e2117bc07b94af5db09d1e8139b9774a"""," ""win.nitrogen_ransomware"""," ""None"""," ""Nitrogen Ransomware""",1
-" ""e3fb55091ccb2aea5d448fc9f3f50859"""," ""win.peddlecheap"""," ""None"""," ""PeddleCheap""",1
-" ""ec770eb4775c2b8037c2fb15e0b63670"""," ""win.masad_stealer"""," ""None"""," ""Masad Stealer""",1
-" ""ef621dc84fe1feaf83a01519fec30ec3"""," ""win.salatstealer"""," ""None"""," ""SalatStealer""",1
-" ""f32c61ebde695d06cd1764c58f209d60"""," ""win.nitrogen_ransomware"""," ""None"""," ""Nitrogen Ransomware""",1
-" ""fa0a034efd475abbb5422d202310193c"""," ""win.bolek"""," ""KBOT"""," ""Bolek""",1
-" ""fc74c469d8aeffd702c12d9a9d02876f"""," ""win.formbook"""," ""win.xloader"""," ""Formbook""",1
-" ""fd2b4c07f7e3b4a99ad4a459fc5cb728"""," ""win.agent_tesla"""," ""AgenTesla",AgentTesla,1
-" ""fdc270157952234186a9f2bdd4a9a956"""," ""win.poscardstealer"""," ""None"""," ""poscardstealer""",1
+" ""00b84d595265ebe892bbb18682b5ffa4"""," ""win.valley_rat"""," ""Winos"""," ""ValleyRAT""",1
+" ""0fd8140976ccedd428f206b87821461f"""," ""win.vidar"""," ""None"""," ""Vidar""",1
+" ""13354d5663065abc12bae7f3e8d19a36"""," ""win.vidar"""," ""None"""," ""Vidar""",1
+" ""2acd0113e4290a00b164a1faa56ba0aa"""," ""win.stealc"""," ""None"""," ""Stealc""",1
+" ""3018d2ab13562f8b7c0d8a91a7ed1f99"""," ""win.socks5_systemz"""," ""None"""," ""Socks5 Systemz""",1
+" ""35d7d76835e8644f8650efb4e8995af6"""," ""win.valley_rat"""," ""Winos"""," ""ValleyRAT""",1
+" ""3825f9adae4b28feb3ba19dca174c10c"""," ""win.formbook"""," ""win.xloader"""," ""Formbook""",1
+" ""4117fba43b48acdc5dda6d3872ad6e75"""," ""win.stealc"""," ""None"""," ""Stealc""",1
+" ""41f630848f119363b0d686b48d376650"""," ""win.guidloader"""," ""None"""," ""GUIDLOADER""",1
+" ""474bd70f36a4f87502f21b5d3f5b47aa"""," ""win.krakenkeylogger"""," ""None"""," ""KrakenKeylogger""",1
+" ""47d5c3070b03c74d7916b669f0c0b35f"""," ""win.poscardstealer"""," ""None"""," ""poscardstealer""",1
+" ""4f5bc47467dd2d9c5e229441162e3864"""," ""win.nimgrabber"""," ""None"""," ""NimGrabber""",1
+" ""4f9acb379ac01431e2342b2e06c8a6b3"""," ""win.luca_stealer"""," ""None"""," ""Luca Stealer""",1
+" ""50a9cb6a636390eaab5f2511eb8ebf2b"""," ""win.valley_rat"""," ""Winos"""," ""ValleyRAT""",1
+" ""5760f89f38db7d6c06540dbc79f3a7c1"""," ""win.coinminer"""," ""None"""," ""Coinminer""",1
+" ""5c533aae3a56d6854f50d652dc1abff9"""," ""win.stealc"""," ""None"""," ""Stealc""",1
+" ""5d0afd5b48616dbd8ee90cc3a9f8e851"""," ""win.masad_stealer"""," ""None"""," ""Masad Stealer""",1
+" ""63c24b037ffc2e3f20faefd281975ed5"""," ""win.metastealer"""," ""None"""," ""MetaStealer""",1
+" ""65164353d6853236a43e9e3a9b81dae1"""," ""win.poscardstealer"""," ""None"""," ""poscardstealer""",1
+" ""67c6a075b37b11e324c035c032219a48"""," ""win.redline_stealer"""," ""RECORDSTEALER"""," ""RedLine Stealer""",1
+" ""6862a1b6446fa4726d13f83ce4564abc"""," ""win.atlas_agent"""," ""None"""," ""AtlasAgent""",1
+" ""6c51c7f102b70b3ca95760dec94e027d"""," ""win.stealc"""," ""None"""," ""Stealc""",1
+" ""71b1f1f12ef0b7593c1405b602c57f60"""," ""win.vidar"""," ""None"""," ""Vidar""",1
+" ""7c3fe6087a4b2eb9ea785519ddef9de4"""," ""win.remoteadmin"""," ""None"""," ""RemoteAdmin""",1
+" ""8b7ab75e98ab3d70624e19306a3e73db"""," ""win.metastealer"""," ""None"""," ""MetaStealer""",1
+" ""9822dbd464bb63cab0633e133c821d58"""," ""win.vidar"""," ""None"""," ""Vidar""",1
+" ""a6bc4c6a58ac533d3db5f96d24dde0ef"""," ""win.coffee_loader"""," ""None"""," ""CoffeeLoader""",1
+" ""afe1a7499b876d31947b237a448aaefe"""," ""win.socks5_systemz"""," ""None"""," ""Socks5 Systemz""",1
+" ""b324945f8fbfad5e06d9d6fff4f53d8d"""," ""win.expiro"""," ""Xpiro"""," ""Expiro""",1
+" ""cf095c0ac335f547a7857ccfff91d990"""," ""win.expiro"""," ""Xpiro"""," ""Expiro""",1
+" ""d051952399ddea1548af4a7fdf1d1574"""," ""win.strelastealer"""," ""None"""," ""StrelaStealer""",1
+" ""d0a1802836714f8569c8d86e5fba9b5e"""," ""win.fakecry"""," ""None"""," ""FakeCry""",1
+" ""d3030039ccee2288beddf4b95b21baae"""," ""win.poscardstealer"""," ""None"""," ""poscardstealer""",1
+" ""d322fa92baea3f2925c65815463b4c4b"""," ""win.socks5_systemz"""," ""None"""," ""Socks5 Systemz""",1
+" ""d44269e8005e1c265f1e964cab88d4a1"""," ""win.coinminer"""," ""None"""," ""Coinminer""",1
+" ""d4eba24211012a7080a983e630cb5d18"""," ""win.vidar"""," ""None"""," ""Vidar""",1
+" ""d641bc270646d4a78c5003ec9f7e38c3"""," ""win.stealc"""," ""None"""," ""Stealc""",1
+" ""d949160fb1b4d145760a37f8f49844a8"""," ""win.poscardstealer"""," ""None"""," ""poscardstealer""",1
+" ""dd38d82ed9d0d112c22a9ad7657bfb1d"""," ""win.coinminer"""," ""None"""," ""Coinminer""",1
+" ""dd52d41683a5aec132470af09bd15336"""," ""win.strelastealer"""," ""None"""," ""StrelaStealer""",1
+" ""ddd255908aa228b897aa33979678b8c0"""," ""win.vidar"""," ""None"""," ""Vidar""",1
+" ""eaeb0e0479399d26ca958f0df389669f"""," ""win.stealc"""," ""None"""," ""Stealc""",1
+" ""f44340627736a77a236369e6b1e65543"""," ""win.guidloader"""," ""None"""," ""GUIDLOADER""",1
+" ""fdeb17dd965ecd4a849517460d5c2af5"""," ""win.luca_stealer"""," ""None"""," ""Luca Stealer""",1
