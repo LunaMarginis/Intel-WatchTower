@@ -1,31 +1,18 @@
 # IOC Summary
 
-Automated Hash Collections: Every day at 02:00 UTC. Last Updated: 2026-01-30 04:08:13 UTC
+Automated Hash Collections: Every day at 02:00 UTC. Last Updated: 2026-02-01 04:28:19 UTC
 
 This table shows top 10 malware names with their unique hashes and counts. [For Complete list, check the CSV files]
 
 | Malware Name | ioc_value (Hashes) | Count |
 |--------------|--------------------|-------|
-|  "win.bqtlock" |  "020d888236be6a7fffa99c7f35bf2797"<br> "03427263da43843baf7cfd85f305fc77"<br> "08b7c181fa4f234e3b3ad8a0e36c613b"<br> "147e72282e47ba19f121402abc358bc2"<br> "1859f56847ccabc6581a56f55041955f"<br> "30121e98200ba3a8ae4704c3441f2618"<br> "3bc9f741223f23601c3a8975da552af6"<br> "410a2742a98634af637d498c7cfa04a3"<br> "47deaf4e5b35781b5447c3a1b92721ad"<br> "4bfb227d9445981d2940fe7d20001ed3"<br> "4e7434ac13001fe55474573aa5e9379d"<br> "5062c623fe8368cc69c00a8f7d780fbb"<br> "6880e0567dc6a8885d1d58b79b6d5c12"<br> "7170292337a894ce9a58f5b2176dfefc"<br> "733efdd0895e5fd1fe9ee73d214ce58c"<br> "7ff1a6efe00d7b78094d3eb1740f179c"<br> "9323fca75a86c75ffbdcc88ed8f35e5a"<br> "a065c2d25096957126b9739f95810a12"<br> "a41c78d94c70caa49d30fca0b62e15b2"<br> "a6d91094a222da6576260abf52a07b79"<br> "a9b717d4d038bf50b08c5de5b491e32e"<br> "ab03fe3fb16b8b931d2679e67f571cf1"<br> "ac8acef11171d3d45bb9386b59f7e2a9"<br> "ac9088078884311fd32c47997c5c77cc"<br> "af123fab559cb11a1a844acf997b2c61"<br> "b80c7b84bb479a2ec526f0b195a83b99"<br> "d244b63e40aab7299d194c11bf060054"<br> "d6a9f97b4e37f6d619a5b88c2947730e"<br> "de96beb0baa7243dd7f39b2c400bbc44"<br> "e0080e35657caed78566384a2e7b1ef4"<br> "f1347fec7c34ba11884cb216c7ff5af0"<br> "f4ed428b01841e8731fa3611b9d7a73b"<br> "f52d8ae29652f58eda468caf80aebc33"<br> "f558a0bcd20e01e46551a491c66114e8"<br> "f578c14c36833491fa8aa407b4d4b00b" | 35 |
-
-
-
-<!-- url_summary_start -->
-## 🔗 Top 10 URLs:
-
-Automated URL Collections, grouped by Tags: Every day at 03:00 UTC. Last Updated: 2026-01-31 04:20:16 UTC.
-
-| Tag | Count |
-|-----|-------|
-| 32-bit,elf,mips,Mozi | 7096 |
-| elf,mirai,ua-wget | 1407 |
-| 32-bit,elf,Mozi | 795 |
-| botnetdomain,elf,mirai,ua-wget | 707 |
-| elf,mips,Mozi | 693 |
-| elf,ua-wget | 579 |
-| 32-bit,arm,elf,mirai,Mozi | 498 |
-| CoinMiner | 419 |
-| elf,mirai | 287 |
-| censys,ClickFix,ClickFix-cc,html | 281 |
-<!-- url_summary_end -->
-
+|  "win.xfilesstealer" |  "25daa47bdd6e95d0820a36b2d88670e8"<br> "2fd57ae6a4f3bf6f246eac323514ee01"<br> "3c0848b32a51c3d1e13a8f61fb8ee8e6"<br> "486cd180da8c3c057849bafdc4a3fb1c"<br> "661ca62ab5ad203bf3db1b412de7898c"<br> "8fbedfe9b2ad7d270af105b41e4cf5d1"<br> "927c17e35c7c1262b5cdb077a7888eab"<br> "da3da3a3772e334d379c87c0e702f830"<br> "e54cef890e7d38b80a73e60bb19666fd"<br> "f78242d89cc15c378beb340f9e005a04" | 10 |
+|  "win.salatstealer" |  "16c781156fb68ccf801f1cf15ddabfb8"<br> "2ba2409b7771a25f8723b16f8644e7ce"<br> "55209f0c96c3759909f7c5992c9949f8"<br> "67e40f1bc0ce227d400f9ccb10d78def"<br> "9050fe36280d3fd80e183403d419b8f1"<br> "9db3ccab1fb84d5a92c761462fa2ffb0"<br> "ca6e3441c33e306038adfa627112f901"<br> "dbfeea0b6ec18dd542e41ea1da439c8f"<br> "f6fe6de5f6e19e2f72189673994fb5ff"<br> "f8c68b6ae6daa9db37f1e5c16da98c4d" | 10 |
+|  "win.vidar" |  "304d1b953233ff6e0c9781b54bc84c73"<br> "6ead4cb080efd3834e02c14b9714f57c"<br> "97a31c5bf745c361fde0636b112d3989"<br> "eb6626a87c86e55ead5ce1dc2db24581"<br> "f72b7f2598fa51d05bc460027607bc9a"<br> "ff643f984bb67a9933bb43532dee0e63" | 6 |
+|  "win.asyncrat" |  "2bd7774fa9ad56924d2aa0497e9ce05d"<br> "348bd812c6ddb53774cc41259d39dbcd"<br> "692a5ab1c371887aaed5986cff42b3cf"<br> "a8c72a84691fe09d5b3d2f6ca8722ea5"<br> "af3774fac7386bf4ce7cca8720c7f882" | 5 |
+|  "win.socks5_systemz" |  "32e759af27903aa2e45f078ac41d201b"<br> "731d00f84d4a27e71709941b8f77fe6e"<br> "daf6d3a5d5e4ebc814f9ba3013d39a94" | 3 |
+|  "win.valley_rat" |  "3db46e81663e87cbd787feab5fa06800"<br> "bee5b0ea86a61182fabf0970c5aa5678"<br> "c020897e864c09809dc03ec392a63f34" | 3 |
+|  "win.amadey" |  "1f74371acabdf0a6a83ec3884723d6cb"<br> "735af08a6a65e4efc3f6d2c70427c0e5" | 2 |
+|  "win.stealc" |  "6a9c08da41d7f15291ad6dacc5b7a5c5"<br> "fecd2d69bf422d501ed22005047d4046" | 2 |
+|  "win.nightsky" |  "94dd3315fca4c31ef61b7865c3b8983f"<br> "d0a8b47c099440abaec8abfd7c12ac93" | 2 |
+|  "win.gcleaner" |  "7f8eb6e0752796a4b8cca9fcfeec0efc" | 1 |
