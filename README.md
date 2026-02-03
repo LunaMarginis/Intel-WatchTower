@@ -16,3 +16,22 @@ This table shows top 10 malware names with their unique hashes and counts. [For 
 |  "win.remcos" |  "3b1c10d10b05b1a5ecac045e9a33528d"<br> "3ee93313340e329c78df37bbf338c0a2" | 2 |
 |  "win.dcrat" |  "04e293515996a53ddd8896531be7fc68" | 1 |
 |  "win.darktortilla" |  "ea06fcf8cc00700003b61556d3c23e47" | 1 |
+
+<!-- url_summary_start -->
+## 🔗 Top 10 URLs:
+
+Automated URL Collections, grouped by Tags: Every day at 03:00 UTC. Last Updated: 2026-02-03 04:28:52 UTC.
+
+| Tag | Count |
+|-----|-------|
+| 32-bit,elf,mips,Mozi | 6880 |
+| elf,mirai,ua-wget | 1545 |
+| botnetdomain,mirai,opendir | 1318 |
+| botnetdomain,mirai | 1213 |
+| 32-bit,elf,Mozi | 878 |
+| elf,mips,Mozi | 693 |
+| botnetdomain,elf,mirai,ua-wget | 672 |
+| elf,ua-wget | 557 |
+| 32-bit,arm,elf,mirai,Mozi | 462 |
+| CoinMiner | 417 |
+<!-- url_summary_end -->
