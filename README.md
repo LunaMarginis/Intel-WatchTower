@@ -17,21 +17,24 @@ This table shows top 10 malware names with their unique hashes and counts. [For 
 |  "win.dcrat" |  "04e293515996a53ddd8896531be7fc68" | 1 |
 |  "win.darktortilla" |  "ea06fcf8cc00700003b61556d3c23e47" | 1 |
 
+
+
 <!-- url_summary_start -->
 ## 🔗 Top 10 URLs:
 
-Automated URL Collections, grouped by Tags: Every day at 03:00 UTC. Last Updated: 2026-02-04 04:23:31 UTC.
+Automated URL Collections, grouped by Tags: Every day at 03:00 UTC. Last Updated: 2026-02-05 04:29:10 UTC.
 
 | Tag | Count |
 |-----|-------|
-| 32-bit,elf,mips,Mozi | 6848 |
-| elf,mirai,ua-wget | 1545 |
+| 32-bit,elf,mips,Mozi | 6765 |
+| elf,mirai,ua-wget | 1512 |
 | botnetdomain,mirai,opendir | 1318 |
 | botnetdomain,mirai | 1213 |
 | 32-bit,elf,Mozi | 899 |
 | CoinMiner | 822 |
 | elf,mips,Mozi | 693 |
 | botnetdomain,elf,mirai,ua-wget | 672 |
-| elf,ua-wget | 536 |
-| 32-bit,arm,elf,mirai,Mozi | 444 |
+| elf,ua-wget | 541 |
+| 32-bit,arm,elf,mirai,Mozi | 435 |
 <!-- url_summary_end -->
+
