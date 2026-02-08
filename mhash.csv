@@ -1,117 +1,54 @@
 ioc_value,fk_malware,malware_alias,malware_printable,count
-" ""0258a9badb231f3bc94704fdcbd2a2df"""," ""unknown"""," ""None"""," ""Unknown malware""",1
-" ""04910458c6338cd58027336c5a3e0f26"""," ""win.play"""," ""PlayCrypt"""," ""PLAY""",1
-" ""06c50260c056e71d728aad77b11ab395"""," ""win.play"""," ""PlayCrypt"""," ""PLAY""",1
-" ""06ccd16075e4f2c0087293061aec9f3d"""," ""win.play"""," ""PlayCrypt"""," ""PLAY""",1
-" ""07a223195a4ad43919d9430db4760b1a"""," ""win.play"""," ""PlayCrypt"""," ""PLAY""",1
-" ""09ce2c21d63064118c4ce3d1b1a3dec9"""," ""win.play"""," ""PlayCrypt"""," ""PLAY""",1
-" ""0ba1d5a26f15f5f7942d0435fa63947e"""," ""win.play"""," ""PlayCrypt"""," ""PLAY""",1
-" ""0cb4c08c70d54ef2967f7a0b62a0b11a"""," ""win.play"""," ""PlayCrypt"""," ""PLAY""",1
-" ""0cc5e12a8c853308eb008243eb73fb75"""," ""unknown"""," ""None"""," ""Unknown malware""",1
-" ""0dc59428b94d7a0fb87ce1d8cb5c06e7"""," ""win.play"""," ""PlayCrypt"""," ""PLAY""",1
-" ""0f3e5a40c017e7a38c9478c1e0b17681"""," ""win.play"""," ""PlayCrypt"""," ""PLAY""",1
-" ""0f8ad126812dc650f26b5739590b8ab8"""," ""win.play"""," ""PlayCrypt"""," ""PLAY""",1
-" ""0ff6d3c85cf7c8f4ae1c3c76660ed772"""," ""unknown"""," ""None"""," ""Unknown malware""",1
-" ""10d6e04270806d8547a5a03a912a5dd9"""," ""unknown"""," ""None"""," ""Unknown malware""",1
-" ""11e8be50ec6012c8bcbaad3e438edd56"""," ""win.play"""," ""PlayCrypt"""," ""PLAY""",1
-" ""16775961df73ed30dd2dbff15c74659c"""," ""win.play"""," ""PlayCrypt"""," ""PLAY""",1
-" ""187112d40032d844ea6105fdb47b2335"""," ""win.play"""," ""PlayCrypt"""," ""PLAY""",1
-" ""1d4bc1bca9710b3ac5cdfe296da382df"""," ""win.play"""," ""PlayCrypt"""," ""PLAY""",1
-" ""1f90c2a3ea471364d6b6aec2b73ab474"""," ""unknown"""," ""None"""," ""Unknown malware""",1
-" ""20963a476928f3aad040affc4980e5f5"""," ""win.play"""," ""PlayCrypt"""," ""PLAY""",1
-" ""223eff1610b432a1f1aa06c60bd7b9a6"""," ""win.play"""," ""PlayCrypt"""," ""PLAY""",1
-" ""23e6ed956e49c3cff58669bafe2499d9"""," ""unknown"""," ""None"""," ""Unknown malware""",1
-" ""2443a603713426915349d91a1bcebd6a"""," ""win.play"""," ""PlayCrypt"""," ""PLAY""",1
-" ""245cf9988ed3b0ee49499ac19ec2b269"""," ""unknown"""," ""None"""," ""Unknown malware""",1
-" ""2639ec5825ff4ff231b5c50cd50b9514"""," ""win.play"""," ""PlayCrypt"""," ""PLAY""",1
-" ""2e8897ef38d4abe4861360a4b6e895d5"""," ""win.play"""," ""PlayCrypt"""," ""PLAY""",1
-" ""32827e9bdf630d974531c2f715d2426c"""," ""unknown"""," ""None"""," ""Unknown malware""",1
-" ""328be6ee6f88a2f43011df6bb0a1d5e5"""," ""unknown"""," ""None"""," ""Unknown malware""",1
-" ""3b5f02d4a05b3c583cf8998275ce3063"""," ""win.play"""," ""PlayCrypt"""," ""PLAY""",1
-" ""3e5a6a24d5ed70aa8c8ef16ceb2d057e"""," ""unknown"""," ""None"""," ""Unknown malware""",1
-" ""408c3400757dcc86e2940b57dc732c48"""," ""unknown"""," ""None"""," ""Unknown malware""",1
-" ""410bbbe373418607d58846b6fe2c05be"""," ""win.play"""," ""PlayCrypt"""," ""PLAY""",1
-" ""42db4c5fb94385fad8c4a4f4bedfd729"""," ""win.play"""," ""PlayCrypt"""," ""PLAY""",1
-" ""4485083a916ed305ea8149d0f0b62a24"""," ""unknown"""," ""None"""," ""Unknown malware""",1
-" ""4519a5876b3e77568105da0f1c2ebb4d"""," ""win.play"""," ""PlayCrypt"""," ""PLAY""",1
-" ""454e527a87cb3d63392e5d934ba737e8"""," ""unknown"""," ""None"""," ""Unknown malware""",1
-" ""463c87af15f9b2dca8068028ed1d83e7"""," ""unknown"""," ""None"""," ""Unknown malware""",1
-" ""4c6f201706126eb2e7cb989d0dcc9733"""," ""win.play"""," ""PlayCrypt"""," ""PLAY""",1
-" ""4ebe4a36dad233ae350f4b65cc88d985"""," ""win.play"""," ""PlayCrypt"""," ""PLAY""",1
-" ""565dcfdc451fb5e904983c96341fe7b9"""," ""win.play"""," ""PlayCrypt"""," ""PLAY""",1
-" ""573d043dcad448608b94166353ca16d6"""," ""win.play"""," ""PlayCrypt"""," ""PLAY""",1
-" ""57bcb8cfad510109f7ddedf045e86a70"""," ""win.play"""," ""PlayCrypt"""," ""PLAY""",1
-" ""592cfefc2ea74d73ec05e8a4be0e7637"""," ""unknown"""," ""None"""," ""Unknown malware""",1
-" ""5a66c4120b967e7ea0cf17969232a0bc"""," ""win.play"""," ""PlayCrypt"""," ""PLAY""",1
-" ""5cdc4c1a7432ab03f0655738ef662500"""," ""win.play"""," ""PlayCrypt"""," ""PLAY""",1
-" ""5ea71206b0701fdfcef38dc1080bea3b"""," ""win.play"""," ""PlayCrypt"""," ""PLAY""",1
-" ""60c2f246aaca88e676c79e38e6b4abdb"""," ""unknown"""," ""None"""," ""Unknown malware""",1
-" ""64756bf452baa4da411e3a835c08d884"""," ""unknown"""," ""None"""," ""Unknown malware""",1
-" ""6842da4dbff10156ad8c07ba46bf9b6a"""," ""win.play"""," ""PlayCrypt"""," ""PLAY""",1
-" ""690fcea0c40fc07de699fe2ce247ba03"""," ""unknown"""," ""None"""," ""Unknown malware""",1
-" ""6a157ce8ca018df04b382eb6c7ca117e"""," ""win.play"""," ""PlayCrypt"""," ""PLAY""",1
-" ""6b3a0637e80430ddd9534e653be5fc62"""," ""win.play"""," ""PlayCrypt"""," ""PLAY""",1
-" ""6ea4b9b0ad0692892f6e4f1b4f05aa72"""," ""win.play"""," ""PlayCrypt"""," ""PLAY""",1
-" ""7055438220feb35f40b6ac1e97757230"""," ""win.play"""," ""PlayCrypt"""," ""PLAY""",1
-" ""712dbe78b9b3e35f68120fda50be5046"""," ""win.play"""," ""PlayCrypt"""," ""PLAY""",1
-" ""72f492b9b7d0a3429ebb75e9dd1b501f"""," ""unknown"""," ""None"""," ""Unknown malware""",1
-" ""73c1db04cabeafd4e3c15a7093313a2f"""," ""win.play"""," ""PlayCrypt"""," ""PLAY""",1
-" ""75367b27129a302e5ef5930a2c9699c0"""," ""win.play"""," ""PlayCrypt"""," ""PLAY""",1
-" ""7ac39c573f2a4e357c5efe8e4498c814"""," ""win.play"""," ""PlayCrypt"""," ""PLAY""",1
-" ""7b14f0cf56a38c8123f6ff9041159f0a"""," ""win.play"""," ""PlayCrypt"""," ""PLAY""",1
-" ""7b86c626147bd4cbbfed48696f1af28a"""," ""win.play"""," ""PlayCrypt"""," ""PLAY""",1
-" ""7dd21e8ca32682decc59b705d2df8808"""," ""win.play"""," ""PlayCrypt"""," ""PLAY""",1
-" ""81062758c901cf65aeff365e71c4f8ea"""," ""unknown"""," ""None"""," ""Unknown malware""",1
-" ""818720aea07663ffb451f73917ba58da"""," ""win.play"""," ""PlayCrypt"""," ""PLAY""",1
-" ""82137ca325e0d0a5204ddf4441c8abbc"""," ""win.play"""," ""PlayCrypt"""," ""PLAY""",1
-" ""8875172a0977677ce6e30277ef6fea79"""," ""unknown"""," ""None"""," ""Unknown malware""",1
-" ""8b7e28ab198c36e6cc75f95a9c513399"""," ""win.play"""," ""PlayCrypt"""," ""PLAY""",1
-" ""8ef869e7ed4310ddf6e2a91855c12463"""," ""unknown"""," ""None"""," ""Unknown malware""",1
-" ""8fd378c323210e9818b7df9574a1ac2c"""," ""win.play"""," ""PlayCrypt"""," ""PLAY""",1
-" ""951b3a829724b97934df006444d7b983"""," ""win.play"""," ""PlayCrypt"""," ""PLAY""",1
-" ""95a6135b58973e6a04c4e22cf90bc644"""," ""win.play"""," ""PlayCrypt"""," ""PLAY""",1
-" ""9676bec1f141a8fd661024d083aefc07"""," ""win.play"""," ""PlayCrypt"""," ""PLAY""",1
-" ""96f7b01492ce4abd2a18f8831baf2626"""," ""win.play"""," ""PlayCrypt"""," ""PLAY""",1
-" ""9749786d1cd2ec99b178b16880c7962d"""," ""win.play"""," ""PlayCrypt"""," ""PLAY""",1
-" ""97e30f044b857353c6e87dd645660915"""," ""win.play"""," ""PlayCrypt"""," ""PLAY""",1
-" ""9bce4a68fcd99be854abbb0429829691"""," ""win.play"""," ""PlayCrypt"""," ""PLAY""",1
-" ""9c33c9b13ab150e8280b2d80c39c3d05"""," ""win.play"""," ""PlayCrypt"""," ""PLAY""",1
-" ""a173a682f08eb5c2367137f54c7b7203"""," ""win.play"""," ""PlayCrypt"""," ""PLAY""",1
-" ""a5893a63aa8c7997ca3d0f7406fc2652"""," ""win.play"""," ""PlayCrypt"""," ""PLAY""",1
-" ""a700329f65470db3b7489005218f3937"""," ""unknown"""," ""None"""," ""Unknown malware""",1
-" ""a72b78ad61f7e9cfcebbe444c92a2fc3"""," ""win.play"""," ""PlayCrypt"""," ""PLAY""",1
-" ""addafbaa977dde4a5207b3abc3caf24c"""," ""win.play"""," ""PlayCrypt"""," ""PLAY""",1
-" ""ae2f7584b3664e0dd9b2a29c93481a88"""," ""win.play"""," ""PlayCrypt"""," ""PLAY""",1
-" ""aeebf82422b35c95eff9fe6c188b3044"""," ""unknown"""," ""None"""," ""Unknown malware""",1
-" ""afca0de81dbe2741e2af3af7b4175a3b"""," ""win.play"""," ""PlayCrypt"""," ""PLAY""",1
-" ""afe95ec1e2e9606387ce6679e6d77ee2"""," ""win.play"""," ""PlayCrypt"""," ""PLAY""",1
-" ""b05366fdd063971ebf9952f04ec318c5"""," ""win.play"""," ""PlayCrypt"""," ""PLAY""",1
-" ""b311256c0b964724258078affce39f01"""," ""win.play"""," ""PlayCrypt"""," ""PLAY""",1
-" ""bc7d67d2baa25e298cf1c306c00cbbd3"""," ""win.play"""," ""PlayCrypt"""," ""PLAY""",1
-" ""c1bfb5bb39420f04401f8b5c2c6ab238"""," ""win.play"""," ""PlayCrypt"""," ""PLAY""",1
-" ""c7179071619a575563544065e215423c"""," ""unknown"""," ""None"""," ""Unknown malware""",1
-" ""c7d7e9d24cb5c81b6b68317d455db18b"""," ""win.play"""," ""PlayCrypt"""," ""PLAY""",1
-" ""caa7046eb47a30b11acfd79e80309773"""," ""unknown"""," ""None"""," ""Unknown malware""",1
-" ""cc07ae6d83f0e27dabc632c3afa782fa"""," ""win.play"""," ""PlayCrypt"""," ""PLAY""",1
-" ""cca119964fb7228969044e805693f3f8"""," ""win.play"""," ""PlayCrypt"""," ""PLAY""",1
-" ""cef3b488c589aeb23f35dbf75e585108"""," ""unknown"""," ""None"""," ""Unknown malware""",1
-" ""cfe382211b3a83963b33788652c836e7"""," ""win.play"""," ""PlayCrypt"""," ""PLAY""",1
-" ""d03e26581472ea563f032e971892997f"""," ""win.play"""," ""PlayCrypt"""," ""PLAY""",1
-" ""d4d360b2639043e578393c86ab720710"""," ""win.play"""," ""PlayCrypt"""," ""PLAY""",1
-" ""d762a79258667ee965a32b2983a4339e"""," ""unknown"""," ""None"""," ""Unknown malware""",1
-" ""d9b46196ec37fbc6acc3bd81442311bf"""," ""win.play"""," ""PlayCrypt"""," ""PLAY""",1
-" ""dac4fc58ca20b607b13265ae0e09ba00"""," ""unknown"""," ""None"""," ""Unknown malware""",1
-" ""ddfb4eaf0ac14ab6ba76722b53725cb9"""," ""win.play"""," ""PlayCrypt"""," ""PLAY""",1
-" ""dee1b66ad2797868edc4c5c7bb1a4603"""," ""win.play"""," ""PlayCrypt"""," ""PLAY""",1
-" ""e10d2dddb881acdf1ea559a6fb11daa2"""," ""win.play"""," ""PlayCrypt"""," ""PLAY""",1
-" ""e16d03f92544558f07e31db7273737e5"""," ""win.play"""," ""PlayCrypt"""," ""PLAY""",1
-" ""e2c47e7dc4a2a0920c6fb179de046ea2"""," ""win.play"""," ""PlayCrypt"""," ""PLAY""",1
-" ""e5171ce2c1731f922ab55da7ff4688d0"""," ""win.global"""," ""GLOBAL GROUP"""," ""Global""",1
-" ""e7b5528dbef06a7e8010e473b6edb615"""," ""unknown"""," ""None"""," ""Unknown malware""",1
-" ""ec31229fb29ebe066be8d7cbcc12853a"""," ""win.play"""," ""PlayCrypt"""," ""PLAY""",1
-" ""edfa31ccfdf4571b0db6928a6af2cf18"""," ""win.play"""," ""PlayCrypt"""," ""PLAY""",1
-" ""f3642d02056f0e88f7cfea34764e40b6"""," ""win.play"""," ""PlayCrypt"""," ""PLAY""",1
-" ""f8eb9041988a22ccbecf8273418415de"""," ""unknown"""," ""None"""," ""Unknown malware""",1
-" ""fc83ea5ada404fef56726a9273522ed5"""," ""win.play"""," ""PlayCrypt"""," ""PLAY""",1
-" ""fdfb9d23e83dff0504e51ecee5bb8804"""," ""win.play"""," ""PlayCrypt"""," ""PLAY""",1
-" ""ffdbf029182d045c20d694e794755694"""," ""win.play"""," ""PlayCrypt"""," ""PLAY""",1
+" ""005ffcf2d30c8061cd2e7e7a61c4e1f0"""," ""win.salatstealer"""," ""None"""," ""SalatStealer""",1
+" ""061f96f041508aa1b85f9122db1066c2"""," ""win.salatstealer"""," ""None"""," ""SalatStealer""",1
+" ""09f5d4d9b970c08a935a0b5b9bc26ea5"""," ""win.shimrat"""," ""None"""," ""Shim RAT""",1
+" ""0d74b38bc5d791c4f3fe2bde70dd028d"""," ""win.strelastealer"""," ""None"""," ""StrelaStealer""",1
+" ""1222b2d73fe06d861092740babc267cb"""," ""win.vidar"""," ""None"""," ""Vidar""",1
+" ""12f05853d800771f8366ce5cb6de3be9"""," ""win.valley_rat"""," ""Winos"""," ""ValleyRAT""",1
+" ""1f941ccbf50d80370c99acff3593cb02"""," ""win.guidloader"""," ""None"""," ""GUIDLOADER""",1
+" ""24b4096627c8c94c23857dcad98674d4"""," ""win.metastealer"""," ""None"""," ""MetaStealer""",1
+" ""266fa976a16903342433f3cb4ccb9288"""," ""win.luca_stealer"""," ""None"""," ""Luca Stealer""",1
+" ""2c6ddbfb2a43cb0756602807d57a9474"""," ""win.salatstealer"""," ""None"""," ""SalatStealer""",1
+" ""483c27cfff87bab395601673908dc935"""," ""win.coinminer"""," ""None"""," ""Coinminer""",1
+" ""498c8c41fc33e30b43dc7a3c063cc0ec"""," ""win.coinminer"""," ""None"""," ""Coinminer""",1
+" ""4fc02f53affa50b86e271dddadc1b212"""," ""win.gogoogle"""," ""BossiTossi"""," ""GoGoogle""",1
+" ""50e91f0dd8908e00009368be9341807c"""," ""win.strelastealer"""," ""None"""," ""StrelaStealer""",1
+" ""5843f25e5d736f915da1d2efbf7cde4c"""," ""win.metastealer"""," ""None"""," ""MetaStealer""",1
+" ""591ae0861b31d8cb9e0f657c0e627dd6"""," ""win.moker"""," ""None"""," ""Moker""",1
+" ""5cb1de8ad8cded1f663ef4abff1bcb0b"""," ""win.masad_stealer"""," ""None"""," ""Masad Stealer""",1
+" ""5e7be9a2d398a7be76084b4d098e12a1"""," ""win.metastealer"""," ""None"""," ""MetaStealer""",1
+" ""653871b13f9d24d4fcd86f53f3facd9c"""," ""win.luca_stealer"""," ""None"""," ""Luca Stealer""",1
+" ""6ab3d66aed4b2c80fa51c5e97b25e2af"""," ""win.asyncrat"""," ""None"""," ""AsyncRAT""",1
+" ""6d38d9b6193269e1f27c1a05408b222e"""," ""win.swaet_rat"""," ""None"""," ""SwaetRAT""",1
+" ""6f133087b9e769e521abce2cdcca4bd9"""," ""win.allcomeclipper"""," ""None"""," ""AllcomeClipper""",1
+" ""71b6942c29f42bb75d152e46ab81017d"""," ""win.formbook"""," ""win.xloader"""," ""Formbook""",1
+" ""735a7df8128b5fe7253a9e1f06e2fad6"""," ""win.asyncrat"""," ""None"""," ""AsyncRAT""",1
+" ""79f1a7e79e7f0308c8b1c002004ea0f1"""," ""win.coinminer"""," ""None"""," ""Coinminer""",1
+" ""7d4c3ce36e7d3ff947106ae96c6a5e79"""," ""win.asyncrat"""," ""None"""," ""AsyncRAT""",1
+" ""7f25e6a466e22ec59a7012cbabdb38d4"""," ""win.acr_stealer"""," ""None"""," ""ACR Stealer""",1
+" ""8c6eaf248b4e033ed366dbcd119725d2"""," ""win.babadeda"""," ""None"""," ""Babadeda""",1
+" ""8cb837654b3a9d0b89fbc2268b401cca"""," ""win.credraptor"""," ""None"""," ""Credraptor""",1
+" ""8ef17ec60114c968e22ea715a259a197"""," ""win.vidar"""," ""None"""," ""Vidar""",1
+" ""9ac267c88b27f4eac20f50e47946d606"""," ""win.uacme"""," ""Akagi"""," ""UACMe""",1
+" ""9f58717a6a86631d8a4ed8dec5c0a921"""," ""win.masad_stealer"""," ""None"""," ""Masad Stealer""",1
+" ""a0126911f1b054ef93e18870c7f038dc"""," ""win.blackmatter"""," ""None"""," ""BlackMatter""",1
+" ""a3c3b290b1989b78d33f90b3611335b1"""," ""win.valley_rat"""," ""Winos"""," ""ValleyRAT""",1
+" ""a6d22c8320b7673b6ff3196c419036ee"""," ""win.coffee_loader"""," ""None"""," ""CoffeeLoader""",1
+" ""ac69e9a73b4cc40cb05a9060c6e093fd"""," ""win.radrat"""," ""None"""," ""RadRAT""",1
+" ""b53f0250516e69d94b40fbcdfa61fe97"""," ""win.valley_rat"""," ""Winos"""," ""ValleyRAT""",1
+" ""bd46bc1317878c321f72d9a75b71c1d9"""," ""win.salatstealer"""," ""None"""," ""SalatStealer""",1
+" ""be1b2655d8e5119847dff75c765f7847"""," ""win.attor"""," ""None"""," ""Attor""",1
+" ""c16fb79a4b2ea75004edfc045d02963d"""," ""win.masad_stealer"""," ""None"""," ""Masad Stealer""",1
+" ""c59bf2cff278eceb33f48029f81823bb"""," ""win.blackremote"""," ""BlackRAT"""," ""BlackRemote""",1
+" ""c7ef89d15e7d48b3c86af9007817d59c"""," ""win.masad_stealer"""," ""None"""," ""Masad Stealer""",1
+" ""c887137dc9e83d967fd63797138639f2"""," ""win.salatstealer"""," ""None"""," ""SalatStealer""",1
+" ""cd17dc577c6ae79c55853d92329400cc"""," ""win.metastealer"""," ""None"""," ""MetaStealer""",1
+" ""d4d635dc50f157d52e61ad67d67c90cd"""," ""win.attor"""," ""None"""," ""Attor""",1
+" ""d9a2c4aac91f10a79890ffc439e4da71"""," ""win.quantloader"""," ""None"""," ""QuantLoader""",1
+" ""dce97eae376717d1f809e762889a89f9"""," ""win.salatstealer"""," ""None"""," ""SalatStealer""",1
+" ""df72278620ceb0d829dc9dcf1c09200f"""," ""win.formbook"""," ""win.xloader"""," ""Formbook""",1
+" ""ead8e9379da6b89e9cc3950555c2dcd2"""," ""win.asyncrat"""," ""None"""," ""AsyncRAT""",1
+" ""eef7f3d0a3034ac5307bb2fdc6413eb5"""," ""win.metastealer"""," ""None"""," ""MetaStealer""",1
+" ""f7f19e394a8b277cf6a297b16adbb5ed"""," ""win.formbook"""," ""win.xloader"""," ""Formbook""",1
+" ""fa6e718b17e9a77203bed1457b125f67"""," ""win.ismagent"""," ""None"""," ""ISMAgent""",1
+" ""fdb1e2fad6794020967a820fcafe459f"""," ""win.valley_rat"""," ""Winos"""," ""ValleyRAT""",1
