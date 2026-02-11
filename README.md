@@ -1,6 +1,6 @@
 # IOC Summary
 
-Automated Hash Collections: Every day at 02:00 UTC. Last Updated: 2026-02-10 04:29:46 UTC
+Automated Hash Collections: Every day at 02:00 UTC. Last Updated: 2026-02-11 04:28:23 UTC
 
 This table shows top 10 malware names with their unique hashes and counts. [For Complete list, check the CSV files]
 
@@ -10,22 +10,3 @@ This table shows top 10 malware names with their unique hashes and counts. [For 
 |  "win.beast" |  "00dae77adbe4c46d1cdf2e8309652545"<br> "059ac4569026c1b74e541d98b6240574"<br> "07cea63bca641d36f745bf5568bc8126"<br> "0aca13da401bcb147610ab0a99c753a1"<br> "11395b5231b765348d210660ea1f68e1"<br> "11b0866e0debcc83f4afecd7d8cfc56f"<br> "127c17ce1558a7417f61d60ec103b00c"<br> "1630ebc68e2664d3ce8e7d7ebbdd9629"<br> "19ad2f04f5f5972a7824e8683a3045a4"<br> "1e4ef27f4c26fbe83c495ed17ba3cf6c"<br> "2618cb05938899bcedeaa0ad4e092391"<br> "2623a27403f3c247bf0f404bf249ac02"<br> "2a976f4af95e9275056cd534d55e4011"<br> "2ab9905ee8297092292415ee83194391"<br> "302f55376a4fe499a1254a3b2dc1cd08"<br> "3b5950325efd4aa6865a776daed6a515"<br> "3bfa839d66d9ea7c001506db06210baf"<br> "3fe9f60d1189ba6e93038546c2c82434"<br> "4139d85e5037bb5dd1e0e7ca3a9d9061"<br> "4b5cd1447ae2c6bfbdc58688abece860"<br> "4faf937d887ba56770c91376a1e1f58a"<br> "52e16a3f06a31fe77ecc9d8733087511"<br> "5679c70050aac4050018f9899cf6e230"<br> "62a88d64eea3645ed1652d17baaa1591"<br> "63e4d0e113333b0bd2af6adb9f06c639"<br> "67ada43a989e3dc4e4976e7c9b3c99ce"<br> "6e4ed24b25751cb9812e8133ff39f16f"<br> "702f39613ffc2dce6302745eafcb87b4"<br> "74fd302390dc8e8b5f49d2da186e3e8c"<br> "7660fa5b758e5cbd89a16b8581be5488"<br> "7d87f436cfd85cbeda7efae8da05a325"<br> "7dd96ccc46eca19b03244159483e2230"<br> "7fe11977d078da0c3c7ace54ab47f04e"<br> "82774a5c91510154d648f02f922afe1e"<br> "867f7be7ae15dbbdd677047d012df8c1"<br> "8b1b50aa9d5950a220a1f5aa241927be"<br> "8dc0d5476a0aba6c62587f0ad636c77b"<br> "9620c50ccbcdbe646d97d26b220e1560"<br> "984a4f8544ca2718964aeb7affcf13c2"<br> "9d820d26394e580e2cb99af2cb77aa1e"<br> "ab13491acebc7751c7948471fd67a539"<br> "abc78bf584bd59ad6653649c0299d8ab"<br> "ad793ac178ca43465c3c1e9fcc50bcbc"<br> "afc1ad28879126eea6da177269f95aca"<br> "b57221549368a66b954765657a06c288"<br> "be10edf2ad5e39d23e0e8e1b19029aa0"<br> "be6efa1f17585408c64e03a9a49fad7d"<br> "bee1aa2da186b4d6a1eb6cdf6c3f90ec"<br> "bf8804e9d205362bcb606820ded01beb"<br> "c909d9802b6d64682fa7e02aebd06e15"<br> "cc4f429af4c97010a2072f72ea0d674e"<br> "cc8fad32545a066be26957fcf1e15a72"<br> "d0728e075e66bda22bb6c030502a689a"<br> "d53cc574fa69890ea6cb5d446d426f63"<br> "d5b88355c3bc65b8b9471201e35597e4"<br> "d65e4f29f7bfd5488382c8af47579f96"<br> "d77b1189017544ee50d0dfade5484428"<br> "e37ae4c4daded943894651c44cc283be"<br> "ea4073bb31ec7beffc2731751733610b"<br> "ed759a0635ed6c4ebe920adc4500cdbe"<br> "efab12f90fc8e6c2fcbf876506fc20fe"<br> "f1ade7769b7fdc2401798106ec7a9180" | 62 |
 |  "win.hive" |  "309efbf3a3364363b934800e4d3cd1ff"<br> "348c4b8618b06c15495988b461b5c355"<br> "4e5df98b89473facb7a29a8b5e5f6959"<br> "504bd1695de326bc533fde29b8a69319"<br> "516f36f2d29a32ee049caadd4721d884"<br> "65f01cec34931077c63ae9efe2652ae5"<br> "6c1665d8f03efdc96991956f4d7f310d"<br> "8240d60d83cb7c0248e64389855e29b4"<br> "825c22175b75313f756f02a6b0c852e6"<br> "829494d97a5e7ff80d876422ba0adecc"<br> "8f3bafcb07d51a4157ca2a89e7127554"<br> "92a27f2042385e3e9d097cf234c07859"<br> "9da97a31801fb72ffc3061137dc3e625"<br> "c0b7829f9faed6853182a2881c376aad"<br> "eb45ff7ea2ccdcceb2e7e14f9cc01397" | 15 |
 |  "win.akira" |  "a9e6652f5001b03df0cfb1e24620ae75"<br> "d3cf7a81ddd61e65fc4773257331325d" | 2 |
-
-<!-- url_summary_start -->
-## 🔗 Top 10 URLs:
-
-Automated URL Collections, grouped by Tags: Every day at 03:00 UTC. Last Updated: 2026-02-10 04:55:41 UTC.
-
-| Tag | Count |
-|-----|-------|
-| 32-bit,elf,mips,Mozi | 6674 |
-| elf,mirai,ua-wget | 1643 |
-| botnetdomain,mirai,opendir | 1334 |
-| botnetdomain,mirai | 1213 |
-| 32-bit,elf,Mozi | 769 |
-| botnetdomain,elf,mirai,ua-wget | 694 |
-| elf,ua-wget | 601 |
-| CoinMiner | 565 |
-| 32-bit,arm,elf,mirai,Mozi | 422 |
-| botnetdomain,Kaiji,mirai | 283 |
-<!-- url_summary_end -->
