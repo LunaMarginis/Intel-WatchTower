@@ -16,3 +16,22 @@ This table shows top 10 malware names with their unique hashes and counts. [For 
 |  "win.fakecry" |  "8e4c07963077228de130111ade5705e4" | 1 |
 |  "win.darkvision_rat" |  "91a79201806309f6af1182df1b5d54e0" | 1 |
 |  "win.metastealer" |  "8ebc92a0790f981de13147e4872e3d95" | 1 |
+
+<!-- url_summary_start -->
+## 🔗 Top 10 URLs:
+
+Automated URL Collections, grouped by Tags: Every day at 03:00 UTC. Last Updated: 2026-02-16 04:51:18 UTC.
+
+| Tag | Count |
+|-----|-------|
+| 32-bit,elf,mips,Mozi | 6918 |
+| elf,mirai,ua-wget | 1490 |
+| botnetdomain,mirai,opendir | 1234 |
+| botnetdomain,mirai | 1213 |
+| 32-bit,elf,Mozi | 591 |
+| elf,ua-wget | 533 |
+| botnetdomain,elf,mirai,ua-wget | 511 |
+| 32-bit,arm,elf,mirai,Mozi | 457 |
+| ClearFake | 427 |
+| CoinMiner | 405 |
+<!-- url_summary_end -->
