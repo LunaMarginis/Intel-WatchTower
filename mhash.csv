@@ -1,12 +1,16 @@
 ioc_value,fk_malware,malware_alias,malware_printable,count
 " ""0048580f2fcfebdf5007a65ba25cdde5"""," ""win.luca_stealer"""," ""None"""," ""Luca Stealer""",1
+" ""041df33cd831ea3fc016739bec8ea5ce"""," ""win.supper"""," ""SocksShell","ZAPCAT""",1
+" ""083c81aa9258d1058ef4cda4f9ac6699"""," ""win.njrat"""," ""Bladabindi","Lime-Worm""",1
 " ""0e0161a2a1f6b22cc4a84c02d4af5b9d"""," ""win.salatstealer"""," ""None"""," ""SalatStealer""",1
+" ""1190ea7d6fd3c1f7f3c5812dcca53e64"""," ""unknown"""," ""None"""," ""Unknown malware""",1
 " ""121704c1c4c8f3a19b13729ce18db83d"""," ""win.gcleaner"""," ""None"""," ""GCleaner""",1
 " ""14986666ce64cdc5b6b598b4ee6fd52f"""," ""win.orcus_rat"""," ""Schnorchel"""," ""Orcus RAT""",1
 " ""20464688eecb4ecb2222cbbe48218d3b"""," ""win.metastealer"""," ""None"""," ""MetaStealer""",1
 " ""20a6ed775055079fee7b4ef38feb0953"""," ""win.coinminer"""," ""None"""," ""Coinminer""",1
 " ""22801a17523f7e65b72f00b9d8560fce"""," ""win.nircmd"""," ""None"""," ""NirCmd""",1
 " ""35b732c45b1ac76d16c25d03b48323c0"""," ""win.salatstealer"""," ""None"""," ""SalatStealer""",1
+" ""3661547ea3020e0dadb30e6001994464"""," ""unknown"""," ""None"""," ""Unknown malware""",1
 " ""37ad7098d7acee103744a1c6b8348d53"""," ""win.krakenkeylogger"""," ""None"""," ""KrakenKeylogger""",1
 " ""3c0d11cb8a85f45d9e731656cdb8e331"""," ""win.krakenkeylogger"""," ""None"""," ""KrakenKeylogger""",1
 " ""3d7f527bcd644c0686bd23e3fd098a08"""," ""win.asyncrat"""," ""None"""," ""AsyncRAT""",1
@@ -21,7 +25,9 @@ ioc_value,fk_malware,malware_alias,malware_printable,count
 " ""5307636781488382441a6761e9923cc8"""," ""win.bluefox"""," ""None"""," ""BlueFox""",1
 " ""57f9b9a552729fcfa933428725534970"""," ""win.salatstealer"""," ""None"""," ""SalatStealer""",1
 " ""59d52d256824628dd0a74d7e3c9aacf3"""," ""win.metastealer"""," ""None"""," ""MetaStealer""",1
+" ""5d690458e0fd75c8974432bdf959880f"""," ""unknown"""," ""None"""," ""Unknown malware""",1
 " ""5e19deb7f87f34a5f5f495334d24357e"""," ""win.valley_rat"""," ""Winos"""," ""ValleyRAT""",1
+" ""630fbeb78d7e1a6bd571c95cf502a718"""," ""unknown"""," ""None"""," ""Unknown malware""",1
 " ""6d81de3e2b745c7faa109dc4a3f8492f"""," ""win.troystealer"""," ""None"""," ""troystealer""",1
 " ""6fde7a2040b6bfa3a8f84a00539aa2ca"""," ""win.salatstealer"""," ""None"""," ""SalatStealer""",1
 " ""75cbd2a827a6390a4e682144d198ab9d"""," ""win.jackpos"""," ""None"""," ""JackPOS""",1
@@ -33,6 +39,7 @@ ioc_value,fk_malware,malware_alias,malware_printable,count
 " ""84ba18d848c89a539e11b6182a51aa29"""," ""win.formbook"""," ""win.xloader"""," ""Formbook""",1
 " ""8a20ec937144c98dd5e1a116aa3d7aab"""," ""win.gcleaner"""," ""None"""," ""GCleaner""",1
 " ""8be4c1add832b8c0394386c4247f54a2"""," ""win.guidloader"""," ""None"""," ""GUIDLOADER""",1
+" ""8dc3a01066ae1b9a6f644e8665d9063b"""," ""unknown"""," ""None"""," ""Unknown malware""",1
 " ""9046020c727c31a3fd75c6074d1a7733"""," ""win.fakecry"""," ""None"""," ""FakeCry""",1
 " ""93218f371953ac8fc557c49a7faf8bf0"""," ""win.valley_rat"""," ""Winos"""," ""ValleyRAT""",1
 " ""93a98cfce14d9bb3739b259df5828407"""," ""win.prometei"""," ""None"""," ""Prometei""",1
@@ -40,6 +47,7 @@ ioc_value,fk_malware,malware_alias,malware_printable,count
 " ""97146b358f90dfa1d89776fb32d1682e"""," ""win.guidloader"""," ""None"""," ""GUIDLOADER""",1
 " ""9788035f511ba3c1d1dbc187e1f20dfb"""," ""win.salatstealer"""," ""None"""," ""SalatStealer""",1
 " ""9e2680ec218149172b907cc2cea317d0"""," ""win.guidloader"""," ""None"""," ""GUIDLOADER""",1
+" ""9e415797ba2d9f8feeb74649f9d5323d"""," ""unknown"""," ""None"""," ""Unknown malware""",1
 " ""9ee4ac9a1d9a1425b004ceb2b53083f0"""," ""win.troystealer"""," ""None"""," ""troystealer""",1
 " ""a00fbfa009193dc539c8529e627f605c"""," ""win.peddlecheap"""," ""None"""," ""PeddleCheap""",1
 " ""a075ee624c607a58b5bf2eba19fbb648"""," ""win.salatstealer"""," ""None"""," ""SalatStealer""",1
@@ -48,16 +56,20 @@ ioc_value,fk_malware,malware_alias,malware_printable,count
 " ""aecaadb0f2377a7c572d015b8a22e542"""," ""win.troystealer"""," ""None"""," ""troystealer""",1
 " ""b3ee8558ad35d1531f5f8458f649f5a9"""," ""win.troystealer"""," ""None"""," ""troystealer""",1
 " ""b6e06ddec2b5c9652ff6f01cf7432006"""," ""win.metastealer"""," ""None"""," ""MetaStealer""",1
+" ""b97c5fb8ffe52136069acd188303d3c4"""," ""win.systembc"""," ""Coroxy","DroxiDat""",1
 " ""bac6d07fdf0af3be55f59cfec3b81ecc"""," ""win.stealc"""," ""None"""," ""Stealc""",1
 " ""bc4c0ce8eae6f204f43463e68e0ec9a7"""," ""win.coinminer"""," ""None"""," ""Coinminer""",1
 " ""c0214c5ac40753c905e4ecf9c4a8b48e"""," ""win.guidloader"""," ""None"""," ""GUIDLOADER""",1
 " ""c668f02850facd12315eb60db6dd3453"""," ""win.salatstealer"""," ""None"""," ""SalatStealer""",1
 " ""c8a8ad7ea40d30ae1ed471125f13be0f"""," ""win.prometei"""," ""None"""," ""Prometei""",1
 " ""cd3efe8f64900e494ab6b6fbab37b86c"""," ""win.formbook"""," ""win.xloader"""," ""Formbook""",1
+" ""cfd867dd8fdfa1def0a4f08cf7aa15f4"""," ""unknown"""," ""None"""," ""Unknown malware""",1
+" ""d091044df4c4460bd09639ffcf8db698"""," ""unknown"""," ""None"""," ""Unknown malware""",1
 " ""d22ddcb7afc0775dc7209f2a290486bc"""," ""win.stealc"""," ""None"""," ""Stealc""",1
 " ""d4ac4d684aca924c9d532c245c016c2a"""," ""win.poscardstealer"""," ""None"""," ""poscardstealer""",1
 " ""db46e796aeb3824eb0f596b3e0e7fd1b"""," ""win.darktortilla"""," ""None"""," ""DarkTortilla""",1
 " ""dcc27c8167ec387b235e9b9673ec3507"""," ""win.formbook"""," ""win.xloader"""," ""Formbook""",1
+" ""e6118555c604ed356a4b7a92fdea9a3b"""," ""unknown"""," ""None"""," ""Unknown malware""",1
 " ""e639bdf368545eece02b6c0390d8aeaa"""," ""win.salatstealer"""," ""None"""," ""SalatStealer""",1
 " ""e8a704676c9126c14c906daf05c253f7"""," ""win.coinminer"""," ""None"""," ""Coinminer""",1
 " ""ed661d102769ec0e8013d9f9d807843c"""," ""win.troystealer"""," ""None"""," ""troystealer""",1
