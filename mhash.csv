@@ -4,8 +4,12 @@ ioc_value,fk_malware,malware_alias,malware_printable,count
 " ""0606c43c9b6079e71f3f93930b865ae1"""," ""win.reverse_rat"""," ""None"""," ""ReverseRAT""",1
 " ""067df7cf197945f6aac5413e722d5398"""," ""win.ismagent"""," ""None"""," ""ISMAgent""",1
 " ""105a667049b780e82da51ac970f146af"""," ""win.strelastealer"""," ""None"""," ""StrelaStealer""",1
+" ""136e0bf4e5fe4d4249fe9570153a0b97"""," ""unknown"""," ""None"""," ""Unknown malware""",1
 " ""16f325fb9ba51287f83f893ff0638a7d"""," ""win.quantloader"""," ""None"""," ""QuantLoader""",1
+" ""182024fc6c5fe0b1b33fdd9c7c37e368"""," ""unknown"""," ""None"""," ""Unknown malware""",1
+" ""186c77101c027a465b14cb4a74f8381e"""," ""unknown"""," ""None"""," ""Unknown malware""",1
 " ""1f4564be3647f3e23921ee47ee8f0a5e"""," ""win.vidar"""," ""None"""," ""Vidar""",1
+" ""239a24dbb50b3314e98a7f8c15bfe2ff"""," ""win.systembc"""," ""Coroxy","DroxiDat""",1
 " ""26f1f38a8119680c60f7d923a0375410"""," ""win.salatstealer"""," ""None"""," ""SalatStealer""",1
 " ""2825162eb8738e9adbe32773619eb634"""," ""win.coffee_loader"""," ""None"""," ""CoffeeLoader""",1
 " ""2838d2fc55d455dbf1ec068673a8d6bc"""," ""win.snojan"""," ""None"""," ""Snojan""",1
@@ -21,6 +25,7 @@ ioc_value,fk_malware,malware_alias,malware_printable,count
 " ""5b0bdc5dbe5eee1f523e7c3fc8d887d1"""," ""win.metastealer"""," ""None"""," ""MetaStealer""",1
 " ""5baf6d050a33e6cac14267979baed1b1"""," ""win.mercurialgrabber"""," ""None"""," ""MercurialGrabber""",1
 " ""5e364c1e35445b655ca30ab0c5bc7a4a"""," ""win.guidloader"""," ""None"""," ""GUIDLOADER""",1
+" ""61bb1b6d672d6ce0f7331fee7de6f553"""," ""win.nanocore"""," ""Nancrat","NanoCore""",1
 " ""6c7dc8d90ecbbf30ac991bde84c2ceb0"""," ""win.mirai"""," ""None"""," ""Mirai""",1
 " ""73a8e38f92a174ba34c711226da24291"""," ""win.strelastealer"""," ""None"""," ""StrelaStealer""",1
 " ""73b15d9195453be47404b18f3b17fdc2"""," ""win.formbook"""," ""win.xloader"""," ""Formbook""",1
@@ -33,6 +38,7 @@ ioc_value,fk_malware,malware_alias,malware_printable,count
 " ""ac39dd0a7c37d0dbd77633807bf07996"""," ""win.salatstealer"""," ""None"""," ""SalatStealer""",1
 " ""b327d2ff7fc3759ca1a53943c535d832"""," ""win.asyncrat"""," ""None"""," ""AsyncRAT""",1
 " ""b3edaedf52442bca2403be04ae7b3b80"""," ""win.asyncrat"""," ""None"""," ""AsyncRAT""",1
+" ""b54edbcec7664fde548a7ba1fa8b3b78"""," ""unknown"""," ""None"""," ""Unknown malware""",1
 " ""b7fa192d0fab80e5816988da055256b8"""," ""win.strelastealer"""," ""None"""," ""StrelaStealer""",1
 " ""b8e0ea374aafc4fc9196a13ad2b0e3d7"""," ""win.mirai"""," ""None"""," ""Mirai""",1
 " ""ba91bf8cf959ce66da9854747f5adb37"""," ""win.newpass"""," ""None"""," ""NewPass""",1
