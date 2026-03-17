@@ -1,33 +1,7 @@
 ioc_value,fk_malware,malware_alias,malware_printable,count
-" ""0b36732cc40d5d15a80e7d3f8785ae01"""," ""win.xworm"""," ""None"""," ""XWorm""",1
-" ""117efd7d1a1c07d32b02e9cd08aa15d0"""," ""win.coinminer"""," ""None"""," ""Coinminer""",1
-" ""1f711fd0600f268dffe5a19e8a4dcfba"""," ""win.valley_rat"""," ""Winos"""," ""ValleyRAT""",1
-" ""20d35681bf6271bfbc5e9ebd58be5c15"""," ""win.stealc"""," ""None"""," ""Stealc""",1
-" ""20d647e1a49859565ea185c4594766ec"""," ""win.dcrat"""," ""DarkCrystal RAT"""," ""DCRat""",1
-" ""2b0862c9328cbb295143ae510cd56e86"""," ""win.sliver"""," ""None"""," ""Sliver""",1
-" ""33322b98c07553eb5c34e55714f32f56"""," ""win.attor"""," ""None"""," ""Attor""",1
-" ""3497f8de4ea3088bb8253fa6e63fed31"""," ""win.formbook"""," ""win.xloader"""," ""Formbook""",1
-" ""35bfc71147450d37f3ae12065838bbff"""," ""win.valley_rat"""," ""Winos"""," ""ValleyRAT""",1
-" ""39653d75a9f6f618558d6169cf0c4713"""," ""win.attor"""," ""None"""," ""Attor""",1
-" ""45c5b4a45fb0d9c2b4187d3b16686c69"""," ""win.valley_rat"""," ""Winos"""," ""ValleyRAT""",1
-" ""46ec0e726253180d01acd57946844c06"""," ""win.asyncrat"""," ""None"""," ""AsyncRAT""",1
-" ""50a39be199a68c6c955d742885a167c6"""," ""win.bluefox"""," ""None"""," ""BlueFox""",1
-" ""670feea5f79acee8b10f15cec05f4eff"""," ""win.vidar"""," ""None"""," ""Vidar""",1
-" ""71c1ac875c0c0b600caa5ac1a7f64aac"""," ""win.asyncrat"""," ""None"""," ""AsyncRAT""",1
-" ""71c86f68a27efe37fbc7a4a6159bceef"""," ""win.guidloader"""," ""None"""," ""GUIDLOADER""",1
-" ""733107e0eeedd22ef86ee450cf0bb03b"""," ""win.valley_rat"""," ""Winos"""," ""ValleyRAT""",1
-" ""83d510e6a734444fb719bfe8df6a8f5f"""," ""win.valley_rat"""," ""Winos"""," ""ValleyRAT""",1
-" ""a0e7b27dd2357e5d266a7502904b7af6"""," ""win.attor"""," ""None"""," ""Attor""",1
-" ""bb106a2384335422c0718139bd23e07b"""," ""win.vidar"""," ""None"""," ""Vidar""",1
-" ""c31ebc969030bb0651201abb6d2bd4e9"""," ""win.dostealer"""," ""None"""," ""DOSTEALER""",1
-" ""cccb3fc5f563efa516289b98590ffcd1"""," ""win.valley_rat"""," ""Winos"""," ""ValleyRAT""",1
-" ""d49919f4d02f9166510fc18a681bb771"""," ""win.asyncrat"""," ""None"""," ""AsyncRAT""",1
-" ""d9442e34b14efc8f768ef74b8d2864f2"""," ""win.gcleaner"""," ""None"""," ""GCleaner""",1
-" ""d9bdc7e6df3245feee2f9666e52ac922"""," ""win.sliver"""," ""None"""," ""Sliver""",1
-" ""de830943ef92ad7d8f8f0fc6bf9aee25"""," ""win.valley_rat"""," ""Winos"""," ""ValleyRAT""",1
-" ""e62bad247c046f8f5a0c75ff52ec4bed"""," ""win.lalala_stealer"""," ""None"""," ""LALALA Stealer""",1
-" ""e7a44eefa067578cee37980f23a55f36"""," ""win.bluefox"""," ""None"""," ""BlueFox""",1
-" ""e7bc70deac880ed4697622488ec0a4a3"""," ""win.troystealer"""," ""None"""," ""troystealer""",1
-" ""ec7641e10208558fc17ba4d6d990f94e"""," ""win.redenergy_stealer"""," ""None"""," ""RedEnergy Stealer""",1
-" ""f0b410ca0ba79d284cf7f88327818a62"""," ""win.asyncrat"""," ""None"""," ""AsyncRAT""",1
-" ""f5617974e5d6655102c3d47076efd3aa"""," ""win.dostealer"""," ""None"""," ""DOSTEALER""",1
+" ""3b18e9da970fa7d336b08c5df04668b7"""," ""unknown"""," ""None"""," ""Unknown malware""",1
+" ""511a4780cbd9ed2280b432afc6cbfd1a"""," ""unknown"""," ""None"""," ""Unknown malware""",1
+" ""62c6ba7f5356663c46b8918b6a0994fc"""," ""unknown"""," ""None"""," ""Unknown malware""",1
+" ""b400c58e7e227361cc689078ce9163c4"""," ""unknown"""," ""None"""," ""Unknown malware""",1
+" ""b8c81e1e17adcaf9e84d76401697b7e5"""," ""unknown"""," ""None"""," ""Unknown malware""",1
+" ""e14d7846c93e4a6cb9f745f1fa7943f6"""," ""win.meterpreter"""," ""None"""," ""Meterpreter""",1
