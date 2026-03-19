@@ -9,4 +9,3 @@ ioc_value,fk_malware,malware_alias,malware_printable,count
 " ""92b93cb23dafbb49305910fda4a58be7"""," ""unknown"""," ""None"""," ""Unknown malware""",1
 " ""b5085da2a8ecd8f74b66bfc6293f3acf"""," ""unknown"""," ""None"""," ""Unknown malware""",1
 " ""c849b831d24baa677aec367fdeec2718"""," ""unknown"""," ""None"""," ""Unknown malware""",1
-" ""e14d7846c93e4a6cb9f745f1fa7943f6"""," ""win.meterpreter"""," ""None"""," ""Meterpreter""",1
