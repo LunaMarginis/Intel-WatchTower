@@ -1,5 +1,7 @@
 ioc_value,fk_malware,malware_alias,malware_printable,count
-" ""29145cc1b1400b4b60743a21b075bac7"""," ""unknown"""," ""None"""," ""Unknown malware""",1
-" ""a1cc7f562c5c09476849070b0fc928d1"""," ""unknown"""," ""None"""," ""Unknown malware""",1
-" ""a8f67ecea56833ef2fcbdbdc941b8354"""," ""unknown"""," ""None"""," ""Unknown malware""",1
-" ""cf4840ae85d7acba4974d6dd55893d6c"""," ""unknown"""," ""None"""," ""Unknown malware""",1
+" ""7658962ae060a222c0058cd4e979bfa1"""," ""js.contagious_drop"""," ""None"""," ""ContagiousDrop""",1
+" ""7a9ddef00f69477b96252ca234fcbeeb"""," ""js.contagious_drop"""," ""None"""," ""ContagiousDrop""",1
+" ""8db3b6a1d230e5e221702ef1f405585d"""," ""js.contagious_drop"""," ""None"""," ""ContagiousDrop""",1
+" ""90e8e227ba8bef0ea7e0212b5b1e0d4c"""," ""js.contagious_drop"""," ""None"""," ""ContagiousDrop""",1
+" ""9663665850cdd8fe12e30a671e5c4e6f"""," ""js.contagious_drop"""," ""None"""," ""ContagiousDrop""",1
+" ""db7f4c82c732e8b107492cae419740ab"""," ""js.contagious_drop"""," ""None"""," ""ContagiousDrop""",1
