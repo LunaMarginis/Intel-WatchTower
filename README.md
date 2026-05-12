@@ -8,21 +8,24 @@ This table shows top 10 malware names with their unique hashes and counts. [For 
 |--------------|--------------------|-------|
 |  "unknown" |  "e43b38b314acef0d158e99884cd5710f" | 1 |
 
+
+
 <!-- url_summary_start -->
 ## 🔗 Top 10 URLs:
 
-Automated URL Collections, grouped by Tags: Every day at 03:00 UTC. Last Updated: 2026-05-11 06:24:44 UTC.
+Automated URL Collections, grouped by Tags: Every day at 03:00 UTC. Last Updated: 2026-05-12 05:55:11 UTC.
 
 | Tag | Count |
 |-----|-------|
-| 32-bit,elf,mips,Mozi | 5439 |
-| ClearFake | 3932 |
+| 32-bit,elf,mips,Mozi | 5491 |
+| ClearFake | 3935 |
 | ClearFake,SnappyClient | 2193 |
-| 32-bit,arm,elf,mirai,Mozi | 1480 |
-| Mozi | 1312 |
-| ClearFake,NetSupport | 1278 |
+| 32-bit,arm,elf,mirai,Mozi | 1449 |
+| Mozi | 1303 |
+| ClearFake,NetSupport | 1108 |
 | ascii,opendir,vbs | 948 |
 | ascii,opendir,powershell,ps1 | 947 |
 | lnk,opendir | 947 |
 | SmartLoader,zip | 924 |
 <!-- url_summary_end -->
+
