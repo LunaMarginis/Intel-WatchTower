@@ -1,5 +1,8 @@
 name: MD5 Summary
 
+permissions:
+  contents: write
+
 on:
   schedule:
     - cron: '0 2 * * *'  # Every day at 02:00 UTC
@@ -11,12 +14,12 @@ jobs:
 
     steps:
       - name: Checkout repository
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
 
       - name: Set up Python
-        uses: actions/setup-python@v4
+        uses: actions/setup-python@v5
         with:
-          python-version: '3.10'
+          python-version: '3.x'
 
       - name: Install dependencies
         run: pip install pandas requests
@@ -26,12 +29,10 @@ jobs:
         env:
            SLACK_WEBHOOK_URL: ${{ secrets.SLACK_WEBHOOK_URL }}
 
-      - name: Commit and push CSV
-        run: |
-          git config user.name "github-actions"
-          git config user.email "github-actions@github.com"
-          git add README.md mhash.csv
-          git commit -m "Update mhash.csv with latest MD5 data" || echo "No changes to commit"
-          git push
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      - name: Commit and push changes
+        uses: EndBug/add-and-commit@v10
+        with:
+          author_name: GitHub Action
+          author_email: action@github.com
+          message: "Update mhash.csv with latest MD5 data"
+          add: "README.md mhash.csv"
