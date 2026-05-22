@@ -2126,7 +2126,7 @@ ClearFake,https[:]//federatedmeadowsystem[.]garden/0016c2ac-f51d-4b98-8ce2-41f56
 "32-bit,elf,mips,Mozi",http[:]//175[.]151[.]75[.]187[:]34363/bin[.]sh,offline
 "32-bit,elf,mips,Mozi",http[:]//42[.]87[.]92[.]69[:]46557/bin[.]sh,offline
 "32-bit,arm,elf,mirai,Mozi",http[:]//196[.]190[.]224[.]62[:]34080/i,offline
-"32-bit,elf,mips,Mozi",http[:]//163[.]142[.]85[.]159[:]44129/i,offline
+"32-bit,elf,mips,Mozi",http[:]//163[.]142[.]85[.]159[:]44129/i,online
 ClearFake,https[:]//irrigationprocessingnetwork[.]garden/2c46855d-8612-4926-be58-d7f8a06aef55/google[.]cl,offline
 "32-bit,elf,mips,Mozi",http[:]//60[.]23[.]220[.]86[:]40055/i,online
 Mozi,http[:]//125[.]46[.]198[.]87[:]38330/bin[.]sh,offline
