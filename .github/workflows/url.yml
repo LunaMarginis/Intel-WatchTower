@@ -1,5 +1,8 @@
 name: URL Summary
 
+permissions:
+  contents: write
+
 on:
   schedule:
     - cron: '0 3 * * *'   # Runs daily at 03:00 UTC
@@ -11,7 +14,9 @@ jobs:
 
     steps:
       - name: Checkout repo
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
 
       - name: Set up Python
         uses: actions/setup-python@v4
@@ -26,14 +31,20 @@ jobs:
         env:
            SLACK_WEBHOOK_URL: ${{ secrets.SLACK_WEBHOOK_URL }}
 
-      - name: Commit and push changes
+      - name: Fetch latest remote changes
+        run: git fetch origin main
+
+      - name: Rebase on remote main
+        run: git rebase origin/main
+
+      - name: Commit changes
         run: |
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
           git add urls.csv README.md
           git commit -m "Update URLHaus tags summary and CSV" || echo "No changes to commit"
-          git push
+
+      - name: Push changes
+        run: git push origin main
         env:
-          # Use a token with push permission configured as a secret
-          PAT_TOKEN: ${{ secrets.PAT_TOKEN }}
-          SLACK_WEBHOOK_URL: ${{ secrets.SLACK_WEBHOOK_URL }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
