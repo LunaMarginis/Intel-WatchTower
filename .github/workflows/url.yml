@@ -1,5 +1,8 @@
 name: URL Summary
 
+permissions:
+  contents: write
+
 on:
   schedule:
     - cron: '0 3 * * *'   # Runs daily at 03:00 UTC
@@ -34,6 +37,5 @@ jobs:
           git commit -m "Update URLHaus tags summary and CSV" || echo "No changes to commit"
           git push
         env:
-          # Use a token with push permission configured as a secret
-          PAT_TOKEN: ${{ secrets.PAT_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           SLACK_WEBHOOK_URL: ${{ secrets.SLACK_WEBHOOK_URL }}
