@@ -1,4 +1,5 @@
 tags,url,url_status
+"32-bit,elf,mips,Mozi",http[:]//123[.]8[.]59[.]124[:]36795/i,online
 "32-bit,elf,mips,Mozi",http[:]//119[.]179[.]253[.]132[:]50055/i,online
 ClearFake,https[:]//virtual-packet-grid[.]christmas/5405d3e1-2a9c-468d-8d44-c66d47f51cea/ton[.]ch,online
 "32-bit,elf,mips,Mozi",http[:]//123[.]8[.]59[.]124[:]36795/bin[.]sh,online
