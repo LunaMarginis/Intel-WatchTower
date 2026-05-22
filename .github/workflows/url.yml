@@ -15,8 +15,6 @@ jobs:
     steps:
       - name: Checkout repo
         uses: actions/checkout@v4
-        with:
-          fetch-depth: 0
 
       - name: Set up Python
         uses: actions/setup-python@v4
@@ -31,20 +29,10 @@ jobs:
         env:
            SLACK_WEBHOOK_URL: ${{ secrets.SLACK_WEBHOOK_URL }}
 
-      - name: Fetch latest remote changes
-        run: git fetch origin main
-
-      - name: Rebase on remote main
-        run: git rebase origin/main
-
-      - name: Commit changes
-        run: |
-          git config --local user.email "action@github.com"
-          git config --local user.name "GitHub Action"
-          git add urls.csv README.md
-          git commit -m "Update URLHaus tags summary and CSV" || echo "No changes to commit"
-
-      - name: Push changes
-        run: git push origin main
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      - name: Commit and push changes
+        uses: EndBug/add-and-commit@v9
+        with:
+          author_name: GitHub Action
+          author_email: action@github.com
+          message: "Update URLHaus tags summary and CSV"
+          add: "urls.csv README.md"
