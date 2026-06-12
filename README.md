@@ -16,3 +16,22 @@ This table shows top 10 malware names with their unique hashes and counts. [For 
 |  "win.nanocore" |  "a59b7602663fb130c5a85507fbbe29a2" | 1 |
 |  "win.strelastealer" |  "39a19118f2d38bfdb9421f69a84e5dec" | 1 |
 |  "win.tinyloader" |  "d13cad682fd5abb767313f79c1732822" | 1 |
+
+<!-- url_summary_start -->
+## 🔗 Top 10 URLs:
+
+Automated URL Collections, grouped by Tags: Every day at 03:00 UTC. Last Updated: 2026-06-12 07:08:15 UTC.
+
+| Tag | Count |
+|-----|-------|
+| 32-bit,elf,mips,Mozi | 5097 |
+| ClearFake | 2022 |
+| Mozi | 1095 |
+| elf,ua-wget | 934 |
+| 32-bit,arm,elf,mirai,Mozi | 730 |
+| elf,mirai,ua-wget | 612 |
+| mirai | 406 |
+| mirai,opendir | 365 |
+| ua-wget | 329 |
+| botnetdomain,mirai,opendir | 295 |
+<!-- url_summary_end -->
