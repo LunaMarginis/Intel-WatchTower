@@ -16,3 +16,22 @@ This table shows top 10 malware names with their unique hashes and counts. [For 
 |  "win.taurus_stealer" |  "8368894761e8f296575356fe49978880" | 1 |
 |  "win.tinyloader" |  "d13cad682fd5abb767313f79c1732822" | 1 |
 |  "win.troystealer" |  "173e47952a519cedcbc37d7468c0afe5" | 1 |
+
+<!-- url_summary_start -->
+## 🔗 Top 10 URLs:
+
+Automated URL Collections, grouped by Tags: Every day at 03:00 UTC. Last Updated: 2026-06-13 06:43:11 UTC.
+
+| Tag | Count |
+|-----|-------|
+| 32-bit,elf,mips,Mozi | 5096 |
+| ClearFake | 2011 |
+| Mozi | 1058 |
+| elf,ua-wget | 935 |
+| 32-bit,arm,elf,mirai,Mozi | 753 |
+| elf,mirai,ua-wget | 591 |
+| mirai | 401 |
+| mirai,opendir | 365 |
+| botnetdomain,mirai,opendir | 295 |
+| c2-monitor-auto,dropped-by-amadey | 235 |
+<!-- url_summary_end -->
