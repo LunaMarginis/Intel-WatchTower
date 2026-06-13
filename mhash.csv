@@ -1,14 +1,13 @@
 ioc_value,fk_malware,malware_alias,malware_printable,count
 " ""0ff94617c08fe032327753b286011da5"""," ""win.masslogger"""," ""None"""," ""MASS Logger""",1
 " ""173e47952a519cedcbc37d7468c0afe5"""," ""win.troystealer"""," ""None"""," ""troystealer""",1
-" ""18b93f31c49e4302e3fd26764b6ad37a"""," ""win.agent_tesla"""," ""AgenTesla",AgentTesla,1
 " ""1f8b721815bfd4f57aa377369fa5f2ed"""," ""win.coinminer"""," ""None"""," ""Coinminer""",1
-" ""2e4973a854f88682666c77394ec3e61e"""," ""win.gootkit"""," ""Waldek",Xswkit,1
+" ""347187dc7824a887b8f6a3272b3baf12"""," ""win.amadey"""," ""None"""," ""Amadey""",1
 " ""39a19118f2d38bfdb9421f69a84e5dec"""," ""win.strelastealer"""," ""None"""," ""StrelaStealer""",1
 " ""624eb52464199c7dfea8f082c5b4e9f7"""," ""win.darktortilla"""," ""None"""," ""DarkTortilla""",1
+" ""8368894761e8f296575356fe49978880"""," ""win.taurus_stealer"""," ""None"""," ""Taurus Stealer""",1
 " ""92bc3b1ba378c14e601c4e617ec7c422"""," ""win.firecrypt"""," ""None"""," ""FireCrypt""",1
 " ""93996829b15b3cf1bb4bd79f2091d72f"""," ""win.firecrypt"""," ""None"""," ""FireCrypt""",1
-" ""a59b7602663fb130c5a85507fbbe29a2"""," ""win.nanocore"""," ""Nancrat","NanoCore""",1
 " ""b82f0b9989f316d6679e1ea067e31cdd"""," ""win.coinminer"""," ""None"""," ""Coinminer""",1
 " ""c843d4538bb0f0c1b31e057ec7d8d8c1"""," ""win.gcleaner"""," ""None"""," ""GCleaner""",1
 " ""d13cad682fd5abb767313f79c1732822"""," ""win.tinyloader"""," ""None"""," ""TinyLoader""",1
