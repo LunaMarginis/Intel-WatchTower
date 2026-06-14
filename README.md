@@ -16,3 +16,22 @@ This table shows top 10 malware names with their unique hashes and counts. [For 
 |  "win.purpleink" |  "3eb10fa565b63f4869b3e63327cdb09a" | 1 |
 |  "win.phemedrone_stealer" |  "b01231990bfbb7857d28c8e24aa6251b" | 1 |
 |  "win.valley_rat" |  "e6953f8c99055eca2c16f26bdc5fb3c0" | 1 |
+
+<!-- url_summary_start -->
+## 🔗 Top 10 URLs:
+
+Automated URL Collections, grouped by Tags: Every day at 03:00 UTC. Last Updated: 2026-06-14 07:10:27 UTC.
+
+| Tag | Count |
+|-----|-------|
+| 32-bit,elf,mips,Mozi | 5123 |
+| ClearFake | 2016 |
+| Mozi | 1016 |
+| elf,ua-wget | 927 |
+| 32-bit,arm,elf,mirai,Mozi | 752 |
+| elf,mirai,ua-wget | 568 |
+| mirai | 392 |
+| mirai,opendir | 365 |
+| botnetdomain,mirai,opendir | 295 |
+| c2-monitor-auto,dropped-by-amadey | 224 |
+<!-- url_summary_end -->
