@@ -1,13 +1,15 @@
 ioc_value,fk_malware,malware_alias,malware_printable,count
 " ""26799ecfcf4fe9850a1c224aa39c96be"""," ""win.coinminer"""," ""None"""," ""Coinminer""",1
 " ""2eb88c1364140da4d32f9d21487cef9f"""," ""win.vidar"""," ""None"""," ""Vidar""",1
-" ""347187dc7824a887b8f6a3272b3baf12"""," ""win.amadey"""," ""None"""," ""Amadey""",1
+" ""36b013c5e39acbe752709d0b2fc01006"""," ""win.valley_rat"""," ""Winos"""," ""ValleyRAT""",1
 " ""3eb10fa565b63f4869b3e63327cdb09a"""," ""win.purpleink"""," ""None"""," ""purpleink""",1
 " ""4fb1d95832b2daa5125f7ff2e618df0b"""," ""win.troystealer"""," ""None"""," ""troystealer""",1
-" ""8368894761e8f296575356fe49978880"""," ""win.taurus_stealer"""," ""None"""," ""Taurus Stealer""",1
+" ""6382ad4c07f225406139f7ab90f2ccaf"""," ""win.valley_rat"""," ""Winos"""," ""ValleyRAT""",1
+" ""81a6699618caa9d38a99aac19a33b770"""," ""win.ghostnet"""," ""Remosh"""," ""Gh0stnet""",1
 " ""8b56aebdbd532b68e68ac3d603176027"""," ""win.luca_stealer"""," ""None"""," ""Luca Stealer""",1
 " ""9b9dcc895b1e29c298437174b6854a69"""," ""win.taurus_stealer"""," ""None"""," ""Taurus Stealer""",1
 " ""a59021e930e4788c1f8ad670d63b00ba"""," ""win.troystealer"""," ""None"""," ""troystealer""",1
+" ""ab02ca10ab74d9ba0bcaff7f62ac2f6e"""," ""win.coinminer"""," ""None"""," ""Coinminer""",1
 " ""b01231990bfbb7857d28c8e24aa6251b"""," ""win.phemedrone_stealer"""," ""Ov3r_Stealer"""," ""Phemedrone Stealer""",1
 " ""b036154d6a043b690421ac0a812be7fd"""," ""win.coinminer"""," ""None"""," ""Coinminer""",1
 " ""c95629d2f826d57e008e6c791f733361"""," ""win.coinminer"""," ""None"""," ""Coinminer""",1
