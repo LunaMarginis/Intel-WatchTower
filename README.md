@@ -16,3 +16,22 @@ This table shows top 10 malware names with their unique hashes and counts. [For 
 |  "win.stealc" |  "d4ad96166ed5242fdc71764416df824d"<br> "d94999c701738da0dd72cffe8c9ac30d" | 2 |
 |  "win.salatstealer" |  "5bf6e385651d48acf554428e8301ef5b"<br> "ac3f398f2bb1a25d342fcd9e440bca0a" | 2 |
 |  "win.darktortilla" |  "345a1ab350f2c7ddabf686e27e784941"<br> "bdf08ce9ab6f348e47f6e8af26af4a65" | 2 |
+
+<!-- url_summary_start -->
+## 🔗 Top 10 URLs:
+
+Automated URL Collections, grouped by Tags: Every day at 03:00 UTC. Last Updated: 2026-06-17 08:17:19 UTC.
+
+| Tag | Count |
+|-----|-------|
+| 32-bit,elf,mips,Mozi | 5157 |
+| ClearFake | 2061 |
+| elf,ua-wget | 925 |
+| Mozi | 877 |
+| 32-bit,arm,elf,mirai,Mozi | 782 |
+| elf,mirai,ua-wget | 543 |
+| mirai,opendir | 306 |
+| mirai | 275 |
+| ua-wget | 261 |
+| botnetdomain,mirai | 243 |
+<!-- url_summary_end -->
