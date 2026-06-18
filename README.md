@@ -16,3 +16,22 @@ This table shows top 10 malware names with their unique hashes and counts. [For 
 |  "win.deerstealer" |  "7f62dbe03c7394b7f7e6b4f06bf3b39c"<br> "a308ec75b4162425c45963777a2d20ce"<br> "b77625cae72301aa6736c543f1c9d80f" | 3 |
 |  "win.earthworm" |  "806e54bd980e0465d92db5b11f81021c"<br> "b5860fb24c90f6c3e7e40a0479454a00" | 2 |
 |  "win.darktortilla" |  "345a1ab350f2c7ddabf686e27e784941"<br> "bdf08ce9ab6f348e47f6e8af26af4a65" | 2 |
+
+<!-- url_summary_start -->
+## 🔗 Top 10 URLs:
+
+Automated URL Collections, grouped by Tags: Every day at 03:00 UTC. Last Updated: 2026-06-18 07:21:08 UTC.
+
+| Tag | Count |
+|-----|-------|
+| 32-bit,elf,mips,Mozi | 5145 |
+| ClearFake | 2022 |
+| elf,ua-wget | 905 |
+| Mozi | 834 |
+| 32-bit,arm,elf,mirai,Mozi | 785 |
+| elf,mirai,ua-wget | 529 |
+| mirai,opendir | 306 |
+| ua-wget | 263 |
+| mirai | 262 |
+| c2-monitor-auto,dropped-by-amadey | 208 |
+<!-- url_summary_end -->
