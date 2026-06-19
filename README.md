@@ -16,3 +16,22 @@ This table shows top 10 malware names with their unique hashes and counts. [For 
 |  "win.darktortilla" |  "f116f62d9ccaad036dac5a1965c2de82" | 1 |
 |  "win.attor" |  "2844a14af35e5d637365fbbfae03732a" | 1 |
 |  "win.poscardstealer" |  "51335ef0e92ee549c9ec24338935d1b3" | 1 |
+
+<!-- url_summary_start -->
+## 🔗 Top 10 URLs:
+
+Automated URL Collections, grouped by Tags: Every day at 03:00 UTC. Last Updated: 2026-06-19 08:21:58 UTC.
+
+| Tag | Count |
+|-----|-------|
+| 32-bit,elf,mips,Mozi | 5168 |
+| ClearFake | 2002 |
+| elf,ua-wget | 927 |
+| 32-bit,arm,elf,mirai,Mozi | 796 |
+| Mozi | 788 |
+| elf,mirai,ua-wget | 540 |
+| ua-wget | 380 |
+| mirai,opendir | 289 |
+| mirai | 249 |
+| c2-monitor-auto,dropped-by-amadey | 235 |
+<!-- url_summary_end -->
