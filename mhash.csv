@@ -1,19 +1,22 @@
 ioc_value,fk_malware,malware_alias,malware_printable,count
 " ""08f7bd68b412087ec63f76150088d813"""," ""win.luca_stealer"""," ""None"""," ""Luca Stealer""",1
-" ""2844a14af35e5d637365fbbfae03732a"""," ""win.attor"""," ""None"""," ""Attor""",1
+" ""10cf94eef24c8932d28698e02faf43e5"""," ""win.nanocore"""," ""Nancrat","NanoCore""",1
+" ""1702f6476993eb605fe93eebbbc5fc42"""," ""win.nanocore"""," ""Nancrat","NanoCore""",1
+" ""2470c9c99f13ded1f5b86a2fabde0780"""," ""win.nanocore"""," ""Nancrat","NanoCore""",1
+" ""3b7ccb4eb2ba5f3156526ec60cc3033b"""," ""win.nanocore"""," ""Nancrat","NanoCore""",1
+" ""3e90a82f5360cae528a12c76d22fe6a2"""," ""win.wannacryptor"""," ""Wana Decrypt0r",WannaCry,1
 " ""48b039c349e726f4f63ccfd141273bbf"""," ""win.phantom_stealer"""," ""None"""," ""Phantom Stealer""",1
 " ""4d976e55c47a5d72a72b90abbebbd137"""," ""win.luca_stealer"""," ""None"""," ""Luca Stealer""",1
-" ""4dbf036d9486c34dc26ae3316ae13073"""," ""py.venus_stealer"""," ""None"""," ""Venus Stealer""",1
-" ""51335ef0e92ee549c9ec24338935d1b3"""," ""win.poscardstealer"""," ""None"""," ""poscardstealer""",1
 " ""52c1005cff76c7c6f4b21a231ad6e130"""," ""jar.crossrat"""," ""Trupto"""," ""CrossRAT""",1
-" ""629f961741fbee0beced217eef514bd9"""," ""win.phantom_stealer"""," ""None"""," ""Phantom Stealer""",1
+" ""63ab7828b518397c0b01596c92a0a0b0"""," ""win.nanocore"""," ""Nancrat","NanoCore""",1
+" ""63ffc60f431eb604910d605d8d72754b"""," ""py.venus_stealer"""," ""None"""," ""Venus Stealer""",1
+" ""6640820a921a5235ffa3448c7640039c"""," ""win.wannacryptor"""," ""Wana Decrypt0r",WannaCry,1
 " ""6ab9e3c6a1819ae3b3943bc745e33a7a"""," ""win.luca_stealer"""," ""None"""," ""Luca Stealer""",1
-" ""8404ae737e2cf0dd72b36c9cede37a9f"""," ""win.asyncrat"""," ""None"""," ""AsyncRAT""",1
-" ""8b3cc6aa0f6b4a3880146323fec3f09d"""," ""win.luca_stealer"""," ""None"""," ""Luca Stealer""",1
-" ""8f4739d863929bd0b22a0d4a569cf72c"""," ""win.zynor_rat"""," ""None"""," ""ZynorRAT""",1
-" ""9fb91bff7289b601bb0a7d91200fe770"""," ""win.valley_rat"""," ""Winos"""," ""ValleyRAT""",1
-" ""a7b3e94a5fcd20c960c42426b7c9a0c9"""," ""win.asyncrat"""," ""None"""," ""AsyncRAT""",1
-" ""ae9613c81a644178999b357600d1498a"""," ""win.tinymet"""," ""TiniMet"""," ""TinyMet""",1
-" ""bd2c666c8c598630a65ac6d481b96ee4"""," ""win.valley_rat"""," ""Winos"""," ""ValleyRAT""",1
-" ""c2fd87e0a14baa16be23ea3b40b42eee"""," ""py.creal_stealer"""," ""None"""," ""Creal Stealer""",1
+" ""93e61d5a877bbb937e885d3ca385ac8a"""," ""win.nanocore"""," ""Nancrat","NanoCore""",1
+" ""9d9e293be0bc3323060ff6271cc00d4f"""," ""win.wannacryptor"""," ""Wana Decrypt0r",WannaCry,1
+" ""b403e6dbe08ecd6f86b3d6858d2e4c7c"""," ""win.njrat"""," ""Bladabindi","Lime-Worm""",1
+" ""ba5cfe07a33b3a75955756fe7fc10b96"""," ""win.wannacryptor"""," ""Wana Decrypt0r",WannaCry,1
+" ""d3e37de6dd2dc8ce1bb72536259529cc"""," ""win.nanocore"""," ""Nancrat","NanoCore""",1
+" ""db133a7ead8a83e3dd1a6b2bc4ee41c7"""," ""win.wannacryptor"""," ""Wana Decrypt0r",WannaCry,1
+" ""e80c4a3ceb6417d7194183326d498ea5"""," ""win.wannacryptor"""," ""Wana Decrypt0r",WannaCry,1
 " ""f116f62d9ccaad036dac5a1965c2de82"""," ""win.darktortilla"""," ""None"""," ""DarkTortilla""",1
