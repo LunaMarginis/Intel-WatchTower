@@ -14,3 +14,22 @@ This table shows top 10 malware names with their unique hashes and counts. [For 
 |  "py.venus_stealer" |  "63ffc60f431eb604910d605d8d72754b" | 1 |
 |  "win.njrat" |  "b403e6dbe08ecd6f86b3d6858d2e4c7c" | 1 |
 |  "win.phantom_stealer" |  "48b039c349e726f4f63ccfd141273bbf" | 1 |
+
+<!-- url_summary_start -->
+## 🔗 Top 10 URLs:
+
+Automated URL Collections, grouped by Tags: Every day at 03:00 UTC. Last Updated: 2026-06-20 06:50:13 UTC.
+
+| Tag | Count |
+|-----|-------|
+| 32-bit,elf,mips,Mozi | 5208 |
+| ClearFake | 1966 |
+| elf,ua-wget | 1057 |
+| 32-bit,arm,elf,mirai,Mozi | 791 |
+| Mozi | 771 |
+| elf,mirai,ua-wget | 538 |
+| ua-wget | 413 |
+| mirai | 248 |
+| c2-monitor-auto,dropped-by-amadey | 234 |
+| mirai,opendir | 216 |
+<!-- url_summary_end -->
