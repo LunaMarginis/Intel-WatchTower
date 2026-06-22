@@ -16,3 +16,22 @@ This table shows top 10 malware names with their unique hashes and counts. [For 
 |  "jar.crossrat" |  "5a4dcdc6cbe2bb676b37f9a24bd593a3"<br> "e2f8bcbe8815b33869f87f1e99ab6f70" | 2 |
 |  "osx.xloader" |  "349e9cfa230a379f16ba28418a73d3bf"<br> "f2a520db47f163760eef8629fc4a92e2" | 2 |
 |  "win.asyncrat" |  "1b37fb289ad1e3da62510caf740de1ce"<br> "1e3c5aa594c8beaefb73e35b563379d7" | 2 |
+
+<!-- url_summary_start -->
+## 🔗 Top 10 URLs:
+
+Automated URL Collections, grouped by Tags: Every day at 03:00 UTC. Last Updated: 2026-06-22 08:44:32 UTC.
+
+| Tag | Count |
+|-----|-------|
+| 32-bit,elf,mips,Mozi | 5220 |
+| ClearFake | 1938 |
+| elf,ua-wget | 1169 |
+| 32-bit,arm,elf,mirai,Mozi | 818 |
+| Mozi | 765 |
+| elf,mirai,ua-wget | 560 |
+| ua-wget | 397 |
+| mirai | 266 |
+| botnet,mirai | 241 |
+| c2-monitor-auto,dropped-by-amadey | 231 |
+<!-- url_summary_end -->
