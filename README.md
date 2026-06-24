@@ -16,3 +16,22 @@ This table shows top 10 malware names with their unique hashes and counts. [For 
 |  "win.phantom_stealer" |  "059288a7f75595dbbdb7712e9c493fea"<br> "6019f364c9f02fa6b515eba7d1eec5d0"<br> "ab525145e57509b5284bfafcf339ad45" | 3 |
 |  "win.salatstealer" |  "158b8af97dc35528e53d10e6ed9f6d62"<br> "52655a6db617f3bbf385564a47d783d9"<br> "dd9e5a8ef764babeb49e5a4154bea186" | 3 |
 |  "win.luca_stealer" |  "0acfe0a8740e071874d3b0789ed5cd30"<br> "b97769a9e25a997a29d8b849800ac541"<br> "ba3281bb9c624619a22b1e506f23fe46" | 3 |
+
+<!-- url_summary_start -->
+## 🔗 Top 10 URLs:
+
+Automated URL Collections, grouped by Tags: Every day at 03:00 UTC. Last Updated: 2026-06-24 06:32:39 UTC.
+
+| Tag | Count |
+|-----|-------|
+| 32-bit,elf,mips,Mozi | 5179 |
+| LuaJIT-loader,SmartLoader,SmartLoader-MaaS | 5059 |
+| ClearFake | 1944 |
+| elf,ua-wget | 1280 |
+| 32-bit,arm,elf,mirai,Mozi | 832 |
+| Mozi | 771 |
+| elf,mirai,ua-wget | 590 |
+| ua-wget | 397 |
+| mirai | 284 |
+| botnet,mirai | 245 |
+<!-- url_summary_end -->
