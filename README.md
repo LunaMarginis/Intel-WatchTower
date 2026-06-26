@@ -16,3 +16,22 @@ This table shows top 10 malware names with their unique hashes and counts. [For 
 |  "win.formbook" |  "375e3e0945e1aae4a3ed38420238db1b"<br> "e2e001f0896a74144a4fb0bbabe8e672" | 2 |
 |  "py.venus_stealer" |  "028f4d4e2a10746578248da6e51ff891"<br> "e5c0637997dd3b06bf74d9285ce348f9" | 2 |
 |  "win.maskgramstealer" |  "5cdded78f2b177c4245ffb1778b6491f" | 1 |
+
+<!-- url_summary_start -->
+## 🔗 Top 10 URLs:
+
+Automated URL Collections, grouped by Tags: Every day at 03:00 UTC. Last Updated: 2026-06-26 06:39:22 UTC.
+
+| Tag | Count |
+|-----|-------|
+| 32-bit,elf,mips,Mozi | 5088 |
+| LuaJIT-loader,SmartLoader,SmartLoader-MaaS | 5059 |
+| ClearFake | 1863 |
+| elf,ua-wget | 1345 |
+| 32-bit,arm,elf,mirai,Mozi | 871 |
+| Mozi | 779 |
+| elf,mirai,ua-wget | 572 |
+| ua-wget | 507 |
+| mirai | 298 |
+| botnet,mirai | 245 |
+<!-- url_summary_end -->
