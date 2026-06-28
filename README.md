@@ -16,3 +16,22 @@ This table shows top 10 malware names with their unique hashes and counts. [For 
 |  "win.darkme" |  "891776acc33d8c22e4667d51c8370d49" | 1 |
 |  "win.socks5_systemz" |  "52c76d9b7366f34a1fad3b5b0527e24f" | 1 |
 |  "win.redline_stealer" |  "3f48ee014cdde9588eddecf08bf35821" | 1 |
+
+<!-- url_summary_start -->
+## 🔗 Top 10 URLs:
+
+Automated URL Collections, grouped by Tags: Every day at 03:00 UTC. Last Updated: 2026-06-28 06:48:21 UTC.
+
+| Tag | Count |
+|-----|-------|
+| LuaJIT-loader,SmartLoader,SmartLoader-MaaS | 5059 |
+| 32-bit,elf,mips,Mozi | 5019 |
+| ClearFake | 1790 |
+| elf,ua-wget | 1313 |
+| 32-bit,arm,elf,mirai,Mozi | 907 |
+| Mozi | 770 |
+| elf,mirai,ua-wget | 564 |
+| ua-wget | 562 |
+| mirai | 319 |
+| botnet,mirai | 245 |
+<!-- url_summary_end -->
