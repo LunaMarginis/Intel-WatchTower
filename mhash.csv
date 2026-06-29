@@ -1,88 +1,40 @@
 ioc_value,fk_malware,malware_alias,malware_printable,count
+" ""011c4ffba12eb2a298ff83159177ca7a"""," ""win.stealc"""," ""None"""," ""Stealc""",1
+" ""0184f5f0b05f0bfb33f2657836f00dd5"""," ""win.luca_stealer"""," ""None"""," ""Luca Stealer""",1
+" ""029714671183c6988e3067a1d2fdec6e"""," ""win.vidar"""," ""None"""," ""Vidar""",1
 " ""038112c489a65525aaa6c2ede6c33c2a"""," ""jar.crossrat"""," ""Trupto"""," ""CrossRAT""",1
-" ""06acc48e71d65bbfe3806548a516c5b7"""," ""py.stealler"""," ""None"""," ""stealler""",1
-" ""0919e23941fc3253f600fd2db4f47eda"""," ""py.stealler"""," ""None"""," ""stealler""",1
-" ""0bd221b54d468936dbabb9fbcae5dbe4"""," ""py.stealler"""," ""None"""," ""stealler""",1
-" ""0c84fe9285b5eaa476a7646ae02c87b1"""," ""py.stealler"""," ""None"""," ""stealler""",1
-" ""10dc559182458c1ec10f21c31bbbdccf"""," ""py.stealler"""," ""None"""," ""stealler""",1
-" ""1264576eb9649b064a6c9fe34923fa16"""," ""py.stealler"""," ""None"""," ""stealler""",1
-" ""16016ef97dca920aaf77b7ada30b5f3a"""," ""py.stealler"""," ""None"""," ""stealler""",1
-" ""16ed0d418245c47341c71db17b7b92f7"""," ""py.stealler"""," ""None"""," ""stealler""",1
-" ""1c2e3acf98bef526aa633a7245eef3e2"""," ""py.stealler"""," ""None"""," ""stealler""",1
-" ""1dd0e8fd632dd232d9c61eb6fa246703"""," ""py.stealler"""," ""None"""," ""stealler""",1
-" ""1fcc698a3ec527ad70918c7b09ee183e"""," ""py.stealler"""," ""None"""," ""stealler""",1
-" ""2044f4c2d285ecd05327e826d669a1ad"""," ""py.stealler"""," ""None"""," ""stealler""",1
-" ""2219a5e9013168e6238b071ee8ca14c4"""," ""win.prometei"""," ""None"""," ""Prometei""",1
-" ""254f91bb40539160b6e5cf91d17f4c22"""," ""py.stealler"""," ""None"""," ""stealler""",1
-" ""260657f419e41d92e676a81f660b9403"""," ""py.stealler"""," ""None"""," ""stealler""",1
-" ""270b0faa31df55806d6fe4090eb68439"""," ""py.stealler"""," ""None"""," ""stealler""",1
-" ""2a026ebc8eef3e2cc77878bca0798f22"""," ""py.stealler"""," ""None"""," ""stealler""",1
-" ""2b30f61bc9c5590780296c198d53da1f"""," ""py.stealler"""," ""None"""," ""stealler""",1
-" ""2f6758bd9dd843fe2b4337d8fca758d2"""," ""py.stealler"""," ""None"""," ""stealler""",1
-" ""38261bfbfa59d9af40a0686529dc2262"""," ""py.stealler"""," ""None"""," ""stealler""",1
-" ""39d65662043cedd60aac868773c2c630"""," ""py.stealler"""," ""None"""," ""stealler""",1
-" ""3ed46511118ca32e085a53caca44a09b"""," ""jar.crossrat"""," ""Trupto"""," ""CrossRAT""",1
-" ""3f48ee014cdde9588eddecf08bf35821"""," ""win.redline_stealer"""," ""RECORDSTEALER"""," ""RedLine Stealer""",1
-" ""3f5b7e07efee987cd75000a6a413fedc"""," ""py.stealler"""," ""None"""," ""stealler""",1
-" ""4108abf102718acbb7fd311e85254a3c"""," ""py.stealler"""," ""None"""," ""stealler""",1
-" ""419eddfb2f3808f2de24083e3d2453c8"""," ""py.stealler"""," ""None"""," ""stealler""",1
-" ""444b819900e286ff196511d8cc4c4458"""," ""py.stealler"""," ""None"""," ""stealler""",1
-" ""44615fb0e87e5fe90052e5d48c2ba35c"""," ""py.stealler"""," ""None"""," ""stealler""",1
-" ""46c5fedb9cf3b4b7c83b97843a7d00ad"""," ""py.stealler"""," ""None"""," ""stealler""",1
-" ""481b030071c78a6d71901654b7fa4dcd"""," ""win.valley_rat"""," ""Winos"""," ""ValleyRAT""",1
-" ""4aa2ec181bfe0f1203f864b02479f378"""," ""py.stealler"""," ""None"""," ""stealler""",1
-" ""4b248d55ae517ac46c0d2ea215fba348"""," ""py.stealler"""," ""None"""," ""stealler""",1
+" ""1413fa8b1bc8437830fe7dcfc19ebd90"""," ""win.gcleaner"""," ""None"""," ""GCleaner""",1
+" ""28a483eac56dcdc47c904ce010f34d65"""," ""win.acr_stealer"""," ""None"""," ""ACR Stealer""",1
+" ""29e09a2fdea6179f9ac0bbfffecfba99"""," ""win.valley_rat"""," ""Winos"""," ""ValleyRAT""",1
+" ""38d02de220bc3849fbc8632696f8dd6c"""," ""win.vidar"""," ""None"""," ""Vidar""",1
+" ""3cc6072eca86948127764f87d84baa85"""," ""win.gcleaner"""," ""None"""," ""GCleaner""",1
+" ""3e7ca33a0746e65cc08a92035af226c0"""," ""win.valley_rat"""," ""Winos"""," ""ValleyRAT""",1
+" ""41251868de0e68da924595a9e4b6b899"""," ""jar.strrat"""," ""None"""," ""STRRAT""",1
+" ""4322706ec257b3612d493aec83709abd"""," ""win.vidar"""," ""None"""," ""Vidar""",1
+" ""496caac1fa6369e93cb48970f72e26da"""," ""jar.crossrat"""," ""Trupto"""," ""CrossRAT""",1
+" ""4f32445270d6f1a4b3a1692aebce68b0"""," ""py.blankgrabber"""," ""None"""," ""BlankGrabber""",1
 " ""52c76d9b7366f34a1fad3b5b0527e24f"""," ""win.socks5_systemz"""," ""ProxyBox"""," ""Socks5 Systemz""",1
-" ""59484d2abfceb3dcd75485e1b9d85035"""," ""py.stealler"""," ""None"""," ""stealler""",1
-" ""5b356e439cc173fc59acb80072432154"""," ""py.stealler"""," ""None"""," ""stealler""",1
-" ""5eca7be606723c470d02afbb53188dc2"""," ""win.vidar"""," ""None"""," ""Vidar""",1
-" ""61fd58a78e2bb56fe2a7e46a561cb79b"""," ""win.valley_rat"""," ""Winos"""," ""ValleyRAT""",1
-" ""62ae160c7ed83b5a3941c4bf1b6175b2"""," ""py.stealler"""," ""None"""," ""stealler""",1
-" ""6349de7a2dde48ba850d2b9fbae1703b"""," ""py.stealler"""," ""None"""," ""stealler""",1
-" ""6d8fcf33be0cd5f4ead399412271c8a3"""," ""py.stealler"""," ""None"""," ""stealler""",1
-" ""72899882c6cb903c51d2f8f99d8e0d3a"""," ""py.stealler"""," ""None"""," ""stealler""",1
-" ""79c3344864afd83d6cfa95aa816e3286"""," ""py.venus_stealer"""," ""None"""," ""Venus Stealer""",1
-" ""7a933ecb05c9a0f96e97702573e5bc69"""," ""py.stealler"""," ""None"""," ""stealler""",1
-" ""7ab73b37f2b756a4e49d7a2e77920d06"""," ""py.stealler"""," ""None"""," ""stealler""",1
-" ""7ebfeb5782fcf974362581c0a1533445"""," ""py.stealler"""," ""None"""," ""stealler""",1
-" ""7fc39c5f95187eacf49c5bb111344df1"""," ""py.stealler"""," ""None"""," ""stealler""",1
-" ""82a228c7b33477075bdde3eab3c5c14d"""," ""py.stealler"""," ""None"""," ""stealler""",1
-" ""831fe85e5e12493e8fbb6728944190b9"""," ""py.stealler"""," ""None"""," ""stealler""",1
-" ""83c72f21a650908f11476e32c210951b"""," ""py.venus_stealer"""," ""None"""," ""Venus Stealer""",1
+" ""6f9edbfed883db4efc7ede0460ecb3ff"""," ""win.vidar"""," ""None"""," ""Vidar""",1
+" ""77ac1472bfb41dcc80e160bc87691abc"""," ""win.vidar"""," ""None"""," ""Vidar""",1
+" ""787d7a0b27f676de5986ff2aeffa694d"""," ""py.venus_stealer"""," ""None"""," ""Venus Stealer""",1
+" ""796c75cc4d7986e8088deeac118b3ff8"""," ""win.vidar"""," ""None"""," ""Vidar""",1
+" ""7e359d8fdd0d72a0971d639c20197d40"""," ""win.vidar"""," ""None"""," ""Vidar""",1
+" ""7e87c40331ad08fecfeb53c22fccd9d1"""," ""py.blankgrabber"""," ""None"""," ""BlankGrabber""",1
+" ""83286b40935dc23576b57950f1fe9e62"""," ""win.vidar"""," ""None"""," ""Vidar""",1
 " ""885e4c62d17993ccffbfd44a1c128ddf"""," ""win.vidar"""," ""None"""," ""Vidar""",1
 " ""891776acc33d8c22e4667d51c8370d49"""," ""win.darkme"""," ""None"""," ""DarkMe""",1
-" ""894291fe7bc78e1eb8d19d0d79511445"""," ""py.stealler"""," ""None"""," ""stealler""",1
-" ""8a543dd478ed8fa843fdc57a3da8075e"""," ""py.stealler"""," ""None"""," ""stealler""",1
-" ""8cd1ed35cc813729823da0630d57808d"""," ""py.stealler"""," ""None"""," ""stealler""",1
-" ""8f2c3c4321f23e146343c09cc7101391"""," ""py.stealler"""," ""None"""," ""stealler""",1
-" ""95f7327a2dd6ad35a7363ac72c0a3472"""," ""py.stealler"""," ""None"""," ""stealler""",1
-" ""98df75fde3c6ce76573002cba98f8279"""," ""py.stealler"""," ""None"""," ""stealler""",1
-" ""993f015fc9f5a9f683c32541e0039627"""," ""win.amadey"""," ""None"""," ""Amadey""",1
-" ""99809c96a288be22824d5fccbda95ec2"""," ""py.stealler"""," ""None"""," ""stealler""",1
-" ""9e264537de2b12881f8b51f624a48d93"""," ""py.stealler"""," ""None"""," ""stealler""",1
-" ""a5e250adea3405bc5ef99ff0162333fe"""," ""py.stealler"""," ""None"""," ""stealler""",1
-" ""a65d0888e130eac4d2f7e160f52df4c8"""," ""py.stealler"""," ""None"""," ""stealler""",1
-" ""a6c1720f3024ce8bae45b493e54c6c85"""," ""py.stealler"""," ""None"""," ""stealler""",1
-" ""a81286deb2b5c60f5a68558e74428b9a"""," ""py.stealler"""," ""None"""," ""stealler""",1
-" ""af206791419453501fe13d086252f629"""," ""py.stealler"""," ""None"""," ""stealler""",1
-" ""b41cbc3ebfd0db1331818712635e7d03"""," ""py.stealler"""," ""None"""," ""stealler""",1
-" ""b9c0227f06a438fcb658e96c7b9f3f2d"""," ""py.stealler"""," ""None"""," ""stealler""",1
-" ""bd760e634620513016f5d3db47f4eda9"""," ""py.stealler"""," ""None"""," ""stealler""",1
-" ""c50df4af20305dde4ed6a420bff2ebc8"""," ""py.stealler"""," ""None"""," ""stealler""",1
-" ""c524874b75254cb431a7d9ef4980018c"""," ""py.stealler"""," ""None"""," ""stealler""",1
-" ""caeddfa1b0347b727632ce6275652c1f"""," ""py.stealler"""," ""None"""," ""stealler""",1
-" ""caefe47322a5aa05ddac7cb67aa274ad"""," ""py.stealler"""," ""None"""," ""stealler""",1
-" ""cb624c395ca5cd9c17dce1e147c3b191"""," ""py.stealler"""," ""None"""," ""stealler""",1
-" ""d0be04a50f59108082b5494a11edae7b"""," ""py.stealler"""," ""None"""," ""stealler""",1
-" ""d17b005f6c28c7875294028f7a8595d9"""," ""py.stealler"""," ""None"""," ""stealler""",1
-" ""d881ff2d496d18b8dabfff2a0cbef79e"""," ""py.stealler"""," ""None"""," ""stealler""",1
-" ""e2847541c512e86bc6514c0bb3677590"""," ""py.stealler"""," ""None"""," ""stealler""",1
-" ""e407d70eb9f90af6103fc71519a0d454"""," ""py.stealler"""," ""None"""," ""stealler""",1
-" ""ede8ec7dd17d6a4337e9480f32ab3556"""," ""py.stealler"""," ""None"""," ""stealler""",1
-" ""ee023c4bc2c9e6beb6c17bbe8ed695ed"""," ""py.stealler"""," ""None"""," ""stealler""",1
-" ""f22525696e2cda866516145e63a625dc"""," ""py.stealler"""," ""None"""," ""stealler""",1
+" ""948b712d99e0c5cad05416e7f13841bb"""," ""win.acr_stealer"""," ""None"""," ""ACR Stealer""",1
+" ""9f18eac675b554fd802aa4641f61da47"""," ""win.vidar"""," ""None"""," ""Vidar""",1
+" ""9fc877b010e2c630c4db9efd1e0c5ffe"""," ""win.vidar"""," ""None"""," ""Vidar""",1
+" ""a040670ccbe6b4c9841d8706c433997c"""," ""win.acr_stealer"""," ""None"""," ""ACR Stealer""",1
+" ""b953f81730955b8883bc2e8baa9091e6"""," ""win.gcleaner"""," ""None"""," ""GCleaner""",1
+" ""c1cda5f5016b812993dd4858fa6fb949"""," ""win.amadey"""," ""None"""," ""Amadey""",1
+" ""ccdd5b209678728be86711582b64f86c"""," ""win.vidar"""," ""None"""," ""Vidar""",1
+" ""cdce6c8c32f041f574161f7e2edfd398"""," ""elf.zhtrap"""," ""None"""," ""ZHtrap""",1
+" ""ce93846b8a4d42531f4e5950a817bcc1"""," ""py.venus_stealer"""," ""None"""," ""Venus Stealer""",1
+" ""d070cecbc810cebe7c1cf373ea69b5fd"""," ""win.acr_stealer"""," ""None"""," ""ACR Stealer""",1
+" ""dced1923790be572edf4191106a6dc10"""," ""win.dostealer"""," ""None"""," ""DOSTEALER""",1
+" ""e0227ae2a175af87b2e31d1a47cb3276"""," ""py.blankgrabber"""," ""None"""," ""BlankGrabber""",1
+" ""e2ea34aa55123dd1c1c4ca7027b12053"""," ""py.venus_stealer"""," ""None"""," ""Venus Stealer""",1
+" ""e2f13f6d216b70e66ce859e3e0cadcb7"""," ""py.blankgrabber"""," ""None"""," ""BlankGrabber""",1
 " ""f269378bb7d1c7817fa6200a1198b9df"""," ""win.vidar"""," ""None"""," ""Vidar""",1
-" ""f6d811e5e564b528eadd6bd2440d4ff4"""," ""py.stealler"""," ""None"""," ""stealler""",1
-" ""f8dd091e55b5cce125ded11ba441b287"""," ""py.stealler"""," ""None"""," ""stealler""",1
-" ""fd0d176de0f31f66122db5f06381102a"""," ""py.stealler"""," ""None"""," ""stealler""",1
-" ""ffd07b98c369a9b381e5e84c147dafd3"""," ""py.stealler"""," ""None"""," ""stealler""",1
