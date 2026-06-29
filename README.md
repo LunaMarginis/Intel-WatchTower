@@ -16,3 +16,22 @@ This table shows top 10 malware names with their unique hashes and counts. [For 
 |  "win.amadey" |  "c1cda5f5016b812993dd4858fa6fb949" | 1 |
 |  "jar.strrat" |  "41251868de0e68da924595a9e4b6b899" | 1 |
 |  "elf.zhtrap" |  "cdce6c8c32f041f574161f7e2edfd398" | 1 |
+
+<!-- url_summary_start -->
+## 🔗 Top 10 URLs:
+
+Automated URL Collections, grouped by Tags: Every day at 03:00 UTC. Last Updated: 2026-06-29 07:17:03 UTC.
+
+| Tag | Count |
+|-----|-------|
+| LuaJIT-loader,SmartLoader,SmartLoader-MaaS | 5059 |
+| 32-bit,elf,mips,Mozi | 4977 |
+| ClearFake | 1754 |
+| elf,ua-wget | 1324 |
+| 32-bit,arm,elf,mirai,Mozi | 902 |
+| Mozi | 779 |
+| elf,mirai,ua-wget | 576 |
+| ua-wget | 562 |
+| mirai | 315 |
+| botnet,mirai | 245 |
+<!-- url_summary_end -->
