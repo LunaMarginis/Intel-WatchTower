@@ -16,3 +16,22 @@ This table shows top 10 malware names with their unique hashes and counts. [For 
 |  "win.coinminer" |  "1ccf41cfd9d85a0e6c49854e25d76ab5" | 1 |
 |  "win.phantom_stealer" |  "b818f530a0a9a6247f9943fe3eb32bf3" | 1 |
 |  "win.metaencryptor" |  "6f8647bbb9fb933a367abf32a6c6821d" | 1 |
+
+<!-- url_summary_start -->
+## 🔗 Top 10 URLs:
+
+Automated URL Collections, grouped by Tags: Every day at 03:00 UTC. Last Updated: 2026-07-01 06:59:21 UTC.
+
+| Tag | Count |
+|-----|-------|
+| LuaJIT-loader,SmartLoader,SmartLoader-MaaS | 5059 |
+| 32-bit,elf,mips,Mozi | 4878 |
+| ClearFake | 1679 |
+| elf,ua-wget | 1338 |
+| 32-bit,arm,elf,mirai,Mozi | 898 |
+| Mozi | 779 |
+| elf,mirai,ua-wget | 585 |
+| ua-wget | 514 |
+| mirai | 329 |
+| botnet,mirai | 245 |
+<!-- url_summary_end -->
