@@ -1,24 +1,45 @@
 ioc_value,fk_malware,malware_alias,malware_printable,count
-" ""09765552f6adc879d572921e394723f0"""," ""win.maskgramstealer"""," ""None"""," ""MaskGramStealer""",1
-" ""1491af89583872f964267808da1128f6"""," ""win.formbook"""," ""win.xloader"""," ""Formbook""",1
+" ""00e540646ecc1b7e2ae7b65b2ba61338"""," ""elf.kuiper"""," ""None"""," ""Kuiper""",1
+" ""0e6987e3a5a53fa34808a4273f6e7230"""," ""win.pure_rat"""," ""PureHVNC","ResolverRAT""",1
+" ""12d8f743f9abbf1cb92c342a86687dcb"""," ""win.pure_rat"""," ""PureHVNC","ResolverRAT""",1
+" ""15ced19102f80a843c22480e362c8811"""," ""win.gentlemen"""," ""None"""," ""Gentlemen""",1
 " ""16f2b00efb6012eddafdabaf21f7e7ff"""," ""elf.kuiper"""," ""None"""," ""Kuiper""",1
-" ""17c783bb84f17edb43a538f0dfbeb1e9"""," ""win.arkei_stealer"""," ""ArkeiStealer"""," ""Arkei Stealer""",1
-" ""20d1adb10b96e85874d6dceab96918da"""," ""win.formbook"""," ""win.xloader"""," ""Formbook""",1
-" ""225117fe6244da7cdb75649909b78289"""," ""win.darktortilla"""," ""None"""," ""DarkTortilla""",1
-" ""26a1127f0bac441d6a94709ddfdb9c5b"""," ""win.asyncrat"""," ""None"""," ""AsyncRAT""",1
-" ""2a8ce7e05836d21a6a31ca558ccd679f"""," ""py.venus_stealer"""," ""None"""," ""Venus Stealer""",1
-" ""31c7a4892a28121cff9b4f98f97a507f"""," ""win.formbook"""," ""win.xloader"""," ""Formbook""",1
+" ""19ea61c208ddf0170ba98ecf2c5cf012"""," ""win.pure_rat"""," ""PureHVNC","ResolverRAT""",1
+" ""1bc4fce0bfa6e83285e3a52582f5b77f"""," ""win.pure_rat"""," ""PureHVNC","ResolverRAT""",1
+" ""1ee5e73581b14ae8ea6518a23dbcbaa9"""," ""elf.kuiper"""," ""None"""," ""Kuiper""",1
+" ""26f9fceff4ac3f791648b7fc49bdf382"""," ""win.pure_rat"""," ""PureHVNC","ResolverRAT""",1
+" ""29e726a3332a4f1dc32e5a7c9f96423f"""," ""win.pure_rat"""," ""PureHVNC","ResolverRAT""",1
 " ""32ba76496cf54bf0c9302e6ddab64cd9"""," ""win.arkei_stealer"""," ""ArkeiStealer"""," ""Arkei Stealer""",1
-" ""32f90f34610520f8dbded26e5e7494c1"""," ""win.valley_rat"""," ""Winos"""," ""ValleyRAT""",1
-" ""379717f664cc19a3f295a11e189dd386"""," ""jar.crossrat"""," ""Trupto"""," ""CrossRAT""",1
-" ""4153a9d749c374ad789884e9144dde8e"""," ""win.valley_rat"""," ""Winos"""," ""ValleyRAT""",1
-" ""436d5a5d5c35f34cdb4f6be2c4ff30dc"""," ""jar.crossrat"""," ""Trupto"""," ""CrossRAT""",1
+" ""3326190e2f46a296874ac230d1c83f35"""," ""win.netwire"""," ""NetWeird",NetWire,1
+" ""37732f094ee78c5a820f225aa70f44b1"""," ""py.venus_stealer"""," ""None"""," ""Venus Stealer""",1
+" ""4200b46a93c6ab059e2b34ce200c4a5b"""," ""unknown"""," ""None"""," ""Unknown malware""",1
+" ""4a909313c462ab3bddc6c522b20cc49c"""," ""win.agent_tesla"""," ""AgenTesla",AgentTesla,1
+" ""4a9837dd830f8db27380836ef3a6adec"""," ""win.gentlemen"""," ""None"""," ""Gentlemen""",1
+" ""4baf0403803e0f305542899f5ab18b47"""," ""win.pure_rat"""," ""PureHVNC","ResolverRAT""",1
+" ""50d6a53992cb7d6eb09bc71294e5a68f"""," ""win.gentlemen"""," ""None"""," ""Gentlemen""",1
+" ""55adc1b1cd21895765d8aff36d894382"""," ""win.gentlemen"""," ""None"""," ""Gentlemen""",1
 " ""55b80c0bb297e1cdbd85530c30c6d723"""," ""py.venus_stealer"""," ""None"""," ""Venus Stealer""",1
-" ""55bc609cf12b4db41c6f2adcc6496769"""," ""win.formbook"""," ""win.xloader"""," ""Formbook""",1
-" ""77ef3956571c199697945e44f76cd308"""," ""win.formbook"""," ""win.xloader"""," ""Formbook""",1
+" ""57d20ed65870aa249ca374142d763d13"""," ""win.netwire"""," ""NetWeird",NetWire,1
+" ""5f319c7e83b8daa6836b8ae674c8e0e6"""," ""win.gentlemen"""," ""None"""," ""Gentlemen""",1
+" ""6add66a89721e2b7d817ba0d0f0d660e"""," ""win.gentlemen"""," ""None"""," ""Gentlemen""",1
+" ""6e9cd29d317d6f0251aba016f04ea281"""," ""win.agent_tesla"""," ""AgenTesla",AgentTesla,1
+" ""71f152d84b2928c6163724de1cb6fae3"""," ""win.gentlemen"""," ""None"""," ""Gentlemen""",1
+" ""75f68d369e48fba33a4d53d45f32a6c6"""," ""win.njrat"""," ""Bladabindi","Lime-Worm""",1
+" ""7c0f9f1375d685ec9a30c2e1a5cf7817"""," ""win.netwire"""," ""NetWeird",NetWire,1
+" ""7f59606db92157241b6eb0dd47f95f60"""," ""py.creal_stealer"""," ""None"""," ""Creal Stealer""",1
 " ""84e114db07c2fbe9225d08bc856ed52f"""," ""elf.kuiper"""," ""None"""," ""Kuiper""",1
-" ""9167ebf77d442c08692aff65cdbc99d3"""," ""win.formbook"""," ""win.xloader"""," ""Formbook""",1
+" ""8ee42d16a9381d726591ddc551863931"""," ""unknown"""," ""None"""," ""Unknown malware""",1
+" ""9383dfc389707b42cb1792cd8b4828db"""," ""win.pure_rat"""," ""PureHVNC","ResolverRAT""",1
+" ""97960cb546365a3a320fd26dac47d10e"""," ""win.njrat"""," ""Bladabindi","Lime-Worm""",1
+" ""a5e54656b4967f3399969170ee6263cd"""," ""elf.kuiper"""," ""None"""," ""Kuiper""",1
+" ""adf675ffc1acb357f2d9f1a94e016f52"""," ""unknown"""," ""None"""," ""Unknown malware""",1
+" ""b1254b99d30873de20ea99fbca371ac3"""," ""unknown"""," ""None"""," ""Unknown malware""",1
+" ""b62119f0ae9ad41612f252dd703799d4"""," ""win.netwire"""," ""NetWeird",NetWire,1
+" ""c2129f59f43570484456038599bcf74b"""," ""win.valley_rat"""," ""Winos"""," ""ValleyRAT""",1
 " ""c6da85645488cfbb1120310f837f7fc7"""," ""win.vidar"""," ""None"""," ""Vidar""",1
-" ""ecb499448f45703e58fb73775ae80825"""," ""win.maskgramstealer"""," ""None"""," ""MaskGramStealer""",1
-" ""eceee0d92a65b8b01f7bfb352e3ea087"""," ""py.stealler"""," ""None"""," ""stealler""",1
+" ""ccff072ed5aa19a1eed7f6a769ed2c5d"""," ""win.netwire"""," ""NetWeird",NetWire,1
+" ""cd9bbcba0733e834a50214132f6338f7"""," ""win.formbook"""," ""win.xloader"""," ""Formbook""",1
+" ""e5604a5b1fa1d859e7b21db07cf0aa0f"""," ""win.pure_rat"""," ""PureHVNC","ResolverRAT""",1
+" ""ee611ed8ba479a08b18f25e7c81fabbf"""," ""win.stealc"""," ""None"""," ""Stealc""",1
+" ""f3c6ca1ba97b7f94ab52584dc62ea691"""," ""win.gentlemen"""," ""None"""," ""Gentlemen""",1
 " ""fe2226cdeb007a5b1f5aa13e042d9b11"""," ""win.stealc"""," ""None"""," ""Stealc""",1
