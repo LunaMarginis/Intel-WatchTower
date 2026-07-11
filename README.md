@@ -1,37 +1,18 @@
 # IOC Summary
 
-Automated Hash Collections: Every day at 02:00 UTC. Last Updated: 2026-07-10 06:01:57 UTC
+Automated Hash Collections: Every day at 02:00 UTC. Last Updated: 2026-07-11 05:11:55 UTC
 
 This table shows top 10 malware names with their unique hashes and counts. [For Complete list, check the CSV files]
 
 | Malware Name | ioc_value (Hashes) | Count |
 |--------------|--------------------|-------|
-|  "win.pure_rat" |  "0e6987e3a5a53fa34808a4273f6e7230"<br> "12d8f743f9abbf1cb92c342a86687dcb"<br> "19ea61c208ddf0170ba98ecf2c5cf012"<br> "1bc4fce0bfa6e83285e3a52582f5b77f"<br> "26f9fceff4ac3f791648b7fc49bdf382"<br> "29e726a3332a4f1dc32e5a7c9f96423f"<br> "4baf0403803e0f305542899f5ab18b47"<br> "9383dfc389707b42cb1792cd8b4828db"<br> "e5604a5b1fa1d859e7b21db07cf0aa0f" | 9 |
-|  "win.gentlemen" |  "15ced19102f80a843c22480e362c8811"<br> "4a9837dd830f8db27380836ef3a6adec"<br> "50d6a53992cb7d6eb09bc71294e5a68f"<br> "55adc1b1cd21895765d8aff36d894382"<br> "5f319c7e83b8daa6836b8ae674c8e0e6"<br> "6add66a89721e2b7d817ba0d0f0d660e"<br> "71f152d84b2928c6163724de1cb6fae3"<br> "f3c6ca1ba97b7f94ab52584dc62ea691" | 8 |
-|  "elf.kuiper" |  "00e540646ecc1b7e2ae7b65b2ba61338"<br> "16f2b00efb6012eddafdabaf21f7e7ff"<br> "1ee5e73581b14ae8ea6518a23dbcbaa9"<br> "84e114db07c2fbe9225d08bc856ed52f"<br> "a5e54656b4967f3399969170ee6263cd" | 5 |
-|  "win.netwire" |  "3326190e2f46a296874ac230d1c83f35"<br> "57d20ed65870aa249ca374142d763d13"<br> "7c0f9f1375d685ec9a30c2e1a5cf7817"<br> "b62119f0ae9ad41612f252dd703799d4"<br> "ccff072ed5aa19a1eed7f6a769ed2c5d" | 5 |
-|  "unknown" |  "4200b46a93c6ab059e2b34ce200c4a5b"<br> "8ee42d16a9381d726591ddc551863931"<br> "adf675ffc1acb357f2d9f1a94e016f52"<br> "b1254b99d30873de20ea99fbca371ac3" | 4 |
-|  "win.agent_tesla" |  "4a909313c462ab3bddc6c522b20cc49c"<br> "6e9cd29d317d6f0251aba016f04ea281" | 2 |
-|  "win.stealc" |  "ee611ed8ba479a08b18f25e7c81fabbf"<br> "fe2226cdeb007a5b1f5aa13e042d9b11" | 2 |
-|  "win.njrat" |  "75f68d369e48fba33a4d53d45f32a6c6"<br> "97960cb546365a3a320fd26dac47d10e" | 2 |
-|  "py.venus_stealer" |  "37732f094ee78c5a820f225aa70f44b1"<br> "55b80c0bb297e1cdbd85530c30c6d723" | 2 |
+|  "elf.kuiper" |  "00e540646ecc1b7e2ae7b65b2ba61338"<br> "0b4bfd9422eb241b2d324cb69d65900b"<br> "1b05bb4b7783efd8ac3e9d0ea2cd0254"<br> "1ee5e73581b14ae8ea6518a23dbcbaa9"<br> "46a7d8d9303db9b9c5301b6d080088cc"<br> "65db1ec512c7e7f7dd0c6a3718efcedb"<br> "739d254907a3a933f0718634112582bb"<br> "914f0b43128f5ede1083809ab35b144c"<br> "982be584be605ccc38f90ff57060efbc"<br> "9ab13dc4c79fdd894774735987c9b60e"<br> "a1d1d914cd05bb1cbced378d002a44f9"<br> "a5e54656b4967f3399969170ee6263cd"<br> "d9f41571617f5566313d683b8750483c"<br> "e3ee9a97d742f50631e085a1ede54613" | 14 |
+|  "win.salatstealer" |  "3298425727d0644a337faeef0a259802"<br> "5d7abaa64f6ee8117b900cb20ea8d893"<br> "968b49795eddd02848759e0f1cf7c838"<br> "a3c1ef1092965bc58c12d579a889f296"<br> "d653ada71dcf3f24d2d6dd5ef22a169b"<br> "f77dafb7f7cf6d7c3318f8ff01fa5e6d" | 6 |
+|  "py.venus_stealer" |  "19f235b2a219eaa317bb0cdf87464175"<br> "37732f094ee78c5a820f225aa70f44b1"<br> "bb7d6536cecdff9abacfb25618aeb2d6"<br> "c4f11447afc4928a9ce8843fc81cb25c" | 4 |
+|  "jar.crossrat" |  "13ed2a77b08df2b52e3420205e763a41"<br> "654607f31a256d943a2de9b63b30929c"<br> "983cca37c0534eb53f981fb4eb89a7f8" | 3 |
+|  "win.tinymet" |  "a0823dfc3073cb32be7c4ede5f17ed10"<br> "d55d6a4722973772857f242f86a2ef4a" | 2 |
 |  "py.creal_stealer" |  "7f59606db92157241b6eb0dd47f95f60" | 1 |
-
-<!-- url_summary_start -->
-## 🔗 Top 10 URLs:
-
-Automated URL Collections, grouped by Tags: Every day at 03:00 UTC. Last Updated: 2026-07-10 06:29:40 UTC.
-
-| Tag | Count |
-|-----|-------|
-| LuaJIT-loader,SmartLoader,SmartLoader-MaaS | 5059 |
-| 32-bit,elf,mips,Mozi | 4656 |
-| ClearFake | 1173 |
-| elf,mirai,ua-wget | 1002 |
-| 32-bit,arm,elf,mirai,Mozi | 983 |
-| elf,ua-wget | 975 |
-| Mozi | 727 |
-| botnetdomain,elf,mirai | 483 |
-| ua-wget | 417 |
-| elf,Mozi,ua-wget | 299 |
-<!-- url_summary_end -->
+|  "apk.clipper" |  "44faf223cbf8b4bd1d4221476322fab4" | 1 |
+|  "apk.loki" |  "8ed6ba61d3f45cc25d65f72605ed3f18" | 1 |
+|  "win.formbook" |  "cd9bbcba0733e834a50214132f6338f7" | 1 |
+|  "py.stealler" |  "be24a7ff3d55f1b0b790dbec25fb1695" | 1 |
