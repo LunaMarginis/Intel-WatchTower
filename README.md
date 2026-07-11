@@ -16,3 +16,22 @@ This table shows top 10 malware names with their unique hashes and counts. [For 
 |  "apk.loki" |  "8ed6ba61d3f45cc25d65f72605ed3f18" | 1 |
 |  "win.formbook" |  "cd9bbcba0733e834a50214132f6338f7" | 1 |
 |  "py.stealler" |  "be24a7ff3d55f1b0b790dbec25fb1695" | 1 |
+
+<!-- url_summary_start -->
+## 🔗 Top 10 URLs:
+
+Automated URL Collections, grouped by Tags: Every day at 03:00 UTC. Last Updated: 2026-07-11 05:29:02 UTC.
+
+| Tag | Count |
+|-----|-------|
+| LuaJIT-loader,SmartLoader,SmartLoader-MaaS | 5059 |
+| 32-bit,elf,mips,Mozi | 4362 |
+| ClearFake | 976 |
+| elf,mirai,ua-wget | 964 |
+| 32-bit,arm,elf,mirai,Mozi | 961 |
+| elf,ua-wget | 811 |
+| Mozi | 682 |
+| botnetdomain,elf,mirai | 483 |
+| ua-wget | 421 |
+| elf,Mozi,ua-wget | 299 |
+<!-- url_summary_end -->
