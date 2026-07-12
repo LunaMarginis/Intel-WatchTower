@@ -1,12 +1,9 @@
 ioc_value,fk_malware,malware_alias,malware_printable,count
-" ""00e540646ecc1b7e2ae7b65b2ba61338"""," ""elf.kuiper"""," ""None"""," ""Kuiper""",1
 " ""0b4bfd9422eb241b2d324cb69d65900b"""," ""elf.kuiper"""," ""None"""," ""Kuiper""",1
 " ""13ed2a77b08df2b52e3420205e763a41"""," ""jar.crossrat"""," ""Trupto"""," ""CrossRAT""",1
 " ""19f235b2a219eaa317bb0cdf87464175"""," ""py.venus_stealer"""," ""None"""," ""Venus Stealer""",1
 " ""1b05bb4b7783efd8ac3e9d0ea2cd0254"""," ""elf.kuiper"""," ""None"""," ""Kuiper""",1
-" ""1ee5e73581b14ae8ea6518a23dbcbaa9"""," ""elf.kuiper"""," ""None"""," ""Kuiper""",1
 " ""3298425727d0644a337faeef0a259802"""," ""win.salatstealer"""," ""None"""," ""SalatStealer""",1
-" ""37732f094ee78c5a820f225aa70f44b1"""," ""py.venus_stealer"""," ""None"""," ""Venus Stealer""",1
 " ""44faf223cbf8b4bd1d4221476322fab4"""," ""apk.clipper"""," ""None"""," ""Clipper""",1
 " ""46a7d8d9303db9b9c5301b6d080088cc"""," ""elf.kuiper"""," ""None"""," ""Kuiper""",1
 " ""5d7abaa64f6ee8117b900cb20ea8d893"""," ""win.salatstealer"""," ""None"""," ""SalatStealer""",1
@@ -14,7 +11,6 @@ ioc_value,fk_malware,malware_alias,malware_printable,count
 " ""65db1ec512c7e7f7dd0c6a3718efcedb"""," ""elf.kuiper"""," ""None"""," ""Kuiper""",1
 " ""6e66f889923ccb7dc34641a4d7ddc234"""," ""win.xworm"""," ""None"""," ""XWorm""",1
 " ""739d254907a3a933f0718634112582bb"""," ""elf.kuiper"""," ""None"""," ""Kuiper""",1
-" ""7f59606db92157241b6eb0dd47f95f60"""," ""py.creal_stealer"""," ""None"""," ""Creal Stealer""",1
 " ""845a1bc9408c542cf748ba647c2e680e"""," ""win.gcleaner"""," ""None"""," ""GCleaner""",1
 " ""8ed6ba61d3f45cc25d65f72605ed3f18"""," ""apk.loki"""," ""None"""," ""Loki""",1
 " ""914f0b43128f5ede1083809ab35b144c"""," ""elf.kuiper"""," ""None"""," ""Kuiper""",1
@@ -27,15 +23,11 @@ ioc_value,fk_malware,malware_alias,malware_printable,count
 " ""a0823dfc3073cb32be7c4ede5f17ed10"""," ""win.tinymet"""," ""TiniMet"""," ""TinyMet""",1
 " ""a1d1d914cd05bb1cbced378d002a44f9"""," ""elf.kuiper"""," ""None"""," ""Kuiper""",1
 " ""a3c1ef1092965bc58c12d579a889f296"""," ""win.salatstealer"""," ""None"""," ""SalatStealer""",1
-" ""a5e54656b4967f3399969170ee6263cd"""," ""elf.kuiper"""," ""None"""," ""Kuiper""",1
 " ""bb7d6536cecdff9abacfb25618aeb2d6"""," ""py.venus_stealer"""," ""None"""," ""Venus Stealer""",1
 " ""be24a7ff3d55f1b0b790dbec25fb1695"""," ""py.stealler"""," ""None"""," ""stealler""",1
-" ""c2129f59f43570484456038599bcf74b"""," ""win.valley_rat"""," ""Winos"""," ""ValleyRAT""",1
 " ""c4f11447afc4928a9ce8843fc81cb25c"""," ""py.venus_stealer"""," ""None"""," ""Venus Stealer""",1
-" ""cd9bbcba0733e834a50214132f6338f7"""," ""win.formbook"""," ""win.xloader"""," ""Formbook""",1
 " ""d55d6a4722973772857f242f86a2ef4a"""," ""win.tinymet"""," ""TiniMet"""," ""TinyMet""",1
 " ""d653ada71dcf3f24d2d6dd5ef22a169b"""," ""win.salatstealer"""," ""None"""," ""SalatStealer""",1
 " ""d9f41571617f5566313d683b8750483c"""," ""elf.kuiper"""," ""None"""," ""Kuiper""",1
 " ""e3ee9a97d742f50631e085a1ede54613"""," ""elf.kuiper"""," ""None"""," ""Kuiper""",1
-" ""ee611ed8ba479a08b18f25e7c81fabbf"""," ""win.stealc"""," ""None"""," ""Stealc""",1
 " ""f77dafb7f7cf6d7c3318f8ff01fa5e6d"""," ""win.salatstealer"""," ""None"""," ""SalatStealer""",1
