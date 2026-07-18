@@ -11,3 +11,22 @@ This table shows top 10 malware names with their unique hashes and counts. [For 
 |  "win.asyncrat" |  "2b46ed6e01f2baae933707d06704d14c"<br> "81961b2997cdf859ab8b96c3dd0afb07" | 2 |
 |  "win.salatstealer" |  "23285f10bb9b3002a24d3dbf865f07e1" | 1 |
 |  "win.darktortilla" |  "1f017ca7bcdae763c27483193017747a" | 1 |
+
+<!-- url_summary_start -->
+## 🔗 Top 10 URLs:
+
+Automated URL Collections, grouped by Tags: Every day at 03:00 UTC. Last Updated: 2026-07-18 05:12:59 UTC.
+
+| Tag | Count |
+|-----|-------|
+| LuaJIT-loader,SmartLoader,SmartLoader-MaaS | 5059 |
+| 32-bit,elf,mips,Mozi | 3920 |
+| elf,mirai,ua-wget | 1052 |
+| 32-bit,arm,elf,mirai,Mozi | 966 |
+| Mozi | 872 |
+| elf,ua-wget | 742 |
+| botnetdomain,elf,mirai | 570 |
+| ClearFake,win-0x4679,windows | 446 |
+| ua-wget | 385 |
+| ClearFake | 335 |
+<!-- url_summary_end -->
