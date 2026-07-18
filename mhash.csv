@@ -1,21 +1,14 @@
 ioc_value,fk_malware,malware_alias,malware_printable,count
-" ""0f3c2a17015bb0a23f6ea77eefaf2b2b"""," ""win.valley_rat"""," ""Winos"""," ""ValleyRAT""",1
+" ""057739a12fa0d25a1017e5f7a8538140"""," ""win.vidar"""," ""None"""," ""Vidar""",1
+" ""0a9a59c9e53e6d9f218fc6c307016b44"""," ""win.vidar"""," ""None"""," ""Vidar""",1
 " ""1f017ca7bcdae763c27483193017747a"""," ""win.darktortilla"""," ""None"""," ""DarkTortilla""",1
 " ""23285f10bb9b3002a24d3dbf865f07e1"""," ""win.salatstealer"""," ""None"""," ""SalatStealer""",1
+" ""240861bb6ee7723f0a7449ec501c466b"""," ""win.vidar"""," ""None"""," ""Vidar""",1
 " ""2b46ed6e01f2baae933707d06704d14c"""," ""win.asyncrat"""," ""None"""," ""AsyncRAT""",1
-" ""3166ae39b46472d2ee53a880eb8248e0"""," ""win.ghost_rat"""," ""Farfli",Gh0st RAT,1
-" ""369affa224fcf1f5107c7914c8d4d85e"""," ""py.creal_stealer"""," ""None"""," ""Creal Stealer""",1
 " ""3a85be4f475378e774b44aafd20102cd"""," ""win.valley_rat"""," ""Winos"""," ""ValleyRAT""",1
-" ""527122586ca9de7a2c7b2f54035c4298"""," ""elf.kuiper"""," ""None"""," ""Kuiper""",1
 " ""56ff460150b3ddeb5f1a01495ab44ee2"""," ""win.valley_rat"""," ""Winos"""," ""ValleyRAT""",1
-" ""73c52089f08fd3c78e5acc88971c6b83"""," ""win.vidar"""," ""None"""," ""Vidar""",1
-" ""7756c713d2320a6efe616217e44b002c"""," ""win.coinminer"""," ""None"""," ""Coinminer""",1
-" ""7fc5c85ef78d560ed838d206b9144356"""," ""win.vidar"""," ""None"""," ""Vidar""",1
-" ""90f6a430b6fa883472bfeca9fc46af3e"""," ""py.venus_stealer"""," ""None"""," ""Venus Stealer""",1
-" ""91ea5ad1a386bf675fc972b879f5638f"""," ""apk.facestealer"""," ""None"""," ""FaceStealer""",1
-" ""9732ccef82d6d9a01043e3e3aca53463"""," ""win.vidar"""," ""None"""," ""Vidar""",1
-" ""c1a5bc0019c3f894bc908e0c0c0e3ff7"""," ""win.phantom_stealer"""," ""None"""," ""Phantom Stealer""",1
+" ""7514a13877ee29b842859862663a03ed"""," ""win.vidar"""," ""None"""," ""Vidar""",1
+" ""81961b2997cdf859ab8b96c3dd0afb07"""," ""win.asyncrat"""," ""None"""," ""AsyncRAT""",1
 " ""c20a54cc45596e10f5eaf83a388128fe"""," ""win.valley_rat"""," ""Winos"""," ""ValleyRAT""",1
-" ""d700d60ff5e0b83309c8fa0f6f962f71"""," ""elf.kuiper"""," ""None"""," ""Kuiper""",1
-" ""d7891518770b94c0f91d303a1a6d96a4"""," ""py.venus_stealer"""," ""None"""," ""Venus Stealer""",1
-" ""f6e79a492bf496a18af4c58dcfb11c98"""," ""py.venus_stealer"""," ""None"""," ""Venus Stealer""",1
+" ""c45f291fda8740a843202a77180a15a1"""," ""win.vidar"""," ""None"""," ""Vidar""",1
+" ""cf4866e9f6c60a4b253de4bb85f4da90"""," ""win.vidar"""," ""None"""," ""Vidar""",1
