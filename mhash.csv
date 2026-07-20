@@ -1,27 +1,27 @@
 ioc_value,fk_malware,malware_alias,malware_printable,count
-" ""057739a12fa0d25a1017e5f7a8538140"""," ""win.vidar"""," ""None"""," ""Vidar""",1
-" ""0a9a59c9e53e6d9f218fc6c307016b44"""," ""win.vidar"""," ""None"""," ""Vidar""",1
+" ""0561a3921c93fe5913454241362e80e2"""," ""win.valley_rat"""," ""Winos"""," ""ValleyRAT""",1
 " ""14bb9ecf6b180317899ee49c68008b63"""," ""py.venus_stealer"""," ""None"""," ""Venus Stealer""",1
 " ""1b344651227f8909c586256a6e7541a2"""," ""py.venus_stealer"""," ""None"""," ""Venus Stealer""",1
-" ""240861bb6ee7723f0a7449ec501c466b"""," ""win.vidar"""," ""None"""," ""Vidar""",1
 " ""3dd256518361ce5770b58c28b2847df5"""," ""elf.kuiper"""," ""None"""," ""Kuiper""",1
 " ""43cb4e27e723dad9476b5907e60f7f44"""," ""py.venus_stealer"""," ""None"""," ""Venus Stealer""",1
 " ""466d3130f4f427ec39fb1378ee142e6f"""," ""win.salatstealer"""," ""None"""," ""SalatStealer""",1
 " ""52709e9850a742eea194b78fcb9a5528"""," ""py.venus_stealer"""," ""None"""," ""Venus Stealer""",1
 " ""52c1c5a26091c68f322fc44b0afcd6d0"""," ""elf.kuiper"""," ""None"""," ""Kuiper""",1
+" ""52f56cc1abe3ed2f437aaae0c74f5db9"""," ""py.venus_stealer"""," ""None"""," ""Venus Stealer""",1
 " ""58224bee686c03b0f7394a459d3ff971"""," ""win.salatstealer"""," ""None"""," ""SalatStealer""",1
-" ""7514a13877ee29b842859862663a03ed"""," ""win.vidar"""," ""None"""," ""Vidar""",1
+" ""5d11d7b9b175695c197014bc6aa2fbdb"""," ""win.amadey"""," ""None"""," ""Amadey""",1
 " ""778aad49c1279d5a647759894155d40a"""," ""win.acr_stealer"""," ""None"""," ""ACR Stealer""",1
 " ""7b1c118968b9261ad00231a7fc8180ad"""," ""py.venus_stealer"""," ""None"""," ""Venus Stealer""",1
-" ""81961b2997cdf859ab8b96c3dd0afb07"""," ""win.asyncrat"""," ""None"""," ""AsyncRAT""",1
 " ""8ab0732a85899cb205f645e969d0b4b8"""," ""py.venus_stealer"""," ""None"""," ""Venus Stealer""",1
 " ""8b41af0eb62a9152cc69899f82472db9"""," ""py.venus_stealer"""," ""None"""," ""Venus Stealer""",1
+" ""8c21b2fbded2faeb6db2e7a20c513cdb"""," ""win.redline_stealer"""," ""RECORDSTEALER"""," ""RedLine Stealer""",1
 " ""906010fce0c7b37b29ee13a78b6e130f"""," ""win.vidar"""," ""None"""," ""Vidar""",1
+" ""9c986d7e311ce1e8db7bd65b8271a87d"""," ""win.valley_rat"""," ""Winos"""," ""ValleyRAT""",1
 " ""bc4a779062e33deafacd023552b70b70"""," ""py.venus_stealer"""," ""None"""," ""Venus Stealer""",1
-" ""c45f291fda8740a843202a77180a15a1"""," ""win.vidar"""," ""None"""," ""Vidar""",1
-" ""cf4866e9f6c60a4b253de4bb85f4da90"""," ""win.vidar"""," ""None"""," ""Vidar""",1
+" ""d0b2dbfbc3a1d6474628f5268cf884fc"""," ""py.venus_stealer"""," ""None"""," ""Venus Stealer""",1
 " ""d1e5cbeac0e02e97a34aca7c9c54db5c"""," ""win.acr_stealer"""," ""None"""," ""ACR Stealer""",1
 " ""ed4861335d1a898ce5b42d2bb1ab98f6"""," ""py.venus_stealer"""," ""None"""," ""Venus Stealer""",1
 " ""f409be3647f3a4b0b01e59213a1ef5d9"""," ""py.venus_stealer"""," ""None"""," ""Venus Stealer""",1
 " ""f86db3e1c8635ecc820ef308302524bc"""," ""win.vidar"""," ""None"""," ""Vidar""",1
+" ""f8e68cddf13a94d821a4b265172a0e32"""," ""win.amadey"""," ""None"""," ""Amadey""",1
 " ""fc85c6ec73bec24c13e3c845b01f517c"""," ""py.venus_stealer"""," ""None"""," ""Venus Stealer""",1
