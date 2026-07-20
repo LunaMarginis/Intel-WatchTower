@@ -14,3 +14,22 @@ This table shows top 10 malware names with their unique hashes and counts. [For 
 |  "win.valley_rat" |  "0561a3921c93fe5913454241362e80e2"<br> "9c986d7e311ce1e8db7bd65b8271a87d" | 2 |
 |  "win.vidar" |  "906010fce0c7b37b29ee13a78b6e130f"<br> "f86db3e1c8635ecc820ef308302524bc" | 2 |
 |  "win.redline_stealer" |  "8c21b2fbded2faeb6db2e7a20c513cdb" | 1 |
+
+<!-- url_summary_start -->
+## 🔗 Top 10 URLs:
+
+Automated URL Collections, grouped by Tags: Every day at 03:00 UTC. Last Updated: 2026-07-20 05:56:16 UTC.
+
+| Tag | Count |
+|-----|-------|
+| LuaJIT-loader,SmartLoader,SmartLoader-MaaS | 5059 |
+| 32-bit,elf,mips,Mozi | 3763 |
+| elf,mirai,ua-wget | 1030 |
+| 32-bit,arm,elf,mirai,Mozi | 988 |
+| Mozi | 903 |
+| elf,ua-wget | 669 |
+| botnetdomain,elf,mirai | 564 |
+| ClearFake,win-0x4679,windows | 509 |
+| ClearFake | 422 |
+| mirai | 341 |
+<!-- url_summary_end -->
