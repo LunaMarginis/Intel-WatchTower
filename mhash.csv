@@ -1,20 +1,15 @@
 ioc_value,fk_malware,malware_alias,malware_printable,count
-" ""0561a3921c93fe5913454241362e80e2"""," ""win.valley_rat"""," ""Winos"""," ""ValleyRAT""",1
 " ""0c9381cfd85e2d1aad8ccbe8bec861ca"""," ""win.formbook"""," ""win.xloader"""," ""Formbook""",1
 " ""10cc531b5f4765f53cd3a58a2c23ffcf"""," ""win.agent_tesla"""," ""AgenTesla",AgentTesla,1
 " ""159e06ef198371caf78e9a168b5ef4e9"""," ""win.rhadamanthys"""," ""None"""," ""Rhadamanthys""",1
 " ""3270606f7138f08b0c4e051d0a9ebc2b"""," ""win.valley_rat"""," ""Winos"""," ""ValleyRAT""",1
 " ""44ddc80c714f91959bcaa1aeb3cfe1d5"""," ""win.asyncrat"""," ""None"""," ""AsyncRAT""",1
 " ""4be889e143b460ccf80fc02e44840ee0"""," ""win.krakenkeylogger"""," ""None"""," ""KrakenKeylogger""",1
-" ""52f56cc1abe3ed2f437aaae0c74f5db9"""," ""py.venus_stealer"""," ""None"""," ""Venus Stealer""",1
-" ""5d11d7b9b175695c197014bc6aa2fbdb"""," ""win.amadey"""," ""None"""," ""Amadey""",1
 " ""788fc952b7bdc334fc677426dcf2af39"""," ""win.vidar"""," ""None"""," ""Vidar""",1
 " ""791d27fd45d5ac5f25235b46547129ad"""," ""win.agent_tesla"""," ""AgenTesla",AgentTesla,1
 " ""7aff39817fd60f3ea5b9298e8838b481"""," ""win.tofsee"""," ""Gheg"""," ""Tofsee""",1
 " ""8465b5392ea382ceec662c25ea7acc34"""," ""jar.crossrat"""," ""Trupto"""," ""CrossRAT""",1
 " ""84b7baaa2e134146258d883388114f18"""," ""win.vidar"""," ""None"""," ""Vidar""",1
-" ""8c21b2fbded2faeb6db2e7a20c513cdb"""," ""win.redline_stealer"""," ""RECORDSTEALER"""," ""RedLine Stealer""",1
-" ""9c986d7e311ce1e8db7bd65b8271a87d"""," ""win.valley_rat"""," ""Winos"""," ""ValleyRAT""",1
 " ""a3f6cbc6b8366c4378504eedbb2408d1"""," ""win.formbook"""," ""win.xloader"""," ""Formbook""",1
 " ""a757a8b09d99acc2835fd0d26541e46c"""," ""win.agent_tesla"""," ""AgenTesla",AgentTesla,1
 " ""a77da66551da74d743efd55f09d46dc8"""," ""win.socks5_systemz"""," ""ProxyBox"""," ""Socks5Systemz""",1
@@ -22,11 +17,9 @@ ioc_value,fk_malware,malware_alias,malware_printable,count
 " ""b3f9d748284ba06c5f74c062b11c6066"""," ""win.njrat"""," ""Bladabindi","Lime-Worm""",1
 " ""be9aee8c3cb56fa17d293d48dd0fc1d1"""," ""win.privateloader"""," ""None"""," ""PrivateLoader""",1
 " ""c8a7ae786c0294734130e1685a6f5ae3"""," ""win.phantom_stealer"""," ""None"""," ""Phantom Stealer""",1
-" ""d0b2dbfbc3a1d6474628f5268cf884fc"""," ""py.venus_stealer"""," ""None"""," ""Venus Stealer""",1
 " ""d1dc20911470ed43af8bce0355fd0cf7"""," ""win.xworm"""," ""None"""," ""XWorm""",1
 " ""d8d19575c1de6c091ebf0624596478fa"""," ""win.agent_tesla"""," ""AgenTesla",AgentTesla,1
 " ""e14ec518b3e9768fd51d95f13c60dea1"""," ""win.phantom_stealer"""," ""None"""," ""Phantom Stealer""",1
 " ""ea96de1d5ee80bbe8795d352f7ac3e30"""," ""win.vidar"""," ""None"""," ""Vidar""",1
 " ""eb3fd1706066aecf68f002c744100218"""," ""win.asyncrat"""," ""None"""," ""AsyncRAT""",1
 " ""eff8675fac22c49107a2a42d3c735f10"""," ""win.ghost_rat"""," ""Farfli",Gh0st RAT,1
-" ""f8e68cddf13a94d821a4b265172a0e32"""," ""win.amadey"""," ""None"""," ""Amadey""",1
