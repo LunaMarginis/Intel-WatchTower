@@ -16,3 +16,22 @@ This table shows top 10 malware names with their unique hashes and counts. [For 
 |  "py.creal_stealer" |  "2a3379120119c12e6281193c3f864c80"<br> "4aeff1b8916c6a4c9e6b4c65f4012994" | 2 |
 |  "apk.facestealer" |  "da0389526f86ac97819f464e3f1e8955" | 1 |
 |  "py.rn_stealer" |  "face4acb042c323fca0ead3463d0e896" | 1 |
+
+<!-- url_summary_start -->
+## 🔗 Top 10 URLs:
+
+Automated URL Collections, grouped by Tags: Every day at 03:00 UTC. Last Updated: 2026-07-23 05:41:25 UTC.
+
+| Tag | Count |
+|-----|-------|
+| 32-bit,elf,mips,Mozi | 3587 |
+| elf,mirai,ua-wget | 1017 |
+| 32-bit,arm,elf,mirai,Mozi | 1014 |
+| Mozi | 895 |
+| botnetdomain,elf,mirai | 564 |
+| ClearFake,win-0x4679,windows | 545 |
+| elf,ua-wget | 453 |
+| mirai | 357 |
+| ClearFake,win-0x0cd5,windows | 349 |
+| ua-wget | 335 |
+<!-- url_summary_end -->
