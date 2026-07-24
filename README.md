@@ -16,3 +16,22 @@ This table shows top 10 malware names with their unique hashes and counts. [For 
 |  "win.asyncrat" |  "24f1c6fbb6cd28d53117bfbef3e9ec08"<br> "47e1b3a9fe7bd09242acbcbd0d515ded"<br> "fc80da6fac6d35bea5d9fe676acca41a" | 3 |
 |  "py.creal_stealer" |  "2a3379120119c12e6281193c3f864c80"<br> "2cacc53c31ebfb5f3dcbccb953a57e19"<br> "4aeff1b8916c6a4c9e6b4c65f4012994" | 3 |
 |  "win.guidloader" |  "2cb69abed9d824a2d7e65bac470e7c42"<br> "b63697cb6128ae927b67e1f95fcbbe0f"<br> "ccad1d780f53e439985bc9e6035211d7" | 3 |
+
+<!-- url_summary_start -->
+## 🔗 Top 10 URLs:
+
+Automated URL Collections, grouped by Tags: Every day at 03:00 UTC. Last Updated: 2026-07-24 05:37:40 UTC.
+
+| Tag | Count |
+|-----|-------|
+| 32-bit,elf,mips,Mozi | 3556 |
+| elf,mirai,ua-wget | 1041 |
+| 32-bit,arm,elf,mirai,Mozi | 1023 |
+| Mozi | 883 |
+| botnetdomain,elf,mirai | 564 |
+| ClearFake,win-0x4679,windows | 545 |
+| elf,ua-wget | 400 |
+| mirai | 363 |
+| ClearFake,win-0x0cd5,windows | 349 |
+| ua-wget | 335 |
+<!-- url_summary_end -->
