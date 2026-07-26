@@ -16,3 +16,22 @@ This table shows top 10 malware names with their unique hashes and counts. [For 
 |  "win.agent_tesla" |  "06152fd52179cf9263e0c201d5d566d6"<br> "0b905aa2442d333f5c3bccc3724a5d7a"<br> "dcdfeeea89d07b5bc81e0f61051f34c2"<br> "fb26fdde000d289ac423f5dd74865e43" | 4 |
 |  "jar.crossrat" |  "2c44374da92d90d26c774499aec98ad9"<br> "c29ddb54bb464846ba7e2de1d3eff471"<br> "cc7e9ae7f054d90355af2dd379625ec3" | 3 |
 |  "py.stealler" |  "09fa7ed361b397cd789e18708fc43247"<br> "86d6f85e4756874b1fdf18da35a4265f"<br> "d122a5aa463b5ba991e9359760746a30" | 3 |
+
+<!-- url_summary_start -->
+## 🔗 Top 10 URLs:
+
+Automated URL Collections, grouped by Tags: Every day at 03:00 UTC. Last Updated: 2026-07-26 05:47:48 UTC.
+
+| Tag | Count |
+|-----|-------|
+| 32-bit,elf,mips,Mozi | 3433 |
+| elf,mirai,ua-wget | 1021 |
+| 32-bit,arm,elf,mirai,Mozi | 1015 |
+| Mozi | 855 |
+| botnetdomain,elf,mirai | 564 |
+| ClearFake,win-0x4679,windows | 545 |
+| mirai | 371 |
+| ClearFake,win-0x0cd5,windows | 349 |
+| elf,ua-wget | 348 |
+| elf,Mozi,ua-wget | 298 |
+<!-- url_summary_end -->
