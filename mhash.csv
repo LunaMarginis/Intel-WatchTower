@@ -1,137 +1,84 @@
 ioc_value,fk_malware,malware_alias,malware_printable,count
-" ""0258a9badb231f3bc94704fdcbd2a2df"""," ""unknown"""," ""None"""," ""Unknown malware""",1
-" ""0268fde13e99c555ed4a4c6ef193b9ea"""," ""win.njrat"""," ""Bladabindi","Lime-Worm""",1
 " ""04cb543da02c2227c4ec3a17d72d41fb"""," ""apk.facestealer"""," ""None"""," ""FaceStealer""",1
 " ""04e0c05f989f7f60892b0c1670dd9ca1"""," ""win.salatstealer"""," ""None"""," ""SalatStealer""",1
-" ""0526be67da8581b2acf18d065db0f899"""," ""win.formbook"""," ""win.xloader"""," ""Formbook""",1
-" ""06152fd52179cf9263e0c201d5d566d6"""," ""win.agent_tesla"""," ""AgenTesla",AgentTesla,1
+" ""06138fb62550172df4c5ab13ba176901"""," ""py.stealler"""," ""None"""," ""stealler""",1
 " ""0755a7cc6c033ed6f38280a4dd78c3e8"""," ""py.venus_stealer"""," ""None"""," ""Venus Stealer""",1
 " ""075ec71d3218db4742c584452a9dcdbf"""," ""win.salatstealer"""," ""None"""," ""SalatStealer""",1
 " ""07b9dd4ef7ab29f740a0d38bac2b61b0"""," ""win.salatstealer"""," ""None"""," ""SalatStealer""",1
-" ""09fa7ed361b397cd789e18708fc43247"""," ""py.stealler"""," ""None"""," ""stealler""",1
-" ""0b905aa2442d333f5c3bccc3724a5d7a"""," ""win.agent_tesla"""," ""AgenTesla",AgentTesla,1
-" ""0c055a6c37a3bcac283e9aa8815e1e01"""," ""win.krakenkeylogger"""," ""None"""," ""KrakenKeylogger""",1
 " ""0c2577473d74812f1236f9b799657b49"""," ""elf.kuiper"""," ""None"""," ""Kuiper""",1
-" ""0c765a327ab66486b37cb9f8a92ac503"""," ""win.valley_rat"""," ""Winos"""," ""ValleyRAT""",1
-" ""0cc5e12a8c853308eb008243eb73fb75"""," ""unknown"""," ""None"""," ""Unknown malware""",1
-" ""0ff6d3c85cf7c8f4ae1c3c76660ed772"""," ""unknown"""," ""None"""," ""Unknown malware""",1
-" ""10d6e04270806d8547a5a03a912a5dd9"""," ""unknown"""," ""None"""," ""Unknown malware""",1
+" ""0ff0126ed66be4858a161aa773cd9a76"""," ""elf.kuiper"""," ""None"""," ""Kuiper""",1
 " ""11b0e224ad2108cc24be3918299c2c3e"""," ""win.salatstealer"""," ""None"""," ""SalatStealer""",1
 " ""154776e2ade2e0ef31b5e2752f30f6b4"""," ""win.salatstealer"""," ""None"""," ""SalatStealer""",1
+" ""16fa9ffcb7431cbcd23d636718770ee4"""," ""apk.clipper"""," ""None"""," ""Clipper""",1
 " ""1dcab6f5621e7c3b7096bf817bf5ba5b"""," ""win.remotex"""," ""None"""," ""RemoteX""",1
-" ""1f90c2a3ea471364d6b6aec2b73ab474"""," ""unknown"""," ""None"""," ""Unknown malware""",1
-" ""230aa6979b84ef379373d3638c485fca"""," ""win.adaptix_c2"""," ""None"""," ""AdaptixC2""",1
+" ""229d98edecf5078345e555b81058c1a5"""," ""win.asyncrat"""," ""None"""," ""AsyncRAT""",1
 " ""24338d2e35bd0bf40aee61ed5f54b48a"""," ""win.salatstealer"""," ""None"""," ""SalatStealer""",1
-" ""245cf9988ed3b0ee49499ac19ec2b269"""," ""unknown"""," ""None"""," ""Unknown malware""",1
 " ""2c04e7af16f472c1354448f81b7a7ffe"""," ""py.venus_stealer"""," ""None"""," ""Venus Stealer""",1
-" ""2c44374da92d90d26c774499aec98ad9"""," ""jar.crossrat"""," ""Trupto"""," ""CrossRAT""",1
-" ""2f03381aa105015dc380dbf4e4d0e627"""," ""elf.kuiper"""," ""None"""," ""Kuiper""",1
-" ""306038f5b80551285855f65f1cc13045"""," ""win.njrat"""," ""Bladabindi","Lime-Worm""",1
+" ""2e11f99e1017209acc1ecd207f1c5832"""," ""win.coinminer"""," ""None"""," ""Coinminer""",1
+" ""2e847533ba6f2c90b9a84e9eaff14cb2"""," ""win.valley_rat"""," ""Winos"""," ""ValleyRAT""",1
 " ""30d0e8c5d3deac9607282a0c49bd1cf2"""," ""win.salatstealer"""," ""None"""," ""SalatStealer""",1
-" ""32827e9bdf630d974531c2f715d2426c"""," ""unknown"""," ""None"""," ""Unknown malware""",1
-" ""328be6ee6f88a2f43011df6bb0a1d5e5"""," ""unknown"""," ""None"""," ""Unknown malware""",1
-" ""39eada3add49de8e03fcf8e1ba6a6867"""," ""py.venus_stealer"""," ""None"""," ""Venus Stealer""",1
 " ""3b23e3489c42b7d1dd895be45667ae06"""," ""win.salatstealer"""," ""None"""," ""SalatStealer""",1
 " ""3bff059c64e6c65f02913352c7d1c28e"""," ""win.adaptix_c2"""," ""None"""," ""AdaptixC2""",1
-" ""3c9852c53cb45221886b34ed6bc7d674"""," ""py.creal_stealer"""," ""None"""," ""Creal Stealer""",1
-" ""3de985cb3c3427fff40ac76d48022231"""," ""win.quasar_rat"""," ""CinaRAT",QuasarRAT,1
-" ""3e5a6a24d5ed70aa8c8ef16ceb2d057e"""," ""unknown"""," ""None"""," ""Unknown malware""",1
-" ""408c3400757dcc86e2940b57dc732c48"""," ""unknown"""," ""None"""," ""Unknown malware""",1
-" ""4128b578cfee06b281d580844fd5872f"""," ""win.formbook"""," ""win.xloader"""," ""Formbook""",1
-" ""4160841a6ca859f654a6536b66c759fb"""," ""py.venus_stealer"""," ""None"""," ""Venus Stealer""",1
+" ""3c4f9d2346850b1daf329b5bb9daa18d"""," ""win.xworm"""," ""None"""," ""XWorm""",1
 " ""445145d633ac80e6149cdb46374f2f45"""," ""elf.kuiper"""," ""None"""," ""Kuiper""",1
-" ""4485083a916ed305ea8149d0f0b62a24"""," ""unknown"""," ""None"""," ""Unknown malware""",1
-" ""454e527a87cb3d63392e5d934ba737e8"""," ""unknown"""," ""None"""," ""Unknown malware""",1
-" ""463c87af15f9b2dca8068028ed1d83e7"""," ""unknown"""," ""None"""," ""Unknown malware""",1
-" ""46633ffe64281b69b6d6140309d0dfee"""," ""win.coinminer"""," ""None"""," ""Coinminer""",1
-" ""48146eb9012ef1ca1a5aa0ed0fc82d58"""," ""elf.kuiper"""," ""None"""," ""Kuiper""",1
-" ""4b2911bf6128350411e6dd6b676a1148"""," ""win.formbook"""," ""win.xloader"""," ""Formbook""",1
+" ""450e0227f0118633049d3c4f1e79fafc"""," ""apk.clipper"""," ""None"""," ""Clipper""",1
+" ""481f31096a01009414ef1a08309ab514"""," ""py.stealler"""," ""None"""," ""stealler""",1
+" ""4ed680e61600ebe73415a12189275c3b"""," ""win.asyncrat"""," ""None"""," ""AsyncRAT""",1
 " ""534e81996c3cc467ac4441170608b58e"""," ""win.salatstealer"""," ""None"""," ""SalatStealer""",1
+" ""5486e84151a82e8cc42624e85ff9fc6f"""," ""elf.kuiper"""," ""None"""," ""Kuiper""",1
 " ""54e487a440d73b2e2ada3b012c221268"""," ""py.venus_stealer"""," ""None"""," ""Venus Stealer""",1
+" ""5602ba9f14aa3c99845b518314c4f2d5"""," ""elf.kuiper"""," ""None"""," ""Kuiper""",1
+" ""56538acb9f85a795cbb7a53afe5f254e"""," ""elf.kuiper"""," ""None"""," ""Kuiper""",1
 " ""5819a7037df52589bf6de48a85cc0b76"""," ""elf.kuiper"""," ""None"""," ""Kuiper""",1
-" ""592cfefc2ea74d73ec05e8a4be0e7637"""," ""unknown"""," ""None"""," ""Unknown malware""",1
+" ""59d756280b06cf113ca43abc0050edd5"""," ""win.troystealer"""," ""None"""," ""troystealer""",1
 " ""5a59127af8fcd4d20671f83f4ea243a7"""," ""win.coinminer"""," ""None"""," ""Coinminer""",1
-" ""5dae1853a24173ae60859c7ce246ff3d"""," ""elf.kuiper"""," ""None"""," ""Kuiper""",1
-" ""60c2f246aaca88e676c79e38e6b4abdb"""," ""unknown"""," ""None"""," ""Unknown malware""",1
+" ""5e88f26c5e45f5febee60618e399f7f0"""," ""elf.kuiper"""," ""None"""," ""Kuiper""",1
+" ""639cd8818adf9dab85b5bdf8e96d6d9c"""," ""elf.kuiper"""," ""None"""," ""Kuiper""",1
+" ""65039b94fe764e2d6f2d679c16fe0b64"""," ""elf.kuiper"""," ""None"""," ""Kuiper""",1
 " ""65c3aa0a48027921f2f94df9fd45c422"""," ""win.xoriumstealer"""," ""None"""," ""XoriumStealer""",1
-" ""690fcea0c40fc07de699fe2ce247ba03"""," ""unknown"""," ""None"""," ""Unknown malware""",1
-" ""6a7608923c0a47054ae9d9f0347b88e7"""," ""win.valley_rat"""," ""Winos"""," ""ValleyRAT""",1
-" ""6ac1ab7fb937d122fb238bc0c8f71f9b"""," ""win.formbook"""," ""win.xloader"""," ""Formbook""",1
-" ""6f1820834018453731427d4d4f63e09c"""," ""win.arkei_stealer"""," ""ArkeiStealer"""," ""Arkei Stealer""",1
-" ""6fdfafd6ee99b1da17f1a01be789957d"""," ""win.valley_rat"""," ""Winos"""," ""ValleyRAT""",1
 " ""6fe286907a6a28e94425df612efe40c7"""," ""elf.kuiper"""," ""None"""," ""Kuiper""",1
-" ""72f492b9b7d0a3429ebb75e9dd1b501f"""," ""unknown"""," ""None"""," ""Unknown malware""",1
-" ""731219563f05a61e639b645f4892d6cb"""," ""win.netwire"""," ""NetWeird",NetWire,1
+" ""73500ed71f4efbb76ec31499a32e83f9"""," ""elf.kuiper"""," ""None"""," ""Kuiper""",1
 " ""7503c336e6854e0fd68af9dca257b930"""," ""win.formbook"""," ""win.xloader"""," ""Formbook""",1
 " ""77307555f8d4076fe040ddc0ab1f0fea"""," ""win.salatstealer"""," ""None"""," ""SalatStealer""",1
-" ""78e88d6e7810b936cb1091a196685dcc"""," ""elf.kuiper"""," ""None"""," ""Kuiper""",1
+" ""7832d59fea96fe229dda6dc7e9fb5aa4"""," ""elf.kuiper"""," ""None"""," ""Kuiper""",1
 " ""79f30bbec34fbbd5fe391949dc6af0e0"""," ""apk.clipper"""," ""None"""," ""Clipper""",1
 " ""7c54db36b3f281e62fbeedcfc3df0334"""," ""win.salatstealer"""," ""None"""," ""SalatStealer""",1
 " ""7ceeb0955c8bd51f57b3ea264316e1ad"""," ""win.salatstealer"""," ""None"""," ""SalatStealer""",1
 " ""7ed591cb63556c9df3ccc1077c9a434d"""," ""py.venus_stealer"""," ""None"""," ""Venus Stealer""",1
-" ""81062758c901cf65aeff365e71c4f8ea"""," ""unknown"""," ""None"""," ""Unknown malware""",1
-" ""844316e11edc801dcad57532a47d45e0"""," ""elf.kuiper"""," ""None"""," ""Kuiper""",1
-" ""8498ec75a9609ce1d1a27138fccf246a"""," ""win.gcleaner"""," ""None"""," ""GCleaner""",1
-" ""86d6f85e4756874b1fdf18da35a4265f"""," ""py.stealler"""," ""None"""," ""stealler""",1
-" ""8875172a0977677ce6e30277ef6fea79"""," ""unknown"""," ""None"""," ""Unknown malware""",1
-" ""8c2b56e131814f9db398deb1de15e67e"""," ""elf.kuiper"""," ""None"""," ""Kuiper""",1
+" ""8541dc9787c671e3ab5b51a252dad4a4"""," ""elf.kuiper"""," ""None"""," ""Kuiper""",1
 " ""8cbef6881dc0e6869634c1c719220912"""," ""win.salatstealer"""," ""None"""," ""SalatStealer""",1
 " ""8fa335df29a65265e791f22f053200b8"""," ""win.valley_rat"""," ""Winos"""," ""ValleyRAT""",1
 " ""91092ecc0a5a3866dea9fb5088e6ad74"""," ""win.vidar"""," ""None"""," ""Vidar""",1
 " ""9bd97475aa0d8fb22a284d070a2ee795"""," ""win.vidar"""," ""None"""," ""Vidar""",1
 " ""9d15fd606542c103035ec3a3b9ec8da8"""," ""win.maskgramstealer"""," ""None"""," ""MaskGramStealer""",1
-" ""9d9bd074b5e349b11408a63256af6d5c"""," ""win.quasar_rat"""," ""CinaRAT",QuasarRAT,1
-" ""9e04e38658dc4c764ec10e04a9d50931"""," ""win.valley_rat"""," ""Winos"""," ""ValleyRAT""",1
 " ""a1afa2cf674e56a055b95de0a7c27d99"""," ""win.salatstealer"""," ""None"""," ""SalatStealer""",1
-" ""a3e7927bd85436aaae08c662ac65b91c"""," ""elf.kuiper"""," ""None"""," ""Kuiper""",1
 " ""a5cd6f31554350d552c42dc0320c85cb"""," ""py.venus_stealer"""," ""None"""," ""Venus Stealer""",1
-" ""a5f3d83774db7701a2dcc96cd42f09c3"""," ""win.valley_rat"""," ""Winos"""," ""ValleyRAT""",1
-" ""a700329f65470db3b7489005218f3937"""," ""unknown"""," ""None"""," ""Unknown malware""",1
 " ""a77d976fbff17ce256e18d5ad1935c48"""," ""win.salatstealer"""," ""None"""," ""SalatStealer""",1
 " ""a96181ed94ae70267b7f64383b29246c"""," ""elf.kuiper"""," ""None"""," ""Kuiper""",1
 " ""abe1f41e3fd3c7e3dbcc986426f694dd"""," ""win.salatstealer"""," ""None"""," ""SalatStealer""",1
-" ""aeebf82422b35c95eff9fe6c188b3044"""," ""unknown"""," ""None"""," ""Unknown malware""",1
-" ""b24f95b112c296b860092c4f359d74fd"""," ""win.valley_rat"""," ""Winos"""," ""ValleyRAT""",1
-" ""b290f01d4988ccb3b0d67b89b79a3c63"""," ""win.valley_rat"""," ""Winos"""," ""ValleyRAT""",1
-" ""b37a599f17c660f832628237aab5eeee"""," ""win.masslogger"""," ""None"""," ""MASS Logger""",1
 " ""b4a65477542b3799b10940edaca3067e"""," ""win.salatstealer"""," ""None"""," ""SalatStealer""",1
 " ""b570ca54a362a61ad5237681c90e1523"""," ""win.salatstealer"""," ""None"""," ""SalatStealer""",1
 " ""b67c8964f2cfa9ed322d586d8ba8089b"""," ""win.salatstealer"""," ""None"""," ""SalatStealer""",1
 " ""b6ea03ecc9f09124603cfde6c0017483"""," ""win.vidar"""," ""None"""," ""Vidar""",1
+" ""bb32b5cfeeaaa49eca3943a2e2bd07ed"""," ""win.vidar"""," ""None"""," ""Vidar""",1
 " ""c29ddb54bb464846ba7e2de1d3eff471"""," ""jar.crossrat"""," ""Trupto"""," ""CrossRAT""",1
-" ""c2de7ffcad8ec73b9752fe3b03866a5d"""," ""elf.kuiper"""," ""None"""," ""Kuiper""",1
-" ""c5d14331d0910a8d4d724b3c00329ced"""," ""elf.kuiper"""," ""None"""," ""Kuiper""",1
-" ""c7179071619a575563544065e215423c"""," ""unknown"""," ""None"""," ""Unknown malware""",1
+" ""c41d08dccbffc2447d518b80726303ce"""," ""win.virut"""," ""None"""," ""Virut""",1
 " ""c7fe8f4f25bad097efcadcd798da0a46"""," ""win.vidar"""," ""None"""," ""Vidar""",1
 " ""c861ff93e1836ff9b0117fdf0960698d"""," ""elf.kuiper"""," ""None"""," ""Kuiper""",1
-" ""caa7046eb47a30b11acfd79e80309773"""," ""unknown"""," ""None"""," ""Unknown malware""",1
 " ""cc7e9ae7f054d90355af2dd379625ec3"""," ""jar.crossrat"""," ""Trupto"""," ""CrossRAT""",1
-" ""cd8d560569da4a6c8163f30170085da8"""," ""win.krakenkeylogger"""," ""None"""," ""KrakenKeylogger""",1
 " ""ceb87ea810e8222d416234bed15f36bb"""," ""win.salatstealer"""," ""None"""," ""SalatStealer""",1
-" ""cef3b488c589aeb23f35dbf75e585108"""," ""unknown"""," ""None"""," ""Unknown malware""",1
 " ""cf50721c59df8b48d1e5b7d52273de2a"""," ""win.salatstealer"""," ""None"""," ""SalatStealer""",1
-" ""d01940a0ebe8fd39c5358f39f069c1cd"""," ""win.valley_rat"""," ""Winos"""," ""ValleyRAT""",1
-" ""d122a5aa463b5ba991e9359760746a30"""," ""py.stealler"""," ""None"""," ""stealler""",1
-" ""d29fb7ad2a20bea506c8c3776e90707e"""," ""win.asyncrat"""," ""None"""," ""AsyncRAT""",1
+" ""d2ba2c17a668eb9c2cea61159e061e60"""," ""elf.kuiper"""," ""None"""," ""Kuiper""",1
 " ""d33e96d3fab0ef6266c645266c1312d0"""," ""win.salatstealer"""," ""None"""," ""SalatStealer""",1
-" ""da3734f8176354f8f88f17651e56e91b"""," ""win.socks5_systemz"""," ""ProxyBox"""," ""Socks5Systemz""",1
-" ""dac4fc58ca20b607b13265ae0e09ba00"""," ""unknown"""," ""None"""," ""Unknown malware""",1
-" ""dcdfeeea89d07b5bc81e0f61051f34c2"""," ""win.agent_tesla"""," ""AgenTesla",AgentTesla,1
 " ""dcfa838bccb8d683e124b106fdb8a75b"""," ""win.salatstealer"""," ""None"""," ""SalatStealer""",1
 " ""de4b52b0f65e583ab1be4564a3e863c6"""," ""elf.kuiper"""," ""None"""," ""Kuiper""",1
-" ""e36370f93cda87df77dddbe1a00a8dcc"""," ""elf.kuiper"""," ""None"""," ""Kuiper""",1
 " ""e5ca659a13cad28aae3f8494f600d74c"""," ""win.salatstealer"""," ""None"""," ""SalatStealer""",1
-" ""e691d9c99d46ee5ef886a9e276d8def9"""," ""elf.kuiper"""," ""None"""," ""Kuiper""",1
 " ""e7b0885f84c96d3d3c5a133f6406d678"""," ""win.salatstealer"""," ""None"""," ""SalatStealer""",1
-" ""e7b5528dbef06a7e8010e473b6edb615"""," ""unknown"""," ""None"""," ""Unknown malware""",1
 " ""e811e3e6d9e7ba41c7cd64e4d24999ea"""," ""win.salatstealer"""," ""None"""," ""SalatStealer""",1
-" ""ea1d7482d38e9420924ef243be1dcb05"""," ""win.vidar"""," ""None"""," ""Vidar""",1
-" ""ec7db8b5960a038eb53bd5e159474fd6"""," ""win.asyncrat"""," ""None"""," ""AsyncRAT""",1
+" ""f05dc2cdcc68a1a80cea2236bef76642"""," ""elf.kuiper"""," ""None"""," ""Kuiper""",1
+" ""f19a0eda7ff0268f6c6faccfdce0879e"""," ""elf.kuiper"""," ""None"""," ""Kuiper""",1
 " ""f2bc1f451548fadcaa799ab9d46782ba"""," ""win.overlord"""," ""None"""," ""Overlord RAT""",1
 " ""f3a81cd70d0c86700e45b9de40644c87"""," ""win.overlord"""," ""None"""," ""Overlord RAT""",1
-" ""f6efa0664124c473f15c7403a40c3e67"""," ""win.coinminer"""," ""None"""," ""Coinminer""",1
-" ""f8eb9041988a22ccbecf8273418415de"""," ""unknown"""," ""None"""," ""Unknown malware""",1
 " ""fa80df233f896120abded61035b868ec"""," ""win.salatstealer"""," ""None"""," ""SalatStealer""",1
 " ""fb1f416ee85327a14fcecae86e35eb67"""," ""elf.kuiper"""," ""None"""," ""Kuiper""",1
-" ""fb26fdde000d289ac423f5dd74865e43"""," ""win.agent_tesla"""," ""AgenTesla",AgentTesla,1
-" ""fd3ddfa27ea3e9848c52a52972557075"""," ""win.vidar"""," ""None"""," ""Vidar""",1
+" ""ff52c7106d382aa1094208bb24385f63"""," ""win.stealc"""," ""None"""," ""Stealc""",1
