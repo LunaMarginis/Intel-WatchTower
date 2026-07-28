@@ -16,3 +16,22 @@ This table shows top 10 malware names with their unique hashes and counts. [For 
 |  "apk.clipper" |  "16fa9ffcb7431cbcd23d636718770ee4"<br> "1cc9617281fc4505af569a4915e42a08"<br> "450e0227f0118633049d3c4f1e79fafc"<br> "636a4a206e84c88baeba66425e33ee16"<br> "81729e5e6c1936b27f016a20897d30f1" | 5 |
 |  "win.valley_rat" |  "2e847533ba6f2c90b9a84e9eaff14cb2"<br> "6399e481bee00f73cf825b0dce1fc30b"<br> "9d609843241b0cfaa6f79ef17f862862"<br> "d71e0b1a9aa1135597d6e70f02e8b738" | 4 |
 |  "win.luca_stealer" |  "1b7b5a050a3c834448c925de7e33633b"<br> "5fae196b68afca48ce650acc79e25126"<br> "c037ac52a26a18e7b2e911415e85a080" | 3 |
+
+<!-- url_summary_start -->
+## 🔗 Top 10 URLs:
+
+Automated URL Collections, grouped by Tags: Every day at 03:00 UTC. Last Updated: 2026-07-28 05:34:56 UTC.
+
+| Tag | Count |
+|-----|-------|
+| 32-bit,elf,mips,Mozi | 3345 |
+| elf,mirai,ua-wget | 1043 |
+| 32-bit,arm,elf,mirai,Mozi | 1006 |
+| Mozi | 895 |
+| botnetdomain,elf,mirai | 576 |
+| ClearFake,win-0x4679,windows | 545 |
+| mirai | 373 |
+| elf,ua-wget | 356 |
+| ClearFake,win-0x0cd5,windows | 349 |
+| ua-wget | 324 |
+<!-- url_summary_end -->
