@@ -16,3 +16,22 @@ This table shows top 10 malware names with their unique hashes and counts. [For 
 |  "win.vidar" |  "00dbca757e6417308d3fc080010a6ff3"<br> "4bf11589985675d20577e3a8e1b84819"<br> "6a68ab6943313c4d3a38803d5a8220f9"<br> "97e69b9ef7bdb56475e676ab9b81b0e2"<br> "cc00c3d0b5b43385fca3378c5b86d62f"<br> "ee9b4e39dc11f3d69fcaa4cadb4d5877"<br> "f090a25b25faae55a0a11648a890b12e" | 7 |
 |  "elf.elevator" |  "205d7d91b72d06246a647c3290403280"<br> "24909335a110650fbd9b5633b3855534"<br> "3f577fe3546869bd9ea1f185c6646544"<br> "ba47ab37b1b099e3df4d38ecf868e55f"<br> "ce67f463c3459693c3934737bdcce0f7"<br> "d6d3bf3ffcb43ecf26ac0a5319aa75b7" | 6 |
 |  "win.prometei" |  "1e613dec8beebebd6baaea91998a628e"<br> "3549f1fba922f40330aaa081ce71fed2"<br> "5f31264fd0ff12d16e2bdc00ca1aa9bb"<br> "81c226154c7663bb3f1b0df208dcf664"<br> "bd11a6b7c86bfe4e0fd407b0be2554e9"<br> "d2577b85f5a29ef579bfdfdb64cfa874" | 6 |
+
+<!-- url_summary_start -->
+## 🔗 Top 10 URLs:
+
+Automated URL Collections, grouped by Tags: Every day at 03:00 UTC. Last Updated: 2026-07-29 05:39:04 UTC.
+
+| Tag | Count |
+|-----|-------|
+| 32-bit,elf,mips,Mozi | 3369 |
+| 32-bit,arm,elf,mirai,Mozi | 1021 |
+| elf,mirai,ua-wget | 1021 |
+| Mozi | 892 |
+| botnetdomain,elf,mirai | 564 |
+| ClearFake,win-0x4679,windows | 545 |
+| mirai | 383 |
+| ClearFake,win-0x0cd5,windows | 349 |
+| elf,ua-wget | 335 |
+| ua-wget | 329 |
+<!-- url_summary_end -->
