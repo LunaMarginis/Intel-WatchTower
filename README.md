@@ -16,3 +16,22 @@ This table shows top 10 malware names with their unique hashes and counts. [For 
 |  "elf.pitfuel" |  "d5d17b986fb728e4340968e603256974" | 1 |
 |  "elf.zuo_rat" |  "e091b9971da3995607e3dd2307d37985" | 1 |
 |  "win.eddiestealer" |  "3eac0ca11847844f7b223a1892bc62b6" | 1 |
+
+<!-- url_summary_start -->
+## 🔗 Top 10 URLs:
+
+Automated URL Collections, grouped by Tags: Every day at 03:00 UTC. Last Updated: 2026-07-31 05:52:48 UTC.
+
+| Tag | Count |
+|-----|-------|
+| 32-bit,elf,mips,Mozi | 3331 |
+| 32-bit,arm,elf,mirai,Mozi | 1055 |
+| Mozi | 1046 |
+| elf,mirai,ua-wget | 958 |
+| botnetdomain,elf,mirai | 615 |
+| ClearFake,win-0x4679,windows | 538 |
+| mirai | 501 |
+| ua-wget | 385 |
+| ClearFake,win-0x0cd5,windows | 349 |
+| elf,ua-wget | 299 |
+<!-- url_summary_end -->
