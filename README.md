@@ -16,3 +16,22 @@ This table shows top 10 malware names with their unique hashes and counts. [For 
 |  "win.amadey" |  "7b0e7c8cc9ca514381a6bfecf879b650"<br> "82617293c095f7170bea3d3384f8da2b" | 2 |
 |  "apk.clipper" |  "5c8e68a414254a67111c6167f44ec777"<br> "bf50325f1dbd215e1c734c00b251789d" | 2 |
 |  "win.stealc" |  "4f8d31ea9c92ca7d2da3c6438f1c8ea1"<br> "9c1bee9ed7cc87bf6a874b71fea8e178" | 2 |
+
+<!-- url_summary_start -->
+## 🔗 Top 10 URLs:
+
+Automated URL Collections, grouped by Tags: Every day at 03:00 UTC. Last Updated: 2026-08-03 05:59:50 UTC.
+
+| Tag | Count |
+|-----|-------|
+| 32-bit,elf,mips,Mozi | 3148 |
+| Mozi | 1289 |
+| 32-bit,arm,elf,mirai,Mozi | 1008 |
+| elf,mirai,ua-wget | 874 |
+| botnetdomain,elf,mirai | 615 |
+| mirai | 605 |
+| ClearFake,win-0x4679,windows | 487 |
+| ua-wget | 419 |
+| ClearFake,win-0x0cd5,windows | 346 |
+| elf,ua-wget | 285 |
+<!-- url_summary_end -->
