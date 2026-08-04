@@ -16,3 +16,22 @@ This table shows top 10 malware names with their unique hashes and counts. [For 
 |  "py.blankgrabber" |  "f605e830329bcb2d6f7b9dbdea4f75b8" | 1 |
 |  "apk.facestealer" |  "559d2b4afa2fedc5beed36806c198cfb" | 1 |
 |  "win.luca_stealer" |  "535b2a9b271023948496f9577593c06f" | 1 |
+
+<!-- url_summary_start -->
+## 🔗 Top 10 URLs:
+
+Automated URL Collections, grouped by Tags: Every day at 03:00 UTC. Last Updated: 2026-08-04 05:35:08 UTC.
+
+| Tag | Count |
+|-----|-------|
+| 32-bit,elf,mips,Mozi | 3068 |
+| Mozi | 1354 |
+| 32-bit,arm,elf,mirai,Mozi | 998 |
+| elf,mirai,ua-wget | 883 |
+| mirai | 623 |
+| botnetdomain,elf,mirai | 615 |
+| ua-wget | 471 |
+| ClearFake,win-0x4679,windows | 453 |
+| ClearFake,win-0x0cd5,windows | 345 |
+| elf,ua-wget | 294 |
+<!-- url_summary_end -->
