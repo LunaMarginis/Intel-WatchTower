@@ -1,6 +1,6 @@
 # IOC Summary
 
-Automated Hash Collections: Every day at 02:00 UTC. Last Updated: 2026-08-05 05:13:07 UTC
+Automated Hash Collections: Every day at 02:00 UTC. Last Updated: 2026-08-06 05:14:46 UTC
 
 This table shows top 10 malware names with their unique hashes and counts. [For Complete list, check the CSV files]
 
@@ -16,22 +16,3 @@ This table shows top 10 malware names with their unique hashes and counts. [For 
 |  "win.formbook" |  "e0bf699a9016ef9a7740953c6ec4feb0" | 1 |
 |  "win.pslogger" |  "88e1e1c77f64a17500d8569ee43b7a28" | 1 |
 |  "win.phantom_stealer" |  "c67f0473eae2e790676584b108e7ed73" | 1 |
-
-<!-- url_summary_start -->
-## 🔗 Top 10 URLs:
-
-Automated URL Collections, grouped by Tags: Every day at 03:00 UTC. Last Updated: 2026-08-05 05:33:43 UTC.
-
-| Tag | Count |
-|-----|-------|
-| 32-bit,elf,mips,Mozi | 3077 |
-| Mozi | 1343 |
-| 32-bit,arm,elf,mirai,Mozi | 984 |
-| elf,mirai,ua-wget | 913 |
-| mirai | 631 |
-| botnetdomain,elf,mirai | 615 |
-| ua-wget | 553 |
-| ClearFake,win-0x4679,windows | 420 |
-| ClearFake,win-0x0cd5,windows | 340 |
-| elf,ua-wget | 293 |
-<!-- url_summary_end -->
