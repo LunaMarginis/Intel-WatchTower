@@ -16,3 +16,22 @@ This table shows top 10 malware names with their unique hashes and counts. [For 
 |  "win.formbook" |  "e0bf699a9016ef9a7740953c6ec4feb0" | 1 |
 |  "win.pslogger" |  "88e1e1c77f64a17500d8569ee43b7a28" | 1 |
 |  "win.phantom_stealer" |  "c67f0473eae2e790676584b108e7ed73" | 1 |
+
+<!-- url_summary_start -->
+## 🔗 Top 10 URLs:
+
+Automated URL Collections, grouped by Tags: Every day at 03:00 UTC. Last Updated: 2026-08-06 05:36:05 UTC.
+
+| Tag | Count |
+|-----|-------|
+| 32-bit,elf,mips,Mozi | 3091 |
+| Mozi | 1339 |
+| 32-bit,arm,elf,mirai,Mozi | 996 |
+| elf,mirai,ua-wget | 908 |
+| mirai | 651 |
+| ua-wget | 640 |
+| botnetdomain,elf,mirai | 615 |
+| ClearFake,win-0x4679,windows | 394 |
+| ClearFake,win-0x0cd5,windows | 329 |
+| elf,ua-wget | 289 |
+<!-- url_summary_end -->
