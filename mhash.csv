@@ -1,20 +1,31 @@
 ioc_value,fk_malware,malware_alias,malware_printable,count
-" ""002f8166ec9f671ba830b7cd2263b5e1"""," ""win.xworm"""," ""None"""," ""XWorm""",1
-" ""0df2f895abbbea29565fc048931a0169"""," ""win.tofsee"""," ""Gheg"""," ""Tofsee""",1
-" ""12767208e2775d74cec36dfe0a6dadf4"""," ""elf.kuiper"""," ""None"""," ""Kuiper""",1
-" ""13260e2e1ec04400403f6dfd4cb93994"""," ""jar.crossrat"""," ""Trupto"""," ""CrossRAT""",1
-" ""2bb1b024135ef7b0af3141d389530d82"""," ""win.xworm"""," ""None"""," ""XWorm""",1
-" ""65290a0084c07a7c3916db8bc86a16ac"""," ""win.vidar"""," ""None"""," ""Vidar""",1
-" ""67e230755c1cf7cfc8d92a98c4caac13"""," ""jar.crossrat"""," ""Trupto"""," ""CrossRAT""",1
-" ""88e1e1c77f64a17500d8569ee43b7a28"""," ""win.pslogger"""," ""ECCENTRICBANDWAGON"""," ""PSLogger""",1
-" ""8f4d337438eaf684b61e294ea52588f1"""," ""win.valley_rat"""," ""Winos"""," ""ValleyRAT""",1
-" ""94498bcc84599ebe710f3efd951845da"""," ""win.coinminer"""," ""None"""," ""Coinminer""",1
-" ""97b43a41d7f2b2cdfb960693da5e97f5"""," ""win.blustealer"""," ""a310logger"""," ""BluStealer""",1
-" ""a58f1ebc2fd3a5787708e3da7eba5058"""," ""py.venus_stealer"""," ""None"""," ""Venus Stealer""",1
-" ""ba1a663e230ce317ae337b5d83046ee7"""," ""win.coinminer"""," ""None"""," ""Coinminer""",1
-" ""c67f0473eae2e790676584b108e7ed73"""," ""win.phantom_stealer"""," ""None"""," ""Phantom Stealer""",1
-" ""da6a114917bdb41286172fcaec6a05a3"""," ""win.valley_rat"""," ""Winos"""," ""ValleyRAT""",1
-" ""df84f03c4fa8d429a13e4ce8b010a66a"""," ""elf.kuiper"""," ""None"""," ""Kuiper""",1
-" ""e0bf699a9016ef9a7740953c6ec4feb0"""," ""win.formbook"""," ""win.xloader"""," ""Formbook""",1
-" ""ebbdc2815774b02394c688f9415325bb"""," ""win.valley_rat"""," ""Winos"""," ""ValleyRAT""",1
-" ""f0d2934199c9f86d25014d628cd7385a"""," ""elf.kuiper"""," ""None"""," ""Kuiper""",1
+" ""016802863edd6de4503ffa5d815d90b4"""," ""win.warlock"""," ""None"""," ""WarLock""",1
+" ""15ced19102f80a843c22480e362c8811"""," ""win.gentlemen"""," ""None"""," ""Gentlemen""",1
+" ""1a2bcaa7ccee237163bb2a03f1c08e55"""," ""win.inc"""," ""None"""," ""INC""",1
+" ""1ecaf7098bedaa4ffae0fff3e077f937"""," ""win.gentlemen"""," ""None"""," ""Gentlemen""",1
+" ""2bc0e73148e07ade9ea1f2df31ca1c1b"""," ""win.warlock"""," ""None"""," ""WarLock""",1
+" ""3279610d12c4309a5b2fdc7ebc9cfb66"""," ""win.inc"""," ""None"""," ""INC""",1
+" ""3c624e9f786189d001dab2649ade0eb9"""," ""win.warlock"""," ""None"""," ""WarLock""",1
+" ""4a9837dd830f8db27380836ef3a6adec"""," ""win.gentlemen"""," ""None"""," ""Gentlemen""",1
+" ""50d6a53992cb7d6eb09bc71294e5a68f"""," ""win.gentlemen"""," ""None"""," ""Gentlemen""",1
+" ""55adc1b1cd21895765d8aff36d894382"""," ""win.gentlemen"""," ""None"""," ""Gentlemen""",1
+" ""5f319c7e83b8daa6836b8ae674c8e0e6"""," ""win.gentlemen"""," ""None"""," ""Gentlemen""",1
+" ""5f5bf7fc7a9ac89ce0bbb07bd1160078"""," ""win.gentlemen"""," ""None"""," ""Gentlemen""",1
+" ""66b521a1eccf3b28906299768ee77222"""," ""win.warlock"""," ""None"""," ""WarLock""",1
+" ""6add66a89721e2b7d817ba0d0f0d660e"""," ""win.gentlemen"""," ""None"""," ""Gentlemen""",1
+" ""71f152d84b2928c6163724de1cb6fae3"""," ""win.gentlemen"""," ""None"""," ""Gentlemen""",1
+" ""758c6a86871370406e477e8ea53d2d8d"""," ""win.warlock"""," ""None"""," ""WarLock""",1
+" ""7997927159d0477fcb755d0befa26ca2"""," ""win.inc"""," ""None"""," ""INC""",1
+" ""7f11809925adc6657e84165fdf780816"""," ""win.gentlemen"""," ""None"""," ""Gentlemen""",1
+" ""843df3ad51fb7c3d35e6f65545bb710b"""," ""win.warlock"""," ""None"""," ""WarLock""",1
+" ""8ee42d16a9381d726591ddc551863931"""," ""unknown"""," ""None"""," ""Unknown malware""",1
+" ""974e9a9579927b2935140b6813f89692"""," ""win.inc"""," ""None"""," ""INC""",1
+" ""a7fd97ff3685cb971650922c12725e8b"""," ""win.warlock"""," ""None"""," ""WarLock""",1
+" ""b1254b99d30873de20ea99fbca371ac3"""," ""unknown"""," ""None"""," ""Unknown malware""",1
+" ""ba77ebc4ee8500a0baaa5e2cddf8076a"""," ""win.inc"""," ""None"""," ""INC""",1
+" ""c6bf6be91257d4625dc4e8778b313d6b"""," ""win.warlock"""," ""None"""," ""WarLock""",1
+" ""dd7f096c647581f6c639e5c3dc7d1e7e"""," ""win.warlock"""," ""None"""," ""WarLock""",1
+" ""de1a114a2c5552387a1bbb61501bf129"""," ""win.gentlemen"""," ""None"""," ""Gentlemen""",1
+" ""ed18c524e930cd1c34614f7cc3051dfc"""," ""win.gentlemen"""," ""None"""," ""Gentlemen""",1
+" ""f3c6ca1ba97b7f94ab52584dc62ea691"""," ""win.gentlemen"""," ""None"""," ""Gentlemen""",1
+" ""ff709591615a26f037a465ce97cc59d6"""," ""win.gentlemen"""," ""None"""," ""Gentlemen""",1
