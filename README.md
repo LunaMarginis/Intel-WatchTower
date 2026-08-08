@@ -16,3 +16,22 @@ This table shows top 10 malware names with their unique hashes and counts. [For 
 |  "win.adaptix_c2" |  "8ef70ff2c501ca4e271dd549e29d1ad1"<br> "fe720b7550466baa14994a090eed156d" | 2 |
 |  "py.networm" |  "b2daee69272ac088ba3af90e630a7b73" | 1 |
 |  "apk.clipper" |  "d8fcb7a4ef513ffff9cd2b3448c2b0e0" | 1 |
+
+<!-- url_summary_start -->
+## 🔗 Top 10 URLs:
+
+Automated URL Collections, grouped by Tags: Every day at 03:00 UTC. Last Updated: 2026-08-08 04:00:18 UTC.
+
+| Tag | Count |
+|-----|-------|
+| 32-bit,elf,mips,Mozi | 2965 |
+| Mozi | 1421 |
+| 32-bit,arm,elf,mirai,Mozi | 960 |
+| mirai | 708 |
+| ua-wget | 670 |
+| elf,mirai,ua-wget | 408 |
+| ClearFake,win-0x4679,windows | 343 |
+| ClearFake,win-0x0cd5,windows | 289 |
+| elf,ua-wget | 277 |
+| Loader,potemkin | 253 |
+<!-- url_summary_end -->
