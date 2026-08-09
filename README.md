@@ -16,3 +16,22 @@ This table shows top 10 malware names with their unique hashes and counts. [For 
 |  "win.vidar" |  "01f84e942908ccb2fc657d9dd1caf8b5"<br> "53380f2665f35cff7d00e6137a70bf27"<br> "d5cf90d75595ae54fad924f7ea2861dc" | 3 |
 |  "py.stealler" |  "11b388e073236318b3851c168aa1abde"<br> "7dee819b76bf7a145dc60d279411b721"<br> "aecc5551bc3c5777277681e6eb357f8a" | 3 |
 |  "py.creal_stealer" |  "531962f97a5f6ae7580f8d895d9177f9"<br> "6108296a2c9c763a4b56e3cb611ab096"<br> "a0b2deb23eb23221d713916f461230bb" | 3 |
+
+<!-- url_summary_start -->
+## 🔗 Top 10 URLs:
+
+Automated URL Collections, grouped by Tags: Every day at 03:00 UTC. Last Updated: 2026-08-09 04:06:10 UTC.
+
+| Tag | Count |
+|-----|-------|
+| 32-bit,elf,mips,Mozi | 2939 |
+| Mozi | 1461 |
+| 32-bit,arm,elf,mirai,Mozi | 954 |
+| ua-wget | 767 |
+| mirai | 729 |
+| elf,mirai,ua-wget | 395 |
+| ClearFake,win-0x4679,windows | 318 |
+| ClearFake,win-0x0cd5,windows | 266 |
+| elf,ua-wget | 254 |
+| Loader,potemkin | 253 |
+<!-- url_summary_end -->
