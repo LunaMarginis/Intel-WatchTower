@@ -13,3 +13,22 @@ This table shows top 10 malware names with their unique hashes and counts. [For 
 |  "elf.kuiper" |  "662d653f550544643f67c3891ff2cf2c" | 1 |
 |  "win.dcrat" |  "092821e77feade246a230168b2c0b775" | 1 |
 |  "win.havoc" |  "33d103a950e97fb4c0f28d8cff985ba6" | 1 |
+
+<!-- url_summary_start -->
+## 🔗 Top 10 URLs:
+
+Automated URL Collections, grouped by Tags: Every day at 03:00 UTC. Last Updated: 2026-08-11 04:08:24 UTC.
+
+| Tag | Count |
+|-----|-------|
+| 32-bit,elf,mips,Mozi | 2962 |
+| Mozi | 1548 |
+| 32-bit,arm,elf,mirai,Mozi | 977 |
+| ua-wget | 920 |
+| mirai | 782 |
+| elf,mirai,ua-wget | 417 |
+| ClearFake,win-0x4679,windows | 278 |
+| elf,ua-wget | 254 |
+| Loader,potemkin | 253 |
+| ClearFake,win-0x0cd5,windows | 232 |
+<!-- url_summary_end -->
