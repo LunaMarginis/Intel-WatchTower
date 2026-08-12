@@ -1,6 +1,7 @@
 ioc_value,fk_malware,malware_alias,malware_printable,count
 " ""092821e77feade246a230168b2c0b775"""," ""win.dcrat"""," ""DarkCrystal RAT"""," ""DCRat""",1
 " ""0bc755a061e932971b5e642b99adda04"""," ""py.creal_stealer"""," ""None"""," ""Creal Stealer""",1
+" ""17734864904d450104ab46e262797f47"""," ""py.creal_stealer"""," ""None"""," ""Creal Stealer""",1
 " ""2e4aa86a1df193c715970aee3096bf3a"""," ""py.venus_stealer"""," ""None"""," ""Venus Stealer""",1
 " ""33d103a950e97fb4c0f28d8cff985ba6"""," ""win.havoc"""," ""Havokiz"""," ""Havoc""",1
 " ""48d66a8f0f2a7d144cfa1f6b7a006c69"""," ""win.vidar"""," ""None"""," ""Vidar""",1
