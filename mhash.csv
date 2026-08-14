@@ -5,8 +5,10 @@ ioc_value,fk_malware,malware_alias,malware_printable,count
 " ""035e5276653ae2b45fd21bf44d467e58"""," ""win.vidar"""," ""None"""," ""Vidar""",1
 " ""04b118addc210113bd78f19b701a4efe"""," ""win.vidar"""," ""None"""," ""Vidar""",1
 " ""0e34168d76e3242205e85f7d4cef6b23"""," ""win.vidar"""," ""None"""," ""Vidar""",1
-" ""17734864904d450104ab46e262797f47"""," ""py.creal_stealer"""," ""None"""," ""Creal Stealer""",1
+" ""1768e374535e5aeaec71002ab68838e7"""," ""unknown"""," ""None"""," ""Unknown malware""",1
 " ""18758ab8f3baf84b20fe9cfff999afae"""," ""win.vidar"""," ""None"""," ""Vidar""",1
+" ""1ab183b92f988063206d8f415f1e6439"""," ""win.vidar"""," ""None"""," ""Vidar""",1
+" ""1bb0a4abcc83dd82f0c7da52ce5d9e8a"""," ""win.asyncrat"""," ""None"""," ""AsyncRAT""",1
 " ""1e84b9aeebe223c59876380b8f27663a"""," ""elf.kuiper"""," ""None"""," ""Kuiper""",1
 " ""1f15b8c3999c5be1ca18960150b6830d"""," ""win.vidar"""," ""None"""," ""Vidar""",1
 " ""21b04f8aa0e5863a37d0ed62f4a62211"""," ""py.venus_stealer"""," ""None"""," ""Venus Stealer""",1
@@ -19,21 +21,30 @@ ioc_value,fk_malware,malware_alias,malware_printable,count
 " ""30775e2858200f6e4c8fe45afd8a9668"""," ""win.vidar"""," ""None"""," ""Vidar""",1
 " ""3236850647855e13e4adf378c0e48ccf"""," ""win.vidar"""," ""None"""," ""Vidar""",1
 " ""35ac7fd4f6a4a0c5205bc8ded0e95e8b"""," ""win.vidar"""," ""None"""," ""Vidar""",1
+" ""36612c13573375fb4c796f3569eb50c0"""," ""win.void"""," ""VoidCrypt"""," ""Void""",1
+" ""3b5381e4e1a32953a8af4b98befc643f"""," ""unknown"""," ""None"""," ""Unknown malware""",1
 " ""4128b92eacefd3fd7da5955639112951"""," ""win.vidar"""," ""None"""," ""Vidar""",1
 " ""4bb01689507867d905f316a8df277f16"""," ""win.vidar"""," ""None"""," ""Vidar""",1
 " ""4d90b1e99d379183f7d5c6d7f4652a60"""," ""win.vidar"""," ""None"""," ""Vidar""",1
 " ""52250e007686601a8058a81495045d70"""," ""win.vidar"""," ""None"""," ""Vidar""",1
 " ""56d5c918136e6c55dd13fababf8d7cd1"""," ""win.vidar"""," ""None"""," ""Vidar""",1
+" ""57d0c8f4132cfe3d208f52a8fe89c16c"""," ""unknown"""," ""None"""," ""Unknown malware""",1
 " ""58082a5543e9a04a66a49097c4da851b"""," ""py.creal_stealer"""," ""None"""," ""Creal Stealer""",1
 " ""5c2acad94a032dfa1f13b7cc6fa873a8"""," ""win.vidar"""," ""None"""," ""Vidar""",1
+" ""6436a5ae81c78a3b38a2a2830bce2d36"""," ""unknown"""," ""None"""," ""Unknown malware""",1
 " ""655bc97584876b110db5e07464af6522"""," ""win.valley_rat"""," ""Winos"""," ""ValleyRAT""",1
+" ""67b59851c48c89880b692e238e54ad8b"""," ""unknown"""," ""None"""," ""Unknown malware""",1
 " ""6e8acc3e0918331488137a328c8c8256"""," ""win.vidar"""," ""None"""," ""Vidar""",1
 " ""70a1588593816c6b10d1de3ed58d43cd"""," ""win.gcleaner"""," ""None"""," ""GCleaner""",1
 " ""7103319d61b7335a60755933e264c40f"""," ""win.vidar"""," ""None"""," ""Vidar""",1
+" ""725368095f3e67cf813c8c442652ca97"""," ""elf.kuiper"""," ""None"""," ""Kuiper""",1
 " ""72bc2cd086ffc02895ba73b2cd814588"""," ""win.vidar"""," ""None"""," ""Vidar""",1
 " ""74bfc2510a175a6b8da22aa473d57713"""," ""win.vidar"""," ""None"""," ""Vidar""",1
+" ""757b7e2991187e4644f8092801547730"""," ""py.stealler"""," ""None"""," ""stealler""",1
 " ""787660a571fe35cec3679726484f5121"""," ""elf.kuiper"""," ""None"""," ""Kuiper""",1
+" ""7a0f3eebfb821131f22ff6ec2645b4fc"""," ""win.valley_rat"""," ""Winos"""," ""ValleyRAT""",1
 " ""7a933fff468a55cfe086b1939080127d"""," ""win.vidar"""," ""None"""," ""Vidar""",1
+" ""7d4dcace32850c5e3e9d5dff5a6ef08d"""," ""win.nanocore"""," ""Nancrat","NanoCore""",1
 " ""7e414de844e2f8084a0265ee1bf549e8"""," ""win.vidar"""," ""None"""," ""Vidar""",1
 " ""7e7c478b6016828d9bf035079574fdc5"""," ""win.valley_rat"""," ""Winos"""," ""ValleyRAT""",1
 " ""812abe43796f6b78922fc9228e422465"""," ""elf.kuiper"""," ""None"""," ""Kuiper""",1
@@ -43,20 +54,25 @@ ioc_value,fk_malware,malware_alias,malware_printable,count
 " ""8d657dfd97113c1e4dd3a5d5a9c8c6b5"""," ""win.vidar"""," ""None"""," ""Vidar""",1
 " ""9131b67993a758f66691d3caafdd9d92"""," ""win.vidar"""," ""None"""," ""Vidar""",1
 " ""954a464ea9f549bb6b8d981bf74975a4"""," ""win.vidar"""," ""None"""," ""Vidar""",1
+" ""95d91cdeaf8991fec3618ca52a5d8a7e"""," ""unknown"""," ""None"""," ""Unknown malware""",1
 " ""9623eed7395d431ba8f0caf6ff0aa6b5"""," ""win.vidar"""," ""None"""," ""Vidar""",1
 " ""98dae1e323b9fd9d21bca7dcc735444d"""," ""win.vidar"""," ""None"""," ""Vidar""",1
+" ""9a1c9e8f89df354e7704a1bdba5404b9"""," ""unknown"""," ""None"""," ""Unknown malware""",1
 " ""9a67c9b6e5615f6a2fd61a4fe735ecaf"""," ""win.vidar"""," ""None"""," ""Vidar""",1
 " ""9b3b9059992e8f185f276f3e4b4833d5"""," ""win.vidar"""," ""None"""," ""Vidar""",1
 " ""9d8769b7f24569f7354e9e02edb7da70"""," ""py.stealler"""," ""None"""," ""stealler""",1
 " ""9ddf65f2e2ed1525c0f78ed62579efbb"""," ""win.vidar"""," ""None"""," ""Vidar""",1
 " ""a26ba6f15c730b9d942e53402fd6b5f0"""," ""win.vidar"""," ""None"""," ""Vidar""",1
 " ""a30317a63bcabcdcd88ad41aea168023"""," ""win.vidar"""," ""None"""," ""Vidar""",1
+" ""a56d67f5e2f1b15b2c3864ff9501d7cc"""," ""elf.kuiper"""," ""None"""," ""Kuiper""",1
 " ""a80b168e8c58817e8a6bc21d0beab517"""," ""elf.kuiper"""," ""None"""," ""Kuiper""",1
 " ""a997de65fee3d2660eda9946471f3b8c"""," ""win.vidar"""," ""None"""," ""Vidar""",1
 " ""a9e16613460691f6f90df472a375f824"""," ""win.vidar"""," ""None"""," ""Vidar""",1
 " ""b0030329a6f1600f4824f6af7624a6da"""," ""win.vidar"""," ""None"""," ""Vidar""",1
 " ""b03101e840749fea73d3119cdeed8d2f"""," ""py.creal_stealer"""," ""None"""," ""Creal Stealer""",1
+" ""b072d316e930b12b03d3d58617ec0c14"""," ""unknown"""," ""None"""," ""Unknown malware""",1
 " ""b1067b88b5df6604a5d44ba996eed92c"""," ""win.vidar"""," ""None"""," ""Vidar""",1
+" ""b24f5bf5582f6f0b5bc7ed2bf8c05c66"""," ""unknown"""," ""None"""," ""Unknown malware""",1
 " ""b46947a4f5da3d5b68d5973c834f2cdd"""," ""win.vidar"""," ""None"""," ""Vidar""",1
 " ""b7e9ab4228a2899cbdb8f64b4bc49f57"""," ""win.vidar"""," ""None"""," ""Vidar""",1
 " ""b97390c98669836175aa7af33af45ba0"""," ""win.vidar"""," ""None"""," ""Vidar""",1
@@ -82,6 +98,7 @@ ioc_value,fk_malware,malware_alias,malware_printable,count
 " ""e7323a323da3fcc4acc5c997c14e18ef"""," ""win.vidar"""," ""None"""," ""Vidar""",1
 " ""ede81706758ec87fb93848ae702a1f51"""," ""win.vidar"""," ""None"""," ""Vidar""",1
 " ""ee4dbcf84c507d46442237c6bd6b8dba"""," ""win.vidar"""," ""None"""," ""Vidar""",1
+" ""f0227e480e845b98b91e385b898e9b47"""," ""win.krakenkeylogger"""," ""None"""," ""KrakenKeylogger""",1
 " ""f06f0d26b6e12e5ddc77c626c300d91c"""," ""win.vidar"""," ""None"""," ""Vidar""",1
 " ""f240fcd6045c4ed504dc40ca77e4ed1e"""," ""win.vidar"""," ""None"""," ""Vidar""",1
 " ""f2536902e1aa6038a1ba0da46036fe2f"""," ""win.vidar"""," ""None"""," ""Vidar""",1
