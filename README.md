@@ -1,37 +1,18 @@
 # IOC Summary
 
-Automated Hash Collections: Every day at 02:00 UTC. Last Updated: 2026-08-14 04:06:24 UTC
+Automated Hash Collections: Every day at 02:00 UTC. Last Updated: 2026-08-15 02:49:16 UTC
 
 This table shows top 10 malware names with their unique hashes and counts. [For Complete list, check the CSV files]
 
 | Malware Name | ioc_value (Hashes) | Count |
 |--------------|--------------------|-------|
-|  "win.vidar" |  "0048247afc0ad68c11c4d7d1c7c83df6"<br> "026cb64a22896b8dedda15d09743ef85"<br> "035e5276653ae2b45fd21bf44d467e58"<br> "04b118addc210113bd78f19b701a4efe"<br> "0e34168d76e3242205e85f7d4cef6b23"<br> "18758ab8f3baf84b20fe9cfff999afae"<br> "1ab183b92f988063206d8f415f1e6439"<br> "1f15b8c3999c5be1ca18960150b6830d"<br> "22f293d0d9e9f32fbf1269525a2bd427"<br> "26a023345c27a0a1d6ebc732a11e1368"<br> "28ee82bbce56ddfb87ed0cc19114d8de"<br> "291478270cfbc4c66b38ccfcc394b48c"<br> "2b577b0a40bcf78b4a2605c75121f64d"<br> "304daf902af97f8946738a363b14d721"<br> "30775e2858200f6e4c8fe45afd8a9668"<br> "3236850647855e13e4adf378c0e48ccf"<br> "35ac7fd4f6a4a0c5205bc8ded0e95e8b"<br> "4128b92eacefd3fd7da5955639112951"<br> "4bb01689507867d905f316a8df277f16"<br> "4d90b1e99d379183f7d5c6d7f4652a60"<br> "52250e007686601a8058a81495045d70"<br> "56d5c918136e6c55dd13fababf8d7cd1"<br> "5c2acad94a032dfa1f13b7cc6fa873a8"<br> "6e8acc3e0918331488137a328c8c8256"<br> "7103319d61b7335a60755933e264c40f"<br> "72bc2cd086ffc02895ba73b2cd814588"<br> "74bfc2510a175a6b8da22aa473d57713"<br> "7a933fff468a55cfe086b1939080127d"<br> "7e414de844e2f8084a0265ee1bf549e8"<br> "81c77db27424d8f51e4157c7af628253"<br> "83c5950a60b559579b88052b0072868f"<br> "89e8137110409d4b4e369118a4c7a759"<br> "8d657dfd97113c1e4dd3a5d5a9c8c6b5"<br> "9131b67993a758f66691d3caafdd9d92"<br> "954a464ea9f549bb6b8d981bf74975a4"<br> "9623eed7395d431ba8f0caf6ff0aa6b5"<br> "98dae1e323b9fd9d21bca7dcc735444d"<br> "9a67c9b6e5615f6a2fd61a4fe735ecaf"<br> "9b3b9059992e8f185f276f3e4b4833d5"<br> "9ddf65f2e2ed1525c0f78ed62579efbb"<br> "a26ba6f15c730b9d942e53402fd6b5f0"<br> "a30317a63bcabcdcd88ad41aea168023"<br> "a997de65fee3d2660eda9946471f3b8c"<br> "a9e16613460691f6f90df472a375f824"<br> "b0030329a6f1600f4824f6af7624a6da"<br> "b1067b88b5df6604a5d44ba996eed92c"<br> "b46947a4f5da3d5b68d5973c834f2cdd"<br> "b7e9ab4228a2899cbdb8f64b4bc49f57"<br> "b97390c98669836175aa7af33af45ba0"<br> "bc652b3daee51fb12d20243fb85d9e94"<br> "c35237f4e5e0b03127dc0024ea6c8dd3"<br> "c47bc35c5156c22e8fd944390145f3f6"<br> "c58cb816123ae729a8b704e971fca4da"<br> "cc8a16c52d504291c9b0786cfcfe9078"<br> "cfee3ef154667d22299db2cf0e6e8f6d"<br> "dae850441bbae54486beb48d43db17f7"<br> "dcc197be262948075fc309eefde4269a"<br> "dd450cb1b0762f18ac735f2d6ab10a95"<br> "dedb5ff5853dd865c02f14e698144a80"<br> "df3cc875c6a7d205c2994161c968a3f8"<br> "e0c8055d7614d54fbd58c39fec94bfb9"<br> "e246d554ab5d7cbce5f0dd8956d22e40"<br> "e38d1678928c12ca030390d295abf193"<br> "e7323a323da3fcc4acc5c997c14e18ef"<br> "ede81706758ec87fb93848ae702a1f51"<br> "ee4dbcf84c507d46442237c6bd6b8dba"<br> "f06f0d26b6e12e5ddc77c626c300d91c"<br> "f240fcd6045c4ed504dc40ca77e4ed1e"<br> "f2536902e1aa6038a1ba0da46036fe2f"<br> "f7ee44b6744bec701d3079bb9b9a0a39"<br> "f8c9a1475fd00ddd2313a375d949bd5c" | 71 |
-|  "elf.kuiper" |  "02f09837cac9cb0310729ab1a84f35d9"<br> "1e84b9aeebe223c59876380b8f27663a"<br> "725368095f3e67cf813c8c442652ca97"<br> "787660a571fe35cec3679726484f5121"<br> "812abe43796f6b78922fc9228e422465"<br> "a56d67f5e2f1b15b2c3864ff9501d7cc"<br> "a80b168e8c58817e8a6bc21d0beab517"<br> "bbbdfed0b5588f27cf2a33b2b68831f0"<br> "e2fbe4259663915ce9a8130953e62c5f" | 9 |
+|  "win.vidar" |  "015405d79d9d89da570cde5a8e8ba738"<br> "01691505aead91816c6fba72094dffee"<br> "04f1503506575cf6f7c95f884d57b923"<br> "05115f6395eea7899fbf157247166559"<br> "0ae6dd01529c5f2430f5aa5cc5252fbb"<br> "107cfbddfd263ee8ea17f803460c7737"<br> "12e9d8974b6021e549b309d3bb4828b2"<br> "1ab183b92f988063206d8f415f1e6439"<br> "1b4b59c708fe0aab3a3db82ac2c509a7"<br> "2405e1dc8dcceff8e931fc85bba1e691"<br> "2b87d4786fdc8a9fdce84f20eb451698"<br> "3209f3fe564e9fb6eecd3c40a9563dc1"<br> "33cd067aa1d957161251b158ad3fbede"<br> "347b205a8351e822cd94a0864df9d558"<br> "35c673db1adf83ffe243cb416037c0eb"<br> "3cd1af4eedd994d4bf44932deba36ab4"<br> "3daf04e0b37edc66c9554272cb93a0f0"<br> "3e2f82e4c1659407d9ca40ef6bf8f0ba"<br> "4b53a223009a5eaea1ca162378f872a2"<br> "4e743a7b01ff67230d56f2f58abfe384"<br> "5079451abbed8ac2eda09edff55a5277"<br> "5166de87a42870b861c2010a88c54db3"<br> "57feffb846ff30911e654e3e9974bbae"<br> "590dc6eed412993e18a6533bfdbd28f9"<br> "5a12682193c8030f5b28bf08ff195bac"<br> "69b37db2fa63c34310b4718db61e543a"<br> "6a15568931465270f44bece06bb2ae65"<br> "6a7ee10febe8c58b0db1a2007b5aecde"<br> "6c2a45b3f8d19c8548636b8c37ca2579"<br> "743c5601c9a2834870c702fed2bf9235"<br> "790145cd39af7feeb893487af476e6dc"<br> "7ac87a38a47cf6953ecee75df05be9fc"<br> "7cc5a4e4fc0916abe5e6d7fb53498690"<br> "7d8c5b360c3f4d254bf4b4907c8e12c8"<br> "7e8098ea22d55401710ca6af67125d58"<br> "7ee3c63dd0b5788d5347521e82cde143"<br> "8434d2285ae8c84ade10bfef75d24245"<br> "874d95b5c266401f5d397312ee0d604f"<br> "8756651fdf748d47f3f110de7cf801b6"<br> "88fc68ca8feb4f6f92ebbbe209aac64f"<br> "99f13f0886ad6c6113abc0be4c4706c0"<br> "a27942c0ce748ad03ce9e4fa83b2a45b"<br> "a52f70b3d3e30147ba8864fd99100cb2"<br> "ab663e7dc05b5a866e9db892922c80be"<br> "ae131d66ca1040ac637cc57d84a8feb5"<br> "afe0f2b98650c554bcc1f7a2934898c9"<br> "c3c6fcbdaf680694753732dd9d9d3211"<br> "c926d541d1858b9b9a0710a69c9dffbd"<br> "cdf1624eea02a5727f6ed4523d111ad8"<br> "d49c8d6267f6bb798ccdde729ecb5142"<br> "d5249dd3223b35fa77fd8bbc8dd8ebb2"<br> "d528a88783cf08461cfbeaea7a2026aa"<br> "d6f02dd77c737a5423c4a646484e6db3"<br> "d8d95b3c979b9b529bb44b0880803da8"<br> "e17578a9e95a1572c3da5eee08605c69"<br> "e29f6d8a582917d16d2a261c53683ffc"<br> "e389403bf2581acabd957b982f27a1ca"<br> "e417c5e9454ce4ccf67a0dd36a72b895"<br> "ec13cd9cc9f2791af23531058b62dbf7"<br> "ef80e9f38c08aaa16d1ff153ca9681bd"<br> "f1990a805fd7833f9ac6ed3b74b073d2"<br> "f36640c8f38c1de6a992db5c1cd427fe"<br> "f3e85b6558e71146122537098796eff6"<br> "f8f91480b3bd577ed6930ce0abc40abe"<br> "f9f40d1ed33d176760de486f40c716a2" | 65 |
 |  "unknown" |  "1768e374535e5aeaec71002ab68838e7"<br> "3b5381e4e1a32953a8af4b98befc643f"<br> "57d0c8f4132cfe3d208f52a8fe89c16c"<br> "6436a5ae81c78a3b38a2a2830bce2d36"<br> "67b59851c48c89880b692e238e54ad8b"<br> "95d91cdeaf8991fec3618ca52a5d8a7e"<br> "9a1c9e8f89df354e7704a1bdba5404b9"<br> "b072d316e930b12b03d3d58617ec0c14"<br> "b24f5bf5582f6f0b5bc7ed2bf8c05c66" | 9 |
-|  "win.valley_rat" |  "655bc97584876b110db5e07464af6522"<br> "7a0f3eebfb821131f22ff6ec2645b4fc"<br> "7e7c478b6016828d9bf035079574fdc5" | 3 |
-|  "py.creal_stealer" |  "58082a5543e9a04a66a49097c4da851b"<br> "b03101e840749fea73d3119cdeed8d2f" | 2 |
-|  "py.stealler" |  "757b7e2991187e4644f8092801547730"<br> "9d8769b7f24569f7354e9e02edb7da70" | 2 |
-|  "win.salatstealer" |  "baa11e01313ba4da42f8071d7162ab29"<br> "d7318dbc11b8fcd1af10b2a5d2b1c69b" | 2 |
-|  "py.venus_stealer" |  "21b04f8aa0e5863a37d0ed62f4a62211" | 1 |
-|  "win.asyncrat" |  "1bb0a4abcc83dd82f0c7da52ce5d9e8a" | 1 |
-|  "win.coinminer" |  "dd7cfd448f8fc48232a1a6576ee1fc14" | 1 |
-
-<!-- url_summary_start -->
-## 🔗 Top 10 URLs:
-
-Automated URL Collections, grouped by Tags: Every day at 03:00 UTC. Last Updated: 2026-08-14 04:39:14 UTC.
-
-| Tag | Count |
-|-----|-------|
-| 32-bit,elf,mips,Mozi | 2777 |
-| Mozi | 1673 |
-| ua-wget | 1043 |
-| 32-bit,arm,elf,mirai,Mozi | 922 |
-| mirai | 887 |
-| elf,mirai,ua-wget | 624 |
-| censys,elf,mirai,ua-wget | 386 |
-| Loader,potemkin | 253 |
-| elf,ua-wget | 240 |
-| ClearFake,win-0x4679,windows | 195 |
-<!-- url_summary_end -->
+|  "win.netwire" |  "476453e63cf65c3fbe54f9b2cb3cc649"<br> "583614371adddbcaf7f6c087479c77ab"<br> "5a5171a49e704db4a7c0ac25c6713812"<br> "626e45681bd083f5f85acd0f6aefe5bc"<br> "6ff68578110de0105fc3a1a1ab635dd3"<br> "cdba3f620f58b3283c37ad512452a9d7"<br> "ef5b6211a47d0bec3ddb8d77b9c9586a" | 7 |
+|  "py.venus_stealer" |  "22572deb99904d6257b6326e4fcf0d3c"<br> "51debef8194480827f1317a93fc93ca3"<br> "dfe81d3bfe9ed555b759f1ec06ff6ad0"<br> "e5fe8fdb73df57602871e4cedeb3803a" | 4 |
+|  "elf.kuiper" |  "3b5870ca6edb52e878ddadcaa9ade7f8"<br> "725368095f3e67cf813c8c442652ca97"<br> "a56d67f5e2f1b15b2c3864ff9501d7cc"<br> "dffb75c5dd695a72d8e56654053e7e97" | 4 |
+|  "apk.loki" |  "e80bbf1cdab46a2ee238916fab1fb45e"<br> "f59e7dbaaf872d9f22ef1bcb624c6a0a" | 2 |
+|  "win.asyncrat" |  "1bb0a4abcc83dd82f0c7da52ce5d9e8a"<br> "d359e37f01c454771d6f2a5266be4c06" | 2 |
+|  "py.stealler" |  "757b7e2991187e4644f8092801547730" | 1 |
+|  "py.creal_stealer" |  "5b4393659ecfbdc53b2e44fef04f1fa2" | 1 |
+|  "win.arkei_stealer" |  "ec33eec246480c76716f671989cf9f88" | 1 |
