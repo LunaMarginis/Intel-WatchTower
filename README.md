@@ -16,3 +16,22 @@ This table shows top 10 malware names with their unique hashes and counts. [For 
 |  "apk.loki" |  "e80bbf1cdab46a2ee238916fab1fb45e"<br> "f59e7dbaaf872d9f22ef1bcb624c6a0a" | 2 |
 |  "win.arkei_stealer" |  "ec33eec246480c76716f671989cf9f88" | 1 |
 |  "py.creal_stealer" |  "5b4393659ecfbdc53b2e44fef04f1fa2" | 1 |
+
+<!-- url_summary_start -->
+## 🔗 Top 10 URLs:
+
+Automated URL Collections, grouped by Tags: Every day at 03:00 UTC. Last Updated: 2026-08-16 03:35:58 UTC.
+
+| Tag | Count |
+|-----|-------|
+| 32-bit,elf,mips,Mozi | 2718 |
+| Mozi | 1750 |
+| ua-wget | 1092 |
+| mirai | 929 |
+| 32-bit,arm,elf,mirai,Mozi | 909 |
+| elf,mirai,ua-wget | 592 |
+| censys,elf,mirai,ua-wget | 386 |
+| Loader,potemkin | 253 |
+| elf,ua-wget | 241 |
+| arm,elf,mirai,opendir,ua-wget | 185 |
+<!-- url_summary_end -->
