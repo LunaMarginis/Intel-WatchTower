@@ -16,3 +16,22 @@ This table shows top 10 malware names with their unique hashes and counts. [For 
 |  "win.redline_stealer" |  "77419b9de019b422054b6560b7114441"<br> "e989fab5128da2ce5cbbccea75b8b5e1" | 2 |
 |  "win.asyncrat" |  "59ac80a9f292b50f093a9979d2f0e569" | 1 |
 |  "apk.facestealer" |  "fc2f88f368a32c8ba7257bd54a830068" | 1 |
+
+<!-- url_summary_start -->
+## 🔗 Top 10 URLs:
+
+Automated URL Collections, grouped by Tags: Every day at 03:00 UTC. Last Updated: 2026-08-17 03:37:04 UTC.
+
+| Tag | Count |
+|-----|-------|
+| 32-bit,elf,mips,Mozi | 2711 |
+| Mozi | 1805 |
+| ua-wget | 1090 |
+| mirai | 940 |
+| 32-bit,arm,elf,mirai,Mozi | 909 |
+| elf,mirai,ua-wget | 573 |
+| censys,elf,mirai,ua-wget | 379 |
+| Loader,potemkin | 253 |
+| elf,ua-wget | 241 |
+| arm,elf,mirai,opendir,ua-wget | 184 |
+<!-- url_summary_end -->
