@@ -1,86 +1,33 @@
 ioc_value,fk_malware,malware_alias,malware_printable,count
 " ""0008d8b7ceb7b1cd9fa3cd596fe8ab3b"""," ""py.stealler"""," ""None"""," ""stealler""",1
-" ""000f253f7a53d91fc8b2ccfe79621341"""," ""elf.kuiper"""," ""None"""," ""Kuiper""",1
-" ""00c6c592b1ecb9f1e73d6d458f001d09"""," ""elf.kuiper"""," ""None"""," ""Kuiper""",1
-" ""079d47dd089638b90a5741175e15760f"""," ""win.valley_rat"""," ""Winos"""," ""ValleyRAT""",1
-" ""09c00cba625a481a2c1c53d316bbacbc"""," ""elf.kuiper"""," ""None"""," ""Kuiper""",1
 " ""11f45214e400e24c21f27371b26d5275"""," ""win.dcrat"""," ""DarkCrystal RAT"""," ""DCRat""",1
 " ""1244f89ba4a6b12e3b885b58b66103a9"""," ""elf.kuiper"""," ""None"""," ""Kuiper""",1
-" ""17ea6604b441e15f0e96d072aa67efe0"""," ""py.venus_stealer"""," ""None"""," ""Venus Stealer""",1
 " ""1b6521fd5653b30f77fd1a44a0d3b3ed"""," ""elf.kuiper"""," ""None"""," ""Kuiper""",1
-" ""1bf6b10fd0d4d4fa7bb67f56494d60ef"""," ""win.vidar"""," ""None"""," ""Vidar""",1
-" ""1d84d94f80c74358c7bb2d2794f9c452"""," ""elf.kuiper"""," ""None"""," ""Kuiper""",1
-" ""1d944ff591ebcff069f17e5e57180a6f"""," ""py.venus_stealer"""," ""None"""," ""Venus Stealer""",1
-" ""1e1831dac3e7b29ce85e256af3a59bc8"""," ""py.venus_stealer"""," ""None"""," ""Venus Stealer""",1
-" ""1ee4ee8d50272ccde07e24eb9b8337cb"""," ""win.vidar"""," ""None"""," ""Vidar""",1
 " ""204936dc11b78d2a83682f88f69608a9"""," ""win.dcrat"""," ""DarkCrystal RAT"""," ""DCRat""",1
-" ""23bb983a4f9612a8c5174a31ac11f1f9"""," ""win.vidar"""," ""None"""," ""Vidar""",1
-" ""25f8beb77d6bbfd007a326d24978827e"""," ""win.vidar"""," ""None"""," ""Vidar""",1
-" ""2bac3cc16309c1edfc33ec16cc92f86a"""," ""elf.kuiper"""," ""None"""," ""Kuiper""",1
-" ""2f1f51762d96b0474441dd5fd8d2edde"""," ""win.coinminer"""," ""None"""," ""Coinminer""",1
-" ""3119ebc3ac10e42ef6d9baa8720bd38b"""," ""elf.kuiper"""," ""None"""," ""Kuiper""",1
-" ""3504bb4047f5e025033975e9f43e0894"""," ""py.venus_stealer"""," ""None"""," ""Venus Stealer""",1
+" ""2dd28514241e2b87dbdb6625b04f418f"""," ""elf.kuiper"""," ""None"""," ""Kuiper""",1
 " ""385f52df34c0e3f7f8f3602afedd70e3"""," ""win.luca_stealer"""," ""None"""," ""Luca Stealer""",1
-" ""412de86f12d952ba9b818cbadb39e647"""," ""win.vidar"""," ""None"""," ""Vidar""",1
-" ""4163e1957558fd73ba4be5059ffccae2"""," ""win.vidar"""," ""None"""," ""Vidar""",1
-" ""4533a423f75743a34bed873c0606fc17"""," ""win.valley_rat"""," ""Winos"""," ""ValleyRAT""",1
-" ""45899f8f753e57ded07eb20ca57be0f1"""," ""win.coinminer"""," ""None"""," ""Coinminer""",1
-" ""4618b1cf240c99032b4f7ca2d4af724f"""," ""win.vidar"""," ""None"""," ""Vidar""",1
+" ""3d58f699eb208987dc61ac72116aae65"""," ""elf.kuiper"""," ""None"""," ""Kuiper""",1
+" ""456a8cc2cd225eb0ceee3cbc457859dc"""," ""elf.kuiper"""," ""None"""," ""Kuiper""",1
 " ""4cab81b8fa6b59e3b06b3aba29204a21"""," ""elf.kuiper"""," ""None"""," ""Kuiper""",1
-" ""4d4dad091692dc25b7ab60efab9fc5e3"""," ""win.vidar"""," ""None"""," ""Vidar""",1
+" ""4e90efe7de51f3551b96ba82e0d5db3e"""," ""win.vidar"""," ""None"""," ""Vidar""",1
 " ""4f449393902c0b4dc459129d5b37e2ee"""," ""elf.kuiper"""," ""None"""," ""Kuiper""",1
 " ""506559e72563e1c509818c8aa644e969"""," ""elf.kuiper"""," ""None"""," ""Kuiper""",1
-" ""511733f92427fb512d1f2747e760bad7"""," ""py.stealler"""," ""None"""," ""stealler""",1
-" ""56160fa06b16e3822879e77aa47f0764"""," ""elf.kuiper"""," ""None"""," ""Kuiper""",1
-" ""57dacba3658cf6df28ae9d54c10c98c9"""," ""win.coinminer"""," ""None"""," ""Coinminer""",1
-" ""59ac80a9f292b50f093a9979d2f0e569"""," ""win.asyncrat"""," ""None"""," ""AsyncRAT""",1
-" ""5bda45afc655e7c53a12fae62333d9d2"""," ""elf.kuiper"""," ""None"""," ""Kuiper""",1
-" ""5e973fd7c15c435631fc18e1df82592a"""," ""py.venus_stealer"""," ""None"""," ""Venus Stealer""",1
-" ""5ece5582a6cca57b558b5a98290b3699"""," ""win.stealc"""," ""None"""," ""Stealc""",1
-" ""61a4fe4b3fd2331c05a5594a12b2c86e"""," ""py.venus_stealer"""," ""None"""," ""Venus Stealer""",1
+" ""65963e94f69b77eea2a76069f56e505e"""," ""win.vidar"""," ""None"""," ""Vidar""",1
 " ""684ed2249d26eba96bfb119752ba01a7"""," ""elf.kuiper"""," ""None"""," ""Kuiper""",1
-" ""6fbacb02382b2a52786994adeed3c8b1"""," ""win.epsilon_stealer"""," ""None"""," ""Epsilon Stealer""",1
-" ""71a61f1cd6274c59ada288288565632b"""," ""py.venus_stealer"""," ""None"""," ""Venus Stealer""",1
-" ""762792354f7114f7de7420b0c2d77912"""," ""elf.kuiper"""," ""None"""," ""Kuiper""",1
+" ""6fa3a2610674a2e92428266bb8521ccc"""," ""elf.kuiper"""," ""None"""," ""Kuiper""",1
 " ""77419b9de019b422054b6560b7114441"""," ""win.redline_stealer"""," ""RECORDSTEALER"""," ""RedLine Stealer""",1
-" ""78cfe8bfbdad19f3afb54cd12d949db4"""," ""elf.gobrat"""," ""None"""," ""GobRAT""",1
-" ""84412c10b460870f3f9a5db8df5c4fb1"""," ""py.stealler"""," ""None"""," ""stealler""",1
 " ""849cdd8d1aff00a96171e09042b88259"""," ""elf.kuiper"""," ""None"""," ""Kuiper""",1
-" ""8d6a64f6d182ed18bec2b930aa5fd34b"""," ""win.vidar"""," ""None"""," ""Vidar""",1
-" ""90e645041b6e91f8b83d0da2c62ec148"""," ""win.valley_rat"""," ""Winos"""," ""ValleyRAT""",1
 " ""922bc38742b4bf19df78d60f8f1ce9ad"""," ""win.coinminer"""," ""None"""," ""Coinminer""",1
-" ""9327108ce3c50647935244813d506f4d"""," ""win.vidar"""," ""None"""," ""Vidar""",1
-" ""97e15bfbd81fc00ff0ecb61bce72a622"""," ""py.venus_stealer"""," ""None"""," ""Venus Stealer""",1
 " ""a078c68a3dc025682f8133e5a268b7bc"""," ""elf.kuiper"""," ""None"""," ""Kuiper""",1
-" ""a3354ca3fec7b391f4512da8dd3421da"""," ""win.vidar"""," ""None"""," ""Vidar""",1
-" ""a3797091b6196e1b90f824d70e54a1c7"""," ""win.vidar"""," ""None"""," ""Vidar""",1
 " ""b3588fe90191e8f88f63af9090c7cbcd"""," ""elf.kuiper"""," ""None"""," ""Kuiper""",1
-" ""b3fabcc24d9c8b12a02126d2102a48f9"""," ""elf.kuiper"""," ""None"""," ""Kuiper""",1
-" ""b87f70704fbd3bde2292f81c4faf03e5"""," ""win.vidar"""," ""None"""," ""Vidar""",1
-" ""b898f744e78063ad0e0ba1b249c9d77e"""," ""win.vidar"""," ""None"""," ""Vidar""",1
-" ""bbf695c86f8e0ec38f0630b33766c655"""," ""win.vidar"""," ""None"""," ""Vidar""",1
 " ""bf88a2fb1ef5472160508c236f3969df"""," ""win.coinminer"""," ""None"""," ""Coinminer""",1
-" ""c0350c1306cca94724f676834faf1fd8"""," ""elf.kuiper"""," ""None"""," ""Kuiper""",1
-" ""c1165519430c253c6f0a78c2e1c9b4d3"""," ""py.stealler"""," ""None"""," ""stealler""",1
-" ""c2bb935a456cacbb7fcc7fa1efcfaa32"""," ""py.venus_stealer"""," ""None"""," ""Venus Stealer""",1
-" ""c5c0c41a5cef69021b0bf05eb5af5bc6"""," ""win.vidar"""," ""None"""," ""Vidar""",1
+" ""c310a101987cdf1de355146f464af098"""," ""py.venus_stealer"""," ""None"""," ""Venus Stealer""",1
+" ""c90cfe92b30a060a62e271a8d0b9de3b"""," ""elf.kuiper"""," ""None"""," ""Kuiper""",1
 " ""cc2ec7c7af5b86192311053a3cfd50dd"""," ""elf.kuiper"""," ""None"""," ""Kuiper""",1
-" ""cfc95149b7433840e6a64ff648a78575"""," ""py.venus_stealer"""," ""None"""," ""Venus Stealer""",1
 " ""d0dad3ca0e26691fc3ff057bb342539a"""," ""elf.kuiper"""," ""None"""," ""Kuiper""",1
-" ""d3893030cd2183ef27ca1ac845a6c5c1"""," ""win.coinminer"""," ""None"""," ""Coinminer""",1
-" ""d9e1f05c2fef02d320bc2b6aa901f4fd"""," ""elf.kuiper"""," ""None"""," ""Kuiper""",1
-" ""dba57404b491022f173ca04436c34d67"""," ""win.coinminer"""," ""None"""," ""Coinminer""",1
-" ""dcdf0ea233359364ef7cfd67c4d4b412"""," ""win.vidar"""," ""None"""," ""Vidar""",1
-" ""e2ea952de8b1bb2afc5a2be3a268a433"""," ""win.vidar"""," ""None"""," ""Vidar""",1
-" ""e5fb52cb4836455493489879979cf724"""," ""py.venus_stealer"""," ""None"""," ""Venus Stealer""",1
-" ""e729ad151614c96d872320b40e2f2ad2"""," ""win.snappy_client"""," ""SilabRAT"""," ""SnappyClient""",1
+" ""e2eeb94c707d4872149c0e85ef6a5991"""," ""elf.kuiper"""," ""None"""," ""Kuiper""",1
 " ""e989fab5128da2ce5cbbccea75b8b5e1"""," ""win.redline_stealer"""," ""RECORDSTEALER"""," ""RedLine Stealer""",1
-" ""ed659ff4e9c2f5dca9866645cc7e8b50"""," ""elf.kuiper"""," ""None"""," ""Kuiper""",1
 " ""eec176c797a642834c4c5471f6ed19e5"""," ""py.stealler"""," ""None"""," ""stealler""",1
-" ""f217aea5ab97ea04423b45e6e772c39e"""," ""win.vidar"""," ""None"""," ""Vidar""",1
+" ""f060577086b62fa9df2ce231f2221291"""," ""win.darkcloud"""," ""None"""," ""DarkCloud Stealer""",1
 " ""f63516ca88cd02e727a9e6f3d370ec24"""," ""elf.kuiper"""," ""None"""," ""Kuiper""",1
-" ""f8882301be15d016c9d9c42dfadb8240"""," ""py.venus_stealer"""," ""None"""," ""Venus Stealer""",1
-" ""f982eb0d6692ff93a6331681783a4e09"""," ""py.venus_stealer"""," ""None"""," ""Venus Stealer""",1
-" ""f9c60eb51354ab07885428d7b868ade6"""," ""win.vidar"""," ""None"""," ""Vidar""",1
-" ""fc2f88f368a32c8ba7257bd54a830068"""," ""apk.facestealer"""," ""None"""," ""FaceStealer""",1
 " ""fe01f9fc9b2cd5221d9eeea8c72145f6"""," ""elf.kuiper"""," ""None"""," ""Kuiper""",1
