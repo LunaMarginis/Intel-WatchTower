@@ -14,3 +14,22 @@ This table shows top 10 malware names with their unique hashes and counts. [For 
 |  "unknown" |  "20294fe9ec6b7763a8fd58f23be53be7" | 1 |
 |  "win.darkcloud" |  "f060577086b62fa9df2ce231f2221291" | 1 |
 |  "win.wannacryptor" |  "ce08cd51504080093e47127c0d5894c3" | 1 |
+
+<!-- url_summary_start -->
+## 🔗 Top 10 URLs:
+
+Automated URL Collections, grouped by Tags: Every day at 03:00 UTC. Last Updated: 2026-08-19 03:34:30 UTC.
+
+| Tag | Count |
+|-----|-------|
+| 32-bit,elf,mips,Mozi | 2649 |
+| Mozi | 1901 |
+| ua-wget | 1067 |
+| mirai | 990 |
+| 32-bit,arm,elf,mirai,Mozi | 879 |
+| elf,mirai,ua-wget | 585 |
+| censys,elf,mirai,ua-wget | 333 |
+| Loader,potemkin | 253 |
+| elf,ua-wget | 249 |
+| arm,elf,mirai,opendir,ua-wget | 215 |
+<!-- url_summary_end -->
