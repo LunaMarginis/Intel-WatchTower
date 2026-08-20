@@ -16,3 +16,22 @@ This table shows top 10 malware names with their unique hashes and counts. [For 
 |  "win.overlord" |  "d9636241120eb6b38a28e010dc70fa01"<br> "eb77d1b6d71d1efefe59ca8f1275867f" | 2 |
 |  "win.valley_rat" |  "3008ccf1a125b55bcba760e62a9113a3"<br> "69eef609c1e8ee01f4f363b6975f436b" | 2 |
 |  "win.acr_stealer" |  "55ecbb206e755651ddc70297948d8753"<br> "e5bd609ef62c5df53951f7c703f3bc42" | 2 |
+
+<!-- url_summary_start -->
+## 🔗 Top 10 URLs:
+
+Automated URL Collections, grouped by Tags: Every day at 03:00 UTC. Last Updated: 2026-08-20 03:34:45 UTC.
+
+| Tag | Count |
+|-----|-------|
+| 32-bit,elf,mips,Mozi | 2646 |
+| Mozi | 1917 |
+| ua-wget | 1048 |
+| mirai | 1019 |
+| 32-bit,arm,elf,mirai,Mozi | 875 |
+| elf,mirai,ua-wget | 574 |
+| censys,elf,mirai,ua-wget | 333 |
+| Loader,potemkin | 253 |
+| elf,ua-wget | 249 |
+| arm,elf,mirai,opendir,ua-wget | 207 |
+<!-- url_summary_end -->
