@@ -1,6 +1,6 @@
 # IOC Summary
 
-Automated Hash Collections: Every day at 02:00 UTC. Last Updated: 2026-08-20 02:54:19 UTC
+Automated Hash Collections: Every day at 02:00 UTC. Last Updated: 2026-08-21 02:59:52 UTC
 
 This table shows top 10 malware names with their unique hashes and counts. [For Complete list, check the CSV files]
 
@@ -10,28 +10,9 @@ This table shows top 10 malware names with their unique hashes and counts. [For 
 |  "win.vidar" |  "11f472e21a050d7c1e95bb99c395727e"<br> "3305180e86a5d0c8a6801e6d0e0c8556"<br> "3f885c439c08d1e6ae554339d0f1bc3b"<br> "4292346b14958dd443108324bd284d6f"<br> "52bdbdd795fe564af2f8f235e2d6153f"<br> "59e887f4d4e402debb313703bfd4cde0"<br> "68edc179300bbd24798773b1362111a3"<br> "9aebfd3ecb2d662dccc70919f1f66205"<br> "debc35ce0a7b376ffdedd3a47c1384a0" | 9 |
 |  "py.stealler" |  "05dfd43c6bf3255d9b554b5ea17a1e45"<br> "097cd41a5ff6823511032ea396871b89"<br> "439255736797bc88bd19f282449e0436"<br> "6699cdad824d4e21964db174cb9622d2"<br> "7ff086f98f32a1ee98dffda3614c8410" | 5 |
 |  "win.eddiestealer" |  "30748be5ad86a1ffd22743f1cdf3297f"<br> "50d829498390ba6fd2a4d5984ca71586"<br> "725eed1a191ecf0e74d7c382e12242a1"<br> "a573f6f6fe0b8a7db4f8a002271612ee" | 4 |
-|  "win.coinminer" |  "a70784dbd95512ac7f622c5baab68714"<br> "ce112e750fccda61b32cbaee6cfdc3d1"<br> "f76964e620a4d0d9ae95a0cff1ceb4b9" | 3 |
-|  "win.asyncrat" |  "8459f9cdeaaab6f25f4ee076dfc02770"<br> "caf5b7d0873fbac47a3dd246a9130ffe"<br> "dc95438760cc8ae9e8b9bcbfa6f63da3" | 3 |
 |  "win.snappy_client" |  "21fde5c60081a59f7e3fd62bfc17d568"<br> "677d3e43a0ee2b00841b8e6eacb4f2b3"<br> "76a8df24185e2da245a9ca5b6d1c600d" | 3 |
-|  "win.overlord" |  "d9636241120eb6b38a28e010dc70fa01"<br> "eb77d1b6d71d1efefe59ca8f1275867f" | 2 |
+|  "win.asyncrat" |  "8459f9cdeaaab6f25f4ee076dfc02770"<br> "caf5b7d0873fbac47a3dd246a9130ffe"<br> "dc95438760cc8ae9e8b9bcbfa6f63da3" | 3 |
+|  "win.coinminer" |  "a70784dbd95512ac7f622c5baab68714"<br> "ce112e750fccda61b32cbaee6cfdc3d1"<br> "f76964e620a4d0d9ae95a0cff1ceb4b9" | 3 |
+|  "win.cobalt_strike" |  "9f0c756af7f4a15a6e801aeb364a832d"<br> "a16ee9fb562ceae9db13a9e6e683d2c6" | 2 |
 |  "win.valley_rat" |  "3008ccf1a125b55bcba760e62a9113a3"<br> "69eef609c1e8ee01f4f363b6975f436b" | 2 |
-|  "win.acr_stealer" |  "55ecbb206e755651ddc70297948d8753"<br> "e5bd609ef62c5df53951f7c703f3bc42" | 2 |
-
-<!-- url_summary_start -->
-## 🔗 Top 10 URLs:
-
-Automated URL Collections, grouped by Tags: Every day at 03:00 UTC. Last Updated: 2026-08-20 03:34:45 UTC.
-
-| Tag | Count |
-|-----|-------|
-| 32-bit,elf,mips,Mozi | 2646 |
-| Mozi | 1917 |
-| ua-wget | 1048 |
-| mirai | 1019 |
-| 32-bit,arm,elf,mirai,Mozi | 875 |
-| elf,mirai,ua-wget | 574 |
-| censys,elf,mirai,ua-wget | 333 |
-| Loader,potemkin | 253 |
-| elf,ua-wget | 249 |
-| arm,elf,mirai,opendir,ua-wget | 207 |
-<!-- url_summary_end -->
+|  "win.overlord" |  "d9636241120eb6b38a28e010dc70fa01"<br> "eb77d1b6d71d1efefe59ca8f1275867f" | 2 |

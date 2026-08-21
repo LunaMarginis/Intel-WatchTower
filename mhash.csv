@@ -16,6 +16,7 @@ ioc_value,fk_malware,malware_alias,malware_printable,count
 " ""30748be5ad86a1ffd22743f1cdf3297f"""," ""win.eddiestealer"""," ""None"""," ""EDDIESTEALER""",1
 " ""31099f758cf96c70bde1abf35ad1eff2"""," ""py.venus_stealer"""," ""None"""," ""Venus Stealer""",1
 " ""3126af6b225dbbd7382053e331a25ee5"""," ""win.formbook"""," ""win.xloader"""," ""Formbook""",1
+" ""3212ab713cc6ca91540f471b11d00a2b"""," ""win.wannacryptor"""," ""Wana Decrypt0r",WannaCry,1
 " ""3305180e86a5d0c8a6801e6d0e0c8556"""," ""win.vidar"""," ""None"""," ""Vidar""",1
 " ""39afe33dccf4fdacf20d0a6d3054b859"""," ""py.venus_stealer"""," ""None"""," ""Venus Stealer""",1
 " ""3d9f8ae8d0d4c9238e86a11017cf8ead"""," ""elf.krasue_rat"""," ""None"""," ""Krasue RAT""",1
@@ -53,6 +54,8 @@ ioc_value,fk_malware,malware_alias,malware_printable,count
 " ""9aebfd3ecb2d662dccc70919f1f66205"""," ""win.vidar"""," ""None"""," ""Vidar""",1
 " ""9bd75aced9f1d2dc40ce72b28e9cfa97"""," ""py.venus_stealer"""," ""None"""," ""Venus Stealer""",1
 " ""9e9470746cbecbc2a2829fa5db53ce24"""," ""py.venus_stealer"""," ""None"""," ""Venus Stealer""",1
+" ""9f0c756af7f4a15a6e801aeb364a832d"""," ""win.cobalt_strike"""," ""Agentemis",BEACON,1
+" ""a16ee9fb562ceae9db13a9e6e683d2c6"""," ""win.cobalt_strike"""," ""Agentemis",BEACON,1
 " ""a3379d4a262543b7d3355841b0b2d5f3"""," ""py.venus_stealer"""," ""None"""," ""Venus Stealer""",1
 " ""a573f6f6fe0b8a7db4f8a002271612ee"""," ""win.eddiestealer"""," ""None"""," ""EDDIESTEALER""",1
 " ""a70784dbd95512ac7f622c5baab68714"""," ""win.coinminer"""," ""None"""," ""Coinminer""",1
