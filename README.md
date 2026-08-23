@@ -1,32 +1,18 @@
 # IOC Summary
 
-Automated Hash Collections: Every day at 02:00 UTC. Last Updated: 2026-08-22 02:51:42 UTC
+Automated Hash Collections: Every day at 02:00 UTC. Last Updated: 2026-08-23 02:59:51 UTC
 
 This table shows top 10 malware names with their unique hashes and counts. [For Complete list, check the CSV files]
 
 | Malware Name | ioc_value (Hashes) | Count |
 |--------------|--------------------|-------|
-|  "unknown_rat" |  "b0bc47a7308bd39a5b638781874a3d8e"<br> "ca88a6c055a96e1a6fa47e2586d41d2a"<br> "eba2bbd380b6949a249aba5c3ed13245" | 3 |
-|  "win.vidar" |  "dc7fcc0d7d189555827260b3e4acc96a"<br> "edc8338feddcdc93e69c966d26a8e94e" | 2 |
-|  "py.venus_stealer" |  "cb470ad87c2982fd1d60b2fa6cbe637d" | 1 |
-|  "win.coinminer" |  "9853d168bdc4e85fb0c9d2446b5d13ff" | 1 |
-|  "win.formbook" |  "88602976f7c64499ef40e4972ac17db6" | 1 |
-
-<!-- url_summary_start -->
-## 🔗 Top 10 URLs:
-
-Automated URL Collections, grouped by Tags: Every day at 03:00 UTC. Last Updated: 2026-08-22 03:30:26 UTC.
-
-| Tag | Count |
-|-----|-------|
-| 32-bit,elf,mips,Mozi | 2616 |
-| Mozi | 1914 |
-| ua-wget | 1159 |
-| mirai | 1003 |
-| 32-bit,arm,elf,mirai,Mozi | 853 |
-| elf,mirai,ua-wget | 567 |
-| censys,elf,mirai,ua-wget | 333 |
-| Loader,potemkin | 253 |
-| elf,ua-wget | 220 |
-| arm,elf,mirai,opendir,ua-wget | 210 |
-<!-- url_summary_end -->
+|  "py.venus_stealer" |  "09c991e1f56af909d17f19f0ebef6965"<br> "191f72fca602289760b880eb9d573959"<br> "1d5826c79f047865e675ffd31d92d829"<br> "1e15f05977d0d5ddde505be77dd3b2ef"<br> "1e395ee2e054a17a8e0117a0fe104b20"<br> "23a8d5e176ed683111fe79bdcd435521"<br> "36e9bc475310a4f5572dd4e62ee06cd3"<br> "3887291cd322703465aeb5a65f43eee7"<br> "38d66258740611f96675c49c6bb9f27d"<br> "3b9f15072c31dd119ff9dae2bd21a084"<br> "3c0d3b44d58ce70320bce8aefb49499a"<br> "3e32d60a5fb71b7a658d69b31402934f"<br> "4522587b220a25e4c7d7156790c9f97d"<br> "470c5b26720a738c2b3b686ed2567fa5"<br> "49018ec231c35909dff5ebf51d31d478"<br> "4c4df3c3fa1eebd090d3fdaf90414840"<br> "4d92f9f7bf243b194e4aca8ff85fb570"<br> "4dda8f314cc90279dfbb432eb39a868a"<br> "5380e9b758ebf56f00edd53c2a13aef5"<br> "54abb47f1f95155271296477f028c61e"<br> "5f48794510a5a3418cf042d95ffa13e3"<br> "6382cc926c12e770b027b29b23a724d1"<br> "68cd9101ae8329762157dcc0e138ef6f"<br> "7daba441fc2dd8ea0a384d3d0c9c016d"<br> "81cf6848036a350884231398870e6f8b"<br> "85409b2ac42cfcb53ea6835ea0c9f143"<br> "92f3067f8f1d94cca862777828272ee3"<br> "951f71e07fd49bcd48e8ca76c9c26251"<br> "a629b59531a0780aeca540022274541f"<br> "a6bbd1507bde25eb86d8e62782248d17"<br> "b40366aadc86b16f62ae3b6e25c3ca65"<br> "c71812b9333a66da41f16c26cebd28c0"<br> "cb470ad87c2982fd1d60b2fa6cbe637d"<br> "cdbf10a73965ecc2c73cf27aac159362"<br> "e9e036d2f0d39d32b4211def66dcc35d"<br> "f62ce2042c61e211449cc1d1cc3fca94"<br> "fa5b9ea9f85fe1980f0f5063ce44cc0a"<br> "fae010372ab55addd31e97079a4e1b31"<br> "ffc7dd7ffc6c89b3c0d26180ea256902" | 39 |
+|  "apk.badbox" |  "0fbaa7092204f4b1494e0b840b014774"<br> "1dcf031c40ce456b6a36a00b0acf3d11"<br> "2a64c3efc11bf224aa54f24e876446c9"<br> "3AD4BF5A86D26FFBF09CAE42AF330A98"<br> "412e9243f2981bbea3894254d105b3b8"<br> "44b6b213a6a3f299eaf88e078de95ecb"<br> "67dc78e544ebce16b85dc7c195dfbc58"<br> "6c2e34b30da42085240ede53ab6107d4"<br> "71ab5517f71866279d0d87d37f2ae320"<br> "7a4d3ba2dacccfdda55859a5dfee2671"<br> "89ef78f716a75964539f2db6520be362"<br> "8b5e513144a6138a966ea59e68bf9da2"<br> "9642ae619b3165d23c6349002d1abe24"<br> "a4223ce4288a230d1e6c3ff2c7639045"<br> "b067d5b0dbecbd6498bcdfba45dba77e"<br> "ba27951b4ee1c341f4415d033369ecd3"<br> "bd4d81cd27125ad3d9a114922d468499"<br> "bd80bd3c3d0e4bf6b5b4a825650d01f5"<br> "c6bfb1643ac7474ed8a7b4f96a187fdb"<br> "d63bacd6d6709dd68a10ef9d374c7835"<br> "de77c3303e93c9450424759f1741441c"<br> "e119845877089d6f4b0a70dc7388f316"<br> "e9f3a0dab6949ce2cddab9e0aa80ae1a"<br> "ea24487996eb70c1780922fb3063bcc5"<br> "f0e3f7eba2cde91e2dedb921bab47422"<br> "f8cf8c23ff597700d471fb7767df8bac"<br> "fa831c3c23824b99871163387bcda7ad"<br> "fe71af9ecf174de48d2b2ccc2c15fb04" | 28 |
+|  "win.netwire" |  "1a24321c2ee34cabd7b610da455ea11d"<br> "44b2d61d23b8d0e0517ec156cf952a39"<br> "6c255ef0b62a23e7828f04054e8f3896"<br> "9f6cf57a2791b8c53733f410804dcd1a"<br> "a67819c12c69894357adbec5d970085d"<br> "b69cc5426070fb399791ce6bdc621049"<br> "bce4944eabdb55b2b42df2c5a7bd7683"<br> "df94520df3d218bd7982a7fc40e92530"<br> "ee1ed321e64aee5b57ad715a43c23835" | 9 |
+|  "win.vidar" |  "0344ea912263f13b49d9ad862a88cf4d"<br> "16addb6524e5cf76f4114b0979f715ff"<br> "5dd22e75f4a2814af58c317fa2e2cd92"<br> "60f6b6954afed7de062f392a27ec910d"<br> "6121ab3a7d1449f24971bd16dd854126"<br> "a8b6f506c3465cc8f015edfff552e7f8"<br> "dc7fcc0d7d189555827260b3e4acc96a"<br> "edc8338feddcdc93e69c966d26a8e94e" | 8 |
+|  "win.valley_rat" |  "04e3a5e74513b7cc7eb540940299806e"<br> "58ab824b14b2f31813afeea4caa5bd0d"<br> "6df2733557d5247509c63cbf3e9f9fb1"<br> "8799d7664ef577e5904a49d75c610615"<br> "880c2ae254a73ccc92d747de5993e976"<br> "89f61b8bb4fa4229f6f18fab9e3a0a64"<br> "fcfa826b899ee297df49f4ef756857d2" | 7 |
+|  "win.coinminer" |  "90d5a367d6456e854288cc32e33049b0"<br> "9853d168bdc4e85fb0c9d2446b5d13ff"<br> "a8eedaa9a5d431baf445c8080ac35fda"<br> "cbe0c3c04504d32da3339ba644ff3881"<br> "ee2317eedfe58fb78a2541c2277b8f6a" | 5 |
+|  "unknown_rat" |  "b0bc47a7308bd39a5b638781874a3d8e"<br> "ca88a6c055a96e1a6fa47e2586d41d2a"<br> "e421ad53b169282b04e50e1b9d1faa9e"<br> "eba2bbd380b6949a249aba5c3ed13245" | 4 |
+|  "jar.crossrat" |  "1778b4f8e22bb823376dc908e331acab"<br> "37872e46797e86469ac373f572c4b05e" | 2 |
+|  "win.snappy_client" |  "1467f5f92f91eb363cfaf1c902ffb0a2"<br> "7cdd492f8bf92e342c2671c79baf274d" | 2 |
+|  "win.socks5_systemz" |  "2e939c7a99dbebfbbf1a8c1e0686b53f"<br> "df8969bc674b50844b205bfbe8053ee7" | 2 |
