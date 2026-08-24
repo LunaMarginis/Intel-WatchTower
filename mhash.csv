@@ -1,22 +1,31 @@
 ioc_value,fk_malware,malware_alias,malware_printable,count
+" ""02746f7f86387506be7c67fe1725b4f4"""," ""win.vidar"""," ""None"""," ""Vidar""",1
 " ""0344ea912263f13b49d9ad862a88cf4d"""," ""win.vidar"""," ""None"""," ""Vidar""",1
 " ""04e3a5e74513b7cc7eb540940299806e"""," ""win.valley_rat"""," ""Winos"""," ""ValleyRAT""",1
+" ""092efbe07f739c831b8811c95bd4a506"""," ""win.crystal_ransom"""," ""CrystalRansom"""," ""Crystal Rans0m""",1
 " ""09c991e1f56af909d17f19f0ebef6965"""," ""py.venus_stealer"""," ""None"""," ""Venus Stealer""",1
+" ""0c8ec07a41c4a82c234bf04287fd62a0"""," ""win.snappy_client"""," ""SilabRAT"""," ""SnappyClient""",1
+" ""0d03a3817d5b742f57d943dce6e01dc4"""," ""win.salatstealer"""," ""None"""," ""SalatStealer""",1
 " ""0fbaa7092204f4b1494e0b840b014774"""," ""apk.badbox"""," ""None"""," ""BADBOX""",1
 " ""1158797c8d9ef2696029b1d82e8a9515"""," ""win.arkei_stealer"""," ""ArkeiStealer"""," ""Arkei Stealer""",1
+" ""1316d93667bb04d22ddc89f99adb14a3"""," ""win.vidar"""," ""None"""," ""Vidar""",1
 " ""1467f5f92f91eb363cfaf1c902ffb0a2"""," ""win.snappy_client"""," ""SilabRAT"""," ""SnappyClient""",1
+" ""15045b47099b04256ec19beef96fcb30"""," ""py.venus_stealer"""," ""None"""," ""Venus Stealer""",1
 " ""16addb6524e5cf76f4114b0979f715ff"""," ""win.vidar"""," ""None"""," ""Vidar""",1
 " ""1778b4f8e22bb823376dc908e331acab"""," ""jar.crossrat"""," ""Trupto"""," ""CrossRAT""",1
 " ""191f72fca602289760b880eb9d573959"""," ""py.venus_stealer"""," ""None"""," ""Venus Stealer""",1
 " ""1962408657914463a66f4d8d3d61b7c7"""," ""win.asyncrat"""," ""None"""," ""AsyncRAT""",1
-" ""1a24321c2ee34cabd7b610da455ea11d"""," ""win.netwire"""," ""NetWeird",NetWire,1
 " ""1d5826c79f047865e675ffd31d92d829"""," ""py.venus_stealer"""," ""None"""," ""Venus Stealer""",1
 " ""1dcf031c40ce456b6a36a00b0acf3d11"""," ""apk.badbox"""," ""None"""," ""BADBOX""",1
 " ""1e15f05977d0d5ddde505be77dd3b2ef"""," ""py.venus_stealer"""," ""None"""," ""Venus Stealer""",1
 " ""1e395ee2e054a17a8e0117a0fe104b20"""," ""py.venus_stealer"""," ""None"""," ""Venus Stealer""",1
+" ""20b5814bb246b612cce7d1f4d13669bd"""," ""win.coinminer"""," ""None"""," ""Coinminer""",1
 " ""23a8d5e176ed683111fe79bdcd435521"""," ""py.venus_stealer"""," ""None"""," ""Venus Stealer""",1
 " ""2a64c3efc11bf224aa54f24e876446c9"""," ""apk.badbox"""," ""None"""," ""BADBOX""",1
+" ""2db3fa70d6f6dad930e9239281444f18"""," ""py.venus_stealer"""," ""None"""," ""Venus Stealer""",1
 " ""2e939c7a99dbebfbbf1a8c1e0686b53f"""," ""win.socks5_systemz"""," ""ProxyBox"""," ""Socks5Systemz""",1
+" ""31ac5ef2dc666ab821818fc716d66bf5"""," ""py.venus_stealer"""," ""None"""," ""Venus Stealer""",1
+" ""322d8fe630c940a272603e54f3ac5b46"""," ""win.vidar"""," ""None"""," ""Vidar""",1
 " ""32bcff75191b48284e927db09b0a5fdc"""," ""win.dcrat"""," ""DarkCrystal RAT"""," ""DCRat""",1
 " ""36e9bc475310a4f5572dd4e62ee06cd3"""," ""py.venus_stealer"""," ""None"""," ""Venus Stealer""",1
 " ""37872e46797e86469ac373f572c4b05e"""," ""jar.crossrat"""," ""Trupto"""," ""CrossRAT""",1
@@ -26,95 +35,100 @@ ioc_value,fk_malware,malware_alias,malware_printable,count
 " ""3AD4BF5A86D26FFBF09CAE42AF330A98"""," ""apk.badbox"""," ""None"""," ""BADBOX""",1
 " ""3b9f15072c31dd119ff9dae2bd21a084"""," ""py.venus_stealer"""," ""None"""," ""Venus Stealer""",1
 " ""3c0d3b44d58ce70320bce8aefb49499a"""," ""py.venus_stealer"""," ""None"""," ""Venus Stealer""",1
+" ""3c58fb6eeaf990e39e2f04558125fda2"""," ""win.vidar"""," ""None"""," ""Vidar""",1
 " ""3e32d60a5fb71b7a658d69b31402934f"""," ""py.venus_stealer"""," ""None"""," ""Venus Stealer""",1
+" ""3f9d90923d2d9bba0de4e375d8f3cd11"""," ""py.venus_stealer"""," ""None"""," ""Venus Stealer""",1
 " ""412e9243f2981bbea3894254d105b3b8"""," ""apk.badbox"""," ""None"""," ""BADBOX""",1
-" ""44b2d61d23b8d0e0517ec156cf952a39"""," ""win.netwire"""," ""NetWeird",NetWire,1
+" ""43a2fd70c618f59ef00e86529a3bbfcd"""," ""py.venus_stealer"""," ""None"""," ""Venus Stealer""",1
 " ""44b6b213a6a3f299eaf88e078de95ecb"""," ""apk.badbox"""," ""None"""," ""BADBOX""",1
 " ""4522587b220a25e4c7d7156790c9f97d"""," ""py.venus_stealer"""," ""None"""," ""Venus Stealer""",1
+" ""45c12638098dfeef4df009e59765ea6c"""," ""win.vidar"""," ""None"""," ""Vidar""",1
 " ""470c5b26720a738c2b3b686ed2567fa5"""," ""py.venus_stealer"""," ""None"""," ""Venus Stealer""",1
 " ""49018ec231c35909dff5ebf51d31d478"""," ""py.venus_stealer"""," ""None"""," ""Venus Stealer""",1
 " ""4c4df3c3fa1eebd090d3fdaf90414840"""," ""py.venus_stealer"""," ""None"""," ""Venus Stealer""",1
 " ""4d92f9f7bf243b194e4aca8ff85fb570"""," ""py.venus_stealer"""," ""None"""," ""Venus Stealer""",1
 " ""4dda8f314cc90279dfbb432eb39a868a"""," ""py.venus_stealer"""," ""None"""," ""Venus Stealer""",1
+" ""4f3f9bb347a2a6d2c5b1f35a677f5777"""," ""win.vidar"""," ""None"""," ""Vidar""",1
 " ""5380e9b758ebf56f00edd53c2a13aef5"""," ""py.venus_stealer"""," ""None"""," ""Venus Stealer""",1
 " ""54abb47f1f95155271296477f028c61e"""," ""py.venus_stealer"""," ""None"""," ""Venus Stealer""",1
+" ""569d640788db16fad0c52f294c079c0e"""," ""py.stealler"""," ""None"""," ""stealler""",1
 " ""58ab824b14b2f31813afeea4caa5bd0d"""," ""win.valley_rat"""," ""Winos"""," ""ValleyRAT""",1
 " ""5dd22e75f4a2814af58c317fa2e2cd92"""," ""win.vidar"""," ""None"""," ""Vidar""",1
 " ""5f48794510a5a3418cf042d95ffa13e3"""," ""py.venus_stealer"""," ""None"""," ""Venus Stealer""",1
+" ""5fbeea9f24c9314ef0fdc36245f22054"""," ""win.asyncrat"""," ""None"""," ""AsyncRAT""",1
 " ""60f6b6954afed7de062f392a27ec910d"""," ""win.vidar"""," ""None"""," ""Vidar""",1
 " ""6121ab3a7d1449f24971bd16dd854126"""," ""win.vidar"""," ""None"""," ""Vidar""",1
 " ""62cf91d0883273ad51ef19652e8105ab"""," ""win.stealc"""," ""None"""," ""Stealc""",1
 " ""6382cc926c12e770b027b29b23a724d1"""," ""py.venus_stealer"""," ""None"""," ""Venus Stealer""",1
 " ""67dc78e544ebce16b85dc7c195dfbc58"""," ""apk.badbox"""," ""None"""," ""BADBOX""",1
 " ""68cd9101ae8329762157dcc0e138ef6f"""," ""py.venus_stealer"""," ""None"""," ""Venus Stealer""",1
-" ""6c255ef0b62a23e7828f04054e8f3896"""," ""win.netwire"""," ""NetWeird",NetWire,1
 " ""6c2e34b30da42085240ede53ab6107d4"""," ""apk.badbox"""," ""None"""," ""BADBOX""",1
 " ""6df2733557d5247509c63cbf3e9f9fb1"""," ""win.valley_rat"""," ""Winos"""," ""ValleyRAT""",1
 " ""71ab5517f71866279d0d87d37f2ae320"""," ""apk.badbox"""," ""None"""," ""BADBOX""",1
 " ""734f2038edc0fb655e13004199f9e7da"""," ""win.dcrat"""," ""DarkCrystal RAT"""," ""DCRat""",1
+" ""76055bf5046653c46f41b88b54e59611"""," ""win.coinminer"""," ""None"""," ""Coinminer""",1
 " ""7a4d3ba2dacccfdda55859a5dfee2671"""," ""apk.badbox"""," ""None"""," ""BADBOX""",1
 " ""7cdd492f8bf92e342c2671c79baf274d"""," ""win.snappy_client"""," ""SilabRAT"""," ""SnappyClient""",1
 " ""7daba441fc2dd8ea0a384d3d0c9c016d"""," ""py.venus_stealer"""," ""None"""," ""Venus Stealer""",1
+" ""7e6bc763c08594604d8bd6c2bb55091e"""," ""py.akira_stealer"""," ""None"""," ""Akira Stealer""",1
+" ""7fa7935cb39e9dc9bbd93886c82bdae7"""," ""py.venus_stealer"""," ""None"""," ""Venus Stealer""",1
 " ""81cf6848036a350884231398870e6f8b"""," ""py.venus_stealer"""," ""None"""," ""Venus Stealer""",1
+" ""84e38378eaee827ee86bd112d3a7bc49"""," ""win.snappy_client"""," ""SilabRAT"""," ""SnappyClient""",1
 " ""85409b2ac42cfcb53ea6835ea0c9f143"""," ""py.venus_stealer"""," ""None"""," ""Venus Stealer""",1
 " ""8799d7664ef577e5904a49d75c610615"""," ""win.valley_rat"""," ""Winos"""," ""ValleyRAT""",1
 " ""880c2ae254a73ccc92d747de5993e976"""," ""win.valley_rat"""," ""Winos"""," ""ValleyRAT""",1
-" ""88602976f7c64499ef40e4972ac17db6"""," ""win.formbook"""," ""win.xloader"""," ""Formbook""",1
 " ""89ef78f716a75964539f2db6520be362"""," ""apk.badbox"""," ""None"""," ""BADBOX""",1
 " ""89f61b8bb4fa4229f6f18fab9e3a0a64"""," ""win.valley_rat"""," ""Winos"""," ""ValleyRAT""",1
+" ""8adc5c25b4fe2bfe0fd5d623ade01b76"""," ""py.venus_stealer"""," ""None"""," ""Venus Stealer""",1
 " ""8b5e513144a6138a966ea59e68bf9da2"""," ""apk.badbox"""," ""None"""," ""BADBOX""",1
 " ""8d6c14f5304f7882d5280a39595ef5a6"""," ""win.overlord"""," ""None"""," ""Overlord RAT""",1
+" ""8e7b9a5759e4cd645017aff73c5a0034"""," ""py.akira_stealer"""," ""None"""," ""Akira Stealer""",1
+" ""905c791b2ed300193fbc4248c5bca33d"""," ""win.valley_rat"""," ""Winos"""," ""ValleyRAT""",1
 " ""90d5a367d6456e854288cc32e33049b0"""," ""win.coinminer"""," ""None"""," ""Coinminer""",1
-" ""919d26f0f845dbfa79bcbad25afd7f10"""," ""win.pure_rat"""," ""PureHVNC","ResolverRAT""",1
 " ""92f3067f8f1d94cca862777828272ee3"""," ""py.venus_stealer"""," ""None"""," ""Venus Stealer""",1
+" ""930c53034dadf3898a659e563d8603cc"""," ""win.coinminer"""," ""None"""," ""Coinminer""",1
 " ""93d766dd78be7c3f2a54af0605c89014"""," ""win.stealc"""," ""None"""," ""Stealc""",1
 " ""951f71e07fd49bcd48e8ca76c9c26251"""," ""py.venus_stealer"""," ""None"""," ""Venus Stealer""",1
 " ""9642ae619b3165d23c6349002d1abe24"""," ""apk.badbox"""," ""None"""," ""BADBOX""",1
-" ""9853d168bdc4e85fb0c9d2446b5d13ff"""," ""win.coinminer"""," ""None"""," ""Coinminer""",1
-" ""9f6cf57a2791b8c53733f410804dcd1a"""," ""win.netwire"""," ""NetWeird",NetWire,1
 " ""a4223ce4288a230d1e6c3ff2c7639045"""," ""apk.badbox"""," ""None"""," ""BADBOX""",1
 " ""a629b59531a0780aeca540022274541f"""," ""py.venus_stealer"""," ""None"""," ""Venus Stealer""",1
-" ""a67819c12c69894357adbec5d970085d"""," ""win.netwire"""," ""NetWeird",NetWire,1
 " ""a6bbd1507bde25eb86d8e62782248d17"""," ""py.venus_stealer"""," ""None"""," ""Venus Stealer""",1
+" ""a71f46f1c851b18f397d33530469597e"""," ""win.vidar"""," ""None"""," ""Vidar""",1
 " ""a8b6f506c3465cc8f015edfff552e7f8"""," ""win.vidar"""," ""None"""," ""Vidar""",1
 " ""a8eedaa9a5d431baf445c8080ac35fda"""," ""win.coinminer"""," ""None"""," ""Coinminer""",1
 " ""ad7ff919835856e09be4c41d0d683bdb"""," ""py.creal_stealer"""," ""None"""," ""Creal Stealer""",1
 " ""b067d5b0dbecbd6498bcdfba45dba77e"""," ""apk.badbox"""," ""None"""," ""BADBOX""",1
-" ""b0bc47a7308bd39a5b638781874a3d8e"""," ""unknown_rat"""," ""None"""," ""Unknown RAT""",1
 " ""b40366aadc86b16f62ae3b6e25c3ca65"""," ""py.venus_stealer"""," ""None"""," ""Venus Stealer""",1
-" ""b69cc5426070fb399791ce6bdc621049"""," ""win.netwire"""," ""NetWeird",NetWire,1
 " ""ba27951b4ee1c341f4415d033369ecd3"""," ""apk.badbox"""," ""None"""," ""BADBOX""",1
-" ""bce4944eabdb55b2b42df2c5a7bd7683"""," ""win.netwire"""," ""NetWeird",NetWire,1
 " ""bd4d81cd27125ad3d9a114922d468499"""," ""apk.badbox"""," ""None"""," ""BADBOX""",1
 " ""bd80bd3c3d0e4bf6b5b4a825650d01f5"""," ""apk.badbox"""," ""None"""," ""BADBOX""",1
+" ""bf8bdad0876ea167c165929e0aaa17e2"""," ""win.vidar"""," ""None"""," ""Vidar""",1
+" ""c00f632e3611a91fa7545edc842f2bfd"""," ""win.coinminer"""," ""None"""," ""Coinminer""",1
+" ""c4ed4c72d4e1cdfabeade9a6021d3ac9"""," ""win.valley_rat"""," ""Winos"""," ""ValleyRAT""",1
 " ""c6bfb1643ac7474ed8a7b4f96a187fdb"""," ""apk.badbox"""," ""None"""," ""BADBOX""",1
 " ""c71812b9333a66da41f16c26cebd28c0"""," ""py.venus_stealer"""," ""None"""," ""Venus Stealer""",1
-" ""ca88a6c055a96e1a6fa47e2586d41d2a"""," ""unknown_rat"""," ""None"""," ""Unknown RAT""",1
-" ""cb470ad87c2982fd1d60b2fa6cbe637d"""," ""py.venus_stealer"""," ""None"""," ""Venus Stealer""",1
+" ""c996cc5447ccc6be86aefa2a78b2814f"""," ""win.vidar"""," ""None"""," ""Vidar""",1
 " ""cbe0c3c04504d32da3339ba644ff3881"""," ""win.coinminer"""," ""None"""," ""Coinminer""",1
 " ""cdbf10a73965ecc2c73cf27aac159362"""," ""py.venus_stealer"""," ""None"""," ""Venus Stealer""",1
+" ""ce4ba16956b7c2802e7dba75244e0352"""," ""win.valley_rat"""," ""Winos"""," ""ValleyRAT""",1
 " ""d252e8f0884cdfd7a81c26f2009b7719"""," ""win.acr_stealer"""," ""None"""," ""ACR Stealer""",1
 " ""d475185ce3d373eee45f60824742db13"""," ""win.eddiestealer"""," ""None"""," ""EDDIESTEALER""",1
 " ""d63bacd6d6709dd68a10ef9d374c7835"""," ""apk.badbox"""," ""None"""," ""BADBOX""",1
-" ""dc7fcc0d7d189555827260b3e4acc96a"""," ""win.vidar"""," ""None"""," ""Vidar""",1
 " ""de77c3303e93c9450424759f1741441c"""," ""apk.badbox"""," ""None"""," ""BADBOX""",1
 " ""df8969bc674b50844b205bfbe8053ee7"""," ""win.socks5_systemz"""," ""ProxyBox"""," ""Socks5Systemz""",1
-" ""df94520df3d218bd7982a7fc40e92530"""," ""win.netwire"""," ""NetWeird",NetWire,1
 " ""e119845877089d6f4b0a70dc7388f316"""," ""apk.badbox"""," ""None"""," ""BADBOX""",1
-" ""e421ad53b169282b04e50e1b9d1faa9e"""," ""unknown_rat"""," ""None"""," ""Unknown RAT""",1
 " ""e9e036d2f0d39d32b4211def66dcc35d"""," ""py.venus_stealer"""," ""None"""," ""Venus Stealer""",1
 " ""e9f3a0dab6949ce2cddab9e0aa80ae1a"""," ""apk.badbox"""," ""None"""," ""BADBOX""",1
 " ""ea24487996eb70c1780922fb3063bcc5"""," ""apk.badbox"""," ""None"""," ""BADBOX""",1
-" ""eba2bbd380b6949a249aba5c3ed13245"""," ""unknown_rat"""," ""None"""," ""Unknown RAT""",1
-" ""edc8338feddcdc93e69c966d26a8e94e"""," ""win.vidar"""," ""None"""," ""Vidar""",1
-" ""ee1ed321e64aee5b57ad715a43c23835"""," ""win.netwire"""," ""NetWeird",NetWire,1
 " ""ee2317eedfe58fb78a2541c2277b8f6a"""," ""win.coinminer"""," ""None"""," ""Coinminer""",1
 " ""f0e3f7eba2cde91e2dedb921bab47422"""," ""apk.badbox"""," ""None"""," ""BADBOX""",1
 " ""f62ce2042c61e211449cc1d1cc3fca94"""," ""py.venus_stealer"""," ""None"""," ""Venus Stealer""",1
+" ""f8b2925c5f3ec2cb2fdb9483fec2b2e8"""," ""py.stealler"""," ""None"""," ""stealler""",1
 " ""f8cf8c23ff597700d471fb7767df8bac"""," ""apk.badbox"""," ""None"""," ""BADBOX""",1
 " ""fa5b9ea9f85fe1980f0f5063ce44cc0a"""," ""py.venus_stealer"""," ""None"""," ""Venus Stealer""",1
 " ""fa831c3c23824b99871163387bcda7ad"""," ""apk.badbox"""," ""None"""," ""BADBOX""",1
 " ""fae010372ab55addd31e97079a4e1b31"""," ""py.venus_stealer"""," ""None"""," ""Venus Stealer""",1
 " ""fcfa826b899ee297df49f4ef756857d2"""," ""win.valley_rat"""," ""Winos"""," ""ValleyRAT""",1
 " ""fe71af9ecf174de48d2b2ccc2c15fb04"""," ""apk.badbox"""," ""None"""," ""BADBOX""",1
+" ""ff2a1cc7cdd7b93afc47eed96b214f7e"""," ""win.arkei_stealer"""," ""ArkeiStealer"""," ""Arkei Stealer""",1
 " ""ffc7dd7ffc6c89b3c0d26180ea256902"""," ""py.venus_stealer"""," ""None"""," ""Venus Stealer""",1
