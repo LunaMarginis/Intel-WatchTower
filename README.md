@@ -16,3 +16,22 @@ This table shows top 10 malware names with their unique hashes and counts. [For 
 |  "win.asyncrat" |  "5fbeea9f24c9314ef0fdc36245f22054" | 1 |
 |  "win.arkei_stealer" |  "ff2a1cc7cdd7b93afc47eed96b214f7e" | 1 |
 |  "win.salatstealer" |  "0d03a3817d5b742f57d943dce6e01dc4" | 1 |
+
+<!-- url_summary_start -->
+## 🔗 Top 10 URLs:
+
+Automated URL Collections, grouped by Tags: Every day at 03:00 UTC. Last Updated: 2026-08-25 03:36:33 UTC.
+
+| Tag | Count |
+|-----|-------|
+| 32-bit,elf,mips,Mozi | 2606 |
+| Mozi | 1969 |
+| ua-wget | 1285 |
+| mirai | 1023 |
+| 32-bit,arm,elf,mirai,Mozi | 821 |
+| elf,mirai,ua-wget | 520 |
+| censys,elf,mirai,ua-wget | 370 |
+| arm,elf,mirai,opendir,ua-wget | 209 |
+| elf,ua-wget | 190 |
+| c2-monitor-auto,dropped-by-amadey | 136 |
+<!-- url_summary_end -->
