@@ -16,3 +16,22 @@ This table shows top 10 malware names with their unique hashes and counts. [For 
 |  "win.formbook" |  "2e688af35698aadb14d24e425f5c5e8f"<br> "bf1e808d7e6812bed9d86fd5aea256dd"<br> "e35bf4bd8ed78626b63cb917fb2fd576" | 3 |
 |  "win.njrat" |  "13fe4fd84d2f0fe65fe209c4ee390752"<br> "2f490ac81c015798c477a5d882f425d5"<br> "dee3308c48a52fc15394c3e89221226d" | 3 |
 |  "win.salatstealer" |  "982793e92a09243ed66c378aad812825"<br> "e7722735a7128302b1c430d18a602917" | 2 |
+
+<!-- url_summary_start -->
+## 🔗 Top 10 URLs:
+
+Automated URL Collections, grouped by Tags: Every day at 03:00 UTC. Last Updated: 2026-08-27 13:10:52 UTC.
+
+| Tag | Count |
+|-----|-------|
+| 32-bit,elf,mips,Mozi | 2617 |
+| Mozi | 2079 |
+| ua-wget | 1184 |
+| mirai | 1128 |
+| 32-bit,arm,elf,mirai,Mozi | 793 |
+| elf,mirai,ua-wget | 479 |
+| censys,elf,mirai,ua-wget | 370 |
+| elf,ua-wget | 205 |
+| arm,elf,mirai,opendir,ua-wget | 201 |
+| c2-monitor-auto,dropped-by-amadey | 144 |
+<!-- url_summary_end -->
