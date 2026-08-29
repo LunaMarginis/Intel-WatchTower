@@ -16,3 +16,22 @@ This table shows top 10 malware names with their unique hashes and counts. [For 
 |  "win.quasar_rat" |  "3135bf9c620aea1463c948d1be481493"<br> "3304b81686f03893b0a931f23c6665ba" | 2 |
 |  "py.stealler" |  "57629b1f3807d324e3c51a340228fe5a"<br> "e812e86bc6c3529a1f7b7b7f747e0587" | 2 |
 |  "unknown" |  "365437a77b3c0f1bad9b3c504ad5102a"<br> "46db2652a3d7c10f6d481c1d43af6b40" | 2 |
+
+<!-- url_summary_start -->
+## 🔗 Top 10 URLs:
+
+Automated URL Collections, grouped by Tags: Every day at 03:00 UTC. Last Updated: 2026-08-29 09:26:01 UTC.
+
+| Tag | Count |
+|-----|-------|
+| 32-bit,elf,mips,Mozi | 2528 |
+| Mozi | 1991 |
+| ua-wget | 1145 |
+| mirai | 1047 |
+| 32-bit,arm,elf,mirai,Mozi | 749 |
+| elf,mirai,ua-wget | 481 |
+| censys,elf,mirai,ua-wget | 370 |
+| elf,ua-wget | 207 |
+| arm,elf,mirai,opendir,ua-wget | 185 |
+| c2-monitor-auto,dropped-by-amadey | 149 |
+<!-- url_summary_end -->
