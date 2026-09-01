@@ -14,3 +14,22 @@ This table shows top 10 malware names with their unique hashes and counts. [For 
 |  "py.venus_stealer" |  "c5c38ba91507353b7b68c0086fe53274" | 1 |
 |  "win.stealc" |  "7e03150e97b7d8e181ae4092c55b3b27" | 1 |
 |  "win.luca_stealer" |  "38588342e64c159b60e1530aef1081bc" | 1 |
+
+<!-- url_summary_start -->
+## 🔗 Top 10 URLs:
+
+Automated URL Collections, grouped by Tags: Every day at 03:00 UTC. Last Updated: 2026-09-01 08:00:34 UTC.
+
+| Tag | Count |
+|-----|-------|
+| 32-bit,elf,mips,Mozi | 2406 |
+| Mozi | 1932 |
+| ua-wget | 1098 |
+| mirai | 1098 |
+| 32-bit,arm,elf,mirai,Mozi | 731 |
+| elf,mirai,ua-wget | 500 |
+| censys,elf,mirai,ua-wget | 370 |
+| elf,ua-wget | 215 |
+| arm,elf,mirai,opendir,ua-wget | 177 |
+| c2-monitor-auto,dropped-by-amadey | 148 |
+<!-- url_summary_end -->
