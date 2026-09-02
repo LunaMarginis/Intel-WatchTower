@@ -16,3 +16,22 @@ This table shows top 10 malware names with their unique hashes and counts. [For 
 |  "py.creal_stealer" |  "579933376ffc365ca48eb14046655171" | 1 |
 |  "jar.crossrat" |  "f23fa10c058cd653d5d617308b38b9e4" | 1 |
 |  "apk.loki" |  "fd127ea7d3e1375b723541cdf5d52132" | 1 |
+
+<!-- url_summary_start -->
+## 🔗 Top 10 URLs:
+
+Automated URL Collections, grouped by Tags: Every day at 03:00 UTC. Last Updated: 2026-09-02 07:20:53 UTC.
+
+| Tag | Count |
+|-----|-------|
+| 32-bit,elf,mips,Mozi | 2386 |
+| Mozi | 1892 |
+| mirai | 1103 |
+| ua-wget | 1088 |
+| 32-bit,arm,elf,mirai,Mozi | 710 |
+| elf,mirai,ua-wget | 514 |
+| censys,elf,mirai,ua-wget | 370 |
+| elf,ua-wget | 214 |
+| arm,elf,mirai,opendir,ua-wget | 167 |
+| c2-monitor-auto,dropped-by-amadey | 142 |
+<!-- url_summary_end -->
