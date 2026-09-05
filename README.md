@@ -16,3 +16,22 @@ This table shows top 10 malware names with their unique hashes and counts. [For 
 |  "win.formbook" |  "42cd21e5119193f0b631f87d9c87e36c"<br> "f039b4fd32d47ae406e42f2e01d4bd19" | 2 |
 |  "apk.loki" |  "fd127ea7d3e1375b723541cdf5d52132" | 1 |
 |  "apk.toxic_panda" |  "86cdd96dd22dc0683f4214fe5bc80a53" | 1 |
+
+<!-- url_summary_start -->
+## 🔗 Top 10 URLs:
+
+Automated URL Collections, grouped by Tags: Every day at 03:00 UTC. Last Updated: 2026-09-05 07:07:56 UTC.
+
+| Tag | Count |
+|-----|-------|
+| 32-bit,elf,mips,Mozi | 2251 |
+| Mozi | 1947 |
+| mirai | 1176 |
+| ua-wget | 877 |
+| 32-bit,arm,elf,mirai,Mozi | 704 |
+| elf,mirai,ua-wget | 442 |
+| censys,elf,mirai,ua-wget | 365 |
+| elf,ua-wget | 205 |
+| arm,elf,mirai,opendir,ua-wget | 141 |
+| c2-monitor-auto,dropped-by-amadey | 133 |
+<!-- url_summary_end -->
