@@ -16,3 +16,22 @@ This table shows top 10 malware names with their unique hashes and counts. [For 
 |  "py.venus_stealer" |  "26656db0e80ac987410750f3a81b31cc"<br> "756d63bdd8c9a7e95caadaadb8a2124d"<br> "e728c199f2f1ad356fcbee25a5475c74"<br> "ee12bf94330dbbb5025aae8e1ec908a7"<br> "f4e051ee49a9559f6d71c7699226e3fb" | 5 |
 |  "win.stealc" |  "3838383758c4f2354b1e4aaa6840cc6c"<br> "5bae18cb6cd8ad345b24cbec6b62a4b9"<br> "5bdadffb81a4b1129d1bcc6d416f33cc"<br> "cda39433b0b4980a3aef36c5e371e4d3" | 4 |
 |  "win.salatstealer" |  "6d5c8c407a66625d2e7649c3e0f9e774"<br> "7c39fe30da5975ce24795be089c7a96b"<br> "f0d5edfe3d955106bfe1e00f596a28ba"<br> "fe64471c8633d67764e49a797608bc2a" | 4 |
+
+<!-- url_summary_start -->
+## 🔗 Top 10 URLs:
+
+Automated URL Collections, grouped by Tags: Every day at 03:00 UTC. Last Updated: 2026-09-11 07:30:45 UTC.
+
+| Tag | Count |
+|-----|-------|
+| 32-bit,elf,mips,Mozi | 2190 |
+| Mozi | 1913 |
+| mirai | 1259 |
+| 32-bit,arm,elf,mirai,Mozi | 721 |
+| ua-wget | 494 |
+| elf,mirai,ua-wget | 442 |
+| elf,ua-wget | 170 |
+| c2-monitor-auto,dropped-by-amadey | 121 |
+| botnetdomain,mirai | 77 |
+| elf,mirai | 74 |
+<!-- url_summary_end -->
