@@ -16,3 +16,22 @@ This table shows top 10 malware names with their unique hashes and counts. [For 
 |  "win.masslogger" |  "2fb7862fd236680a78ad8f81e78af336"<br> "384aa970109c968fca540791f3c8210c"<br> "666cccdaddeff034a642409aa45e151c"<br> "8da189f7c2ce6234f1e7ee8f0c33573e"<br> "9dec70452ff18da2864430e1ab25b645"<br> "dc144374ec964585b6b9a1623626af99" | 6 |
 |  "win.asyncrat" |  "115a1aafb4fcab45d56972de88c55e4e"<br> "161cffce699888fd263578084a863522"<br> "1c87823e24223ab11407693f57dda4de"<br> "4afdf3296a9a3b2c96faffadab698fb7"<br> "7d416b5043b39130e356bd387d565f99"<br> "f956def1f761946ea00203df56cd1828" | 6 |
 |  "py.venus_stealer" |  "26814f84f86496ca3915c79ff102e343"<br> "27071718ce19274f91361efb8e46f41e"<br> "5df8a467787199b10ad9fea8f55132a4"<br> "726853438933bbfbac856b58f9b549c2"<br> "7f2cdc427d2c6b815f204066bd1e2aa9"<br> "f19ef8c19bba9dd01d5b820d6fa51648" | 6 |
+
+<!-- url_summary_start -->
+## 🔗 Top 10 URLs:
+
+Automated URL Collections, grouped by Tags: Every day at 03:00 UTC. Last Updated: 2026-09-14 08:08:26 UTC.
+
+| Tag | Count |
+|-----|-------|
+| 32-bit,elf,mips,Mozi | 2320 |
+| Mozi | 1839 |
+| mirai | 1292 |
+| 32-bit,arm,elf,mirai,Mozi | 797 |
+| ua-wget | 364 |
+| elf,mirai,ua-wget | 242 |
+| elf,ua-wget | 174 |
+| c2-monitor-auto,dropped-by-amadey | 112 |
+| elf,mirai | 88 |
+| botnetdomain,mirai | 77 |
+<!-- url_summary_end -->
