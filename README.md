@@ -16,3 +16,22 @@ This table shows top 10 malware names with their unique hashes and counts. [For 
 |  "win.salatstealer" |  "0f984f764812044c4268742c0d6ecf97"<br> "248977b62d5d3c2961fec8e1c2ed5644"<br> "6d5c8c407a66625d2e7649c3e0f9e774"<br> "75cfecbb3316ad279ac4e7fd6dadaa76"<br> "7c39fe30da5975ce24795be089c7a96b"<br> "f0d5edfe3d955106bfe1e00f596a28ba"<br> "fe64471c8633d67764e49a797608bc2a" | 7 |
 |  "win.masslogger" |  "04315abece031e88b063528447cf72b3"<br> "2fb7862fd236680a78ad8f81e78af336"<br> "384aa970109c968fca540791f3c8210c"<br> "666cccdaddeff034a642409aa45e151c"<br> "8da189f7c2ce6234f1e7ee8f0c33573e"<br> "9dec70452ff18da2864430e1ab25b645"<br> "dc144374ec964585b6b9a1623626af99" | 7 |
 |  "win.xworm" |  "622d610c1833e0f63a9292ad2f7668fc"<br> "6fc0f852c5aad2df0bbacb406447b10e"<br> "6ff3cc67b35a5caed0468ea9352506e9"<br> "7843d446531b71cd75f725abda1df21c"<br> "7c84081b3d55fd6c8497b5f980c65909"<br> "ee673a56587c566cdc49d10c5a666348" | 6 |
+
+<!-- url_summary_start -->
+## 🔗 Top 10 URLs:
+
+Automated URL Collections, grouped by Tags: Every day at 03:00 UTC. Last Updated: 2026-09-15 08:03:12 UTC.
+
+| Tag | Count |
+|-----|-------|
+| 32-bit,elf,mips,Mozi | 2287 |
+| Mozi | 1855 |
+| mirai | 1323 |
+| 32-bit,arm,elf,mirai,Mozi | 807 |
+| ua-wget | 364 |
+| elf,mirai,ua-wget | 281 |
+| elf,ua-wget | 212 |
+| c2-monitor-auto,dropped-by-amadey | 106 |
+| elf,mirai | 100 |
+| botnetdomain,mirai | 77 |
+<!-- url_summary_end -->
