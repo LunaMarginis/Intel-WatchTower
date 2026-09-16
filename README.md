@@ -16,3 +16,22 @@ This table shows top 10 malware names with their unique hashes and counts. [For 
 |  "win.gcleaner" |  "03b1a679e1e40da1f07d88f45d03e651"<br> "8638366e9bf35c54ea9dbbc8814c8b3f" | 2 |
 |  "apk.clientor" |  "46a7ca270fdd2cb4744798f3bd5a5d65" | 1 |
 |  "js.ghostblade" |  "ca3090a6ea422c691b6454fc2ac64cc1" | 1 |
+
+<!-- url_summary_start -->
+## 🔗 Top 10 URLs:
+
+Automated URL Collections, grouped by Tags: Every day at 03:00 UTC. Last Updated: 2026-09-16 07:56:55 UTC.
+
+| Tag | Count |
+|-----|-------|
+| 32-bit,elf,mips,Mozi | 2271 |
+| Mozi | 1867 |
+| mirai | 1370 |
+| 32-bit,arm,elf,mirai,Mozi | 819 |
+| ua-wget | 364 |
+| elf,mirai,ua-wget | 324 |
+| elf,ua-wget | 231 |
+| c2-monitor-auto,dropped-by-amadey | 113 |
+| elf,mirai | 100 |
+| botnetdomain,mirai | 77 |
+<!-- url_summary_end -->
