@@ -16,3 +16,22 @@ This table shows top 10 malware names with their unique hashes and counts. [For 
 |  "win.masslogger" |  "04315abece031e88b063528447cf72b3" | 1 |
 |  "win.blackmatter" |  "cc4ee7a96e87e5313e8aa208e2b3c3ea" | 1 |
 |  "win.acr_stealer" |  "68d9d1fafb5beeeda1e47ba880142c6a" | 1 |
+
+<!-- url_summary_start -->
+## 🔗 Top 10 URLs:
+
+Automated URL Collections, grouped by Tags: Every day at 03:00 UTC. Last Updated: 2026-09-17 08:00:38 UTC.
+
+| Tag | Count |
+|-----|-------|
+| 32-bit,elf,mips,Mozi | 2253 |
+| Mozi | 1865 |
+| mirai | 1385 |
+| 32-bit,arm,elf,mirai,Mozi | 838 |
+| elf,mirai,ua-wget | 365 |
+| ua-wget | 340 |
+| elf,ua-wget | 180 |
+| c2-monitor-auto,dropped-by-amadey | 110 |
+| elf,mirai | 100 |
+| botnetdomain,mirai | 77 |
+<!-- url_summary_end -->
