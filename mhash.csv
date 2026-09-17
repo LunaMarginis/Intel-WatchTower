@@ -1,70 +1,34 @@
 ioc_value,fk_malware,malware_alias,malware_printable,count
 " ""00a5a0110d71b31d9d1a5bc45ffd60e2"""," ""win.vidar"""," ""None"""," ""Vidar""",1
-" ""03b1a679e1e40da1f07d88f45d03e651"""," ""win.gcleaner"""," ""None"""," ""GCleaner""",1
 " ""04315abece031e88b063528447cf72b3"""," ""win.masslogger"""," ""None"""," ""MASS Logger""",1
 " ""146e4a2f79bce93d913464cce041a010"""," ""win.valley_rat"""," ""Winos"""," ""ValleyRAT""",1
 " ""14f3e9dd56087f4e93d2435eaa8e8372"""," ""win.vidar"""," ""None"""," ""Vidar""",1
 " ""15526762d170bb1fc108dfc84e00e9a3"""," ""win.valley_rat"""," ""Winos"""," ""ValleyRAT""",1
 " ""16c0c1353f228f7b02d748dba0c88d74"""," ""win.vidar"""," ""None"""," ""Vidar""",1
 " ""1ca089a1c143c56fb078381f8a8afe10"""," ""win.valley_rat"""," ""Winos"""," ""ValleyRAT""",1
-" ""1e6554b354c80d2206444e71567bc9b2"""," ""win.sigloader"""," ""None"""," ""SigLoader""",1
-" ""1f655924f90d0dd0e7a53d905f153221"""," ""win.sigloader"""," ""None"""," ""SigLoader""",1
 " ""210dec80108947825532a4d552b2c871"""," ""win.vidar"""," ""None"""," ""Vidar""",1
-" ""27071718ce19274f91361efb8e46f41e"""," ""py.venus_stealer"""," ""None"""," ""Venus Stealer""",1
 " ""2802ea1cdae9c7fa53102624db92edb3"""," ""win.valley_rat"""," ""Winos"""," ""ValleyRAT""",1
-" ""3a422da1c7a6d1e70cf066b71d4c5544"""," ""win.stealc"""," ""None"""," ""Stealc""",1
-" ""4211f5d4d9264c88206fe09564fb41c5"""," ""win.sigloader"""," ""None"""," ""SigLoader""",1
-" ""42418e61eb3496cfc66c15efb1a9ce42"""," ""win.sigloader"""," ""None"""," ""SigLoader""",1
-" ""43acf807b990fdecf4df70cdecbae471"""," ""win.vidar"""," ""None"""," ""Vidar""",1
-" ""43f40c6b5f12c82e6017ddb3af33d3ac"""," ""win.sigloader"""," ""None"""," ""SigLoader""",1
-" ""4461e5f60246a55d3388173bba071d81"""," ""win.sigloader"""," ""None"""," ""SigLoader""",1
-" ""46a7ca270fdd2cb4744798f3bd5a5d65"""," ""apk.clientor"""," ""None"""," ""Clientor""",1
+" ""2cc7d157008e769fbd7cf44b3a36798b"""," ""win.coinminer"""," ""None"""," ""Coinminer""",1
 " ""49fcc8e6da43194c34114fa0785ad5a8"""," ""osx.xagent"""," ""None"""," ""X-Agent""",1
-" ""4a88c4a8fd4ae358387fe70e97e93a1a"""," ""win.runningrat"""," ""running_rat"""," ""Running RAT""",1
 " ""4acdad3a642ca279d268f9bc225ac56e"""," ""win.coinminer"""," ""None"""," ""Coinminer""",1
-" ""5297d2a177b3f632ff3c8e81555beb56"""," ""win.sigloader"""," ""None"""," ""SigLoader""",1
-" ""58eadcc3e89bed96bdc171d7ce9d36df"""," ""win.acr_stealer"""," ""None"""," ""ACR Stealer""",1
-" ""5df8a467787199b10ad9fea8f55132a4"""," ""py.venus_stealer"""," ""None"""," ""Venus Stealer""",1
+" ""5f109e7bb3df4dea81946f2f853da288"""," ""win.pulsar_rat"""," ""None"""," ""Pulsar RAT""",1
 " ""61d2dcf9fe9e9b0809f33c894cd91d50"""," ""win.vidar"""," ""None"""," ""Vidar""",1
 " ""622d610c1833e0f63a9292ad2f7668fc"""," ""win.xworm"""," ""None"""," ""XWorm""",1
 " ""65f23aadb5ef431fc71cae0c2c01701e"""," ""win.valley_rat"""," ""Winos"""," ""ValleyRAT""",1
-" ""6766faf0dceb1739b92f79df5dbd360d"""," ""win.vidar"""," ""None"""," ""Vidar""",1
 " ""68d9d1fafb5beeeda1e47ba880142c6a"""," ""win.acr_stealer"""," ""None"""," ""ACR Stealer""",1
-" ""71b98686e02e0f5317cbe2b1e2856d69"""," ""py.venus_stealer"""," ""None"""," ""Venus Stealer""",1
-" ""726853438933bbfbac856b58f9b549c2"""," ""py.venus_stealer"""," ""None"""," ""Venus Stealer""",1
-" ""72b4cbacd5e0f967cda3a9adfd04a136"""," ""win.snappy_client"""," ""SilabRAT"""," ""SnappyClient""",1
-" ""75cfecbb3316ad279ac4e7fd6dadaa76"""," ""win.salatstealer"""," ""None"""," ""SalatStealer""",1
-" ""76774175af532ce2474cc0b5715ea5a4"""," ""win.vidar"""," ""None"""," ""Vidar""",1
-" ""774ef6bc2f8625205611ced30bb4eee4"""," ""win.coinminer"""," ""None"""," ""Coinminer""",1
-" ""7bcf228c5f9acc5fce436dd87d6cfff7"""," ""win.sigloader"""," ""None"""," ""SigLoader""",1
-" ""7f2cdc427d2c6b815f204066bd1e2aa9"""," ""py.venus_stealer"""," ""None"""," ""Venus Stealer""",1
-" ""82bbc9eb600a2c9b13ca9cd19bb29158"""," ""win.sigloader"""," ""None"""," ""SigLoader""",1
-" ""8409fb4eb2c25721555a20bb5b11f6e1"""," ""win.vidar"""," ""None"""," ""Vidar""",1
-" ""8638366e9bf35c54ea9dbbc8814c8b3f"""," ""win.gcleaner"""," ""None"""," ""GCleaner""",1
+" ""87b76a60ba7c474dbf8f689df2808e1a"""," ""win.pulsar_rat"""," ""None"""," ""Pulsar RAT""",1
 " ""895e427449556e15d357670e9e499dcb"""," ""jar.crossrat"""," ""Trupto"""," ""CrossRAT""",1
-" ""89e8142db77ae78017d70bee910bf37c"""," ""win.sigloader"""," ""None"""," ""SigLoader""",1
-" ""9c4f86582a8186f10f9c33a712f38c4c"""," ""jar.crossrat"""," ""Trupto"""," ""CrossRAT""",1
 " ""9d56be0a712cfcf3dd4338156269acb0"""," ""win.valley_rat"""," ""Winos"""," ""ValleyRAT""",1
 " ""9fdb24226fb9c26e2032d51e503d9314"""," ""win.vidar"""," ""None"""," ""Vidar""",1
-" ""a3c77141d07b9c01db06191a3fa0382b"""," ""win.sigloader"""," ""None"""," ""SigLoader""",1
 " ""a43e97db7261b728db28feeb43c32421"""," ""win.vidar"""," ""None"""," ""Vidar""",1
 " ""acd3229d434a1f6f013e68e3b83404d9"""," ""win.vidar"""," ""None"""," ""Vidar""",1
-" ""ade728b0cb639b612376ca8938c8f997"""," ""win.sigloader"""," ""None"""," ""SigLoader""",1
-" ""b0fdb40d42afdc880bec986cd6544f3e"""," ""win.sigloader"""," ""None"""," ""SigLoader""",1
-" ""b63c7bff23cbbde6c98971012fe4202a"""," ""win.yibackdoor"""," ""None"""," ""YiBackdoor""",1
 " ""b98605e011d192ae414588870af2bbd1"""," ""win.valley_rat"""," ""Winos"""," ""ValleyRAT""",1
 " ""b99701d7d09a46bbd40fc1b778c751fe"""," ""win.coinminer"""," ""None"""," ""Coinminer""",1
-" ""be27e7f9638ffdb00fea6153fb7e5c87"""," ""win.sigloader"""," ""None"""," ""SigLoader""",1
 " ""be41cf7a1e6f096175aae247e48cb98c"""," ""win.coinminer"""," ""None"""," ""Coinminer""",1
-" ""c3a9a58d2cf4420197ebcf473a2006a2"""," ""win.sigloader"""," ""None"""," ""SigLoader""",1
 " ""c44c1362f1afd034b7f7dc32ab0b6b07"""," ""win.vidar"""," ""None"""," ""Vidar""",1
-" ""c4d06da33cdaa942921ce0f765da40a4"""," ""win.acr_stealer"""," ""None"""," ""ACR Stealer""",1
 " ""c9e024fa97e1551e3808405b7112207e"""," ""win.valley_rat"""," ""Winos"""," ""ValleyRAT""",1
-" ""c9fa0af33e676367a0ddf4c20d766483"""," ""win.vidar"""," ""None"""," ""Vidar""",1
 " ""ca3090a6ea422c691b6454fc2ac64cc1"""," ""js.ghostblade"""," ""None"""," ""GHOSTBLADE""",1
 " ""cc4ee7a96e87e5313e8aa208e2b3c3ea"""," ""win.blackmatter"""," ""None"""," ""BlackMatter""",1
-" ""d47468de4567fc9fc2194978ac49c953"""," ""win.vidar"""," ""None"""," ""Vidar""",1
-" ""d9debefbcf7a77436bb62a9af5dd19bd"""," ""win.sigloader"""," ""None"""," ""SigLoader""",1
+" ""da168c3ff95c749beec0a2f29a1e6b82"""," ""win.vidar"""," ""None"""," ""Vidar""",1
 " ""f4cb26da786b7dcf513ef3386086b566"""," ""win.valley_rat"""," ""Winos"""," ""ValleyRAT""",1
-" ""f90e1a8fac7c355b7545a922be728151"""," ""win.acr_stealer"""," ""None"""," ""ACR Stealer""",1
-" ""f9c919d1142673935421d2276b736131"""," ""win.acr_stealer"""," ""None"""," ""ACR Stealer""",1
+" ""f9e95a1e1fa3f3aebfc802c6c8e6a2eb"""," ""win.pulsar_rat"""," ""None"""," ""Pulsar RAT""",1
