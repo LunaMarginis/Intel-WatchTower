@@ -1,30 +1,21 @@
 ioc_value,fk_malware,malware_alias,malware_printable,count
-" ""00a5a0110d71b31d9d1a5bc45ffd60e2"""," ""win.vidar"""," ""None"""," ""Vidar""",1
-" ""04315abece031e88b063528447cf72b3"""," ""win.masslogger"""," ""None"""," ""MASS Logger""",1
 " ""0958ba3a7e13502ab3582b76c42b0af3"""," ""jar.crossrat"""," ""Trupto"""," ""CrossRAT""",1
 " ""0f0813c1e7e1787d105f8904243200f6"""," ""win.arkei_stealer"""," ""ArkeiStealer"""," ""Arkei Stealer""",1
 " ""113a7f0c492babbd0450e7b6da970292"""," ""win.vidar"""," ""None"""," ""Vidar""",1
-" ""146e4a2f79bce93d913464cce041a010"""," ""win.valley_rat"""," ""Winos"""," ""ValleyRAT""",1
-" ""14f3e9dd56087f4e93d2435eaa8e8372"""," ""win.vidar"""," ""None"""," ""Vidar""",1
-" ""15526762d170bb1fc108dfc84e00e9a3"""," ""win.valley_rat"""," ""Winos"""," ""ValleyRAT""",1
-" ""16c0c1353f228f7b02d748dba0c88d74"""," ""win.vidar"""," ""None"""," ""Vidar""",1
-" ""1ca089a1c143c56fb078381f8a8afe10"""," ""win.valley_rat"""," ""Winos"""," ""ValleyRAT""",1
+" ""1b715ec1eeee448293ed01ce8a347588"""," ""win.vshell"""," ""None"""," ""VShell""",1
 " ""219abeb37923d6d4b299dd24bda92edc"""," ""win.valley_rat"""," ""Winos"""," ""ValleyRAT""",1
-" ""2802ea1cdae9c7fa53102624db92edb3"""," ""win.valley_rat"""," ""Winos"""," ""ValleyRAT""",1
 " ""28baaf2707ec92396fe38b2caf451c94"""," ""win.vidar"""," ""None"""," ""Vidar""",1
 " ""2a3d94121e5ffa782cccedda093f1e4e"""," ""win.valley_rat"""," ""Winos"""," ""ValleyRAT""",1
 " ""2cc7d157008e769fbd7cf44b3a36798b"""," ""win.coinminer"""," ""None"""," ""Coinminer""",1
 " ""309ee21b05da4e684de79540bb25b330"""," ""win.valley_rat"""," ""Winos"""," ""ValleyRAT""",1
+" ""353637292a6e6533a1fccfe2f4ddc6b7"""," ""win.vshell"""," ""None"""," ""VShell""",1
 " ""3a9a55b6669f56bc6ed97d08cf8785ed"""," ""win.valley_rat"""," ""Winos"""," ""ValleyRAT""",1
-" ""4acdad3a642ca279d268f9bc225ac56e"""," ""win.coinminer"""," ""None"""," ""Coinminer""",1
-" ""5f109e7bb3df4dea81946f2f853da288"""," ""win.pulsar_rat"""," ""None"""," ""Pulsar RAT""",1
-" ""61d2dcf9fe9e9b0809f33c894cd91d50"""," ""win.vidar"""," ""None"""," ""Vidar""",1
-" ""622d610c1833e0f63a9292ad2f7668fc"""," ""win.xworm"""," ""None"""," ""XWorm""",1
-" ""68d9d1fafb5beeeda1e47ba880142c6a"""," ""win.acr_stealer"""," ""None"""," ""ACR Stealer""",1
-" ""87b76a60ba7c474dbf8f689df2808e1a"""," ""win.pulsar_rat"""," ""None"""," ""Pulsar RAT""",1
-" ""895e427449556e15d357670e9e499dcb"""," ""jar.crossrat"""," ""Trupto"""," ""CrossRAT""",1
-" ""9fdb24226fb9c26e2032d51e503d9314"""," ""win.vidar"""," ""None"""," ""Vidar""",1
-" ""a43e97db7261b728db28feeb43c32421"""," ""win.vidar"""," ""None"""," ""Vidar""",1
+" ""6269801c765a900ba0678162abff0927"""," ""win.vshell"""," ""None"""," ""VShell""",1
+" ""667f059cf22e7a4f6c26ba015dfe0229"""," ""win.vshell"""," ""None"""," ""VShell""",1
+" ""6c668caae7b26fc11c9ad16fea31c44b"""," ""win.vshell"""," ""None"""," ""VShell""",1
+" ""7e4a84e95d63b37384ed8206c941c1db"""," ""win.vshell"""," ""None"""," ""VShell""",1
+" ""7f914bc68837c62d4491bef8a9571686"""," ""win.vshell"""," ""None"""," ""VShell""",1
+" ""9ca3e03fd11b0fa819a8bbd2446eb190"""," ""win.vshell"""," ""None"""," ""VShell""",1
 " ""a4d82d842f1b42e49b1809c574385789"""," ""win.valley_rat"""," ""Winos"""," ""ValleyRAT""",1
 " ""aaa55d5c516e18e8d785f7dde08dd3c8"""," ""win.valley_rat"""," ""Winos"""," ""ValleyRAT""",1
 " ""ae26928df8ab313b5040563ac373b0e7"""," ""win.valley_rat"""," ""Winos"""," ""ValleyRAT""",1
@@ -33,12 +24,13 @@ ioc_value,fk_malware,malware_alias,malware_printable,count
 " ""b99701d7d09a46bbd40fc1b778c751fe"""," ""win.coinminer"""," ""None"""," ""Coinminer""",1
 " ""bd44a6617c3d5b5a8bcdea18d1b8bc0f"""," ""win.vidar"""," ""None"""," ""Vidar""",1
 " ""bf9f581fdc6b31ff7e5de3c56cd10619"""," ""win.valley_rat"""," ""Winos"""," ""ValleyRAT""",1
+" ""bfde4ce59c001e81285fa47894d33c9c"""," ""win.vshell"""," ""None"""," ""VShell""",1
 " ""c2c7b32b2c38a2d7f80ee7e0b5616ec4"""," ""win.valley_rat"""," ""Winos"""," ""ValleyRAT""",1
-" ""c9e024fa97e1551e3808405b7112207e"""," ""win.valley_rat"""," ""Winos"""," ""ValleyRAT""",1
-" ""ca3090a6ea422c691b6454fc2ac64cc1"""," ""js.ghostblade"""," ""None"""," ""GHOSTBLADE""",1
 " ""cf3b4884fbdd114d080b331971f94f8e"""," ""win.vidar"""," ""None"""," ""Vidar""",1
 " ""cf736f505376454b36d7dba77ad898d4"""," ""win.vidar"""," ""None"""," ""Vidar""",1
 " ""da168c3ff95c749beec0a2f29a1e6b82"""," ""win.vidar"""," ""None"""," ""Vidar""",1
+" ""e4af26495ed4dcd0aeaffeab4ef41cd0"""," ""win.vshell"""," ""None"""," ""VShell""",1
 " ""f2719ab750bcafe04a15d5e4b814e155"""," ""win.vidar"""," ""None"""," ""Vidar""",1
 " ""f895b573b03d052a0b3ae4e0c53c222d"""," ""win.vidar"""," ""None"""," ""Vidar""",1
-" ""f9e95a1e1fa3f3aebfc802c6c8e6a2eb"""," ""win.pulsar_rat"""," ""None"""," ""Pulsar RAT""",1
+" ""f89ed9250192ffe1e3971aab7d7852f5"""," ""win.vshell"""," ""None"""," ""VShell""",1
+" ""fdd144d91afd66526f7ec1de3444241e"""," ""win.vshell"""," ""None"""," ""VShell""",1
