@@ -16,3 +16,22 @@ This table shows top 10 malware names with their unique hashes and counts. [For 
 |  "elf.snowlight" |  "7062cc4d436c2e744e9aa321f469104e" | 1 |
 |  "elf.leethozer" |  "fa02c783061b979419a4fa42adb8234b" | 1 |
 |  "apk.clipper" |  "5ac60a7ae01eb945facb9c09820d1a31" | 1 |
+
+<!-- url_summary_start -->
+## 🔗 Top 10 URLs:
+
+Automated URL Collections, grouped by Tags: Every day at 03:00 UTC. Last Updated: 2026-09-22 07:58:21 UTC.
+
+| Tag | Count |
+|-----|-------|
+| 32-bit,elf,mips,Mozi | 2119 |
+| Mozi | 2096 |
+| mirai | 1794 |
+| 32-bit,arm,elf,mirai,Mozi | 889 |
+| elf,mirai,ua-wget | 504 |
+| elf,ua-wget | 230 |
+| 176-65-134-121-8080,elf,mirai,ua-wget | 119 |
+| c2-monitor-auto,dropped-by-amadey | 108 |
+| elf,mirai | 100 |
+| ua-wget | 88 |
+<!-- url_summary_end -->
