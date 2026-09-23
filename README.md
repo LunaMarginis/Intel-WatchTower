@@ -16,3 +16,22 @@ This table shows top 10 malware names with their unique hashes and counts. [For 
 |  "win.vidar" |  "3d2debbfcd7317c0f8fb17a87107165b"<br> "3e26157a7c88e34cfed41c1e0ee85c93" | 2 |
 |  "win.luca_stealer" |  "140b745c36195caa6e56c11898522ab0"<br> "c157a489271a6c3422c549ddb7ff8b89" | 2 |
 |  "py.creal_stealer" |  "ee80f6462e667eaedac1d1303aa44192" | 1 |
+
+<!-- url_summary_start -->
+## 🔗 Top 10 URLs:
+
+Automated URL Collections, grouped by Tags: Every day at 03:00 UTC. Last Updated: 2026-09-23 07:59:51 UTC.
+
+| Tag | Count |
+|-----|-------|
+| Mozi | 2196 |
+| 32-bit,elf,mips,Mozi | 2052 |
+| mirai | 1899 |
+| 32-bit,arm,elf,mirai,Mozi | 894 |
+| elf,mirai,ua-wget | 505 |
+| elf,ua-wget | 230 |
+| 176-65-134-121-8080,elf,mirai,ua-wget | 119 |
+| c2-monitor-auto,dropped-by-amadey | 104 |
+| elf,mirai | 100 |
+| ua-wget | 88 |
+<!-- url_summary_end -->
