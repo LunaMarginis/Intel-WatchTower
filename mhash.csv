@@ -1,15 +1,16 @@
 ioc_value,fk_malware,malware_alias,malware_printable,count
+" ""0c7dd3b979c3fdeba56c6ae312345548"""," ""jar.crossrat"""," ""Trupto"""," ""CrossRAT""",1
 " ""137ce92053ba81fb406fd00dc86abbf6"""," ""win.coinminer"""," ""None"""," ""Coinminer""",1
 " ""140b745c36195caa6e56c11898522ab0"""," ""win.luca_stealer"""," ""None"""," ""Luca Stealer""",1
 " ""14d1d1e2ffe3f28ec289be494ca8acb8"""," ""win.vshell"""," ""None"""," ""VShell""",1
 " ""16223a15bbd3368f8201420e2787cb09"""," ""win.valley_rat"""," ""Winos"""," ""ValleyRAT""",1
+" ""1ca26b57598f79603d7e4da730c98965"""," ""win.dboxagent"""," ""None"""," ""DBoxAgent""",1
 " ""1fdeea7b4e90fb7ae24279d44818ae33"""," ""win.asyncrat"""," ""None"""," ""AsyncRAT""",1
 " ""204d2a41920c68f78e996daaf069c722"""," ""win.formbook"""," ""win.xloader"""," ""Formbook""",1
 " ""26c0130537d14afcacdde5779d049d84"""," ""win.masslogger"""," ""None"""," ""MASS Logger""",1
 " ""31a715d2d44448b55d9691fa0301b9f6"""," ""win.logedrut"""," ""None"""," ""Logedrut""",1
 " ""351eed6919adf842104ec8a51528c795"""," ""win.valley_rat"""," ""Winos"""," ""ValleyRAT""",1
 " ""39ceeb8fd9a17098092434f43edaed18"""," ""win.logedrut"""," ""None"""," ""Logedrut""",1
-" ""3bac388c6f1d1e79944780454f5482f4"""," ""win.coinminer"""," ""None"""," ""Coinminer""",1
 " ""3d2debbfcd7317c0f8fb17a87107165b"""," ""win.vidar"""," ""None"""," ""Vidar""",1
 " ""3e26157a7c88e34cfed41c1e0ee85c93"""," ""win.vidar"""," ""None"""," ""Vidar""",1
 " ""42206a2575450ca372af187bd5a9167f"""," ""apk.clipper"""," ""None"""," ""Clipper""",1
@@ -17,18 +18,21 @@ ioc_value,fk_malware,malware_alias,malware_printable,count
 " ""45fdfc4903ce65f35042320cdaeb45ae"""," ""py.stealler"""," ""None"""," ""stealler""",1
 " ""4729d2eb5d04baebd30f88a84a5b7f07"""," ""win.valley_rat"""," ""Winos"""," ""ValleyRAT""",1
 " ""52924fe766055fbb3b58e1978076e2e6"""," ""win.formbook"""," ""win.xloader"""," ""Formbook""",1
+" ""55d635733571cf404f3af64646dc97e9"""," ""win.gcleaner"""," ""None"""," ""GCleaner""",1
 " ""56e1ff3671e6755f234f4c4847090f7f"""," ""win.salatstealer"""," ""None"""," ""SalatStealer""",1
 " ""59043e711f39d035a0dfc894a948e81d"""," ""win.vshell"""," ""None"""," ""VShell""",1
 " ""5c84cc24fc6c7feb21bc68b3c84d686f"""," ""win.krakenkeylogger"""," ""None"""," ""KrakenKeylogger""",1
+" ""6200240443329003bc9e2b3ddfbe34da"""," ""win.valley_rat"""," ""Winos"""," ""ValleyRAT""",1
 " ""74e859da6c2d1c961af718b97873c564"""," ""win.logedrut"""," ""None"""," ""Logedrut""",1
+" ""78ad2cce134fd6e9819489fabdfeffa1"""," ""win.coinminer"""," ""None"""," ""Coinminer""",1
 " ""7c2b5d3b7535da03eeecb3dacafef353"""," ""win.xworm"""," ""None"""," ""XWorm""",1
 " ""8075db3747de48b073caf66e04a8f7c8"""," ""win.flesh_stealer"""," ""None"""," ""Flesh Stealer""",1
 " ""833ccad990c6f300f761dde5a8349cf4"""," ""win.coinminer"""," ""None"""," ""Coinminer""",1
+" ""833cdd365d2dd29832a711dc2da5a584"""," ""win.logedrut"""," ""None"""," ""Logedrut""",1
 " ""854ffcb31e2062156f47a9653c5ac3cf"""," ""py.venus_stealer"""," ""None"""," ""Venus Stealer""",1
 " ""876b3d66a85a25b1cdb566ab0454ad1e"""," ""win.asyncrat"""," ""None"""," ""AsyncRAT""",1
 " ""8b412017ea27ddf94c4bd31b70588969"""," ""win.formbook"""," ""win.xloader"""," ""Formbook""",1
 " ""978d89575db96b5fab1fcd7dca36cb21"""," ""win.guidloader"""," ""None"""," ""GUIDLOADER""",1
-" ""99f5be9f0047403db9afcda21b33ad3e"""," ""win.coinminer"""," ""None"""," ""Coinminer""",1
 " ""9bbec7748a0426802a46456d50d6d768"""," ""win.vshell"""," ""None"""," ""VShell""",1
 " ""9eabd76292ffbd379008775949032092"""," ""win.vidar"""," ""None"""," ""Vidar""",1
 " ""a72ce90402a259277d467c80b06acf64"""," ""elf.leethozer"""," ""None"""," ""LeetHozer""",1
@@ -37,9 +41,14 @@ ioc_value,fk_malware,malware_alias,malware_printable,count
 " ""b8466d751faa6f9b65a47ef57cfd258d"""," ""apk.wolf_rat"""," ""None"""," ""WolfRAT""",1
 " ""bcc375092546b5fdcf3bb3f48dd21e91"""," ""elf.leethozer"""," ""None"""," ""LeetHozer""",1
 " ""c157a489271a6c3422c549ddb7ff8b89"""," ""win.luca_stealer"""," ""None"""," ""Luca Stealer""",1
-" ""cfa1c609d1596ca066c6c6e9fce1ad44"""," ""ps1.phonyc2"""," ""None"""," ""PhonyC2""",1
+" ""c705fea2fd2e6c119c1138f1b74cd798"""," ""win.svcstealer"""," ""None"""," ""SVCStealer""",1
+" ""c87cdff96cf2f30bd7665a151e6ee3a5"""," ""win.valley_rat"""," ""Winos"""," ""ValleyRAT""",1
+" ""c9dd06b54122a3c7b27299720b403a92"""," ""win.valley_rat"""," ""Winos"""," ""ValleyRAT""",1
+" ""cd4247e33148b91be70282885447f757"""," ""win.valley_rat"""," ""Winos"""," ""ValleyRAT""",1
+" ""dd6920d9209ea1cdcbb9be9e2e605d57"""," ""win.valley_rat"""," ""Winos"""," ""ValleyRAT""",1
 " ""e0cee01f0387179a8a9cb85323c56fe5"""," ""py.venus_stealer"""," ""None"""," ""Venus Stealer""",1
 " ""e109149c37152c167818d22b4731a433"""," ""py.venus_stealer"""," ""None"""," ""Venus Stealer""",1
+" ""e629a420112f2bcb593f5467a362a91a"""," ""win.shimrat"""," ""None"""," ""Shim RAT""",1
 " ""e7b918320c08c51bf439c7cf7d052968"""," ""win.valley_rat"""," ""Winos"""," ""ValleyRAT""",1
 " ""eb16b4f96693d5dca59711e8350bdad8"""," ""win.logedrut"""," ""None"""," ""Logedrut""",1
 " ""ef57e1c40c1d2394552e43c0c48d63f1"""," ""js.ghostblade"""," ""None"""," ""GHOSTBLADE""",1
