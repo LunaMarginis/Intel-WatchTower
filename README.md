@@ -16,3 +16,22 @@ This table shows top 10 malware names with their unique hashes and counts. [For 
 |  "elf.leethozer" |  "a72ce90402a259277d467c80b06acf64"<br> "bcc375092546b5fdcf3bb3f48dd21e91"<br> "fa02c783061b979419a4fa42adb8234b" | 3 |
 |  "win.asyncrat" |  "1fdeea7b4e90fb7ae24279d44818ae33"<br> "876b3d66a85a25b1cdb566ab0454ad1e" | 2 |
 |  "win.luca_stealer" |  "140b745c36195caa6e56c11898522ab0"<br> "c157a489271a6c3422c549ddb7ff8b89" | 2 |
+
+<!-- url_summary_start -->
+## 🔗 Top 10 URLs:
+
+Automated URL Collections, grouped by Tags: Every day at 03:00 UTC. Last Updated: 2026-09-26 08:01:43 UTC.
+
+| Tag | Count |
+|-----|-------|
+| Mozi | 2452 |
+| mirai | 2088 |
+| 32-bit,elf,mips,Mozi | 1903 |
+| 32-bit,arm,elf,mirai,Mozi | 881 |
+| elf,mirai,ua-wget | 549 |
+| elf,ua-wget | 256 |
+| 176-65-134-121-8080,elf,mirai,ua-wget | 119 |
+| elf,mirai | 100 |
+| c2-monitor-auto,dropped-by-amadey | 90 |
+| botnetdomain,mirai | 77 |
+<!-- url_summary_end -->
