@@ -16,3 +16,22 @@ This table shows top 10 malware names with their unique hashes and counts. [For 
 |  "py.stealler" |  "45fdfc4903ce65f35042320cdaeb45ae" | 1 |
 |  "apk.wolf_rat" |  "b8466d751faa6f9b65a47ef57cfd258d" | 1 |
 |  "apk.clipper" |  "42206a2575450ca372af187bd5a9167f" | 1 |
+
+<!-- url_summary_start -->
+## 🔗 Top 10 URLs:
+
+Automated URL Collections, grouped by Tags: Every day at 03:00 UTC. Last Updated: 2026-09-27 08:36:54 UTC.
+
+| Tag | Count |
+|-----|-------|
+| Mozi | 2551 |
+| mirai | 2173 |
+| 32-bit,elf,mips,Mozi | 1837 |
+| 32-bit,arm,elf,mirai,Mozi | 915 |
+| elf,mirai,ua-wget | 554 |
+| elf,ua-wget | 230 |
+| 176-65-134-121-8080,elf,mirai,ua-wget | 119 |
+| elf,mirai | 100 |
+| c2-monitor-auto,dropped-by-amadey | 91 |
+| botnetdomain,mirai | 90 |
+<!-- url_summary_end -->
