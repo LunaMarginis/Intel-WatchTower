@@ -16,3 +16,22 @@ This table shows top 10 malware names with their unique hashes and counts. [For 
 |  "apk.clipper" |  "42206a2575450ca372af187bd5a9167f" | 1 |
 |  "jar.crossrat" |  "0c7dd3b979c3fdeba56c6ae312345548" | 1 |
 |  "js.ghostblade" |  "ef57e1c40c1d2394552e43c0c48d63f1" | 1 |
+
+<!-- url_summary_start -->
+## 🔗 Top 10 URLs:
+
+Automated URL Collections, grouped by Tags: Every day at 03:00 UTC. Last Updated: 2026-09-28 08:59:50 UTC.
+
+| Tag | Count |
+|-----|-------|
+| Mozi | 2605 |
+| mirai | 2253 |
+| 32-bit,elf,mips,Mozi | 1813 |
+| 32-bit,arm,elf,mirai,Mozi | 934 |
+| elf,mirai,ua-wget | 541 |
+| elf,ua-wget | 227 |
+| 176-65-134-121-8080,elf,mirai,ua-wget | 119 |
+| elf,mirai | 100 |
+| c2-monitor-auto,dropped-by-amadey | 92 |
+| botnetdomain,mirai | 90 |
+<!-- url_summary_end -->
