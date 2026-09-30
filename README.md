@@ -16,3 +16,22 @@ This table shows top 10 malware names with their unique hashes and counts. [For 
 |  "win.cobalt_strike" |  "2001844261055890f296d8e2958540b6"<br> "aaed196675895fcb5816edf09b0cb120"<br> "c6ac51470c5be4b1ea6197b64cd99836" | 3 |
 |  "py.venus_stealer" |  "0e0035d9c080a0a78045e8ec10577587"<br> "16217862154b09ea92a7628ef168a451"<br> "16a40900ebffcf10a44ab9408bddc7a9" | 3 |
 |  "win.gcleaner" |  "2bbcf73469d7c81350cc711af3c0127a"<br> "a023ab05e1a585ec48bdd1127570926a" | 2 |
+
+<!-- url_summary_start -->
+## 🔗 Top 10 URLs:
+
+Automated URL Collections, grouped by Tags: Every day at 03:00 UTC. Last Updated: 2026-09-30 09:03:09 UTC.
+
+| Tag | Count |
+|-----|-------|
+| Mozi | 2668 |
+| mirai | 2442 |
+| 32-bit,elf,mips,Mozi | 1716 |
+| 32-bit,arm,elf,mirai,Mozi | 929 |
+| elf,mirai,ua-wget | 573 |
+| elf,ua-wget | 208 |
+| elf,mirai | 128 |
+| 176-65-134-121-8080,elf,mirai,ua-wget | 119 |
+| jar,minecraft,SilentNet,stealer | 106 |
+| botnetdomain,mirai | 90 |
+<!-- url_summary_end -->
