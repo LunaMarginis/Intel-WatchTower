@@ -16,3 +16,22 @@ This table shows top 10 malware names with their unique hashes and counts. [For 
 |  "win.sliver" |  "19a878708605994686c72a7dd3652d07"<br> "be02c9890e938e672165c1c10bc99bb2" | 2 |
 |  "win.krakenkeylogger" |  "9ee44d041be23fc85607bc46ca008fa8"<br> "eefe6cb79e5b4f8d7e24bb64df290322" | 2 |
 |  "win.attor" |  "6527c466fe33563ad7f0cacb1c16209f" | 1 |
+
+<!-- url_summary_start -->
+## 🔗 Top 10 URLs:
+
+Automated URL Collections, grouped by Tags: Every day at 03:00 UTC. Last Updated: 2026-10-06 09:28:37 UTC.
+
+| Tag | Count |
+|-----|-------|
+| github,LuaJIT-loader,SmartLoader,zip | 13621 |
+| Mozi | 3180 |
+| mirai | 3025 |
+| 32-bit,elf,mips,Mozi | 1528 |
+| 32-bit,arm,elf,mirai,Mozi | 915 |
+| elf,mirai,ua-wget | 656 |
+| elf,ua-wget | 234 |
+| elf,mirai | 225 |
+| botnetdomain,elf,mirai | 136 |
+| 176-65-134-121-8080,elf,mirai,ua-wget | 119 |
+<!-- url_summary_end -->
