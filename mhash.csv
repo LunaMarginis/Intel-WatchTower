@@ -1,121 +1,137 @@
 ioc_value,fk_malware,malware_alias,malware_printable,count
 " ""004205ee89f2859b461343ef555ac608"""," ""ps1.phonyc2"""," ""None"""," ""PhonyC2""",1
-" ""00e964422ebcfb8dce11fbe450fa09ce"""," ""win.vidar"""," ""None"""," ""Vidar""",1
 " ""00f6d4dd503ea7c402bdec2a96273634"""," ""win.vidar"""," ""None"""," ""Vidar""",1
 " ""0112f1cffd646ed0818c3088ab50ae8f"""," ""py.venus_stealer"""," ""None"""," ""Venus Stealer""",1
+" ""01f9447f60239d25e1c86d1da8dd1534"""," ""win.krakenkeylogger"""," ""None"""," ""KrakenKeylogger""",1
+" ""04f690ebbefd721c72f79d60dc6dc72b"""," ""win.njrat"""," ""Bladabindi","Lime-Worm""",1
 " ""05733c2d4e5ddaa277ece03df37c8ed6"""," ""win.regphantom"""," ""None"""," ""RegPhantom""",1
-" ""05f8f93fb8a821aade444de558350595"""," ""win.stealc"""," ""None"""," ""Stealc""",1
-" ""06967803198f1be4c67fbfc2d5176ce9"""," ""py.stealler"""," ""None"""," ""stealler""",1
-" ""0709e53641829dc93945aece20e2da21"""," ""win.formbook"""," ""win.xloader"""," ""Formbook""",1
 " ""07424088937d177857bcde33b8512599"""," ""win.stealc"""," ""None"""," ""Stealc""",1
 " ""0a7f8a3e8e5c4e70f7ec2863a70c95e0"""," ""py.venus_stealer"""," ""None"""," ""Venus Stealer""",1
+" ""0ab63fac1e124db0dbaea7d0c8d2d609"""," ""jar.crossrat"""," ""Trupto"""," ""CrossRAT""",1
 " ""0ad85d51df8c276818ef4c45cad6cf63"""," ""py.rn_stealer"""," ""None"""," ""RN Stealer""",1
+" ""0bafb1133ee4dab935e4cedf0686fb1c"""," ""win.valley_rat"""," ""Winos"""," ""ValleyRAT""",1
 " ""0c32f73c6db6f317772871f0e0704a4c"""," ""win.vidar"""," ""None"""," ""Vidar""",1
 " ""0d7ba1f248e771dd2e25f5ec6da3a932"""," ""win.prometei"""," ""None"""," ""Prometei""",1
+" ""0f1d42cb6725d8194145cff1d3683634"""," ""win.formbook"""," ""win.xloader"""," ""Formbook""",1
+" ""0f8db1428213838c9d104f5369835969"""," ""jar.crossrat"""," ""Trupto"""," ""CrossRAT""",1
+" ""0fdc64087cfc4c062a2198b63c9e0286"""," ""win.vshell"""," ""None"""," ""VShell""",1
 " ""12d814fd207528a5a717d5165935234d"""," ""win.vidar"""," ""None"""," ""Vidar""",1
-" ""14873f091ec6e4b5cd510745741f246e"""," ""win.xworm"""," ""None"""," ""XWorm""",1
+" ""156b6e957d1c8cfca30351e0b1bccd3a"""," ""win.deerstealer"""," ""None"""," ""DeerStealer""",1
+" ""17c4d6e51c52e59ada1d644411d33015"""," ""win.formbook"""," ""win.xloader"""," ""Formbook""",1
 " ""18159a377f89efd15c0a9d436027ed35"""," ""win.vshell"""," ""None"""," ""VShell""",1
-" ""1ad3729976f26d9d7ea44e2a7195b572"""," ""jar.crossrat"""," ""Trupto"""," ""CrossRAT""",1
-" ""1daec83a0a8e7909926a47f945058b89"""," ""win.vidar"""," ""None"""," ""Vidar""",1
-" ""1f75cb137ec2c546b8b825d243cd0e4b"""," ""win.acr_stealer"""," ""None"""," ""ACR Stealer""",1
+" ""183b06f7a82543a77dba6ef0fcc4d759"""," ""win.njrat"""," ""Bladabindi","Lime-Worm""",1
+" ""1d1965d1b99318c08a6272785aa4a90a"""," ""win.vidar"""," ""None"""," ""Vidar""",1
+" ""1eaf987d6b6750db2245109c9e39ffc2"""," ""py.stealler"""," ""None"""," ""stealler""",1
 " ""200fb6726d73209a82e1d3d846c6b684"""," ""py.stealler"""," ""None"""," ""stealler""",1
 " ""219811d86a84844199c1d502295e15b6"""," ""py.venus_stealer"""," ""None"""," ""Venus Stealer""",1
 " ""22b5da140ab6f792a511d2563052e6d2"""," ""win.regphantom"""," ""None"""," ""RegPhantom""",1
 " ""22f8ba22b4c9d92415c0f1098c3f90f1"""," ""win.asyncrat"""," ""None"""," ""AsyncRAT""",1
+" ""23d02815c2d88958feb4b314ab3c1b9c"""," ""win.adaptix_c2"""," ""None"""," ""AdaptixC2""",1
 " ""27c967bd6e99502ebbf83ba547adff82"""," ""win.regphantom"""," ""None"""," ""RegPhantom""",1
 " ""2915aca201ab1167ccc0918b08ae1ee0"""," ""py.venus_stealer"""," ""None"""," ""Venus Stealer""",1
-" ""29edbb113a824210409cf41619959db7"""," ""py.rn_stealer"""," ""None"""," ""RN Stealer""",1
+" ""2a1b23f25654c5cc384ecac832383e98"""," ""win.vshell"""," ""None"""," ""VShell""",1
 " ""2ae5ab42f2924330344e5dd45c5bf841"""," ""win.formbook"""," ""win.xloader"""," ""Formbook""",1
-" ""2ced628a3e6299fee6186021aec817cf"""," ""py.rn_stealer"""," ""None"""," ""RN Stealer""",1
 " ""2ee03e9816df5521908c6af69e4f2be7"""," ""win.gcleaner"""," ""None"""," ""GCleaner""",1
-" ""2feb859f5ad6cbb84746b2be2bac7c99"""," ""win.coinminer"""," ""None"""," ""Coinminer""",1
-" ""30ddf81994d4d81feb012f1419bcab53"""," ""win.stealc"""," ""None"""," ""Stealc""",1
+" ""2f765a561b23e461c38e65f40c7cc7f0"""," ""win.vshell"""," ""None"""," ""VShell""",1
+" ""2fc54e662e890049651a6137a81efa3c"""," ""win.valley_rat"""," ""Winos"""," ""ValleyRAT""",1
+" ""3064c11606319b47a0e30edd4cac21e3"""," ""win.vidar"""," ""None"""," ""Vidar""",1
+" ""3277f4122adfda4fc1c5b817523b0be0"""," ""win.tinymet"""," ""TiniMet"""," ""TinyMet""",1
 " ""32c62fe1beafb431feaaf8f7fe410e26"""," ""win.regphantom"""," ""None"""," ""RegPhantom""",1
 " ""32fe0e340f94282426829537fad19278"""," ""win.regphantom"""," ""None"""," ""RegPhantom""",1
-" ""33f25a90e23674dfbdae66a02f7ccce3"""," ""jar.microstealer"""," ""None"""," ""MicroStealer""",1
 " ""3432643e0e96ddeef83586e47d2083dc"""," ""win.regphantom"""," ""None"""," ""RegPhantom""",1
 " ""34507bf7c00c94401b56daf56cbff5c5"""," ""osx.xloader"""," ""Formbook"""," ""Xloader""",1
+" ""345bd23aae7e28c9b249b81a245f6c8d"""," ""win.valley_rat"""," ""Winos"""," ""ValleyRAT""",1
 " ""345d9252c3e1c7780680d4ad07f5e541"""," ""py.stealler"""," ""None"""," ""stealler""",1
 " ""36df1f9950ef987b8c546f316876013a"""," ""win.vidar"""," ""None"""," ""Vidar""",1
-" ""3860c03927290688db2f7769140103e4"""," ""elf.kuiper"""," ""None"""," ""Kuiper""",1
+" ""37c9778f7921ff7183a392f4f69436bc"""," ""win.gcleaner"""," ""None"""," ""GCleaner""",1
 " ""3bf180fb81eaded9afa930e69af74b81"""," ""py.venus_stealer"""," ""None"""," ""Venus Stealer""",1
 " ""3bf3cee2a23b80237efc3bc0cab31c87"""," ""win.regphantom"""," ""None"""," ""RegPhantom""",1
-" ""3c19ef23dc3dec572cd6f2222dd07300"""," ""win.titan_stealer"""," ""None"""," ""TitanStealer""",1
-" ""3cd3c4d9dd4a76a03504feb2306e06e1"""," ""win.xworm"""," ""None"""," ""XWorm""",1
-" ""3da3c77545498bcaf0d6fe67e86ab53e"""," ""win.valley_rat"""," ""Winos"""," ""ValleyRAT""",1
-" ""41943a34fd0115c01bddf99f57b1dbf7"""," ""win.vidar"""," ""None"""," ""Vidar""",1
-" ""4951465b8b9db30de15a8034b4e62137"""," ""win.collection_rat"""," ""None"""," ""Collection RAT""",1
-" ""4a17cee02deaf2bd7f9bf3f2cd4dff37"""," ""py.rn_stealer"""," ""None"""," ""RN Stealer""",1
-" ""4b35c97702037bcd235041c6bc786da1"""," ""py.venus_stealer"""," ""None"""," ""Venus Stealer""",1
-" ""4c3747305b868bc35cdc0c06783c2414"""," ""win.xworm"""," ""None"""," ""XWorm""",1
+" ""3d22a007f0e5878fa47d9ded220b605d"""," ""win.agent_tesla"""," ""AgenTesla",AgentTesla,1
+" ""3ee38b944e5c83922f99641846f7db0c"""," ""win.adaptix_c2"""," ""None"""," ""AdaptixC2""",1
+" ""4073eb55fca304f6aa94d9643286a503"""," ""py.stealler"""," ""None"""," ""stealler""",1
+" ""40fb3059353fda2a810e736ed8888ad5"""," ""jar.crossrat"""," ""Trupto"""," ""CrossRAT""",1
+" ""412efee735a28583cbfde94d141b0296"""," ""unknown_stealer"""," ""None"""," ""Unknown Stealer""",1
+" ""43992ed63b048e2009585b4938200df2"""," ""win.yibackdoor"""," ""None"""," ""YiBackdoor""",1
+" ""44c6c41450202d71fb769bcfff376ba4"""," ""win.vshell"""," ""None"""," ""VShell""",1
 " ""52922ceeab0a95443710310269e0bd6b"""," ""win.moriagent"""," ""None"""," ""MoriAgent""",1
 " ""54f8f76d0dd0dcdbe85e4d32f7108ea0"""," ""win.regphantom"""," ""None"""," ""RegPhantom""",1
-" ""54fe1c9789a24b53141411cc1aeae09c"""," ""py.stealler"""," ""None"""," ""stealler""",1
 " ""596dc288e8914898b0be9d57a0e3d277"""," ""win.formbook"""," ""win.xloader"""," ""Formbook""",1
 " ""5acb6579fc74d66e67e0cdecddb46457"""," ""win.epsilon_stealer"""," ""None"""," ""Epsilon Stealer""",1
-" ""5af41a745941cdc66963b2007167547f"""," ""py.stealler"""," ""None"""," ""stealler""",1
 " ""5b1caeb928153142ec9b112a005d53c6"""," ""win.masslogger"""," ""None"""," ""MASS Logger""",1
 " ""5c6a535c64562738470356602ed9c556"""," ""win.formbook"""," ""win.xloader"""," ""Formbook""",1
 " ""5c9bc5f302bd0e2e31fbfefcd96d4a6a"""," ""win.salatstealer"""," ""None"""," ""SalatStealer""",1
 " ""5fa55b6b9a680cf8dbd6b3c837c3ef15"""," ""win.regphantom"""," ""None"""," ""RegPhantom""",1
 " ""60c7b6ad0214681bf65f3ee2b55fcb3a"""," ""win.formbook"""," ""win.xloader"""," ""Formbook""",1
-" ""61401e999d0655f1f3f49e71d43f4347"""," ""win.quirkyloader"""," ""None"""," ""QuirkyLoader""",1
 " ""62b999539aa9527c40af688337d128f9"""," ""win.vidar"""," ""None"""," ""Vidar""",1
+" ""636427608897388aa5afd79187133688"""," ""win.netwire"""," ""NetWeird",NetWire,1
+" ""6367307dd5e1cbc6c1f0a160e0c5d421"""," ""win.formbook"""," ""win.xloader"""," ""Formbook""",1
+" ""6383d4f132c8470a93703e0c6912dd23"""," ""py.stealler"""," ""None"""," ""stealler""",1
 " ""66d58031731fc12a2b31d51af1b9640a"""," ""win.regphantom"""," ""None"""," ""RegPhantom""",1
-" ""76c73259f756d7367280719ecc4ac8fd"""," ""py.stealler"""," ""None"""," ""stealler""",1
-" ""770e477b5f8cd94a6783140a3bb62225"""," ""win.yibackdoor"""," ""None"""," ""YiBackdoor""",1
+" ""6e4e02fb56c5d5f6b825b83f78543b45"""," ""py.venus_stealer"""," ""None"""," ""Venus Stealer""",1
+" ""6e7fb5ed733aedc9943cc4eb2ce744f5"""," ""win.coinminer"""," ""None"""," ""Coinminer""",1
+" ""6e9da596d8fc285f795e116e05a5b3a7"""," ""win.netwire"""," ""NetWeird",NetWire,1
+" ""778c4377017e6d60c536e258e73057bd"""," ""py.stealler"""," ""None"""," ""stealler""",1
 " ""78e7d1423b0bc0ea5df6bf3f4ed93d2b"""," ""win.vidar"""," ""None"""," ""Vidar""",1
-" ""7e29dd50712b2f02b0464b835e6f30af"""," ""py.stealler"""," ""None"""," ""stealler""",1
-" ""7e3841913e2fd4e3ecf9d382dcd7becd"""," ""win.tofsee"""," ""Gheg"""," ""Tofsee""",1
-" ""7f4c68c231b9470d423b5d1ae06b8a9f"""," ""win.acr_stealer"""," ""None"""," ""ACR Stealer""",1
+" ""798d6bd179c9aa369aa4bce084265ce0"""," ""win.asyncrat"""," ""None"""," ""AsyncRAT""",1
+" ""7a35065b803f6f05dbce13ff68e1f815"""," ""win.darktortilla"""," ""None"""," ""DarkTortilla""",1
+" ""7a8499e4221283aeb5a55750372169f5"""," ""win.luca_stealer"""," ""None"""," ""Luca Stealer""",1
+" ""7e985941d1ab0148d279ca2e99b1392b"""," ""py.stealler"""," ""None"""," ""stealler""",1
 " ""7f7b18413fc3affe2b839c2d1f1638ef"""," ""win.regphantom"""," ""None"""," ""RegPhantom""",1
-" ""805836d85d002b708ac1693c1117f863"""," ""win.vanillarat"""," ""None"""," ""vanillarat""",1
-" ""83f7f0a5a5475b33c66e39c8afe6c293"""," ""py.creal_stealer"""," ""None"""," ""Creal Stealer""",1
+" ""8277f8350e12ecee116c42acb4aa48c0"""," ""win.guidloader"""," ""None"""," ""GUIDLOADER""",1
 " ""88bd93c3462c1e219d6b64af47ab22fc"""," ""win.salatstealer"""," ""None"""," ""SalatStealer""",1
+" ""88c303b6a584e5f22c771fe8bbabdf0c"""," ""win.netwire"""," ""NetWeird",NetWire,1
+" ""899f8c35499817aa487210462eaf1e42"""," ""win.mydoom"""," ""Novarg","Mimail""",1
+" ""8ba88cb3e6a21e5b3f9e6047b266aa4f"""," ""win.vidar"""," ""None"""," ""Vidar""",1
 " ""8c1013d622f0911854bffa3fc88a3377"""," ""win.krakenkeylogger"""," ""None"""," ""KrakenKeylogger""",1
+" ""8e8b9b52536b4ec6b380201db4d3e898"""," ""win.burnbook"""," ""None"""," ""BURNBOOK""",1
 " ""8e9c75c220863202e4e1dd00f2777e26"""," ""py.stealler"""," ""None"""," ""stealler""",1
 " ""8eb439edd96c03e46ba5c9751aa6a03f"""," ""py.stealler"""," ""None"""," ""stealler""",1
-" ""8f9fc33ab36f20a0938eb86652e6eaa1"""," ""py.stealler"""," ""None"""," ""stealler""",1
 " ""90d5acfb0c1245c23891a5c86c316f99"""," ""win.phantom_stealer"""," ""None"""," ""Phantom Stealer""",1
-" ""935ce08748c7a78cbf64a8d0e5341061"""," ""win.valley_rat"""," ""Winos"""," ""ValleyRAT""",1
-" ""954d1293832b5296971ed38e973a9203"""," ""py.stealler"""," ""None"""," ""stealler""",1
+" ""97e42e50ecb6690f179b58c20f9de633"""," ""win.mispadu"""," ""URSA"""," ""Mispadu""",1
+" ""9875667f47bab0227f2f5bffa4124d94"""," ""py.stealler"""," ""None"""," ""stealler""",1
 " ""9b33f0f6942d22efbfac413f3b3285f8"""," ""win.xworm"""," ""None"""," ""XWorm""",1
+" ""9e848a4af00c33c6b7f6dbe7dc06ed35"""," ""jar.crossrat"""," ""Trupto"""," ""CrossRAT""",1
 " ""a08d54b8d16c4a4a71eb1714e5025be0"""," ""win.formbook"""," ""win.xloader"""," ""Formbook""",1
-" ""a31b3261aa04f232b7fcfc77777c43a7"""," ""win.formbook"""," ""win.xloader"""," ""Formbook""",1
 " ""a3900e3007e1b91d38f7fcfd2194acfe"""," ""win.valley_rat"""," ""Winos"""," ""ValleyRAT""",1
+" ""a48bdee475d7b4b1fb298a7a0477a1a8"""," ""win.vidar"""," ""None"""," ""Vidar""",1
 " ""a4ad709d219448e605e0537d3fafa399"""," ""win.formbook"""," ""win.xloader"""," ""Formbook""",1
 " ""a53d0903f4b158b1d1be8b9645a293af"""," ""win.formbook"""," ""win.xloader"""," ""Formbook""",1
 " ""a7318a5f7aa1d21989ca284d9e750381"""," ""win.expiro"""," ""Xpiro"""," ""Expiro""",1
-" ""a824398b7923e0945551b06f47c400ed"""," ""win.quantloader"""," ""None"""," ""QuantLoader""",1
-" ""ad6a7fe9c9d21c0f6d68b3d44f966150"""," ""win.formbook"""," ""win.xloader"""," ""Formbook""",1
+" ""a86f0faf0e8db1006b19130420ae3535"""," ""py.stealler"""," ""None"""," ""stealler""",1
+" ""abf4a82fc36da0c8918f7e8b7185d97c"""," ""py.venus_stealer"""," ""None"""," ""Venus Stealer""",1
+" ""ae0a466748b9b9996188d9770ca9ebeb"""," ""py.stealler"""," ""None"""," ""stealler""",1
 " ""afaba06803129ca1030499d61ed4e9e1"""," ""win.regphantom"""," ""None"""," ""RegPhantom""",1
-" ""b2d8a7fa418143a4542b28c53e86a080"""," ""win.vidar"""," ""None"""," ""Vidar""",1
-" ""b3517a69209242e49f8e1f463732f656"""," ""elf.kuiper"""," ""None"""," ""Kuiper""",1
-" ""b51388e42f98c44816102b669880e625"""," ""win.formbook"""," ""win.xloader"""," ""Formbook""",1
+" ""b30e75738b06cca237b5a81cc15ad8a6"""," ""win.netwire"""," ""NetWeird",NetWire,1
+" ""b6ffc5ab3d9c3d132b0cdb490ed800d2"""," ""win.luca_stealer"""," ""None"""," ""Luca Stealer""",1
+" ""b85b33c6c8ac7242fb09c70c5c583a11"""," ""win.valley_rat"""," ""Winos"""," ""ValleyRAT""",1
 " ""ba6aa91e6afd6fd1f24295bc301f5df5"""," ""ps1.phonyc2"""," ""None"""," ""PhonyC2""",1
-" ""bfc0848e67feb2b80c7bf5ba9c1efe27"""," ""jar.crossrat"""," ""Trupto"""," ""CrossRAT""",1
+" ""c0882cc19a0c5b9778ee44c00907a4e1"""," ""win.mydoom"""," ""Novarg","Mimail""",1
 " ""c38bfdb3613d4d0c0a5ff7c60a9416d6"""," ""win.luca_stealer"""," ""None"""," ""Luca Stealer""",1
-" ""c756d5f25076629543879497dbd7e70a"""," ""win.vidar"""," ""None"""," ""Vidar""",1
+" ""c6b475074fdd3c14d179add00066d082"""," ""py.stealler"""," ""None"""," ""stealler""",1
 " ""c8c2cf8b54a8b34a64d9629b2546314b"""," ""py.stealler"""," ""None"""," ""stealler""",1
-" ""c9a8bc2237b95e0543c5dc67192de2b5"""," ""py.stealler"""," ""None"""," ""stealler""",1
-" ""cb345182c2482cb19834f6e0bfc0322c"""," ""win.shimrat"""," ""None"""," ""Shim RAT""",1
+" ""c8d00fa8c120721945a74cb657ac633d"""," ""py.venus_stealer"""," ""None"""," ""Venus Stealer""",1
+" ""ca74f32dd56f3ad2e51dd1ec54643681"""," ""win.dyepack"""," ""BanSwift","swift""",1
+" ""cc028c2c3e90d682d77ef53545ce6b24"""," ""win.krakenkeylogger"""," ""None"""," ""KrakenKeylogger""",1
 " ""cdf2f76525ad09669316f8933183a071"""," ""win.regphantom"""," ""None"""," ""RegPhantom""",1
-" ""cfcc97cb95e356ac0cd2e295c025dd25"""," ""win.coinminer"""," ""None"""," ""Coinminer""",1
 " ""d050774dcdcc830e4b4b8b10590df3f6"""," ""win.regphantom"""," ""None"""," ""RegPhantom""",1
-" ""d2a9b590d61563ef68407d1f1afaab4e"""," ""py.creal_stealer"""," ""None"""," ""Creal Stealer""",1
+" ""d1b18404eb25fb66030bd1e426a639c5"""," ""win.vipkeylogger"""," ""None"""," ""VIP Keylogger""",1
+" ""d24980d6d3a3cd3cad3f2eb62048779b"""," ""py.stealler"""," ""None"""," ""stealler""",1
 " ""d47d3a5fe3ca39379423ea4e22bc5713"""," ""win.regphantom"""," ""None"""," ""RegPhantom""",1
 " ""d504445b92af18bfb49cbe8b296abcc4"""," ""win.regphantom"""," ""None"""," ""RegPhantom""",1
+" ""d62d4b7811e37ce789b40ff9343e3458"""," ""win.cloudeye"""," ""GuLoader","vbdropper""",1
 " ""d700d46d861f7ef1ce58a21eb06fd553"""," ""py.akira_stealer"""," ""None"""," ""Akira Stealer""",1
-" ""dcf3b88561b92b4edb0682c8b799b37b"""," ""py.stealler"""," ""None"""," ""stealler""",1
-" ""df241bd3374ab72337100903f4ee161e"""," ""py.stealler"""," ""None"""," ""stealler""",1
+" ""da72110692c7133a76dbf5e06aa571ef"""," ""win.formbook"""," ""win.xloader"""," ""Formbook""",1
+" ""dcd580118706ee497e645311915996b0"""," ""win.valley_rat"""," ""Winos"""," ""ValleyRAT""",1
+" ""dea6360a06563989ea46c2132658242c"""," ""win.xenorat"""," ""None"""," ""XenoRAT""",1
 " ""e086f2aa9d57cb7364f4ca4b3b58ee9b"""," ""win.regphantom"""," ""None"""," ""RegPhantom""",1
-" ""e22066ff2cc65fb93c5bbd799e0245a5"""," ""win.vipkeylogger"""," ""None"""," ""VIP Keylogger""",1
+" ""e136fadd3494833f1c7d073df3a0772f"""," ""win.vidar"""," ""None"""," ""Vidar""",1
 " ""e3b578aa02e2fc3fb557e83f4186395e"""," ""win.moriagent"""," ""None"""," ""MoriAgent""",1
-" ""e7baec9e0a38ba52d7a8a545e9dbf6c9"""," ""win.vidar"""," ""None"""," ""Vidar""",1
 " ""ea0f589e4bc2737119a1730477f8929b"""," ""win.regphantom"""," ""None"""," ""RegPhantom""",1
+" ""eb0da1bf4db13bbb8bc8fbf752274746"""," ""elf.watchbog"""," ""None"""," ""WatchBog""",1
+" ""ed38148aefd5d9d866d46220b57c10f8"""," ""elf.kuiper"""," ""None"""," ""Kuiper""",1
 " ""eda6f08155d2299772d9730ea6f9aef6"""," ""win.vidar"""," ""None"""," ""Vidar""",1
 " ""f28fb8aa4c05801c7cd3ad6de3790b5c"""," ""win.krakenkeylogger"""," ""None"""," ""KrakenKeylogger""",1
-" ""f2d88aa41c35d7b0af0c79b8ef09192f"""," ""win.vidar"""," ""None"""," ""Vidar""",1
-" ""f54b4f48c6661e798e28c2213fc1007e"""," ""py.stealler"""," ""None"""," ""stealler""",1
-" ""fa553cae460341d33e5b04d4296c601e"""," ""win.salatstealer"""," ""None"""," ""SalatStealer""",1
+" ""f7d83d241f4a45ea7a97ea74a1016dff"""," ""win.valley_rat"""," ""Winos"""," ""ValleyRAT""",1
+" ""fe7c856701c13f3bd2b3825fb61d47c8"""," ""win.coinminer"""," ""None"""," ""Coinminer""",1
 " ""fec6a02b6d8be9580f24599241ea3191"""," ""win.regphantom"""," ""None"""," ""RegPhantom""",1
+" ""ff398178642634364b05ae413091f831"""," ""win.agent_tesla"""," ""AgenTesla",AgentTesla,1
