@@ -16,3 +16,22 @@ This table shows top 10 malware names with their unique hashes and counts. [For 
 |  "py.venus_stealer" |  "6e4e02fb56c5d5f6b825b83f78543b45"<br> "abf4a82fc36da0c8918f7e8b7185d97c"<br> "c8d00fa8c120721945a74cb657ac633d"<br> "fc2f1cdd2fbb4061a8f9e909c64b7f54" | 4 |
 |  "win.asyncrat" |  "798d6bd179c9aa369aa4bce084265ce0"<br> "902780450c82f0cfdce73134d7145842"<br> "dc1244712bae6d520128c5e70ce61ea9" | 3 |
 |  "win.gcleaner" |  "35bda5926db1953f685f8a9de7e0f812"<br> "37c9778f7921ff7183a392f4f69436bc"<br> "8d1d55cdb009796323a6ffe8c3403795" | 3 |
+
+<!-- url_summary_start -->
+## 🔗 Top 10 URLs:
+
+Automated URL Collections, grouped by Tags: Every day at 03:00 UTC. Last Updated: 2026-10-12 09:51:05 UTC.
+
+| Tag | Count |
+|-----|-------|
+| github,LuaJIT-loader,SmartLoader,zip | 13746 |
+| Mozi | 3164 |
+| mirai | 2975 |
+| 32-bit,elf,mips,Mozi | 1371 |
+| 32-bit,arm,elf,mirai,Mozi | 777 |
+| elf,mirai,ua-wget | 642 |
+| FakeGit,luajit,SmartLoader,Stealc,zip | 612 |
+| CheatSheet,exe,github,rustystealer | 452 |
+| elf,ua-wget | 429 |
+| CheatSheet,gitlab,zip | 410 |
+<!-- url_summary_end -->
