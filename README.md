@@ -16,3 +16,22 @@ This table shows top 10 malware names with their unique hashes and counts. [For 
 |  "win.valley_rat" |  "0888ad582ea95bd467f51e232af9a07c"<br> "12e5865ad107877a4de58292719ac24a"<br> "51b6ee98d8b8110b9a2217bdfa96cbe8"<br> "648e3fd6d7d3e5367e56b10a642019f1"<br> "cfa6d68a1f11511effebcff35bd8c82e" | 5 |
 |  "jar.crossrat" |  "04fd284fa9214d5adca4d6adfac7b42f"<br> "419b1aaded9195fec567ca93477d68a1"<br> "4dd66299e0cd2ab0a93952a18544a18f"<br> "87180de7663dc32acab6edf49345abd8"<br> "ed8b2d9b3400c6649ab14c3ed0238ff8" | 5 |
 |  "py.stealler" |  "3d274f5da6f4691ff4684f6278027fef"<br> "53262ea8f36c9ae7f8f4186b1654738d"<br> "a43b91f9795db45441b902b57fbaeb84"<br> "ff27b54b22d9c9abf24680a5358ebbce" | 4 |
+
+<!-- url_summary_start -->
+## 🔗 Top 10 URLs:
+
+Automated URL Collections, grouped by Tags: Every day at 03:00 UTC. Last Updated: 2026-10-15 07:45:14 UTC.
+
+| Tag | Count |
+|-----|-------|
+| github,LuaJIT-loader,SmartLoader,zip | 13746 |
+| Mozi | 2970 |
+| mirai | 2823 |
+| 32-bit,elf,mips,Mozi | 1313 |
+| 32-bit,arm,elf,mirai,Mozi | 663 |
+| FakeGit,luajit,SmartLoader,Stealc,zip | 612 |
+| elf,mirai,ua-wget | 562 |
+| elf,ua-wget | 525 |
+| CheatSheet,exe,github,rustystealer | 452 |
+| CheatSheet,gitlab,zip | 410 |
+<!-- url_summary_end -->
