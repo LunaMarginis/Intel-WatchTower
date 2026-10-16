@@ -16,3 +16,22 @@ This table shows top 10 malware names with their unique hashes and counts. [For 
 |  "win.dcrat" |  "03a7ac64c9d997bf0743e8a1917e9836"<br> "04d409feacf8e8025263b0c3339f27d3"<br> "06ea1864fc2f4644106cd25b8d4fdbb4"<br> "1145637521b7fccbf9072deddc4b62cd"<br> "2f2bde6d6206b182d652cc1e8c124e9a"<br> "69eca81580f69774e2737639bb55848d"<br> "7dd5cd9ce3eb7740a35c1830e3794a8c"<br> "93031382c35368b570334ca96fc338d7"<br> "ddb95711381fc35855472d28dbdb50e2" | 9 |
 |  "win.vidar" |  "3e37afb25cf59842460fb2d62e6c0918"<br> "41d17a7523b9fcaac5d05863e6c5835a"<br> "483debef187327e3cf1357fd19902318"<br> "5943946e506b78c9f6d9275e47d1d8c2"<br> "6247ac6aae6cd1963299aa5801f64e75"<br> "756292201950433bdbeb154252bbe44c"<br> "84430433d7561de3443e41d10ce3a15a"<br> "b143c394225deb144635e86b9be31076"<br> "ee3196a6eef869b3314c117b85ea4201" | 9 |
 |  "win.coinminer" |  "05229a54380ee1a8f2c6b6325dc217c5"<br> "8ec1f874e11e97d9e797a02124b015dc"<br> "8fe8a8a3c1b83cb9475c3c49c91517fb"<br> "90d36a8492c37d537fab266d31beb627"<br> "ae0f26b6412402f64976db9497de2cac"<br> "d9ac245d4b6a01de4ebff52aa77c5c90"<br> "ef405c228559312b1398712e601ee4ad" | 7 |
+
+<!-- url_summary_start -->
+## 🔗 Top 10 URLs:
+
+Automated URL Collections, grouped by Tags: Every day at 03:00 UTC. Last Updated: 2026-10-16 07:33:40 UTC.
+
+| Tag | Count |
+|-----|-------|
+| github,LuaJIT-loader,SmartLoader,zip | 13746 |
+| Mozi | 2894 |
+| mirai | 2761 |
+| 32-bit,elf,mips,Mozi | 1297 |
+| FakeGit,luajit,SmartLoader,Stealc,zip | 612 |
+| 32-bit,arm,elf,mirai,Mozi | 611 |
+| elf,ua-wget | 518 |
+| elf,mirai,ua-wget | 477 |
+| CheatSheet,exe,github,rustystealer | 452 |
+| CheatSheet,gitlab,zip | 416 |
+<!-- url_summary_end -->
