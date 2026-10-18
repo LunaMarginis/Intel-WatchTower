@@ -126,7 +126,7 @@ def files_table(files: list[dict]) -> str:
 METHOD = f"""
 - **Runs** every 6 hours on GitHub Actions. GitHub may start a scheduled run a few hours late; the times above are when it really ran.
 - **Hashes** come from the ThreatFox "recent MD5" export, which covers only a short window (see "Period the export covers"). Every run adds the new hashes to
-  `data/hashes_archive.csv`, so nothing that appeared between two runs is lost and the 7-day figures are real 7-day figures.
+  the daily files in `indicators/hashes/`, so nothing that appeared between two runs is lost and the 7-day figures are real 7-day figures.
 - **URLs** come from the URLhaus "recent" export (about 30 days). It is large, so it is refreshed once a day.
 - **Checks** run on every download (format, row counts, freshness, valid values, nothing dropped, no live URLs in anything published). If a check fails, the affected
   data is **not** replaced, the report says so, and the workflow turns red.

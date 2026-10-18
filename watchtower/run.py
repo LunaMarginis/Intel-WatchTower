@@ -13,7 +13,7 @@ from collections import Counter
 from datetime import datetime, timedelta, timezone
 from pathlib import Path
 
-from . import __version__, analyze, checks as C, export, fetch, parse, render, store
+from . import __version__, analyze, checks as C, export, fetch, indicators, parse, render, store
 
 THREATFOX_URL = "https://threatfox.abuse.ch/export/csv/md5/recent/"
 URLHAUS_URL = "https://urlhaus.abuse.ch/downloads/csv_recent/"
@@ -47,7 +47,7 @@ def run(root: Path, *, offline: Path | None = None, now: datetime | None = None,
             cs.append(C.download("threatfox", tf_fetch))
         except fetch.FetchError as e:
             cs.append(C.download("threatfox", None, str(e)))
-    archive = store.load_archive(root / "data" / "hashes_archive.csv")
+    archive = indicators.load_hashes(root, now)
     known = set(archive)
     hashes: list[parse.Hash] = []
     occurrences: dict[str, int] = {}
@@ -61,8 +61,10 @@ def run(root: Path, *, offline: Path | None = None, now: datetime | None = None,
                C.freshness("threatfox", ex.last_updated, now, 12, 48, "export file")]
     tf_ok = tf_text is not None and not _blocked("threatfox", cs)
     if tf_ok:
-        archive, _ = store.merge_archive(archive, hashes, now)
-        writes[root / "data" / "hashes_archive.csv"] = store.archive_text(archive)
+        new_files, _ = indicators.add_hashes(root, archive, hashes, now)
+        writes.update(new_files)
+        for h in hashes:
+            archive.setdefault(h.ioc_value, h)
         writes[root / "mhash.csv"] = store.mhash_text(hashes, occurrences)
         recent = [r["hashes"]["new_this_run"] for r in history[-12:] if r.get("hashes")]
     h_summary = analyze.hash_summary(hashes if tf_ok else [], list(archive.values()), known if tf_ok else set(archive), now)
@@ -98,8 +100,11 @@ def run(root: Path, *, offline: Path | None = None, now: datetime | None = None,
                    C.freshness("urlhaus", ux.last_updated, now, 12, 48, "export file"),
                    C.freshness("urlhaus", max((u.added for u in urls), default=None), now, 24, 72, "newest URL")]
             if not _blocked("urlhaus", cs):
-                prev_ids = store.previous_url_ids(root / "urls.csv")
-                u_summary, u_at = analyze.url_summary(urls, prev_ids, now), now.isoformat()
+                prev_status = store.previous_url_status(root / "urls.csv")
+                u_summary, u_at = analyze.url_summary(urls, set(prev_status), now), now.isoformat()
+                url_files, n_new, n_changed = indicators.add_urls(root, prev_status, urls, indicators.family_names(list(archive.values())), now)
+                writes.update(url_files)
+                cs.append(C.Check("urlhaus: indicators", C.PASS, f"{n_new} new URLs and {n_changed} status changes recorded"))
                 writes[root / "urls.csv"] = store.urls_text(urls)
                 writes[root / "feeds" / "hosts_online.txt"] = export.hosts_feed(urls)
     else:
@@ -115,11 +120,13 @@ def run(root: Path, *, offline: Path | None = None, now: datetime | None = None,
     for _ in range(2):  # second pass: the report shows the safety checks too
         report_path = f"reports/{now.date().isoformat()}.md"
         rendered = {root / "README.md": render.readme(state, files), root / report_path: render.report(state, files)}
-        safety = [C.defanged(p.name, t) for p, t in {**writes, **rendered}.items() if p.suffix in (".md", ".txt", ".csv")]
-        cs[:] = [c for c in cs if not c.name.startswith("output safety")] + [min(safety, key=lambda c: c.status != C.FAIL, default=C.Check("output safety", C.PASS, "nothing to check"))] if safety else cs
-        if any(c.status == C.FAIL and c.name.startswith("output safety") for c in cs):
-            cs.append(C.Check("output safety: README", C.FAIL, "unsafe content: reports not published"))
+        safety = [C.defanged(p.name, t) for p, t in {**writes, **rendered}.items() if p.suffix in (".md", ".txt", ".csv", ".jsonl")]
+        cs[:] = [c for c in cs if not c.name.startswith("output safety")]
+        bad = [c for c in safety if c.status == C.FAIL]
+        if bad:
+            cs.append(C.Check("output safety", C.FAIL, f"{bad[0].detail}: nothing new was published"))
             stamp()
+            writes.clear()   # unsafe content: keep everything as it was
             rendered = {}
             break
         cs[:] = [c for c in cs if not c.name.startswith("output safety")] + [C.Check("output safety", C.PASS, f"{len(safety)} published files contain no live URL")]
@@ -134,6 +141,8 @@ def run(root: Path, *, offline: Path | None = None, now: datetime | None = None,
     # ------------------------------------------------------------ write, prune, notify
     changed = [str(p.relative_to(root)) for p, t in writes.items() if store.write_text(p, t)]
     _prune_reports(root / "reports", now)
+    indicators.prune(root, indicators.HASH_DIR, now, indicators.HASH_KEEP_DAYS)
+    indicators.prune(root, indicators.URL_DIR, now, indicators.URL_KEEP_DAYS)
     log(f"status: {state['status']} · hashes in export {len(hashes)} (new {h_summary['new_this_run']}) · urls {(u_summary or {}).get('total', 'n/a')} · changed files: {len(changed)}")
     for c in cs:
         log(f"  {C.ICON[c.status]} {c.name}: {c.detail}")
@@ -147,7 +156,8 @@ def run(root: Path, *, offline: Path | None = None, now: datetime | None = None,
 
 def _files(root: Path, writes: dict[Path, str]) -> list[dict]:
     spec = [("README.md", "This page", None), ("mhash.csv", "Latest ThreatFox MD5 export, clean (first_seen, confidence, reporter…)", None), ("urls.csv", "Latest URLhaus export, defanged", None),
-            ("data/hashes_archive.csv", "Every hash collected so far (kept 400 days)", None), ("feeds/md5_7d.txt", "Plain list: hashes of the last 7 days", None),
+            ("indicators/hashes/", "Enriched hash records, one file per day, one JSON object per line (kept 400 days)", None),
+            ("indicators/urls/", "Enriched URL records: new URLs and status changes, one file per day (kept 120 days)", None), ("feeds/md5_7d.txt", "Plain list: hashes of the last 7 days", None),
             ("feeds/md5_30d.txt", "Plain list: hashes of the last 30 days", None), ("feeds/hosts_online.txt", "Hosts serving malware now, defanged", None),
             ("feeds/stix_md5_7d.json", "STIX 2.1 bundle of the last 7 days of hashes", None), ("feeds/iocs.json", "The numbers behind this page, as JSON", None),
             ("history/runs.jsonl", "One line per run: counts and check results", None), ("reports/", "A report per day", None)]
@@ -155,8 +165,12 @@ def _files(root: Path, writes: dict[Path, str]) -> list[dict]:
     for rel, what, _ in spec:
         p = root / rel
         if rel.endswith("/"):
-            files = sorted(p.glob("*.md")) if p.exists() else []
-            out.append({"path": rel, "what": what, "rows": len(files), "size": sum(f.stat().st_size for f in files)})
+            pattern = "*.md" if rel == "reports/" else "*.jsonl"
+            found = {f for f in p.glob(pattern)} if p.exists() else set()
+            found |= {w for w in writes if w.parent == p and w.match(pattern)}   # written by this run, not on disk yet
+            texts = [writes[f] if f in writes else f.read_text(encoding="utf-8") for f in found]
+            rows = sum(t.count("\n") for t in texts) if pattern == "*.jsonl" else len(texts)
+            out.append({"path": rel, "what": what, "rows": rows, "size": sum(len(t.encode("utf-8")) for t in texts)})
             continue
         text = writes.get(p)
         size = len(text.encode("utf-8")) if text is not None else (p.stat().st_size if p.exists() else 0)

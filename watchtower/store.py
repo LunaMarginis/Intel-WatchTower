@@ -1,4 +1,4 @@
-"""Files on disk: the published CSVs, the accumulating hash archive and the run history. Writes are atomic (temp file, then rename) and deterministic
+"""Files on disk: the published CSVs, and the run history. Writes are atomic (temp file, then rename) and deterministic
 (stable ordering, no timestamps inside data files), so an unchanged day produces an unchanged file and git stores almost nothing."""
 from __future__ import annotations
 
@@ -6,15 +6,13 @@ import csv
 import json
 import os
 import tempfile
-from datetime import datetime, timedelta, timezone
+from datetime import datetime, timezone
 from pathlib import Path
 
-from .parse import Hash, Url, defang_url, to_dt
+from .parse import Hash, Url, defang_url
 
-ARCHIVE_FIELDS = ["ioc_value", "first_seen_utc", "ioc_id", "fk_malware", "malware_alias", "malware_printable", "threat_type", "confidence_level", "tags", "reporter", "reference"]
 MHASH_FIELDS = ["ioc_value", "fk_malware", "malware_alias", "malware_printable", "count", "first_seen_utc", "confidence_level", "threat_type", "tags", "reporter"]
 URL_FIELDS = ["tags", "url", "url_status", "dateadded", "id"]
-ARCHIVE_DAYS = 400   # hashes older than this leave the archive (it stays a few MB)
 HISTORY_KEEP = 800   # run records
 
 
@@ -48,45 +46,6 @@ def read_csv(path: Path) -> list[dict]:
 
 # ---------------------------------------------------------------- hashes
 
-def hash_row(h: Hash) -> dict:
-    return {"ioc_value": h.ioc_value, "first_seen_utc": h.first_seen.strftime("%Y-%m-%d %H:%M:%S"), "ioc_id": h.ioc_id, "fk_malware": h.malware, "malware_alias": h.alias,
-            "malware_printable": h.printable, "threat_type": h.threat_type, "confidence_level": h.confidence, "tags": ",".join(h.tags), "reporter": h.reporter, "reference": h.reference}
-
-
-def hash_from_row(r: dict) -> Hash | None:
-    seen = to_dt(r.get("first_seen_utc", ""))
-    if not seen or not r.get("ioc_value"):
-        return None
-    try:
-        conf = int(r.get("confidence_level") or 0)
-    except ValueError:
-        conf = 0
-    return Hash(r["ioc_value"], seen, r.get("ioc_id", ""), r.get("threat_type", ""), r.get("fk_malware", ""), r.get("malware_alias", ""), r.get("malware_printable", ""), conf,
-                [t for t in r.get("tags", "").split(",") if t], r.get("reference", ""), r.get("reporter", ""))
-
-
-def load_archive(path: Path) -> dict[str, Hash]:
-    return {h.ioc_value: h for h in (hash_from_row(r) for r in read_csv(path)) if h}
-
-
-def merge_archive(archive: dict[str, Hash], current: list[Hash], now: datetime) -> tuple[dict[str, Hash], int]:
-    """Add what is new, keep the earliest sighting, drop what is older than ARCHIVE_DAYS. Returns (archive, number added)."""
-    added = 0
-    for h in current:
-        if h.ioc_value not in archive:
-            archive[h.ioc_value] = h
-            added += 1
-        elif h.first_seen < archive[h.ioc_value].first_seen:
-            archive[h.ioc_value] = h
-    cut = now - timedelta(days=ARCHIVE_DAYS)
-    return {k: v for k, v in archive.items() if v.first_seen >= cut}, added
-
-
-def archive_text(archive: dict[str, Hash]) -> str:
-    rows = [hash_row(h) for h in sorted(archive.values(), key=lambda h: (h.first_seen, h.ioc_value), reverse=True)]
-    return csv_text(ARCHIVE_FIELDS, rows)
-
-
 def mhash_text(current: list[Hash], occurrences: dict[str, int]) -> str:
     """The latest export, one clean row per hash. Same first five columns as before (now without the stray quotes), richer columns after them."""
     rows = []
@@ -106,8 +65,9 @@ def urls_text(urls: list[Url]) -> str:
     return csv_text(URL_FIELDS, rows)
 
 
-def previous_url_ids(path: Path) -> set[str]:
-    return {r.get("id") or r.get("url", "") for r in read_csv(path)}
+def previous_url_status(path: Path) -> dict[str, str]:
+    """id -> status of every URL in the previous export (empty on the first run)."""
+    return {r["id"]: r.get("url_status", "") for r in read_csv(path) if r.get("id")}
 
 
 # ---------------------------------------------------------------- history

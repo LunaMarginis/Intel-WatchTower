@@ -5,7 +5,7 @@ import unittest
 from datetime import datetime, timedelta, timezone
 from pathlib import Path
 
-from watchtower import analyze, checks as C, export, parse, run, store
+from watchtower import analyze, checks as C, export, indicators, parse, run, store
 
 NOW = datetime(2026, 10, 18, 12, 0, tzinfo=timezone.utc)
 TF_HEADER = "# first_seen_utc, ioc_id, ioc_value, ioc_type, threat_type, fk_malware, malware_alias, malware_printable, last_seen_utc, confidence_level, is_compromised, reference, tags, anonymous, reporter"
@@ -110,22 +110,51 @@ class AnalyzeStoreExportTests(unittest.TestCase):
         self.assertEqual(len(analyze.sparkline([0, 1, 5, 2])), 4)
         self.assertIn("new", analyze.arrow(5, 0).lower())
 
-    def test_archive_accumulates_and_prunes(self):
-        arc, added = store.merge_archive({}, self.hashes, NOW)
-        self.assertEqual(added, len(self.hashes))
-        arc, added = store.merge_archive(arc, self.hashes, NOW)
-        self.assertEqual(added, 0)
-        old = parse.Hash(md5(999), NOW - timedelta(days=store.ARCHIVE_DAYS + 5), "1", "payload", "win.x", "", "X", 90, [], "", "r")
-        arc, _ = store.merge_archive({old.ioc_value: old}, [], NOW)
-        self.assertEqual(arc, {})
-
-    def test_archive_round_trip(self):
-        arc, _ = store.merge_archive({}, self.hashes, NOW)
+    def test_hash_records_accumulate_dedupe_and_prune(self):
         with tempfile.TemporaryDirectory() as d:
-            p = Path(d) / "a.csv"
-            store.write_text(p, store.archive_text(arc))
-            self.assertEqual(set(store.load_archive(p)), set(arc))
-            self.assertFalse(store.write_text(p, store.archive_text(arc)), "unchanged content must not rewrite the file")
+            root = Path(d)
+            files, new = indicators.add_hashes(root, {}, self.hashes, NOW)
+            self.assertEqual(len(new), len(self.hashes))
+            for p, t in files.items():
+                store.write_text(p, t)
+            known = indicators.load_hashes(root, NOW)
+            self.assertEqual(set(known), {h.ioc_value for h in self.hashes})
+            files2, new2 = indicators.add_hashes(root, known, self.hashes, NOW)
+            self.assertEqual((files2, new2), ({}, []), "a second pass with the same hashes must write nothing")
+            old = root / indicators.HASH_DIR / "2020-01-01.jsonl"
+            old.write_text("{}\n", encoding="utf-8")
+            self.assertEqual(indicators.prune(root, indicators.HASH_DIR, NOW, indicators.HASH_KEEP_DAYS), 1)
+
+    def test_hash_record_is_enriched_and_round_trips(self):
+        h = self.hashes[3]
+        r = indicators.hash_record(h, NOW)
+        for key in ("schema", "kind", "algo", "value", "source", "first_seen", "collected_at", "age_at_collection_h", "family", "aliases", "confidence", "reporter"):
+            self.assertIn(key, r)
+        back = indicators.hash_from_record(json.loads(indicators.jsonl_text([r])))
+        self.assertEqual((back.ioc_value, back.first_seen, back.family, back.confidence), (h.ioc_value, h.first_seen.replace(microsecond=0), h.family, h.confidence))
+
+    def test_url_records_only_for_new_recent_or_changed_and_are_defanged(self):
+        fam = indicators.family_names(self.hashes)
+        self.assertIn("vidar", fam)
+        prev = {u.id: u.status for u in self.urls}
+        flip = self.urls[0]
+        prev[flip.id] = "offline" if flip.status == "online" else "online"
+        del prev[self.urls[1].id]
+        with tempfile.TemporaryDirectory() as d:
+            files, n_new, n_changed = indicators.add_urls(Path(d), prev, self.urls, fam, NOW)
+            self.assertEqual((n_new, n_changed), (1, 1))
+            recs = [json.loads(line) for text in files.values() for line in text.splitlines()]
+            self.assertEqual({r["change"] for r in recs}, {"new", "status_changed"})
+            self.assertTrue(all("http://" not in r["url"] and r["schema"] == 1 for r in recs))
+            old = parse.Url("9", NOW - timedelta(days=10), "http://old.example/", "online", "malware_download", [], "r", "old.example", False, "")
+            self.assertEqual(indicators.add_urls(Path(d), {}, [old], fam, NOW)[1], 0, "old backlog URLs are not turned into records")
+
+    def test_url_tag_links_family_as_inferred(self):
+        u = parse.Url("5", NOW, "http://a.example/x", "online", "malware_download", ["Vidar", "zip"], "r", "a.example", False, "")
+        with tempfile.TemporaryDirectory() as d:
+            files, _, _ = indicators.add_urls(Path(d), {}, [u], indicators.family_names(self.hashes), NOW)
+            rec = json.loads(next(iter(files.values())).splitlines()[0])
+            self.assertEqual(rec["related_families"], ["Vidar"])
 
     def test_hash_summary(self):
         s = analyze.hash_summary(self.hashes, self.hashes, set(), NOW)
@@ -184,14 +213,14 @@ class EndToEndTests(unittest.TestCase):
 
     def test_first_run_writes_everything(self):
         self.assertIn(self._run(self.root, self.off), (0,))  # warnings (no export stamp in fixtures) do not fail the run
-        for rel in ("README.md", "mhash.csv", "urls.csv", "data/hashes_archive.csv", "feeds/md5_7d.txt", "feeds/hosts_online.txt", "feeds/stix_md5_7d.json", "feeds/iocs.json", "history/runs.jsonl", "reports/2026-10-18.md"):
+        for rel in ("README.md", "mhash.csv", "urls.csv", "indicators/hashes/2026-10-18.jsonl", "feeds/md5_7d.txt", "feeds/hosts_online.txt", "feeds/stix_md5_7d.json", "feeds/iocs.json", "history/runs.jsonl", "reports/2026-10-18.md"):
             self.assertTrue((self.root / rel).exists(), rel)
         json.loads((self.root / "feeds/stix_md5_7d.json").read_text(encoding="utf-8"))
         self.assertNotIn("http://", (self.root / "urls.csv").read_text(encoding="utf-8"))
 
     def test_second_run_leaves_data_files_untouched_and_skips_url_refresh(self):
         self._run(self.root, self.off)
-        before = {p: p.read_bytes() for p in (self.root / "mhash.csv", self.root / "urls.csv", self.root / "data/hashes_archive.csv", self.root / "feeds/md5_7d.txt")}
+        before = {p: p.read_bytes() for p in (self.root / "mhash.csv", self.root / "urls.csv", *(self.root / "indicators/hashes").glob("*.jsonl"), self.root / "feeds/md5_7d.txt")}
         self._run(self.root, self.off, now=NOW + timedelta(hours=6))
         for p, b in before.items():
             self.assertEqual(p.read_bytes(), b, p.name)
@@ -210,8 +239,23 @@ class EndToEndTests(unittest.TestCase):
         self._run(self.root, self.off)
         (self.off / "tf.csv").write_text(tf_file([tf_row(500 + i, NOW + timedelta(hours=5, minutes=i)) for i in range(12)]), encoding="utf-8")
         self._run(self.root, self.off, now=NOW + timedelta(hours=6))
-        arc = store.load_archive(self.root / "data/hashes_archive.csv")
+        arc = indicators.load_hashes(self.root, NOW + timedelta(hours=6))
         self.assertEqual(len(arc), 24)
+
+    def test_past_days_never_change_and_url_changes_are_recorded(self):
+        self._run(self.root, self.off)
+        day1 = (self.root / "indicators/hashes/2026-10-18.jsonl").read_bytes()
+        url1 = (self.root / "indicators/urls/2026-10-18.jsonl").read_bytes()
+        later = NOW + timedelta(days=1)
+        (self.off / "tf.csv").write_text(tf_file([tf_row(700 + i, later - timedelta(hours=1, minutes=i)) for i in range(12)]), encoding="utf-8")
+        flipped = uh_file([uh_row(i, f"http://203.0.113.{i % 250}/p{i}.sh" if i % 2 else f"http://bad{i}.example.net/x#frag{i}", "offline", "elf,Mozi", later - timedelta(hours=2)) for i in range(1500)])
+        (self.off / "uh.csv").write_text(flipped, encoding="utf-8")
+        self._run(self.root, self.off, now=later)
+        self.assertEqual((self.root / "indicators/hashes/2026-10-18.jsonl").read_bytes(), day1)
+        self.assertEqual((self.root / "indicators/urls/2026-10-18.jsonl").read_bytes(), url1)
+        changes = [json.loads(line) for line in (self.root / "indicators/urls/2026-10-19.jsonl").read_text(encoding="utf-8").splitlines()]
+        self.assertTrue(changes and all(c["change"] == "status_changed" and c["status"] == "offline" for c in changes))
+        self.assertEqual(len(list((self.root / "indicators/hashes").glob("*.jsonl"))), 2)
 
     def test_no_third_party_markup_reaches_the_readme(self):
         (self.off / "tf.csv").write_text(tf_file([tf_row(1, NOW - timedelta(hours=1), fam="win.x", printable="Evil|[click](http://evil.example/)<script>", reporter="`bad`")]), encoding="utf-8")
