@@ -5,7 +5,7 @@ import unittest
 from datetime import datetime, timedelta, timezone
 from pathlib import Path
 
-from watchtower import analyze, checks as C, export, indicators, parse, run, store
+from watchtower import analyze, checks as C, export, indicators, parse, platforms, run, store
 
 NOW = datetime(2026, 10, 18, 12, 0, tzinfo=timezone.utc)
 TF_HEADER = "# first_seen_utc, ioc_id, ioc_value, ioc_type, threat_type, fk_malware, malware_alias, malware_printable, last_seen_utc, confidence_level, is_compromised, reference, tags, anonymous, reporter"
@@ -194,6 +194,34 @@ class AnalyzeStoreExportTests(unittest.TestCase):
     def test_safe_text_strips_markup(self):
         for ch in "|`<>[]\"'*":
             self.assertNotIn(ch, export.safe_text(f"a{ch}b"))
+
+
+class PlatformTests(unittest.TestCase):
+    def test_platform_matching(self):
+        p = platforms.platform_of
+        self.assertEqual(p("raw.githubusercontent.com"), "GitHub")
+        self.assertEqual(p("GitHub.com"), "GitHub")
+        self.assertEqual(p("evil.blob.core.windows.net"), "Azure Blob Storage")
+        self.assertEqual(p("cdn.discordapp.com:443"), "Discord")
+        self.assertEqual(p("my-app.pages.dev."), "Cloudflare Pages")
+
+    def test_lookalikes_and_ips_are_not_platforms(self):
+        p = platforms.platform_of
+        for host in ("notgithub.com", "github.com.evil.example", "githubusercontent.com.evil.net", "evil-dropbox.com", "203.0.113.7", "", "dropbox"):
+            self.assertIsNone(p(host), host)
+
+    def test_summary_separates_platforms_from_own_infrastructure(self):
+        def u(i, host, status="online"):
+            return parse.Url(str(i), NOW - timedelta(hours=1), f"http://{host}/f{i}", status, "malware_download", ["elf"], "r", host, host.replace(".", "").isdigit(), "")
+        urls = [u(1, "raw.githubusercontent.com"), u(2, "raw.githubusercontent.com"), u(3, "cdn.discordapp.com"), u(4, "bad.example.net"), u(5, "203.0.113.9"), u(6, "203.0.113.9", "offline")]
+        s = analyze.url_summary(urls, set(), NOW)
+        self.assertEqual([h for h, _ in s["hosts"]], ["203.0.113.9", "bad.example.net"])
+        self.assertEqual(dict(s["hosts_online"]), {"203.0.113.9": 1, "bad.example.net": 1})
+        self.assertEqual(dict(s["platforms"]), {"GitHub": 2, "Discord": 1})
+        self.assertEqual((s["platform_urls"], s["platform_share"], s["unique_hosts"]), (3, 50, 2))
+        feed = export.hosts_feed(urls)
+        self.assertNotIn("github", feed)
+        self.assertIn("bad[.]example[.]net", feed)
 
 
 class EndToEndTests(unittest.TestCase):
