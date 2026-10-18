@@ -6,6 +6,7 @@ from datetime import datetime, timedelta
 from statistics import mean
 
 from .parse import Hash, Url
+from .platforms import platform_of
 
 BLOCKS = "▁▂▃▄▅▆▇█"
 
@@ -107,8 +108,12 @@ def url_summary(urls: list[Url], previous_ids: set[str], now: datetime) -> dict:
             elif u.added >= prev_cut:
                 tag_prev[t] += 1
     risers = sorted(((t, n, tag_prev.get(t, 0)) for t, n in tag_7.items() if n >= 20), key=lambda x: (-(x[1] - x[2]), x[0]))[:6]
-    hosts = Counter(u.host for u in urls)
-    hosts_online = Counter(u.host for u in online)
+    # Dedicated infrastructure (own domains, bare IPs) is listed host by host; shared platforms attackers abuse (GitHub, Discord, Dropbox ...) are counted apart.
+    own = [u for u in urls if not platform_of(u.host)]
+    hosts = Counter(u.host for u in own)
+    hosts_online = Counter(u.host for u in own if u.status == "online")
+    plat = Counter(platform_of(u.host) for u in urls if platform_of(u.host))
+    plat_online = Counter(platform_of(u.host) for u in online if platform_of(u.host))
     exts = Counter(u.ext or "(none)" for u in urls)
     daily = per_day([u.added for u in urls], now, 14)
     newest = max((u.added for u in urls), default=None)
@@ -120,6 +125,7 @@ def url_summary(urls: list[Url], previous_ids: set[str], now: datetime) -> dict:
         "untagged": sum(1 for u in urls if not u.tags),
         "tags": tag_all.most_common(10), "tags_online": tag_online.most_common(10), "tag_combos": combos.most_common(8), "risers": risers,
         "hosts": hosts.most_common(8), "hosts_online": hosts_online.most_common(8), "unique_hosts": len(hosts), "unique_online_hosts": len(hosts_online),
+        "platforms": plat.most_common(8), "platforms_online": plat_online.most_common(8), "platform_urls": sum(plat.values()), "platform_share": round(100 * sum(plat.values()) / total) if total else 0,
         "bare_ip_share": round(100 * sum(1 for u in urls if u.host_is_ip) / total) if total else 0,
         "bare_ip_online": sum(1 for u in online if u.host_is_ip),
         "extensions": exts.most_common(8), "reporters": Counter(u.reporter or "unknown" for u in urls).most_common(5),

@@ -107,11 +107,12 @@ def url_section(u: dict, long: bool) -> str:
     combos = ", ".join(f"`{cell(t.replace(',', ' + '), 60)}` {n(c)}" for t, c in u["tag_combos"][:5])
     out += f"\n**Most common tag combinations:** {combos or 'n/a'}\n"
     out += f"\n**Where it is hosted:** {u['bare_ip_share']}% of URLs sit on a bare IP address; {n(u['unique_hosts'])} different hosts, {n(u['unique_online_hosts'])} serving malware right now.  \n"
-    out += "**Busiest hosts:** " + ", ".join(f"`{defang_host(cell(h, 50))}` {n(c)}" for h, c in u["hosts"][:6]) + "  \n"
-    out += "**Online right now, busiest hosts:** " + (", ".join(f"`{defang_host(cell(h, 50))}` {n(c)}" for h, c in u["hosts_online"][:6]) or "n/a") + "  \n"
+    out += f"**Abused platforms:** {u['platform_share']}% of URLs sit on shared platforms: " + (", ".join(f"{cell(p, 30)} {n(c)}" for p, c in u["platforms"][:6]) or "none") + "  \n"
+    out += "**Busiest hosts (platforms left out):** " + ", ".join(f"`{defang_host(cell(h, 50))}` {n(c)}" for h, c in u["hosts"][:6]) + "  \n"
+    out += "**Online right now, busiest hosts (platforms left out):** " + (", ".join(f"`{defang_host(cell(h, 50))}` {n(c)}" for h, c in u["hosts_online"][:6]) or "n/a") + "  \n"
     out += "**File types:** " + ", ".join(f"{cell(e, 10)} {n(c)}" for e, c in u["extensions"][:8]) + "  \n"
     out += "**Top reporters:** " + ", ".join(f"{cell(k)} {n(v)}" for k, v in u["reporters"][:5]) + "\n"
-    out += "\n_Hosting platforms such as GitHub, GitLab or Dropbox appear because attackers abuse them: do not block those platforms because of this list._\n"
+    out += "\n_Platforms such as GitHub, Discord or Dropbox are counted apart: attackers abuse them, so a URL there says nothing about where the attacker is, and they must not be blocked because of this list._\n"
     return out
 
 
