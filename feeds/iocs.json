@@ -1,0 +1,1205 @@
+{
+ "at": "2026-10-18T12:43:47+00:00",
+ "checks": [
+  {
+   "detail": "14 KB in 0.3 s",
+   "name": "threatfox: download",
+   "status": "pass"
+  },
+  {
+   "detail": "all 10 needed columns present (5 others ignored)",
+   "name": "threatfox: columns",
+   "status": "pass"
+  },
+  {
+   "detail": "all 71 data lines parsed",
+   "name": "threatfox: lines read",
+   "status": "pass"
+  },
+  {
+   "detail": "every row passed validation",
+   "name": "threatfox: values valid",
+   "status": "pass"
+  },
+  {
+   "detail": "71 rows",
+   "name": "threatfox: volume",
+   "status": "pass"
+  },
+  {
+   "detail": "newest hash is 6.3 h old",
+   "name": "threatfox: freshness",
+   "status": "pass"
+  },
+  {
+   "detail": "export file is 6.3 h old",
+   "name": "threatfox: freshness",
+   "status": "pass"
+  },
+  {
+   "detail": "71 new (collecting a baseline: 0 earlier runs)",
+   "name": "threatfox: new items",
+   "status": "pass"
+  },
+  {
+   "detail": "7658 KB in 0.2 s",
+   "name": "urlhaus: download",
+   "status": "pass"
+  },
+  {
+   "detail": "all 7 needed columns present (2 others ignored)",
+   "name": "urlhaus: columns",
+   "status": "pass"
+  },
+  {
+   "detail": "all 33,521 data lines parsed",
+   "name": "urlhaus: lines read",
+   "status": "pass"
+  },
+  {
+   "detail": "every row passed validation",
+   "name": "urlhaus: values valid",
+   "status": "pass"
+  },
+  {
+   "detail": "33,521 rows",
+   "name": "urlhaus: volume",
+   "status": "pass"
+  },
+  {
+   "detail": "export file is 0.2 h old",
+   "name": "urlhaus: freshness",
+   "status": "pass"
+  },
+  {
+   "detail": "newest URL is 0.2 h old",
+   "name": "urlhaus: freshness",
+   "status": "pass"
+  },
+  {
+   "detail": "938 new URLs and 0 status changes recorded",
+   "name": "urlhaus: indicators",
+   "status": "pass"
+  },
+  {
+   "detail": "9 published files contain no live URL",
+   "name": "output safety",
+   "status": "pass"
+  }
+ ],
+ "hashes": {
+  "archive_total": 71,
+  "confidence": {
+   "avg": 95,
+   "max": 95,
+   "min": 95
+  },
+  "daily": [
+   [
+    "2026-10-05",
+    0
+   ],
+   [
+    "2026-10-06",
+    0
+   ],
+   [
+    "2026-10-07",
+    0
+   ],
+   [
+    "2026-10-08",
+    0
+   ],
+   [
+    "2026-10-09",
+    0
+   ],
+   [
+    "2026-10-10",
+    0
+   ],
+   [
+    "2026-10-11",
+    0
+   ],
+   [
+    "2026-10-12",
+    0
+   ],
+   [
+    "2026-10-13",
+    0
+   ],
+   [
+    "2026-10-14",
+    0
+   ],
+   [
+    "2026-10-15",
+    0
+   ],
+   [
+    "2026-10-16",
+    0
+   ],
+   [
+    "2026-10-17",
+    53
+   ],
+   [
+    "2026-10-18",
+    18
+   ]
+  ],
+  "families": [
+   {
+    "aliases": [],
+    "confidence": 95,
+    "count": 13,
+    "daily": [
+     0,
+     0,
+     0,
+     0,
+     0,
+     13,
+     0
+    ],
+    "family": "Raven Stealer",
+    "first_seen": "2026-10-17 15:32:42+00:00",
+    "key": "win.ravenstealer",
+    "last_seen": "2026-10-17 15:33:03+00:00",
+    "previous": 0,
+    "reporters": [
+     "Grim"
+    ],
+    "sample": [
+     "8f694e6f03fe4c9211f9544ddca84937",
+     "c185824056badcb489660d643e1f1952",
+     "1c8c522f7927b8f2e99f1000a7ae74a5",
+     "f55582ca0a6a2fefdb5111e2f60beeb3",
+     "883eae22718ef960648a369451a43fa7",
+     "e9e6694dc415007c193c5f82b9439d0c",
+     "73eec062a8c670f81961827367fde2b1",
+     "0937d25140f9b65990939e77ec2bb707",
+     "b87ff1783d67670773bd44621c77a4f7",
+     "c7b73746df4d547814974db4a33bb43c"
+    ]
+   },
+   {
+    "aliases": [
+     "NetWeird",
+     "NetWire",
+     "Recam"
+    ],
+    "confidence": 95,
+    "count": 6,
+    "daily": [
+     0,
+     0,
+     0,
+     0,
+     0,
+     6,
+     0
+    ],
+    "family": "NetWire RC",
+    "first_seen": "2026-10-17 15:32:31+00:00",
+    "key": "win.netwire",
+    "last_seen": "2026-10-17 15:32:39+00:00",
+    "previous": 0,
+    "reporters": [
+     "Grim"
+    ],
+    "sample": [
+     "3dccec3595bba26581d67320f8a7246c",
+     "180a1af79d93d25530fe06b8c109fe8d",
+     "fdb48acaeddd23cc974897a18eba5b5c",
+     "4b28fd9cddf20db2410750596c135f20",
+     "a205c4339b32ff40c1445f5bdcec5ede",
+     "96bcdbf175c237e75c424d075b7ac4e4"
+    ]
+   },
+   {
+    "aliases": [
+     "Winos"
+    ],
+    "confidence": 95,
+    "count": 6,
+    "daily": [
+     0,
+     0,
+     0,
+     0,
+     0,
+     4,
+     2
+    ],
+    "family": "ValleyRAT",
+    "first_seen": "2026-10-17 15:32:24+00:00",
+    "key": "win.valley_rat",
+    "last_seen": "2026-10-18 06:28:35+00:00",
+    "previous": 0,
+    "reporters": [
+     "Grim"
+    ],
+    "sample": [
+     "019a454a178d7c22cb9770d5722c1873",
+     "1870ab7568ef16ba1040b33fa2df203e",
+     "18390d1648bf678684d5fcdfa07ae03d",
+     "f3095ae00c2b65df4c2353ce8f81974b",
+     "01401ba0315a6fbb4d21672a47c5fa7a",
+     "068aaf5204a66183af150bd087787f79"
+    ]
+   },
+   {
+    "aliases": [],
+    "confidence": 95,
+    "count": 6,
+    "daily": [
+     0,
+     0,
+     0,
+     0,
+     0,
+     6,
+     0
+    ],
+    "family": "Vidar",
+    "first_seen": "2026-10-17 15:32:37+00:00",
+    "key": "win.vidar",
+    "last_seen": "2026-10-17 15:32:53+00:00",
+    "previous": 0,
+    "reporters": [
+     "Grim"
+    ],
+    "sample": [
+     "e805fdd8992fdfca7d2b73e308617829",
+     "533346133d52982b903922926fc76610",
+     "a32ce3219397af53d87f77ca3b918182",
+     "835501773c0b0d4a3b2d8bd7c2eb5c6d",
+     "2b048e8bc871eff2f268f5bd9fb882eb",
+     "3e92b3d9726103e81fc19cfe29104f27"
+    ]
+   },
+   {
+    "aliases": [],
+    "confidence": 95,
+    "count": 5,
+    "daily": [
+     0,
+     0,
+     0,
+     0,
+     0,
+     5,
+     0
+    ],
+    "family": "SalatStealer",
+    "first_seen": "2026-10-17 15:32:26+00:00",
+    "key": "win.salatstealer",
+    "last_seen": "2026-10-17 15:32:59+00:00",
+    "previous": 0,
+    "reporters": [
+     "Grim"
+    ],
+    "sample": [
+     "477d191b846c63709c171033a7a6b143",
+     "50bbaf6cbe2980e08fc072bb38fb2625",
+     "3d3eabc835011f0c0574471264cf439f",
+     "2071b24793af1d7bf01e2434f354e07b",
+     "c2256df2040bacde643acd4244bb2190"
+    ]
+   },
+   {
+    "aliases": [],
+    "confidence": 95,
+    "count": 5,
+    "daily": [
+     0,
+     0,
+     0,
+     0,
+     0,
+     2,
+     3
+    ],
+    "family": "Venus Stealer",
+    "first_seen": "2026-10-17 15:32:29+00:00",
+    "key": "py.venus_stealer",
+    "last_seen": "2026-10-18 06:28:27+00:00",
+    "previous": 0,
+    "reporters": [
+     "Grim"
+    ],
+    "sample": [
+     "ce8cd7ff4a20d2e54511fd473890f9ed",
+     "85ff31b155f62e5c9ded1aca34ae182b",
+     "8d0b678ddeaaf4fd6c2b2a8a919d91b5",
+     "aa9687303fbfca2bb08375b06d01fe48",
+     "d1534b6d3c5147dbeeeef70d9fb834fa"
+    ]
+   },
+   {
+    "aliases": [],
+    "confidence": 95,
+    "count": 4,
+    "daily": [
+     0,
+     0,
+     0,
+     0,
+     0,
+     1,
+     3
+    ],
+    "family": "stealler",
+    "first_seen": "2026-10-17 15:32:32+00:00",
+    "key": "py.stealler",
+    "last_seen": "2026-10-18 06:28:34+00:00",
+    "previous": 0,
+    "reporters": [
+     "Grim"
+    ],
+    "sample": [
+     "a991ddbd30289de6652a2c1c9339471b",
+     "0eae0805daf81c56e6a20a1d8361a6b5",
+     "6e5853ba952c1eea0a7141db596289b6",
+     "b142c97fce4cce152d4ba8b7b67f9e78"
+    ]
+   },
+   {
+    "aliases": [],
+    "confidence": 95,
+    "count": 3,
+    "daily": [
+     0,
+     0,
+     0,
+     0,
+     0,
+     2,
+     1
+    ],
+    "family": "Coinminer",
+    "first_seen": "2026-10-17 15:33:04+00:00",
+    "key": "win.coinminer",
+    "last_seen": "2026-10-18 06:28:32+00:00",
+    "previous": 0,
+    "reporters": [
+     "Grim"
+    ],
+    "sample": [
+     "7fd8aea592485fb741ca7addebba1021",
+     "3b6cdf35e94370bcbd3d4fe9820f70dc",
+     "2967c1398a9854876409d27f974d51a2"
+    ]
+   },
+   {
+    "aliases": [],
+    "confidence": 95,
+    "count": 3,
+    "daily": [
+     0,
+     0,
+     0,
+     0,
+     0,
+     2,
+     1
+    ],
+    "family": "MoriAgent",
+    "first_seen": "2026-10-17 15:32:55+00:00",
+    "key": "win.moriagent",
+    "last_seen": "2026-10-18 06:28:24+00:00",
+    "previous": 0,
+    "reporters": [
+     "Grim"
+    ],
+    "sample": [
+     "dbc20c52798b2524a3a7ee8671ab8e35",
+     "ba9993a91744cd9c182ce5ab72212a4c",
+     "3e7226b66846f399e30f1dd94a004353"
+    ]
+   },
+   {
+    "aliases": [
+     "Nancrat",
+     "NanoCore"
+    ],
+    "confidence": 95,
+    "count": 3,
+    "daily": [
+     0,
+     0,
+     0,
+     0,
+     0,
+     2,
+     1
+    ],
+    "family": "Nanocore RAT",
+    "first_seen": "2026-10-17 15:32:41+00:00",
+    "key": "win.nanocore",
+    "last_seen": "2026-10-18 06:28:25+00:00",
+    "previous": 0,
+    "reporters": [
+     "Grim"
+    ],
+    "sample": [
+     "6dfadba2be23409dad04a6dbca6f3d1a",
+     "5f281e55c1e07dabeb5e59d3a5194294",
+     "a853b7d874f5d7957db8c44d1df1a800"
+    ]
+   },
+   {
+    "aliases": [],
+    "confidence": 95,
+    "count": 2,
+    "daily": [
+     0,
+     0,
+     0,
+     0,
+     0,
+     2,
+     0
+    ],
+    "family": "GCleaner",
+    "first_seen": "2026-10-17 15:32:42+00:00",
+    "key": "win.gcleaner",
+    "last_seen": "2026-10-17 15:32:59+00:00",
+    "previous": 0,
+    "reporters": [
+     "Grim"
+    ],
+    "sample": [
+     "55d91aa19d585ff8248e9234cfebcb27",
+     "414654138697b0f8fe04e8a6c5b0c5cc"
+    ]
+   },
+   {
+    "aliases": [],
+    "confidence": 95,
+    "count": 2,
+    "daily": [
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     2
+    ],
+    "family": "RN Stealer",
+    "first_seen": "2026-10-18 06:28:19+00:00",
+    "key": "py.rn_stealer",
+    "last_seen": "2026-10-18 06:28:31+00:00",
+    "previous": 0,
+    "reporters": [
+     "Grim"
+    ],
+    "sample": [
+     "131b4860205884f497023fe9a4a18450",
+     "9747c73e8b2ca1acc82399eea5749cfd"
+    ]
+   },
+   {
+    "aliases": [
+     "Wana Decrypt0r",
+     "WannaCry",
+     "WannaCrypt",
+     "Wcry"
+    ],
+    "confidence": 95,
+    "count": 2,
+    "daily": [
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     2
+    ],
+    "family": "WannaCryptor",
+    "first_seen": "2026-10-18 06:28:30+00:00",
+    "key": "win.wannacryptor",
+    "last_seen": "2026-10-18 06:28:30+00:00",
+    "previous": 0,
+    "reporters": [
+     "Grim"
+    ],
+    "sample": [
+     "cc4df344dc1c16f87237661240fa385a",
+     "748504f2ecd67972a12bb0bf0be57e6b"
+    ]
+   },
+   {
+    "aliases": [],
+    "confidence": 95,
+    "count": 1,
+    "daily": [
+     0,
+     0,
+     0,
+     0,
+     0,
+     1,
+     0
+    ],
+    "family": "Amadey",
+    "first_seen": "2026-10-17 15:32:58+00:00",
+    "key": "win.amadey",
+    "last_seen": "2026-10-17 15:32:58+00:00",
+    "previous": 0,
+    "reporters": [
+     "Grim"
+    ],
+    "sample": [
+     "2aa1c286e5bdb479f3bdf713219bd861"
+    ]
+   },
+   {
+    "aliases": [],
+    "confidence": 95,
+    "count": 1,
+    "daily": [
+     0,
+     0,
+     0,
+     0,
+     0,
+     1,
+     0
+    ],
+    "family": "AsyncRAT",
+    "first_seen": "2026-10-17 15:32:36+00:00",
+    "key": "win.asyncrat",
+    "last_seen": "2026-10-17 15:32:36+00:00",
+    "previous": 0,
+    "reporters": [
+     "Grim"
+    ],
+    "sample": [
+     "eef0cfdb8c438b56f7588f6aa22c889b"
+    ]
+   },
+   {
+    "aliases": [
+     "Trupto"
+    ],
+    "confidence": 95,
+    "count": 1,
+    "daily": [
+     0,
+     0,
+     0,
+     0,
+     0,
+     1,
+     0
+    ],
+    "family": "CrossRAT",
+    "first_seen": "2026-10-17 15:32:40+00:00",
+    "key": "jar.crossrat",
+    "last_seen": "2026-10-17 15:32:40+00:00",
+    "previous": 0,
+    "reporters": [
+     "Grim"
+    ],
+    "sample": [
+     "c23328926e8545b746664890921ff091"
+    ]
+   },
+   {
+    "aliases": [],
+    "confidence": 95,
+    "count": 1,
+    "daily": [
+     0,
+     0,
+     0,
+     0,
+     0,
+     1,
+     0
+    ],
+    "family": "DBoxAgent",
+    "first_seen": "2026-10-17 15:32:35+00:00",
+    "key": "win.dboxagent",
+    "last_seen": "2026-10-17 15:32:35+00:00",
+    "previous": 0,
+    "reporters": [
+     "Grim"
+    ],
+    "sample": [
+     "5d4e5aece77c5f1b55f6dcc728cfa885"
+    ]
+   },
+   {
+    "aliases": [],
+    "confidence": 95,
+    "count": 1,
+    "daily": [
+     0,
+     0,
+     0,
+     0,
+     0,
+     1,
+     0
+    ],
+    "family": "GHOSTBLADE",
+    "first_seen": "2026-10-17 15:32:56+00:00",
+    "key": "js.ghostblade",
+    "last_seen": "2026-10-17 15:32:56+00:00",
+    "previous": 0,
+    "reporters": [
+     "Grim"
+    ],
+    "sample": [
+     "c7ca207e0b068efc1215dee80ae617b7"
+    ]
+   },
+   {
+    "aliases": [
+     "Bladabindi",
+     "Lime-Worm"
+    ],
+    "confidence": 95,
+    "count": 1,
+    "daily": [
+     0,
+     0,
+     0,
+     0,
+     0,
+     1,
+     0
+    ],
+    "family": "NjRAT",
+    "first_seen": "2026-10-17 15:33:01+00:00",
+    "key": "win.njrat",
+    "last_seen": "2026-10-17 15:33:01+00:00",
+    "previous": 0,
+    "reporters": [
+     "Grim"
+    ],
+    "sample": [
+     "0a85e9263cd4dc174ecdcc628447a2b5"
+    ]
+   },
+   {
+    "aliases": [],
+    "confidence": 95,
+    "count": 1,
+    "daily": [
+     0,
+     0,
+     0,
+     0,
+     0,
+     1,
+     0
+    ],
+    "family": "PY#RATION",
+    "first_seen": "2026-10-17 15:32:30+00:00",
+    "key": "py.pyration",
+    "last_seen": "2026-10-17 15:32:30+00:00",
+    "previous": 0,
+    "reporters": [
+     "Grim"
+    ],
+    "sample": [
+     "79aa57c62891e658c7266859a25b23cc"
+    ]
+   },
+   {
+    "aliases": [],
+    "confidence": 95,
+    "count": 1,
+    "daily": [
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     1
+    ],
+    "family": "QuantLoader",
+    "first_seen": "2026-10-18 06:28:21+00:00",
+    "key": "win.quantloader",
+    "last_seen": "2026-10-18 06:28:21+00:00",
+    "previous": 0,
+    "reporters": [
+     "Grim"
+    ],
+    "sample": [
+     "a08d7d3119fb3066415fac3f10c23dc8"
+    ]
+   },
+   {
+    "aliases": [],
+    "confidence": 95,
+    "count": 1,
+    "daily": [
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     1
+    ],
+    "family": "RedCurl",
+    "first_seen": "2026-10-18 06:28:27+00:00",
+    "key": "win.redcurl",
+    "last_seen": "2026-10-18 06:28:27+00:00",
+    "previous": 0,
+    "reporters": [
+     "Grim"
+    ],
+    "sample": [
+     "a053f5067188cdb6c8f1b4f7f469d72c"
+    ]
+   },
+   {
+    "aliases": [
+     "SocksShell",
+     "ZAPCAT"
+    ],
+    "confidence": 95,
+    "count": 1,
+    "daily": [
+     0,
+     0,
+     0,
+     0,
+     0,
+     1,
+     0
+    ],
+    "family": "Supper",
+    "first_seen": "2026-10-17 15:33:00+00:00",
+    "key": "win.supper",
+    "last_seen": "2026-10-17 15:33:00+00:00",
+    "previous": 0,
+    "reporters": [
+     "Grim"
+    ],
+    "sample": [
+     "96c6ecc564da576285526af14e026f54"
+    ]
+   },
+   {
+    "aliases": [],
+    "confidence": 95,
+    "count": 1,
+    "daily": [
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     1
+    ],
+    "family": "VoltStealer",
+    "first_seen": "2026-10-18 06:28:23+00:00",
+    "key": "win.voltstealer",
+    "last_seen": "2026-10-18 06:28:23+00:00",
+    "previous": 0,
+    "reporters": [
+     "Grim"
+    ],
+    "sample": [
+     "285fbe9b9d70884db15927c6c750900b"
+    ]
+   }
+  ],
+  "families_in_export": 24,
+  "in_export": 71,
+  "last24h": 71,
+  "last7": 71,
+  "new_this_run": 71,
+  "newest": "2026-10-18T06:28:35+00:00",
+  "newest_age_hours": 6.3,
+  "reporters": [
+   [
+    "Grim",
+    71
+   ]
+  ],
+  "spark": "\u2581\u2581\u2581\u2581\u2581\u2581\u2581\u2581\u2581\u2581\u2581\u2581\u2588\u2583",
+  "tags": [],
+  "threat_types": [
+   [
+    "payload",
+    71
+   ]
+  ],
+  "window_hours": 14.9
+ },
+ "status": "pass",
+ "urls": {
+  "added_24h": 489,
+  "added_7d": 3866,
+  "bare_ip_online": 1551,
+  "bare_ip_share": 47,
+  "daily": [
+   [
+    "2026-10-05",
+    799
+   ],
+   [
+    "2026-10-06",
+    14449
+   ],
+   [
+    "2026-10-07",
+    574
+   ],
+   [
+    "2026-10-08",
+    2115
+   ],
+   [
+    "2026-10-09",
+    539
+   ],
+   [
+    "2026-10-10",
+    524
+   ],
+   [
+    "2026-10-11",
+    435
+   ],
+   [
+    "2026-10-12",
+    1076
+   ],
+   [
+    "2026-10-13",
+    552
+   ],
+   [
+    "2026-10-14",
+    472
+   ],
+   [
+    "2026-10-15",
+    426
+   ],
+   [
+    "2026-10-16",
+    379
+   ],
+   [
+    "2026-10-17",
+    453
+   ],
+   [
+    "2026-10-18",
+    330
+   ]
+  ],
+  "extensions": [
+   [
+    "zip",
+    15089
+   ],
+   [
+    "(none)",
+    8979
+   ],
+   [
+    "sh",
+    4682
+   ],
+   [
+    "exe",
+    1428
+   ],
+   [
+    "jar",
+    340
+   ],
+   [
+    "ps1",
+    167
+   ],
+   [
+    "mips",
+    144
+   ],
+   [
+    "m",
+    116
+   ]
+  ],
+  "hosts": [
+   [
+    "raw.githubusercontent.com",
+    13562
+   ],
+   [
+    "github.com",
+    1725
+   ],
+   [
+    "gitlab.com",
+    693
+   ],
+   [
+    "176.65.134.121",
+    369
+   ],
+   [
+    "cdn.discordapp.com",
+    149
+   ],
+   [
+    "91.92.242.236",
+    117
+   ],
+   [
+    "31.56.209.86",
+    96
+   ],
+   [
+    "www.dropbox.com",
+    85
+   ]
+  ],
+  "hosts_online": [
+   [
+    "raw.githubusercontent.com",
+    13176
+   ],
+   [
+    "github.com",
+    1592
+   ],
+   [
+    "45.153.34.235",
+    66
+   ],
+   [
+    "130.12.180.212",
+    47
+   ],
+   [
+    "154.83.85.63",
+    44
+   ],
+   [
+    "176.65.139.169",
+    32
+   ],
+   [
+    "donutclients.st",
+    30
+   ],
+   [
+    "96.62.71.5",
+    29
+   ]
+  ],
+  "new_since_last": null,
+  "newest": "2026-10-18T12:31:35+00:00",
+  "newest_age_hours": 0.2,
+  "offline": 17007,
+  "online": 16514,
+  "online_share": 49,
+  "reporters": [
+   [
+    "shmulc",
+    15227
+   ],
+   [
+    "adliwahid",
+    8270
+   ],
+   [
+    "geenensp",
+    2062
+   ],
+   [
+    "BlinkzSec",
+    1399
+   ],
+   [
+    "abuse_ch",
+    1067
+   ]
+  ],
+  "risers": [
+   [
+    "Stealc",
+    620,
+    3
+   ],
+   [
+    "FakeGit",
+    612,
+    0
+   ],
+   [
+    "luajit",
+    612,
+    0
+   ],
+   [
+    "mips",
+    396,
+    284
+   ],
+   [
+    "cowrie",
+    183,
+    80
+   ],
+   [
+    "31-56-209-86",
+    87,
+    0
+   ]
+  ],
+  "spark": "\u2581\u2588\u2581\u2582\u2581\u2581\u2581\u2582\u2581\u2581\u2581\u2581\u2581\u2581",
+  "tag_combos": [
+   [
+    "github,LuaJIT-loader,SmartLoader,zip",
+    13746
+   ],
+   [
+    "Mozi",
+    2756
+   ],
+   [
+    "mirai",
+    2690
+   ],
+   [
+    "32-bit,elf,mips,Mozi",
+    1241
+   ],
+   [
+    "FakeGit,luajit,SmartLoader,Stealc,zip",
+    612
+   ],
+   [
+    "32-bit,arm,elf,mirai,Mozi",
+    545
+   ],
+   [
+    "elf,ua-wget",
+    519
+   ],
+   [
+    "CheatSheet,exe,github,rustystealer",
+    452
+   ]
+  ],
+  "tags": [
+   [
+    "zip",
+    14831
+   ],
+   [
+    "github",
+    14499
+   ],
+   [
+    "SmartLoader",
+    14385
+   ],
+   [
+    "LuaJIT-loader",
+    13762
+   ],
+   [
+    "elf",
+    4955
+   ],
+   [
+    "mirai",
+    4954
+   ],
+   [
+    "Mozi",
+    4931
+   ],
+   [
+    "ua-wget",
+    2685
+   ],
+   [
+    "32-bit",
+    2038
+   ],
+   [
+    "CheatSheet",
+    1408
+   ]
+  ],
+  "tags_online": [
+   [
+    "github",
+    14114
+   ],
+   [
+    "zip",
+    14019
+   ],
+   [
+    "SmartLoader",
+    14009
+   ],
+   [
+    "LuaJIT-loader",
+    13400
+   ],
+   [
+    "exe",
+    761
+   ],
+   [
+    "CheatSheet",
+    727
+   ],
+   [
+    "elf",
+    717
+   ],
+   [
+    "Stealc",
+    605
+   ],
+   [
+    "FakeGit",
+    601
+   ],
+   [
+    "luajit",
+    601
+   ]
+  ],
+  "threats": [
+   [
+    "malware_download",
+    33521
+   ]
+  ],
+  "total": 33521,
+  "unique_hosts": 7184,
+  "unique_online_hosts": 673,
+  "untagged": 4599,
+  "window_days": 30.5
+ },
+ "urls_at": "2026-10-18T12:43:47.920942+00:00",
+ "version": "2.0.0"
+}
