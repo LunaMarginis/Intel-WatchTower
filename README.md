@@ -4,21 +4,21 @@ Daily malware intelligence from abuse.ch: what is new, who is behind it, and whe
 
 ![collect](https://github.com/LunaMarginis/Intel-WatchTower/actions/workflows/collect.yml/badge.svg)
 
-**Last run:** 2026-10-18 12:59 UTC · **Health:** ✅ all 10 checks passed
+**Last run:** 2026-10-18 14:00 UTC · **Health:** ✅ all 17 checks passed
 
 ## At a glance
 
 |  | 🧬 ThreatFox · MD5 hashes | 🔗 URLhaus · malware URLs |
 |---|---|---|
-| In the latest export | 71 | 33,521 |
-| New since the previous run | 0 | – |
-| Added in the last 24 hours | 71 | 489 |
-| Added in the last 7 days | 71 | 3,866 |
-| Online right now | – | 16,514 (49%) |
-| Period the export covers | 14.9 h | 30.5 days |
-| Newest entry | 6.5 h ago | 0 min ago |
+| In the latest export | 71 | 33,552 |
+| New since the previous run | 0 | 31 |
+| Added in the last 24 hours | 71 | 505 |
+| Added in the last 7 days | 71 | 3,875 |
+| Online right now | – | 16,506 (49%) |
+| Period the export covers | 14.9 h | 30.6 days |
+| Newest entry | 7.5 h ago | 0 min ago |
 
-_URL data refreshed 2026-10-18 12:43 UTC._
+_URL data refreshed 2026-10-18 14:00 UTC._
 
 ## 🧬 Malware hashes
 
@@ -160,62 +160,70 @@ _Archive: 71 hashes collected so far (kept up to 400 days)._
 
 ## 🔗 Malware URLs
 
-**Added per day, last 14 days:** `▁█▁▂▁▁▁▂▁▁▁▁▁▁` (last 24 h: 489, last 7 d: 3,866).
+**Added per day, last 14 days:** `▁█▁▂▁▁▁▂▁▁▁▁▁▁` (last 24 h: 505, last 7 d: 3,875).
 
 #### Top tags (each tag counted on its own)
 
 | Tag | URLs | Online |
 |---|---|---|
-| `zip` | 14,831 | 14,019 |
+| `zip` | 14,836 | 14,024 |
 | `github` | 14,499 | 14,114 |
 | `SmartLoader` | 14,385 | 14,009 |
 | `LuaJIT-loader` | 13,762 | 13,400 |
-| `elf` | 4,955 | 717 |
-| `mirai` | 4,954 | – |
-| `Mozi` | 4,931 | – |
+| `mirai` | 5,800 | 688 |
+| `Mozi` | 5,772 | – |
+| `elf` | 4,964 | 722 |
 | `ua-wget` | 2,685 | – |
 
-_4,599 URLs (14%) carry no tag and are not counted above._
+_3,339 URLs (10%) carry no tag and are not counted above._
 
-**Fastest growing this week:** `Stealc` 620 (▲ +617), `FakeGit` 612 (🆕 new), `luajit` 612 (🆕 new), `mips` 396 (▲ +112), `cowrie` 183 (▲ +103), `31-56-209-86` 87 (🆕 new)
+**Fastest growing this week:** `Stealc` 620 (▲ +617), `FakeGit` 612 (🆕 new), `luajit` 612 (🆕 new), `mips` 398 (▲ +111), `cowrie` 184 (▲ +106), `honeypot` 168 (▲ +90)
 
-**Most common tag combinations:** `github + LuaJIT-loader + SmartLoader + zip` 13,746, `Mozi` 2,756, `mirai` 2,690, `32-bit + elf + mips + Mozi` 1,241, `FakeGit + luajit + SmartLoader + Stealc + zip` 612
+**Most common tag combinations:** `github + LuaJIT-loader + SmartLoader + zip` 13,746, `Mozi` 3,566, `mirai` 3,145, `32-bit + elf + mips + Mozi` 1,246, `32-bit + arm + elf + mirai + Mozi` 776
 
-**Where it is hosted:** 47% of URLs sit on a bare IP address; 7,184 different hosts, 673 serving malware right now.  
-**Busiest hosts:** `raw[.]githubusercontent[.]com` 13,562, `github[.]com` 1,725, `gitlab[.]com` 693, `176[.]65[.]134[.]121` 369, `cdn[.]discordapp[.]com` 149, `91[.]92[.]242[.]236` 117  
-**Online right now, busiest hosts:** `raw[.]githubusercontent[.]com` 13,176, `github[.]com` 1,592, `45[.]153[.]34[.]235` 66, `130[.]12[.]180[.]212` 47, `154[.]83[.]85[.]63` 44, `176[.]65[.]139[.]169` 32  
-**File types:** zip 15,089, (none) 8,979, sh 4,682, exe 1,428, jar 340, ps1 167, mips 144, m 116  
-**Top reporters:** shmulc 15,227, adliwahid 8,270, geenensp 2,062, BlinkzSec 1,399, abuse_ch 1,067
+**Where it is hosted:** 47% of URLs sit on a bare IP address; 7,109 different hosts, 670 serving malware right now.  
+**Abused platforms:** 49% of URLs sit on shared platforms: GitHub 15,293, GitLab 693, Discord 150, Dropbox 87, Google Drive 78, Cloudflare Workers 54  
+**Busiest hosts (platforms left out):** `176[.]65[.]134[.]121` 369, `91[.]92[.]242[.]236` 117, `31[.]56[.]209[.]86` 96, `176[.]65[.]139[.]206` 73, `45[.]153[.]34[.]235` 69, `176[.]65[.]139[.]135` 57  
+**Online right now, busiest hosts (platforms left out):** `45[.]153[.]34[.]235` 58, `130[.]12[.]180[.]212` 47, `154[.]83[.]85[.]63` 44, `176[.]65[.]139[.]169` 32, `donutclients[.]st` 30, `96[.]62[.]71[.]5` 29  
+**File types:** zip 15,095, (none) 8,991, sh 4,686, exe 1,434, jar 340, ps1 168, mips 144, m 116  
+**Top reporters:** shmulc 15,227, adliwahid 8,277, geenensp 2,070, BlinkzSec 1,399, abuse_ch 1,067
 
-_Hosting platforms such as GitHub, GitLab or Dropbox appear because attackers abuse them: do not block those platforms because of this list._
+_Platforms such as GitHub, Discord or Dropbox are counted apart: attackers abuse them, so a URL there says nothing about where the attacker is, and they must not be blocked because of this list._
 
 ## Data health
 
 |  | Check | Result |
 |---|---|---|
-| ✅ | `threatfox: download` | 14 KB in 0.3 s |
+| ✅ | `threatfox: download` | 14 KB in 0.1 s |
 | ✅ | `threatfox: columns` | all 10 needed columns present (5 others ignored) |
 | ✅ | `threatfox: lines read` | all 71 data lines parsed |
 | ✅ | `threatfox: values valid` | every row passed validation |
 | ✅ | `threatfox: volume` | 71 rows (last time 71) |
-| ✅ | `threatfox: freshness` | newest hash is 6.5 h old |
-| ✅ | `threatfox: freshness` | export file is 6.5 h old |
-| ✅ | `threatfox: new items` | 0 new (collecting a baseline: 1 earlier runs) |
-| ✅ | `urlhaus: refresh` | not due: refreshed 2026-10-18 12:43 UTC (once a day) |
-| ✅ | `output safety` | 5 published files contain no live URL |
+| ✅ | `threatfox: freshness` | newest hash is 7.5 h old |
+| ✅ | `threatfox: freshness` | export file is 7.5 h old |
+| ✅ | `threatfox: new items` | 0 new (collecting a baseline: 2 earlier runs) |
+| ✅ | `urlhaus: download` | 7667 KB in 0.1 s |
+| ✅ | `urlhaus: columns` | all 7 needed columns present (2 others ignored) |
+| ✅ | `urlhaus: lines read` | all 33552 data lines parsed |
+| ✅ | `urlhaus: values valid` | every row passed validation |
+| ✅ | `urlhaus: volume` | 33552 rows (last time 33521) |
+| ✅ | `urlhaus: freshness` | export file is 0.1 h old |
+| ✅ | `urlhaus: freshness` | newest URL is 0.1 h old |
+| ✅ | `urlhaus: indicators` | 31 new URLs and 51 status changes recorded |
+| ✅ | `output safety` | 8 published files contain no live URL |
 
 ## Files
 
 | File | What it holds | Rows | Size |
 |---|---|---|---|
-| [`README.md`](https://github.com/LunaMarginis/Intel-WatchTower/blob/main/README.md) | This page | – | 11 KB |
+| [`README.md`](https://github.com/LunaMarginis/Intel-WatchTower/blob/main/README.md) | This page | – | 10 KB |
 | [`mhash.csv`](https://github.com/LunaMarginis/Intel-WatchTower/blob/main/mhash.csv) | Latest ThreatFox MD5 export, clean (first_seen, confidence, reporter…) | 71 | 7 KB |
-| [`urls.csv`](https://github.com/LunaMarginis/Intel-WatchTower/blob/main/urls.csv) | Latest URLhaus export, defanged | 33,521 | 4,696 KB |
+| [`urls.csv`](https://github.com/LunaMarginis/Intel-WatchTower/blob/main/urls.csv) | Latest URLhaus export, defanged | 33,552 | 4,707 KB |
 | [`indicators/hashes/`](https://github.com/LunaMarginis/Intel-WatchTower/blob/main/indicators/hashes/) | Enriched hash records, one file per day, one JSON object per line (kept 400 days) | 71 | 26 KB |
-| [`indicators/urls/`](https://github.com/LunaMarginis/Intel-WatchTower/blob/main/indicators/urls/) | Enriched URL records: new URLs and status changes, one file per day (kept 120 days) | 938 | 357 KB |
+| [`indicators/urls/`](https://github.com/LunaMarginis/Intel-WatchTower/blob/main/indicators/urls/) | Enriched URL records: new URLs and status changes, one file per day (kept 120 days) | 1,020 | 389 KB |
 | [`feeds/md5_7d.txt`](https://github.com/LunaMarginis/Intel-WatchTower/blob/main/feeds/md5_7d.txt) | Plain list: hashes of the last 7 days | 71 | 3 KB |
 | [`feeds/md5_30d.txt`](https://github.com/LunaMarginis/Intel-WatchTower/blob/main/feeds/md5_30d.txt) | Plain list: hashes of the last 30 days | 71 | 3 KB |
-| [`feeds/hosts_online.txt`](https://github.com/LunaMarginis/Intel-WatchTower/blob/main/feeds/hosts_online.txt) | Hosts serving malware now, defanged | 673 | 14 KB |
+| [`feeds/hosts_online.txt`](https://github.com/LunaMarginis/Intel-WatchTower/blob/main/feeds/hosts_online.txt) | Hosts serving malware now, defanged | 670 | 14 KB |
 | [`feeds/stix_md5_7d.json`](https://github.com/LunaMarginis/Intel-WatchTower/blob/main/feeds/stix_md5_7d.json) | STIX 2.1 bundle of the last 7 days of hashes | – | 89 KB |
 | [`feeds/iocs.json`](https://github.com/LunaMarginis/Intel-WatchTower/blob/main/feeds/iocs.json) | The numbers behind this page, as JSON | – | 18 KB |
 | [`history/runs.jsonl`](https://github.com/LunaMarginis/Intel-WatchTower/blob/main/history/runs.jsonl) | One line per run: counts and check results | – | 0 KB |

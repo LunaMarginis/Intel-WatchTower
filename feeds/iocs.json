@@ -1,8 +1,8 @@
 {
- "at": "2026-10-18T12:59:51+00:00",
+ "at": "2026-10-18T14:00:44+00:00",
  "checks": [
   {
-   "detail": "14 KB in 0.3 s",
+   "detail": "14 KB in 0.1 s",
    "name": "threatfox: download",
    "status": "pass"
   },
@@ -27,27 +27,62 @@
    "status": "pass"
   },
   {
-   "detail": "newest hash is 6.5 h old",
+   "detail": "newest hash is 7.5 h old",
    "name": "threatfox: freshness",
    "status": "pass"
   },
   {
-   "detail": "export file is 6.5 h old",
+   "detail": "export file is 7.5 h old",
    "name": "threatfox: freshness",
    "status": "pass"
   },
   {
-   "detail": "0 new (collecting a baseline: 1 earlier runs)",
+   "detail": "0 new (collecting a baseline: 2 earlier runs)",
    "name": "threatfox: new items",
    "status": "pass"
   },
   {
-   "detail": "not due: refreshed 2026-10-18 12:43 UTC (once a day)",
-   "name": "urlhaus: refresh",
+   "detail": "7667 KB in 0.1 s",
+   "name": "urlhaus: download",
    "status": "pass"
   },
   {
-   "detail": "5 published files contain no live URL",
+   "detail": "all 7 needed columns present (2 others ignored)",
+   "name": "urlhaus: columns",
+   "status": "pass"
+  },
+  {
+   "detail": "all 33,552 data lines parsed",
+   "name": "urlhaus: lines read",
+   "status": "pass"
+  },
+  {
+   "detail": "every row passed validation",
+   "name": "urlhaus: values valid",
+   "status": "pass"
+  },
+  {
+   "detail": "33,552 rows (last time 33,521)",
+   "name": "urlhaus: volume",
+   "status": "pass"
+  },
+  {
+   "detail": "export file is 0.1 h old",
+   "name": "urlhaus: freshness",
+   "status": "pass"
+  },
+  {
+   "detail": "newest URL is 0.1 h old",
+   "name": "urlhaus: freshness",
+   "status": "pass"
+  },
+  {
+   "detail": "31 new URLs and 51 status changes recorded",
+   "name": "urlhaus: indicators",
+   "status": "pass"
+  },
+  {
+   "detail": "8 published files contain no live URL",
    "name": "output safety",
    "status": "pass"
   }
@@ -791,7 +826,7 @@
   "last7": 71,
   "new_this_run": 0,
   "newest": "2026-10-18T06:28:35+00:00",
-  "newest_age_hours": 6.5,
+  "newest_age_hours": 7.5,
   "reporters": [
    [
     "Grim",
@@ -810,9 +845,9 @@
  },
  "status": "pass",
  "urls": {
-  "added_24h": 489,
-  "added_7d": 3866,
-  "bare_ip_online": 1551,
+  "added_24h": 505,
+  "added_7d": 3875,
+  "bare_ip_online": 1529,
   "bare_ip_share": 47,
   "daily": [
    [
@@ -869,25 +904,25 @@
    ],
    [
     "2026-10-18",
-    330
+    361
    ]
   ],
   "extensions": [
    [
     "zip",
-    15089
+    15095
    ],
    [
     "(none)",
-    8979
+    8991
    ],
    [
     "sh",
-    4682
+    4686
    ],
    [
     "exe",
-    1428
+    1434
    ],
    [
     "jar",
@@ -895,7 +930,7 @@
    ],
    [
     "ps1",
-    167
+    168
    ],
    [
     "mips",
@@ -908,24 +943,8 @@
   ],
   "hosts": [
    [
-    "raw.githubusercontent.com",
-    13562
-   ],
-   [
-    "github.com",
-    1725
-   ],
-   [
-    "gitlab.com",
-    693
-   ],
-   [
     "176.65.134.121",
     369
-   ],
-   [
-    "cdn.discordapp.com",
-    149
    ],
    [
     "91.92.242.236",
@@ -936,22 +955,30 @@
     96
    ],
    [
-    "www.dropbox.com",
-    85
+    "176.65.139.206",
+    73
+   ],
+   [
+    "45.153.34.235",
+    69
+   ],
+   [
+    "176.65.139.135",
+    57
+   ],
+   [
+    "154.83.85.63",
+    52
+   ],
+   [
+    "130.12.180.212",
+    47
    ]
   ],
   "hosts_online": [
    [
-    "raw.githubusercontent.com",
-    13176
-   ],
-   [
-    "github.com",
-    1592
-   ],
-   [
     "45.153.34.235",
-    66
+    58
    ],
    [
     "130.12.180.212",
@@ -972,14 +999,92 @@
    [
     "96.62.71.5",
     29
+   ],
+   [
+    "193.111.117.135",
+    25
+   ],
+   [
+    "31.56.209.86",
+    23
    ]
   ],
-  "new_since_last": null,
-  "newest": "2026-10-18T12:31:35+00:00",
-  "newest_age_hours": 0.2,
-  "offline": 17007,
-  "online": 16514,
+  "new_since_last": 31,
+  "newest": "2026-10-18T13:53:19+00:00",
+  "newest_age_hours": 0.1,
+  "offline": 17046,
+  "online": 16506,
   "online_share": 49,
+  "platform_share": 49,
+  "platform_urls": 16455,
+  "platforms": [
+   [
+    "GitHub",
+    15293
+   ],
+   [
+    "GitLab",
+    693
+   ],
+   [
+    "Discord",
+    150
+   ],
+   [
+    "Dropbox",
+    87
+   ],
+   [
+    "Google Drive",
+    78
+   ],
+   [
+    "Cloudflare Workers",
+    54
+   ],
+   [
+    "Vercel",
+    27
+   ],
+   [
+    "Cloudflare R2",
+    21
+   ]
+  ],
+  "platforms_online": [
+   [
+    "GitHub",
+    14768
+   ],
+   [
+    "GitLab",
+    18
+   ],
+   [
+    "Vercel",
+    9
+   ],
+   [
+    "Discord",
+    3
+   ],
+   [
+    "Cloudflare R2",
+    3
+   ],
+   [
+    "Cloudflare Workers",
+    2
+   ],
+   [
+    "MediaFire",
+    1
+   ],
+   [
+    "Cloudflare Tunnel",
+    1
+   ]
+  ],
   "reporters": [
    [
     "shmulc",
@@ -987,11 +1092,11 @@
    ],
    [
     "adliwahid",
-    8270
+    8277
    ],
    [
     "geenensp",
-    2062
+    2070
    ],
    [
     "BlinkzSec",
@@ -1020,18 +1125,18 @@
    ],
    [
     "mips",
-    396,
-    284
+    398,
+    287
    ],
    [
     "cowrie",
-    183,
-    80
+    184,
+    78
    ],
    [
-    "31-56-209-86",
-    87,
-    0
+    "honeypot",
+    168,
+    78
    ]
   ],
   "spark": "\u2581\u2588\u2581\u2582\u2581\u2581\u2581\u2582\u2581\u2581\u2581\u2581\u2581\u2581",
@@ -1042,37 +1147,37 @@
    ],
    [
     "Mozi",
-    2756
+    3566
    ],
    [
     "mirai",
-    2690
+    3145
    ],
    [
     "32-bit,elf,mips,Mozi",
-    1241
+    1246
+   ],
+   [
+    "32-bit,arm,elf,mirai,Mozi",
+    776
    ],
    [
     "FakeGit,luajit,SmartLoader,Stealc,zip",
     612
    ],
    [
-    "32-bit,arm,elf,mirai,Mozi",
-    545
-   ],
-   [
     "elf,ua-wget",
-    519
+    486
    ],
    [
-    "CheatSheet,exe,github,rustystealer",
-    452
+    "elf,mirai,ua-wget",
+    465
    ]
   ],
   "tags": [
    [
     "zip",
-    14831
+    14836
    ],
    [
     "github",
@@ -1087,16 +1192,16 @@
     13762
    ],
    [
-    "elf",
-    4955
-   ],
-   [
     "mirai",
-    4954
+    5800
    ],
    [
     "Mozi",
-    4931
+    5772
+   ],
+   [
+    "elf",
+    4964
    ],
    [
     "ua-wget",
@@ -1104,7 +1209,7 @@
    ],
    [
     "32-bit",
-    2038
+    2046
    ],
    [
     "CheatSheet",
@@ -1118,7 +1223,7 @@
    ],
    [
     "zip",
-    14019
+    14024
    ],
    [
     "SmartLoader",
@@ -1130,7 +1235,7 @@
    ],
    [
     "exe",
-    761
+    765
    ],
    [
     "CheatSheet",
@@ -1138,7 +1243,11 @@
    ],
    [
     "elf",
-    717
+    722
+   ],
+   [
+    "mirai",
+    688
    ],
    [
     "Stealc",
@@ -1147,24 +1256,20 @@
    [
     "FakeGit",
     601
-   ],
-   [
-    "luajit",
-    601
    ]
   ],
   "threats": [
    [
     "malware_download",
-    33521
+    33552
    ]
   ],
-  "total": 33521,
-  "unique_hosts": 7184,
-  "unique_online_hosts": 673,
-  "untagged": 4599,
-  "window_days": 30.5
+  "total": 33552,
+  "unique_hosts": 7109,
+  "unique_online_hosts": 670,
+  "untagged": 3339,
+  "window_days": 30.6
  },
- "urls_at": "2026-10-18T12:43:47.920942+00:00",
+ "urls_at": "2026-10-18T14:00:44.361150+00:00",
  "version": "2.0.0"
 }
