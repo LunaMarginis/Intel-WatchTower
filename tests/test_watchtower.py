@@ -196,6 +196,75 @@ class AnalyzeStoreExportTests(unittest.TestCase):
             self.assertNotIn(ch, export.safe_text(f"a{ch}b"))
 
 
+def infra_row(value: str, kind: str, when: datetime, threat: str = "botnet_cc", fam: str = "win.vidar", printable: str = "Vidar", i: int = 0) -> str:
+    q = lambda v: f'"{v}"'
+    return ", ".join(q(v) for v in (when.strftime("%Y-%m-%d %H:%M:%S"), 5000 + i, value, kind, threat, fam, "None", printable, "", "100", "False", "None", "vidar,c2", 0, "reporter1"))
+
+
+def infra_file(rows: list[str]) -> str:
+    return "\n".join(["################", "# Last updated: " + NOW.strftime("%Y-%m-%d %H:%M:%S") + " UTC", TF_HEADER, *rows]) + "\n"
+
+
+class InfraTests(unittest.TestCase):
+    def test_domains_are_validated(self):
+        ex = parse.parse_export(infra_file([infra_row("Evil.Example.com.", "domain", NOW), infra_row("not a domain", "domain", NOW, i=1), infra_row("1.2.3.4:80", "ip:port", NOW, i=2)]))
+        items, rej = parse.infra_records(ex, "domain")
+        self.assertEqual([i.value for i in items], ["evil.example.com"])
+        self.assertEqual(len(rej), 2)
+
+    def test_ip_port_rows_of_one_ip_become_one_entry_with_ports(self):
+        rows = [infra_row("10.0.0.5:443", "ip:port", NOW, i=1), infra_row("10.0.0.5:80", "ip:port", NOW - timedelta(hours=1), i=2), infra_row("999.1.1.1:80", "ip:port", NOW, i=3), infra_row("10.0.0.6:99999", "ip:port", NOW, i=4)]
+        items, rej = parse.infra_records(parse.parse_export(infra_file(rows)), "ip")
+        self.assertEqual(len(items), 1)
+        self.assertEqual((items[0].value, items[0].ports, items[0].first_seen), ("10.0.0.5", [80, 443], NOW - timedelta(hours=1)))
+        self.assertEqual(len(rej), 2)
+
+    def test_dataset_records_are_defanged_round_trip_and_deduped(self):
+        items, _ = parse.infra_records(parse.parse_export(infra_file([infra_row("c2.example.net", "domain", NOW)])), "domain")
+        ips, _ = parse.infra_records(parse.parse_export(infra_file([infra_row("10.0.0.5:443", "ip:port", NOW, i=1)])), "ip")
+        with tempfile.TemporaryDirectory() as d:
+            root = Path(d)
+            files, new = indicators.add_infra(root, {}, items + ips, NOW)
+            self.assertEqual(len(new), 2)
+            text = next(iter(files.values()))
+            self.assertIn("c2[.]example[.]net", text)
+            self.assertNotIn("c2.example.net", text)
+            for p, t in files.items():
+                store.write_text(p, t)
+            known = indicators.load_infra(root, NOW)
+            self.assertEqual(set(known), {"domain:c2.example.net", "ip:10.0.0.5"})
+            self.assertEqual(known["ip:10.0.0.5"].ports, [443])
+            self.assertEqual(indicators.add_infra(root, known, items + ips, NOW), ({}, []))
+            old = parse.Infra("domain", "ancient.example", NOW - timedelta(days=indicators.INFRA_KEEP_DAYS + 3), "1", "botnet_cc", "", "", "X", 90)
+            self.assertEqual(indicators.add_infra(root, known, [old], NOW), ({}, []), "entries older than the retention window are not re-added on every run")
+
+    def test_overlap_with_urlhaus_and_feed(self):
+        ips, _ = parse.infra_records(parse.parse_export(infra_file([infra_row("10.0.0.5:443", "ip:port", NOW, i=1)])), "ip")
+        doms, _ = parse.infra_records(parse.parse_export(infra_file([infra_row("quiet.example", "domain", NOW, i=2), infra_row("busy.example", "domain", NOW, i=3, threat="payload_delivery")])), "domain")
+        hosts = {"10.0.0.5": [7, 3], "busy.example": [2, 2], "unrelated.example": [9, 9]}
+        ov = analyze.infra_overlap(ips + doms, hosts)
+        self.assertEqual([(o["value"], o["urls"], o["online"]) for o in ov], [("10.0.0.5", 7, 3), ("busy.example", 2, 2)])
+        feed = export.infra_feed(ips + doms, "domain", NOW, 7)
+        self.assertIn("quiet[.]example", feed)
+        self.assertNotIn("busy", feed, "only command-and-control entries go into the C2 list")
+
+    def test_url_hosts_are_read_back_from_the_defanged_csv(self):
+        urls = [parse.Url("1", NOW, "http://10.0.0.5:8080/a", "online", "malware_download", [], "r", "10.0.0.5", True, ""),
+                parse.Url("2", NOW, "http://Busy.Example/b?x=1#f", "offline", "malware_download", [], "r", "busy.example", False, "")]
+        with tempfile.TemporaryDirectory() as d:
+            p = Path(d) / "urls.csv"
+            store.write_text(p, store.urls_text(urls))
+            self.assertEqual(store.url_hosts(p), {"10.0.0.5": [1, 1], "busy.example": [1, 0]})
+
+    def test_url_summary_lists_domains_and_ips_separately(self):
+        def u(i, host):
+            return parse.Url(str(i), NOW - timedelta(hours=1), f"http://{host}/f", "online", "malware_download", [], "r", host, host.replace(".", "").isdigit(), "")
+        s = analyze.url_summary([u(1, "203.0.113.9"), u(2, "203.0.113.9"), u(3, "bad.example.net"), u(4, "raw.githubusercontent.com")], set(), NOW)
+        self.assertEqual(s["domains"], [("bad.example.net", 1)])
+        self.assertEqual(s["ips"], [("203.0.113.9", 2)])
+        self.assertEqual((s["unique_domains"], s["unique_ips"]), (1, 1))
+
+
 class PlatformTests(unittest.TestCase):
     def test_platform_matching(self):
         p = platforms.platform_of
@@ -296,6 +365,33 @@ class EndToEndTests(unittest.TestCase):
         again = json.loads(path.read_text(encoding="utf-8"))
         self.assertIn("platform_share", again["urls"])
         self.assertIn("Abused platforms", (self.root / "README.md").read_text(encoding="utf-8"))
+
+    def test_infrastructure_section_files_and_overlap(self):
+        doms = [infra_row("c2.example.net", "domain", NOW - timedelta(hours=1), i=1), infra_row("drop.example.org", "domain", NOW - timedelta(hours=2), "payload_delivery", i=2)]
+        doms += [infra_row(f"extra{n}.example.net", "domain", NOW - timedelta(hours=3), i=20 + n) for n in range(4)]
+        ips = [infra_row("203.0.113.5:443", "ip:port", NOW - timedelta(hours=1), i=3), infra_row("203.0.113.5:80", "ip:port", NOW - timedelta(hours=1), i=4)]
+        ips += [infra_row(f"198.51.100.{n}:443", "ip:port", NOW - timedelta(hours=3), i=40 + n) for n in range(1, 6)]
+        (self.off / "tfd.csv").write_text(infra_file(doms), encoding="utf-8")
+        (self.off / "tfi.csv").write_text(infra_file(ips), encoding="utf-8")
+        self.assertEqual(self._run(self.root, self.off), 0)
+        for rel in ("feeds/c2_domains_7d.txt", "feeds/c2_ips_7d.txt", "indicators/infra/2026-10-18.jsonl"):
+            self.assertTrue((self.root / rel).exists(), rel)
+        readme = (self.root / "README.md").read_text(encoding="utf-8")
+        self.assertIn("Command-and-control infrastructure", readme)
+        self.assertIn("c2[.]example[.]net", readme)
+        self.assertNotIn("c2.example.net", readme)
+        state = json.loads((self.root / "feeds/iocs.json").read_text(encoding="utf-8"))
+        self.assertEqual((state["infra"]["domains"]["in_export"], state["infra"]["ips"]["in_export"]), (6, 6))
+        self.assertTrue(any(o["value"] == "203.0.113.5" for o in state["infra"]["overlap"]), "fixture URLs include 203.0.113.5, which ThreatFox calls C2")
+
+    def test_a_broken_infrastructure_download_keeps_previous_infrastructure(self):
+        rows = [infra_row(f"d{n}.example.net", "domain", NOW - timedelta(hours=1), i=10 + n) for n in range(6)]
+        (self.off / "tfd.csv").write_text(infra_file(rows), encoding="utf-8")
+        self._run(self.root, self.off)
+        before = (self.root / "feeds/c2_domains_7d.txt").read_bytes()
+        (self.off / "tfd.csv").write_text("<html>maintenance</html>\n", encoding="utf-8")
+        self.assertEqual(self._run(self.root, self.off, now=NOW + timedelta(hours=6)), 1)
+        self.assertEqual((self.root / "feeds/c2_domains_7d.txt").read_bytes(), before)
 
     def test_no_third_party_markup_reaches_the_readme(self):
         (self.off / "tf.csv").write_text(tf_file([tf_row(1, NOW - timedelta(hours=1), fam="win.x", printable="Evil|[click](http://evil.example/)<script>", reporter="`bad`")]), encoding="utf-8")

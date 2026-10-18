@@ -5,7 +5,7 @@ from collections import Counter, defaultdict
 from datetime import datetime, timedelta
 from statistics import mean
 
-from .parse import Hash, Url
+from .parse import Hash, Infra, Url
 from .platforms import platform_of
 
 BLOCKS = "▁▂▃▄▅▆▇█"
@@ -112,6 +112,10 @@ def url_summary(urls: list[Url], previous_ids: set[str], now: datetime) -> dict:
     own = [u for u in urls if not platform_of(u.host)]
     hosts = Counter(u.host for u in own)
     hosts_online = Counter(u.host for u in own if u.status == "online")
+    domains = Counter(u.host for u in own if not u.host_is_ip)
+    domains_online = Counter(u.host for u in own if not u.host_is_ip and u.status == "online")
+    ips = Counter(u.host for u in own if u.host_is_ip)
+    ips_online = Counter(u.host for u in own if u.host_is_ip and u.status == "online")
     plat = Counter(platform_of(u.host) for u in urls if platform_of(u.host))
     plat_online = Counter(platform_of(u.host) for u in online if platform_of(u.host))
     exts = Counter(u.ext or "(none)" for u in urls)
@@ -124,7 +128,9 @@ def url_summary(urls: list[Url], previous_ids: set[str], now: datetime) -> dict:
         "added_7d": sum(1 for u in urls if u.added >= cut), "new_since_last": len(new) if previous_ids else None,
         "untagged": sum(1 for u in urls if not u.tags),
         "tags": tag_all.most_common(10), "tags_online": tag_online.most_common(10), "tag_combos": combos.most_common(8), "risers": risers,
-        "hosts": hosts.most_common(8), "hosts_online": hosts_online.most_common(8), "unique_hosts": len(hosts), "unique_online_hosts": len(hosts_online),
+        "hosts": hosts.most_common(8), "hosts_online": hosts_online.most_common(8),
+        "domains": domains.most_common(8), "domains_online": domains_online.most_common(8), "ips": ips.most_common(8), "ips_online": ips_online.most_common(8),
+        "unique_domains": len(domains), "unique_ips": len(ips), "unique_hosts": len(hosts), "unique_online_hosts": len(hosts_online),
         "platforms": plat.most_common(8), "platforms_online": plat_online.most_common(8), "platform_urls": sum(plat.values()), "platform_share": round(100 * sum(plat.values()) / total) if total else 0,
         "bare_ip_share": round(100 * sum(1 for u in urls if u.host_is_ip) / total) if total else 0,
         "bare_ip_online": sum(1 for u in online if u.host_is_ip),
@@ -134,3 +140,43 @@ def url_summary(urls: list[Url], previous_ids: set[str], now: datetime) -> dict:
         "window_days": round((newest - min(u.added for u in urls)).total_seconds() / 86400, 1) if urls else 0.0,
         "daily": daily, "spark": sparkline([c for _, c in daily]),
     }
+
+
+def infra_part(current: list[Infra], archive: list[Infra], known: set[str], now: datetime) -> dict:
+    """One kind (domains or IP addresses) of ThreatFox infrastructure. `current` is the latest export, `archive` everything collected (for the 7-day figures)."""
+    week = [i for i in archive if i.first_seen >= now - timedelta(days=7)]
+    c2 = [i for i in week if i.threat_type == "botnet_cc"]
+    newest = max((i.first_seen for i in archive), default=None)
+    daily = per_day([i.first_seen for i in archive], now, 14)
+    return {
+        "in_export": len(current), "new_this_run": sum(1 for i in current if i.key not in known),
+        "last24h": sum(1 for i in archive if i.first_seen >= now - timedelta(hours=24)), "last7": len(week), "c2_7d": len(c2), "other_7d": len(week) - len(c2),
+        "families": Counter(i.family for i in week).most_common(8), "families_c2": Counter(i.family for i in c2).most_common(8),
+        "types": Counter(i.threat_type or "unknown" for i in week).most_common(4), "reporters": Counter(i.reporter or "unknown" for i in week).most_common(4),
+        "ports": Counter(p for i in week for p in i.ports).most_common(8),
+        "recent": [{"value": i.value, "family": i.family, "type": i.threat_type, "seen": i.first_seen.isoformat(), "ports": i.ports[:4], "confidence": i.confidence}
+                   for i in sorted(archive, key=lambda i: (i.first_seen, i.value), reverse=True)[:8]],
+        "newest": newest.isoformat() if newest else "", "newest_age_hours": round(hours_between(now, newest), 1) if newest else None,
+        "daily": daily, "spark": sparkline([c for _, c in daily]),
+    }
+
+
+def infra_overlap(items: list[Infra], url_hosts: dict[str, list[int]]) -> list[dict]:
+    """Infrastructure that ThreatFox reports AND that URLhaus sees serving malware: the strongest leads. Most online URLs first."""
+    out = []
+    for i in items:
+        c = url_hosts.get(i.value)
+        if c:
+            out.append({"value": i.value, "kind": i.kind, "family": i.family, "type": i.threat_type, "urls": c[0], "online": c[1], "seen": i.first_seen.isoformat()})
+    return sorted(out, key=lambda x: (-x["online"], -x["urls"], x["value"]))
+
+
+
+def url_host_counts(urls: list[Url]) -> dict[str, list[int]]:
+    """host -> [URLs, URLs online], the same shape store.url_hosts reads back from urls.csv."""
+    out: dict[str, list[int]] = {}
+    for u in urls:
+        c = out.setdefault(u.host.lower(), [0, 0])
+        c[0] += 1
+        c[1] += u.status == "online"
+    return out

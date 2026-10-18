@@ -9,7 +9,7 @@ import tempfile
 from datetime import datetime, timezone
 from pathlib import Path
 
-from .parse import Hash, Url, defang_url
+from .parse import Hash, Url, defang_url, refang
 
 MHASH_FIELDS = ["ioc_value", "fk_malware", "malware_alias", "malware_printable", "count", "first_seen_utc", "confidence_level", "threat_type", "tags", "reporter"]
 URL_FIELDS = ["tags", "url", "url_status", "dateadded", "id"]
@@ -63,6 +63,20 @@ def urls_text(urls: list[Url]) -> str:
         return (-int(u.id) if u.id.isdigit() else 0, u.url)
     rows = [{"tags": ",".join(u.tags), "url": defang_url(u.url), "url_status": u.status, "dateadded": u.added.strftime("%Y-%m-%d %H:%M:%S"), "id": u.id} for u in sorted(urls, key=key)]
     return csv_text(URL_FIELDS, rows)
+
+
+def url_hosts(path: Path) -> dict[str, list[int]]:
+    """host -> [URLs, URLs online] from the published (defanged) urls.csv, for matching against ThreatFox infrastructure."""
+    import re
+    out: dict[str, list[int]] = {}
+    for r in read_csv(path):
+        host = refang(r.get("url", "").split("//", 1)[-1].split("/", 1)[0].split("?", 1)[0].split("#", 1)[0]).rsplit("@", 1)[-1]
+        host = re.sub(r":\d+$", "", host).lower().rstrip(".")
+        if host:
+            c = out.setdefault(host, [0, 0])
+            c[0] += 1
+            c[1] += r.get("url_status") == "online"
+    return out
 
 
 def previous_url_status(path: Path) -> dict[str, str]:

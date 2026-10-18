@@ -15,7 +15,7 @@ import re
 from datetime import datetime, timedelta, timezone
 from pathlib import Path
 
-from .parse import Hash, Url, defang_host, defang_url
+from .parse import Hash, Infra, Url, defang_host, defang_url, refang
 
 SCHEMA = 1
 HASH_DIR = "indicators/hashes"
@@ -108,7 +108,8 @@ def load_hashes(root: Path, now: datetime) -> dict[str, Hash]:
 
 def add_hashes(root: Path, known: dict[str, Hash], current: list[Hash], now: datetime) -> tuple[dict[Path, str], list[Hash]]:
     """New hashes become records in today's file. Returns ({file: text}, the hashes that were new)."""
-    new = sorted((h for h in {h.ioc_value: h for h in current}.values() if h.ioc_value not in known), key=lambda h: (h.first_seen, h.ioc_value))
+    keep_from = now - timedelta(days=HASH_KEEP_DAYS)
+    new = sorted((h for h in {h.ioc_value: h for h in current}.values() if h.ioc_value not in known and h.first_seen >= keep_from), key=lambda h: (h.first_seen, h.ioc_value))
     if not new:
         return {}, []
     path = day_path(root, HASH_DIR, now)
@@ -161,3 +162,50 @@ def add_urls(root: Path, previous: dict[str, str], urls: list[Url], families: di
     if not out:
         return {}, 0, 0
     return {path: jsonl_text(sorted(have + out, key=lambda r: (r["added"], r["id"], r["change"])))}, new, changed
+
+
+# ---------------------------------------------------------------- infrastructure (ThreatFox domains and IP addresses)
+
+INFRA_DIR = "indicators/infra"
+INFRA_KEEP_DAYS = 45   # C2 servers and delivery domains are short-lived; the dataset keeps the recent picture
+
+
+def infra_record(i: Infra, collected: datetime) -> dict:
+    return {
+        "schema": SCHEMA, "kind": i.kind, "source": "threatfox", "value": defang_host(i.value), "ports": list(i.ports),
+        "first_seen": stamp(i.first_seen), "collected_at": stamp(collected), "ioc_id": i.ioc_id, "family": i.family, "malware_key": i.malware,
+        "aliases": [a.strip() for a in i.alias.split(",") if a.strip()], "threat_type": i.threat_type, "confidence": i.confidence, "tags": list(i.tags), "reporter": i.reporter,
+    }
+
+
+def infra_from_record(r: dict) -> Infra | None:
+    seen = unstamp(r.get("first_seen", ""))
+    kind = r.get("kind")
+    if not seen or kind not in ("domain", "ip") or not r.get("value"):
+        return None
+    return Infra(kind, refang(r["value"]), seen, r.get("ioc_id", ""), r.get("threat_type", ""), r.get("malware_key", ""), ",".join(r.get("aliases", [])),
+                 "" if r.get("family") == r.get("malware_key") else r.get("family", ""), int(r.get("confidence") or 0), list(r.get("tags", [])), r.get("reporter", ""), list(r.get("ports", [])))
+
+
+def load_infra(root: Path, now: datetime) -> dict[str, Infra]:
+    cut = now - timedelta(days=INFRA_KEEP_DAYS)
+    out: dict[str, Infra] = {}
+    base = root / INFRA_DIR
+    for f in sorted(base.glob("*.jsonl")) if base.exists() else []:
+        for r in read_jsonl(f):
+            i = infra_from_record(r)
+            if i and i.first_seen >= cut and i.key not in out:
+                out[i.key] = i
+    return out
+
+
+def add_infra(root: Path, known: dict[str, Infra], current: list[Infra], now: datetime) -> tuple[dict[Path, str], list[Infra]]:
+    """Entries not seen before become records in today's file. Returns ({file: text}, the new entries)."""
+    keep_from = now - timedelta(days=INFRA_KEEP_DAYS)   # an entry older than the retention window would be "new" on every run
+    new = sorted((i for i in {i.key: i for i in current}.values() if i.key not in known and i.first_seen >= keep_from), key=lambda i: (i.first_seen, i.key))
+    if not new:
+        return {}, []
+    path = day_path(root, INFRA_DIR, now)
+    records = read_jsonl(path) + [infra_record(i, now) for i in new]
+    records.sort(key=lambda r: (r["first_seen"], r["kind"], r["value"]))
+    return {path: jsonl_text(records)}, new

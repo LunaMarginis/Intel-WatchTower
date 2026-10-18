@@ -32,6 +32,16 @@ def hosts_feed(urls: list[Url]) -> str:
     return "\n".join(head + [defang_host(h) for h in hosts]) + "\n"
 
 
+def infra_feed(items: list, kind: str, now: datetime, days: int) -> str:
+    """Command-and-control servers (ThreatFox type botnet_cc) first reported in the last `days` days, DEFANGED, one per line."""
+    cut = now - timedelta(days=days)
+    sel = sorted((i for i in items if i.kind == kind and i.threat_type == "botnet_cc" and i.first_seen >= cut), key=lambda i: (i.first_seen, i.value), reverse=True)
+    noun = "domains" if kind == "domain" else "IP addresses"
+    head = [f"# ThreatFox command-and-control {noun} first reported in the last {days} days: {len(sel)} entries. Defanged: replace [.] with . before use.",
+            "# Community reports, not verified. Check hosting and age before blocking: servers move and addresses are reused.", f"# {SIGNATURE}."]
+    return "\n".join(head + [defang_host(i.value) for i in sel]) + "\n"
+
+
 def _id(kind: str, name: str) -> str:
     return f"{kind}--{uuid.uuid5(NAMESPACE, kind + ':' + name)}"
 

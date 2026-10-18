@@ -17,6 +17,8 @@ from . import __version__, analyze, checks as C, export, fetch, indicators, pars
 
 THREATFOX_URL = "https://threatfox.abuse.ch/export/csv/md5/recent/"
 URLHAUS_URL = "https://urlhaus.abuse.ch/downloads/csv_recent/"
+THREATFOX_DOMAINS_URL = "https://threatfox.abuse.ch/export/csv/domains/recent/"
+THREATFOX_IPS_URL = "https://threatfox.abuse.ch/export/csv/ip-port/recent/"
 URL_REFRESH_HOURS = 20          # the big URL export is refreshed about once a day
 BLOCKING = ("download", "columns", "lines read", "volume")   # a failure of these keeps the previous data
 
@@ -77,6 +79,7 @@ def run(root: Path, *, offline: Path | None = None, now: datetime | None = None,
 
     # ------------------------------------------------------------ URLhaus (URLs): about once a day
     u_summary, u_at = prev.get("urls"), prev.get("urls_at", "")
+    url_hosts_now: dict[str, list[int]] | None = None   # set when this run reads a fresh URL export
     last_refresh = datetime.fromisoformat(u_at) if u_at else None
     # A summary saved by an older version lacks fields the reports now use: refresh at once instead of rendering from it.
     outdated = bool(u_summary) and not set(analyze.url_summary([], set(), now)) <= set(u_summary)
@@ -108,12 +111,49 @@ def run(root: Path, *, offline: Path | None = None, now: datetime | None = None,
                 writes.update(url_files)
                 cs.append(C.Check("urlhaus: indicators", C.PASS, f"{n_new} new URLs and {n_changed} status changes recorded"))
                 writes[root / "urls.csv"] = store.urls_text(urls)
+                url_hosts_now = analyze.url_host_counts(urls)
                 writes[root / "feeds" / "hosts_online.txt"] = export.hosts_feed(urls)
     else:
         cs.append(C.Check("urlhaus: refresh", C.PASS, f"not due: refreshed {render.when(u_at)} (once a day)"))
 
+    # ------------------------------------------------------------ ThreatFox infrastructure (C2 servers, delivery domains, IP addresses): every run
+    infra_prev = prev.get("infra") or {}
+    infra_state = dict(infra_prev)
+    known_infra = indicators.load_infra(root, now)
+    known_keys = set(known_infra)
+    fresh: list[parse.Infra] = []
+    got: set[str] = set()
+    for kind, label, url, fname in (("domain", "threatfox domains", THREATFOX_DOMAINS_URL, "tfd.csv"), ("ip", "threatfox ips", THREATFOX_IPS_URL, "tfi.csv")):
+        text = _download(label, url, offline, fname, cs)
+        if text is None:
+            continue
+        ex2 = parse.parse_export(text)
+        items, rej2 = parse.infra_records(ex2, kind)
+        cs += [C.columns(label, ex2, parse.THREATFOX_REQUIRED), C.lines_read(label, ex2), C.rejected(label, rej2),
+               C.volume(label, len(items), 5, (infra_prev.get("domains" if kind == "domain" else "ips") or {}).get("in_export")),
+               C.freshness(label, max((i.first_seen for i in items), default=None), now, 24, 72, "newest entry"), C.freshness(label, ex2.last_updated, now, 12, 48, "export file")]
+        if not _blocked(label, cs):
+            got.add(kind)
+            fresh += items
+    if got:
+        new_files, _ = indicators.add_infra(root, known_infra, fresh, now)
+        writes.update(new_files)
+        for i in fresh:
+            known_infra.setdefault(i.key, i)
+        arch = list(known_infra.values())
+        for kind, name in (("domain", "domains"), ("ip", "ips")):
+            if kind in got:
+                infra_state[name] = analyze.infra_part([i for i in fresh if i.kind == kind], [i for i in arch if i.kind == kind], known_keys, now)
+        week = [i for i in arch if i.first_seen >= now - timedelta(days=7)]
+        hosts = url_hosts_now if url_hosts_now is not None else store.url_hosts(root / "urls.csv")
+        overlap = analyze.infra_overlap(week, hosts)
+        infra_state["overlap"], infra_state["overlap_total"] = overlap[:10], len(overlap)
+        writes[root / "feeds" / "c2_domains_7d.txt"] = export.infra_feed(arch, "domain", now, 7)
+        writes[root / "feeds" / "c2_ips_7d.txt"] = export.infra_feed(arch, "ip", now, 7)
+    infra_state = infra_state if any(k in infra_state for k in ("domains", "ips")) else None
+
     # ------------------------------------------------------------ safety of everything about to be published, then the reports
-    state = {"at": now.isoformat(timespec="seconds"), "version": __version__, "hashes": h_summary, "urls": u_summary, "urls_at": u_at, "checks": []}
+    state = {"at": now.isoformat(timespec="seconds"), "version": __version__, "hashes": h_summary, "urls": u_summary, "urls_at": u_at, "infra": infra_state, "checks": []}
     def stamp() -> None:
         state["checks"] = [{"name": c.name, "status": c.status, "detail": c.detail} for c in cs]
         state["status"] = C.overall(cs)
@@ -156,11 +196,31 @@ def run(root: Path, *, offline: Path | None = None, now: datetime | None = None,
     return 1 if state["status"] == C.FAIL else 0
 
 
+def _download(label: str, url: str, offline: Path | None, fname: str, cs: list[C.Check]) -> str | None:
+    """Text of an export, or None. Offline runs read `fname` from the folder and skip a source whose file is not there."""
+    if offline:
+        f = offline / fname
+        if not f.exists():
+            return None
+        text = f.read_text(encoding="utf-8")
+        cs.append(C.download(label, fetch.Fetched("offline", text, 200, len(text.encode()), 0.0, 1)))
+        return text
+    try:
+        got = fetch.get(url)
+    except fetch.FetchError as e:
+        cs.append(C.download(label, None, str(e)))
+        return None
+    cs.append(C.download(label, got))
+    return got.text
+
+
 def _files(root: Path, writes: dict[Path, str]) -> list[dict]:
     spec = [("README.md", "This page", None), ("mhash.csv", "Latest ThreatFox MD5 export, clean (first_seen, confidence, reporter…)", None), ("urls.csv", "Latest URLhaus export, defanged", None),
             ("indicators/hashes/", "Enriched hash records, one file per day, one JSON object per line (kept 400 days)", None),
             ("indicators/urls/", "Enriched URL records: new URLs and status changes, one file per day (kept 120 days)", None), ("feeds/md5_7d.txt", "Plain list: hashes of the last 7 days", None),
             ("feeds/md5_30d.txt", "Plain list: hashes of the last 30 days", None), ("feeds/hosts_online.txt", "Hosts serving malware now, defanged", None),
+            ("feeds/c2_domains_7d.txt", "ThreatFox command-and-control domains, last 7 days, defanged", None), ("feeds/c2_ips_7d.txt", "ThreatFox command-and-control IP addresses, last 7 days, defanged", None),
+            ("indicators/infra/", "Enriched C2 and delivery domains and IPs, one file per day (kept 45 days)", None),
             ("feeds/stix_md5_7d.json", "STIX 2.1 bundle of the last 7 days of hashes", None), ("feeds/iocs.json", "The numbers behind this page, as JSON", None),
             ("history/runs.jsonl", "One line per run: counts and check results", None), ("reports/", "A report per day", None)]
     out = []

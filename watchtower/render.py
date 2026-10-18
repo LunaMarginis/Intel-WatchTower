@@ -50,6 +50,38 @@ def health_line(state: dict) -> str:
 
 # ---------------------------------------------------------------- sections
 
+def infra_section(i: dict, long: bool) -> str:
+    """ThreatFox command-and-control and delivery infrastructure (domains and IP addresses), and what also serves malware in URLhaus."""
+    d, p = i.get("domains"), i.get("ips")
+    if not d and not p:
+        return ""
+    cols = lambda k: [x.get(k, 0) if x else None for x in (d, p)]
+    show = lambda vals: [n(v) if v is not None else "–" for v in vals]
+    rows = [["In the latest export"] + show(cols("in_export")), ["New since the previous run"] + show(cols("new_this_run")), ["First reported, last 24 h"] + show(cols("last24h")),
+            ["First reported, last 7 days"] + show(cols("last7")), ["…of them command-and-control"] + show(cols("c2_7d")), ["…delivery and other"] + show(cols("other_7d"))]
+    out = table(["", "🌐 Domains", "🖥️ IP addresses"], rows) + "\n"
+    for title, part in (("Domains", d), ("IP addresses", p)):
+        if not part:
+            continue
+        out += f"\n**{title}, top families (7 days):** " + (", ".join(f"{cell(f, 30)} {n(c)}" for f, c in part["families"][: 8 if long else 5]) or "none") + "  \n"
+        if part["families_c2"]:
+            out += f"**{title}, top command-and-control families:** " + ", ".join(f"{cell(f, 30)} {n(c)}" for f, c in part["families_c2"][:5]) + "  \n"
+    if p and p["ports"]:
+        out += "**Most reported ports:** " + ", ".join(f"{pt} ({n(c)})" for pt, c in p["ports"][:8]) + "  \n"
+    recent = [(("domain", x) if part is d else ("ip", x)) for part in (d, p) if part for x in part["recent"][: 6 if long else 4]]
+    if recent:
+        out += "\n#### Newest entries\n\n" + table(["Kind", "Entry (defanged)", "Family", "Type", "First reported"],
+                                                    [[k, f"`{defang_host(cell(x['value'], 60))}`" + (f" ports {','.join(str(q) for q in x['ports'])}" if x.get("ports") else ""), cell(x["family"], 30), cell(x["type"], 20), when(x["seen"])] for k, x in recent])
+    ov = i.get("overlap") or []
+    out += f"\n#### Also serving malware in URLhaus ({n(i.get('overlap_total', len(ov)))})\n\n"
+    if ov:
+        out += "Infrastructure that ThreatFox reports **and** that URLhaus sees hosting malware URLs: the strongest leads.\n\n" + table(
+            ["Entry (defanged)", "ThreatFox family", "Type", "URLhaus URLs", "Online"], [[f"`{defang_host(cell(x['value'], 60))}`", cell(x["family"], 30), cell(x["type"], 20), n(x["urls"]), n(x["online"])] for x in ov[: 10 if long else 6]])
+    else:
+        out += "None right now.\n"
+    return out + "\n_Community reports, not verified. Servers move and addresses are reused: check hosting and age before blocking._\n"
+
+
 def glance(h: dict, u: dict | None, u_at: str) -> str:
     rows = [
         ["In the latest export", n(h["in_export"]), n(u["total"]) if u else "–"],
@@ -108,8 +140,11 @@ def url_section(u: dict, long: bool) -> str:
     out += f"\n**Most common tag combinations:** {combos or 'n/a'}\n"
     out += f"\n**Where it is hosted:** {u['bare_ip_share']}% of URLs sit on a bare IP address; {n(u['unique_hosts'])} different hosts, {n(u['unique_online_hosts'])} serving malware right now.  \n"
     out += f"**Abused platforms:** {u.get('platform_share', 0)}% of URLs sit on shared platforms: " + (", ".join(f"{cell(p, 30)} {n(c)}" for p, c in u.get("platforms", [])[:6]) or "none") + "  \n"
-    out += "**Busiest hosts (platforms left out):** " + ", ".join(f"`{defang_host(cell(h, 50))}` {n(c)}" for h, c in u["hosts"][:6]) + "  \n"
-    out += "**Online right now, busiest hosts (platforms left out):** " + (", ".join(f"`{defang_host(cell(h, 50))}` {n(c)}" for h, c in u["hosts_online"][:6]) or "n/a") + "  \n"
+    top = lambda pairs: ", ".join(f"`{defang_host(cell(h, 50))}` {n(c)}" for h, c in pairs[:6]) or "n/a"
+    out += f"**Busiest domains** (platforms left out; {n(u.get('unique_domains', 0))} different): " + top(u.get("domains", [])) + "  \n"
+    out += f"**Busiest IP addresses** ({n(u.get('unique_ips', 0))} different): " + top(u.get("ips", [])) + "  \n"
+    out += "**Online right now, busiest domains:** " + top(u.get("domains_online", [])) + "  \n"
+    out += "**Online right now, busiest IP addresses:** " + top(u.get("ips_online", [])) + "  \n"
     out += "**File types:** " + ", ".join(f"{cell(e, 10)} {n(c)}" for e, c in u["extensions"][:8]) + "  \n"
     out += "**Top reporters:** " + ", ".join(f"{cell(k)} {n(v)}" for k, v in u["reporters"][:5]) + "\n"
     out += "\n_Platforms such as GitHub, Discord or Dropbox are counted apart: attackers abuse them, so a URL there says nothing about where the attacker is, and they must not be blocked because of this list._\n"
@@ -129,6 +164,7 @@ METHOD = f"""
 - **Hashes** come from the ThreatFox "recent MD5" export, which covers only a short window (see "Period the export covers"). Every run adds the new hashes to
   the daily files in `indicators/hashes/`, so nothing that appeared between two runs is lost and the 7-day figures are real 7-day figures.
 - **URLs** come from the URLhaus "recent" export (about 30 days). It is large, so it is refreshed once a day.
+- **Infrastructure** (command-and-control and delivery domains, and IP addresses with their ports) comes from the ThreatFox "recent" domain and ip:port exports on every run. Entries that URLhaus also sees serving malware are listed apart: they are the strongest leads.
 - **Checks** run on every download (format, row counts, freshness, valid values, nothing dropped, no live URLs in anything published). If a check fails, the affected
   data is **not** replaced, the report says so, and the workflow turns red.
 - **Safety:** URLs and hosts are defanged (`[.]`, `[:]`); text from outside is reduced to plain characters before it is written here.
@@ -151,6 +187,8 @@ def readme(state: dict, files: list[dict]) -> str:
     s += hash_extras(h)
     if u:
         s += "\n## 🔗 Malware URLs\n\n" + url_section(u, False)
+    if state.get("infra"):
+        s += "\n## 🛰️ Command-and-control infrastructure\n\nDomains and IP addresses reported to ThreatFox, with the malware family behind them.\n\n" + infra_section(state["infra"], False)
     s += "\n## Data health\n\n" + checks_table(state["checks"])
     s += "\n## Files\n\n" + files_table(files)
     s += "\n## How this works\n" + METHOD + "\n" + TERMS + f"\n\n_{SIGNATURE}._\n"
@@ -164,6 +202,8 @@ def report(state: dict, files: list[dict]) -> str:
     s += "\n## Malware families · last 7 days (top 25)\n\n" + families(h, 25, False) + "\n" + hash_extras(h)
     if u:
         s += "\n## Malware URLs\n\n" + url_section(u, True)
+    if state.get("infra"):
+        s += "\n## Command-and-control infrastructure\n\n" + infra_section(state["infra"], True)
     s += "\n## Data health\n\n" + checks_table(state["checks"])
     return s + f"\n{TERMS}\n\n_{SIGNATURE}._\n"
 
@@ -181,6 +221,9 @@ def slack(state: dict, report_path: str) -> dict:
     blocks = [{"type": "header", "text": {"type": "plain_text", "text": f"{HEAD_ICON[state['status']]} Intel WatchTower · {state['at'][:10]}"}},
               {"type": "section", "fields": fields},
               {"type": "section", "text": {"type": "mrkdwn", "text": f"*Top malware families, 7 days*\n{fam}"}}]
+    inf = state.get("infra") or {}
+    if inf.get("domains") or inf.get("ips"):
+        blocks.append({"type": "section", "text": {"type": "mrkdwn", "text": f"*C2 infrastructure, 7 days*\n• {n((inf.get('domains') or {}).get('last7', 0))} domains, {n((inf.get('ips') or {}).get('last7', 0))} IP addresses\n• {n(inf.get('overlap_total', 0))} also serve malware in URLhaus"}})
     if u and u["tags"]:
         blocks.append({"type": "section", "text": {"type": "mrkdwn", "text": "*Top URL tags*\n" + "\n".join(f"• {cell(t, 30)}: {n(c)}" for t, c in u["tags"][:3])}})
     health = f"{len(state['checks']) - len(bad)} of {len(state['checks'])} checks passed" + "".join(f"\n{ICON[c['status']]} {cell(c['name'], 50)}: {cell(c['detail'], 100)}" for c in bad[:6])
@@ -196,4 +239,7 @@ def step_summary(state: dict) -> str:
     s += f"- Hashes in export: **{n(h['in_export'])}** ({n(h['new_this_run'])} new), last 7 days **{n(h['last7'])}**, archive **{n(h['archive_total'])}**\n"
     if u:
         s += f"- URLs: **{n(u['total'])}** ({u['online_share']}% online), added in 24 h **{n(u['added_24h'])}**\n"
+    i = state.get("infra") or {}
+    if i.get("domains") or i.get("ips"):
+        s += f"- Command-and-control infrastructure, last 7 days: **{n((i.get('domains') or {}).get('last7', 0))}** domains, **{n((i.get('ips') or {}).get('last7', 0))}** IP addresses, **{n(i.get('overlap_total', 0))}** also serving malware in URLhaus\n"
     return s + "\n" + checks_table(state["checks"])
