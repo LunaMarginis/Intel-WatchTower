@@ -1,5 +1,5 @@
 {
- "at": "2026-10-18T12:43:47+00:00",
+ "at": "2026-10-18T12:59:51+00:00",
  "checks": [
   {
    "detail": "14 KB in 0.3 s",
@@ -22,67 +22,32 @@
    "status": "pass"
   },
   {
-   "detail": "71 rows",
+   "detail": "71 rows (last time 71)",
    "name": "threatfox: volume",
    "status": "pass"
   },
   {
-   "detail": "newest hash is 6.3 h old",
+   "detail": "newest hash is 6.5 h old",
    "name": "threatfox: freshness",
    "status": "pass"
   },
   {
-   "detail": "export file is 6.3 h old",
+   "detail": "export file is 6.5 h old",
    "name": "threatfox: freshness",
    "status": "pass"
   },
   {
-   "detail": "71 new (collecting a baseline: 0 earlier runs)",
+   "detail": "0 new (collecting a baseline: 1 earlier runs)",
    "name": "threatfox: new items",
    "status": "pass"
   },
   {
-   "detail": "7658 KB in 0.2 s",
-   "name": "urlhaus: download",
+   "detail": "not due: refreshed 2026-10-18 12:43 UTC (once a day)",
+   "name": "urlhaus: refresh",
    "status": "pass"
   },
   {
-   "detail": "all 7 needed columns present (2 others ignored)",
-   "name": "urlhaus: columns",
-   "status": "pass"
-  },
-  {
-   "detail": "all 33,521 data lines parsed",
-   "name": "urlhaus: lines read",
-   "status": "pass"
-  },
-  {
-   "detail": "every row passed validation",
-   "name": "urlhaus: values valid",
-   "status": "pass"
-  },
-  {
-   "detail": "33,521 rows",
-   "name": "urlhaus: volume",
-   "status": "pass"
-  },
-  {
-   "detail": "export file is 0.2 h old",
-   "name": "urlhaus: freshness",
-   "status": "pass"
-  },
-  {
-   "detail": "newest URL is 0.2 h old",
-   "name": "urlhaus: freshness",
-   "status": "pass"
-  },
-  {
-   "detail": "938 new URLs and 0 status changes recorded",
-   "name": "urlhaus: indicators",
-   "status": "pass"
-  },
-  {
-   "detail": "9 published files contain no live URL",
+   "detail": "5 published files contain no live URL",
    "name": "output safety",
    "status": "pass"
   }
@@ -824,9 +789,9 @@
   "in_export": 71,
   "last24h": 71,
   "last7": 71,
-  "new_this_run": 71,
+  "new_this_run": 0,
   "newest": "2026-10-18T06:28:35+00:00",
-  "newest_age_hours": 6.3,
+  "newest_age_hours": 6.5,
   "reporters": [
    [
     "Grim",

@@ -4,19 +4,19 @@ Daily malware intelligence from abuse.ch: what is new, who is behind it, and whe
 
 ![collect](https://github.com/LunaMarginis/Intel-WatchTower/actions/workflows/collect.yml/badge.svg)
 
-**Last run:** 2026-10-18 12:43 UTC · **Health:** ✅ all 17 checks passed
+**Last run:** 2026-10-18 12:59 UTC · **Health:** ✅ all 10 checks passed
 
 ## At a glance
 
 |  | 🧬 ThreatFox · MD5 hashes | 🔗 URLhaus · malware URLs |
 |---|---|---|
 | In the latest export | 71 | 33,521 |
-| New since the previous run | 71 | – |
+| New since the previous run | 0 | – |
 | Added in the last 24 hours | 71 | 489 |
 | Added in the last 7 days | 71 | 3,866 |
 | Online right now | – | 16,514 (49%) |
 | Period the export covers | 14.9 h | 30.5 days |
-| Newest entry | 6.3 h ago | 0 min ago |
+| Newest entry | 6.5 h ago | 0 min ago |
 
 _URL data refreshed 2026-10-18 12:43 UTC._
 
@@ -197,25 +197,18 @@ _Hosting platforms such as GitHub, GitLab or Dropbox appear because attackers ab
 | ✅ | `threatfox: columns` | all 10 needed columns present (5 others ignored) |
 | ✅ | `threatfox: lines read` | all 71 data lines parsed |
 | ✅ | `threatfox: values valid` | every row passed validation |
-| ✅ | `threatfox: volume` | 71 rows |
-| ✅ | `threatfox: freshness` | newest hash is 6.3 h old |
-| ✅ | `threatfox: freshness` | export file is 6.3 h old |
-| ✅ | `threatfox: new items` | 71 new (collecting a baseline: 0 earlier runs) |
-| ✅ | `urlhaus: download` | 7658 KB in 0.2 s |
-| ✅ | `urlhaus: columns` | all 7 needed columns present (2 others ignored) |
-| ✅ | `urlhaus: lines read` | all 33521 data lines parsed |
-| ✅ | `urlhaus: values valid` | every row passed validation |
-| ✅ | `urlhaus: volume` | 33521 rows |
-| ✅ | `urlhaus: freshness` | export file is 0.2 h old |
-| ✅ | `urlhaus: freshness` | newest URL is 0.2 h old |
-| ✅ | `urlhaus: indicators` | 938 new URLs and 0 status changes recorded |
-| ✅ | `output safety` | 9 published files contain no live URL |
+| ✅ | `threatfox: volume` | 71 rows (last time 71) |
+| ✅ | `threatfox: freshness` | newest hash is 6.5 h old |
+| ✅ | `threatfox: freshness` | export file is 6.5 h old |
+| ✅ | `threatfox: new items` | 0 new (collecting a baseline: 1 earlier runs) |
+| ✅ | `urlhaus: refresh` | not due: refreshed 2026-10-18 12:43 UTC (once a day) |
+| ✅ | `output safety` | 5 published files contain no live URL |
 
 ## Files
 
 | File | What it holds | Rows | Size |
 |---|---|---|---|
-| [`README.md`](https://github.com/LunaMarginis/Intel-WatchTower/blob/main/README.md) | This page | – | 3 KB |
+| [`README.md`](https://github.com/LunaMarginis/Intel-WatchTower/blob/main/README.md) | This page | – | 11 KB |
 | [`mhash.csv`](https://github.com/LunaMarginis/Intel-WatchTower/blob/main/mhash.csv) | Latest ThreatFox MD5 export, clean (first_seen, confidence, reporter…) | 71 | 7 KB |
 | [`urls.csv`](https://github.com/LunaMarginis/Intel-WatchTower/blob/main/urls.csv) | Latest URLhaus export, defanged | 33,521 | 4,696 KB |
 | [`indicators/hashes/`](https://github.com/LunaMarginis/Intel-WatchTower/blob/main/indicators/hashes/) | Enriched hash records, one file per day, one JSON object per line (kept 400 days) | 71 | 26 KB |
@@ -224,9 +217,9 @@ _Hosting platforms such as GitHub, GitLab or Dropbox appear because attackers ab
 | [`feeds/md5_30d.txt`](https://github.com/LunaMarginis/Intel-WatchTower/blob/main/feeds/md5_30d.txt) | Plain list: hashes of the last 30 days | 71 | 3 KB |
 | [`feeds/hosts_online.txt`](https://github.com/LunaMarginis/Intel-WatchTower/blob/main/feeds/hosts_online.txt) | Hosts serving malware now, defanged | 673 | 14 KB |
 | [`feeds/stix_md5_7d.json`](https://github.com/LunaMarginis/Intel-WatchTower/blob/main/feeds/stix_md5_7d.json) | STIX 2.1 bundle of the last 7 days of hashes | – | 89 KB |
-| [`feeds/iocs.json`](https://github.com/LunaMarginis/Intel-WatchTower/blob/main/feeds/iocs.json) | The numbers behind this page, as JSON | – | – |
-| [`history/runs.jsonl`](https://github.com/LunaMarginis/Intel-WatchTower/blob/main/history/runs.jsonl) | One line per run: counts and check results | – | – |
-| [`reports/`](https://github.com/LunaMarginis/Intel-WatchTower/blob/main/reports/) | A report per day | 0 | – |
+| [`feeds/iocs.json`](https://github.com/LunaMarginis/Intel-WatchTower/blob/main/feeds/iocs.json) | The numbers behind this page, as JSON | – | 18 KB |
+| [`history/runs.jsonl`](https://github.com/LunaMarginis/Intel-WatchTower/blob/main/history/runs.jsonl) | One line per run: counts and check results | – | 0 KB |
+| [`reports/`](https://github.com/LunaMarginis/Intel-WatchTower/blob/main/reports/) | A report per day | 1 | 6 KB |
 
 ## How this works
 
