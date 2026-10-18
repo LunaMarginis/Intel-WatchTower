@@ -16,3 +16,22 @@ This table shows top 10 malware names with their unique hashes and counts. [For 
 |  "win.moriagent" |  "3e7226b66846f399e30f1dd94a004353"<br> "ba9993a91744cd9c182ce5ab72212a4c"<br> "dbc20c52798b2524a3a7ee8671ab8e35" | 3 |
 |  "py.rn_stealer" |  "131b4860205884f497023fe9a4a18450"<br> "9747c73e8b2ca1acc82399eea5749cfd" | 2 |
 |  "win.gcleaner" |  "414654138697b0f8fe04e8a6c5b0c5cc"<br> "55d91aa19d585ff8248e9234cfebcb27" | 2 |
+
+<!-- url_summary_start -->
+## 🔗 Top 10 URLs:
+
+Automated URL Collections, grouped by Tags: Every day at 03:00 UTC. Last Updated: 2026-10-18 07:27:11 UTC.
+
+| Tag | Count |
+|-----|-------|
+| github,LuaJIT-loader,SmartLoader,zip | 13746 |
+| Mozi | 2756 |
+| mirai | 2690 |
+| 32-bit,elf,mips,Mozi | 1232 |
+| FakeGit,luajit,SmartLoader,Stealc,zip | 612 |
+| 32-bit,arm,elf,mirai,Mozi | 545 |
+| elf,ua-wget | 509 |
+| CheatSheet,exe,github,rustystealer | 452 |
+| elf,mirai,ua-wget | 433 |
+| CheatSheet,gitlab,zip | 416 |
+<!-- url_summary_end -->
