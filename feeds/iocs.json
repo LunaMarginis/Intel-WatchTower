@@ -1,8 +1,8 @@
 {
- "at": "2026-10-18T14:00:44+00:00",
+ "at": "2026-10-18T14:21:24+00:00",
  "checks": [
   {
-   "detail": "14 KB in 0.1 s",
+   "detail": "14 KB in 0.3 s",
    "name": "threatfox: download",
    "status": "pass"
   },
@@ -27,22 +27,22 @@
    "status": "pass"
   },
   {
-   "detail": "newest hash is 7.5 h old",
+   "detail": "newest hash is 7.9 h old",
    "name": "threatfox: freshness",
    "status": "pass"
   },
   {
-   "detail": "export file is 7.5 h old",
+   "detail": "export file is 7.9 h old",
    "name": "threatfox: freshness",
    "status": "pass"
   },
   {
-   "detail": "0 new (collecting a baseline: 2 earlier runs)",
+   "detail": "0 new (collecting a baseline: 3 earlier runs)",
    "name": "threatfox: new items",
    "status": "pass"
   },
   {
-   "detail": "7667 KB in 0.1 s",
+   "detail": "7668 KB in 0.5 s",
    "name": "urlhaus: download",
    "status": "pass"
   },
@@ -52,7 +52,7 @@
    "status": "pass"
   },
   {
-   "detail": "all 33,552 data lines parsed",
+   "detail": "all 33,554 data lines parsed",
    "name": "urlhaus: lines read",
    "status": "pass"
   },
@@ -62,27 +62,97 @@
    "status": "pass"
   },
   {
-   "detail": "33,552 rows (last time 33,521)",
+   "detail": "33,554 rows (last time 33,552)",
    "name": "urlhaus: volume",
    "status": "pass"
   },
   {
-   "detail": "export file is 0.1 h old",
+   "detail": "export file is 0.3 h old",
    "name": "urlhaus: freshness",
    "status": "pass"
   },
   {
-   "detail": "newest URL is 0.1 h old",
+   "detail": "newest URL is 0.3 h old",
    "name": "urlhaus: freshness",
    "status": "pass"
   },
   {
-   "detail": "31 new URLs and 51 status changes recorded",
+   "detail": "2 new URLs and 6 status changes recorded",
    "name": "urlhaus: indicators",
    "status": "pass"
   },
   {
-   "detail": "8 published files contain no live URL",
+   "detail": "110 KB in 0.1 s",
+   "name": "threatfox domains: download",
+   "status": "pass"
+  },
+  {
+   "detail": "all 10 needed columns present (5 others ignored)",
+   "name": "threatfox domains: columns",
+   "status": "pass"
+  },
+  {
+   "detail": "all 568 data lines parsed",
+   "name": "threatfox domains: lines read",
+   "status": "pass"
+  },
+  {
+   "detail": "every row passed validation",
+   "name": "threatfox domains: values valid",
+   "status": "pass"
+  },
+  {
+   "detail": "568 rows",
+   "name": "threatfox domains: volume",
+   "status": "pass"
+  },
+  {
+   "detail": "newest entry is 0.3 h old",
+   "name": "threatfox domains: freshness",
+   "status": "pass"
+  },
+  {
+   "detail": "export file is 0.3 h old",
+   "name": "threatfox domains: freshness",
+   "status": "pass"
+  },
+  {
+   "detail": "762 KB in 0.1 s",
+   "name": "threatfox ips: download",
+   "status": "pass"
+  },
+  {
+   "detail": "all 10 needed columns present (5 others ignored)",
+   "name": "threatfox ips: columns",
+   "status": "pass"
+  },
+  {
+   "detail": "all 3,497 data lines parsed",
+   "name": "threatfox ips: lines read",
+   "status": "pass"
+  },
+  {
+   "detail": "every row passed validation",
+   "name": "threatfox ips: values valid",
+   "status": "pass"
+  },
+  {
+   "detail": "2,554 rows",
+   "name": "threatfox ips: volume",
+   "status": "pass"
+  },
+  {
+   "detail": "newest entry is 0.3 h old",
+   "name": "threatfox ips: freshness",
+   "status": "pass"
+  },
+  {
+   "detail": "export file is 0.3 h old",
+   "name": "threatfox ips: freshness",
+   "status": "pass"
+  },
+  {
+   "detail": "11 published files contain no live URL",
    "name": "output safety",
    "status": "pass"
   }
@@ -826,7 +896,7 @@
   "last7": 71,
   "new_this_run": 0,
   "newest": "2026-10-18T06:28:35+00:00",
-  "newest_age_hours": 7.5,
+  "newest_age_hours": 7.9,
   "reporters": [
    [
     "Grim",
@@ -843,11 +913,626 @@
   ],
   "window_hours": 14.9
  },
+ "infra": {
+  "domains": {
+   "c2_7d": 120,
+   "daily": [
+    [
+     "2026-10-05",
+     0
+    ],
+    [
+     "2026-10-06",
+     0
+    ],
+    [
+     "2026-10-07",
+     0
+    ],
+    [
+     "2026-10-08",
+     0
+    ],
+    [
+     "2026-10-09",
+     0
+    ],
+    [
+     "2026-10-10",
+     0
+    ],
+    [
+     "2026-10-11",
+     0
+    ],
+    [
+     "2026-10-12",
+     0
+    ],
+    [
+     "2026-10-13",
+     0
+    ],
+    [
+     "2026-10-14",
+     0
+    ],
+    [
+     "2026-10-15",
+     0
+    ],
+    [
+     "2026-10-16",
+     66
+    ],
+    [
+     "2026-10-17",
+     422
+    ],
+    [
+     "2026-10-18",
+     80
+    ]
+   ],
+   "families": [
+    [
+     "IClickFix",
+     283
+    ],
+    [
+     "php.shin_webshell",
+     75
+    ],
+    [
+     "DeerStealer",
+     44
+    ],
+    [
+     "ClearFake",
+     43
+    ],
+    [
+     "Unknown Loader",
+     31
+    ],
+    [
+     "Vidar",
+     25
+    ],
+    [
+     "Unknown malware",
+     22
+    ],
+    [
+     "WARDENStealer",
+     17
+    ]
+   ],
+   "families_c2": [
+    [
+     "DeerStealer",
+     44
+    ],
+    [
+     "Vidar",
+     25
+    ],
+    [
+     "Unknown malware",
+     15
+    ],
+    [
+     "WARDENStealer",
+     13
+    ],
+    [
+     "Mirai",
+     6
+    ],
+    [
+     "Unknown RAT",
+     4
+    ],
+    [
+     "Unknown Loader",
+     3
+    ],
+    [
+     "Cobalt Strike",
+     2
+    ]
+   ],
+   "in_export": 568,
+   "last24h": 230,
+   "last7": 568,
+   "new_this_run": 568,
+   "newest": "2026-10-18T14:05:48+00:00",
+   "newest_age_hours": 0.3,
+   "other_7d": 448,
+   "ports": [],
+   "recent": [
+    {
+     "confidence": 100,
+     "family": "Vidar",
+     "ports": [],
+     "seen": "2026-10-18T14:05:48+00:00",
+     "type": "botnet_cc",
+     "value": "gd.88idn.net"
+    },
+    {
+     "confidence": 100,
+     "family": "ClearFake",
+     "ports": [],
+     "seen": "2026-10-18T13:59:12+00:00",
+     "type": "payload_delivery",
+     "value": "bocillanang.com"
+    },
+    {
+     "confidence": 50,
+     "family": "php.shin_webshell",
+     "ports": [],
+     "seen": "2026-10-18T13:57:38+00:00",
+     "type": "payload_delivery",
+     "value": "mykunego.workers.dev"
+    },
+    {
+     "confidence": 100,
+     "family": "Amadey",
+     "ports": [],
+     "seen": "2026-10-18T13:49:05+00:00",
+     "type": "botnet_cc",
+     "value": "ray-id-v3.com"
+    },
+    {
+     "confidence": 90,
+     "family": "ClearFake",
+     "ports": [],
+     "seen": "2026-10-18T13:29:25+00:00",
+     "type": "payload_delivery",
+     "value": "sky.dolcefantasia.us"
+    },
+    {
+     "confidence": 100,
+     "family": "Vidar",
+     "ports": [],
+     "seen": "2026-10-18T13:15:48+00:00",
+     "type": "botnet_cc",
+     "value": "t.99rtp.net"
+    },
+    {
+     "confidence": 100,
+     "family": "Mirai",
+     "ports": [],
+     "seen": "2026-10-18T13:14:22+00:00",
+     "type": "botnet_cc",
+     "value": "systemd-notify-service.co"
+    },
+    {
+     "confidence": 100,
+     "family": "Mirai",
+     "ports": [],
+     "seen": "2026-10-18T13:14:22+00:00",
+     "type": "botnet_cc",
+     "value": "serverstats-daemon.com"
+    }
+   ],
+   "reporters": [
+    [
+     "varysz",
+     302
+    ],
+    [
+     "xscon",
+     75
+    ],
+    [
+     "anonymous",
+     72
+    ],
+    [
+     "threatcat_ch",
+     27
+    ]
+   ],
+   "spark": "\u2581\u2581\u2581\u2581\u2581\u2581\u2581\u2581\u2581\u2581\u2581\u2582\u2588\u2582",
+   "types": [
+    [
+     "payload_delivery",
+     448
+    ],
+    [
+     "botnet_cc",
+     120
+    ]
+   ]
+  },
+  "ips": {
+   "c2_7d": 520,
+   "daily": [
+    [
+     "2026-10-05",
+     26
+    ],
+    [
+     "2026-10-06",
+     26
+    ],
+    [
+     "2026-10-07",
+     64
+    ],
+    [
+     "2026-10-08",
+     37
+    ],
+    [
+     "2026-10-09",
+     54
+    ],
+    [
+     "2026-10-10",
+     31
+    ],
+    [
+     "2026-10-11",
+     63
+    ],
+    [
+     "2026-10-12",
+     102
+    ],
+    [
+     "2026-10-13",
+     35
+    ],
+    [
+     "2026-10-14",
+     56
+    ],
+    [
+     "2026-10-15",
+     58
+    ],
+    [
+     "2026-10-16",
+     67
+    ],
+    [
+     "2026-10-17",
+     95
+    ],
+    [
+     "2026-10-18",
+     65
+    ]
+   ],
+   "families": [
+    [
+     "DanaBot",
+     99
+    ],
+    [
+     "PureRAT",
+     56
+    ],
+    [
+     "Remcos",
+     52
+    ],
+    [
+     "Unknown malware",
+     47
+    ],
+    [
+     "VShell",
+     30
+    ],
+    [
+     "Cobalt Strike",
+     27
+    ],
+    [
+     "AdaptixC2",
+     26
+    ],
+    [
+     "AsyncRAT",
+     24
+    ]
+   ],
+   "families_c2": [
+    [
+     "DanaBot",
+     99
+    ],
+    [
+     "PureRAT",
+     56
+    ],
+    [
+     "Remcos",
+     52
+    ],
+    [
+     "Unknown malware",
+     45
+    ],
+    [
+     "VShell",
+     30
+    ],
+    [
+     "Cobalt Strike",
+     27
+    ],
+    [
+     "AdaptixC2",
+     26
+    ],
+    [
+     "AsyncRAT",
+     24
+    ]
+   ],
+   "in_export": 2554,
+   "last24h": 78,
+   "last7": 526,
+   "new_this_run": 2554,
+   "newest": "2026-10-18T14:05:04+00:00",
+   "newest_age_hours": 0.3,
+   "other_7d": 6,
+   "ports": [
+    [
+     443,
+     86
+    ],
+    [
+     80,
+     27
+    ],
+    [
+     7443,
+     26
+    ],
+    [
+     56003,
+     24
+    ],
+    [
+     8080,
+     23
+    ],
+    [
+     25201,
+     22
+    ],
+    [
+     56002,
+     21
+    ],
+    [
+     8443,
+     19
+    ]
+   ],
+   "recent": [
+    {
+     "confidence": 100,
+     "family": "Cobalt Strike",
+     "ports": [
+      22,
+      80,
+      443,
+      8080
+     ],
+     "seen": "2026-10-18T14:05:04+00:00",
+     "type": "botnet_cc",
+     "value": "91.201.115.193"
+    },
+    {
+     "confidence": 75,
+     "family": "Cobalt Strike",
+     "ports": [
+      8285,
+      8383
+     ],
+     "seen": "2026-10-18T13:45:57+00:00",
+     "type": "botnet_cc",
+     "value": "45.153.34.79"
+    },
+    {
+     "confidence": 75,
+     "family": "Cobalt Strike",
+     "ports": [
+      443
+     ],
+     "seen": "2026-10-18T13:45:56+00:00",
+     "type": "botnet_cc",
+     "value": "42.193.174.245"
+    },
+    {
+     "confidence": 75,
+     "family": "Cobalt Strike",
+     "ports": [
+      8443
+     ],
+     "seen": "2026-10-18T13:45:49+00:00",
+     "type": "botnet_cc",
+     "value": "119.45.236.76"
+    },
+    {
+     "confidence": 75,
+     "family": "Cobalt Strike",
+     "ports": [
+      3388
+     ],
+     "seen": "2026-10-18T13:45:46+00:00",
+     "type": "botnet_cc",
+     "value": "103.117.136.32"
+    },
+    {
+     "confidence": 90,
+     "family": "GUIDLOADER",
+     "ports": [
+      80
+     ],
+     "seen": "2026-10-18T13:06:10+00:00",
+     "type": "payload_delivery",
+     "value": "194.116.236.88"
+    },
+    {
+     "confidence": 100,
+     "family": "Cobalt Strike",
+     "ports": [
+      22,
+      80,
+      443,
+      8080
+     ],
+     "seen": "2026-10-18T13:05:05+00:00",
+     "type": "botnet_cc",
+     "value": "185.184.70.41"
+    },
+    {
+     "confidence": 80,
+     "family": "Xtreme RAT",
+     "ports": [
+      9480
+     ],
+     "seen": "2026-10-18T12:40:01+00:00",
+     "type": "botnet_cc",
+     "value": "90.148.39.109"
+    }
+   ],
+   "reporters": [
+    [
+     "abuse_ch",
+     285
+    ],
+    [
+     "Bitsight",
+     52
+    ],
+    [
+     "deepfield",
+     51
+    ],
+    [
+     "anonymous",
+     44
+    ]
+   ],
+   "spark": "\u2583\u2583\u2585\u2584\u2585\u2583\u2585\u2588\u2583\u2585\u2585\u2586\u2588\u2585",
+   "types": [
+    [
+     "botnet_cc",
+     520
+    ],
+    [
+     "payload_delivery",
+     6
+    ]
+   ]
+  },
+  "overlap": [
+   {
+    "family": "Mirai",
+    "kind": "ip",
+    "online": 57,
+    "seen": "2026-10-16T09:45:09+00:00",
+    "type": "botnet_cc",
+    "urls": 69,
+    "value": "45.153.34.235"
+   },
+   {
+    "family": "Bashlite",
+    "kind": "ip",
+    "online": 21,
+    "seen": "2026-10-18T06:30:22+00:00",
+    "type": "botnet_cc",
+    "urls": 21,
+    "value": "104.168.4.206"
+   },
+   {
+    "family": "Aisuru",
+    "kind": "ip",
+    "online": 19,
+    "seen": "2026-10-13T14:12:26+00:00",
+    "type": "botnet_cc",
+    "urls": 26,
+    "value": "176.65.139.41"
+   },
+   {
+    "family": "Mirai",
+    "kind": "ip",
+    "online": 13,
+    "seen": "2026-10-17T05:33:11+00:00",
+    "type": "payload_delivery",
+    "urls": 19,
+    "value": "185.228.72.128"
+   },
+   {
+    "family": "Mirai",
+    "kind": "ip",
+    "online": 3,
+    "seen": "2026-10-17T19:44:48+00:00",
+    "type": "botnet_cc",
+    "urls": 14,
+    "value": "38.43.93.61"
+   },
+   {
+    "family": "Mirai",
+    "kind": "ip",
+    "online": 3,
+    "seen": "2026-10-12T09:44:05+00:00",
+    "type": "botnet_cc",
+    "urls": 8,
+    "value": "177.3.213.149"
+   },
+   {
+    "family": "Unknown malware",
+    "kind": "ip",
+    "online": 3,
+    "seen": "2026-10-18T06:10:25+00:00",
+    "type": "payload_delivery",
+    "urls": 5,
+    "value": "176.65.139.168"
+   },
+   {
+    "family": "Unknown malware",
+    "kind": "domain",
+    "online": 3,
+    "seen": "2026-10-18T06:10:10+00:00",
+    "type": "payload_delivery",
+    "urls": 3,
+    "value": "api.recapcha.fun"
+   },
+   {
+    "family": "Mirai",
+    "kind": "ip",
+    "online": 2,
+    "seen": "2026-10-18T06:29:17+00:00",
+    "type": "botnet_cc",
+    "urls": 10,
+    "value": "193.233.20.122"
+   },
+   {
+    "family": "Mirai",
+    "kind": "ip",
+    "online": 2,
+    "seen": "2026-10-17T05:32:34+00:00",
+    "type": "payload_delivery",
+    "urls": 7,
+    "value": "85.215.45.36"
+   }
+  ],
+  "overlap_total": 22
+ },
  "status": "pass",
  "urls": {
-  "added_24h": 505,
-  "added_7d": 3875,
-  "bare_ip_online": 1529,
+  "added_24h": 506,
+  "added_7d": 3870,
+  "bare_ip_online": 1525,
   "bare_ip_share": 47,
   "daily": [
    [
@@ -904,7 +1589,75 @@
    ],
    [
     "2026-10-18",
-    361
+    363
+   ]
+  ],
+  "domains": [
+   [
+    "dstats.qzz.io",
+    36
+   ],
+   [
+    "crystalbranchtw.blog",
+    36
+   ],
+   [
+    "wemqmewkqewq.work.gd",
+    35
+   ],
+   [
+    "emwqkekwqmekwq.work.gd",
+    31
+   ],
+   [
+    "iloveanal.work.gd",
+    31
+   ],
+   [
+    "donutclients.st",
+    30
+   ],
+   [
+    "likedrink.beer",
+    27
+   ],
+   [
+    "maxxlavalink.cyou",
+    19
+   ]
+  ],
+  "domains_online": [
+   [
+    "donutclients.st",
+    30
+   ],
+   [
+    "c2.teamzeroday.net",
+    10
+   ],
+   [
+    "briannacorporation.com",
+    4
+   ],
+   [
+    "gitview.sbs",
+    3
+   ],
+   [
+    "gitsl.xyz",
+    3
+   ],
+   [
+    "viewgit.sbs",
+    3
+   ],
+   [
+    "gitrm.sbs",
+    3
+   ],
+   [
+    "api.recapcha.fun",
+    3
    ]
   ],
   "extensions": [
@@ -914,7 +1667,7 @@
    ],
    [
     "(none)",
-    8991
+    8993
    ],
    [
     "sh",
@@ -978,7 +1731,7 @@
   "hosts_online": [
    [
     "45.153.34.235",
-    58
+    57
    ],
    [
     "130.12.180.212",
@@ -1009,11 +1762,79 @@
     23
    ]
   ],
-  "new_since_last": 31,
-  "newest": "2026-10-18T13:53:19+00:00",
-  "newest_age_hours": 0.1,
-  "offline": 17046,
-  "online": 16506,
+  "ips": [
+   [
+    "176.65.134.121",
+    369
+   ],
+   [
+    "91.92.242.236",
+    117
+   ],
+   [
+    "31.56.209.86",
+    96
+   ],
+   [
+    "176.65.139.206",
+    73
+   ],
+   [
+    "45.153.34.235",
+    69
+   ],
+   [
+    "176.65.139.135",
+    57
+   ],
+   [
+    "154.83.85.63",
+    52
+   ],
+   [
+    "130.12.180.212",
+    47
+   ]
+  ],
+  "ips_online": [
+   [
+    "45.153.34.235",
+    57
+   ],
+   [
+    "130.12.180.212",
+    47
+   ],
+   [
+    "154.83.85.63",
+    44
+   ],
+   [
+    "176.65.139.169",
+    32
+   ],
+   [
+    "96.62.71.5",
+    29
+   ],
+   [
+    "193.111.117.135",
+    25
+   ],
+   [
+    "31.56.209.86",
+    23
+   ],
+   [
+    "172.245.106.144",
+    22
+   ]
+  ],
+  "new_since_last": 2,
+  "newest": "2026-10-18T14:02:22+00:00",
+  "newest_age_hours": 0.3,
+  "offline": 17052,
+  "online": 16502,
   "online_share": 49,
   "platform_share": 49,
   "platform_urls": 16455,
@@ -1092,7 +1913,7 @@
    ],
    [
     "adliwahid",
-    8277
+    8279
    ],
    [
     "geenensp",
@@ -1125,8 +1946,8 @@
    ],
    [
     "mips",
-    398,
-    287
+    397,
+    288
    ],
    [
     "cowrie",
@@ -1151,7 +1972,7 @@
    ],
    [
     "mirai",
-    3145
+    3146
    ],
    [
     "32-bit,elf,mips,Mozi",
@@ -1159,7 +1980,7 @@
    ],
    [
     "32-bit,arm,elf,mirai,Mozi",
-    776
+    778
    ],
    [
     "FakeGit,luajit,SmartLoader,Stealc,zip",
@@ -1193,7 +2014,7 @@
    ],
    [
     "mirai",
-    5800
+    5803
    ],
    [
     "Mozi",
@@ -1243,11 +2064,11 @@
    ],
    [
     "elf",
-    722
+    720
    ],
    [
     "mirai",
-    688
+    686
    ],
    [
     "Stealc",
@@ -1261,15 +2082,17 @@
   "threats": [
    [
     "malware_download",
-    33552
+    33554
    ]
   ],
-  "total": 33552,
-  "unique_hosts": 7109,
+  "total": 33554,
+  "unique_domains": 485,
+  "unique_hosts": 7111,
+  "unique_ips": 6626,
   "unique_online_hosts": 670,
-  "untagged": 3339,
+  "untagged": 3340,
   "window_days": 30.6
  },
- "urls_at": "2026-10-18T14:00:44.361150+00:00",
+ "urls_at": "2026-10-18T14:21:24.037515+00:00",
  "version": "2.0.0"
 }
