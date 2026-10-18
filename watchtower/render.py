@@ -107,7 +107,7 @@ def url_section(u: dict, long: bool) -> str:
     combos = ", ".join(f"`{cell(t.replace(',', ' + '), 60)}` {n(c)}" for t, c in u["tag_combos"][:5])
     out += f"\n**Most common tag combinations:** {combos or 'n/a'}\n"
     out += f"\n**Where it is hosted:** {u['bare_ip_share']}% of URLs sit on a bare IP address; {n(u['unique_hosts'])} different hosts, {n(u['unique_online_hosts'])} serving malware right now.  \n"
-    out += f"**Abused platforms:** {u['platform_share']}% of URLs sit on shared platforms: " + (", ".join(f"{cell(p, 30)} {n(c)}" for p, c in u["platforms"][:6]) or "none") + "  \n"
+    out += f"**Abused platforms:** {u.get('platform_share', 0)}% of URLs sit on shared platforms: " + (", ".join(f"{cell(p, 30)} {n(c)}" for p, c in u.get("platforms", [])[:6]) or "none") + "  \n"
     out += "**Busiest hosts (platforms left out):** " + ", ".join(f"`{defang_host(cell(h, 50))}` {n(c)}" for h, c in u["hosts"][:6]) + "  \n"
     out += "**Online right now, busiest hosts (platforms left out):** " + (", ".join(f"`{defang_host(cell(h, 50))}` {n(c)}" for h, c in u["hosts_online"][:6]) or "n/a") + "  \n"
     out += "**File types:** " + ", ".join(f"{cell(e, 10)} {n(c)}" for e, c in u["extensions"][:8]) + "  \n"

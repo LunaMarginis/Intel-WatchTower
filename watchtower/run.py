@@ -78,7 +78,9 @@ def run(root: Path, *, offline: Path | None = None, now: datetime | None = None,
     # ------------------------------------------------------------ URLhaus (URLs): about once a day
     u_summary, u_at = prev.get("urls"), prev.get("urls_at", "")
     last_refresh = datetime.fromisoformat(u_at) if u_at else None
-    due = force_urls or not u_summary or last_refresh is None or (now - last_refresh) >= timedelta(hours=URL_REFRESH_HOURS)
+    # A summary saved by an older version lacks fields the reports now use: refresh at once instead of rendering from it.
+    outdated = bool(u_summary) and not set(analyze.url_summary([], set(), now)) <= set(u_summary)
+    due = force_urls or not u_summary or outdated or last_refresh is None or (now - last_refresh) >= timedelta(hours=URL_REFRESH_HOURS)
     if due:
         uh_text = None
         if offline:
