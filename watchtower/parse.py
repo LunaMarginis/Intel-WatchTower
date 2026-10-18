@@ -181,3 +181,81 @@ def defang_url(url: str) -> str:
 
 def defang_host(host: str) -> str:
     return host.replace(".", "[.]").replace(":", "[:]")
+
+
+# ---------------------------------------------------------------- ThreatFox infrastructure (domains and ip:port)
+
+DOMAIN = re.compile(r"^(?=.{4,253}$)(?:[a-z0-9_](?:[a-z0-9_-]{0,61}[a-z0-9_])?\.)+[a-z]{2,63}$")
+IPPORT = re.compile(r"^(\d{1,3})\.(\d{1,3})\.(\d{1,3})\.(\d{1,3}):(\d{1,5})$")
+
+
+@dataclass
+class Infra:
+    """A domain, or an IP address with the ports ThreatFox reported on it (ip:port rows of one IP are merged)."""
+    kind: str             # domain | ip
+    value: str
+    first_seen: datetime
+    ioc_id: str
+    threat_type: str      # botnet_cc | payload_delivery | ...
+    malware: str
+    alias: str
+    printable: str
+    confidence: int
+    tags: list[str] = field(default_factory=list)
+    reporter: str = ""
+    ports: list[int] = field(default_factory=list)
+
+    @property
+    def family(self) -> str:
+        return self.printable or self.malware or "unknown"
+
+    @property
+    def key(self) -> str:
+        return f"{self.kind}:{self.value}"
+
+
+def refang(value: str) -> str:
+    return value.replace("[.]", ".").replace("[:]", ":")
+
+
+def infra_records(export: Export, kind: str) -> tuple[list[Infra], list[str]]:
+    """(valid entries, reasons for the rejected ones). kind is 'domain' or 'ip'. Several ip:port rows of one IP become one entry with its ports."""
+    want = "domain" if kind == "domain" else "ip:port"
+    out: dict[str, Infra] = {}
+    rejected: list[str] = []
+    for r in export.rows:
+        raw = r.get("ioc_value", "").strip().lower().rstrip(".")
+        seen = to_dt(r.get("first_seen_utc", ""))
+        if r.get("ioc_type") and r["ioc_type"] != want:
+            rejected.append(f"{raw[:50]}: type {r['ioc_type']}")
+            continue
+        port = 0
+        if kind == "domain":
+            if not DOMAIN.match(raw):
+                rejected.append(f"not a domain: {raw[:50]!r}")
+                continue
+            value = raw
+        else:
+            m = IPPORT.match(raw)
+            if not m or any(int(g) > 255 for g in m.groups()[:4]) or not 0 < int(m.group(5)) < 65536:
+                rejected.append(f"not an ip:port: {raw[:50]!r}")
+                continue
+            value, port = ".".join(m.groups()[:4]), int(m.group(5))
+        if seen is None:
+            rejected.append(f"{raw}: unreadable first_seen_utc")
+            continue
+        try:
+            conf = int(r.get("confidence_level") or 0)
+        except ValueError:
+            conf = 0
+        i = Infra(kind, value, seen, r.get("ioc_id", ""), r.get("threat_type", ""), r.get("fk_malware", ""), r.get("malware_alias", ""), r.get("malware_printable", ""),
+                  conf, [t.strip() for t in r.get("tags", "").split(",") if t.strip()], r.get("reporter", ""), [port] if port else [])
+        have = out.get(value)
+        if have is None:
+            out[value] = i
+        else:
+            have.ports = sorted(set(have.ports) | set(i.ports))
+            if i.first_seen < have.first_seen:
+                i.ports = have.ports
+                out[value] = i
+    return list(out.values()), rejected
