@@ -285,6 +285,18 @@ class EndToEndTests(unittest.TestCase):
         self.assertTrue(changes and all(c["change"] == "status_changed" and c["status"] == "offline" for c in changes))
         self.assertEqual(len(list((self.root / "indicators/hashes").glob("*.jsonl"))), 2)
 
+    def test_summary_saved_by_an_older_version_is_refreshed_not_rendered(self):
+        self._run(self.root, self.off)
+        path = self.root / "feeds/iocs.json"
+        saved = json.loads(path.read_text(encoding="utf-8"))
+        for key in ("platforms", "platforms_online", "platform_urls", "platform_share"):
+            del saved["urls"][key]          # what the previous release wrote
+        path.write_text(json.dumps(saved), encoding="utf-8")
+        self.assertEqual(self._run(self.root, self.off, now=NOW + timedelta(hours=6)), 0, "must not crash, and must not wait a day to refresh")
+        again = json.loads(path.read_text(encoding="utf-8"))
+        self.assertIn("platform_share", again["urls"])
+        self.assertIn("Abused platforms", (self.root / "README.md").read_text(encoding="utf-8"))
+
     def test_no_third_party_markup_reaches_the_readme(self):
         (self.off / "tf.csv").write_text(tf_file([tf_row(1, NOW - timedelta(hours=1), fam="win.x", printable="Evil|[click](http://evil.example/)<script>", reporter="`bad`")]), encoding="utf-8")
         self._run(self.root, self.off)
