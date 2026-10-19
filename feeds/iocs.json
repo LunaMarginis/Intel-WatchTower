@@ -1,8 +1,8 @@
 {
- "at": "2026-10-18T20:37:45+00:00",
+ "at": "2026-10-19T04:35:27+00:00",
  "checks": [
   {
-   "detail": "14 KB in 0.3 s",
+   "detail": "14 KB in 0.2 s",
    "name": "threatfox: download",
    "status": "pass"
   },
@@ -27,17 +27,17 @@
    "status": "pass"
   },
   {
-   "detail": "newest hash is 14.2 h old",
+   "detail": "newest hash is 22.1 h old",
    "name": "threatfox: freshness",
    "status": "pass"
   },
   {
-   "detail": "export file is 14.2 h old",
+   "detail": "export file is 22.1 h old",
    "name": "threatfox: freshness",
    "status": "warn"
   },
   {
-   "detail": "0 new, far below the recent average of 18",
+   "detail": "0 new, far below the recent average of 14",
    "name": "threatfox: new items",
    "status": "warn"
   },
@@ -47,7 +47,7 @@
    "status": "pass"
   },
   {
-   "detail": "173 KB in 0.2 s",
+   "detail": "172 KB in 0.1 s",
    "name": "threatfox domains: download",
    "status": "pass"
   },
@@ -57,32 +57,32 @@
    "status": "pass"
   },
   {
-   "detail": "all 897 data lines parsed",
+   "detail": "all 895 data lines parsed",
    "name": "threatfox domains: lines read",
    "status": "pass"
   },
   {
-   "detail": "1 rows rejected, e.g. not a domain: 'xn----9sbbkhii6amcahr0b.xn--p1ai'",
+   "detail": "every row passed validation",
    "name": "threatfox domains: values valid",
-   "status": "warn"
+   "status": "pass"
   },
   {
-   "detail": "896 rows (last time 568)",
+   "detail": "895 rows (last time 896)",
    "name": "threatfox domains: volume",
    "status": "pass"
   },
   {
-   "detail": "newest entry is 0.6 h old",
+   "detail": "newest entry is 0.4 h old",
    "name": "threatfox domains: freshness",
    "status": "pass"
   },
   {
-   "detail": "export file is 0.6 h old",
+   "detail": "export file is 0.4 h old",
    "name": "threatfox domains: freshness",
    "status": "pass"
   },
   {
-   "detail": "799 KB in 0.3 s",
+   "detail": "790 KB in 0.1 s",
    "name": "threatfox ips: download",
    "status": "pass"
   },
@@ -92,7 +92,7 @@
    "status": "pass"
   },
   {
-   "detail": "all 3,673 data lines parsed",
+   "detail": "all 3,635 data lines parsed",
    "name": "threatfox ips: lines read",
    "status": "pass"
   },
@@ -102,17 +102,17 @@
    "status": "pass"
   },
   {
-   "detail": "2,661 rows (last time 2,554)",
+   "detail": "2,634 rows (last time 2,661)",
    "name": "threatfox ips: volume",
    "status": "pass"
   },
   {
-   "detail": "newest entry is 0.5 h old",
+   "detail": "newest entry is 1.0 h old",
    "name": "threatfox ips: freshness",
    "status": "pass"
   },
   {
-   "detail": "export file is 0.5 h old",
+   "detail": "export file is 1.0 h old",
    "name": "threatfox ips: freshness",
    "status": "pass"
   },
@@ -130,10 +130,6 @@
    "min": 95
   },
   "daily": [
-   [
-    "2026-10-05",
-    0
-   ],
    [
     "2026-10-06",
     0
@@ -185,6 +181,10 @@
    [
     "2026-10-18",
     18
+   ],
+   [
+    "2026-10-19",
+    0
    ]
   ],
   "families": [
@@ -197,8 +197,8 @@
      0,
      0,
      0,
-     0,
      13,
+     0,
      0
     ],
     "family": "Raven Stealer",
@@ -235,8 +235,8 @@
      0,
      0,
      0,
-     0,
      6,
+     0,
      0
     ],
     "family": "NetWire RC",
@@ -267,9 +267,9 @@
      0,
      0,
      0,
-     0,
      4,
-     2
+     2,
+     0
     ],
     "family": "ValleyRAT",
     "first_seen": "2026-10-17 15:32:24+00:00",
@@ -297,8 +297,8 @@
      0,
      0,
      0,
-     0,
      6,
+     0,
      0
     ],
     "family": "Vidar",
@@ -327,8 +327,8 @@
      0,
      0,
      0,
-     0,
      5,
+     0,
      0
     ],
     "family": "SalatStealer",
@@ -356,9 +356,9 @@
      0,
      0,
      0,
-     0,
      2,
-     3
+     3,
+     0
     ],
     "family": "Venus Stealer",
     "first_seen": "2026-10-17 15:32:29+00:00",
@@ -385,9 +385,9 @@
      0,
      0,
      0,
-     0,
      1,
-     3
+     3,
+     0
     ],
     "family": "stealler",
     "first_seen": "2026-10-17 15:32:32+00:00",
@@ -413,9 +413,9 @@
      0,
      0,
      0,
-     0,
      2,
-     1
+     1,
+     0
     ],
     "family": "Coinminer",
     "first_seen": "2026-10-17 15:33:04+00:00",
@@ -440,9 +440,9 @@
      0,
      0,
      0,
-     0,
      2,
-     1
+     1,
+     0
     ],
     "family": "MoriAgent",
     "first_seen": "2026-10-17 15:32:55+00:00",
@@ -470,9 +470,9 @@
      0,
      0,
      0,
-     0,
      2,
-     1
+     1,
+     0
     ],
     "family": "Nanocore RAT",
     "first_seen": "2026-10-17 15:32:41+00:00",
@@ -497,8 +497,8 @@
      0,
      0,
      0,
-     0,
      2,
+     0,
      0
     ],
     "family": "GCleaner",
@@ -524,8 +524,8 @@
      0,
      0,
      0,
-     0,
-     2
+     2,
+     0
     ],
     "family": "RN Stealer",
     "first_seen": "2026-10-18 06:28:19+00:00",
@@ -555,8 +555,8 @@
      0,
      0,
      0,
-     0,
-     2
+     2,
+     0
     ],
     "family": "WannaCryptor",
     "first_seen": "2026-10-18 06:28:30+00:00",
@@ -580,8 +580,8 @@
      0,
      0,
      0,
-     0,
      1,
+     0,
      0
     ],
     "family": "Amadey",
@@ -605,8 +605,8 @@
      0,
      0,
      0,
-     0,
      1,
+     0,
      0
     ],
     "family": "AsyncRAT",
@@ -632,8 +632,8 @@
      0,
      0,
      0,
-     0,
      1,
+     0,
      0
     ],
     "family": "CrossRAT",
@@ -657,8 +657,8 @@
      0,
      0,
      0,
-     0,
      1,
+     0,
      0
     ],
     "family": "DBoxAgent",
@@ -682,8 +682,8 @@
      0,
      0,
      0,
-     0,
      1,
+     0,
      0
     ],
     "family": "GHOSTBLADE",
@@ -710,8 +710,8 @@
      0,
      0,
      0,
-     0,
      1,
+     0,
      0
     ],
     "family": "NjRAT",
@@ -735,8 +735,8 @@
      0,
      0,
      0,
-     0,
      1,
+     0,
      0
     ],
     "family": "PY#RATION",
@@ -761,8 +761,8 @@
      0,
      0,
      0,
-     0,
-     1
+     1,
+     0
     ],
     "family": "QuantLoader",
     "first_seen": "2026-10-18 06:28:21+00:00",
@@ -786,8 +786,8 @@
      0,
      0,
      0,
-     0,
-     1
+     1,
+     0
     ],
     "family": "RedCurl",
     "first_seen": "2026-10-18 06:28:27+00:00",
@@ -813,8 +813,8 @@
      0,
      0,
      0,
-     0,
      1,
+     0,
      0
     ],
     "family": "Supper",
@@ -839,8 +839,8 @@
      0,
      0,
      0,
-     0,
-     1
+     1,
+     0
     ],
     "family": "VoltStealer",
     "first_seen": "2026-10-18 06:28:23+00:00",
@@ -861,14 +861,14 @@
   "last7": 71,
   "new_this_run": 0,
   "newest": "2026-10-18T06:28:35+00:00",
-  "newest_age_hours": 14.2,
+  "newest_age_hours": 22.1,
   "reporters": [
    [
     "Grim",
     71
    ]
   ],
-  "spark": "\u2581\u2581\u2581\u2581\u2581\u2581\u2581\u2581\u2581\u2581\u2581\u2581\u2588\u2583",
+  "spark": "\u2581\u2581\u2581\u2581\u2581\u2581\u2581\u2581\u2581\u2581\u2581\u2588\u2583\u2581",
   "tags": [],
   "threat_types": [
    [
@@ -880,12 +880,8 @@
  },
  "infra": {
   "domains": {
-   "c2_7d": 123,
+   "c2_7d": 127,
    "daily": [
-    [
-     "2026-10-05",
-     0
-    ],
     [
      "2026-10-06",
      0
@@ -936,7 +932,11 @@
     ],
     [
      "2026-10-18",
-     465
+     478
+    ],
+    [
+     "2026-10-19",
+     16
     ]
    ],
    "families": [
@@ -946,15 +946,15 @@
     ],
     [
      "Unknown Loader",
-     226
+     227
     ],
     [
      "php.shin_webshell",
-     84
+     96
     ],
     [
      "ClearFake",
-     48
+     58
     ],
     [
      "DeerStealer",
@@ -962,7 +962,7 @@
     ],
     [
      "Vidar",
-     27
+     31
     ],
     [
      "Unknown malware",
@@ -980,7 +980,7 @@
     ],
     [
      "Vidar",
-     27
+     31
     ],
     [
      "Unknown malware",
@@ -1007,120 +1007,116 @@
      2
     ]
    ],
-   "in_export": 896,
-   "last24h": 588,
-   "last7": 953,
-   "new_this_run": 385,
-   "newest": "2026-10-18T20:03:56+00:00",
-   "newest_age_hours": 0.6,
-   "other_7d": 830,
+   "in_export": 895,
+   "last24h": 478,
+   "last7": 982,
+   "new_this_run": 29,
+   "newest": "2026-10-19T04:10:48+00:00",
+   "newest_age_hours": 0.4,
+   "other_7d": 855,
    "ports": [],
    "recent": [
     {
-     "confidence": 50,
-     "family": "php.shin_webshell",
-     "ports": [],
-     "seen": "2026-10-18T20:03:56+00:00",
-     "type": "payload_delivery",
-     "value": "cyqafagi.workers.dev"
-    },
-    {
-     "confidence": 50,
-     "family": "php.shin_webshell",
-     "ports": [],
-     "seen": "2026-10-18T19:21:07+00:00",
-     "type": "payload_delivery",
-     "value": "227.73.178.34.bc.googleusercontent.com"
-    },
-    {
      "confidence": 100,
      "family": "Vidar",
      "ports": [],
-     "seen": "2026-10-18T19:05:48+00:00",
+     "seen": "2026-10-19T04:10:48+00:00",
      "type": "botnet_cc",
-     "value": "o7.9kio.org"
+     "value": "j.9kio.org"
     },
     {
      "confidence": 50,
      "family": "php.shin_webshell",
      "ports": [],
-     "seen": "2026-10-18T18:51:35+00:00",
+     "seen": "2026-10-19T03:45:13+00:00",
      "type": "payload_delivery",
-     "value": "melisandra11.workers.dev"
+     "value": "heqosyco.workers.dev"
+    },
+    {
+     "confidence": 50,
+     "family": "php.shin_webshell",
+     "ports": [],
+     "seen": "2026-10-19T03:15:33+00:00",
+     "type": "payload_delivery",
+     "value": "70.93.154.34.bc.googleusercontent.com"
     },
     {
      "confidence": 100,
      "family": "ClearFake",
      "ports": [],
-     "seen": "2026-10-18T18:40:02+00:00",
+     "seen": "2026-10-19T02:49:52+00:00",
      "type": "payload_delivery",
-     "value": "bulkcompressimages.com"
+     "value": "chineseadoptee.com"
     },
     {
      "confidence": 100,
      "family": "ClearFake",
      "ports": [],
-     "seen": "2026-10-18T18:21:06+00:00",
+     "seen": "2026-10-19T02:39:01+00:00",
      "type": "payload_delivery",
-     "value": "ezn9tfkz.bewiseimmunize.com"
-    },
-    {
-     "confidence": 100,
-     "family": "Vidar",
-     "ports": [],
-     "seen": "2026-10-18T18:05:48+00:00",
-     "type": "botnet_cc",
-     "value": "t7.88idn.net"
+     "value": "mfc7lcz8.bociljp.id"
     },
     {
      "confidence": 50,
      "family": "php.shin_webshell",
      "ports": [],
-     "seen": "2026-10-18T17:58:30+00:00",
+     "seen": "2026-10-19T02:38:16+00:00",
      "type": "payload_delivery",
-     "value": "de67y1vlab.workers.dev"
+     "value": "q9ke10zjfu.workers.dev"
+    },
+    {
+     "confidence": 50,
+     "family": "php.shin_webshell",
+     "ports": [],
+     "seen": "2026-10-19T02:16:30+00:00",
+     "type": "payload_delivery",
+     "value": "s0106b85e715d725e.cg.shawcable.net"
+    },
+    {
+     "confidence": 100,
+     "family": "Vidar",
+     "ports": [],
+     "seen": "2026-10-19T02:05:48+00:00",
+     "type": "botnet_cc",
+     "value": "j7.88idr.org"
     }
    ],
    "reporters": [
     [
      "varysz",
-     669
+     670
     ],
     [
      "xscon",
-     84
+     96
     ],
     [
      "anonymous",
-     75
+     81
     ],
     [
      "threatcat_ch",
-     29
+     33
     ]
    ],
-   "spark": "\u2581\u2581\u2581\u2581\u2581\u2581\u2581\u2581\u2581\u2581\u2581\u2582\u2587\u2588",
+   "spark": "\u2581\u2581\u2581\u2581\u2581\u2581\u2581\u2581\u2581\u2581\u2582\u2587\u2588\u2581",
    "types": [
     [
      "payload_delivery",
-     830
+     855
     ],
     [
      "botnet_cc",
-     123
+     127
     ]
    ]
   },
   "ips": {
-   "c2_7d": 604,
+   "c2_7d": 611,
    "daily": [
     [
-     "2026-10-05",
-     26
-    ],
-    [
      "2026-10-06",
-     26
+     27
     ],
     [
      "2026-10-07",
@@ -1168,7 +1164,11 @@
     ],
     [
      "2026-10-18",
-     195
+     197
+    ],
+    [
+     "2026-10-19",
+     7
     ]
    ],
    "families": [
@@ -1198,11 +1198,11 @@
     ],
     [
      "VShell",
-     32
+     35
     ],
     [
-     "Cobalt Strike",
-     28
+     "AdaptixC2",
+     27
     ]
    ],
    "families_c2": [
@@ -1232,24 +1232,24 @@
     ],
     [
      "VShell",
-     32
+     35
     ],
     [
-     "Cobalt Strike",
-     28
+     "AdaptixC2",
+     27
     ]
    ],
-   "in_export": 2661,
-   "last24h": 195,
-   "last7": 610,
-   "new_this_run": 1105,
-   "newest": "2026-10-18T20:10:21+00:00",
-   "newest_age_hours": 0.5,
+   "in_export": 2634,
+   "last24h": 201,
+   "last7": 617,
+   "new_this_run": 975,
+   "newest": "2026-10-19T03:35:17+00:00",
+   "newest_age_hours": 1.0,
    "other_7d": 6,
    "ports": [
     [
      443,
-     92
+     93
     ],
     [
      31337,
@@ -1257,7 +1257,7 @@
     ],
     [
      80,
-     32
+     33
     ],
     [
      56003,
@@ -1282,91 +1282,91 @@
    ],
    "recent": [
     {
-     "confidence": 100,
-     "family": "Remus",
+     "confidence": 75,
+     "family": "Remcos",
      "ports": [
-      7589
+      2404
      ],
-     "seen": "2026-10-18T20:10:21+00:00",
+     "seen": "2026-10-19T03:35:17+00:00",
      "type": "botnet_cc",
-     "value": "159.89.170.166"
+     "value": "160.30.139.165"
     },
     {
      "confidence": 100,
      "family": "VShell",
      "ports": [
-      8085
+      8084
      ],
-     "seen": "2026-10-18T20:05:05+00:00",
+     "seen": "2026-10-19T03:05:05+00:00",
      "type": "botnet_cc",
-     "value": "163.7.0.131"
+     "value": "106.14.26.31"
+    },
+    {
+     "confidence": 100,
+     "family": "VShell",
+     "ports": [
+      8083
+     ],
+     "seen": "2026-10-19T03:05:04+00:00",
+     "type": "botnet_cc",
+     "value": "103.213.248.138"
+    },
+    {
+     "confidence": 100,
+     "family": "VShell",
+     "ports": [
+      8086
+     ],
+     "seen": "2026-10-19T03:05:03+00:00",
+     "type": "botnet_cc",
+     "value": "101.201.75.136"
     },
     {
      "confidence": 75,
-     "family": "PureRAT",
+     "family": "ValleyRAT",
      "ports": [
-      56003
+      6666
      ],
-     "seen": "2026-10-18T19:45:39+00:00",
+     "seen": "2026-10-19T01:15:29+00:00",
      "type": "botnet_cc",
-     "value": "94.154.32.8"
+     "value": "118.107.28.219"
     },
     {
-     "confidence": 75,
-     "family": "AdaptixC2",
+     "confidence": 100,
+     "family": "ValleyRAT",
      "ports": [
-      4321
+      6666
      ],
-     "seen": "2026-10-18T19:45:33+00:00",
+     "seen": "2026-10-19T01:10:12+00:00",
      "type": "botnet_cc",
-     "value": "89.31.121.156"
+     "value": "137.220.242.14"
     },
     {
-     "confidence": 75,
-     "family": "PureRAT",
+     "confidence": 100,
+     "family": "ValleyRAT",
      "ports": [
-      56002,
-      56003
-     ],
-     "seen": "2026-10-18T19:45:30+00:00",
-     "type": "botnet_cc",
-     "value": "82.47.180.159"
-    },
-    {
-     "confidence": 75,
-     "family": "PureRAT",
-     "ports": [
+      80,
       443
      ],
-     "seen": "2026-10-18T19:45:10+00:00",
+     "seen": "2026-10-19T01:10:07+00:00",
      "type": "botnet_cc",
-     "value": "45.92.1.84"
+     "value": "8.217.47.159"
     },
     {
-     "confidence": 75,
-     "family": "PureRAT",
+     "confidence": 100,
+     "family": "Remus",
      "ports": [
-      56002
+      9692
      ],
-     "seen": "2026-10-18T19:45:01+00:00",
+     "seen": "2026-10-18T21:10:08+00:00",
      "type": "botnet_cc",
-     "value": "45.153.34.173"
-    },
-    {
-     "confidence": 75,
-     "family": "Unknown malware",
-     "ports": [
-      7443
-     ],
-     "seen": "2026-10-18T19:44:56+00:00",
-     "type": "botnet_cc",
-     "value": "39.105.125.235"
+     "value": "77.90.4.104"
     }
    ],
    "reporters": [
     [
      "abuse_ch",
-     253
+     257
     ],
     [
      "juroots",
@@ -1377,15 +1377,15 @@
      57
     ],
     [
-     "deepfield",
+     "anonymous",
      51
     ]
    ],
-   "spark": "\u2582\u2582\u2583\u2582\u2583\u2582\u2583\u2585\u2582\u2583\u2583\u2583\u2584\u2588",
+   "spark": "\u2582\u2583\u2582\u2583\u2582\u2583\u2585\u2582\u2583\u2583\u2583\u2584\u2588\u2581",
    "types": [
     [
      "botnet_cc",
-     604
+     611
     ],
     [
      "payload_delivery",
