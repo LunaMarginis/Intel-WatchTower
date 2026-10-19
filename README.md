@@ -4,19 +4,19 @@ Daily malware intelligence from abuse.ch: what is new, who is behind it, and whe
 
 ![collect](https://github.com/LunaMarginis/Intel-WatchTower/actions/workflows/collect.yml/badge.svg)
 
-**Last run:** 2026-10-19 13:05 UTC · **Health:** ⚠️ 30 checks passed, **1 warning(s)**: see Data health.
+**Last run:** 2026-10-19 22:19 UTC · **Health:** ⚠️ 23 checks passed, **1 warning(s)**: see Data health.
 
 ## At a glance
 
 |  | 🧬 ThreatFox · MD5 hashes | 🔗 URLhaus · malware URLs |
 |---|---|---|
-| In the latest export | 125 | 33,586 |
-| New since the previous run | 54 | 433 |
-| Added in the last 24 hours | 54 | 451 |
-| Added in the last 7 days | 125 | 3,258 |
+| In the latest export | 80 | 33,586 |
+| New since the previous run | 1 | 433 |
+| Added in the last 24 hours | 55 | 451 |
+| Added in the last 7 days | 126 | 3,258 |
 | Online right now | – | 16,555 (49%) |
-| Period the export covers | 40.7 h | 30.5 days |
-| Newest entry | 4.9 h ago | 0 min ago |
+| Period the export covers | 45.5 h | 30.5 days |
+| Newest entry | 9.3 h ago | 0 min ago |
 
 _URL data refreshed 2026-10-19 13:05 UTC._
 
@@ -172,13 +172,14 @@ c23328926e8545b746664890921ff091
 ```
 </details>
 
-**New hashes per day, last 14 days:** `▁▁▁▁▁▁▁▁▁▁▁█▃█` (today 54, busiest day 54).
+**New hashes per day, last 14 days:** `▁▁▁▁▁▁▁▁▁▁▁█▃█` (today 55, busiest day 55).
 
-**Threat types:** payload 125  
-**Reporter confidence in the latest export:** 95–95% (average 95%)  
-**Top reporters (7 d):** Grim 125  
+**Threat types:** payload 126  
+**Reporter confidence in the latest export:** 95–100% (average 95%)  
+**Top reporters (7 d):** Grim 125, Tomer56 1  
+**Tags (7 d):** acr 1, ACRStealer 1, fake game 1, ROM 1, setup.exe 1, setup.py 1  
 
-_Archive: 125 hashes collected so far (kept up to 400 days)._
+_Archive: 126 hashes collected so far (kept up to 400 days)._
 
 ## 🔗 Malware URLs
 
@@ -220,35 +221,35 @@ Domains and IP addresses reported to ThreatFox, with the malware family behind t
 
 |  | 🌐 Domains | 🖥️ IP addresses |
 |---|---|---|
-| In the latest export | 711 | 2,593 |
-| New since the previous run | 62 | 1,016 |
-| First reported, last 24 h | 489 | 203 |
-| First reported, last 7 days | 1,044 | 603 |
-| …of them command-and-control | 157 | 593 |
-| …delivery and other | 887 | 10 |
+| In the latest export | 620 | 2,594 |
+| New since the previous run | 60 | 1,006 |
+| First reported, last 24 h | 143 | 111 |
+| First reported, last 7 days | 1,104 | 625 |
+| …of them command-and-control | 179 | 615 |
+| …delivery and other | 925 | 10 |
 
 
-**Domains, top families (7 days):** IClickFix 456, Unknown Loader 236, php.shin_webshell 106, ClearFake 67, DeerStealer 44  
-**Domains, top command-and-control families:** DeerStealer 44, Vidar 33, Unknown malware 17, SMSspy 14, WARDENStealer 13  
+**Domains, top families (7 days):** IClickFix 461, Unknown Loader 236, php.shin_webshell 121, ClearFake 81, DeerStealer 44  
+**Domains, top command-and-control families:** DeerStealer 44, Vidar 43, Unknown malware 21, SMSspy 14, WARDENStealer 13  
 
-**IP addresses, top families (7 days):** Unknown malware 79, Remcos 61, PureRAT 58, Sliver 58, Mirai 56  
-**IP addresses, top command-and-control families:** Unknown malware 76, Remcos 61, PureRAT 58, Sliver 58, Mirai 53  
-**Most reported ports:** 443 (91), 80 (50), 31337 (45), 8080 (31), 56003 (28), 7443 (27), 56002 (21), 8443 (21)  
+**IP addresses, top families (7 days):** Unknown malware 82, Sliver 66, Remcos 62, PureRAT 56, Mirai 56  
+**IP addresses, top command-and-control families:** Unknown malware 79, Sliver 66, Remcos 62, PureRAT 56, Mirai 53  
+**Most reported ports:** 443 (94), 31337 (52), 80 (51), 8080 (35), 8443 (26), 7443 (25), 56003 (25), 56002 (21)  
 
 #### Newest entries
 
 | Kind | Entry (defanged) | Family | Type | First reported |
 |---|---|---|---|---|
-| domain | `qhqkc41j[.]coletteloire[.]rest` | ClearFake | payload_delivery | 2026-10-19 12:45 UTC |
-| domain | `comewivy[.]workers[.]dev` | php.shin_webshell | payload_delivery | 2026-10-19 12:29 UTC |
-| domain | `coletteloire[.]rest` | ClearFake | payload_delivery | 2026-10-19 12:11 UTC |
-| domain | `checkgwfwtg465[.]art` | IClickFix | payload_delivery | 2026-10-19 12:03 UTC |
-| ip | `217[.]60[.]102[.]156` ports 8093 | Hermes | botnet_cc | 2026-10-19 11:57 UTC |
-| ip | `213[.]176[.]72[.]213` ports 80 | SmartLoader | botnet_cc | 2026-10-19 11:57 UTC |
-| ip | `147[.]45[.]116[.]14` ports 8093,8787 | Hermes | botnet_cc | 2026-10-19 11:57 UTC |
-| ip | `45[.]135[.]193[.]111` ports 7761 | Mirai | botnet_cc | 2026-10-19 11:57 UTC |
+| domain | `o[.]9qoi[.]org` | Vidar | botnet_cc | 2026-10-19 22:05 UTC |
+| domain | `y4[.]8g8g[.]org` | Vidar | botnet_cc | 2026-10-19 22:05 UTC |
+| domain | `jm[.]88kfc[.]org` | Vidar | botnet_cc | 2026-10-19 22:05 UTC |
+| domain | `bopice[.]workers[.]dev` | php.shin_webshell | payload_delivery | 2026-10-19 21:46 UTC |
+| ip | `43[.]248[.]102[.]182` ports 24245 | NjRAT | botnet_cc | 2026-10-19 22:05 UTC |
+| ip | `89[.]19[.]220[.]21` ports 8001 | Aisuru | botnet_cc | 2026-10-19 21:41 UTC |
+| ip | `156[.]240[.]41[.]95` ports 8877 | VShell | botnet_cc | 2026-10-19 21:05 UTC |
+| ip | `92[.]4[.]168[.]97` ports 443 | Unknown malware | botnet_cc | 2026-10-19 19:45 UTC |
 
-#### Also serving malware in URLhaus (41)
+#### Also serving malware in URLhaus (42)
 
 Infrastructure that ThreatFox reports **and** that URLhaus sees hosting malware URLs: the strongest leads.
 
@@ -267,57 +268,50 @@ _Community reports, not verified. Servers move and addresses are reused: check h
 
 |  | Check | Result |
 |---|---|---|
-| ✅ | `threatfox: download` | 23 KB in 0.3 s |
+| ✅ | `threatfox: download` | 15 KB in 0.3 s |
 | ✅ | `threatfox: columns` | all 10 needed columns present (5 others ignored) |
-| ✅ | `threatfox: lines read` | all 125 data lines parsed |
+| ✅ | `threatfox: lines read` | all 80 data lines parsed |
 | ✅ | `threatfox: values valid` | every row passed validation |
-| ✅ | `threatfox: volume` | 125 rows (last time 71) |
-| ✅ | `threatfox: freshness` | newest hash is 4.9 h old |
-| ✅ | `threatfox: freshness` | export file is 4.9 h old |
-| ⚠️ | `threatfox: new items` | 54 new far above the recent average of 12 |
-| ✅ | `urlhaus: download` | 7675 KB in 0.2 s |
-| ✅ | `urlhaus: columns` | all 7 needed columns present (2 others ignored) |
-| ✅ | `urlhaus: lines read` | all 33586 data lines parsed |
-| ✅ | `urlhaus: values valid` | every row passed validation |
-| ✅ | `urlhaus: volume` | 33586 rows (last time 33554) |
-| ✅ | `urlhaus: freshness` | export file is 0.3 h old |
-| ✅ | `urlhaus: freshness` | newest URL is 0.3 h old |
-| ✅ | `urlhaus: indicators` | 433 new URLs and 447 status changes recorded |
-| ✅ | `threatfox domains: download` | 141 KB in 0.3 s |
+| ✅ | `threatfox: volume` | 80 rows (last time 125) |
+| ✅ | `threatfox: freshness` | newest hash is 9.3 h old |
+| ✅ | `threatfox: freshness` | export file is 9.3 h old |
+| ⚠️ | `threatfox: new items` | 1 new far below the recent average of 18 |
+| ✅ | `urlhaus: refresh` | not due: refreshed 2026-10-19 13:05 UTC (once a day) |
+| ✅ | `threatfox domains: download` | 126 KB in 0.2 s |
 | ✅ | `threatfox domains: columns` | all 10 needed columns present (5 others ignored) |
-| ✅ | `threatfox domains: lines read` | all 711 data lines parsed |
+| ✅ | `threatfox domains: lines read` | all 620 data lines parsed |
 | ✅ | `threatfox domains: values valid` | every row passed validation |
-| ✅ | `threatfox domains: volume` | 711 rows (last time 895) |
-| ✅ | `threatfox domains: freshness` | newest entry is 0.3 h old |
-| ✅ | `threatfox domains: freshness` | export file is 0.3 h old |
-| ✅ | `threatfox ips: download` | 777 KB in 0.3 s |
+| ✅ | `threatfox domains: volume` | 620 rows (last time 711) |
+| ✅ | `threatfox domains: freshness` | newest entry is 0.2 h old |
+| ✅ | `threatfox domains: freshness` | export file is 0.2 h old |
+| ✅ | `threatfox ips: download` | 778 KB in 0.1 s |
 | ✅ | `threatfox ips: columns` | all 10 needed columns present (5 others ignored) |
-| ✅ | `threatfox ips: lines read` | all 3567 data lines parsed |
+| ✅ | `threatfox ips: lines read` | all 3586 data lines parsed |
 | ✅ | `threatfox ips: values valid` | every row passed validation |
-| ✅ | `threatfox ips: volume` | 2593 rows (last time 2634) |
-| ✅ | `threatfox ips: freshness` | newest entry is 1.1 h old |
-| ✅ | `threatfox ips: freshness` | export file is 1.1 h old |
-| ✅ | `output safety` | 12 published files contain no live URL |
+| ✅ | `threatfox ips: volume` | 2594 rows (last time 2593) |
+| ✅ | `threatfox ips: freshness` | newest entry is 0.2 h old |
+| ✅ | `threatfox ips: freshness` | export file is 0.2 h old |
+| ✅ | `output safety` | 9 published files contain no live URL |
 
 ## Files
 
 | File | What it holds | Rows | Size |
 |---|---|---|---|
-| [`README.md`](https://github.com/LunaMarginis/Intel-WatchTower/blob/main/README.md) | This page | – | 15 KB |
-| [`mhash.csv`](https://github.com/LunaMarginis/Intel-WatchTower/blob/main/mhash.csv) | Latest ThreatFox MD5 export, clean (first_seen, confidence, reporter…) | 125 | 13 KB |
+| [`README.md`](https://github.com/LunaMarginis/Intel-WatchTower/blob/main/README.md) | This page | – | 16 KB |
+| [`mhash.csv`](https://github.com/LunaMarginis/Intel-WatchTower/blob/main/mhash.csv) | Latest ThreatFox MD5 export, clean (first_seen, confidence, reporter…) | 80 | 8 KB |
 | [`urls.csv`](https://github.com/LunaMarginis/Intel-WatchTower/blob/main/urls.csv) | Latest URLhaus export, defanged | 33,586 | 4,711 KB |
-| [`indicators/hashes/`](https://github.com/LunaMarginis/Intel-WatchTower/blob/main/indicators/hashes/) | Enriched hash records, one file per day, one JSON object per line (kept 400 days) | 125 | 46 KB |
+| [`indicators/hashes/`](https://github.com/LunaMarginis/Intel-WatchTower/blob/main/indicators/hashes/) | Enriched hash records, one file per day, one JSON object per line (kept 400 days) | 126 | 47 KB |
 | [`indicators/urls/`](https://github.com/LunaMarginis/Intel-WatchTower/blob/main/indicators/urls/) | Enriched URL records: new URLs and status changes, one file per day (kept 120 days) | 1,908 | 740 KB |
-| [`feeds/md5_7d.txt`](https://github.com/LunaMarginis/Intel-WatchTower/blob/main/feeds/md5_7d.txt) | Plain list: hashes of the last 7 days | 125 | 4 KB |
-| [`feeds/md5_30d.txt`](https://github.com/LunaMarginis/Intel-WatchTower/blob/main/feeds/md5_30d.txt) | Plain list: hashes of the last 30 days | 125 | 4 KB |
+| [`feeds/md5_7d.txt`](https://github.com/LunaMarginis/Intel-WatchTower/blob/main/feeds/md5_7d.txt) | Plain list: hashes of the last 7 days | 126 | 4 KB |
+| [`feeds/md5_30d.txt`](https://github.com/LunaMarginis/Intel-WatchTower/blob/main/feeds/md5_30d.txt) | Plain list: hashes of the last 30 days | 126 | 4 KB |
 | [`feeds/hosts_online.txt`](https://github.com/LunaMarginis/Intel-WatchTower/blob/main/feeds/hosts_online.txt) | Hosts serving malware now, defanged | 756 | 15 KB |
-| [`feeds/c2_domains_7d.txt`](https://github.com/LunaMarginis/Intel-WatchTower/blob/main/feeds/c2_domains_7d.txt) | ThreatFox command-and-control domains, last 7 days, defanged | 157 | 4 KB |
-| [`feeds/c2_ips_7d.txt`](https://github.com/LunaMarginis/Intel-WatchTower/blob/main/feeds/c2_ips_7d.txt) | ThreatFox command-and-control IP addresses, last 7 days, defanged | 593 | 12 KB |
-| [`indicators/infra/`](https://github.com/LunaMarginis/Intel-WatchTower/blob/main/indicators/infra/) | Enriched C2 and delivery domains and IPs, one file per day (kept 45 days) | 2,847 | 995 KB |
-| [`feeds/stix_md5_7d.json`](https://github.com/LunaMarginis/Intel-WatchTower/blob/main/feeds/stix_md5_7d.json) | STIX 2.1 bundle of the last 7 days of hashes | – | 155 KB |
-| [`feeds/iocs.json`](https://github.com/LunaMarginis/Intel-WatchTower/blob/main/feeds/iocs.json) | The numbers behind this page, as JSON | – | 30 KB |
+| [`feeds/c2_domains_7d.txt`](https://github.com/LunaMarginis/Intel-WatchTower/blob/main/feeds/c2_domains_7d.txt) | ThreatFox command-and-control domains, last 7 days, defanged | 179 | 4 KB |
+| [`feeds/c2_ips_7d.txt`](https://github.com/LunaMarginis/Intel-WatchTower/blob/main/feeds/c2_ips_7d.txt) | ThreatFox command-and-control IP addresses, last 7 days, defanged | 615 | 12 KB |
+| [`indicators/infra/`](https://github.com/LunaMarginis/Intel-WatchTower/blob/main/indicators/infra/) | Enriched C2 and delivery domains and IPs, one file per day (kept 45 days) | 2,956 | 1,033 KB |
+| [`feeds/stix_md5_7d.json`](https://github.com/LunaMarginis/Intel-WatchTower/blob/main/feeds/stix_md5_7d.json) | STIX 2.1 bundle of the last 7 days of hashes | – | 157 KB |
+| [`feeds/iocs.json`](https://github.com/LunaMarginis/Intel-WatchTower/blob/main/feeds/iocs.json) | The numbers behind this page, as JSON | – | 39 KB |
 | [`history/runs.jsonl`](https://github.com/LunaMarginis/Intel-WatchTower/blob/main/history/runs.jsonl) | One line per run: counts and check results | – | 1 KB |
-| [`reports/`](https://github.com/LunaMarginis/Intel-WatchTower/blob/main/reports/) | A report per day | 2 | 21 KB |
+| [`reports/`](https://github.com/LunaMarginis/Intel-WatchTower/blob/main/reports/) | A report per day | 2 | 22 KB |
 
 ## How this works
 

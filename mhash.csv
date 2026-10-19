@@ -1,4 +1,5 @@
 ioc_value,fk_malware,malware_alias,malware_printable,count,first_seen_utc,confidence_level,threat_type,tags,reporter
+0323998e0e85eca5fd90d9f8ecbbd6c2,win.acr_stealer,,ACR Stealer,1,2026-10-19 13:01:48,100,payload,"acr,ACRStealer,fake game,ROM,setup.exe,setup.py",Tomer56
 155553264e98d58b0eaa075b1c3087f6,win.quasar_rat,"CinaRAT,QuasarRAT,Yggdrasil",Quasar RAT,1,2026-10-19 08:13:23,95,payload,,Grim
 1cf92442d8c4a6cc5535f8b450cf988f,osx.electro_rat,,ElectroRAT,1,2026-10-19 08:13:22,95,payload,,Grim
 1469bd018fe2f6a6cd975ba9c5e071e4,win.quantloader,,QuantLoader,1,2026-10-19 08:13:21,95,payload,,Grim
@@ -71,52 +72,6 @@ dbc20c52798b2524a3a7ee8671ab8e35,win.moriagent,,MoriAgent,1,2026-10-18 06:28:24,
 a08d7d3119fb3066415fac3f10c23dc8,win.quantloader,,QuantLoader,1,2026-10-18 06:28:21,95,payload,,Grim
 6e5853ba952c1eea0a7141db596289b6,py.stealler,,stealler,1,2026-10-18 06:28:20,95,payload,,Grim
 9747c73e8b2ca1acc82399eea5749cfd,py.rn_stealer,,RN Stealer,1,2026-10-18 06:28:19,95,payload,,Grim
-ba9993a91744cd9c182ce5ab72212a4c,win.moriagent,,MoriAgent,1,2026-10-17 15:33:05,95,payload,,Grim
-3b6cdf35e94370bcbd3d4fe9820f70dc,win.coinminer,,Coinminer,1,2026-10-17 15:33:04,95,payload,,Grim
-2967c1398a9854876409d27f974d51a2,win.coinminer,,Coinminer,1,2026-10-17 15:33:04,95,payload,,Grim
-8f694e6f03fe4c9211f9544ddca84937,win.ravenstealer,,Raven Stealer,1,2026-10-17 15:33:03,95,payload,,Grim
-c185824056badcb489660d643e1f1952,win.ravenstealer,,Raven Stealer,1,2026-10-17 15:33:02,95,payload,,Grim
-0a85e9263cd4dc174ecdcc628447a2b5,win.njrat,"Bladabindi,Lime-Worm",NjRAT,1,2026-10-17 15:33:01,95,payload,,Grim
-96c6ecc564da576285526af14e026f54,win.supper,"SocksShell,ZAPCAT",Supper,1,2026-10-17 15:33:00,95,payload,,Grim
-55d91aa19d585ff8248e9234cfebcb27,win.gcleaner,,GCleaner,1,2026-10-17 15:32:59,95,payload,,Grim
-477d191b846c63709c171033a7a6b143,win.salatstealer,,SalatStealer,1,2026-10-17 15:32:59,95,payload,,Grim
-2aa1c286e5bdb479f3bdf713219bd861,win.amadey,,Amadey,1,2026-10-17 15:32:58,95,payload,,Grim
-1c8c522f7927b8f2e99f1000a7ae74a5,win.ravenstealer,,Raven Stealer,1,2026-10-17 15:32:57,95,payload,,Grim
-c7ca207e0b068efc1215dee80ae617b7,js.ghostblade,,GHOSTBLADE,1,2026-10-17 15:32:56,95,payload,,Grim
-aa9687303fbfca2bb08375b06d01fe48,py.venus_stealer,,Venus Stealer,1,2026-10-17 15:32:56,95,payload,,Grim
-3e7226b66846f399e30f1dd94a004353,win.moriagent,,MoriAgent,1,2026-10-17 15:32:55,95,payload,,Grim
-18390d1648bf678684d5fcdfa07ae03d,win.valley_rat,Winos,ValleyRAT,1,2026-10-17 15:32:54,95,payload,,Grim
-e805fdd8992fdfca7d2b73e308617829,win.vidar,,Vidar,1,2026-10-17 15:32:53,95,payload,,Grim
-533346133d52982b903922926fc76610,win.vidar,,Vidar,1,2026-10-17 15:32:53,95,payload,,Grim
-f55582ca0a6a2fefdb5111e2f60beeb3,win.ravenstealer,,Raven Stealer,1,2026-10-17 15:32:52,95,payload,,Grim
-883eae22718ef960648a369451a43fa7,win.ravenstealer,,Raven Stealer,1,2026-10-17 15:32:51,95,payload,,Grim
-a32ce3219397af53d87f77ca3b918182,win.vidar,,Vidar,1,2026-10-17 15:32:50,95,payload,,Grim
-5f281e55c1e07dabeb5e59d3a5194294,win.nanocore,"Nancrat,NanoCore",Nanocore RAT,1,2026-10-17 15:32:50,95,payload,,Grim
-835501773c0b0d4a3b2d8bd7c2eb5c6d,win.vidar,,Vidar,1,2026-10-17 15:32:49,95,payload,,Grim
-e9e6694dc415007c193c5f82b9439d0c,win.ravenstealer,,Raven Stealer,1,2026-10-17 15:32:48,95,payload,,Grim
-73eec062a8c670f81961827367fde2b1,win.ravenstealer,,Raven Stealer,1,2026-10-17 15:32:47,95,payload,,Grim
-0937d25140f9b65990939e77ec2bb707,win.ravenstealer,,Raven Stealer,1,2026-10-17 15:32:47,95,payload,,Grim
-b87ff1783d67670773bd44621c77a4f7,win.ravenstealer,,Raven Stealer,1,2026-10-17 15:32:46,95,payload,,Grim
-c7b73746df4d547814974db4a33bb43c,win.ravenstealer,,Raven Stealer,1,2026-10-17 15:32:45,95,payload,,Grim
-3f5c9e66e6127ec7623cecfaa2f4a721,win.ravenstealer,,Raven Stealer,1,2026-10-17 15:32:44,95,payload,,Grim
-2224a7e29d766443910228814b560c71,win.ravenstealer,,Raven Stealer,1,2026-10-17 15:32:43,95,payload,,Grim
-414654138697b0f8fe04e8a6c5b0c5cc,win.gcleaner,,GCleaner,1,2026-10-17 15:32:42,95,payload,,Grim
-0482e2ad8e3cd587bb0010d013552da0,win.ravenstealer,,Raven Stealer,1,2026-10-17 15:32:42,95,payload,,Grim
-a853b7d874f5d7957db8c44d1df1a800,win.nanocore,"Nancrat,NanoCore",Nanocore RAT,1,2026-10-17 15:32:41,95,payload,,Grim
-c23328926e8545b746664890921ff091,jar.crossrat,Trupto,CrossRAT,1,2026-10-17 15:32:40,95,payload,,Grim
-3dccec3595bba26581d67320f8a7246c,win.netwire,"NetWeird,NetWire,Recam",NetWire RC,1,2026-10-17 15:32:39,95,payload,,Grim
-180a1af79d93d25530fe06b8c109fe8d,win.netwire,"NetWeird,NetWire,Recam",NetWire RC,1,2026-10-17 15:32:39,95,payload,,Grim
-2b048e8bc871eff2f268f5bd9fb882eb,win.vidar,,Vidar,1,2026-10-17 15:32:38,95,payload,,Grim
-3e92b3d9726103e81fc19cfe29104f27,win.vidar,,Vidar,1,2026-10-17 15:32:37,95,payload,,Grim
-eef0cfdb8c438b56f7588f6aa22c889b,win.asyncrat,,AsyncRAT,1,2026-10-17 15:32:36,95,payload,,Grim
-f3095ae00c2b65df4c2353ce8f81974b,win.valley_rat,Winos,ValleyRAT,1,2026-10-17 15:32:35,95,payload,,Grim
-5d4e5aece77c5f1b55f6dcc728cfa885,win.dboxagent,,DBoxAgent,1,2026-10-17 15:32:35,95,payload,,Grim
-fdb48acaeddd23cc974897a18eba5b5c,win.netwire,"NetWeird,NetWire,Recam",NetWire RC,1,2026-10-17 15:32:34,95,payload,,Grim
-4b28fd9cddf20db2410750596c135f20,win.netwire,"NetWeird,NetWire,Recam",NetWire RC,1,2026-10-17 15:32:33,95,payload,,Grim
-b142c97fce4cce152d4ba8b7b67f9e78,py.stealler,,stealler,1,2026-10-17 15:32:32,95,payload,,Grim
-a205c4339b32ff40c1445f5bdcec5ede,win.netwire,"NetWeird,NetWire,Recam",NetWire RC,1,2026-10-17 15:32:32,95,payload,,Grim
-96bcdbf175c237e75c424d075b7ac4e4,win.netwire,"NetWeird,NetWire,Recam",NetWire RC,1,2026-10-17 15:32:31,95,payload,,Grim
-79aa57c62891e658c7266859a25b23cc,py.pyration,,PY#RATION,1,2026-10-17 15:32:30,95,payload,,Grim
 d1534b6d3c5147dbeeeef70d9fb834fa,py.venus_stealer,,Venus Stealer,1,2026-10-17 15:32:29,95,payload,,Grim
 50bbaf6cbe2980e08fc072bb38fb2625,win.salatstealer,,SalatStealer,1,2026-10-17 15:32:29,95,payload,,Grim
 3d3eabc835011f0c0574471264cf439f,win.salatstealer,,SalatStealer,1,2026-10-17 15:32:28,95,payload,,Grim
