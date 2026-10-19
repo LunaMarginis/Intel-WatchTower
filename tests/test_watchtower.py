@@ -212,6 +212,12 @@ class InfraTests(unittest.TestCase):
         self.assertEqual([i.value for i in items], ["evil.example.com"])
         self.assertEqual(len(rej), 2)
 
+    def test_internationalised_domains_with_punycode_tld_are_accepted(self):
+        ex = parse.parse_export(infra_file([infra_row("xn----9sbbkhii6amcahr0b.xn--p1ai", "domain", NOW)]))
+        items, rej = parse.infra_records(ex, "domain")
+        self.assertEqual([i.value for i in items], ["xn----9sbbkhii6amcahr0b.xn--p1ai"])
+        self.assertEqual(rej, [])
+
     def test_ip_port_rows_of_one_ip_become_one_entry_with_ports(self):
         rows = [infra_row("10.0.0.5:443", "ip:port", NOW, i=1), infra_row("10.0.0.5:80", "ip:port", NOW - timedelta(hours=1), i=2), infra_row("999.1.1.1:80", "ip:port", NOW, i=3), infra_row("10.0.0.6:99999", "ip:port", NOW, i=4)]
         items, rej = parse.infra_records(parse.parse_export(infra_file(rows)), "ip")
