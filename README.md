@@ -4,19 +4,19 @@ Daily malware intelligence from abuse.ch: what is new, who is behind it, and whe
 
 ![collect](https://github.com/LunaMarginis/Intel-WatchTower/actions/workflows/collect.yml/badge.svg)
 
-**Last run:** 2026-10-21 11:43 UTC · **Health:** ✅ all 31 checks passed
+**Last run:** 2026-10-21 17:08 UTC · **Health:** ❌ **3 check(s) failed**: the affected data was kept from the previous good run.
 
 ## At a glance
 
 |  | 🧬 ThreatFox · MD5 hashes | 🔗 URLhaus · malware URLs |
 |---|---|---|
-| In the latest export | 58 | 33,970 |
-| New since the previous run | 1 | 472 |
+| In the latest export | 0 | 33,970 |
+| New since the previous run | 0 | 472 |
 | Added in the last 24 hours | 1 | 472 |
 | Added in the last 7 days | 183 | 3,388 |
 | Online right now | – | 16,550 (49%) |
-| Period the export covers | 46.1 h | 30.5 days |
-| Newest entry | 1 min ago | 0 min ago |
+| Period the export covers | 0.0 h | 30.5 days |
+| Newest entry | n/a | 0 min ago |
 
 _URL data refreshed 2026-10-21 11:43 UTC._
 
@@ -194,7 +194,6 @@ c23328926e8545b746664890921ff091
 **New hashes per day, last 14 days:** `▁▁▁▁▁▁▁▁▁█▃██▁` (today 1, busiest day 56).
 
 **Threat types:** payload 183  
-**Reporter confidence in the latest export:** 95–100% (average 95%)  
 **Top reporters (7 d):** Grim 181, Tomer56 1, anonymous 1  
 **Tags (7 d):** acr 1, ACRStealer 1, fake game 1, ROM 1, setup.exe 1, setup.py 1  
 
@@ -287,37 +286,11 @@ _Community reports, not verified. Servers move and addresses are reused: check h
 
 |  | Check | Result |
 |---|---|---|
-| ✅ | `threatfox: download` | 11 KB in 0.3 s |
-| ✅ | `threatfox: columns` | all 10 needed columns present (5 others ignored) |
-| ✅ | `threatfox: lines read` | all 58 data lines parsed |
-| ✅ | `threatfox: values valid` | every row passed validation |
-| ✅ | `threatfox: volume` | 58 rows (last time 111) |
-| ✅ | `threatfox: freshness` | newest hash is 0.6 h old |
-| ✅ | `threatfox: freshness` | export file is 0.6 h old |
-| ✅ | `threatfox: new items` | 1 new (recent average 9) |
-| ✅ | `urlhaus: download` | 7788 KB in 0.2 s |
-| ✅ | `urlhaus: columns` | all 7 needed columns present (2 others ignored) |
-| ✅ | `urlhaus: lines read` | all 33970 data lines parsed |
-| ✅ | `urlhaus: values valid` | every row passed validation |
-| ✅ | `urlhaus: volume` | 33970 rows (last time 33792) |
-| ✅ | `urlhaus: freshness` | export file is 0.3 h old |
-| ✅ | `urlhaus: freshness` | newest URL is 0.3 h old |
-| ✅ | `urlhaus: indicators` | 472 new URLs and 411 status changes recorded |
-| ✅ | `threatfox domains: download` | 218 KB in 0.2 s |
-| ✅ | `threatfox domains: columns` | all 10 needed columns present (5 others ignored) |
-| ✅ | `threatfox domains: lines read` | all 1139 data lines parsed |
-| ✅ | `threatfox domains: values valid` | every row passed validation |
-| ✅ | `threatfox domains: volume` | 1138 rows (last time 418) |
-| ✅ | `threatfox domains: freshness` | newest entry is 0.3 h old |
-| ✅ | `threatfox domains: freshness` | export file is 0.3 h old |
-| ✅ | `threatfox ips: download` | 738 KB in 0.1 s |
-| ✅ | `threatfox ips: columns` | all 10 needed columns present (5 others ignored) |
-| ✅ | `threatfox ips: lines read` | all 3398 data lines parsed |
-| ✅ | `threatfox ips: values valid` | every row passed validation |
-| ✅ | `threatfox ips: volume` | 2548 rows (last time 2475) |
-| ✅ | `threatfox ips: freshness` | newest entry is 0.3 h old |
-| ✅ | `threatfox ips: freshness` | export file is 0.3 h old |
-| ✅ | `output safety` | 12 published files contain no live URL |
+| ❌ | `threatfox: download` | https://threatfox.abuse.ch/export/csv/md5/recent/: HTTP 410 |
+| ✅ | `urlhaus: refresh` | not due: refreshed 2026-10-21 11:43 UTC (once a day) |
+| ❌ | `threatfox domains: download` | https://threatfox.abuse.ch/export/csv/domains/recent/: HTTP 410 |
+| ❌ | `threatfox ips: download` | https://threatfox.abuse.ch/export/csv/ip-port/recent/: HTTP 410 |
+| ✅ | `output safety` | 2 published files contain no live URL |
 
 ## Files
 
@@ -335,9 +308,9 @@ _Community reports, not verified. Servers move and addresses are reused: check h
 | [`feeds/c2_ips_7d.txt`](https://github.com/LunaMarginis/Intel-WatchTower/blob/main/feeds/c2_ips_7d.txt) | ThreatFox command-and-control IP addresses, last 7 days, defanged | 753 | 15 KB |
 | [`indicators/infra/`](https://github.com/LunaMarginis/Intel-WatchTower/blob/main/indicators/infra/) | Enriched C2 and delivery domains and IPs, one file per day (kept 45 days) | 4,224 | 1,472 KB |
 | [`feeds/stix_md5_7d.json`](https://github.com/LunaMarginis/Intel-WatchTower/blob/main/feeds/stix_md5_7d.json) | STIX 2.1 bundle of the last 7 days of hashes | – | 224 KB |
-| [`feeds/iocs.json`](https://github.com/LunaMarginis/Intel-WatchTower/blob/main/feeds/iocs.json) | The numbers behind this page, as JSON | – | 43 KB |
+| [`feeds/iocs.json`](https://github.com/LunaMarginis/Intel-WatchTower/blob/main/feeds/iocs.json) | The numbers behind this page, as JSON | – | 44 KB |
 | [`history/runs.jsonl`](https://github.com/LunaMarginis/Intel-WatchTower/blob/main/history/runs.jsonl) | One line per run: counts and check results | – | 3 KB |
-| [`reports/`](https://github.com/LunaMarginis/Intel-WatchTower/blob/main/reports/) | A report per day | 4 | 43 KB |
+| [`reports/`](https://github.com/LunaMarginis/Intel-WatchTower/blob/main/reports/) | A report per day | 4 | 44 KB |
 
 ## How this works
 

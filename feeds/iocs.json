@@ -1,169 +1,35 @@
 {
- "at": "2026-10-21T11:43:21+00:00",
+ "at": "2026-10-21T17:08:15+00:00",
  "checks": [
   {
-   "detail": "11 KB in 0.3 s",
+   "detail": "https://threatfox.abuse.ch/export/csv/md5/recent/: HTTP 410",
    "name": "threatfox: download",
+   "status": "fail"
+  },
+  {
+   "detail": "not due: refreshed 2026-10-21 11:43 UTC (once a day)",
+   "name": "urlhaus: refresh",
    "status": "pass"
   },
   {
-   "detail": "all 10 needed columns present (5 others ignored)",
-   "name": "threatfox: columns",
-   "status": "pass"
-  },
-  {
-   "detail": "all 58 data lines parsed",
-   "name": "threatfox: lines read",
-   "status": "pass"
-  },
-  {
-   "detail": "every row passed validation",
-   "name": "threatfox: values valid",
-   "status": "pass"
-  },
-  {
-   "detail": "58 rows (last time 111)",
-   "name": "threatfox: volume",
-   "status": "pass"
-  },
-  {
-   "detail": "newest hash is 0.6 h old",
-   "name": "threatfox: freshness",
-   "status": "pass"
-  },
-  {
-   "detail": "export file is 0.6 h old",
-   "name": "threatfox: freshness",
-   "status": "pass"
-  },
-  {
-   "detail": "1 new (recent average 9)",
-   "name": "threatfox: new items",
-   "status": "pass"
-  },
-  {
-   "detail": "7788 KB in 0.2 s",
-   "name": "urlhaus: download",
-   "status": "pass"
-  },
-  {
-   "detail": "all 7 needed columns present (2 others ignored)",
-   "name": "urlhaus: columns",
-   "status": "pass"
-  },
-  {
-   "detail": "all 33,970 data lines parsed",
-   "name": "urlhaus: lines read",
-   "status": "pass"
-  },
-  {
-   "detail": "every row passed validation",
-   "name": "urlhaus: values valid",
-   "status": "pass"
-  },
-  {
-   "detail": "33,970 rows (last time 33,792)",
-   "name": "urlhaus: volume",
-   "status": "pass"
-  },
-  {
-   "detail": "export file is 0.3 h old",
-   "name": "urlhaus: freshness",
-   "status": "pass"
-  },
-  {
-   "detail": "newest URL is 0.3 h old",
-   "name": "urlhaus: freshness",
-   "status": "pass"
-  },
-  {
-   "detail": "472 new URLs and 411 status changes recorded",
-   "name": "urlhaus: indicators",
-   "status": "pass"
-  },
-  {
-   "detail": "218 KB in 0.2 s",
+   "detail": "https://threatfox.abuse.ch/export/csv/domains/recent/: HTTP 410",
    "name": "threatfox domains: download",
-   "status": "pass"
+   "status": "fail"
   },
   {
-   "detail": "all 10 needed columns present (5 others ignored)",
-   "name": "threatfox domains: columns",
-   "status": "pass"
-  },
-  {
-   "detail": "all 1,139 data lines parsed",
-   "name": "threatfox domains: lines read",
-   "status": "pass"
-  },
-  {
-   "detail": "every row passed validation",
-   "name": "threatfox domains: values valid",
-   "status": "pass"
-  },
-  {
-   "detail": "1,138 rows (last time 418)",
-   "name": "threatfox domains: volume",
-   "status": "pass"
-  },
-  {
-   "detail": "newest entry is 0.3 h old",
-   "name": "threatfox domains: freshness",
-   "status": "pass"
-  },
-  {
-   "detail": "export file is 0.3 h old",
-   "name": "threatfox domains: freshness",
-   "status": "pass"
-  },
-  {
-   "detail": "738 KB in 0.1 s",
+   "detail": "https://threatfox.abuse.ch/export/csv/ip-port/recent/: HTTP 410",
    "name": "threatfox ips: download",
-   "status": "pass"
+   "status": "fail"
   },
   {
-   "detail": "all 10 needed columns present (5 others ignored)",
-   "name": "threatfox ips: columns",
-   "status": "pass"
-  },
-  {
-   "detail": "all 3,398 data lines parsed",
-   "name": "threatfox ips: lines read",
-   "status": "pass"
-  },
-  {
-   "detail": "every row passed validation",
-   "name": "threatfox ips: values valid",
-   "status": "pass"
-  },
-  {
-   "detail": "2,548 rows (last time 2,475)",
-   "name": "threatfox ips: volume",
-   "status": "pass"
-  },
-  {
-   "detail": "newest entry is 0.3 h old",
-   "name": "threatfox ips: freshness",
-   "status": "pass"
-  },
-  {
-   "detail": "export file is 0.3 h old",
-   "name": "threatfox ips: freshness",
-   "status": "pass"
-  },
-  {
-   "detail": "12 published files contain no live URL",
+   "detail": "2 published files contain no live URL",
    "name": "output safety",
    "status": "pass"
   }
  ],
  "hashes": {
   "archive_total": 183,
-  "confidence": {
-   "avg": 95,
-   "max": 100,
-   "min": 95
-  },
+  "confidence": {},
   "daily": [
    [
     "2026-10-08",
@@ -1587,13 +1453,13 @@
     ]
    }
   ],
-  "families_in_export": 23,
-  "in_export": 58,
+  "families_in_export": 0,
+  "in_export": 0,
   "last24h": 1,
   "last7": 183,
-  "new_this_run": 1,
-  "newest": "2026-10-21T11:07:36+00:00",
-  "newest_age_hours": 0.6,
+  "new_this_run": 0,
+  "newest": "",
+  "newest_age_hours": null,
   "reporters": [
    [
     "Grim",
@@ -1641,7 +1507,7 @@
     183
    ]
   ],
-  "window_hours": 46.1
+  "window_hours": 0.0
  },
  "infra": {
   "domains": {
@@ -2255,7 +2121,7 @@
   ],
   "overlap_total": 66
  },
- "status": "pass",
+ "status": "fail",
  "urls": {
   "added_24h": 472,
   "added_7d": 3388,

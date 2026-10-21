@@ -12,3 +12,4 @@
 {"at":"2026-10-20T21:34:41+00:00","checks":{"fail":0,"pass":22,"warn":2},"hashes":{"archive_total":182,"in_export":111,"last24h":56,"last7":182,"new_this_run":0},"status":"warn","urls":null}
 {"at":"2026-10-21T04:41:16+00:00","checks":{"fail":0,"pass":22,"warn":2},"hashes":{"archive_total":182,"in_export":111,"last24h":56,"last7":182,"new_this_run":0},"status":"warn","urls":null}
 {"at":"2026-10-21T11:43:21+00:00","checks":{"fail":0,"pass":31,"warn":0},"hashes":{"archive_total":183,"in_export":58,"last24h":1,"last7":183,"new_this_run":1},"status":"pass","urls":{"added_24h":472,"online":16550,"total":33970}}
+{"at":"2026-10-21T17:08:15+00:00","checks":{"fail":3,"pass":2,"warn":0},"hashes":{"archive_total":183,"in_export":0,"last24h":1,"last7":183,"new_this_run":0},"status":"fail","urls":null}
