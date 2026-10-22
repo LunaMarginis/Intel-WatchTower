@@ -181,16 +181,10 @@ TERMS = ("Data: [abuse.ch ThreatFox](https://threatfox.abuse.ch/) and [URLhaus](
          "This project only collects and summarises it.")
 
 PUBLIC_METHOD = """
-- **Runs** every 12 hours on GitHub Actions, authenticated with a free abuse.ch Auth-Key and within its query limits (one ThreatFox download per run, one URLhaus download a day).
-- **What is published here:** counts, trends and rankings only. The indicators themselves (hashes, hosts, URLs, feeds) are kept in a private repository: abuse.ch's terms
-  do not grant a right to republish them. Get them from the source: [ThreatFox](https://threatfox.abuse.ch/export/) and [URLhaus](https://urlhaus.abuse.ch/api/).
+- **Runs** every 12 hours on GitHub Actions.
 - **Checks** run on every download (format, row counts, freshness, valid values, nothing dropped). If a check fails, the affected data is **not** replaced and the workflow turns red.
 - **Not verified:** these are community reports to abuse.ch. Treat every figure as a lead, not a verdict. False positives happen, especially for shared hosting.
 """
-
-PUBLIC_FOOTER = ("**Purpose:** a non-commercial, not-for-profit research and learning project. It is provided as is, without warranty, and may contain false positives: "
-                 "validate before acting on anything. Commercial use of the underlying data needs your own abuse.ch subscription, and the data must not be used to train AI models "
-                 "(abuse.ch terms, section 7.3).")
 
 
 def head(state: dict) -> str:
@@ -224,7 +218,7 @@ def public_readme(state: dict) -> str:
     if state.get("infra"):
         s += "\n## 🛰️ Command-and-control infrastructure\n\nDomains and IP addresses reported to ThreatFox, with the malware family behind them (counts only).\n\n" + infra_section(state["infra"], False, True)
     s += "\n## Data health\n\n" + checks_table(state["checks"])
-    s += "\n## How this works\n" + PUBLIC_METHOD + "\n" + TERMS + "\n\n" + PUBLIC_FOOTER + f"\n\n_{SIGNATURE}._\n"
+    s += "\n## How this works\n" + PUBLIC_METHOD + "\n" + TERMS + f"\n\n_{SIGNATURE}._\n"
     return s
 
 
