@@ -45,6 +45,7 @@ jobs:
         env:
           SLACK_WEBHOOK_URL: ${{ secrets.SLACK_WEBHOOK_URL }}   # optional: without it nothing is sent
           FORCE_URLS: ${{ inputs.force_urls }}
+          ABUSECH_AUTH_KEY: ${{ secrets.ABUSECH_AUTH_KEY }}   # ThreatFox exports require it; redacted from every error message
         run: |
           if [ "$FORCE_URLS" = "true" ]; then python -m watchtower --force-urls; else python -m watchtower; fi
 

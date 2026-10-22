@@ -71,6 +71,14 @@ def parse_export(text: str) -> Export:
     return Export(header, rows, len(data), skipped, updated)
 
 
+def select_type(export: Export, ioc_type: str, since: datetime | None = None) -> Export:
+    """The rows of one ioc_type from a mixed export (ThreatFox full dump), optionally only those first seen at or after `since`.
+
+    Lines the parser skipped cannot be assigned to a type, so they are counted against every selection: damage is never hidden."""
+    rows = [r for r in export.rows if r.get("ioc_type") == ioc_type and (since is None or ((to_dt(r.get("first_seen_utc", "")) or since) >= since))]
+    return Export(export.header, rows, len(rows) + len(export.skipped), export.skipped, export.last_updated)
+
+
 # ---------------------------------------------------------------- typed records
 
 def to_dt(value: str) -> datetime | None:

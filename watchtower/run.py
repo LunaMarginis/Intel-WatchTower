@@ -15,10 +15,11 @@ from pathlib import Path
 
 from . import __version__, analyze, checks as C, export, fetch, indicators, parse, render, store
 
-THREATFOX_URL = "https://threatfox.abuse.ch/export/csv/md5/recent/"
+# abuse.ch retired the open /export/csv/<type>/recent/ files (HTTP 410). Exports now need a free Auth-Key, which goes in the URL path.
+# One download of the full dump per run replaces the three downloads of the old files; each feed is cut out of it by ioc_type.
+THREATFOX_EXPORT = "https://threatfox-api.abuse.ch/v2/files/exports/{key}/full.csv.zip"
+THREATFOX_WINDOW_DAYS = 7       # the dump holds 6 months; keep the same recent window the old files had
 URLHAUS_URL = "https://urlhaus.abuse.ch/downloads/csv_recent/"
-THREATFOX_DOMAINS_URL = "https://threatfox.abuse.ch/export/csv/domains/recent/"
-THREATFOX_IPS_URL = "https://threatfox.abuse.ch/export/csv/ip-port/recent/"
 URL_REFRESH_HOURS = 20          # the big URL export is refreshed about once a day
 BLOCKING = ("download", "columns", "lines read", "volume")   # a failure of these keeps the previous data
 
@@ -37,15 +38,20 @@ def run(root: Path, *, offline: Path | None = None, now: datetime | None = None,
     writes: dict[Path, str] = {}
 
     # ------------------------------------------------------------ ThreatFox (hashes): every run
-    tf_text, tf_fetch = None, None
+    tf_text, tf_fetch, tf_full = None, None, None   # tf_full: the parsed full dump (online runs only)
+    since = now - timedelta(days=THREATFOX_WINDOW_DAYS)
     if offline:
         tf_text = (offline / "tf.csv").read_text(encoding="utf-8")
         tf_fetch = fetch.Fetched("offline", tf_text, 200, len(tf_text.encode()), 0.0, 1)
         cs.append(C.download("threatfox", tf_fetch))
     else:
+        key = os.environ.get("ABUSECH_AUTH_KEY", "").strip()
         try:
-            tf_fetch = fetch.get(THREATFOX_URL)
+            if not key:
+                raise fetch.FetchError("ABUSECH_AUTH_KEY is not set (ThreatFox exports need an Auth-Key)")
+            tf_fetch = fetch.get(THREATFOX_EXPORT.format(key=key), timeout=120, unzip=True, redact=key)
             tf_text = tf_fetch.text
+            tf_full = parse.parse_export(tf_text)
             cs.append(C.download("threatfox", tf_fetch))
         except fetch.FetchError as e:
             cs.append(C.download("threatfox", None, str(e)))
@@ -54,7 +60,7 @@ def run(root: Path, *, offline: Path | None = None, now: datetime | None = None,
     hashes: list[parse.Hash] = []
     occurrences: dict[str, int] = {}
     if tf_text is not None:
-        ex = parse.parse_export(tf_text)
+        ex = parse.select_type(tf_full, "md5_hash", since) if tf_full else parse.parse_export(tf_text)
         hashes, rej = parse.threatfox_records(ex)
         occurrences = Counter(r.get("ioc_value", "").lower() for r in ex.rows)
         prev_count = (prev.get("hashes") or {}).get("in_export")
@@ -123,11 +129,17 @@ def run(root: Path, *, offline: Path | None = None, now: datetime | None = None,
     known_keys = set(known_infra)
     fresh: list[parse.Infra] = []
     got: set[str] = set()
-    for kind, label, url, fname in (("domain", "threatfox domains", THREATFOX_DOMAINS_URL, "tfd.csv"), ("ip", "threatfox ips", THREATFOX_IPS_URL, "tfi.csv")):
-        text = _download(label, url, offline, fname, cs)
-        if text is None:
+    for kind, label, ioc_type, fname in (("domain", "threatfox domains", "domain", "tfd.csv"), ("ip", "threatfox ips", "ip:port", "tfi.csv")):
+        if offline:
+            text = _download(label, offline, fname, cs)
+            if text is None:
+                continue
+            ex2 = parse.parse_export(text)
+        elif tf_full:
+            ex2 = parse.select_type(tf_full, ioc_type, since)
+        else:
+            cs.append(C.Check(f"{label}: download", C.FAIL, "the ThreatFox export could not be downloaded"))
             continue
-        ex2 = parse.parse_export(text)
         items, rej2 = parse.infra_records(ex2, kind)
         cs += [C.columns(label, ex2, parse.THREATFOX_REQUIRED), C.lines_read(label, ex2), C.rejected(label, rej2),
                C.volume(label, len(items), 5, (infra_prev.get("domains" if kind == "domain" else "ips") or {}).get("in_export")),
@@ -196,22 +208,14 @@ def run(root: Path, *, offline: Path | None = None, now: datetime | None = None,
     return 1 if state["status"] == C.FAIL else 0
 
 
-def _download(label: str, url: str, offline: Path | None, fname: str, cs: list[C.Check]) -> str | None:
-    """Text of an export, or None. Offline runs read `fname` from the folder and skip a source whose file is not there."""
-    if offline:
-        f = offline / fname
-        if not f.exists():
-            return None
-        text = f.read_text(encoding="utf-8")
-        cs.append(C.download(label, fetch.Fetched("offline", text, 200, len(text.encode()), 0.0, 1)))
-        return text
-    try:
-        got = fetch.get(url)
-    except fetch.FetchError as e:
-        cs.append(C.download(label, None, str(e)))
+def _download(label: str, offline: Path, fname: str, cs: list[C.Check]) -> str | None:
+    """Text of an offline export, or None when its file is not in the folder (tests, local trials)."""
+    f = offline / fname
+    if not f.exists():
         return None
-    cs.append(C.download(label, got))
-    return got.text
+    text = f.read_text(encoding="utf-8")
+    cs.append(C.download(label, fetch.Fetched("offline", text, 200, len(text.encode()), 0.0, 1)))
+    return text
 
 
 def _files(root: Path, writes: dict[Path, str]) -> list[dict]:

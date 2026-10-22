@@ -407,5 +407,31 @@ class EndToEndTests(unittest.TestCase):
         self.assertNotIn("<script", text)
 
 
+class AuthenticatedExportTests(unittest.TestCase):
+    def test_select_type_keeps_one_type_inside_the_window(self):
+        dom = ", ".join(f'"{v}"' for v in ((NOW - timedelta(days=1)).strftime("%Y-%m-%d %H:%M:%S"), 1, "c2.example.net", "domain", "botnet_cc", "win.vidar", "None", "Vidar", "None", 90, 0, "None", "None", 0, "r"))
+        old = tf_row(2, NOW - timedelta(days=30))
+        ex = parse.parse_export(tf_file([tf_row(1, NOW - timedelta(hours=1)), old, dom]))
+        got = parse.select_type(ex, "md5_hash", NOW - timedelta(days=7))
+        self.assertEqual([r["ioc_value"] for r in got.rows], [md5(1)])
+        self.assertEqual([r["ioc_value"] for r in parse.select_type(ex, "domain").rows], ["c2.example.net"])
+
+    def test_auth_key_is_removed_from_errors(self):
+        import urllib.error
+        from watchtower import fetch
+        key = "SECRETKEY123"
+        def boom(*a, **k):
+            raise urllib.error.HTTPError(a[0].full_url, 410, "Gone", {}, None)
+        orig = fetch.urllib.request.urlopen
+        fetch.urllib.request.urlopen = boom
+        try:
+            with self.assertRaises(fetch.FetchError) as cm:
+                fetch.get(f"https://example.invalid/exports/{key}/full.csv.zip", redact=key, retries=1)
+        finally:
+            fetch.urllib.request.urlopen = orig
+        self.assertNotIn(key, str(cm.exception))
+        self.assertIn("<AUTH-KEY>", str(cm.exception))
+
+
 if __name__ == "__main__":
     unittest.main()
