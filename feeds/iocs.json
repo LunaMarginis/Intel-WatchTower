@@ -1,0 +1,2687 @@
+{
+ "at": "2026-10-22T04:38:31+00:00",
+ "checks": [
+  {
+   "detail": "https://threatfox.abuse.ch/export/csv/md5/recent/: HTTP 410",
+   "name": "threatfox: download",
+   "status": "fail"
+  },
+  {
+   "detail": "not due: refreshed 2026-10-21 11:43 UTC (once a day)",
+   "name": "urlhaus: refresh",
+   "status": "pass"
+  },
+  {
+   "detail": "https://threatfox.abuse.ch/export/csv/domains/recent/: HTTP 410",
+   "name": "threatfox domains: download",
+   "status": "fail"
+  },
+  {
+   "detail": "https://threatfox.abuse.ch/export/csv/ip-port/recent/: HTTP 410",
+   "name": "threatfox ips: download",
+   "status": "fail"
+  },
+  {
+   "detail": "2 published files contain no live URL",
+   "name": "output safety",
+   "status": "pass"
+  }
+ ],
+ "hashes": {
+  "archive_total": 183,
+  "confidence": {},
+  "daily": [
+   [
+    "2026-10-09",
+    0
+   ],
+   [
+    "2026-10-10",
+    0
+   ],
+   [
+    "2026-10-11",
+    0
+   ],
+   [
+    "2026-10-12",
+    0
+   ],
+   [
+    "2026-10-13",
+    0
+   ],
+   [
+    "2026-10-14",
+    0
+   ],
+   [
+    "2026-10-15",
+    0
+   ],
+   [
+    "2026-10-16",
+    0
+   ],
+   [
+    "2026-10-17",
+    53
+   ],
+   [
+    "2026-10-18",
+    18
+   ],
+   [
+    "2026-10-19",
+    55
+   ],
+   [
+    "2026-10-20",
+    56
+   ],
+   [
+    "2026-10-21",
+    1
+   ],
+   [
+    "2026-10-22",
+    0
+   ]
+  ],
+  "families": [
+   {
+    "aliases": [],
+    "confidence": 95,
+    "count": 18,
+    "daily": [
+     0,
+     13,
+     0,
+     0,
+     5,
+     0,
+     0
+    ],
+    "family": "Raven Stealer",
+    "first_seen": "2026-10-17 15:32:42+00:00",
+    "key": "win.ravenstealer",
+    "last_seen": "2026-10-20 07:55:15+00:00",
+    "previous": 0,
+    "reporters": [
+     "Grim"
+    ],
+    "sample": [
+     "89a2b75d9530ba23eb55a6479ed45819",
+     "5b4894b2f99bb5a41da07e485858146b",
+     "5765e1d5a00e85f35bf7c58bcefdadfc",
+     "dddb3cab4dae018e57426b8d6c5bde44",
+     "a6d439db93cc383b55a43d113d988c37",
+     "8f694e6f03fe4c9211f9544ddca84937",
+     "c185824056badcb489660d643e1f1952",
+     "1c8c522f7927b8f2e99f1000a7ae74a5",
+     "f55582ca0a6a2fefdb5111e2f60beeb3",
+     "883eae22718ef960648a369451a43fa7"
+    ]
+   },
+   {
+    "aliases": [],
+    "confidence": 95,
+    "count": 14,
+    "daily": [
+     0,
+     5,
+     0,
+     4,
+     5,
+     0,
+     0
+    ],
+    "family": "SalatStealer",
+    "first_seen": "2026-10-17 15:32:26+00:00",
+    "key": "win.salatstealer",
+    "last_seen": "2026-10-20 07:54:42+00:00",
+    "previous": 0,
+    "reporters": [
+     "Grim"
+    ],
+    "sample": [
+     "cd88c9f7b2bd5f5d326100761d57749d",
+     "94b245b0f717f4102e1628a72ef443b9",
+     "74c72ddac64eac9e86b1913d56819b28",
+     "cacc196a0cd71d339964dd669c2ff658",
+     "a6456e168589a9f23dc74de483438a57",
+     "053cd98a47d2fb0f7b833da3e2784c83",
+     "f3895a76f116211eb553862b357c88db",
+     "0839234f56e8ebaa533b9ff10b59a4ce",
+     "adc56caf0a4f563b16c134cfd5f3b3d4",
+     "477d191b846c63709c171033a7a6b143"
+    ]
+   },
+   {
+    "aliases": [
+     "win.xloader"
+    ],
+    "confidence": 95,
+    "count": 12,
+    "daily": [
+     0,
+     0,
+     0,
+     6,
+     6,
+     0,
+     0
+    ],
+    "family": "Formbook",
+    "first_seen": "2026-10-19 08:12:30+00:00",
+    "key": "win.formbook",
+    "last_seen": "2026-10-20 07:55:19+00:00",
+    "previous": 0,
+    "reporters": [
+     "Grim"
+    ],
+    "sample": [
+     "3ea2a81a288fe047cca8d1f19e291eff",
+     "8fb7df395db994a847cb91c24482cd84",
+     "53361b34cce397571578bd91639ecba5",
+     "3538ff52e4bd1fb7c700d3a68a4d7c2b",
+     "9b1584c18fa9cb3a2667c3fd0fa05326",
+     "60089f9d825bb6941f252f52b3756ba6",
+     "3e29d71ef45870b3ca2b9954ad6c8c22",
+     "930dcdaff1c9d762e2c99e428de68d13",
+     "267d1ac3f2faed832792fbff73bb8ff5",
+     "d25618ff921021bed6f79f10b41c40c8"
+    ]
+   },
+   {
+    "aliases": [],
+    "confidence": 95,
+    "count": 12,
+    "daily": [
+     0,
+     2,
+     3,
+     3,
+     4,
+     0,
+     0
+    ],
+    "family": "Venus Stealer",
+    "first_seen": "2026-10-17 15:32:29+00:00",
+    "key": "py.venus_stealer",
+    "last_seen": "2026-10-20 07:54:57+00:00",
+    "previous": 0,
+    "reporters": [
+     "Grim"
+    ],
+    "sample": [
+     "8b96f1fd4e32ef302bba087cd675b2dc",
+     "f91fffd14074dc67230d85cdda426a52",
+     "a9e7a0b985ff31fdd630d986fa149667",
+     "8608c4eebd12be0a9841d7601efac66b",
+     "daeac6bade684e55155ca454af844c38",
+     "99257b7b806b4051f57f349deba5bd9d",
+     "398fab919e699bc954eb11db12962965",
+     "ce8cd7ff4a20d2e54511fd473890f9ed",
+     "85ff31b155f62e5c9ded1aca34ae182b",
+     "8d0b678ddeaaf4fd6c2b2a8a919d91b5"
+    ]
+   },
+   {
+    "aliases": [],
+    "confidence": 95,
+    "count": 10,
+    "daily": [
+     0,
+     2,
+     1,
+     4,
+     3,
+     0,
+     0
+    ],
+    "family": "Coinminer",
+    "first_seen": "2026-10-17 15:33:04+00:00",
+    "key": "win.coinminer",
+    "last_seen": "2026-10-20 07:55:10+00:00",
+    "previous": 0,
+    "reporters": [
+     "Grim"
+    ],
+    "sample": [
+     "6210c3f45d9da621f38b225ba48d544e",
+     "452818b55a24e887cb9a96f284771509",
+     "ed7bd5f57c8c20e78877ea92ed801b5e",
+     "af66fe0d81e3529cccd03677753c91f9",
+     "343f3f84b9dd4da31ab558d3af873d08",
+     "60ceea8dc27ee552cbad31ea16f0d734",
+     "a191ed08671970cdd6e6e543ce1a55f9",
+     "7fd8aea592485fb741ca7addebba1021",
+     "3b6cdf35e94370bcbd3d4fe9820f70dc",
+     "2967c1398a9854876409d27f974d51a2"
+    ]
+   },
+   {
+    "aliases": [],
+    "confidence": 95,
+    "count": 9,
+    "daily": [
+     0,
+     0,
+     2,
+     7,
+     0,
+     0,
+     0
+    ],
+    "family": "RN Stealer",
+    "first_seen": "2026-10-18 06:28:19+00:00",
+    "key": "py.rn_stealer",
+    "last_seen": "2026-10-19 08:13:15+00:00",
+    "previous": 0,
+    "reporters": [
+     "Grim"
+    ],
+    "sample": [
+     "a955b9c64faf2a46cd6d2bd0a7bec636",
+     "33de39beff802db29c48e27871c4d0af",
+     "c7054e1eabd53e725b2a57fdb233ca16",
+     "be80e40a4d4d4fb8a6ee29bb1c7041de",
+     "caa21df127f9e38038d219e17f1d70ef",
+     "f062e03e58309cce8711c08f5167e80e",
+     "f1f5e2c1d6e6e629b6103c2be139fac0",
+     "131b4860205884f497023fe9a4a18450",
+     "9747c73e8b2ca1acc82399eea5749cfd"
+    ]
+   },
+   {
+    "aliases": [
+     "Winos"
+    ],
+    "confidence": 95,
+    "count": 9,
+    "daily": [
+     0,
+     4,
+     2,
+     2,
+     1,
+     0,
+     0
+    ],
+    "family": "ValleyRAT",
+    "first_seen": "2026-10-17 15:32:24+00:00",
+    "key": "win.valley_rat",
+    "last_seen": "2026-10-20 07:55:12+00:00",
+    "previous": 0,
+    "reporters": [
+     "Grim"
+    ],
+    "sample": [
+     "d0b37eaa763585c828d30b5d7ef2eb2d",
+     "09e226a3ade6b9d479d1b19b1d534dcb",
+     "3d07fa7f9489dd52a1dca5811c000096",
+     "019a454a178d7c22cb9770d5722c1873",
+     "1870ab7568ef16ba1040b33fa2df203e",
+     "18390d1648bf678684d5fcdfa07ae03d",
+     "f3095ae00c2b65df4c2353ce8f81974b",
+     "01401ba0315a6fbb4d21672a47c5fa7a",
+     "068aaf5204a66183af150bd087787f79"
+    ]
+   },
+   {
+    "aliases": [],
+    "confidence": 95,
+    "count": 9,
+    "daily": [
+     0,
+     6,
+     0,
+     0,
+     3,
+     0,
+     0
+    ],
+    "family": "Vidar",
+    "first_seen": "2026-10-17 15:32:37+00:00",
+    "key": "win.vidar",
+    "last_seen": "2026-10-20 07:54:55+00:00",
+    "previous": 0,
+    "reporters": [
+     "Grim"
+    ],
+    "sample": [
+     "9fb1e8283034a17f8732565023e48b58",
+     "3aa562e8cbb60f51cbd1c66fca2d424e",
+     "3c69bdf2a2fccadd618956f1d0843d7c",
+     "e805fdd8992fdfca7d2b73e308617829",
+     "533346133d52982b903922926fc76610",
+     "a32ce3219397af53d87f77ca3b918182",
+     "835501773c0b0d4a3b2d8bd7c2eb5c6d",
+     "2b048e8bc871eff2f268f5bd9fb882eb",
+     "3e92b3d9726103e81fc19cfe29104f27"
+    ]
+   },
+   {
+    "aliases": [],
+    "confidence": 95,
+    "count": 8,
+    "daily": [
+     0,
+     0,
+     0,
+     2,
+     6,
+     0,
+     0
+    ],
+    "family": "Prometei",
+    "first_seen": "2026-10-19 08:12:52+00:00",
+    "key": "win.prometei",
+    "last_seen": "2026-10-20 07:55:07+00:00",
+    "previous": 0,
+    "reporters": [
+     "Grim"
+    ],
+    "sample": [
+     "e5b7a2b315aa0eb2dac101fcbc89ede5",
+     "cf8a7c71a01c7713b58bf775802f6774",
+     "05a7b02839d3e83c16439d2243a87534",
+     "efe87436ae9dac22b3d8dd2f25b63e36",
+     "fca8e6f5adbf8c0f31b0d6a1a0dcd5d6",
+     "fac7bebb1c1a332f3d913d4376c9efb1",
+     "749457e585c4d2733a4c68e6725622a5",
+     "a075b0c494a34fc4aa18f72ff98395b9"
+    ]
+   },
+   {
+    "aliases": [
+     "Trupto"
+    ],
+    "confidence": 95,
+    "count": 7,
+    "daily": [
+     0,
+     1,
+     0,
+     3,
+     3,
+     0,
+     0
+    ],
+    "family": "CrossRAT",
+    "first_seen": "2026-10-17 15:32:40+00:00",
+    "key": "jar.crossrat",
+    "last_seen": "2026-10-20 07:55:18+00:00",
+    "previous": 0,
+    "reporters": [
+     "Grim"
+    ],
+    "sample": [
+     "42e3b99c78c70551642b4e7a568c3898",
+     "02c0815166a1a7820b8783dbaa6fc814",
+     "7972c7b003f41d914dd1fcb98dbdfaba",
+     "4bda9f9b4bdc277b6b2af90d9149dfc4",
+     "d91435c7250f01daa3dc6ddbd0bc9df0",
+     "10497e0acd87edd2195faab5b931a02d",
+     "c23328926e8545b746664890921ff091"
+    ]
+   },
+   {
+    "aliases": [
+     "NetWeird",
+     "NetWire",
+     "Recam"
+    ],
+    "confidence": 95,
+    "count": 6,
+    "daily": [
+     0,
+     6,
+     0,
+     0,
+     0,
+     0,
+     0
+    ],
+    "family": "NetWire RC",
+    "first_seen": "2026-10-17 15:32:31+00:00",
+    "key": "win.netwire",
+    "last_seen": "2026-10-17 15:32:39+00:00",
+    "previous": 0,
+    "reporters": [
+     "Grim"
+    ],
+    "sample": [
+     "3dccec3595bba26581d67320f8a7246c",
+     "180a1af79d93d25530fe06b8c109fe8d",
+     "fdb48acaeddd23cc974897a18eba5b5c",
+     "4b28fd9cddf20db2410750596c135f20",
+     "a205c4339b32ff40c1445f5bdcec5ede",
+     "96bcdbf175c237e75c424d075b7ac4e4"
+    ]
+   },
+   {
+    "aliases": [
+     "Bladabindi",
+     "Lime-Worm"
+    ],
+    "confidence": 95,
+    "count": 5,
+    "daily": [
+     0,
+     1,
+     0,
+     2,
+     2,
+     0,
+     0
+    ],
+    "family": "NjRAT",
+    "first_seen": "2026-10-17 15:33:01+00:00",
+    "key": "win.njrat",
+    "last_seen": "2026-10-20 07:54:47+00:00",
+    "previous": 0,
+    "reporters": [
+     "Grim"
+    ],
+    "sample": [
+     "25b263547e73ddb734c54e63e9179829",
+     "34980a7a4a7f3cb5b5700d41a7405523",
+     "08637a5f2fb2789dd0f9e3f186001bed",
+     "9879433dd3c53dc70d52ca0ff2aec8e2",
+     "0a85e9263cd4dc174ecdcc628447a2b5"
+    ]
+   },
+   {
+    "aliases": [
+     "Wana Decrypt0r",
+     "WannaCry",
+     "WannaCrypt",
+     "Wcry"
+    ],
+    "confidence": 95,
+    "count": 5,
+    "daily": [
+     0,
+     0,
+     2,
+     1,
+     2,
+     0,
+     0
+    ],
+    "family": "WannaCryptor",
+    "first_seen": "2026-10-18 06:28:30+00:00",
+    "key": "win.wannacryptor",
+    "last_seen": "2026-10-20 07:55:17+00:00",
+    "previous": 0,
+    "reporters": [
+     "Grim"
+    ],
+    "sample": [
+     "d4a176cf23226c155afe7aaf97c21b0d",
+     "c45e616d499d5e938bd4051bf67b4bad",
+     "644c7dc1ba482e63029c226100429eaa",
+     "cc4df344dc1c16f87237661240fa385a",
+     "748504f2ecd67972a12bb0bf0be57e6b"
+    ]
+   },
+   {
+    "aliases": [],
+    "confidence": 95,
+    "count": 4,
+    "daily": [
+     0,
+     2,
+     1,
+     0,
+     1,
+     0,
+     0
+    ],
+    "family": "MoriAgent",
+    "first_seen": "2026-10-17 15:32:55+00:00",
+    "key": "win.moriagent",
+    "last_seen": "2026-10-20 07:54:51+00:00",
+    "previous": 0,
+    "reporters": [
+     "Grim"
+    ],
+    "sample": [
+     "9b2049f21ee77905abff8d253acd583c",
+     "dbc20c52798b2524a3a7ee8671ab8e35",
+     "ba9993a91744cd9c182ce5ab72212a4c",
+     "3e7226b66846f399e30f1dd94a004353"
+    ]
+   },
+   {
+    "aliases": [],
+    "confidence": 95,
+    "count": 4,
+    "daily": [
+     0,
+     1,
+     3,
+     0,
+     0,
+     0,
+     0
+    ],
+    "family": "stealler",
+    "first_seen": "2026-10-17 15:32:32+00:00",
+    "key": "py.stealler",
+    "last_seen": "2026-10-18 06:28:34+00:00",
+    "previous": 0,
+    "reporters": [
+     "Grim"
+    ],
+    "sample": [
+     "a991ddbd30289de6652a2c1c9339471b",
+     "0eae0805daf81c56e6a20a1d8361a6b5",
+     "6e5853ba952c1eea0a7141db596289b6",
+     "b142c97fce4cce152d4ba8b7b67f9e78"
+    ]
+   },
+   {
+    "aliases": [],
+    "confidence": 95,
+    "count": 4,
+    "daily": [
+     0,
+     0,
+     0,
+     2,
+     2,
+     0,
+     0
+    ],
+    "family": "VShell",
+    "first_seen": "2026-10-19 08:13:02+00:00",
+    "key": "win.vshell",
+    "last_seen": "2026-10-20 07:54:52+00:00",
+    "previous": 0,
+    "reporters": [
+     "Grim"
+    ],
+    "sample": [
+     "1dd5012b1e5a28842ee40943346ef8b8",
+     "3435b30059e82e05b2e2a676bf7c5a4e",
+     "0e1d1d6b59447eff7fe7619284a4b298",
+     "2ffcc2cd369d9b59752154520fc6bf2b"
+    ]
+   },
+   {
+    "aliases": [],
+    "confidence": 95,
+    "count": 3,
+    "daily": [
+     0,
+     1,
+     0,
+     0,
+     2,
+     0,
+     0
+    ],
+    "family": "AsyncRAT",
+    "first_seen": "2026-10-17 15:32:36+00:00",
+    "key": "win.asyncrat",
+    "last_seen": "2026-10-20 07:55:20+00:00",
+    "previous": 0,
+    "reporters": [
+     "Grim"
+    ],
+    "sample": [
+     "0a4456ee28ab88126b0fbe9c977ada79",
+     "f2acef06ccd720c84c4ccead3a522ced",
+     "eef0cfdb8c438b56f7588f6aa22c889b"
+    ]
+   },
+   {
+    "aliases": [],
+    "confidence": 95,
+    "count": 3,
+    "daily": [
+     0,
+     2,
+     0,
+     1,
+     0,
+     0,
+     0
+    ],
+    "family": "GCleaner",
+    "first_seen": "2026-10-17 15:32:42+00:00",
+    "key": "win.gcleaner",
+    "last_seen": "2026-10-19 08:12:49+00:00",
+    "previous": 0,
+    "reporters": [
+     "Grim"
+    ],
+    "sample": [
+     "26ff9f881f907c2d451adc0542fddf3c",
+     "55d91aa19d585ff8248e9234cfebcb27",
+     "414654138697b0f8fe04e8a6c5b0c5cc"
+    ]
+   },
+   {
+    "aliases": [],
+    "confidence": 95,
+    "count": 3,
+    "daily": [
+     0,
+     0,
+     0,
+     0,
+     3,
+     0,
+     0
+    ],
+    "family": "Luca Stealer",
+    "first_seen": "2026-10-20 07:54:39+00:00",
+    "key": "win.luca_stealer",
+    "last_seen": "2026-10-20 07:55:16+00:00",
+    "previous": 0,
+    "reporters": [
+     "Grim"
+    ],
+    "sample": [
+     "8c88c8d5a00e487d0a28845bc61e1767",
+     "6ec1fc5a577ec6b6948f33f8fc414036",
+     "0fb4e282702484ab6f40db833a77bd0a"
+    ]
+   },
+   {
+    "aliases": [
+     "Nancrat",
+     "NanoCore"
+    ],
+    "confidence": 95,
+    "count": 3,
+    "daily": [
+     0,
+     2,
+     1,
+     0,
+     0,
+     0,
+     0
+    ],
+    "family": "Nanocore RAT",
+    "first_seen": "2026-10-17 15:32:41+00:00",
+    "key": "win.nanocore",
+    "last_seen": "2026-10-18 06:28:25+00:00",
+    "previous": 0,
+    "reporters": [
+     "Grim"
+    ],
+    "sample": [
+     "6dfadba2be23409dad04a6dbca6f3d1a",
+     "5f281e55c1e07dabeb5e59d3a5194294",
+     "a853b7d874f5d7957db8c44d1df1a800"
+    ]
+   },
+   {
+    "aliases": [],
+    "confidence": 95,
+    "count": 3,
+    "daily": [
+     0,
+     0,
+     1,
+     2,
+     0,
+     0,
+     0
+    ],
+    "family": "QuantLoader",
+    "first_seen": "2026-10-18 06:28:21+00:00",
+    "key": "win.quantloader",
+    "last_seen": "2026-10-19 08:13:21+00:00",
+    "previous": 0,
+    "reporters": [
+     "Grim"
+    ],
+    "sample": [
+     "1469bd018fe2f6a6cd975ba9c5e071e4",
+     "81202b83f9feb76cb7923c1a70a3da35",
+     "a08d7d3119fb3066415fac3f10c23dc8"
+    ]
+   },
+   {
+    "aliases": [
+     "AgenTesla",
+     "AgentTesla",
+     "Negasteal"
+    ],
+    "confidence": 95,
+    "count": 2,
+    "daily": [
+     0,
+     0,
+     0,
+     2,
+     0,
+     0,
+     0
+    ],
+    "family": "Agent Tesla",
+    "first_seen": "2026-10-19 08:12:29+00:00",
+    "key": "win.agent_tesla",
+    "last_seen": "2026-10-19 08:12:31+00:00",
+    "previous": 0,
+    "reporters": [
+     "Grim"
+    ],
+    "sample": [
+     "ead96eeb99f5d63df9ef73e00304960e",
+     "4b5b45771b8d2fd73136a0599ea9a6fe"
+    ]
+   },
+   {
+    "aliases": [],
+    "confidence": 95,
+    "count": 2,
+    "daily": [
+     0,
+     0,
+     0,
+     0,
+     2,
+     0,
+     0
+    ],
+    "family": "Kuiper",
+    "first_seen": "2026-10-20 07:54:41+00:00",
+    "key": "elf.kuiper",
+    "last_seen": "2026-10-20 07:54:41+00:00",
+    "previous": 0,
+    "reporters": [
+     "Grim"
+    ],
+    "sample": [
+     "67d734942ed7c5ddee2466ccb815530f",
+     "4e9b523f07c5e9ecd045597f5343c589"
+    ]
+   },
+   {
+    "aliases": [],
+    "confidence": 95,
+    "count": 2,
+    "daily": [
+     0,
+     0,
+     0,
+     0,
+     2,
+     0,
+     0
+    ],
+    "family": "lampion",
+    "first_seen": "2026-10-20 07:54:59+00:00",
+    "key": "vbs.lampion",
+    "last_seen": "2026-10-20 07:54:59+00:00",
+    "previous": 0,
+    "reporters": [
+     "Grim"
+    ],
+    "sample": [
+     "8e25b0822947230d03d14645c0700e40",
+     "6bbe08b7a8d9d972a6de79fa96708a2a"
+    ]
+   },
+   {
+    "aliases": [],
+    "confidence": 95,
+    "count": 2,
+    "daily": [
+     0,
+     0,
+     0,
+     1,
+     1,
+     0,
+     0
+    ],
+    "family": "MASS Logger",
+    "first_seen": "2026-10-19 08:12:28+00:00",
+    "key": "win.masslogger",
+    "last_seen": "2026-10-20 07:54:53+00:00",
+    "previous": 0,
+    "reporters": [
+     "Grim"
+    ],
+    "sample": [
+     "68e32c669a3a49782dc0152dba8bb3a2",
+     "ac45f1358c36a2ef9550ac216e599064"
+    ]
+   },
+   {
+    "aliases": [
+     "SocksShell",
+     "ZAPCAT"
+    ],
+    "confidence": 95,
+    "count": 2,
+    "daily": [
+     0,
+     1,
+     0,
+     1,
+     0,
+     0,
+     0
+    ],
+    "family": "Supper",
+    "first_seen": "2026-10-17 15:33:00+00:00",
+    "key": "win.supper",
+    "last_seen": "2026-10-19 08:12:51+00:00",
+    "previous": 0,
+    "reporters": [
+     "Grim"
+    ],
+    "sample": [
+     "0e15c7f71508ae0ce1e525e7dbf76a70",
+     "96c6ecc564da576285526af14e026f54"
+    ]
+   },
+   {
+    "aliases": [],
+    "confidence": 100,
+    "count": 1,
+    "daily": [
+     0,
+     0,
+     0,
+     1,
+     0,
+     0,
+     0
+    ],
+    "family": "ACR Stealer",
+    "first_seen": "2026-10-19 13:01:48+00:00",
+    "key": "win.acr_stealer",
+    "last_seen": "2026-10-19 13:01:48+00:00",
+    "previous": 0,
+    "reporters": [
+     "Tomer56"
+    ],
+    "sample": [
+     "0323998e0e85eca5fd90d9f8ecbbd6c2"
+    ]
+   },
+   {
+    "aliases": [],
+    "confidence": 95,
+    "count": 1,
+    "daily": [
+     0,
+     1,
+     0,
+     0,
+     0,
+     0,
+     0
+    ],
+    "family": "Amadey",
+    "first_seen": "2026-10-17 15:32:58+00:00",
+    "key": "win.amadey",
+    "last_seen": "2026-10-17 15:32:58+00:00",
+    "previous": 0,
+    "reporters": [
+     "Grim"
+    ],
+    "sample": [
+     "2aa1c286e5bdb479f3bdf713219bd861"
+    ]
+   },
+   {
+    "aliases": [
+     "Agentemis",
+     "BEACON",
+     "CobaltStrike",
+     "cobeacon"
+    ],
+    "confidence": 100,
+    "count": 1,
+    "daily": [
+     0,
+     0,
+     0,
+     0,
+     0,
+     1,
+     0
+    ],
+    "family": "Cobalt Strike",
+    "first_seen": "2026-10-21 11:07:36+00:00",
+    "key": "win.cobalt_strike",
+    "last_seen": "2026-10-21 11:07:36+00:00",
+    "previous": 0,
+    "reporters": [
+     "anonymous"
+    ],
+    "sample": [
+     "4d12d57d6db212de40d9b28811b1e19b"
+    ]
+   },
+   {
+    "aliases": [],
+    "confidence": 95,
+    "count": 1,
+    "daily": [
+     0,
+     0,
+     0,
+     1,
+     0,
+     0,
+     0
+    ],
+    "family": "Creal Stealer",
+    "first_seen": "2026-10-19 08:13:10+00:00",
+    "key": "py.creal_stealer",
+    "last_seen": "2026-10-19 08:13:10+00:00",
+    "previous": 0,
+    "reporters": [
+     "Grim"
+    ],
+    "sample": [
+     "d3adbe59a4100cce52d8c2a1a6f7b0e6"
+    ]
+   },
+   {
+    "aliases": [],
+    "confidence": 95,
+    "count": 1,
+    "daily": [
+     0,
+     0,
+     0,
+     1,
+     0,
+     0,
+     0
+    ],
+    "family": "DarkCloud Stealer",
+    "first_seen": "2026-10-19 08:12:35+00:00",
+    "key": "win.darkcloud",
+    "last_seen": "2026-10-19 08:12:35+00:00",
+    "previous": 0,
+    "reporters": [
+     "Grim"
+    ],
+    "sample": [
+     "01ce53b2b7e8fd60ee48f8a33da294dc"
+    ]
+   },
+   {
+    "aliases": [],
+    "confidence": 95,
+    "count": 1,
+    "daily": [
+     0,
+     1,
+     0,
+     0,
+     0,
+     0,
+     0
+    ],
+    "family": "DBoxAgent",
+    "first_seen": "2026-10-17 15:32:35+00:00",
+    "key": "win.dboxagent",
+    "last_seen": "2026-10-17 15:32:35+00:00",
+    "previous": 0,
+    "reporters": [
+     "Grim"
+    ],
+    "sample": [
+     "5d4e5aece77c5f1b55f6dcc728cfa885"
+    ]
+   },
+   {
+    "aliases": [],
+    "confidence": 95,
+    "count": 1,
+    "daily": [
+     0,
+     0,
+     0,
+     1,
+     0,
+     0,
+     0
+    ],
+    "family": "ElectroRAT",
+    "first_seen": "2026-10-19 08:13:22+00:00",
+    "key": "osx.electro_rat",
+    "last_seen": "2026-10-19 08:13:22+00:00",
+    "previous": 0,
+    "reporters": [
+     "Grim"
+    ],
+    "sample": [
+     "1cf92442d8c4a6cc5535f8b450cf988f"
+    ]
+   },
+   {
+    "aliases": [],
+    "confidence": 95,
+    "count": 1,
+    "daily": [
+     0,
+     0,
+     0,
+     1,
+     0,
+     0,
+     0
+    ],
+    "family": "Elevator",
+    "first_seen": "2026-10-19 08:13:20+00:00",
+    "key": "elf.elevator",
+    "last_seen": "2026-10-19 08:13:20+00:00",
+    "previous": 0,
+    "reporters": [
+     "Grim"
+    ],
+    "sample": [
+     "be5be4192d2df4114d39001d35f7c11f"
+    ]
+   },
+   {
+    "aliases": [],
+    "confidence": 95,
+    "count": 1,
+    "daily": [
+     0,
+     1,
+     0,
+     0,
+     0,
+     0,
+     0
+    ],
+    "family": "GHOSTBLADE",
+    "first_seen": "2026-10-17 15:32:56+00:00",
+    "key": "js.ghostblade",
+    "last_seen": "2026-10-17 15:32:56+00:00",
+    "previous": 0,
+    "reporters": [
+     "Grim"
+    ],
+    "sample": [
+     "c7ca207e0b068efc1215dee80ae617b7"
+    ]
+   },
+   {
+    "aliases": [],
+    "confidence": 95,
+    "count": 1,
+    "daily": [
+     0,
+     0,
+     0,
+     0,
+     1,
+     0,
+     0
+    ],
+    "family": "Loki",
+    "first_seen": "2026-10-20 07:54:38+00:00",
+    "key": "apk.loki",
+    "last_seen": "2026-10-20 07:54:38+00:00",
+    "previous": 0,
+    "reporters": [
+     "Grim"
+    ],
+    "sample": [
+     "bc1c3537592275d79012b7810f42a3cb"
+    ]
+   },
+   {
+    "aliases": [],
+    "confidence": 95,
+    "count": 1,
+    "daily": [
+     0,
+     0,
+     0,
+     1,
+     0,
+     0,
+     0
+    ],
+    "family": "m0yv",
+    "first_seen": "2026-10-19 08:12:32+00:00",
+    "key": "win.m0yv",
+    "last_seen": "2026-10-19 08:12:32+00:00",
+    "previous": 0,
+    "reporters": [
+     "Grim"
+    ],
+    "sample": [
+     "07e93d6b568ad1b99bd2b0c7cde108c5"
+    ]
+   },
+   {
+    "aliases": [
+     "Tldr",
+     "Trik",
+     "TwizT",
+     "phorphiex"
+    ],
+    "confidence": 95,
+    "count": 1,
+    "daily": [
+     0,
+     0,
+     0,
+     1,
+     0,
+     0,
+     0
+    ],
+    "family": "Phorpiex",
+    "first_seen": "2026-10-19 08:12:59+00:00",
+    "key": "win.phorpiex",
+    "last_seen": "2026-10-19 08:12:59+00:00",
+    "previous": 0,
+    "reporters": [
+     "Grim"
+    ],
+    "sample": [
+     "656deb0542b95f5fc176eadf8e5d49c6"
+    ]
+   },
+   {
+    "aliases": [],
+    "confidence": 95,
+    "count": 1,
+    "daily": [
+     0,
+     1,
+     0,
+     0,
+     0,
+     0,
+     0
+    ],
+    "family": "PY#RATION",
+    "first_seen": "2026-10-17 15:32:30+00:00",
+    "key": "py.pyration",
+    "last_seen": "2026-10-17 15:32:30+00:00",
+    "previous": 0,
+    "reporters": [
+     "Grim"
+    ],
+    "sample": [
+     "79aa57c62891e658c7266859a25b23cc"
+    ]
+   },
+   {
+    "aliases": [
+     "CinaRAT",
+     "QuasarRAT",
+     "Yggdrasil"
+    ],
+    "confidence": 95,
+    "count": 1,
+    "daily": [
+     0,
+     0,
+     0,
+     1,
+     0,
+     0,
+     0
+    ],
+    "family": "Quasar RAT",
+    "first_seen": "2026-10-19 08:13:23+00:00",
+    "key": "win.quasar_rat",
+    "last_seen": "2026-10-19 08:13:23+00:00",
+    "previous": 0,
+    "reporters": [
+     "Grim"
+    ],
+    "sample": [
+     "155553264e98d58b0eaa075b1c3087f6"
+    ]
+   },
+   {
+    "aliases": [],
+    "confidence": 95,
+    "count": 1,
+    "daily": [
+     0,
+     0,
+     0,
+     1,
+     0,
+     0,
+     0
+    ],
+    "family": "QuirkyLoader",
+    "first_seen": "2026-10-19 08:13:11+00:00",
+    "key": "win.quirkyloader",
+    "last_seen": "2026-10-19 08:13:11+00:00",
+    "previous": 0,
+    "reporters": [
+     "Grim"
+    ],
+    "sample": [
+     "41dbe989bdceff0341067a6e83be475e"
+    ]
+   },
+   {
+    "aliases": [],
+    "confidence": 95,
+    "count": 1,
+    "daily": [
+     0,
+     0,
+     0,
+     1,
+     0,
+     0,
+     0
+    ],
+    "family": "Ramsay",
+    "first_seen": "2026-10-19 08:12:45+00:00",
+    "key": "win.ramsay",
+    "last_seen": "2026-10-19 08:12:45+00:00",
+    "previous": 0,
+    "reporters": [
+     "Grim"
+    ],
+    "sample": [
+     "8af0a9a54ec677e4eec2a3c04766bd36"
+    ]
+   },
+   {
+    "aliases": [],
+    "confidence": 95,
+    "count": 1,
+    "daily": [
+     0,
+     0,
+     0,
+     0,
+     1,
+     0,
+     0
+    ],
+    "family": "RatonRAT",
+    "first_seen": "2026-10-20 07:55:01+00:00",
+    "key": "win.raton_rat",
+    "last_seen": "2026-10-20 07:55:01+00:00",
+    "previous": 0,
+    "reporters": [
+     "Grim"
+    ],
+    "sample": [
+     "057e51cdbb1209601ad334ade2297792"
+    ]
+   },
+   {
+    "aliases": [],
+    "confidence": 95,
+    "count": 1,
+    "daily": [
+     0,
+     0,
+     1,
+     0,
+     0,
+     0,
+     0
+    ],
+    "family": "RedCurl",
+    "first_seen": "2026-10-18 06:28:27+00:00",
+    "key": "win.redcurl",
+    "last_seen": "2026-10-18 06:28:27+00:00",
+    "previous": 0,
+    "reporters": [
+     "Grim"
+    ],
+    "sample": [
+     "a053f5067188cdb6c8f1b4f7f469d72c"
+    ]
+   },
+   {
+    "aliases": [
+     "Gheg"
+    ],
+    "confidence": 95,
+    "count": 1,
+    "daily": [
+     0,
+     0,
+     0,
+     1,
+     0,
+     0,
+     0
+    ],
+    "family": "Tofsee",
+    "first_seen": "2026-10-19 08:12:37+00:00",
+    "key": "win.tofsee",
+    "last_seen": "2026-10-19 08:12:37+00:00",
+    "previous": 0,
+    "reporters": [
+     "Grim"
+    ],
+    "sample": [
+     "f69f1f4b7f421b81be3cbce9d71e17e3"
+    ]
+   },
+   {
+    "aliases": [],
+    "confidence": 95,
+    "count": 1,
+    "daily": [
+     0,
+     0,
+     0,
+     1,
+     0,
+     0,
+     0
+    ],
+    "family": "VIP Keylogger",
+    "first_seen": "2026-10-19 08:12:36+00:00",
+    "key": "win.vipkeylogger",
+    "last_seen": "2026-10-19 08:12:36+00:00",
+    "previous": 0,
+    "reporters": [
+     "Grim"
+    ],
+    "sample": [
+     "5561db674ffceb7ee6d9ccc98c2b076f"
+    ]
+   },
+   {
+    "aliases": [],
+    "confidence": 95,
+    "count": 1,
+    "daily": [
+     0,
+     0,
+     1,
+     0,
+     0,
+     0,
+     0
+    ],
+    "family": "VoltStealer",
+    "first_seen": "2026-10-18 06:28:23+00:00",
+    "key": "win.voltstealer",
+    "last_seen": "2026-10-18 06:28:23+00:00",
+    "previous": 0,
+    "reporters": [
+     "Grim"
+    ],
+    "sample": [
+     "285fbe9b9d70884db15927c6c750900b"
+    ]
+   },
+   {
+    "aliases": [],
+    "confidence": 95,
+    "count": 1,
+    "daily": [
+     0,
+     0,
+     0,
+     0,
+     1,
+     0,
+     0
+    ],
+    "family": "XWorm",
+    "first_seen": "2026-10-20 07:55:13+00:00",
+    "key": "win.xworm",
+    "last_seen": "2026-10-20 07:55:13+00:00",
+    "previous": 0,
+    "reporters": [
+     "Grim"
+    ],
+    "sample": [
+     "23c69418dbb2eccbcbee73565242d0ec"
+    ]
+   }
+  ],
+  "families_in_export": 0,
+  "in_export": 0,
+  "last24h": 1,
+  "last7": 183,
+  "new_this_run": 0,
+  "newest": "",
+  "newest_age_hours": null,
+  "reporters": [
+   [
+    "Grim",
+    181
+   ],
+   [
+    "Tomer56",
+    1
+   ],
+   [
+    "anonymous",
+    1
+   ]
+  ],
+  "spark": "\u2581\u2581\u2581\u2581\u2581\u2581\u2581\u2581\u2588\u2583\u2588\u2588\u2581\u2581",
+  "tags": [
+   [
+    "acr",
+    1
+   ],
+   [
+    "ACRStealer",
+    1
+   ],
+   [
+    "fake game",
+    1
+   ],
+   [
+    "ROM",
+    1
+   ],
+   [
+    "setup.exe",
+    1
+   ],
+   [
+    "setup.py",
+    1
+   ]
+  ],
+  "threat_types": [
+   [
+    "payload",
+    183
+   ]
+  ],
+  "window_hours": 0.0
+ },
+ "infra": {
+  "domains": {
+   "c2_7d": 299,
+   "daily": [
+    [
+     "2026-10-08",
+     0
+    ],
+    [
+     "2026-10-09",
+     0
+    ],
+    [
+     "2026-10-10",
+     0
+    ],
+    [
+     "2026-10-11",
+     0
+    ],
+    [
+     "2026-10-12",
+     0
+    ],
+    [
+     "2026-10-13",
+     0
+    ],
+    [
+     "2026-10-14",
+     0
+    ],
+    [
+     "2026-10-15",
+     0
+    ],
+    [
+     "2026-10-16",
+     66
+    ],
+    [
+     "2026-10-17",
+     422
+    ],
+    [
+     "2026-10-18",
+     478
+    ],
+    [
+     "2026-10-19",
+     146
+    ],
+    [
+     "2026-10-20",
+     268
+    ],
+    [
+     "2026-10-21",
+     790
+    ]
+   ],
+   "families": [
+    [
+     "IClickFix",
+     1066
+    ],
+    [
+     "Unknown Loader",
+     465
+    ],
+    [
+     "php.shin_webshell",
+     175
+    ],
+    [
+     "ClearFake",
+     133
+    ],
+    [
+     "Unknown malware",
+     83
+    ],
+    [
+     "Vidar",
+     63
+    ],
+    [
+     "DeerStealer",
+     44
+    ],
+    [
+     "MacSync",
+     27
+    ]
+   ],
+   "families_c2": [
+    [
+     "Unknown malware",
+     74
+    ],
+    [
+     "Vidar",
+     63
+    ],
+    [
+     "DeerStealer",
+     44
+    ],
+    [
+     "MacSync",
+     23
+    ],
+    [
+     "SMSspy",
+     14
+    ],
+    [
+     "WARDENStealer",
+     13
+    ],
+    [
+     "Remcos",
+     11
+    ],
+    [
+     "Unknown RAT",
+     8
+    ]
+   ],
+   "in_export": 1138,
+   "last24h": 975,
+   "last7": 2170,
+   "new_this_run": 770,
+   "newest": "2026-10-21T11:27:01+00:00",
+   "newest_age_hours": 0.3,
+   "other_7d": 1871,
+   "ports": [],
+   "recent": [
+    {
+     "confidence": 100,
+     "family": "AMOS",
+     "ports": [],
+     "seen": "2026-10-21T11:27:01+00:00",
+     "type": "payload_delivery",
+     "value": "boost-90.com"
+    },
+    {
+     "confidence": 100,
+     "family": "Unknown malware",
+     "ports": [],
+     "seen": "2026-10-21T11:22:54+00:00",
+     "type": "botnet_cc",
+     "value": "genbkin39.duckdns.org"
+    },
+    {
+     "confidence": 50,
+     "family": "IClickFix",
+     "ports": [],
+     "seen": "2026-10-21T11:07:37+00:00",
+     "type": "payload_delivery",
+     "value": "blackjackspelen247.nl"
+    },
+    {
+     "confidence": 100,
+     "family": "Cobalt Strike",
+     "ports": [],
+     "seen": "2026-10-21T11:07:35+00:00",
+     "type": "botnet_cc",
+     "value": "cdn.img.5a09f6f2.pnalumni.dgitd.anchorbolnorth.com"
+    },
+    {
+     "confidence": 100,
+     "family": "Vidar",
+     "ports": [],
+     "seen": "2026-10-21T10:45:48+00:00",
+     "type": "botnet_cc",
+     "value": "z.a9bet.org"
+    },
+    {
+     "confidence": 100,
+     "family": "Vidar",
+     "ports": [],
+     "seen": "2026-10-21T10:35:48+00:00",
+     "type": "botnet_cc",
+     "value": "m.a9bet.org"
+    },
+    {
+     "confidence": 100,
+     "family": "Vidar",
+     "ports": [],
+     "seen": "2026-10-21T10:30:48+00:00",
+     "type": "botnet_cc",
+     "value": "l.9winn.org"
+    },
+    {
+     "confidence": 50,
+     "family": "php.shin_webshell",
+     "ports": [],
+     "seen": "2026-10-21T10:28:18+00:00",
+     "type": "payload_delivery",
+     "value": "zaboxano.workers.dev"
+    }
+   ],
+   "reporters": [
+    [
+     "varysz",
+     1495
+    ],
+    [
+     "xscon",
+     175
+    ],
+    [
+     "anonymous",
+     148
+    ],
+    [
+     "crep1x",
+     60
+    ]
+   ],
+   "spark": "\u2581\u2581\u2581\u2581\u2581\u2581\u2581\u2581\u2582\u2585\u2585\u2582\u2583\u2588",
+   "types": [
+    [
+     "payload_delivery",
+     1870
+    ],
+    [
+     "botnet_cc",
+     299
+    ],
+    [
+     "cc_skimming",
+     1
+    ]
+   ]
+  },
+  "ips": {
+   "c2_7d": 753,
+   "daily": [
+    [
+     "2026-10-08",
+     37
+    ],
+    [
+     "2026-10-09",
+     54
+    ],
+    [
+     "2026-10-10",
+     31
+    ],
+    [
+     "2026-10-11",
+     64
+    ],
+    [
+     "2026-10-12",
+     102
+    ],
+    [
+     "2026-10-13",
+     36
+    ],
+    [
+     "2026-10-14",
+     58
+    ],
+    [
+     "2026-10-15",
+     62
+    ],
+    [
+     "2026-10-16",
+     68
+    ],
+    [
+     "2026-10-17",
+     95
+    ],
+    [
+     "2026-10-18",
+     197
+    ],
+    [
+     "2026-10-19",
+     112
+    ],
+    [
+     "2026-10-20",
+     95
+    ],
+    [
+     "2026-10-21",
+     100
+    ]
+   ],
+   "families": [
+    [
+     "VShell",
+     128
+    ],
+    [
+     "Unknown malware",
+     96
+    ],
+    [
+     "Remcos",
+     80
+    ],
+    [
+     "Sliver",
+     75
+    ],
+    [
+     "Mirai",
+     58
+    ],
+    [
+     "PureRAT",
+     54
+    ],
+    [
+     "Cobalt Strike",
+     30
+    ],
+    [
+     "AdaptixC2",
+     26
+    ]
+   ],
+   "families_c2": [
+    [
+     "VShell",
+     128
+    ],
+    [
+     "Unknown malware",
+     92
+    ],
+    [
+     "Remcos",
+     80
+    ],
+    [
+     "Sliver",
+     75
+    ],
+    [
+     "PureRAT",
+     54
+    ],
+    [
+     "Mirai",
+     53
+    ],
+    [
+     "Cobalt Strike",
+     30
+    ],
+    [
+     "AdaptixC2",
+     26
+    ]
+   ],
+   "in_export": 2548,
+   "last24h": 155,
+   "last7": 769,
+   "new_this_run": 1030,
+   "newest": "2026-10-21T11:25:14+00:00",
+   "newest_age_hours": 0.3,
+   "other_7d": 16,
+   "ports": [
+    [
+     443,
+     109
+    ],
+    [
+     8877,
+     70
+    ],
+    [
+     80,
+     58
+    ],
+    [
+     31337,
+     57
+    ],
+    [
+     8080,
+     37
+    ],
+    [
+     7443,
+     27
+    ],
+    [
+     8443,
+     26
+    ],
+    [
+     56003,
+     23
+    ]
+   ],
+   "recent": [
+    {
+     "confidence": 75,
+     "family": "Unknown malware",
+     "ports": [
+      8090
+     ],
+     "seen": "2026-10-21T11:25:14+00:00",
+     "type": "botnet_cc",
+     "value": "198.44.46.58"
+    },
+    {
+     "confidence": 75,
+     "family": "Unknown malware",
+     "ports": [
+      18092
+     ],
+     "seen": "2026-10-21T11:24:48+00:00",
+     "type": "botnet_cc",
+     "value": "130.94.3.67"
+    },
+    {
+     "confidence": 75,
+     "family": "Unknown malware",
+     "ports": [
+      5088
+     ],
+     "seen": "2026-10-21T11:22:58+00:00",
+     "type": "botnet_cc",
+     "value": "172.93.180.99"
+    },
+    {
+     "confidence": 100,
+     "family": "Remcos",
+     "ports": [
+      2404
+     ],
+     "seen": "2026-10-21T11:11:06+00:00",
+     "type": "botnet_cc",
+     "value": "102.220.163.192"
+    },
+    {
+     "confidence": 100,
+     "family": "Sliver",
+     "ports": [
+      31337
+     ],
+     "seen": "2026-10-21T11:07:38+00:00",
+     "type": "botnet_cc",
+     "value": "103.158.117.152"
+    },
+    {
+     "confidence": 100,
+     "family": "Remcos",
+     "ports": [
+      2404
+     ],
+     "seen": "2026-10-21T11:05:15+00:00",
+     "type": "botnet_cc",
+     "value": "31.56.19.172"
+    },
+    {
+     "confidence": 100,
+     "family": "VShell",
+     "ports": [
+      8877
+     ],
+     "seen": "2026-10-21T11:05:07+00:00",
+     "type": "botnet_cc",
+     "value": "156.240.41.153"
+    },
+    {
+     "confidence": 100,
+     "family": "VShell",
+     "ports": [
+      8877
+     ],
+     "seen": "2026-10-21T11:05:06+00:00",
+     "type": "botnet_cc",
+     "value": "156.240.41.151"
+    }
+   ],
+   "reporters": [
+    [
+     "abuse_ch",
+     247
+    ],
+    [
+     "anonymous",
+     151
+    ],
+    [
+     "juroots",
+     128
+    ],
+    [
+     "Bitsight",
+     70
+    ]
+   ],
+   "spark": "\u2582\u2583\u2582\u2583\u2585\u2582\u2583\u2583\u2583\u2584\u2588\u2585\u2584\u2585",
+   "types": [
+    [
+     "botnet_cc",
+     753
+    ],
+    [
+     "payload_delivery",
+     16
+    ]
+   ]
+  },
+  "overlap": [
+   {
+    "family": "Bashlite",
+    "kind": "ip",
+    "online": 21,
+    "seen": "2026-10-18T06:30:22+00:00",
+    "type": "botnet_cc",
+    "urls": 21,
+    "value": "104.168.4.206"
+   },
+   {
+    "family": "Mirai",
+    "kind": "ip",
+    "online": 12,
+    "seen": "2026-10-19T06:20:00+00:00",
+    "type": "botnet_cc",
+    "urls": 12,
+    "value": "176.65.139.143"
+   },
+   {
+    "family": "Unknown malware",
+    "kind": "ip",
+    "online": 5,
+    "seen": "2026-10-21T11:22:58+00:00",
+    "type": "botnet_cc",
+    "urls": 5,
+    "value": "172.93.180.99"
+   },
+   {
+    "family": "Unknown malware",
+    "kind": "ip",
+    "online": 4,
+    "seen": "2026-10-18T06:10:25+00:00",
+    "type": "payload_delivery",
+    "urls": 5,
+    "value": "176.65.139.168"
+   },
+   {
+    "family": "Unknown Loader",
+    "kind": "domain",
+    "online": 3,
+    "seen": "2026-10-19T06:20:39+00:00",
+    "type": "payload_delivery",
+    "urls": 4,
+    "value": "gitrm.sbs"
+   },
+   {
+    "family": "Unknown Loader",
+    "kind": "domain",
+    "online": 3,
+    "seen": "2026-10-19T06:20:41+00:00",
+    "type": "payload_delivery",
+    "urls": 3,
+    "value": "gitview.sbs"
+   },
+   {
+    "family": "Unknown Loader",
+    "kind": "domain",
+    "online": 3,
+    "seen": "2026-10-19T06:20:38+00:00",
+    "type": "payload_delivery",
+    "urls": 3,
+    "value": "viewgit.sbs"
+   },
+   {
+    "family": "Unknown malware",
+    "kind": "ip",
+    "online": 2,
+    "seen": "2026-10-21T11:24:48+00:00",
+    "type": "botnet_cc",
+    "urls": 4,
+    "value": "130.94.3.67"
+   },
+   {
+    "family": "Unknown Loader",
+    "kind": "ip",
+    "online": 2,
+    "seen": "2026-10-19T06:20:37+00:00",
+    "type": "payload_delivery",
+    "urls": 2,
+    "value": "2.26.150.12"
+   },
+   {
+    "family": "Unknown Stealer",
+    "kind": "domain",
+    "online": 2,
+    "seen": "2026-10-20T15:53:35+00:00",
+    "type": "payload_delivery",
+    "urls": 2,
+    "value": "runelite.cc"
+   }
+  ],
+  "overlap_total": 66
+ },
+ "status": "fail",
+ "urls": {
+  "added_24h": 472,
+  "added_7d": 3388,
+  "bare_ip_online": 1211,
+  "bare_ip_share": 46,
+  "daily": [
+   [
+    "2026-10-08",
+    2115
+   ],
+   [
+    "2026-10-09",
+    539
+   ],
+   [
+    "2026-10-10",
+    524
+   ],
+   [
+    "2026-10-11",
+    435
+   ],
+   [
+    "2026-10-12",
+    1076
+   ],
+   [
+    "2026-10-13",
+    552
+   ],
+   [
+    "2026-10-14",
+    472
+   ],
+   [
+    "2026-10-15",
+    426
+   ],
+   [
+    "2026-10-16",
+    379
+   ],
+   [
+    "2026-10-17",
+    453
+   ],
+   [
+    "2026-10-18",
+    520
+   ],
+   [
+    "2026-10-19",
+    390
+   ],
+   [
+    "2026-10-20",
+    660
+   ],
+   [
+    "2026-10-21",
+    309
+   ]
+  ],
+  "domains": [
+   [
+    "dstats.qzz.io",
+    36
+   ],
+   [
+    "crystalbranchtw.blog",
+    36
+   ],
+   [
+    "wemqmewkqewq.work.gd",
+    35
+   ],
+   [
+    "emwqkekwqmekwq.work.gd",
+    31
+   ],
+   [
+    "iloveanal.work.gd",
+    31
+   ],
+   [
+    "donutclients.st",
+    30
+   ],
+   [
+    "likedrink.beer",
+    27
+   ],
+   [
+    "maxxlavalink.cyou",
+    19
+   ]
+  ],
+  "domains_online": [
+   [
+    "c2.teamzeroday.net",
+    8
+   ],
+   [
+    "tycons.com",
+    3
+   ],
+   [
+    "gitview.sbs",
+    3
+   ],
+   [
+    "viewgit.sbs",
+    3
+   ],
+   [
+    "gitrm.sbs",
+    3
+   ],
+   [
+    "autohaus-bender.de",
+    3
+   ],
+   [
+    "stanarcservice.com",
+    3
+   ],
+   [
+    "adiyamancamkornis.com.tr",
+    2
+   ]
+  ],
+  "extensions": [
+   [
+    "zip",
+    15397
+   ],
+   [
+    "(none)",
+    8871
+   ],
+   [
+    "sh",
+    4658
+   ],
+   [
+    "exe",
+    1459
+   ],
+   [
+    "jar",
+    357
+   ],
+   [
+    "ps1",
+    184
+   ],
+   [
+    "rar",
+    183
+   ],
+   [
+    "mips",
+    145
+   ]
+  ],
+  "hosts": [
+   [
+    "176.65.134.121",
+    361
+   ],
+   [
+    "91.92.242.236",
+    103
+   ],
+   [
+    "31.56.209.86",
+    99
+   ],
+   [
+    "45.153.34.235",
+    69
+   ],
+   [
+    "176.65.139.135",
+    57
+   ],
+   [
+    "154.83.85.63",
+    52
+   ],
+   [
+    "130.12.180.212",
+    47
+   ],
+   [
+    "217.60.195.187",
+    47
+   ]
+  ],
+  "hosts_online": [
+   [
+    "130.12.180.212",
+    47
+   ],
+   [
+    "154.83.85.63",
+    44
+   ],
+   [
+    "176.65.139.169",
+    34
+   ],
+   [
+    "31.56.209.86",
+    28
+   ],
+   [
+    "96.62.71.5",
+    27
+   ],
+   [
+    "193.111.117.135",
+    25
+   ],
+   [
+    "172.245.106.144",
+    22
+   ],
+   [
+    "45.9.2.239",
+    21
+   ]
+  ],
+  "ips": [
+   [
+    "176.65.134.121",
+    361
+   ],
+   [
+    "91.92.242.236",
+    103
+   ],
+   [
+    "31.56.209.86",
+    99
+   ],
+   [
+    "45.153.34.235",
+    69
+   ],
+   [
+    "176.65.139.135",
+    57
+   ],
+   [
+    "154.83.85.63",
+    52
+   ],
+   [
+    "130.12.180.212",
+    47
+   ],
+   [
+    "217.60.195.187",
+    47
+   ]
+  ],
+  "ips_online": [
+   [
+    "130.12.180.212",
+    47
+   ],
+   [
+    "154.83.85.63",
+    44
+   ],
+   [
+    "176.65.139.169",
+    34
+   ],
+   [
+    "31.56.209.86",
+    28
+   ],
+   [
+    "96.62.71.5",
+    27
+   ],
+   [
+    "193.111.117.135",
+    25
+   ],
+   [
+    "172.245.106.144",
+    22
+   ],
+   [
+    "45.9.2.239",
+    21
+   ]
+  ],
+  "new_since_last": 472,
+  "newest": "2026-10-21T11:28:13+00:00",
+  "newest_age_hours": 0.3,
+  "offline": 17420,
+  "online": 16550,
+  "online_share": 49,
+  "platform_share": 50,
+  "platform_urls": 16940,
+  "platforms": [
+   [
+    "GitHub",
+    15761
+   ],
+   [
+    "GitLab",
+    697
+   ],
+   [
+    "Discord",
+    150
+   ],
+   [
+    "Dropbox",
+    89
+   ],
+   [
+    "Google Drive",
+    79
+   ],
+   [
+    "Cloudflare Workers",
+    55
+   ],
+   [
+    "Vercel",
+    30
+   ],
+   [
+    "Cloudflare R2",
+    21
+   ]
+  ],
+  "platforms_online": [
+   [
+    "GitHub",
+    15191
+   ],
+   [
+    "GitLab",
+    6
+   ],
+   [
+    "Vercel",
+    3
+   ],
+   [
+    "Cloudflare R2",
+    3
+   ],
+   [
+    "Cloudflare Workers",
+    2
+   ],
+   [
+    "Cloudflare Tunnel",
+    1
+   ],
+   [
+    "GitHub Pages",
+    1
+   ]
+  ],
+  "reporters": [
+   [
+    "shmulc",
+    15227
+   ],
+   [
+    "adliwahid",
+    8453
+   ],
+   [
+    "geenensp",
+    2030
+   ],
+   [
+    "BlinkzSec",
+    1353
+   ],
+   [
+    "abuse_ch",
+    1120
+   ]
+  ],
+  "risers": [
+   [
+    "zapret",
+    322,
+    0
+   ],
+   [
+    "SalatStealer",
+    224,
+    0
+   ],
+   [
+    "rar",
+    152,
+    0
+   ],
+   [
+    "cowrie",
+    188,
+    106
+   ],
+   [
+    "31-56-209-86",
+    81,
+    6
+   ],
+   [
+    "honeypot",
+    173,
+    111
+   ]
+  ],
+  "spark": "\u2588\u2583\u2583\u2582\u2585\u2583\u2583\u2582\u2582\u2582\u2583\u2582\u2583\u2582",
+  "tag_combos": [
+   [
+    "github,LuaJIT-loader,SmartLoader,zip",
+    13746
+   ],
+   [
+    "Mozi",
+    3533
+   ],
+   [
+    "mirai",
+    3053
+   ],
+   [
+    "32-bit,elf,mips,Mozi",
+    1202
+   ],
+   [
+    "32-bit,arm,elf,mirai,Mozi",
+    771
+   ],
+   [
+    "FakeGit,luajit,SmartLoader,Stealc,zip",
+    612
+   ],
+   [
+    "CheatSheet,exe,github,rustystealer",
+    452
+   ],
+   [
+    "elf,ua-wget",
+    446
+   ]
+  ],
+  "tags": [
+   [
+    "zip",
+    15138
+   ],
+   [
+    "github",
+    14954
+   ],
+   [
+    "SmartLoader",
+    14455
+   ],
+   [
+    "LuaJIT-loader",
+    13762
+   ],
+   [
+    "mirai",
+    5780
+   ],
+   [
+    "Mozi",
+    5765
+   ],
+   [
+    "elf",
+    4922
+   ],
+   [
+    "ua-wget",
+    2600
+   ],
+   [
+    "32-bit",
+    2001
+   ],
+   [
+    "CheatSheet",
+    1408
+   ]
+  ],
+  "tags_online": [
+   [
+    "github",
+    14540
+   ],
+   [
+    "zip",
+    14290
+   ],
+   [
+    "SmartLoader",
+    14048
+   ],
+   [
+    "LuaJIT-loader",
+    13374
+   ],
+   [
+    "exe",
+    757
+   ],
+   [
+    "CheatSheet",
+    712
+   ],
+   [
+    "elf",
+    691
+   ],
+   [
+    "FakeGit",
+    666
+   ],
+   [
+    "Stealc",
+    603
+   ],
+   [
+    "luajit",
+    596
+   ]
+  ],
+  "threats": [
+   [
+    "malware_download",
+    33970
+   ]
+  ],
+  "total": 33970,
+  "unique_domains": 512,
+  "unique_hosts": 7104,
+  "unique_ips": 6592,
+  "unique_online_hosts": 534,
+  "untagged": 3261,
+  "window_days": 30.5
+ },
+ "urls_at": "2026-10-21T11:43:21.823155+00:00",
+ "version": "2.0.0"
+}

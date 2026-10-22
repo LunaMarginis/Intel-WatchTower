@@ -1,0 +1,4 @@
+# Changes to the collector and to anything that can push or run with secrets need the owner.
+/.github/    @LunaMarginis
+/watchtower/ @LunaMarginis
+/tests/      @LunaMarginis

@@ -1,0 +1,77 @@
+name: Collect
+
+# Every 6 hours. The ThreatFox export covers only a short window, so a daily run (as before) lost hashes that came and went in between.
+# The big URLhaus export is refreshed by the script itself about once a day, not on every run.
+on:
+  schedule:
+    - cron: '17 */6 * * *'   # off the hour: GitHub's queue is busiest at :00
+  workflow_dispatch:
+    inputs:
+      force_urls:
+        description: Refresh the URLhaus export even if it is not due
+        type: boolean
+        default: false
+
+# Never two runs at once: they would race on the same files.
+concurrency:
+  group: collect
+  cancel-in-progress: false
+
+permissions:
+  contents: read
+
+jobs:
+  collect:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 15
+    permissions:
+      contents: write        # only this job can push, and only to this repository
+    steps:
+      - name: Checkout
+        uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1  # v7.0.1
+        with:
+          persist-credentials: true
+
+      - name: Set up Python
+        uses: actions/setup-python@5fda3b95a4ea91299a34e894583c3862153e4b97  # v7.0.0
+        with:
+          python-version: '3.12'
+
+      - name: Unit tests (cheap, and they guard the parser)
+        run: python -m unittest discover -s tests -t .
+
+      - name: Collect, check, report
+        id: collect
+        env:
+          SLACK_WEBHOOK_URL: ${{ secrets.SLACK_WEBHOOK_URL }}   # optional: without it nothing is sent
+          FORCE_URLS: ${{ inputs.force_urls }}
+          ABUSECH_AUTH_KEY: ${{ secrets.ABUSECH_AUTH_KEY }}   # ThreatFox exports require it; redacted from every error message
+        run: |
+          if [ "$FORCE_URLS" = "true" ]; then python -m watchtower --force-urls; else python -m watchtower; fi
+
+      - name: Commit and push (only what changed)
+        if: ${{ !cancelled() }}
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A
+          if git diff --cached --quiet; then echo "Nothing changed."; exit 0; fi
+          git commit -m "Collect $(date -u +'%Y-%m-%d %H:%M') UTC"
+          for attempt in 1 2 3; do
+            if git push; then exit 0; fi
+            echo "Push rejected (attempt $attempt): rebasing and retrying"
+            git pull --rebase --autostash
+            sleep $((attempt * 5))
+          done
+          echo "::error::Could not push after 3 attempts"; exit 1
+
+      - name: Tell Slack when the job itself broke
+        if: ${{ failure() && steps.collect.outcome == 'failure' }}
+        env:
+          SLACK_WEBHOOK_URL: ${{ secrets.SLACK_WEBHOOK_URL }}
+        run: |
+          # The script already posts its own report for failed data checks; this covers crashes before it could.
+          [ -z "$SLACK_WEBHOOK_URL" ] && exit 0
+          curl -fsS -m 20 -X POST -H 'Content-Type: application/json' \
+            --data "{\"text\":\"Intel WatchTower: collection run failed. ${GITHUB_SERVER_URL}/${GITHUB_REPOSITORY}/actions/runs/${GITHUB_RUN_ID}\"}" \
+            "$SLACK_WEBHOOK_URL" || true
