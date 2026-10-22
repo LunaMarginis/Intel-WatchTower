@@ -84,6 +84,39 @@ def iocs_json(summary: dict) -> str:
     return json.dumps(summary, indent=1, sort_keys=True, default=str) + "\n"
 
 
+# What may leave the private data folder: counts, rankings, trends, health. Every key is listed on purpose; a field added to the state later stays private until it is added here.
+PUBLIC_HASHES = ("in_export", "new_this_run", "last24h", "last7", "archive_total", "families_in_export", "window_hours", "newest_age_hours", "confidence", "spark", "daily", "threat_types")
+PUBLIC_FAMILY = ("family", "key", "count", "previous", "aliases", "first_seen", "last_seen", "confidence", "daily")
+PUBLIC_URLS = ("total", "online", "offline", "online_share", "added_24h", "added_7d", "new_since_last", "bare_ip_share", "bare_ip_online", "unique_hosts", "unique_online_hosts", "unique_domains", "unique_ips",
+               "untagged", "window_days", "newest_age_hours", "spark", "daily", "tags", "tags_online", "tag_combos", "risers", "platforms", "platforms_online", "platform_share", "platform_urls", "extensions", "threats")
+PUBLIC_INFRA = ("in_export", "new_this_run", "last24h", "last7", "c2_7d", "other_7d", "newest_age_hours", "spark", "daily", "families", "families_c2", "ports", "types")
+PUBLIC_RESULT_KEYS = ("name", "status", "detail")
+
+
+def _pick(src, keys):
+    return {k: src[k] for k in keys if k in src}
+
+
+def public_checks(checks: list[dict]) -> list[dict]:
+    """The checks as they may be published: a rejected-row detail ends with an example value from the feed ("e.g. not a domain: …"), which is an indicator: cut it."""
+    out = []
+    for c in checks:
+        c = _pick(c, PUBLIC_RESULT_KEYS)
+        c["detail"] = re.split(r",? e\.g\. ", str(c.get("detail", "")), maxsplit=1)[0]
+        out.append(c)
+    return out
+
+
+def public_summary(state: dict) -> str:
+    """summary.json for the public repository: the numbers behind the public README, with no indicator, host, sample hash, reporter name or feed content."""
+    h, u, i = state.get("hashes") or {}, state.get("urls"), state.get("infra")
+    out = {"at": state.get("at"), "status": state.get("status"), "version": state.get("version"), "urls_at": state.get("urls_at"), "checks": public_checks(state.get("checks") or []),
+           "hashes": {**_pick(h, PUBLIC_HASHES), "families": [_pick(f, PUBLIC_FAMILY) for f in h.get("families", [])]},
+           "urls": _pick(u, PUBLIC_URLS) if u else None,
+           "infra": ({"domains": _pick(i["domains"], PUBLIC_INFRA) if i.get("domains") else None, "ips": _pick(i["ips"], PUBLIC_INFRA) if i.get("ips") else None, "overlap_total": i.get("overlap_total", 0)} if i else None)}
+    return json.dumps(out, indent=1, sort_keys=True, default=str) + "\n"
+
+
 SAFE = re.compile(r"[^A-Za-z0-9 ._:+/@()#-]")
 
 

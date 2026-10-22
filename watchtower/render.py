@@ -6,7 +6,7 @@ from __future__ import annotations
 
 from .analyze import arrow
 from .checks import ICON, PASS, WARN, FAIL
-from .export import SIGNATURE, safe_text
+from .export import SIGNATURE, public_checks, safe_text
 from .parse import defang_host
 
 REPO = "https://github.com/LunaMarginis/Intel-WatchTower"
@@ -217,7 +217,7 @@ def public_readme(state: dict) -> str:
         s += "\n## 🔗 Malware URLs\n\n" + url_section(u, False, True)
     if state.get("infra"):
         s += "\n## 🛰️ Command-and-control infrastructure\n\nDomains and IP addresses reported to ThreatFox, with the malware family behind them (counts only).\n\n" + infra_section(state["infra"], False, True)
-    s += "\n## Data health\n\n" + checks_table(state["checks"])
+    s += "\n## Data health\n\n" + checks_table(public_checks(state["checks"]))
     s += "\n## How this works\n" + PUBLIC_METHOD + "\n" + TERMS + f"\n\n_{SIGNATURE}._\n"
     return s
 

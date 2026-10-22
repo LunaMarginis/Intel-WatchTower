@@ -89,6 +89,17 @@ ALLOWED_LINKS = ("https://github.com/LunaMarginis/", "https://threatfox.abuse.ch
                  "https://img.shields.io", "https://stix2.readthedocs.io", "https://oasis-open.github.io", "https://creativecommons.org")
 
 
+PUBLIC_IOC = re.compile(r"\b[a-fA-F0-9]{32,64}\b|\b(?:\d{1,3}\.){3}\d{1,3}\b|\[\.\]")
+
+
+def public_clean(name: str, text: str) -> Check:
+    """Nothing in a file for the public repository may look like an indicator: no hash, no IPv4 address, no defanged host."""
+    m = PUBLIC_IOC.search(text)
+    if m:
+        return Check(f"public output: {name}", FAIL, f"indicator-like text at offset {m.start()} ({m.group()[:12]!r}...): nothing new was published")
+    return Check(f"public output: {name}", PASS, "no hashes, addresses or hosts")
+
+
 def defanged(name: str, text: str) -> Check:
     """Nothing published may contain a clickable malicious URL: every http(s):// must be one of our own documentation links."""
     bad = [m.start() for m in LIVE_URL.finditer(text) if not text[m.start():].startswith(ALLOWED_LINKS)]

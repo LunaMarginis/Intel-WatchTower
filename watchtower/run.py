@@ -28,7 +28,7 @@ def _blocked(label: str, cs: list[C.Check]) -> bool:
     return any(c.status == C.FAIL and c.name.startswith(label + ":") and any(b in c.name for b in BLOCKING) for c in cs)
 
 
-def run(root: Path, *, offline: Path | None = None, now: datetime | None = None, force_urls: bool = False, slack_url: str = "", summary_path: str = "", public_readme: Path | None = None, report_base: str = render.DATA_REPO, log=print) -> int:
+def run(root: Path, *, offline: Path | None = None, now: datetime | None = None, force_urls: bool = False, slack_url: str = "", summary_path: str = "", public_readme: Path | None = None, public_summary: Path | None = None, report_base: str = render.DATA_REPO, log=print) -> int:
     now = now or store.utcnow()
     root.mkdir(parents=True, exist_ok=True)
     prev_path = root / "feeds" / "iocs.json"
@@ -176,7 +176,10 @@ def run(root: Path, *, offline: Path | None = None, now: datetime | None = None,
         rendered = {root / "README.md": render.readme(state, files), root / report_path: render.report(state, files)}
         if public_readme:   # aggregates only: the one file that may leave the private data folder
             rendered[public_readme] = render.public_readme(state)
+        if public_summary:
+            rendered[public_summary] = export.public_summary(state)
         safety = [C.defanged(p.name, t) for p, t in {**writes, **rendered}.items() if p.suffix in (".md", ".txt", ".csv", ".jsonl")]
+        safety += [C.public_clean(p.name, rendered[p]) for p in (public_readme, public_summary) if p]
         cs[:] = [c for c in cs if not c.name.startswith("output safety")]
         bad = [c for c in safety if c.status == C.FAIL]
         if bad:
@@ -278,6 +281,7 @@ def main(argv: list[str] | None = None) -> int:
     p.add_argument("--offline", help="folder with tf.csv and uh.csv to use instead of downloading (tests, local trials)")
     p.add_argument("--force-urls", action="store_true", help="refresh the URL export even if it is not due")
     p.add_argument("--public-readme", help="also write a README with aggregates only (no indicators) to this path, for the public repository")
+    p.add_argument("--public-summary", help="also write summary.json (aggregates only, for dashboards such as ThreatDesk) to this path, for the public repository")
     p.add_argument("--now", help="pretend it is this UTC time (ISO), for tests")
     p.add_argument("--no-slack", action="store_true")
     a = p.parse_args(argv)
@@ -287,7 +291,8 @@ def main(argv: list[str] | None = None) -> int:
     now = datetime.fromisoformat(a.now).astimezone(timezone.utc) if a.now else None
     return run(Path(a.root).resolve(), offline=Path(a.offline) if a.offline else None, now=now, force_urls=a.force_urls,
                slack_url="" if a.no_slack else os.environ.get("SLACK_WEBHOOK_URL", ""), summary_path=os.environ.get("GITHUB_STEP_SUMMARY", ""),
-               public_readme=Path(a.public_readme).resolve() if a.public_readme else None, report_base=os.environ.get("REPORT_BASE_URL", render.DATA_REPO))
+               public_readme=Path(a.public_readme).resolve() if a.public_readme else None,
+               public_summary=Path(a.public_summary).resolve() if a.public_summary else None, report_base=os.environ.get("REPORT_BASE_URL", render.DATA_REPO))
 
 
 if __name__ == "__main__":

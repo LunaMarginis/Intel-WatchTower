@@ -414,11 +414,33 @@ class EndToEndTests(unittest.TestCase):
         text = pub.read_text(encoding="utf-8")
         self.assertIn("Top malware families", text)
         self.assertIn("12 hours", text)
-        self.assertNotRegex(text, r"[a-f0-9]{32}", "an MD5 leaked into the public README")
+        self.assertNotRegex(text, r"\b[a-f0-9]{32}\b", "an MD5 leaked into the public README")
         for banned in ("[.]", "<details", "/blob/main/", "feeds/", "indicators/", "Top reporters", "Busiest", "Newest entries", "Reporter1", "reporter1"):
             self.assertNotIn(banned, text)
         self.assertIn("Top reporters", (self.root / "README.md").read_text(encoding="utf-8"))   # the private README keeps the detail
         self.assertNotIn("Intel-WatchTower/blob", (self.root / "README.md").read_text(encoding="utf-8").replace("Intel-WatchTower-data/blob", ""))
+
+
+    def test_public_summary_is_aggregates_only(self):
+        import re
+        out = self.root.parent / "public"
+        self._run(self.root, self.off, public_readme=out / "README.md", public_summary=out / "summary.json")
+        text = (out / "summary.json").read_text(encoding="utf-8")
+        s = json.loads(text)
+        self.assertEqual(set(s), {"at", "status", "version", "urls_at", "checks", "hashes", "urls", "infra"})
+        self.assertTrue(s["hashes"]["families"] and s["hashes"]["in_export"] > 0 and s["urls"]["total"] > 0)
+        self.assertNotRegex(text, r"\b[a-f0-9]{32}\b")
+        self.assertNotRegex(text, r"\b(?:\d{1,3}\.){3}\d{1,3}\b")
+        for banned in ("sample", "reporters", "hosts", "domains", "ips", "recent", "overlap\"", "[.]"):
+            self.assertNotIn(f'"{banned}"' if banned.isalpha() else banned, text)
+        self.assertTrue(all(set(c) <= {"name", "status", "detail"} for c in s["checks"]))
+
+    def test_public_output_guard_and_check_details(self):
+        self.assertEqual(C.public_clean("x", "counts only: 12 hashes, 3 families").status, C.PASS)
+        for leak in ("md5 " + md5(7), "host 203.0.113.9", "bad[.]example"):
+            self.assertEqual(C.public_clean("x", leak).status, C.FAIL, leak)
+        cleaned = export.public_checks([{"name": "threatfox: values valid", "status": "warn", "detail": "2 rows rejected, e.g. not a domain: 'x.example'", "extra": "drop"}])
+        self.assertEqual(cleaned, [{"name": "threatfox: values valid", "status": "warn", "detail": "2 rows rejected"}])
 
 
 class AuthenticatedExportTests(unittest.TestCase):

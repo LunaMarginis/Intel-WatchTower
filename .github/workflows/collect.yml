@@ -58,7 +58,7 @@ jobs:
           FORCE_URLS: ${{ inputs.force_urls }}
           ABUSECH_AUTH_KEY: ${{ secrets.ABUSECH_AUTH_KEY }}   # ThreatFox exports require it; redacted from every error message
         run: |
-          if [ "$FORCE_URLS" = "true" ]; then python -m watchtower --root data --public-readme README.md --force-urls; else python -m watchtower --root data --public-readme README.md; fi
+          if [ "$FORCE_URLS" = "true" ]; then python -m watchtower --root data --public-readme README.md --public-summary summary.json --force-urls; else python -m watchtower --root data --public-readme README.md --public-summary summary.json; fi
 
       - name: Commit and push the private data
         if: ${{ !cancelled() }}
@@ -82,7 +82,7 @@ jobs:
         run: |
           git config user.name  "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add README.md
+          git add README.md summary.json
           if git diff --cached --quiet; then echo "Nothing changed."; exit 0; fi
           git commit -m "Update summary $(date -u +'%Y-%m-%d %H:%M') UTC"
           for attempt in 1 2 3; do
