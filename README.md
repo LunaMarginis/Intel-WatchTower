@@ -4,7 +4,7 @@ Daily malware intelligence from abuse.ch: what is new, who is behind it, and whe
 
 ![collect](https://github.com/LunaMarginis/Intel-WatchTower/actions/workflows/collect.yml/badge.svg)
 
-**Last run:** 2026-10-21 21:39 UTC · **Health:** ❌ **3 check(s) failed**: the affected data was kept from the previous good run.
+**Last run:** 2026-10-22 04:38 UTC · **Health:** ❌ **3 check(s) failed**: the affected data was kept from the previous good run.
 
 ## At a glance
 
@@ -28,16 +28,16 @@ Unique MD5 hashes first reported in the last 7 days, against the 7 days before.
 
 | # | Family | Hashes (7 d) | vs previous 7 d | Per day | First seen (UTC) | Confidence | Also known as |
 |---|---|---|---|---|---|---|---|
-| 1 | **Raven Stealer** | 18 | 🆕 new | `▁▁█▁▁▄▁` | 10-17 15:32 | 95% | – |
-| 2 | **SalatStealer** | 14 | 🆕 new | `▁▁█▁▇█▁` | 10-17 15:32 | 95% | – |
-| 3 | **Formbook** | 12 | 🆕 new | `▁▁▁▁██▁` | 10-19 08:12 | 95% | win.xloader |
-| 4 | **Venus Stealer** | 12 | 🆕 new | `▁▁▅▆▆█▁` | 10-17 15:32 | 95% | – |
-| 5 | **Coinminer** | 10 | 🆕 new | `▁▁▅▃█▆▁` | 10-17 15:33 | 95% | – |
-| 6 | **RN Stealer** | 9 | 🆕 new | `▁▁▁▃█▁▁` | 10-18 06:28 | 95% | – |
-| 7 | **ValleyRAT** | 9 | 🆕 new | `▁▁█▅▅▃▁` | 10-17 15:32 | 95% | Winos |
-| 8 | **Vidar** | 9 | 🆕 new | `▁▁█▁▁▅▁` | 10-17 15:32 | 95% | – |
-| 9 | **Prometei** | 8 | 🆕 new | `▁▁▁▁▃█▁` | 10-19 08:12 | 95% | – |
-| 10 | **CrossRAT** | 7 | 🆕 new | `▁▁▃▁██▁` | 10-17 15:32 | 95% | Trupto |
+| 1 | **Raven Stealer** | 18 | 🆕 new | `▁█▁▁▄▁▁` | 10-17 15:32 | 95% | – |
+| 2 | **SalatStealer** | 14 | 🆕 new | `▁█▁▇█▁▁` | 10-17 15:32 | 95% | – |
+| 3 | **Formbook** | 12 | 🆕 new | `▁▁▁██▁▁` | 10-19 08:12 | 95% | win.xloader |
+| 4 | **Venus Stealer** | 12 | 🆕 new | `▁▅▆▆█▁▁` | 10-17 15:32 | 95% | – |
+| 5 | **Coinminer** | 10 | 🆕 new | `▁▅▃█▆▁▁` | 10-17 15:33 | 95% | – |
+| 6 | **RN Stealer** | 9 | 🆕 new | `▁▁▃█▁▁▁` | 10-18 06:28 | 95% | – |
+| 7 | **ValleyRAT** | 9 | 🆕 new | `▁█▅▅▃▁▁` | 10-17 15:32 | 95% | Winos |
+| 8 | **Vidar** | 9 | 🆕 new | `▁█▁▁▅▁▁` | 10-17 15:32 | 95% | – |
+| 9 | **Prometei** | 8 | 🆕 new | `▁▁▁▃█▁▁` | 10-19 08:12 | 95% | – |
+| 10 | **CrossRAT** | 7 | 🆕 new | `▁▃▁██▁▁` | 10-17 15:32 | 95% | Trupto |
 
 <details><summary>Raven Stealer: 18 hashes (latest 10 shown)</summary>
 
@@ -191,7 +191,7 @@ c23328926e8545b746664890921ff091
 ```
 </details>
 
-**New hashes per day, last 14 days:** `▁▁▁▁▁▁▁▁▁█▃██▁` (today 1, busiest day 56).
+**New hashes per day, last 14 days:** `▁▁▁▁▁▁▁▁█▃██▁▁` (today 0, busiest day 56).
 
 **Threat types:** payload 183  
 **Top reporters (7 d):** Grim 181, Tomer56 1, anonymous 1  
