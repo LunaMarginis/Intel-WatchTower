@@ -407,6 +407,20 @@ class EndToEndTests(unittest.TestCase):
         self.assertNotIn("<script", text)
 
 
+    def test_public_readme_has_aggregates_only(self):
+        import re
+        pub = self.root.parent / "public" / "README.md"
+        self._run(self.root, self.off, public_readme=pub)
+        text = pub.read_text(encoding="utf-8")
+        self.assertIn("Top malware families", text)
+        self.assertIn("12 hours", text)
+        self.assertNotRegex(text, r"[a-f0-9]{32}", "an MD5 leaked into the public README")
+        for banned in ("[.]", "<details", "/blob/main/", "feeds/", "indicators/", "Top reporters", "Busiest", "Newest entries", "Reporter1", "reporter1"):
+            self.assertNotIn(banned, text)
+        self.assertIn("Top reporters", (self.root / "README.md").read_text(encoding="utf-8"))   # the private README keeps the detail
+        self.assertNotIn("Intel-WatchTower/blob", (self.root / "README.md").read_text(encoding="utf-8").replace("Intel-WatchTower-data/blob", ""))
+
+
 class AuthenticatedExportTests(unittest.TestCase):
     def test_select_type_keeps_one_type_inside_the_window(self):
         dom = ", ".join(f'"{v}"' for v in ((NOW - timedelta(days=1)).strftime("%Y-%m-%d %H:%M:%S"), 1, "c2.example.net", "domain", "botnet_cc", "win.vidar", "None", "Vidar", "None", 90, 0, "None", "None", 0, "r"))

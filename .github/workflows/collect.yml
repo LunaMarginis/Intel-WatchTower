@@ -1,10 +1,11 @@
 name: Collect
 
-# Every 6 hours. The ThreatFox export covers only a short window, so a daily run (as before) lost hashes that came and went in between.
+# Every 12 hours. The authenticated ThreatFox dump holds 6 months and we keep the last 7 days of it, so nothing is lost between runs, and
+# two downloads a day stay well inside abuse.ch's query limits.
 # The big URLhaus export is refreshed by the script itself about once a day, not on every run.
 on:
   schedule:
-    - cron: '17 */6 * * *'   # off the hour: GitHub's queue is busiest at :00
+    - cron: '17 */12 * * *'  # off the hour: GitHub's queue is busiest at :00
   workflow_dispatch:
     inputs:
       force_urls:
@@ -32,6 +33,16 @@ jobs:
         with:
           persist-credentials: true
 
+      # The indicators, feeds and full reports live in a private repository (abuse.ch's terms do not grant a right to republish them).
+      # This public repository only receives the aggregates-only README.
+      - name: Checkout private data repository
+        uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1  # v7.0.1
+        with:
+          repository: LunaMarginis/Intel-WatchTower-data
+          ssh-key: ${{ secrets.DATA_REPO_DEPLOY_KEY }}   # deploy key with write access to that one repository only
+          path: data
+          persist-credentials: true
+
       - name: Set up Python
         uses: actions/setup-python@5fda3b95a4ea91299a34e894583c3862153e4b97  # v7.0.0
         with:
@@ -47,10 +58,11 @@ jobs:
           FORCE_URLS: ${{ inputs.force_urls }}
           ABUSECH_AUTH_KEY: ${{ secrets.ABUSECH_AUTH_KEY }}   # ThreatFox exports require it; redacted from every error message
         run: |
-          if [ "$FORCE_URLS" = "true" ]; then python -m watchtower --force-urls; else python -m watchtower; fi
+          if [ "$FORCE_URLS" = "true" ]; then python -m watchtower --root data --public-readme README.md --force-urls; else python -m watchtower --root data --public-readme README.md; fi
 
-      - name: Commit and push (only what changed)
+      - name: Commit and push the private data
         if: ${{ !cancelled() }}
+        working-directory: data
         run: |
           git config user.name  "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
@@ -63,7 +75,23 @@ jobs:
             git pull --rebase --autostash
             sleep $((attempt * 5))
           done
-          echo "::error::Could not push after 3 attempts"; exit 1
+          echo "::error::Could not push the data after 3 attempts"; exit 1
+
+      - name: Commit and push the public README (aggregates only)
+        if: ${{ !cancelled() }}
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add README.md
+          if git diff --cached --quiet; then echo "Nothing changed."; exit 0; fi
+          git commit -m "Update summary $(date -u +'%Y-%m-%d %H:%M') UTC"
+          for attempt in 1 2 3; do
+            if git push; then exit 0; fi
+            echo "Push rejected (attempt $attempt): rebasing and retrying"
+            git pull --rebase --autostash
+            sleep $((attempt * 5))
+          done
+          echo "::error::Could not push the README after 3 attempts"; exit 1
 
       - name: Tell Slack when the job itself broke
         if: ${{ failure() && steps.collect.outcome == 'failure' }}
