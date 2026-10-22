@@ -10,6 +10,7 @@ from .export import SIGNATURE, safe_text
 from .parse import defang_host
 
 REPO = "https://github.com/LunaMarginis/Intel-WatchTower"
+DATA_REPO = REPO + "-data"   # private: the indicators, feeds and full reports live there
 HEAD_ICON = {PASS: "✅", WARN: "⚠️", FAIL: "❌"}
 
 
@@ -50,7 +51,7 @@ def health_line(state: dict) -> str:
 
 # ---------------------------------------------------------------- sections
 
-def infra_section(i: dict, long: bool) -> str:
+def infra_section(i: dict, long: bool, public: bool = False) -> str:
     """ThreatFox command-and-control and delivery infrastructure (domains and IP addresses), and what also serves malware in URLhaus."""
     d, p = i.get("domains"), i.get("ips")
     if not d and not p:
@@ -69,10 +70,12 @@ def infra_section(i: dict, long: bool) -> str:
     if p and p["ports"]:
         out += "**Most reported ports:** " + ", ".join(f"{pt} ({n(c)})" for pt, c in p["ports"][:8]) + "  \n"
     recent = [(("domain", x) if part is d else ("ip", x)) for part in (d, p) if part for x in part["recent"][: 6 if long else 4]]
-    if recent:
+    if recent and not public:
         out += "\n#### Newest entries\n\n" + table(["Kind", "Entry (defanged)", "Family", "Type", "First reported"],
                                                     [[k, f"`{defang_host(cell(x['value'], 60))}`" + (f" ports {','.join(str(q) for q in x['ports'])}" if x.get("ports") else ""), cell(x["family"], 30), cell(x["type"], 20), when(x["seen"])] for k, x in recent])
     ov = i.get("overlap") or []
+    if public:
+        return out + f"\n**Also serving malware in URLhaus:** {n(i.get('overlap_total', len(ov)))} entries (the list itself is not published).\n"
     out += f"\n#### Also serving malware in URLhaus ({n(i.get('overlap_total', len(ov)))})\n\n"
     if ov:
         out += "Infrastructure that ThreatFox reports **and** that URLhaus sees hosting malware URLs: the strongest leads.\n\n" + table(
@@ -115,18 +118,19 @@ def _spark(values: list[int]) -> str:
     return sparkline(values)
 
 
-def hash_extras(h: dict) -> str:
+def hash_extras(h: dict, public: bool = False) -> str:
     out = f"**New hashes per day, last 14 days:** `{h['spark']}` (today {h['daily'][-1][1]}, busiest day {max(c for _, c in h['daily'])}).\n\n"
     out += "**Threat types:** " + (", ".join(f"{cell(k)} {n(v)}" for k, v in h["threat_types"]) or "n/a") + "  \n"
     c = h["confidence"]
     out += f"**Reporter confidence in the latest export:** {c['min']}–{c['max']}% (average {c['avg']}%)  \n" if c else ""
-    out += "**Top reporters (7 d):** " + (", ".join(f"{cell(k)} {n(v)}" for k, v in h["reporters"]) or "n/a") + "  \n"
+    if not public:
+        out += "**Top reporters (7 d):** " + (", ".join(f"{cell(k)} {n(v)}" for k, v in h["reporters"]) or "n/a") + "  \n"
     if h["tags"]:
         out += "**Tags (7 d):** " + ", ".join(f"{cell(k)} {n(v)}" for k, v in h["tags"]) + "  \n"
     return out + f"\n_Archive: {n(h['archive_total'])} hashes collected so far (kept up to 400 days)._\n"
 
 
-def url_section(u: dict, long: bool) -> str:
+def url_section(u: dict, long: bool, public: bool = False) -> str:
     rows = []
     for tag, count in u["tags"][: 10 if long else 8]:
         on = dict(u["tags_online"]).get(tag)
@@ -140,13 +144,15 @@ def url_section(u: dict, long: bool) -> str:
     out += f"\n**Most common tag combinations:** {combos or 'n/a'}\n"
     out += f"\n**Where it is hosted:** {u['bare_ip_share']}% of URLs sit on a bare IP address; {n(u['unique_hosts'])} different hosts, {n(u['unique_online_hosts'])} serving malware right now.  \n"
     out += f"**Abused platforms:** {u.get('platform_share', 0)}% of URLs sit on shared platforms: " + (", ".join(f"{cell(p, 30)} {n(c)}" for p, c in u.get("platforms", [])[:6]) or "none") + "  \n"
-    top = lambda pairs: ", ".join(f"`{defang_host(cell(h, 50))}` {n(c)}" for h, c in pairs[:6]) or "n/a"
-    out += f"**Busiest domains** (platforms left out; {n(u.get('unique_domains', 0))} different): " + top(u.get("domains", [])) + "  \n"
-    out += f"**Busiest IP addresses** ({n(u.get('unique_ips', 0))} different): " + top(u.get("ips", [])) + "  \n"
-    out += "**Online right now, busiest domains:** " + top(u.get("domains_online", [])) + "  \n"
-    out += "**Online right now, busiest IP addresses:** " + top(u.get("ips_online", [])) + "  \n"
+    if not public:
+        top = lambda pairs: ", ".join(f"`{defang_host(cell(h, 50))}` {n(c)}" for h, c in pairs[:6]) or "n/a"
+        out += f"**Busiest domains** (platforms left out; {n(u.get('unique_domains', 0))} different): " + top(u.get("domains", [])) + "  \n"
+        out += f"**Busiest IP addresses** ({n(u.get('unique_ips', 0))} different): " + top(u.get("ips", [])) + "  \n"
+        out += "**Online right now, busiest domains:** " + top(u.get("domains_online", [])) + "  \n"
+        out += "**Online right now, busiest IP addresses:** " + top(u.get("ips_online", [])) + "  \n"
     out += "**File types:** " + ", ".join(f"{cell(e, 10)} {n(c)}" for e, c in u["extensions"][:8]) + "  \n"
-    out += "**Top reporters:** " + ", ".join(f"{cell(k)} {n(v)}" for k, v in u["reporters"][:5]) + "\n"
+    if not public:
+        out += "**Top reporters:** " + ", ".join(f"{cell(k)} {n(v)}" for k, v in u["reporters"][:5]) + "\n"
     out += "\n_Platforms such as GitHub, Discord or Dropbox are counted apart: attackers abuse them, so a URL there says nothing about where the attacker is, and they must not be blocked because of this list._\n"
     return out
 
@@ -155,24 +161,36 @@ def checks_table(checks: list[dict]) -> str:
     return table(["", "Check", "Result"], [[ICON[c["status"]], f"`{c['name']}`", cell(c["detail"], 160)] for c in checks])
 
 
-def files_table(files: list[dict]) -> str:
-    return table(["File", "What it holds", "Rows", "Size"], [[f"[`{f['path']}`]({REPO}/blob/main/{f['path']})", f["what"], n(f["rows"]) if f["rows"] is not None else "–", f"{n(round(f['size'] / 1024))} KB" if f["size"] else "–"] for f in files])
+def files_table(files: list[dict], base: str = DATA_REPO) -> str:
+    return table(["File", "What it holds", "Rows", "Size"], [[f"[`{f['path']}`]({base}/blob/main/{f['path']})", f["what"], n(f["rows"]) if f["rows"] is not None else "–", f"{n(round(f['size'] / 1024))} KB" if f["size"] else "–"] for f in files])
 
 
 METHOD = f"""
-- **Runs** every 6 hours on GitHub Actions. GitHub may start a scheduled run a few hours late; the times above are when it really ran.
-- **Hashes** come from the ThreatFox "recent MD5" export, which covers only a short window (see "Period the export covers"). Every run adds the new hashes to
+- **Runs** every 12 hours on GitHub Actions. GitHub may start a scheduled run a few hours late; the times above are when it really ran.
+- **Hashes** come from the authenticated ThreatFox export (one download per run, filtered to the last 7 days). Every run adds the new hashes to
   the daily files in `indicators/hashes/`, so nothing that appeared between two runs is lost and the 7-day figures are real 7-day figures.
 - **URLs** come from the URLhaus "recent" export (about 30 days). It is large, so it is refreshed once a day.
-- **Infrastructure** (command-and-control and delivery domains, and IP addresses with their ports) comes from the ThreatFox "recent" domain and ip:port exports on every run. Entries that URLhaus also sees serving malware are listed apart: they are the strongest leads.
+- **Infrastructure** (command-and-control and delivery domains, and IP addresses with their ports) comes from the same ThreatFox export on every run. Entries that URLhaus also sees serving malware are listed apart: they are the strongest leads.
 - **Checks** run on every download (format, row counts, freshness, valid values, nothing dropped, no live URLs in anything published). If a check fails, the affected
   data is **not** replaced, the report says so, and the workflow turns red.
 - **Safety:** URLs and hosts are defanged (`[.]`, `[:]`); text from outside is reduced to plain characters before it is written here.
 - **Not verified:** these are community reports to abuse.ch. Treat every entry as a lead, not a verdict. False positives happen, especially for shared hosting.
 """
 
-TERMS = ("Data: [abuse.ch ThreatFox](https://threatfox.abuse.ch/faq/#tos) and [URLhaus](https://urlhaus.abuse.ch/api/). Please read their terms of use before reusing it. "
+TERMS = ("Data: [abuse.ch ThreatFox](https://threatfox.abuse.ch/) and [URLhaus](https://urlhaus.abuse.ch/), used under the abuse.ch [terms of use](https://abuse.ch/terms-of-use/). "
          "This project only collects and summarises it.")
+
+PUBLIC_METHOD = """
+- **Runs** every 12 hours on GitHub Actions, authenticated with a free abuse.ch Auth-Key and within its query limits (one ThreatFox download per run, one URLhaus download a day).
+- **What is published here:** counts, trends and rankings only. The indicators themselves (hashes, hosts, URLs, feeds) are kept in a private repository: abuse.ch's terms
+  do not grant a right to republish them. Get them from the source: [ThreatFox](https://threatfox.abuse.ch/export/) and [URLhaus](https://urlhaus.abuse.ch/api/).
+- **Checks** run on every download (format, row counts, freshness, valid values, nothing dropped). If a check fails, the affected data is **not** replaced and the workflow turns red.
+- **Not verified:** these are community reports to abuse.ch. Treat every figure as a lead, not a verdict. False positives happen, especially for shared hosting.
+"""
+
+PUBLIC_FOOTER = ("**Purpose:** a non-commercial, not-for-profit research and learning project. It is provided as is, without warranty, and may contain false positives: "
+                 "validate before acting on anything. Commercial use of the underlying data needs your own abuse.ch subscription, and the data must not be used to train AI models "
+                 "(abuse.ch terms, section 7.3).")
 
 
 def head(state: dict) -> str:
@@ -195,6 +213,21 @@ def readme(state: dict, files: list[dict]) -> str:
     return s
 
 
+def public_readme(state: dict) -> str:
+    """The README of the public repository: aggregates only. No hash, host, URL, feed link, file list or reporter name can appear in it."""
+    h, u = state["hashes"], state.get("urls")
+    s = head(state) + "\n## At a glance\n\n" + glance(h, u, state.get("urls_at", ""))
+    s += "\n## 🧬 Malware hashes\n\n### Top malware families · last 7 days\n\nUnique MD5 hashes first reported in the last 7 days, against the 7 days before.\n\n" + families(h, 10, False)
+    s += hash_extras(h, True)
+    if u:
+        s += "\n## 🔗 Malware URLs\n\n" + url_section(u, False, True)
+    if state.get("infra"):
+        s += "\n## 🛰️ Command-and-control infrastructure\n\nDomains and IP addresses reported to ThreatFox, with the malware family behind them (counts only).\n\n" + infra_section(state["infra"], False, True)
+    s += "\n## Data health\n\n" + checks_table(state["checks"])
+    s += "\n## How this works\n" + PUBLIC_METHOD + "\n" + TERMS + "\n\n" + PUBLIC_FOOTER + f"\n\n_{SIGNATURE}._\n"
+    return s
+
+
 def report(state: dict, files: list[dict]) -> str:
     """The daily report file (reports/YYYY-MM-DD.md): the dashboard with longer tables."""
     h, u = state["hashes"], state.get("urls")
@@ -210,7 +243,7 @@ def report(state: dict, files: list[dict]) -> str:
 
 # ---------------------------------------------------------------- Slack and the Actions summary
 
-def slack(state: dict, report_path: str) -> dict:
+def slack(state: dict, report_path: str, report_base: str = DATA_REPO) -> dict:
     h, u = state["hashes"], state.get("urls")
     bad = [c for c in state["checks"] if c["status"] != PASS]
     fields = [{"type": "mrkdwn", "text": f"*Hashes in the export*\n{n(h['in_export'])} ({n(h['new_this_run'])} new)"},
@@ -228,7 +261,7 @@ def slack(state: dict, report_path: str) -> dict:
         blocks.append({"type": "section", "text": {"type": "mrkdwn", "text": "*Top URL tags*\n" + "\n".join(f"• {cell(t, 30)}: {n(c)}" for t, c in u["tags"][:3])}})
     health = f"{len(state['checks']) - len(bad)} of {len(state['checks'])} checks passed" + "".join(f"\n{ICON[c['status']]} {cell(c['name'], 50)}: {cell(c['detail'], 100)}" for c in bad[:6])
     blocks.append({"type": "context", "elements": [{"type": "mrkdwn", "text": health}]})
-    blocks.append({"type": "actions", "elements": [{"type": "button", "text": {"type": "plain_text", "text": "Open the report"}, "url": f"{REPO}/blob/main/{report_path}"}]})
+    blocks.append({"type": "actions", "elements": [{"type": "button", "text": {"type": "plain_text", "text": "Open the report"}, "url": f"{report_base}/blob/main/{report_path}"}]})
     blocks.append({"type": "context", "elements": [{"type": "mrkdwn", "text": SIGNATURE}]})
     return {"text": f"Intel WatchTower {state['at'][:10]}: {n(h['in_export'])} hashes, {n(h['last7'])} in 7 days. {len(bad)} warning(s)/failure(s).", "blocks": blocks}
 

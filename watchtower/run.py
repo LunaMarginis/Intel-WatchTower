@@ -28,7 +28,7 @@ def _blocked(label: str, cs: list[C.Check]) -> bool:
     return any(c.status == C.FAIL and c.name.startswith(label + ":") and any(b in c.name for b in BLOCKING) for c in cs)
 
 
-def run(root: Path, *, offline: Path | None = None, now: datetime | None = None, force_urls: bool = False, slack_url: str = "", summary_path: str = "", log=print) -> int:
+def run(root: Path, *, offline: Path | None = None, now: datetime | None = None, force_urls: bool = False, slack_url: str = "", summary_path: str = "", public_readme: Path | None = None, report_base: str = render.DATA_REPO, log=print) -> int:
     now = now or store.utcnow()
     root.mkdir(parents=True, exist_ok=True)
     prev_path = root / "feeds" / "iocs.json"
@@ -174,6 +174,8 @@ def run(root: Path, *, offline: Path | None = None, now: datetime | None = None,
     for _ in range(2):  # second pass: the report shows the safety checks too
         report_path = f"reports/{now.date().isoformat()}.md"
         rendered = {root / "README.md": render.readme(state, files), root / report_path: render.report(state, files)}
+        if public_readme:   # aggregates only: the one file that may leave the private data folder
+            rendered[public_readme] = render.public_readme(state)
         safety = [C.defanged(p.name, t) for p, t in {**writes, **rendered}.items() if p.suffix in (".md", ".txt", ".csv", ".jsonl")]
         cs[:] = [c for c in cs if not c.name.startswith("output safety")]
         bad = [c for c in safety if c.status == C.FAIL]
@@ -193,7 +195,7 @@ def run(root: Path, *, offline: Path | None = None, now: datetime | None = None,
     writes[root / "history" / "runs.jsonl"] = store.history_text(history + [rec])
 
     # ------------------------------------------------------------ write, prune, notify
-    changed = [str(p.relative_to(root)) for p, t in writes.items() if store.write_text(p, t)]
+    changed = [str(p.relative_to(root)) if p.is_relative_to(root) else p.name for p, t in writes.items() if store.write_text(p, t)]
     _prune_reports(root / "reports", now)
     indicators.prune(root, indicators.HASH_DIR, now, indicators.HASH_KEEP_DAYS)
     indicators.prune(root, indicators.URL_DIR, now, indicators.URL_KEEP_DAYS)
@@ -204,7 +206,7 @@ def run(root: Path, *, offline: Path | None = None, now: datetime | None = None,
         with open(summary_path, "a", encoding="utf-8") as f:
             f.write(render.step_summary(state) + "\n")
     if slack_url:
-        _notify(slack_url, render.slack(state, report_path), log)
+        _notify(slack_url, render.slack(state, report_path, report_base), log)
     return 1 if state["status"] == C.FAIL else 0
 
 
@@ -275,6 +277,7 @@ def main(argv: list[str] | None = None) -> int:
     p.add_argument("--root", default=".", help="repository folder (default: current folder)")
     p.add_argument("--offline", help="folder with tf.csv and uh.csv to use instead of downloading (tests, local trials)")
     p.add_argument("--force-urls", action="store_true", help="refresh the URL export even if it is not due")
+    p.add_argument("--public-readme", help="also write a README with aggregates only (no indicators) to this path, for the public repository")
     p.add_argument("--now", help="pretend it is this UTC time (ISO), for tests")
     p.add_argument("--no-slack", action="store_true")
     a = p.parse_args(argv)
@@ -283,7 +286,8 @@ def main(argv: list[str] | None = None) -> int:
             stream.reconfigure(encoding="utf-8", errors="replace")
     now = datetime.fromisoformat(a.now).astimezone(timezone.utc) if a.now else None
     return run(Path(a.root).resolve(), offline=Path(a.offline) if a.offline else None, now=now, force_urls=a.force_urls,
-               slack_url="" if a.no_slack else os.environ.get("SLACK_WEBHOOK_URL", ""), summary_path=os.environ.get("GITHUB_STEP_SUMMARY", ""))
+               slack_url="" if a.no_slack else os.environ.get("SLACK_WEBHOOK_URL", ""), summary_path=os.environ.get("GITHUB_STEP_SUMMARY", ""),
+               public_readme=Path(a.public_readme).resolve() if a.public_readme else None, report_base=os.environ.get("REPORT_BASE_URL", render.DATA_REPO))
 
 
 if __name__ == "__main__":
