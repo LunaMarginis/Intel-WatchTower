@@ -1,0 +1,1930 @@
+ioc_value,fk_malware,malware_alias,malware_printable,count
+0070ac173a50201adae1dd3fc74d778d,win.agendacrypt,"Agenda,Qilin",AgendaCrypt,1
+008e16d7c85afe9ce07e60e784b51409,win.agendacrypt,"Agenda,Qilin",AgendaCrypt,1
+00b61ee4c9907cb2dc9daadeacaa3e05,win.agent_tesla,"AgenTesla,AgentTesla,Negasteal",Agent Tesla,1
+00dee4b7bc493f6c89e9e5dc9467f892,win.phorpiex,"Tldr,Trik,TwizT,phorphiex",Phorpiex,1
+00e6550efbb39731ffca412808163435,win.netwire,"NetWeird,NetWire,Recam",NetWire RC,1
+0118a16faa4084c5240bf741342d47d4,win.netwire,"NetWeird,NetWire,Recam",NetWire RC,1
+013081a63b3561182855875975b849ea,win.agent_tesla,"AgenTesla,AgentTesla,Negasteal",Agent Tesla,1
+01401ba0315a6fbb4d21672a47c5fa7a,win.valley_rat,Winos,ValleyRAT,1
+01498deabb5500164c89021f8ff6d330,win.wannacryptor,"Wana Decrypt0r,WannaCry,WannaCrypt,Wcry",WannaCryptor,1
+016b642c77e8ee87b4faf0b0e507e15d,win.netwire,"NetWeird,NetWire,Recam",NetWire RC,1
+016fc23a8337a322ffdc0f850efa7a7f,win.mydoom,"Novarg,Mimail",MyDoom,1
+017d1815c562d887c711c3d5f9ca3cfa,win.agent_tesla,"AgenTesla,AgentTesla,Negasteal",Agent Tesla,1
+018669315fa61b7c7a64c8298abd5971,win.netwire,"NetWeird,NetWire,Recam",NetWire RC,1
+019a454a178d7c22cb9770d5722c1873,win.valley_rat,Winos,ValleyRAT,1
+01af93c099eda51a2b46fb2108fc1e2a,win.njrat,"Bladabindi,Lime-Worm",NjRAT,1
+0219119358e259a2e35ebdc8895e3301,win.formbook,win.xloader,Formbook,1
+026286f87e3719a78ade47685a01e31d,win.valley_rat,Winos,ValleyRAT,1
+0268fde13e99c555ed4a4c6ef193b9ea,win.njrat,"Bladabindi,Lime-Worm",NjRAT,1
+02729d88a009fbfd895cf9b5395ff8bb,win.tinymet,TiniMet,TinyMet,1
+029d8159751de5f6faabe86b4f7b5077,win.phorpiex,"Tldr,Trik,TwizT,phorphiex",Phorpiex,1
+02c0815166a1a7820b8783dbaa6fc814,jar.crossrat,Trupto,CrossRAT,1
+030e102f57811427fbeef4c6973d0fbb,win.nanocore,"Nancrat,NanoCore",Nanocore RAT,1
+031afabe40a283955c88f0fb08383729,win.netwire,"NetWeird,NetWire,Recam",NetWire RC,1
+033d74de3af349ec369a254ac7fd7838,win.nanocore,"Nancrat,NanoCore",Nanocore RAT,1
+036227aa4ccacd6153de68143e02f001,win.nanocore,"Nancrat,NanoCore",Nanocore RAT,1
+038112c489a65525aaa6c2ede6c33c2a,jar.crossrat,Trupto,CrossRAT,1
+03a7ac64c9d997bf0743e8a1917e9836,win.dcrat,DarkCrystal RAT,DCRat,1
+03b9887dee2c3c825b6a6c0df1d104ad,win.akira,REDBIKE,Akira,1
+03cb33627da52aaa5577091bc1823f8b,win.agendacrypt,"Agenda,Qilin",AgendaCrypt,1
+03eab261035725ffbc1f1a1ac9fc5631,win.agent_tesla,"AgenTesla,AgentTesla,Negasteal",Agent Tesla,1
+041b9932fac174dbb4ae9a884170e590,win.netwire,"NetWeird,NetWire,Recam",NetWire RC,1
+0433de72013e991a30c62cca38146e55,win.nanocore,"Nancrat,NanoCore",Nanocore RAT,1
+048f5b7440b085874c751745877cbaa2,win.njrat,"Bladabindi,Lime-Worm",NjRAT,1
+048f9479bf9e79c486bd4b6a527f6025,win.netwire,"NetWeird,NetWire,Recam",NetWire RC,1
+04c0bc2f1ea0e0fb5963812a0d27d6f6,win.valley_rat,Winos,ValleyRAT,1
+04d409feacf8e8025263b0c3339f27d3,win.dcrat,DarkCrystal RAT,DCRat,1
+04e3a5e74513b7cc7eb540940299806e,win.valley_rat,Winos,ValleyRAT,1
+04f340ede96f607f310a9ca67370a5e5,win.nanocore,"Nancrat,NanoCore",Nanocore RAT,1
+04f690ebbefd721c72f79d60dc6dc72b,win.njrat,"Bladabindi,Lime-Worm",NjRAT,1
+04fd284fa9214d5adca4d6adfac7b42f,jar.crossrat,Trupto,CrossRAT,1
+0526be67da8581b2acf18d065db0f899,win.formbook,win.xloader,Formbook,1
+05272dc625735d8725f47aba527df940,win.netwire,"NetWeird,NetWire,Recam",NetWire RC,1
+052d8806e24bfac3f48dafdde1c8680e,win.akira,REDBIKE,Akira,1
+0544137574179494761d395005175510,win.akira,REDBIKE,Akira,1
+055b997d5589c2c01799c98752cdde44,jar.crossrat,Trupto,CrossRAT,1
+0561a3921c93fe5913454241362e80e2,win.valley_rat,Winos,ValleyRAT,1
+05792dae1b220b46ea144d9e6700c5c5,win.agendacrypt,"Agenda,Qilin",AgendaCrypt,1
+06152fd52179cf9263e0c201d5d566d6,win.agent_tesla,"AgenTesla,AgentTesla,Negasteal",Agent Tesla,1
+0622a0674df6620c1e54a4180955fb63,win.akira,REDBIKE,Akira,1
+067f471cc6e2dc44e6692912faa70bf9,py.pxa_stealer,"PXAStealer,PXA",PXA Stealer,1
+0689d044737e10bb9764f0e3d07def1f,win.cobalt_strike,"Agentemis,BEACON,CobaltStrike,cobeacon",Cobalt Strike,1
+068aaf5204a66183af150bd087787f79,win.valley_rat,Winos,ValleyRAT,1
+069f2134a0ef7d7c30b1c607d2386c19,win.rokrat,DOGCALL,RokRAT,1
+06ab1af35ab18f2b8e8777b397a2cd4b,win.ghost_rat,"Farfli,Gh0st RAT,PCRat",Ghost RAT,1
+06ade3c98aa2432458f24966509bd9a9,win.akira,REDBIKE,Akira,1
+06ba9a25b7493b4c4340e7f4a9a74230,win.phorpiex,"Tldr,Trik,TwizT,phorphiex",Phorpiex,1
+06e3cf29f80477208fc042fcecba48f0,win.akira,REDBIKE,Akira,1
+06ea1864fc2f4644106cd25b8d4fdbb4,win.dcrat,DarkCrystal RAT,DCRat,1
+07013ad4ee3f650891656fb801449be9,win.netwire,"NetWeird,NetWire,Recam",NetWire RC,1
+0706cd387a4eba2beaf3325911a4957d,win.njrat,"Bladabindi,Lime-Worm",NjRAT,1
+07096260da7d62c70fc17290a7aff587,win.valley_rat,Winos,ValleyRAT,1
+0709e53641829dc93945aece20e2da21,win.formbook,win.xloader,Formbook,1
+075eb78eeae6f23401e6f41a024dc50a,win.formbook,win.xloader,Formbook,1
+077bb61e9d3cc382319c34388faf2065,win.formbook,win.xloader,Formbook,1
+079d47dd089638b90a5741175e15760f,win.valley_rat,Winos,ValleyRAT,1
+07ddbbe2c71c45577a7a4fbcdba0df91,win.valley_rat,Winos,ValleyRAT,1
+07dedb76dbc6b034435227224e2066f9,win.supper,"SocksShell,ZAPCAT",Supper,1
+080e5a2094def756472bef0647b24c7a,win.tinymet,TiniMet,TinyMet,1
+082587256ff1ecbed29ca78dbfee706d,js.kongtuke,"TAG-124,js.LandUpdate808",KongTuke,1
+083316688a2a0e61f45c74a953053f55,win.cobalt_strike,"Agentemis,BEACON,CobaltStrike,cobeacon",Cobalt Strike,1
+08637a5f2fb2789dd0f9e3f186001bed,win.njrat,"Bladabindi,Lime-Worm",NjRAT,1
+0888ad582ea95bd467f51e232af9a07c,win.valley_rat,Winos,ValleyRAT,1
+08a689a9093f3c81904933456f8d3618,win.phorpiex,"Tldr,Trik,TwizT,phorphiex",Phorpiex,1
+08bdbef301eed124e661cf01eb6ec8fa,win.valley_rat,Winos,ValleyRAT,1
+08c3a66548259d0589ca348c905ad3ce,win.ave_maria,"AVE_MARIA,AveMariaRAT,Warzone RAT,WarzoneRAT,avemaria",Ave Maria,1
+092821e77feade246a230168b2c0b775,win.dcrat,DarkCrystal RAT,DCRat,1
+092efbe07f739c831b8811c95bd4a506,win.crystal_ransom,CrystalRansom,Crystal Rans0m,1
+093203dd9eb065a03026a16aee7a1562,py.pxa_stealer,"PXAStealer,PXA",PXA Stealer,1
+094cdc3550ebb0d6a7ad470eae50b506,win.wannacryptor,"Wana Decrypt0r,WannaCry,WannaCrypt,Wcry",WannaCryptor,1
+0958ba3a7e13502ab3582b76c42b0af3,jar.crossrat,Trupto,CrossRAT,1
+09683b2cb19f16818d0a60264663cac2,win.nanocore,"Nancrat,NanoCore",Nanocore RAT,1
+0989a1bba6c1694aaba9fabf1502be01,win.agendacrypt,"Agenda,Qilin",AgendaCrypt,1
+09e226a3ade6b9d479d1b19b1d534dcb,win.valley_rat,Winos,ValleyRAT,1
+09f1709d2b6ef921ba1b90e638a37080,win.ghost_rat,"Farfli,Gh0st RAT,PCRat",Ghost RAT,1
+0a15d395369645b594180541e13f05d7,win.zeus,Zbot,Zeus,1
+0a1e35182d1fc715d743b5ae3a5bd1c0,win.valley_rat,Winos,ValleyRAT,1
+0a2ace23aa06f0bf22c028b98aa3456a,win.akira,REDBIKE,Akira,1
+0a383df79d9a6bbc48efb5868fb14d96,win.netwire,"NetWeird,NetWire,Recam",NetWire RC,1
+0a52eca4d42889d0b3d21de101d4bea6,win.akira,REDBIKE,Akira,1
+0a85e9263cd4dc174ecdcc628447a2b5,win.njrat,"Bladabindi,Lime-Worm",NjRAT,1
+0a9429738e11acea24949b0247b31ba2,win.valley_rat,Winos,ValleyRAT,1
+0a9f93b87901a403fa1f1b1362455f13,win.dcrat,DarkCrystal RAT,DCRat,1
+0ab63fac1e124db0dbaea7d0c8d2d609,jar.crossrat,Trupto,CrossRAT,1
+0ab8080fb2028181d7241e824d569cf2,win.formbook,win.xloader,Formbook,1
+0ac806ee073f53b035d805fac4f532fa,win.agent_tesla,"AgenTesla,AgentTesla,Negasteal",Agent Tesla,1
+0ad93109b547084f43fe09682c4825cb,win.agent_tesla,"AgenTesla,AgentTesla,Negasteal",Agent Tesla,1
+0afa3d3d8b58319412921c9b85e0c336,win.wannacryptor,"Wana Decrypt0r,WannaCry,WannaCrypt,Wcry",WannaCryptor,1
+0b131788c78be101415eb77a32a97866,win.formbook,win.xloader,Formbook,1
+0b33bdca8e40807365c6f12be0643ee9,win.phorpiex,"Tldr,Trik,TwizT,phorphiex",Phorpiex,1
+0b55a6f1ae9d946ece71647dd09500b5,win.netwire,"NetWeird,NetWire,Recam",NetWire RC,1
+0b58f36ecbdaf37a7669a9a52d363849,win.agendacrypt,"Agenda,Qilin",AgendaCrypt,1
+0b7c8886fecd8f44cd53fd423caa3d68,win.netwire,"NetWeird,NetWire,Recam",NetWire RC,1
+0b7d4e9a6440a35152ed90e61f4a2843,win.wannacryptor,"Wana Decrypt0r,WannaCry,WannaCrypt,Wcry",WannaCryptor,1
+0b905aa2442d333f5c3bccc3724a5d7a,win.agent_tesla,"AgenTesla,AgentTesla,Negasteal",Agent Tesla,1
+0bafb1133ee4dab935e4cedf0686fb1c,win.valley_rat,Winos,ValleyRAT,1
+0bb33ef113ce5c086bdd25e91a50c07a,win.netwire,"NetWeird,NetWire,Recam",NetWire RC,1
+0be31a0c4f530c88f1cdf8491827fa39,win.wannacryptor,"Wana Decrypt0r,WannaCry,WannaCrypt,Wcry",WannaCryptor,1
+0bf7db6f6f756c1ce4346ac88727d04c,win.akira,REDBIKE,Akira,1
+0c765a327ab66486b37cb9f8a92ac503,win.valley_rat,Winos,ValleyRAT,1
+0c78720e1c3df66ab5a7c60a9e0c8502,win.quasar_rat,"CinaRAT,QuasarRAT,Yggdrasil",Quasar RAT,1
+0c7dd3b979c3fdeba56c6ae312345548,jar.crossrat,Trupto,CrossRAT,1
+0c8d700f7a519da0160feeeb10ba3f67,win.nanocore,"Nancrat,NanoCore",Nanocore RAT,1
+0c8ec07a41c4a82c234bf04287fd62a0,win.snappy_client,SilabRAT,SnappyClient,1
+0c9381cfd85e2d1aad8ccbe8bec861ca,win.formbook,win.xloader,Formbook,1
+0c9b60a6e3f6150d984117a1d6edbe27,win.nanocore,"Nancrat,NanoCore",Nanocore RAT,1
+0cade3a07d296e0e228a45df3657311a,win.phorpiex,"Tldr,Trik,TwizT,phorphiex",Phorpiex,1
+0d1d9fb7cbc129aaf5dfb93869f58d40,win.formbook,win.xloader,Formbook,1
+0d22029ef7b53677ce81e46aa38be8bd,win.wannacryptor,"Wana Decrypt0r,WannaCry,WannaCrypt,Wcry",WannaCryptor,1
+0d529740e9cc8a9c5abd9af0a915b8ce,win.njrat,"Bladabindi,Lime-Worm",NjRAT,1
+0d681c6898e330e8d1153cda1e2be789,win.netwire,"NetWeird,NetWire,Recam",NetWire RC,1
+0d70b3825647082d779987f2772bd219,win.agendacrypt,"Agenda,Qilin",AgendaCrypt,1
+0d8adf6b72dacaf256865e8a8e954837,win.agendacrypt,"Agenda,Qilin",AgendaCrypt,1
+0d944fa82b4ea76cedb49336629405f3,win.formbook,win.xloader,Formbook,1
+0ddaa7c76d1a00afb10a620dea885504,win.phorpiex,"Tldr,Trik,TwizT,phorphiex",Phorpiex,1
+0df2f895abbbea29565fc048931a0169,win.tofsee,Gheg,Tofsee,1
+0e15c7f71508ae0ce1e525e7dbf76a70,win.supper,"SocksShell,ZAPCAT",Supper,1
+0e19505d9d3b7da6f6efdebe1426f85f,win.agent_tesla,"AgenTesla,AgentTesla,Negasteal",Agent Tesla,1
+0e260f328a81040da84f79bb21d54953,win.pure_rat,"PureHVNC,ResolverRAT",PureRAT,1
+0e6987e3a5a53fa34808a4273f6e7230,win.pure_rat,"PureHVNC,ResolverRAT",PureRAT,1
+0e95388031bc357808ae5c06bd70640b,win.wannacryptor,"Wana Decrypt0r,WannaCry,WannaCrypt,Wcry",WannaCryptor,1
+0ed62134ba816c2c604a319692d97201,win.phorpiex,"Tldr,Trik,TwizT,phorphiex",Phorpiex,1
+0ef5b3b9b79524aa607dd3e9161afc44,win.nanocore,"Nancrat,NanoCore",Nanocore RAT,1
+0f0813c1e7e1787d105f8904243200f6,win.arkei_stealer,ArkeiStealer,Arkei Stealer,1
+0f1d42cb6725d8194145cff1d3683634,win.formbook,win.xloader,Formbook,1
+0f2e05992e1eb1032016d044b0f93b37,win.netwire,"NetWeird,NetWire,Recam",NetWire RC,1
+0f3c2a17015bb0a23f6ea77eefaf2b2b,win.valley_rat,Winos,ValleyRAT,1
+0f74892809973a93321c7ba05bdf61ca,win.njrat,"Bladabindi,Lime-Worm",NjRAT,1
+0f8db1428213838c9d104f5369835969,jar.crossrat,Trupto,CrossRAT,1
+0f9ae168dc8d27ff3f0ff0a1bf4c2d8d,win.akira,REDBIKE,Akira,1
+0fdd9cf02bd7896f5c2da15f6095200b,win.agent_tesla,"AgenTesla,AgentTesla,Negasteal",Agent Tesla,1
+1002b1cb400c7198c2c72b2dd6dfb029,win.netwire,"NetWeird,NetWire,Recam",NetWire RC,1
+100964269cd0b904e8a91a1e0e637db7,win.nanocore,"Nancrat,NanoCore",Nanocore RAT,1
+100f2629b705497eaf152730ac3b41bc,win.akira,REDBIKE,Akira,1
+1017726535781624fa7ec1e830991fe2,py.pxa_stealer,"PXAStealer,PXA",PXA Stealer,1
+10497e0acd87edd2195faab5b931a02d,jar.crossrat,Trupto,CrossRAT,1
+104c9a1a490d8c05966f46bbbc62028d,win.valley_rat,Winos,ValleyRAT,1
+106c26587eb27cdab973e320f4cc10f3,win.akira,REDBIKE,Akira,1
+10cc531b5f4765f53cd3a58a2c23ffcf,win.agent_tesla,"AgenTesla,AgentTesla,Negasteal",Agent Tesla,1
+10cf94eef24c8932d28698e02faf43e5,win.nanocore,"Nancrat,NanoCore",Nanocore RAT,1
+10dcb994591c8d3f81c83dada50d4d2d,win.formbook,win.xloader,Formbook,1
+10e1d30f3e8002e8b65774b9a6d27da9,win.valley_rat,Winos,ValleyRAT,1
+1145637521b7fccbf9072deddc4b62cd,win.dcrat,DarkCrystal RAT,DCRat,1
+1158797c8d9ef2696029b1d82e8a9515,win.arkei_stealer,ArkeiStealer,Arkei Stealer,1
+11631ccafb1aa5224c86af421170028e,win.agendacrypt,"Agenda,Qilin",AgendaCrypt,1
+11675510d8b56c9b11dadbb6e2b08d26,win.ghost_rat,"Farfli,Gh0st RAT,PCRat",Ghost RAT,1
+1187112573cb0257eeaaddc6e18b36cc,win.netwire,"NetWeird,NetWire,Recam",NetWire RC,1
+119856ec134acc86ef76044cbf291f54,win.agendacrypt,"Agenda,Qilin",AgendaCrypt,1
+11b40f7a933bf15d2eaf184af96d62e3,osx.poolrat,"SIMPLESEA,SIMPLETEA",POOLRAT,1
+11f45214e400e24c21f27371b26d5275,win.dcrat,DarkCrystal RAT,DCRat,1
+12466b49fc1af2215a00a9be2a1915df,win.wannacryptor,"Wana Decrypt0r,WannaCry,WannaCrypt,Wcry",WannaCryptor,1
+1277177e9e12414f50182a8bb5463a7a,jar.crossrat,Trupto,CrossRAT,1
+12b5b59530529b5b000e85bf364b9de7,win.wannacryptor,"Wana Decrypt0r,WannaCry,WannaCrypt,Wcry",WannaCryptor,1
+12b7a66e1314a078c3ff4e6b486b1cbb,win.formbook,win.xloader,Formbook,1
+12be7a6c060a27bbed222ab8181ba592,win.pure_rat,"PureHVNC,ResolverRAT",PureRAT,1
+12d8f743f9abbf1cb92c342a86687dcb,win.pure_rat,"PureHVNC,ResolverRAT",PureRAT,1
+12e5865ad107877a4de58292719ac24a,win.valley_rat,Winos,ValleyRAT,1
+130176db1b368a8290ebda3ce17db7c8,win.netwire,"NetWeird,NetWire,Recam",NetWire RC,1
+1314f9049217e0871f8979cf33b1ac63,jar.crossrat,Trupto,CrossRAT,1
+13260e2e1ec04400403f6dfd4cb93994,jar.crossrat,Trupto,CrossRAT,1
+132fd7e557ae7b95f7dc8c2b5bbefe06,win.agent_tesla,"AgenTesla,AgentTesla,Negasteal",Agent Tesla,1
+1340bdf97aaefa2fd6dc586f84cf4f15,win.agendacrypt,"Agenda,Qilin",AgendaCrypt,1
+13a208ad6b172ec37bfe5dacaf0b96fe,win.akira,REDBIKE,Akira,1
+13aa55915fe8418214edc3f57138e29e,win.pure_rat,"PureHVNC,ResolverRAT",PureRAT,1
+13ed2a77b08df2b52e3420205e763a41,jar.crossrat,Trupto,CrossRAT,1
+13fe4fd84d2f0fe65fe209c4ee390752,win.njrat,"Bladabindi,Lime-Worm",NjRAT,1
+144a0a499e007931628c98f38929466f,win.dyepack,"BanSwift,swift",DYEPACK,1
+1467f5f92f91eb363cfaf1c902ffb0a2,win.snappy_client,SilabRAT,SnappyClient,1
+146c5d2cbf3373f83dcfa349a4c76ff7,win.agent_tesla,"AgenTesla,AgentTesla,Negasteal",Agent Tesla,1
+146e4a2f79bce93d913464cce041a010,win.valley_rat,Winos,ValleyRAT,1
+148e99089ecbe9cffadddd4f8f0114b2,win.agent_tesla,"AgenTesla,AgentTesla,Negasteal",Agent Tesla,1
+1491af89583872f964267808da1128f6,win.formbook,win.xloader,Formbook,1
+149428fbb8622cd08b18f008e24d54c6,win.phorpiex,"Tldr,Trik,TwizT,phorphiex",Phorpiex,1
+14b7d8e98b8cd97f8f302bab2b4dea27,win.ave_maria,"AVE_MARIA,AveMariaRAT,Warzone RAT,WarzoneRAT,avemaria",Ave Maria,1
+150cd29ec3f3156808da6121512c6bfc,win.pure_rat,"PureHVNC,ResolverRAT",PureRAT,1
+1520e1599ccc2f116ca0f89e5a935fe0,win.njrat,"Bladabindi,Lime-Worm",NjRAT,1
+152fbd62a872a4f80dafd9a2f0548d59,win.akira,REDBIKE,Akira,1
+154688c11c0c478547761d5e541d0d5b,win.nanocore,"Nancrat,NanoCore",Nanocore RAT,1
+15526762d170bb1fc108dfc84e00e9a3,win.valley_rat,Winos,ValleyRAT,1
+155553264e98d58b0eaa075b1c3087f6,win.quasar_rat,"CinaRAT,QuasarRAT,Yggdrasil",Quasar RAT,1
+15b622081c2b1e0696d3473d65f17b61,win.netwire,"NetWeird,NetWire,Recam",NetWire RC,1
+15edc29fe06d34c5597b12eac34b852b,win.wannacryptor,"Wana Decrypt0r,WannaCry,WannaCrypt,Wcry",WannaCryptor,1
+1615ac4b69265a70f17a0eb37df82065,win.nanocore,"Nancrat,NanoCore",Nanocore RAT,1
+16223a15bbd3368f8201420e2787cb09,win.valley_rat,Winos,ValleyRAT,1
+168935f2a155f7d2385b1fce86543ba5,win.wannacryptor,"Wana Decrypt0r,WannaCry,WannaCrypt,Wcry",WannaCryptor,1
+17005c9a5f2a9a57fe71ced46712c688,win.hijackloader,"DOILoader,GHOSTPULSE,IDAT Loader,SHADOWLADDER",HijackLoader,1
+1702f6476993eb605fe93eebbbc5fc42,win.nanocore,"Nancrat,NanoCore",Nanocore RAT,1
+1742ad51f743c9e518abec7fc6f9451b,win.njrat,"Bladabindi,Lime-Worm",NjRAT,1
+17461c93abf833a9514ee410f1fbafb1,win.netwire,"NetWeird,NetWire,Recam",NetWire RC,1
+1778b4f8e22bb823376dc908e331acab,jar.crossrat,Trupto,CrossRAT,1
+17c4d6e51c52e59ada1d644411d33015,win.formbook,win.xloader,Formbook,1
+17c783bb84f17edb43a538f0dfbeb1e9,win.arkei_stealer,ArkeiStealer,Arkei Stealer,1
+1807503a422d180ea91f0a23cbd76962,win.njrat,"Bladabindi,Lime-Worm",NjRAT,1
+180a1af79d93d25530fe06b8c109fe8d,win.netwire,"NetWeird,NetWire,Recam",NetWire RC,1
+183573ffe3b0c5f9188c5fab6b80ebec,win.agent_tesla,"AgenTesla,AgentTesla,Negasteal",Agent Tesla,1
+18390d1648bf678684d5fcdfa07ae03d,win.valley_rat,Winos,ValleyRAT,1
+183b06f7a82543a77dba6ef0fcc4d759,win.njrat,"Bladabindi,Lime-Worm",NjRAT,1
+1843db1abb66e726e081329dd239d6e8,win.quasar_rat,"CinaRAT,QuasarRAT,Yggdrasil",Quasar RAT,1
+18574afb782de70a00eae72adf564791,win.valley_rat,Winos,ValleyRAT,1
+1870ab7568ef16ba1040b33fa2df203e,win.valley_rat,Winos,ValleyRAT,1
+1888c61f0f51d91c14b7a8a519591ce6,win.nanocore,"Nancrat,NanoCore",Nanocore RAT,1
+18b93f31c49e4302e3fd26764b6ad37a,win.agent_tesla,"AgenTesla,AgentTesla,Negasteal",Agent Tesla,1
+191436a9bea707bb25df754d19c21bdd,win.netwire,"NetWeird,NetWire,Recam",NetWire RC,1
+193177af43f8f24851b76d2866a11e1f,win.njrat,"Bladabindi,Lime-Worm",NjRAT,1
+19447dd51d52b27e5918d50d6782655a,win.formbook,win.xloader,Formbook,1
+195644fd8f661eec79d76fe495a905f2,win.phorpiex,"Tldr,Trik,TwizT,phorphiex",Phorpiex,1
+196e28b26eb0b8cf0ebd5e19a65780dc,win.akira,REDBIKE,Akira,1
+197cb07a15bec71b744855028208620a,win.agendacrypt,"Agenda,Qilin",AgendaCrypt,1
+19c43bee02e049b2a6d25121e2be8782,win.akira,REDBIKE,Akira,1
+19c91fe72a4e7aa7b59d84baf6ce9383,win.formbook,win.xloader,Formbook,1
+19dcb9d230e485391ac633476856fcc8,py.pxa_stealer,"PXAStealer,PXA",PXA Stealer,1
+19ea61c208ddf0170ba98ecf2c5cf012,win.pure_rat,"PureHVNC,ResolverRAT",PureRAT,1
+19f3fabf03519cc60e89ceb950f0cdc2,win.akira,REDBIKE,Akira,1
+1a24321c2ee34cabd7b610da455ea11d,win.netwire,"NetWeird,NetWire,Recam",NetWire RC,1
+1a2677ba4d34323c9fbe97732214f9c1,win.quasar_rat,"CinaRAT,QuasarRAT,Yggdrasil",Quasar RAT,1
+1a303cff53bf9e183485a2817d89c6a0,win.agent_tesla,"AgenTesla,AgentTesla,Negasteal",Agent Tesla,1
+1a5c04fc48b962864b86682f54294031,win.akira,REDBIKE,Akira,1
+1a5e935a2545bde844f7aa04d6bce296,win.nanocore,"Nancrat,NanoCore",Nanocore RAT,1
+1a5ee819449d01730b45f4f714e990c8,win.agendacrypt,"Agenda,Qilin",AgendaCrypt,1
+1a642946760f29766d58bf97d7b003e2,win.phorpiex,"Tldr,Trik,TwizT,phorphiex",Phorpiex,1
+1a6dcfa8d4a429f5511ba3cf83addabd,win.ghost_rat,"Farfli,Gh0st RAT,PCRat",Ghost RAT,1
+1a708e93e2f83462e5b689d8cfb0425a,win.akira,REDBIKE,Akira,1
+1a88b654dc5efe0baecfcdeabb0d16fe,win.nanocore,"Nancrat,NanoCore",Nanocore RAT,1
+1aa9416b733743f534abea90982dcd16,win.ghost_rat,"Farfli,Gh0st RAT,PCRat",Ghost RAT,1
+1ab31f82e6c8455c61f3a14b753a7ace,win.phorpiex,"Tldr,Trik,TwizT,phorphiex",Phorpiex,1
+1ad3729976f26d9d7ea44e2a7195b572,jar.crossrat,Trupto,CrossRAT,1
+1ae94a7f35590456e535130a6febe2b7,elf.akira,REDBIKE,Akira,1
+1b00808e8d58b136cd389361d01eb377,win.agent_tesla,"AgenTesla,AgentTesla,Negasteal",Agent Tesla,1
+1b27f8fc61f3c0d5798c71e88678c68a,win.phorpiex,"Tldr,Trik,TwizT,phorphiex",Phorpiex,1
+1b3c8742bcdeee6cd3dafd2cba12a508,win.netwire,"NetWeird,NetWire,Recam",NetWire RC,1
+1b41cdb5d2a98222bf33e36255b5169f,win.agendacrypt,"Agenda,Qilin",AgendaCrypt,1
+1b57820e73fa101cbd1703fe47430606,win.netwire,"NetWeird,NetWire,Recam",NetWire RC,1
+1b622c451fcc9d83aad8bf45b1c42b5f,win.njrat,"Bladabindi,Lime-Worm",NjRAT,1
+1b70ea489407d6449b951757b80f0429,win.nanocore,"Nancrat,NanoCore",Nanocore RAT,1
+1b8155a20f71952cf3c0fefa4db1bebf,win.nanocore,"Nancrat,NanoCore",Nanocore RAT,1
+1bb275319619856af055c3e292c4070a,win.agendacrypt,"Agenda,Qilin",AgendaCrypt,1
+1bbe0d3d698dfa58aa417f0cdf40230d,win.formbook,win.xloader,Formbook,1
+1bc4fce0bfa6e83285e3a52582f5b77f,win.pure_rat,"PureHVNC,ResolverRAT",PureRAT,1
+1bd88bbb0c82349303aa60c470c8b51e,win.dcrat,DarkCrystal RAT,DCRat,1
+1c0cb55d3a8d544ab0bd7d81d2985089,win.agendacrypt,"Agenda,Qilin",AgendaCrypt,1
+1c1f469d72d082fb956ca88133d8d8db,jar.crossrat,Trupto,CrossRAT,1
+1c302704a76e2effc99f2d5e339d7f64,win.akira,REDBIKE,Akira,1
+1c3d9391438862b1574fa7f8ecfd0de1,win.agendacrypt,"Agenda,Qilin",AgendaCrypt,1
+1c3de5d59d0d41f5c593c4ecf152cfc0,win.netwire,"NetWeird,NetWire,Recam",NetWire RC,1
+1c7eb62ee673a66fdb7f2db820875e34,win.wannacryptor,"Wana Decrypt0r,WannaCry,WannaCrypt,Wcry",WannaCryptor,1
+1c95b93ed0c018ade4980f117b031f23,win.valley_rat,Winos,ValleyRAT,1
+1ca089a1c143c56fb078381f8a8afe10,win.valley_rat,Winos,ValleyRAT,1
+1cc72f0e339f0b0e604c6ca8bc879085,win.quasar_rat,"CinaRAT,QuasarRAT,Yggdrasil",Quasar RAT,1
+1cebb153fcb26dcd06614a95276b22a3,win.netwire,"NetWeird,NetWire,Recam",NetWire RC,1
+1cf8cce965f8f2089ce67ef811b29d13,win.njrat,"Bladabindi,Lime-Worm",NjRAT,1
+1cf8d51ca815ee4fac497e15c6a5d9e6,win.valley_rat,Winos,ValleyRAT,1
+1d011399cbf80ab0970a15c6c07868d9,win.wannacryptor,"Wana Decrypt0r,WannaCry,WannaCrypt,Wcry",WannaCryptor,1
+1d0c30501bf776c01ceaa65f5691a506,win.akira,REDBIKE,Akira,1
+1d4b4313f46c5e36636df5689a02eb2a,win.agent_tesla,"AgenTesla,AgentTesla,Negasteal",Agent Tesla,1
+1da954be17c19b2e61d605097f1c7b29,win.wannacryptor,"Wana Decrypt0r,WannaCry,WannaCrypt,Wcry",WannaCryptor,1
+1dcb7b7c00bd3a647d7d40f4f2f5b537,win.agendacrypt,"Agenda,Qilin",AgendaCrypt,1
+1e0852887af0490bf192a9e7d06acf49,win.agent_tesla,"AgenTesla,AgentTesla,Negasteal",Agent Tesla,1
+1e0ec47bcfb538a7f81dfb8beae9b596,py.pxa_stealer,"PXAStealer,PXA",PXA Stealer,1
+1e1f1336dd0fd523d8bea4dad1c963a3,win.quasar_rat,"CinaRAT,QuasarRAT,Yggdrasil",Quasar RAT,1
+1e3e29a85fc7fe89f3696facaa9db43c,win.akira,REDBIKE,Akira,1
+1e3fd12fee9d2fd27642ed24cff01338,win.njrat,"Bladabindi,Lime-Worm",NjRAT,1
+1e41d13dacd614db30c0627974e5f593,win.quasar_rat,"CinaRAT,QuasarRAT,Yggdrasil",Quasar RAT,1
+1e76336b373ffda894b529553e1ef7e6,win.netwire,"NetWeird,NetWire,Recam",NetWire RC,1
+1e780a793ee1c9cb30f9dca02c91390b,win.valley_rat,Winos,ValleyRAT,1
+1e8443bbc17a0f0dca956dbdd9d3d274,win.formbook,win.xloader,Formbook,1
+1ea7d59053d8bd45bea95355b3d8d499,win.valley_rat,Winos,ValleyRAT,1
+1ec808d23dc8b2775c37db0dabe09573,win.wannacryptor,"Wana Decrypt0r,WannaCry,WannaCrypt,Wcry",WannaCryptor,1
+1efc935721d9adce730bca852752c8cc,win.wannacryptor,"Wana Decrypt0r,WannaCry,WannaCrypt,Wcry",WannaCryptor,1
+1f65544978b8ea0e745e573b8ee9684b,win.cobalt_strike,"Agentemis,BEACON,CobaltStrike,cobeacon",Cobalt Strike,1
+1f715464d6eeb3e78639882abe18bcb0,win.netwire,"NetWeird,NetWire,Recam",NetWire RC,1
+1fa24618993a4828e566da20b40bb181,win.dcrat,DarkCrystal RAT,DCRat,1
+1fe76b7c6e8be90ab3965b243aceed93,win.valley_rat,Winos,ValleyRAT,1
+1fee9749f221b92430bd12c570381c05,win.formbook,win.xloader,Formbook,1
+1ff67dccdeb92606d79d777aaecb9c47,win.akira,REDBIKE,Akira,1
+1ff7de4a7b52e02a211e39831061916f,win.akira,REDBIKE,Akira,1
+201c3977a10f73542515e22b07dad335,win.formbook,win.xloader,Formbook,1
+201cf5a7bebcaafb56d99cbda6f3d124,win.akira,REDBIKE,Akira,1
+204936dc11b78d2a83682f88f69608a9,win.dcrat,DarkCrystal RAT,DCRat,1
+204d2a41920c68f78e996daaf069c722,win.formbook,win.xloader,Formbook,1
+20768341ce4da1908a03372e77b01e41,win.netwire,"NetWeird,NetWire,Recam",NetWire RC,1
+20d1adb10b96e85874d6dceab96918da,win.formbook,win.xloader,Formbook,1
+212d6f0d9e544c346f8dae39d0acd06d,win.hijackloader,"DOILoader,GHOSTPULSE,IDAT Loader,SHADOWLADDER",HijackLoader,1
+21317bd3996c39b8b4cb7361268a1b7a,win.akira,REDBIKE,Akira,1
+21415970e147eadf140c5a1f39ce3ae3,win.nanocore,"Nancrat,NanoCore",Nanocore RAT,1
+214e97b9f597cbb2422a4cf062c8154f,win.agent_tesla,"AgenTesla,AgentTesla,Negasteal",Agent Tesla,1
+218561da1c8f6b975d088e8ac4976795,win.phorpiex,"Tldr,Trik,TwizT,phorphiex",Phorpiex,1
+219abeb37923d6d4b299dd24bda92edc,win.valley_rat,Winos,ValleyRAT,1
+21d7da7df67ca557739367e12f015061,win.valley_rat,Winos,ValleyRAT,1
+21d9f24388907aae848d959660358586,win.formbook,win.xloader,Formbook,1
+21e02ce15334d2dcc5a3d39713d771b1,py.pxa_stealer,"PXAStealer,PXA",PXA Stealer,1
+21e217f737d688a38f15118e8f696bae,win.agendacrypt,"Agenda,Qilin",AgendaCrypt,1
+21fde5c60081a59f7e3fd62bfc17d568,win.snappy_client,SilabRAT,SnappyClient,1
+221a3c5cea10bd7e9489dafeb77dd2cb,win.akira,REDBIKE,Akira,1
+2254bd694ca0fd3d775ebb50e3568950,win.valley_rat,Winos,ValleyRAT,1
+2263785f56345bac53d0142c6b714db2,win.netwire,"NetWeird,NetWire,Recam",NetWire RC,1
+227f14f4c3aa35b9fb279f52c73b2e1e,win.agendacrypt,"Agenda,Qilin",AgendaCrypt,1
+22958a7a7044a2ff42c64639d71af989,win.akira,REDBIKE,Akira,1
+22be169a8b8005c07238dca6df6ecbf8,win.netwire,"NetWeird,NetWire,Recam",NetWire RC,1
+22cd16e30b21fb2bdc0f5e0caa62313a,py.pxa_stealer,"PXAStealer,PXA",PXA Stealer,1
+22ce7aa4be44869abd89ae411023739c,win.agent_tesla,"AgenTesla,AgentTesla,Negasteal",Agent Tesla,1
+22ce9b4f200c32eeb293116301e97307,win.dcrat,DarkCrystal RAT,DCRat,1
+22cebd3ccdd8efab543383d38df54381,win.phorpiex,"Tldr,Trik,TwizT,phorphiex",Phorpiex,1
+22f86cec9a2f32d43673ffb8156eee4f,win.agendacrypt,"Agenda,Qilin",AgendaCrypt,1
+2312608a5b3968e154d49629cbb44f4a,win.netwire,"NetWeird,NetWire,Recam",NetWire RC,1
+2334ccbf5b701c36e95ff83289c874af,win.netwire,"NetWeird,NetWire,Recam",NetWire RC,1
+2387cb1c8b1fee6526300e3d35ce5c74,win.agendacrypt,"Agenda,Qilin",AgendaCrypt,1
+2393affaacf65a5fe1755315d581cf0a,win.akira,REDBIKE,Akira,1
+23ae60ca87897d6e45229b3e4c156fb1,win.njrat,"Bladabindi,Lime-Worm",NjRAT,1
+23dc06a0ebbed92a832786f07b9ec139,win.formbook,win.xloader,Formbook,1
+23e2483bf694f39d708fa972f3e10b25,win.dcrat,DarkCrystal RAT,DCRat,1
+2400507f87fef5cc83e59bdc47ae9a4e,win.formbook,win.xloader,Formbook,1
+240d9635b9c6b1a1265646ce5afb83e7,win.agendacrypt,"Agenda,Qilin",AgendaCrypt,1
+2470c9c99f13ded1f5b86a2fabde0780,win.nanocore,"Nancrat,NanoCore",Nanocore RAT,1
+247cf7e76f0b4af43e28b051a5de7cf1,win.agendacrypt,"Agenda,Qilin",AgendaCrypt,1
+248945bc1d3020eb64a34a9264c3a16d,win.netwire,"NetWeird,NetWire,Recam",NetWire RC,1
+248c2a231931da9a1c7c3f8de5a32b6b,win.valley_rat,Winos,ValleyRAT,1
+24f57b19d5e39d4ddbc91e4f2bb7273d,py.pxa_stealer,"PXAStealer,PXA",PXA Stealer,1
+251af0f2bea6c39064e162eac3b99ed6,win.akira,REDBIKE,Akira,1
+252fe77945fba9b1426dd4ec923dd8eb,win.tinymet,TiniMet,TinyMet,1
+2549dc1f259917a6179f726de0ed45e7,win.quasar_rat,"CinaRAT,QuasarRAT,Yggdrasil",Quasar RAT,1
+258b98ded097462bc668ee1ca8e56c60,win.phorpiex,"Tldr,Trik,TwizT,phorphiex",Phorpiex,1
+25ae620019c38a0607a09cc82b03373d,win.agendacrypt,"Agenda,Qilin",AgendaCrypt,1
+25b263547e73ddb734c54e63e9179829,win.njrat,"Bladabindi,Lime-Worm",NjRAT,1
+25ba8e51972420eade6f3950a78850e5,win.akira,REDBIKE,Akira,1
+25be2a0c90fbb190fcf485a10b0b4c35,win.agendacrypt,"Agenda,Qilin",AgendaCrypt,1
+25f568d7838e70b4f8dafadd74a7d7fc,win.akira,REDBIKE,Akira,1
+263ca98327e452380ea330c8a9a5664f,win.wannacryptor,"Wana Decrypt0r,WannaCry,WannaCrypt,Wcry",WannaCryptor,1
+265beb192dab710bbc8cb0842d57ef99,win.formbook,win.xloader,Formbook,1
+266b26ffb579cdc406fd1db02d20adbd,win.nanocore,"Nancrat,NanoCore",Nanocore RAT,1
+266f33db148efc6ea7f978a246d36663,win.akira,REDBIKE,Akira,1
+267d1ac3f2faed832792fbff73bb8ff5,win.formbook,win.xloader,Formbook,1
+2695e24e6d062fe97e0e3ae4238ecc11,win.netwire,"NetWeird,NetWire,Recam",NetWire RC,1
+26a562d67700a099274ce90626570e68,win.zstealer,Z*Stealer,ZStealer,1
+26c722dc53ea775a91e105569e6138c5,win.netwire,"NetWeird,NetWire,Recam",NetWire RC,1
+26eedbcdb7b089744785f392b08acf6f,py.pxa_stealer,"PXAStealer,PXA",PXA Stealer,1
+26f33ae36ad05582393a6d6ec6cb3273,win.ghost_rat,"Farfli,Gh0st RAT,PCRat",Ghost RAT,1
+26f9fceff4ac3f791648b7fc49bdf382,win.pure_rat,"PureHVNC,ResolverRAT",PureRAT,1
+2743ee280188d4250ab5aa6528a20448,win.wannacryptor,"Wana Decrypt0r,WannaCry,WannaCrypt,Wcry",WannaCryptor,1
+277ed20b7ad7f6c3c8c5285f386e46b4,win.nanocore,"Nancrat,NanoCore",Nanocore RAT,1
+2786af54186eab424302851868b19f49,win.phorpiex,"Tldr,Trik,TwizT,phorphiex",Phorpiex,1
+27a888a3dbaa952dbb432ef33815fbec,win.netwire,"NetWeird,NetWire,Recam",NetWire RC,1
+27d3039a8ca9acbcbc985b88f27720a8,win.valley_rat,Winos,ValleyRAT,1
+27fc1568dce3fddc5a10eb955c1c3b86,win.formbook,win.xloader,Formbook,1
+2802ea1cdae9c7fa53102624db92edb3,win.valley_rat,Winos,ValleyRAT,1
+28318ef8d982d051f7ea8987ea303075,win.valley_rat,Winos,ValleyRAT,1
+2863a98a0e08b4b13da0874ec6b7cf15,win.akira,REDBIKE,Akira,1
+286ab1c862a170f4ccdba9ee6b870445,win.orcus_rat,Schnorchel,Orcus RAT,1
+28ff73b8a7e61a809ee01abae32578af,win.formbook,win.xloader,Formbook,1
+29026cecfb181e3fcc00e2ee3685f451,win.akira,REDBIKE,Akira,1
+2918b9ddaf12a57f6710c07515b27a8b,win.akira,REDBIKE,Akira,1
+2920af89e37017cc869ea4f83fee12ec,win.valley_rat,Winos,ValleyRAT,1
+292bc05e8da008c1c146069c53782afb,win.nanocore,"Nancrat,NanoCore",Nanocore RAT,1
+298be766951139e504fd0027199ad10d,win.valley_rat,Winos,ValleyRAT,1
+29d87ed8ebc9b05426800ad3c13a8fcd,win.njrat,"Bladabindi,Lime-Worm",NjRAT,1
+29e09a2fdea6179f9ac0bbfffecfba99,win.valley_rat,Winos,ValleyRAT,1
+29e5e53c6bc41825bb1ab63d8650f568,win.wannacryptor,"Wana Decrypt0r,WannaCry,WannaCrypt,Wcry",WannaCryptor,1
+29e726a3332a4f1dc32e5a7c9f96423f,win.pure_rat,"PureHVNC,ResolverRAT",PureRAT,1
+2a3d94121e5ffa782cccedda093f1e4e,win.valley_rat,Winos,ValleyRAT,1
+2a85f2e5876b278a7af9393483de455b,win.njrat,"Bladabindi,Lime-Worm",NjRAT,1
+2a9c83c2558490dd0b9b769273c34d1c,win.arkei_stealer,ArkeiStealer,Arkei Stealer,1
+2aaa2370984af15261e51a730e800ea1,win.valley_rat,Winos,ValleyRAT,1
+2ab61292e17ca7d65cbc94c6efd000bc,win.valley_rat,Winos,ValleyRAT,1
+2ac1f830806ce3bdd35cdcb957f139ba,win.quasar_rat,"CinaRAT,QuasarRAT,Yggdrasil",Quasar RAT,1
+2adb404eb99fe1b130e326ed36343411,win.tinymet,TiniMet,TinyMet,1
+2ae5ab42f2924330344e5dd45c5bf841,win.formbook,win.xloader,Formbook,1
+2aeec37ed59e17b59bcd67547bf0a453,win.wannacryptor,"Wana Decrypt0r,WannaCry,WannaCrypt,Wcry",WannaCryptor,1
+2b1caed38122d1e0336af79b88c5801b,win.valley_rat,Winos,ValleyRAT,1
+2bdadadc42777cad497ec54c14758a46,win.agendacrypt,"Agenda,Qilin",AgendaCrypt,1
+2be02d3def1b116c668cc84e628e2065,win.netwire,"NetWeird,NetWire,Recam",NetWire RC,1
+2c0187de8eb73d79e622b5e8b898f1f0,win.njrat,"Bladabindi,Lime-Worm",NjRAT,1
+2c1187bb99ed21458e686f5933f459c5,win.njrat,"Bladabindi,Lime-Worm",NjRAT,1
+2c252bc8ecf99d3659df65af554c0c4d,jar.crossrat,Trupto,CrossRAT,1
+2c44374da92d90d26c774499aec98ad9,jar.crossrat,Trupto,CrossRAT,1
+2c59609bece29328d32236596a12da2e,win.nanocore,"Nancrat,NanoCore",Nanocore RAT,1
+2c5a9aa5ca5b6d98a5551da0ec0be9af,win.nanocore,"Nancrat,NanoCore",Nanocore RAT,1
+2c6cbec4eb4b6fe7442effcc933e71d1,win.phorpiex,"Tldr,Trik,TwizT,phorphiex",Phorpiex,1
+2c6fce9728f174f1400c460ad0bea15a,win.formbook,win.xloader,Formbook,1
+2c9056c7f596f9e135ae1fe685b42f87,win.nanocore,"Nancrat,NanoCore",Nanocore RAT,1
+2c9aaa34029791d0dc1a69ad4c41670f,win.formbook,win.xloader,Formbook,1
+2ca17777470b32e4e74b547e5f3f9306,win.pure_rat,"PureHVNC,ResolverRAT",PureRAT,1
+2ce7e3f516c80084cda7b9a35809e90b,win.netwire,"NetWeird,NetWire,Recam",NetWire RC,1
+2cecb0b5147c8b4de31eea52f3ea7e59,win.akira,REDBIKE,Akira,1
+2cfc6db85985e270ea3ddedc3a0ef345,win.agendacrypt,"Agenda,Qilin",AgendaCrypt,1
+2d4fe10deb30092875ad0e5327904cd9,jar.crossrat,Trupto,CrossRAT,1
+2d5137f186bd8f99e610367e7bab3631,win.formbook,win.xloader,Formbook,1
+2d569c5eaec74172ee46fb7af42962fc,win.agent_tesla,"AgenTesla,AgentTesla,Negasteal",Agent Tesla,1
+2d7077c6484ec7ddf42538801fee4591,win.formbook,win.xloader,Formbook,1
+2d7c8780e97409770a9d4f31c66c9d63,win.cobalt_strike,"Agentemis,BEACON,CobaltStrike,cobeacon",Cobalt Strike,1
+2d81b463c7c84ac3bc0a1cf9b1105798,win.akira,REDBIKE,Akira,1
+2db9b397d98c55c8a7be695d747d251c,win.formbook,win.xloader,Formbook,1
+2de0535c878a7b9a8971f74bb77abb91,win.phorpiex,"Tldr,Trik,TwizT,phorphiex",Phorpiex,1
+2dfe7a647bfd6602e54d8803a9326207,win.socks5_systemz,ProxyBox,Socks5Systemz,1
+2e397a5d7096a192651dd9304c794717,win.wannacryptor,"Wana Decrypt0r,WannaCry,WannaCrypt,Wcry",WannaCryptor,1
+2e3bb978d68490c99faac7f590933832,win.nanocore,"Nancrat,NanoCore",Nanocore RAT,1
+2e4931fc4f7fcfcea1192df30ffcb858,win.wannacryptor,"Wana Decrypt0r,WannaCry,WannaCrypt,Wcry",WannaCryptor,1
+2e4973a854f88682666c77394ec3e61e,win.gootkit,"Waldek,Xswkit,talalpek",GootKit,1
+2e549199a18d0c641660fdb59fc5dad3,win.wannacryptor,"Wana Decrypt0r,WannaCry,WannaCrypt,Wcry",WannaCryptor,1
+2e688af35698aadb14d24e425f5c5e8f,win.formbook,win.xloader,Formbook,1
+2e847533ba6f2c90b9a84e9eaff14cb2,win.valley_rat,Winos,ValleyRAT,1
+2e8485c56f8045122064cc3cd30679b9,win.phorpiex,"Tldr,Trik,TwizT,phorphiex",Phorpiex,1
+2e939c7a99dbebfbbf1a8c1e0686b53f,win.socks5_systemz,ProxyBox,Socks5Systemz,1
+2e9caca7825c171c8caaf7a500226303,win.wannacryptor,"Wana Decrypt0r,WannaCry,WannaCrypt,Wcry",WannaCryptor,1
+2eab996cb50b6d48697256518088fb0a,win.agendacrypt,"Agenda,Qilin",AgendaCrypt,1
+2eae922a47d8b14b7122ec1f93bb02c2,win.netwire,"NetWeird,NetWire,Recam",NetWire RC,1
+2ed10e1e5c03a396919f324f6759e542,win.nanocore,"Nancrat,NanoCore",Nanocore RAT,1
+2ed38621c36aa2f806a8bfbd93703e09,py.pxa_stealer,"PXAStealer,PXA",PXA Stealer,1
+2ef3065371366c7ef99577f4252b8c3c,win.formbook,win.xloader,Formbook,1
+2f142ac7959a2abdd836de4d78cac59c,win.formbook,win.xloader,Formbook,1
+2f2bde6d6206b182d652cc1e8c124e9a,win.dcrat,DarkCrystal RAT,DCRat,1
+2f490ac81c015798c477a5d882f425d5,win.njrat,"Bladabindi,Lime-Worm",NjRAT,1
+2f577ce224d2311a841d8d76abb63b70,win.njrat,"Bladabindi,Lime-Worm",NjRAT,1
+2f61cb4b14e0cf839a4a823eceea88e9,win.njrat,"Bladabindi,Lime-Worm",NjRAT,1
+2f8873c5dfb9edd81830558bb0b38f07,win.wannacryptor,"Wana Decrypt0r,WannaCry,WannaCrypt,Wcry",WannaCryptor,1
+2fb9ccecabed10cd8f9f77d77a30e998,elf.akira,REDBIKE,Akira,1
+2fc54e662e890049651a6137a81efa3c,win.valley_rat,Winos,ValleyRAT,1
+2fd2d9bc5106a3b5379269926b0feb43,win.valley_rat,Winos,ValleyRAT,1
+3008ccf1a125b55bcba760e62a9113a3,win.valley_rat,Winos,ValleyRAT,1
+301b4c0650787760609a2f4535ab9ff3,win.wannacryptor,"Wana Decrypt0r,WannaCry,WannaCrypt,Wcry",WannaCryptor,1
+306038f5b80551285855f65f1cc13045,win.njrat,"Bladabindi,Lime-Worm",NjRAT,1
+309ee21b05da4e684de79540bb25b330,win.valley_rat,Winos,ValleyRAT,1
+30a9ecc59bc94186d32978e4a9f5bb0d,win.netwire,"NetWeird,NetWire,Recam",NetWire RC,1
+30c502ded0262fcef7266948147d963d,win.agent_tesla,"AgenTesla,AgentTesla,Negasteal",Agent Tesla,1
+30cb9db600cbd4a03defb987066e3956,win.netwire,"NetWeird,NetWire,Recam",NetWire RC,1
+30eff0fbbd41f9172813bd4907d68730,jar.crossrat,Trupto,CrossRAT,1
+30f23cd8c071deac110bbaa70e4260cc,win.njrat,"Bladabindi,Lime-Worm",NjRAT,1
+30fe6c10974aeb31c1709732c2e60fdb,win.akira,REDBIKE,Akira,1
+3126af6b225dbbd7382053e331a25ee5,win.formbook,win.xloader,Formbook,1
+3135bf9c620aea1463c948d1be481493,win.quasar_rat,"CinaRAT,QuasarRAT,Yggdrasil",Quasar RAT,1
+3166ae39b46472d2ee53a880eb8248e0,win.ghost_rat,"Farfli,Gh0st RAT,PCRat",Ghost RAT,1
+316d5cd7a836b285db5a62a40d7a2d99,win.netwire,"NetWeird,NetWire,Recam",NetWire RC,1
+31a28a1e13d0f9cb638cd445f2acb559,win.netwire,"NetWeird,NetWire,Recam",NetWire RC,1
+31c7a4892a28121cff9b4f98f97a507f,win.formbook,win.xloader,Formbook,1
+31e6b51f8ff1b0c429f68978e793b5bd,win.netwire,"NetWeird,NetWire,Recam",NetWire RC,1
+31edb01d243e8d989eb7e5aeeeef54dc,win.agendacrypt,"Agenda,Qilin",AgendaCrypt,1
+31edc1eef538fdb429601d26422834b3,win.nanocore,"Nancrat,NanoCore",Nanocore RAT,1
+3212ab713cc6ca91540f471b11d00a2b,win.wannacryptor,"Wana Decrypt0r,WannaCry,WannaCrypt,Wcry",WannaCryptor,1
+325dd213f9a6f78e41cad30c49e0a178,win.pure_rat,"PureHVNC,ResolverRAT",PureRAT,1
+3270606f7138f08b0c4e051d0a9ebc2b,win.valley_rat,Winos,ValleyRAT,1
+3277f4122adfda4fc1c5b817523b0be0,win.tinymet,TiniMet,TinyMet,1
+327a35bb8db59c80c7aca194e04a9578,win.netwire,"NetWeird,NetWire,Recam",NetWire RC,1
+329b355f4dd316961a488f7520958f7a,win.snappy_client,SilabRAT,SnappyClient,1
+32ba76496cf54bf0c9302e6ddab64cd9,win.arkei_stealer,ArkeiStealer,Arkei Stealer,1
+32bcff75191b48284e927db09b0a5fdc,win.dcrat,DarkCrystal RAT,DCRat,1
+32ce6be2690e06880778dd50dd8747c0,win.formbook,win.xloader,Formbook,1
+32f90f34610520f8dbded26e5e7494c1,win.valley_rat,Winos,ValleyRAT,1
+3304b81686f03893b0a931f23c6665ba,win.quasar_rat,"CinaRAT,QuasarRAT,Yggdrasil",Quasar RAT,1
+330550a451962773a3fe6b1fd780c4cc,win.agendacrypt,"Agenda,Qilin",AgendaCrypt,1
+3326190e2f46a296874ac230d1c83f35,win.netwire,"NetWeird,NetWire,Recam",NetWire RC,1
+335d1205e666a401cc9ae6525a66546d,win.akira,REDBIKE,Akira,1
+3376740886ed49c4e15ce9adf931b2b7,win.agendacrypt,"Agenda,Qilin",AgendaCrypt,1
+33970f0d2d3ba1f4d505dec41eb157e6,win.nanocore,"Nancrat,NanoCore",Nanocore RAT,1
+33b781ba34052b6509ce3cc600e3b6da,win.akira,REDBIKE,Akira,1
+33d103a950e97fb4c0f28d8cff985ba6,win.havoc,Havokiz,Havoc,1
+33dbe6464c260480fe018c5e09a32df1,win.phorpiex,"Tldr,Trik,TwizT,phorphiex",Phorpiex,1
+33e354278dfb54d874ea209803d11c1f,win.valley_rat,Winos,ValleyRAT,1
+342f8fe9a988cbdb27f7756a2754549d,win.wannacryptor,"Wana Decrypt0r,WannaCry,WannaCrypt,Wcry",WannaCryptor,1
+34507bf7c00c94401b56daf56cbff5c5,osx.xloader,Formbook,Xloader,1
+345bd23aae7e28c9b249b81a245f6c8d,win.valley_rat,Winos,ValleyRAT,1
+34980a7a4a7f3cb5b5700d41a7405523,win.njrat,"Bladabindi,Lime-Worm",NjRAT,1
+349e9cfa230a379f16ba28418a73d3bf,osx.xloader,Formbook,Xloader,1
+34ca41e2af54953fd9c219bcb001f891,win.agendacrypt,"Agenda,Qilin",AgendaCrypt,1
+3509393b29d79798b259223623bca4e5,win.pure_rat,"PureHVNC,ResolverRAT",PureRAT,1
+351eed6919adf842104ec8a51528c795,win.valley_rat,Winos,ValleyRAT,1
+3538ff52e4bd1fb7c700d3a68a4d7c2b,win.formbook,win.xloader,Formbook,1
+35425edb78f2b9cb8836385bd442fa56,win.netwire,"NetWeird,NetWire,Recam",NetWire RC,1
+357b903fbfc7c4bc6590a92f3e07aaf4,win.blustealer,a310logger,BluStealer,1
+35a6cc6e2b588f30f7fb9cf4638ee632,win.nanocore,"Nancrat,NanoCore",Nanocore RAT,1
+35db0ed31de09aef583803786e4d710e,win.wannacryptor,"Wana Decrypt0r,WannaCry,WannaCrypt,Wcry",WannaCryptor,1
+3617edb04993fd06226c228c1d70c414,win.agendacrypt,"Agenda,Qilin",AgendaCrypt,1
+3626564a6ecda96008ba1c9ed08e5b2d,win.wannacryptor,"Wana Decrypt0r,WannaCry,WannaCrypt,Wcry",WannaCryptor,1
+3638e23d5a94ceaf66a65af2d3b69a75,win.phorpiex,"Tldr,Trik,TwizT,phorphiex",Phorpiex,1
+364546dc5ef5bac9c45058d02f7b5b1d,win.njrat,"Bladabindi,Lime-Worm",NjRAT,1
+3647b40736728ce6d083dda87885affc,win.netwire,"NetWeird,NetWire,Recam",NetWire RC,1
+36612c13573375fb4c796f3569eb50c0,win.void,VoidCrypt,Void,1
+369bf85edbdbfc193d37ce50c886fdb9,win.agendacrypt,"Agenda,Qilin",AgendaCrypt,1
+36b013c5e39acbe752709d0b2fc01006,win.valley_rat,Winos,ValleyRAT,1
+36cf6285b152d569a123b34f6a08d892,win.quasar_rat,"CinaRAT,QuasarRAT,Yggdrasil",Quasar RAT,1
+36db027cb081301eced5fe08f94ee9ea,win.nanocore,"Nancrat,NanoCore",Nanocore RAT,1
+36e73c5600a6c9ee9b1ae3d8f113683e,win.formbook,win.xloader,Formbook,1
+370ed8646f719d4e9c06a078f6515fe3,win.formbook,win.xloader,Formbook,1
+375e3e0945e1aae4a3ed38420238db1b,win.formbook,win.xloader,Formbook,1
+377e8aeacab8971137e130b8734261e5,win.agendacrypt,"Agenda,Qilin",AgendaCrypt,1
+37872e46797e86469ac373f572c4b05e,jar.crossrat,Trupto,CrossRAT,1
+3791b58433d379c7fea76636a48aec06,win.nanocore,"Nancrat,NanoCore",Nanocore RAT,1
+379717f664cc19a3f295a11e189dd386,jar.crossrat,Trupto,CrossRAT,1
+37af0be3dccc41a28468d76454485b4f,win.netwire,"NetWeird,NetWire,Recam",NetWire RC,1
+37daa89551604908ec63096ec5a87504,jar.crossrat,Trupto,CrossRAT,1
+3856cf206988acc6389777fa62c34cf5,win.wannacryptor,"Wana Decrypt0r,WannaCry,WannaCrypt,Wcry",WannaCryptor,1
+387bef108ad9b3b52851c9d4073a4ad4,win.valley_rat,Winos,ValleyRAT,1
+388c773164294c5548bada60336384ea,win.netwire,"NetWeird,NetWire,Recam",NetWire RC,1
+388ed6c8e9e5ba54c49209337f0a71a6,win.wannacryptor,"Wana Decrypt0r,WannaCry,WannaCrypt,Wcry",WannaCryptor,1
+38bc5b9fc0ede4fef1e28e892edb5deb,win.phorpiex,"Tldr,Trik,TwizT,phorphiex",Phorpiex,1
+38df25c00eaa64e15523f54ecb8b70c5,win.agendacrypt,"Agenda,Qilin",AgendaCrypt,1
+39015f73ac1c8fcbf6bce413a22cfadb,win.akira,REDBIKE,Akira,1
+390929763242f8f854188b405ac7f5ba,win.njrat,"Bladabindi,Lime-Worm",NjRAT,1
+39436e9b3fb8427b1a7789d4f0223a3e,win.agendacrypt,"Agenda,Qilin",AgendaCrypt,1
+3993e71fea3db426410909d3752d4932,win.netwire,"NetWeird,NetWire,Recam",NetWire RC,1
+39fcc76a932f13e59fe129dfa773ee14,win.akira,REDBIKE,Akira,1
+3a6c44540d1a164f8ec0f8fb3df901f9,win.ghost_rat,"Farfli,Gh0st RAT,PCRat",Ghost RAT,1
+3a7a359c92ebc3cb971f278c538b9ed5,win.valley_rat,Winos,ValleyRAT,1
+3a85be4f475378e774b44aafd20102cd,win.valley_rat,Winos,ValleyRAT,1
+3a9a55b6669f56bc6ed97d08cf8785ed,win.valley_rat,Winos,ValleyRAT,1
+3adfb1123589caeabc71d3adaecb630b,win.netwire,"NetWeird,NetWire,Recam",NetWire RC,1
+3af0529e39dce90659e23cbfd48ae6dd,win.wannacryptor,"Wana Decrypt0r,WannaCry,WannaCrypt,Wcry",WannaCryptor,1
+3afc5ab77b64233b2a5bd347b04eee9f,win.valley_rat,Winos,ValleyRAT,1
+3b282e4ddebcf205e87806c698566ee1,win.formbook,win.xloader,Formbook,1
+3b483dce1793ec320b176f90492e1731,win.cobalt_strike,"Agentemis,BEACON,CobaltStrike,cobeacon",Cobalt Strike,1
+3b6e4262e140331b8380445e464f1cda,win.agent_tesla,"AgenTesla,AgentTesla,Negasteal",Agent Tesla,1
+3b7ccb4eb2ba5f3156526ec60cc3033b,win.nanocore,"Nancrat,NanoCore",Nanocore RAT,1
+3b9d2c4c21957d21b76e3b839f8d14d1,win.aurastealer,"AURA Stealer,AURASTEAL",Aura Stealer,1
+3bb1c26086562c4c3a6cf59954faeb30,elf.akira,REDBIKE,Akira,1
+3c02d8fafecba1452ef04b571a84c9b8,win.agendacrypt,"Agenda,Qilin",AgendaCrypt,1
+3c143cde7d767aba3024349739d9d708,win.valley_rat,Winos,ValleyRAT,1
+3c230061e5a16cc559b0a7f025f08250,win.ghost_rat,"Farfli,Gh0st RAT,PCRat",Ghost RAT,1
+3c3cb5457de640745a61405ee4f157a7,win.netwire,"NetWeird,NetWire,Recam",NetWire RC,1
+3c83dcfa2b10f7af4b6086157f992dc7,win.formbook,win.xloader,Formbook,1
+3d07fa7f9489dd52a1dca5811c000096,win.valley_rat,Winos,ValleyRAT,1
+3d1d128ad09c4e1619ef9777cffed905,win.akira,REDBIKE,Akira,1
+3d22a007f0e5878fa47d9ded220b605d,win.agent_tesla,"AgenTesla,AgentTesla,Negasteal",Agent Tesla,1
+3d30d0eb3484b37f2dc2bf9a804b0156,win.akira,REDBIKE,Akira,1
+3d6863e2de3e52f7359cc1366c9143ef,win.wannacryptor,"Wana Decrypt0r,WannaCry,WannaCrypt,Wcry",WannaCryptor,1
+3d88af97167c373b5b35d9a8133df5a8,win.agendacrypt,"Agenda,Qilin",AgendaCrypt,1
+3da3c77545498bcaf0d6fe67e86ab53e,win.valley_rat,Winos,ValleyRAT,1
+3db3678944d709bc08530b411c83ed5e,win.valley_rat,Winos,ValleyRAT,1
+3dccec3595bba26581d67320f8a7246c,win.netwire,"NetWeird,NetWire,Recam",NetWire RC,1
+3dcd3e2a1919055bd32c83dab86da59e,win.nanocore,"Nancrat,NanoCore",Nanocore RAT,1
+3dd1b91961e2a849b1d39f3f3d783058,win.akira,REDBIKE,Akira,1
+3de985cb3c3427fff40ac76d48022231,win.quasar_rat,"CinaRAT,QuasarRAT,Yggdrasil",Quasar RAT,1
+3dec0c4966559f2471c4c03dad2b3d4d,win.nanocore,"Nancrat,NanoCore",Nanocore RAT,1
+3e1aad1fe43fca159fb616a2c2d72c42,win.wannacryptor,"Wana Decrypt0r,WannaCry,WannaCrypt,Wcry",WannaCryptor,1
+3e27e51227c7d613c967afbff8e7e6af,win.akira,REDBIKE,Akira,1
+3e29d71ef45870b3ca2b9954ad6c8c22,win.formbook,win.xloader,Formbook,1
+3e344a746bd85356e818872c40cc2407,jar.crossrat,Trupto,CrossRAT,1
+3e42bf50234aadcec42cc7b9ebf7ab42,py.pxa_stealer,"PXAStealer,PXA",PXA Stealer,1
+3e7ca33a0746e65cc08a92035af226c0,win.valley_rat,Winos,ValleyRAT,1
+3e90a82f5360cae528a12c76d22fe6a2,win.wannacryptor,"Wana Decrypt0r,WannaCry,WannaCrypt,Wcry",WannaCryptor,1
+3ea2a81a288fe047cca8d1f19e291eff,win.formbook,win.xloader,Formbook,1
+3ebaabe329226d8e7428bc1c4dcb9e3c,win.nanocore,"Nancrat,NanoCore",Nanocore RAT,1
+3ed46511118ca32e085a53caca44a09b,jar.crossrat,Trupto,CrossRAT,1
+3eed6feda84d42e38d4c0c9406460af6,win.webmonitor,RevCode,WebMonitor RAT,1
+3effb7b4d5b81a4936d3254f01093d11,win.netwire,"NetWeird,NetWire,Recam",NetWire RC,1
+3f4763115058d210f73c2afbef468a83,win.agendacrypt,"Agenda,Qilin",AgendaCrypt,1
+3f48ee014cdde9588eddecf08bf35821,win.redline_stealer,RECORDSTEALER,RedLine Stealer,1
+3f924a568b81cddd3f7fdbcc19721edf,win.netwire,"NetWeird,NetWire,Recam",NetWire RC,1
+3fdfc1f013bad7bb63fd7a254c8a8e5e,win.wannacryptor,"Wana Decrypt0r,WannaCry,WannaCrypt,Wcry",WannaCryptor,1
+400d8e0397ae74edd5d3462c21cc82fd,win.wannacryptor,"Wana Decrypt0r,WannaCry,WannaCrypt,Wcry",WannaCryptor,1
+4013ae1d401d214ccc6a391f48c65518,win.ghost_rat,"Farfli,Gh0st RAT,PCRat",Ghost RAT,1
+406ae8d6dd86e5f0c4ebdc05ded16852,win.tinymet,TiniMet,TinyMet,1
+40701707d05ec2e5f9eb31bf03126125,win.netwire,"NetWeird,NetWire,Recam",NetWire RC,1
+40c3bb25ce680409353ba703dc11ea8f,win.wannacryptor,"Wana Decrypt0r,WannaCry,WannaCrypt,Wcry",WannaCryptor,1
+40cbef44d0ac78fae7c23803b0873cbe,win.agendacrypt,"Agenda,Qilin",AgendaCrypt,1
+40fb3059353fda2a810e736ed8888ad5,jar.crossrat,Trupto,CrossRAT,1
+411ba5fe7a02e876911a832fe105657d,win.formbook,win.xloader,Formbook,1
+4124a167cef576ccae119247431709f6,win.supper,"SocksShell,ZAPCAT",Supper,1
+4128b578cfee06b281d580844fd5872f,win.formbook,win.xloader,Formbook,1
+4153a9d749c374ad789884e9144dde8e,win.valley_rat,Winos,ValleyRAT,1
+416bc269b470acc180734ad891b0a453,win.akira,REDBIKE,Akira,1
+419b1aaded9195fec567ca93477d68a1,jar.crossrat,Trupto,CrossRAT,1
+41a65a494ba9b729e6fbf744644004a6,win.wannacryptor,"Wana Decrypt0r,WannaCry,WannaCrypt,Wcry",WannaCryptor,1
+41faa6070b56ee395b5f811008213b03,win.wannacryptor,"Wana Decrypt0r,WannaCry,WannaCrypt,Wcry",WannaCryptor,1
+4200ea00cb9c8382dbce6943f64e7127,win.formbook,win.xloader,Formbook,1
+426303abd7f99447be9ba8ff3e5abb56,win.agendacrypt,"Agenda,Qilin",AgendaCrypt,1
+42cd21e5119193f0b631f87d9c87e36c,win.formbook,win.xloader,Formbook,1
+42e3b99c78c70551642b4e7a568c3898,jar.crossrat,Trupto,CrossRAT,1
+432fdcf8fc43c3871c3346bb2aeb3de2,win.akira,REDBIKE,Akira,1
+43351ce424c9a72fcb47de7da7b368c3,win.akira,REDBIKE,Akira,1
+4359fa960923f059edce5fcdc39c5e4c,win.akira,REDBIKE,Akira,1
+435a9ca02b7f3bf72aa917a9803a0f63,win.netwire,"NetWeird,NetWire,Recam",NetWire RC,1
+4369226435b74ef91427cb5bbb31e259,win.wannacryptor,"Wana Decrypt0r,WannaCry,WannaCrypt,Wcry",WannaCryptor,1
+436d5a5d5c35f34cdb4f6be2c4ff30dc,jar.crossrat,Trupto,CrossRAT,1
+4394b367d3a4b3e2bfa19566cc395ba5,win.agendacrypt,"Agenda,Qilin",AgendaCrypt,1
+43f1a9accf541df4ce951ae76a058597,win.valley_rat,Winos,ValleyRAT,1
+43fb437c6c181c0f0524c4bec059686f,win.valley_rat,Winos,ValleyRAT,1
+446843cb5e2616cf8c3d91cba5e6afce,elf.xagent,"splm,chopstick,fysbis",X-Agent,1
+448632521c4e9e8c6347c1a60068fda0,win.netwire,"NetWeird,NetWire,Recam",NetWire RC,1
+449b0afdd3d6f27090a783b882c527a7,py.pxa_stealer,"PXAStealer,PXA",PXA Stealer,1
+449ec1cd1ec70055152c93591a2c0374,win.zstealer,Z*Stealer,ZStealer,1
+44b2d61d23b8d0e0517ec156cf952a39,win.netwire,"NetWeird,NetWire,Recam",NetWire RC,1
+44d0d337f28453d669f10960fc2b6a55,win.dcrat,DarkCrystal RAT,DCRat,1
+45255bcad4c58e6549e52753ddb655ee,win.wannacryptor,"Wana Decrypt0r,WannaCry,WannaCrypt,Wcry",WannaCryptor,1
+4533a423f75743a34bed873c0606fc17,win.valley_rat,Winos,ValleyRAT,1
+45366c289b05f2838d20a7f38dbd23a7,win.agendacrypt,"Agenda,Qilin",AgendaCrypt,1
+455f63ee9d170effdb2305c22977cef8,win.netwire,"NetWeird,NetWire,Recam",NetWire RC,1
+456a55c731ff6a8f443fe0fdec426af0,win.wannacryptor,"Wana Decrypt0r,WannaCry,WannaCrypt,Wcry",WannaCryptor,1
+4698a8aa33d8cf85c42760ee6eba0ec0,win.netwire,"NetWeird,NetWire,Recam",NetWire RC,1
+46e93e58515ff20bd9c68d26e549266b,win.agendacrypt,"Agenda,Qilin",AgendaCrypt,1
+470113d5421bc42ade9214abcafb4eb2,win.formbook,win.xloader,Formbook,1
+4729d2eb5d04baebd30f88a84a5b7f07,win.valley_rat,Winos,ValleyRAT,1
+4745da05e54bdc2439e17423ddd2cfd6,win.netwire,"NetWeird,NetWire,Recam",NetWire RC,1
+476453e63cf65c3fbe54f9b2cb3cc649,win.netwire,"NetWeird,NetWire,Recam",NetWire RC,1
+4778be442a687b1a454a83b070c526a3,win.akira,REDBIKE,Akira,1
+479a7ca02fe77c4465a3cf732eaa4791,win.akira,REDBIKE,Akira,1
+47aabf6ff91aa305e54be7820a574222,win.formbook,win.xloader,Formbook,1
+47bcb4616f1967aaeb3ce2980aecd567,win.valley_rat,Winos,ValleyRAT,1
+47bec036fe26fe8d70dac48627ce1de3,win.quasar_rat,"CinaRAT,QuasarRAT,Yggdrasil",Quasar RAT,1
+47f3ce7738a7a1e5bfdd668a3f4e4b77,win.agent_tesla,"AgenTesla,AgentTesla,Negasteal",Agent Tesla,1
+4818c691ec402f0f2251f1a8d1d8a3b9,win.valley_rat,Winos,ValleyRAT,1
+481b030071c78a6d71901654b7fa4dcd,win.valley_rat,Winos,ValleyRAT,1
+482b33402196894a4c14d95796d22196,win.valley_rat,Winos,ValleyRAT,1
+482e5be9438d7a8c515448f7861f2e58,win.phorpiex,"Tldr,Trik,TwizT,phorphiex",Phorpiex,1
+4860a5ee8aefbfaf28fbb930bece10ea,win.webmonitor,RevCode,WebMonitor RAT,1
+488e038d75bd71a749dcb98ca5f0006d,js.kongtuke,"TAG-124,js.LandUpdate808",KongTuke,1
+489c6211af55230843247b2710c9aa40,win.phemedrone_stealer,Ov3r_Stealer,Phemedrone Stealer,1
+48bbd5782504502fe420c4806db7cace,win.netwire,"NetWeird,NetWire,Recam",NetWire RC,1
+49272795f5841c4b742e247cfa9d2bc0,win.wannacryptor,"Wana Decrypt0r,WannaCry,WannaCrypt,Wcry",WannaCryptor,1
+493cf7c8d3ed22ce8990e6ef1c5bb1b5,win.akira,REDBIKE,Akira,1
+496caac1fa6369e93cb48970f72e26da,jar.crossrat,Trupto,CrossRAT,1
+49cdb303970dcb06f8eca22bc83a57fd,win.netwire,"NetWeird,NetWire,Recam",NetWire RC,1
+4a28d74422d11c29804d84bff744fd0c,win.netwire,"NetWeird,NetWire,Recam",NetWire RC,1
+4a47fe8302615af0e44cb9340b497562,win.tinymet,TiniMet,TinyMet,1
+4a7504ef8bf3fc33f9e0391add18aee7,win.netwire,"NetWeird,NetWire,Recam",NetWire RC,1
+4a88c4a8fd4ae358387fe70e97e93a1a,win.runningrat,running_rat,Running RAT,1
+4a89c176d80a853fbcfa41ae3f832366,win.netwire,"NetWeird,NetWire,Recam",NetWire RC,1
+4a909313c462ab3bddc6c522b20cc49c,win.agent_tesla,"AgenTesla,AgentTesla,Negasteal",Agent Tesla,1
+4a93a809cf87667cb73e0405f5e5b102,win.phorpiex,"Tldr,Trik,TwizT,phorphiex",Phorpiex,1
+4ab4d11c6bbdc1c0e6ce46bd00f76093,win.redline_stealer,RECORDSTEALER,RedLine Stealer,1
+4af1d2af508abef8bfc77dafa3b80444,win.wannacryptor,"Wana Decrypt0r,WannaCry,WannaCrypt,Wcry",WannaCryptor,1
+4b28fd9cddf20db2410750596c135f20,win.netwire,"NetWeird,NetWire,Recam",NetWire RC,1
+4b2911bf6128350411e6dd6b676a1148,win.formbook,win.xloader,Formbook,1
+4b5b45771b8d2fd73136a0599ea9a6fe,win.agent_tesla,"AgenTesla,AgentTesla,Negasteal",Agent Tesla,1
+4b68c75c72823af59074f1dd0d07b1f5,win.agent_tesla,"AgenTesla,AgentTesla,Negasteal",Agent Tesla,1
+4b896f8ae2fdbedf99648cffa4c7afc3,win.nanocore,"Nancrat,NanoCore",Nanocore RAT,1
+4b92ad12a0b36a8c392f357686772df1,win.njrat,"Bladabindi,Lime-Worm",NjRAT,1
+4b9dda8347383b785cbedba3c0a78e09,win.nanocore,"Nancrat,NanoCore",Nanocore RAT,1
+4baf0403803e0f305542899f5ab18b47,win.pure_rat,"PureHVNC,ResolverRAT",PureRAT,1
+4bda9f9b4bdc277b6b2af90d9149dfc4,jar.crossrat,Trupto,CrossRAT,1
+4bf3a344ec6623214367b92e338b627d,win.formbook,win.xloader,Formbook,1
+4c2dcc452a001e8d2d24f656e39ade24,win.netwire,"NetWeird,NetWire,Recam",NetWire RC,1
+4c3ca75d24bbdef38e02d2673a0bd088,win.valley_rat,Winos,ValleyRAT,1
+4ca5e797a633675885e5676641291289,win.wannacryptor,"Wana Decrypt0r,WannaCry,WannaCrypt,Wcry",WannaCryptor,1
+4cbb702140ab23d186b028e8b1881ca5,win.agendacrypt,"Agenda,Qilin",AgendaCrypt,1
+4cc86df7c8b0748102cbaca105313469,win.netwire,"NetWeird,NetWire,Recam",NetWire RC,1
+4cdacb95cbf61081de5596b37a73c6f8,win.formbook,win.xloader,Formbook,1
+4d12d57d6db212de40d9b28811b1e19b,win.cobalt_strike,"Agentemis,BEACON,CobaltStrike,cobeacon",Cobalt Strike,1
+4d1743444ba9172ae0e787bf2463de1f,win.agendacrypt,"Agenda,Qilin",AgendaCrypt,1
+4d56b55b133743418061a05b4c09cb74,win.valley_rat,Winos,ValleyRAT,1
+4d5f56957db4b4eec9d87b64f8f5026b,win.agendacrypt,"Agenda,Qilin",AgendaCrypt,1
+4d79fb750955ec8702cb79cfdb36e66b,win.akira,REDBIKE,Akira,1
+4da40a378b91a1231d9e3a105d61fe9f,win.formbook,win.xloader,Formbook,1
+4daff4c89b65737a9d50f273e24c3542,win.netwire,"NetWeird,NetWire,Recam",NetWire RC,1
+4dd66299e0cd2ab0a93952a18544a18f,jar.crossrat,Trupto,CrossRAT,1
+4df01b918569068a3a0199826627abde,win.agent_tesla,"AgenTesla,AgentTesla,Negasteal",Agent Tesla,1
+4e0e3ad31c0c52c1e171fd1ed6b857f0,win.akira,REDBIKE,Akira,1
+4e3047fc96e4a267b77694aa363accb2,win.wannacryptor,"Wana Decrypt0r,WannaCry,WannaCrypt,Wcry",WannaCryptor,1
+4e7bcdb0b848be93c67e62daf1fd4dff,win.agendacrypt,"Agenda,Qilin",AgendaCrypt,1
+4e8ca5230752370c7137411362d884be,win.akira,REDBIKE,Akira,1
+4eaaa473bf900afd961453d7b702b05d,win.valley_rat,Winos,ValleyRAT,1
+4eca4baaedc5d505cb65b37fbc38a3bf,win.akira,REDBIKE,Akira,1
+4eedba281d6273d442925536aa61b3df,win.wannacryptor,"Wana Decrypt0r,WannaCry,WannaCrypt,Wcry",WannaCryptor,1
+4ef616fe7054594e771868ae860feee5,win.akira,REDBIKE,Akira,1
+4f19d659d8a775b1a1f77d5263113f23,win.netwire,"NetWeird,NetWire,Recam",NetWire RC,1
+4f1d4fda1144646990ce36efc915d43b,win.agent_tesla,"AgenTesla,AgentTesla,Negasteal",Agent Tesla,1
+4f7a468bdcf482f08bd014ae52db5299,win.phorpiex,"Tldr,Trik,TwizT,phorphiex",Phorpiex,1
+4f8d6901a24803c4f90aa766de0005d5,win.nanocore,"Nancrat,NanoCore",Nanocore RAT,1
+5021094d588a1cc1f2cc9b61c717fda6,win.valley_rat,Winos,ValleyRAT,1
+507b183ad9ef4b09e954bc7ed76f7560,win.akira,REDBIKE,Akira,1
+50ac0640db41c05b0e2a20f6ae416f8d,win.formbook,win.xloader,Formbook,1
+50cf5b4eb0b43d08455a381b05f4a4d3,win.qvoidstealer,Qvoid-Token-Grabber,QvoidStealer,1
+50f80b086aac1820defd105200518c2f,win.agent_tesla,"AgenTesla,AgentTesla,Negasteal",Agent Tesla,1
+50fee1710bafba430433991f7965e35f,win.akira,REDBIKE,Akira,1
+510950ff5cb5d12c8a9d4a71d2a88d2e,win.nanocore,"Nancrat,NanoCore",Nanocore RAT,1
+510b7b359363eadc7910d721f04d80a8,win.akira,REDBIKE,Akira,1
+510e518bbcae3b73aaece35b95cd25a8,win.akira,REDBIKE,Akira,1
+51b6ee98d8b8110b9a2217bdfa96cbe8,win.valley_rat,Winos,ValleyRAT,1
+51f9befcc514d4468197647968767773,win.valley_rat,Winos,ValleyRAT,1
+52141a7468dbfbc858f72d2ce947d6b3,win.njrat,"Bladabindi,Lime-Worm",NjRAT,1
+52516a951d018b0131be36f4835a1d27,jar.crossrat,Trupto,CrossRAT,1
+52924fe766055fbb3b58e1978076e2e6,win.formbook,win.xloader,Formbook,1
+52986c188bb52d99b07384a20d73289e,win.pure_rat,"PureHVNC,ResolverRAT",PureRAT,1
+529a4e8314130d9693118be4e2ed9c2a,win.agent_tesla,"AgenTesla,AgentTesla,Negasteal",Agent Tesla,1
+52a74707667a353b531ec8583c86eba0,win.formbook,win.xloader,Formbook,1
+52c1005cff76c7c6f4b21a231ad6e130,jar.crossrat,Trupto,CrossRAT,1
+52c76d9b7366f34a1fad3b5b0527e24f,win.socks5_systemz,ProxyBox,Socks5Systemz,1
+5323cf5c653ed0d88b92e934d1c7aff6,win.wannacryptor,"Wana Decrypt0r,WannaCry,WannaCrypt,Wcry",WannaCryptor,1
+53361b34cce397571578bd91639ecba5,win.formbook,win.xloader,Formbook,1
+536732ccf6db23e1a514f7d370c1bf0b,win.wannacryptor,"Wana Decrypt0r,WannaCry,WannaCrypt,Wcry",WannaCryptor,1
+537013864063eb458e47b3fcbbffbc8f,win.phorpiex,"Tldr,Trik,TwizT,phorphiex",Phorpiex,1
+5377b90a65cef26fcfd075a0ee2b9822,win.valley_rat,Winos,ValleyRAT,1
+5395d02944c8a772316499b75d62a25e,win.agent_tesla,"AgenTesla,AgentTesla,Negasteal",Agent Tesla,1
+53b75c21bfc49c21d1e3998cf2acd14a,win.wannacryptor,"Wana Decrypt0r,WannaCry,WannaCrypt,Wcry",WannaCryptor,1
+53d9129f1070a601acdaa8558e6cff48,win.formbook,win.xloader,Formbook,1
+540276ec9bc5944cb769956ad207288e,win.akira,REDBIKE,Akira,1
+548c6c4912046e948df0e2578cf4dd89,win.netwire,"NetWeird,NetWire,Recam",NetWire RC,1
+549bb011a726e68223260f0bb50f7920,win.akira,REDBIKE,Akira,1
+54c426085dec3ece1925a0eecc5e6433,win.quasar_rat,"CinaRAT,QuasarRAT,Yggdrasil",Quasar RAT,1
+54ff1c3f0ae632c2429b9cd907dea567,jar.crossrat,Trupto,CrossRAT,1
+551105de80b2dfce19da4ceab42251ae,win.agendacrypt,"Agenda,Qilin",AgendaCrypt,1
+5533719b6d2bda4dcca3cd4c9f0e5451,win.netwire,"NetWeird,NetWire,Recam",NetWire RC,1
+55371257357570a711cadd7ac48cd58b,win.wannacryptor,"Wana Decrypt0r,WannaCry,WannaCrypt,Wcry",WannaCryptor,1
+55bc609cf12b4db41c6f2adcc6496769,win.formbook,win.xloader,Formbook,1
+561a13e7c71a8ebd4db51d04e61ba1ab,win.akira,REDBIKE,Akira,1
+5628dfb66d7c6f388657b6ca3961507f,win.agendacrypt,"Agenda,Qilin",AgendaCrypt,1
+565d028fe1b9f12181da991741bb5578,win.agendacrypt,"Agenda,Qilin",AgendaCrypt,1
+56e705cf656cce54945c7941442a6624,jar.crossrat,Trupto,CrossRAT,1
+56ff460150b3ddeb5f1a01495ab44ee2,win.valley_rat,Winos,ValleyRAT,1
+572ee6e985c588c4a66fe7d5ab13ae05,jar.crossrat,Trupto,CrossRAT,1
+5734b587edb55648f7d0b461a3f3c466,win.phorpiex,"Tldr,Trik,TwizT,phorphiex",Phorpiex,1
+5770af6608cf206ef8a8149fcc506476,win.akira,REDBIKE,Akira,1
+578a549be9926fbd8016a8ff8ec0636e,win.agent_tesla,"AgenTesla,AgentTesla,Negasteal",Agent Tesla,1
+57d20ed65870aa249ca374142d763d13,win.netwire,"NetWeird,NetWire,Recam",NetWire RC,1
+57f647f35ac1de5481defddb2a3a1122,win.agendacrypt,"Agenda,Qilin",AgendaCrypt,1
+583614371adddbcaf7f6c087479c77ab,win.netwire,"NetWeird,NetWire,Recam",NetWire RC,1
+584e516edb5fc2b79960940b18cd65b5,win.wannacryptor,"Wana Decrypt0r,WannaCry,WannaCrypt,Wcry",WannaCryptor,1
+5862546663d0855c3d8609de60c0d585,win.agendacrypt,"Agenda,Qilin",AgendaCrypt,1
+586cea3284fe4763fa80fdf66a0ebfd6,win.agendacrypt,"Agenda,Qilin",AgendaCrypt,1
+58a7e2f088cb22dba94ec1ebf9aad4ac,win.wannacryptor,"Wana Decrypt0r,WannaCry,WannaCrypt,Wcry",WannaCryptor,1
+58a8095bf4ef6402cd551425f63f51a7,win.netwire,"NetWeird,NetWire,Recam",NetWire RC,1
+58ab824b14b2f31813afeea4caa5bd0d,win.valley_rat,Winos,ValleyRAT,1
+58d529bfaf7209b27c9b920e412fc140,win.agendacrypt,"Agenda,Qilin",AgendaCrypt,1
+591385ba84ebccb6b904410d5fb74871,win.agendacrypt,"Agenda,Qilin",AgendaCrypt,1
+592c091f5b8dc2d2445618dac9938a66,win.netwire,"NetWeird,NetWire,Recam",NetWire RC,1
+593d1d29af7b71fca272aa65b143b8e7,win.agendacrypt,"Agenda,Qilin",AgendaCrypt,1
+59521e38698120af1b5072b64894df68,win.akira,REDBIKE,Akira,1
+596dc288e8914898b0be9d57a0e3d277,win.formbook,win.xloader,Formbook,1
+59a2ba1e142177f44e4a23c5f9aa4b02,win.formbook,win.xloader,Formbook,1
+59ae169e146ffcc328c53b0feade92cb,win.valley_rat,Winos,ValleyRAT,1
+59d51adf0215f34c0c2ff9b99024b15a,win.tofsee,Gheg,Tofsee,1
+59e90d4e4072484541636b873c35a4a6,win.formbook,win.xloader,Formbook,1
+5a081c877716d922366a17238c18bcbb,win.phorpiex,"Tldr,Trik,TwizT,phorphiex",Phorpiex,1
+5a12e4935f8b9504f6a2d0459478ea64,jar.crossrat,Trupto,CrossRAT,1
+5a196edbe5db582574e59ceeeec49bdc,win.valley_rat,Winos,ValleyRAT,1
+5a4dcdc6cbe2bb676b37f9a24bd593a3,jar.crossrat,Trupto,CrossRAT,1
+5a5171a49e704db4a7c0ac25c6713812,win.netwire,"NetWeird,NetWire,Recam",NetWire RC,1
+5a6ac24377dcd13e577a0b94eb5eeaf1,win.netwire,"NetWeird,NetWire,Recam",NetWire RC,1
+5a71e6c07c13f03c7839b0631013d91f,win.agent_tesla,"AgenTesla,AgentTesla,Negasteal",Agent Tesla,1
+5a74607697701830113d1ac3f61174e6,win.netwire,"NetWeird,NetWire,Recam",NetWire RC,1
+5ad1b2748b02c7d9e65b4f990bdacb29,win.formbook,win.xloader,Formbook,1
+5b033d3a4db05e99ae970ffe77f0a55b,win.phorpiex,"Tldr,Trik,TwizT,phorphiex",Phorpiex,1
+5b11b38bf0eb3f0952f306ad5be9d5eb,win.ghost_rat,"Farfli,Gh0st RAT,PCRat",Ghost RAT,1
+5b1204b44db0ecd0d72fe97adbbb1c5e,win.arkei_stealer,ArkeiStealer,Arkei Stealer,1
+5b2ec6f7a5099595374cd248bfac2b53,win.agendacrypt,"Agenda,Qilin",AgendaCrypt,1
+5b3538216b7079fbc8b0292d335fee14,win.netwire,"NetWeird,NetWire,Recam",NetWire RC,1
+5b3ab4c3ddedf685815e6733d035dddc,jar.crossrat,Trupto,CrossRAT,1
+5b9ab619b39fc68758680195fead5a29,win.supper,"SocksShell,ZAPCAT",Supper,1
+5baca90a1f5e596203c47a01f7a219bc,win.valley_rat,Winos,ValleyRAT,1
+5bb5ab3e5cacfe253117ac8167d05235,win.wannacryptor,"Wana Decrypt0r,WannaCry,WannaCrypt,Wcry",WannaCryptor,1
+5be0b456c1488e32b8d152087401cc20,win.akira,REDBIKE,Akira,1
+5c04300f3c9585db3ae98709cbef9739,win.wannacryptor,"Wana Decrypt0r,WannaCry,WannaCrypt,Wcry",WannaCryptor,1
+5c0d9b54c6275941cd2d04b21dbd8e42,win.agendacrypt,"Agenda,Qilin",AgendaCrypt,1
+5c1469dfe6aed70e8bc529c68216b9ad,win.phorpiex,"Tldr,Trik,TwizT,phorphiex",Phorpiex,1
+5c60fe4c8d118fc648c45fc26c59f09b,win.netwire,"NetWeird,NetWire,Recam",NetWire RC,1
+5c6a11c3061601d3be3462dd652e35ba,win.agendacrypt,"Agenda,Qilin",AgendaCrypt,1
+5c6a535c64562738470356602ed9c556,win.formbook,win.xloader,Formbook,1
+5c6ed6a7422cb7ade75f0d7325722b8d,win.agendacrypt,"Agenda,Qilin",AgendaCrypt,1
+5c9861c1c50e2aff2d29bb2a2aeebca9,win.valley_rat,Winos,ValleyRAT,1
+5cbb51cf747cd514eb333f402e21866c,win.arkei_stealer,ArkeiStealer,Arkei Stealer,1
+5cf2ef47192d70db1fb3553a5027492a,win.phorpiex,"Tldr,Trik,TwizT,phorphiex",Phorpiex,1
+5d16a60f33b76f526032193a51abbdd8,win.netwire,"NetWeird,NetWire,Recam",NetWire RC,1
+5d4037b55e48dad64c3fdd1fe565ff5c,win.valley_rat,Winos,ValleyRAT,1
+5d6ee171b5847a25c2d068031faef9cc,win.wannacryptor,"Wana Decrypt0r,WannaCry,WannaCrypt,Wcry",WannaCryptor,1
+5db84e4f84411c882bdc1a05601c85f0,win.agendacrypt,"Agenda,Qilin",AgendaCrypt,1
+5dc8b0f335fdf6dc6537e6fd61f07e05,win.formbook,win.xloader,Formbook,1
+5e1208edaa128df0809ec8268be38ffc,win.netwire,"NetWeird,NetWire,Recam",NetWire RC,1
+5e457f44b85ded5049f10308db21225c,win.netwire,"NetWeird,NetWire,Recam",NetWire RC,1
+5ec7de7a4df5aadb52c317c05bd00cd0,win.akira,REDBIKE,Akira,1
+5ee634e2b12edba1e2c403fb9ba3e3fd,win.akira,REDBIKE,Akira,1
+5ef97f4da2f8ebb6640eb0417319281c,win.agendacrypt,"Agenda,Qilin",AgendaCrypt,1
+5f281e55c1e07dabeb5e59d3a5194294,win.nanocore,"Nancrat,NanoCore",Nanocore RAT,1
+5f63a87ae3e1594cb3bfac8e3c5729e8,win.netwire,"NetWeird,NetWire,Recam",NetWire RC,1
+5fb9a8635e408aa72425538358018c43,win.agendacrypt,"Agenda,Qilin",AgendaCrypt,1
+5fbf5f42ced3d876ae021839bcc00069,win.netwire,"NetWeird,NetWire,Recam",NetWire RC,1
+5fea3f930de097794a95ced9dbae500c,win.nanocore,"Nancrat,NanoCore",Nanocore RAT,1
+5ff36f2bfed0594959b6274942585334,win.formbook,win.xloader,Formbook,1
+5ff9c0b47ad7adbba95955ad266ecbc5,win.formbook,win.xloader,Formbook,1
+60089f9d825bb6941f252f52b3756ba6,win.formbook,win.xloader,Formbook,1
+6022d8a558bfedb10e021ae5f4e73dbf,win.agent_tesla,"AgenTesla,AgentTesla,Negasteal",Agent Tesla,1
+604ea52ac70d5189504788be828d1589,elf.akira,REDBIKE,Akira,1
+608646f448c0a5c26a34c79fcec2257a,win.valley_rat,Winos,ValleyRAT,1
+609a433ec177c59a2667d9e29a15e17e,win.wannacryptor,"Wana Decrypt0r,WannaCry,WannaCrypt,Wcry",WannaCryptor,1
+60ab33b01081d37beeeb3c62ae8e3333,win.wannacryptor,"Wana Decrypt0r,WannaCry,WannaCrypt,Wcry",WannaCryptor,1
+60b6c61db4b78d713fa014568db9263b,win.phorpiex,"Tldr,Trik,TwizT,phorphiex",Phorpiex,1
+60b764168d5b4bcf58f4447a10f423a5,win.formbook,win.xloader,Formbook,1
+60c6951eb4cdcc8531f5d0bae1b284ee,win.formbook,win.xloader,Formbook,1
+60c7b6ad0214681bf65f3ee2b55fcb3a,win.formbook,win.xloader,Formbook,1
+611d407375352bb91da1e3558db8c0a1,win.agendacrypt,"Agenda,Qilin",AgendaCrypt,1
+616e6c770234fa5a506500d1d5763de0,win.netwire,"NetWeird,NetWire,Recam",NetWire RC,1
+61a3a84b9b0c95433f1e79d9ef6699c9,win.formbook,win.xloader,Formbook,1
+61ab126c877d224850b46fd7f0a61ce1,win.phorpiex,"Tldr,Trik,TwizT,phorphiex",Phorpiex,1
+61fd58a78e2bb56fe2a7e46a561cb79b,win.valley_rat,Winos,ValleyRAT,1
+6200240443329003bc9e2b3ddfbe34da,win.valley_rat,Winos,ValleyRAT,1
+62026426767207280fe942f9cc6e9aab,jar.crossrat,Trupto,CrossRAT,1
+6204e3e8f5075a2b598f4460ff069126,win.wannacryptor,"Wana Decrypt0r,WannaCry,WannaCrypt,Wcry",WannaCryptor,1
+6214f3fcc00cd747d244f0e2ab635618,win.agent_tesla,"AgenTesla,AgentTesla,Negasteal",Agent Tesla,1
+6238e3fb2619f467c76f5d14e674c702,win.agendacrypt,"Agenda,Qilin",AgendaCrypt,1
+626e45681bd083f5f85acd0f6aefe5bc,win.netwire,"NetWeird,NetWire,Recam",NetWire RC,1
+6292b4f53c529bdafbb1476e7de48e73,win.netwire,"NetWeird,NetWire,Recam",NetWire RC,1
+62fe42ce45fd48c9c492758f58e2763d,win.phorpiex,"Tldr,Trik,TwizT,phorphiex",Phorpiex,1
+632237a7536db7d9c6b29b28ba189c9b,win.nanocore,"Nancrat,NanoCore",Nanocore RAT,1
+6327733b1a1d51d5e3e8b668d23c9002,win.agendacrypt,"Agenda,Qilin",AgendaCrypt,1
+633ad68daaf42d119ef95c7594d23773,win.valley_rat,Winos,ValleyRAT,1
+636427608897388aa5afd79187133688,win.netwire,"NetWeird,NetWire,Recam",NetWire RC,1
+6367307dd5e1cbc6c1f0a160e0c5d421,win.formbook,win.xloader,Formbook,1
+63722ea0b71a80ef782987d135fc633e,win.formbook,win.xloader,Formbook,1
+6382ad4c07f225406139f7ab90f2ccaf,win.valley_rat,Winos,ValleyRAT,1
+63844cd3d2578789f0e5ca58cfddf9d4,win.valley_rat,Winos,ValleyRAT,1
+6384a37947e61cf136a039dd948e325b,win.netwire,"NetWeird,NetWire,Recam",NetWire RC,1
+6399e481bee00f73cf825b0dce1fc30b,win.valley_rat,Winos,ValleyRAT,1
+63ab7828b518397c0b01596c92a0a0b0,win.nanocore,"Nancrat,NanoCore",Nanocore RAT,1
+63af61806ff5060c77a526375f843c29,win.ghost_rat,"Farfli,Gh0st RAT,PCRat",Ghost RAT,1
+63b7edc9bec5b43b3f012abf34e6c8f7,win.netwire,"NetWeird,NetWire,Recam",NetWire RC,1
+63e36739580577e2e5d9677f03b1ebb1,win.akira,REDBIKE,Akira,1
+63f0a90d02a53d468fd0084f01f5c051,win.formbook,win.xloader,Formbook,1
+6423288fa0a9d90a7faa2b610debe347,win.nanocore,"Nancrat,NanoCore",Nanocore RAT,1
+6431c8512b3221ec180478cb260da419,win.agendacrypt,"Agenda,Qilin",AgendaCrypt,1
+6435611106d0d7b3301229b9021a9908,win.terra_stealer,"StealerOne,SONE,Taurus Loader Stealer Module",TerraStealer,1
+6443698bcb15cc19ebfeea74bd80c26c,win.agendacrypt,"Agenda,Qilin",AgendaCrypt,1
+644c7dc1ba482e63029c226100429eaa,win.wannacryptor,"Wana Decrypt0r,WannaCry,WannaCrypt,Wcry",WannaCryptor,1
+64622cb996b115fac71477650db0bb90,win.akira,REDBIKE,Akira,1
+648e3fd6d7d3e5367e56b10a642019f1,win.valley_rat,Winos,ValleyRAT,1
+649a5de91dd48d1a7cfb79096c0e2656,win.tofsee,Gheg,Tofsee,1
+64be9719cd0cf6fa1d33d27953aab23b,jar.crossrat,Trupto,CrossRAT,1
+64f4fccc6fa14ada85a4b070a35e6556,win.akira,REDBIKE,Akira,1
+6506c1b800a28853ef8af5a466e12e8d,win.wannacryptor,"Wana Decrypt0r,WannaCry,WannaCrypt,Wcry",WannaCryptor,1
+654607f31a256d943a2de9b63b30929c,jar.crossrat,Trupto,CrossRAT,1
+655bc97584876b110db5e07464af6522,win.valley_rat,Winos,ValleyRAT,1
+656deb0542b95f5fc176eadf8e5d49c6,win.phorpiex,"Tldr,Trik,TwizT,phorphiex",Phorpiex,1
+65f23aadb5ef431fc71cae0c2c01701e,win.valley_rat,Winos,ValleyRAT,1
+6601931d5981366cbc4f04570a0815cf,win.agendacrypt,"Agenda,Qilin",AgendaCrypt,1
+6640820a921a5235ffa3448c7640039c,win.wannacryptor,"Wana Decrypt0r,WannaCry,WannaCrypt,Wcry",WannaCryptor,1
+665597a2901fe9839725126b1884321b,win.akira,REDBIKE,Akira,1
+668012498421c76b8a9d344ce6acfc67,jar.crossrat,Trupto,CrossRAT,1
+66fd839bf8f8f2905ceb862805a0e2a3,win.netwire,"NetWeird,NetWire,Recam",NetWire RC,1
+6721f76518a60a424d02502fb4255fa5,win.nanocore,"Nancrat,NanoCore",Nanocore RAT,1
+6735cd20825820a7065894676a056491,win.wannacryptor,"Wana Decrypt0r,WannaCry,WannaCrypt,Wcry",WannaCryptor,1
+67540f6e31a6430c90c370a4572e7cf1,win.njrat,"Bladabindi,Lime-Worm",NjRAT,1
+675a6bcf1161098f7fc8e65cf6b07ec8,win.quasar_rat,"CinaRAT,QuasarRAT,Yggdrasil",Quasar RAT,1
+6770efa141ede4415262c8b1a210b9ee,win.wannacryptor,"Wana Decrypt0r,WannaCry,WannaCrypt,Wcry",WannaCryptor,1
+6776873bba10f9f247ef5f63cd0bd8ad,win.wannacryptor,"Wana Decrypt0r,WannaCry,WannaCrypt,Wcry",WannaCryptor,1
+677d3e43a0ee2b00841b8e6eacb4f2b3,win.snappy_client,SilabRAT,SnappyClient,1
+6789fbc0c9a2661904231147e500bce0,win.wannacryptor,"Wana Decrypt0r,WannaCry,WannaCrypt,Wcry",WannaCryptor,1
+67b8124fadb279c17d379cb2945280d3,win.wannacryptor,"Wana Decrypt0r,WannaCry,WannaCrypt,Wcry",WannaCryptor,1
+67cfe6d11110f707c0ab1db18df76cfb,win.formbook,win.xloader,Formbook,1
+67e230755c1cf7cfc8d92a98c4caac13,jar.crossrat,Trupto,CrossRAT,1
+67e5faa2e8bdb1776ca9ba9614ed1573,win.akira,REDBIKE,Akira,1
+682a8c5dc87cb706bb33221e61975d09,win.netwire,"NetWeird,NetWire,Recam",NetWire RC,1
+683223a69f91887a6cb4f68b50adefb2,win.netwire,"NetWeird,NetWire,Recam",NetWire RC,1
+683852647171ca0de9a0b1f32833f4ec,win.agent_tesla,"AgenTesla,AgentTesla,Negasteal",Agent Tesla,1
+683c7276bbdc7df8740788e245a461d5,jar.crossrat,Trupto,CrossRAT,1
+687136a7d7e1c1e201913a6168e047ac,win.wannacryptor,"Wana Decrypt0r,WannaCry,WannaCrypt,Wcry",WannaCryptor,1
+68accaad382aebd9a6c9f755511dc123,win.agendacrypt,"Agenda,Qilin",AgendaCrypt,1
+68cc228531adcc0b7c2f9068e443cb3d,win.netwire,"NetWeird,NetWire,Recam",NetWire RC,1
+691a2eac6ec1368ab1ebbf8e5827b41b,win.akira,REDBIKE,Akira,1
+691f35bf0e51a5c1445a284029c28e29,win.netwire,"NetWeird,NetWire,Recam",NetWire RC,1
+6934255b1ba10cde7a761574d72d4dee,win.netwire,"NetWeird,NetWire,Recam",NetWire RC,1
+69446d7192ce7e5737bd9f7cbc7ca74a,win.akira,REDBIKE,Akira,1
+6947fe506ee83239c32a4213a91e1365,win.wannacryptor,"Wana Decrypt0r,WannaCry,WannaCrypt,Wcry",WannaCryptor,1
+69952dfc4e13803c1ded01e97e859178,win.netwire,"NetWeird,NetWire,Recam",NetWire RC,1
+69a80c661490fc3f54873eda9f678b9c,win.webmonitor,RevCode,WebMonitor RAT,1
+69d0de9e78ec99497182dcb635a1c610,win.njrat,"Bladabindi,Lime-Worm",NjRAT,1
+69eca81580f69774e2737639bb55848d,win.dcrat,DarkCrystal RAT,DCRat,1
+69eef609c1e8ee01f4f363b6975f436b,win.valley_rat,Winos,ValleyRAT,1
+6a051dcfaa8308563535490b74f43345,win.agendacrypt,"Agenda,Qilin",AgendaCrypt,1
+6a31b6cc74d3377af554b9176ee6ad15,win.netwire,"NetWeird,NetWire,Recam",NetWire RC,1
+6a4d5ab74aab4d6b8c24edb29d4b6d64,win.wannacryptor,"Wana Decrypt0r,WannaCry,WannaCrypt,Wcry",WannaCryptor,1
+6a7608923c0a47054ae9d9f0347b88e7,win.valley_rat,Winos,ValleyRAT,1
+6ac1ab7fb937d122fb238bc0c8f71f9b,win.formbook,win.xloader,Formbook,1
+6ac22b0b445d781a3b104ed39d3f7693,win.valley_rat,Winos,ValleyRAT,1
+6af89b4a89be1cf869a1d4c14674ee45,win.quasar_rat,"CinaRAT,QuasarRAT,Yggdrasil",Quasar RAT,1
+6b1a870bc9aa0a5d88931278f4375f50,win.redline_stealer,RECORDSTEALER,RedLine Stealer,1
+6b29f5081b4b800d01f8d805ab0bc852,win.wannacryptor,"Wana Decrypt0r,WannaCry,WannaCrypt,Wcry",WannaCryptor,1
+6b563f4e77537444a8cd913d70a1df0a,win.akira,REDBIKE,Akira,1
+6b730deb54b36fe9cb81817d533bcf89,win.quasar_rat,"CinaRAT,QuasarRAT,Yggdrasil",Quasar RAT,1
+6b7b93350359e62ca41a3acf97b73945,win.netwire,"NetWeird,NetWire,Recam",NetWire RC,1
+6b96b2e3cbd523607816524e67c36539,win.akira,REDBIKE,Akira,1
+6baea71e36ded632af5dd706a7bafa25,win.nanocore,"Nancrat,NanoCore",Nanocore RAT,1
+6bed23d500d79d0414f358da7bfa5c34,win.agendacrypt,"Agenda,Qilin",AgendaCrypt,1
+6bfcd5ae2d0c24563fe755a56b5c8bb0,win.ghost_rat,"Farfli,Gh0st RAT,PCRat",Ghost RAT,1
+6c0ff1c6abb8601339f818e03e4b3a14,win.phorpiex,"Tldr,Trik,TwizT,phorphiex",Phorpiex,1
+6c13dfb410af585f6d03540dd9597ab2,win.netwire,"NetWeird,NetWire,Recam",NetWire RC,1
+6c21fc02f62b16b4a8d8b40b8b3459fb,win.agendacrypt,"Agenda,Qilin",AgendaCrypt,1
+6c255ef0b62a23e7828f04054e8f3896,win.netwire,"NetWeird,NetWire,Recam",NetWire RC,1
+6c305c1fa9c13b359e5e599033705782,win.netwire,"NetWeird,NetWire,Recam",NetWire RC,1
+6c47b6133ffe78e1f31bbc77135e5a3d,win.tinymet,TiniMet,TinyMet,1
+6c80b51f9655aafd1e76c6d19492fdeb,win.netwire,"NetWeird,NetWire,Recam",NetWire RC,1
+6c9a2003f966064e96244f362628065b,win.cobalt_strike,"Agentemis,BEACON,CobaltStrike,cobeacon",Cobalt Strike,1
+6c9f0df2194fd7154de8f3c29e444fec,win.agendacrypt,"Agenda,Qilin",AgendaCrypt,1
+6cb55456e3e5c099a85a7314076bb741,win.formbook,win.xloader,Formbook,1
+6cc2ef716ba1fd8af7ee825cd332b158,win.phemedrone_stealer,Ov3r_Stealer,Phemedrone Stealer,1
+6d072d7f5d189f7714b3ef04bc0c2aec,win.nanocore,"Nancrat,NanoCore",Nanocore RAT,1
+6d1edb3a65fc022cfa90f9c00eb2629d,win.wannacryptor,"Wana Decrypt0r,WannaCry,WannaCrypt,Wcry",WannaCryptor,1
+6d3b8d56916cd9b741d9a6639ad5044a,win.akira,REDBIKE,Akira,1
+6d65f635af16760f4bbd91e0b712e97d,win.netwire,"NetWeird,NetWire,Recam",NetWire RC,1
+6d82907be55d8d627bbd17e70f4846ac,win.ghost_rat,"Farfli,Gh0st RAT,PCRat",Ghost RAT,1
+6da5f33515b187df3620e7463fab9995,win.wannacryptor,"Wana Decrypt0r,WannaCry,WannaCrypt,Wcry",WannaCryptor,1
+6dd9bd329127ae9eb15cbbe715ca9da0,win.akira,REDBIKE,Akira,1
+6df2733557d5247509c63cbf3e9f9fb1,win.valley_rat,Winos,ValleyRAT,1
+6dfadba2be23409dad04a6dbca6f3d1a,win.nanocore,"Nancrat,NanoCore",Nanocore RAT,1
+6e0bee2ef3f4f954c611ad227f7df85b,win.netwire,"NetWeird,NetWire,Recam",NetWire RC,1
+6e0da4c118ec3a4e2c78f2382c7cf70d,win.nanocore,"Nancrat,NanoCore",Nanocore RAT,1
+6e46e72e959371567c807773b0817a03,win.agendacrypt,"Agenda,Qilin",AgendaCrypt,1
+6e643e3d40a09151088693ae173f3f06,win.wannacryptor,"Wana Decrypt0r,WannaCry,WannaCrypt,Wcry",WannaCryptor,1
+6e7911309cdb3451407a336a12498902,win.valley_rat,Winos,ValleyRAT,1
+6e9cd29d317d6f0251aba016f04ea281,win.agent_tesla,"AgenTesla,AgentTesla,Negasteal",Agent Tesla,1
+6e9da596d8fc285f795e116e05a5b3a7,win.netwire,"NetWeird,NetWire,Recam",NetWire RC,1
+6edb9c07dccb6bbf836fb28a6560e921,win.phorpiex,"Tldr,Trik,TwizT,phorphiex",Phorpiex,1
+6ef10b9988bd4ad12f1576f78ce852c5,jar.crossrat,Trupto,CrossRAT,1
+6f1820834018453731427d4d4f63e09c,win.arkei_stealer,ArkeiStealer,Arkei Stealer,1
+6f575ebfdcd4f637bee393a18b547f59,win.agendacrypt,"Agenda,Qilin",AgendaCrypt,1
+6f78795c971999fa0998ea71885020dc,win.phorpiex,"Tldr,Trik,TwizT,phorphiex",Phorpiex,1
+6f7bb2814d31f9d91b3fa08b154fab84,win.agendacrypt,"Agenda,Qilin",AgendaCrypt,1
+6fdfafd6ee99b1da17f1a01be789957d,win.valley_rat,Winos,ValleyRAT,1
+6ff26b74fc9ec8a190966a9caa97ae39,win.formbook,win.xloader,Formbook,1
+6ff68578110de0105fc3a1a1ab635dd3,win.netwire,"NetWeird,NetWire,Recam",NetWire RC,1
+6ffb460b769ad532efccc7ec37ca8995,win.akira,REDBIKE,Akira,1
+6ffefcd7dc6e26535d2e89fddc8fac73,win.netwire,"NetWeird,NetWire,Recam",NetWire RC,1
+700fab1c874a6e5948af14c7d122bd48,win.phorpiex,"Tldr,Trik,TwizT,phorphiex",Phorpiex,1
+700fb7e2c6a2ff13cd27e08a18703423,win.wannacryptor,"Wana Decrypt0r,WannaCry,WannaCrypt,Wcry",WannaCryptor,1
+702503357d409579fe658b1a518d93a2,win.netwire,"NetWeird,NetWire,Recam",NetWire RC,1
+7046e88eb63b1d5271901092ce6e3838,win.netwire,"NetWeird,NetWire,Recam",NetWire RC,1
+706e4e3277a565232ca3c363299b032f,win.phorpiex,"Tldr,Trik,TwizT,phorphiex",Phorpiex,1
+70735b4870e7d8e52bf45548df922149,win.akira,REDBIKE,Akira,1
+70c85f3a75f97d78dade0e8dbd3c642d,win.wannacryptor,"Wana Decrypt0r,WannaCry,WannaCrypt,Wcry",WannaCryptor,1
+70ccc55374a58a7513304ffafa37db6e,win.agent_tesla,"AgenTesla,AgentTesla,Negasteal",Agent Tesla,1
+70d16f6a5cf59a30e6676a7ba58834b3,win.formbook,win.xloader,Formbook,1
+70f6dff404b94d943db1514648700cfa,win.wannacryptor,"Wana Decrypt0r,WannaCry,WannaCrypt,Wcry",WannaCryptor,1
+7143db771d9cd4cc578cd3117368cbbb,win.phorpiex,"Tldr,Trik,TwizT,phorphiex",Phorpiex,1
+715d011c170ae2246bc17e33de4fbb7d,win.akira,REDBIKE,Akira,1
+719a506be56da81969f7c439183ef4c1,win.valley_rat,Winos,ValleyRAT,1
+71a63b374d229f30f2912c501f7cce07,win.phorpiex,"Tldr,Trik,TwizT,phorphiex",Phorpiex,1
+71ab9950464359366b9d96c9f576a468,win.akira,REDBIKE,Akira,1
+71d7459d44d8e6017b2bd14542a71c3d,win.formbook,win.xloader,Formbook,1
+71fbc6bdb647b08e75c35417a1216e0b,win.wannacryptor,"Wana Decrypt0r,WannaCry,WannaCrypt,Wcry",WannaCryptor,1
+71fc38575f3641e70a22e1a291e55395,win.wannacryptor,"Wana Decrypt0r,WannaCry,WannaCrypt,Wcry",WannaCryptor,1
+7226fb1c7386c342d188c0b9467f7bc5,jar.crossrat,Trupto,CrossRAT,1
+725bf8595f4373bff566ab35a9a6c5d2,win.akira,REDBIKE,Akira,1
+72990e94e0316066e2fc625b64fa0626,win.hijackloader,"DOILoader,GHOSTPULSE,IDAT Loader,SHADOWLADDER",HijackLoader,1
+72aa3594e47ab58aecf445d9703f6c43,win.redline_stealer,RECORDSTEALER,RedLine Stealer,1
+72b4cbacd5e0f967cda3a9adfd04a136,win.snappy_client,SilabRAT,SnappyClient,1
+72d63a58a15014d10fc40c909687ddbb,win.netwire,"NetWeird,NetWire,Recam",NetWire RC,1
+72ef20c8bf9cd4c8243af969dc6574e7,win.wannacryptor,"Wana Decrypt0r,WannaCry,WannaCrypt,Wcry",WannaCryptor,1
+72ff3b17e97c7dd4f88bba3e7b7aa2e2,win.wannacryptor,"Wana Decrypt0r,WannaCry,WannaCrypt,Wcry",WannaCryptor,1
+731219563f05a61e639b645f4892d6cb,win.netwire,"NetWeird,NetWire,Recam",NetWire RC,1
+734f2038edc0fb655e13004199f9e7da,win.dcrat,DarkCrystal RAT,DCRat,1
+73956053fde7be9fe1c63b45630692a2,win.agendacrypt,"Agenda,Qilin",AgendaCrypt,1
+73d3a30675edff0224cfaeef1b578b66,win.agent_tesla,"AgenTesla,AgentTesla,Negasteal",Agent Tesla,1
+73da2c02c6f8bfd4662dc84820dcd983,win.azorult,"PuffStealer,Rultazo",Azorult,1
+7414b115ca797102f21b7bd79dc9fe3a,win.netwire,"NetWeird,NetWire,Recam",NetWire RC,1
+744c291f1af31190766580c630d0c032,win.webmonitor,RevCode,WebMonitor RAT,1
+744e1221f6467d0b7e73a10f52e6cd6c,win.njrat,"Bladabindi,Lime-Worm",NjRAT,1
+748504f2ecd67972a12bb0bf0be57e6b,win.wannacryptor,"Wana Decrypt0r,WannaCry,WannaCrypt,Wcry",WannaCryptor,1
+74ceeff02f9c10bd97b9d51b912d1907,win.akira,REDBIKE,Akira,1
+74d740193b40387b0bb8d31d4e681146,win.agent_tesla,"AgenTesla,AgentTesla,Negasteal",Agent Tesla,1
+74e28ff56ee527fe955e404861a4c71b,win.zstealer,Z*Stealer,ZStealer,1
+7503c336e6854e0fd68af9dca257b930,win.formbook,win.xloader,Formbook,1
+752b88ff4f0f5ea39ac1912c924f2f4d,win.wannacryptor,"Wana Decrypt0r,WannaCry,WannaCrypt,Wcry",WannaCryptor,1
+752d5cdda2a1d93d27e38f98a5d23fc2,win.netwire,"NetWeird,NetWire,Recam",NetWire RC,1
+754c6de7387dc7c44dbd765d82658d4e,win.wannacryptor,"Wana Decrypt0r,WannaCry,WannaCrypt,Wcry",WannaCryptor,1
+75f68d369e48fba33a4d53d45f32a6c6,win.njrat,"Bladabindi,Lime-Worm",NjRAT,1
+760d566d584ec8a8e7d74468a185fd56,win.phorpiex,"Tldr,Trik,TwizT,phorphiex",Phorpiex,1
+765c50d86c02177d5479ae31794e8447,win.netwire,"NetWeird,NetWire,Recam",NetWire RC,1
+769d03cf11445b268306bf569d15ae29,win.agendacrypt,"Agenda,Qilin",AgendaCrypt,1
+76a8df24185e2da245a9ca5b6d1c600d,win.snappy_client,SilabRAT,SnappyClient,1
+77419b9de019b422054b6560b7114441,win.redline_stealer,RECORDSTEALER,RedLine Stealer,1
+778536300231f9b2986156aca82877a2,jar.crossrat,Trupto,CrossRAT,1
+7790768e8fe6d3bbe1b36e5457895b22,win.phorpiex,"Tldr,Trik,TwizT,phorphiex",Phorpiex,1
+77d0cf12235bfc6c0d8058a3e4d33f79,win.wannacryptor,"Wana Decrypt0r,WannaCry,WannaCrypt,Wcry",WannaCryptor,1
+77ef3956571c199697945e44f76cd308,win.formbook,win.xloader,Formbook,1
+780a6443312a97c4c04955d21f767bd1,win.akira,REDBIKE,Akira,1
+78617f90f7cdcbd54891c1db1ef15ccb,win.njrat,"Bladabindi,Lime-Worm",NjRAT,1
+7868f2ac2276680a3ddcc0ef9f886650,win.phorpiex,"Tldr,Trik,TwizT,phorphiex",Phorpiex,1
+78bed56c1df063c2d5a4fef941c1b4e2,win.wannacryptor,"Wana Decrypt0r,WannaCry,WannaCrypt,Wcry",WannaCryptor,1
+78d5bbac805b333ec066c1a407403077,win.akira,REDBIKE,Akira,1
+78ea9434eb06f6069346be4dc920e706,win.netwire,"NetWeird,NetWire,Recam",NetWire RC,1
+791d27fd45d5ac5f25235b46547129ad,win.agent_tesla,"AgenTesla,AgentTesla,Negasteal",Agent Tesla,1
+794eff0e5409fe96d267eb6fc597fd2f,win.agendacrypt,"Agenda,Qilin",AgendaCrypt,1
+7955f6409c9e6669fcd5e3a0a293bc21,win.wannacryptor,"Wana Decrypt0r,WannaCry,WannaCrypt,Wcry",WannaCryptor,1
+7972c7b003f41d914dd1fcb98dbdfaba,jar.crossrat,Trupto,CrossRAT,1
+7985836734f2b20f13a8b247a92016fe,win.netwire,"NetWeird,NetWire,Recam",NetWire RC,1
+799451c91e029e6e173fca3608d12c78,win.valley_rat,Winos,ValleyRAT,1
+79a2c458c2f540fb85e4fd98f9183564,win.netwire,"NetWeird,NetWire,Recam",NetWire RC,1
+79ce4d0c02c4a1c3192615ed9f9b1962,win.wannacryptor,"Wana Decrypt0r,WannaCry,WannaCrypt,Wcry",WannaCryptor,1
+79d90eabf375fcae4bf76ed88d7d2c10,win.valley_rat,Winos,ValleyRAT,1
+7a0f3eebfb821131f22ff6ec2645b4fc,win.valley_rat,Winos,ValleyRAT,1
+7a5224de6406df80ee440ea593e4f526,win.agent_tesla,"AgenTesla,AgentTesla,Negasteal",Agent Tesla,1
+7a71a5475cbfb7d5a5557dddb18159bf,win.agendacrypt,"Agenda,Qilin",AgendaCrypt,1
+7abd23e3c92c5acbee7c6147cd1c7121,win.netwire,"NetWeird,NetWire,Recam",NetWire RC,1
+7aec91415fc7be9c53683695421b0663,win.akira,REDBIKE,Akira,1
+7af648a93b30ceec0dcc427f4228e190,win.njrat,"Bladabindi,Lime-Worm",NjRAT,1
+7afdd824c99b170d2f2bacd172128d2f,win.agent_tesla,"AgenTesla,AgentTesla,Negasteal",Agent Tesla,1
+7aff39817fd60f3ea5b9298e8838b481,win.tofsee,Gheg,Tofsee,1
+7b6b7be273f8c409f44fd94655b3e6cb,win.netwire,"NetWeird,NetWire,Recam",NetWire RC,1
+7b784e84c211dbdc94f2b19039b176f0,win.formbook,win.xloader,Formbook,1
+7b7b06ea4f414ff9ea691a82e6bc247b,win.cobalt_strike,"Agentemis,BEACON,CobaltStrike,cobeacon",Cobalt Strike,1
+7ba4c93c6142fd6b1b0c34f92deda07a,win.agendacrypt,"Agenda,Qilin",AgendaCrypt,1
+7c0f9f1375d685ec9a30c2e1a5cf7817,win.netwire,"NetWeird,NetWire,Recam",NetWire RC,1
+7c25026a44e8ecef8bfd6bae85621f10,win.netwire,"NetWeird,NetWire,Recam",NetWire RC,1
+7c35b3f6138a700714544a0146e3dad5,win.formbook,win.xloader,Formbook,1
+7c407c1bad69c37f2498b3efce43d9ce,win.akira,REDBIKE,Akira,1
+7c4224b91735fb594820ee3722d02551,win.valley_rat,Winos,ValleyRAT,1
+7c51a9bfc46e3efc5de5397938868954,win.akira,REDBIKE,Akira,1
+7c56a1729ab8f1168987e930910236cb,win.formbook,win.xloader,Formbook,1
+7c766f29e987f4acf421154bb35193f2,win.wannacryptor,"Wana Decrypt0r,WannaCry,WannaCrypt,Wcry",WannaCryptor,1
+7cc1bd83d32e117bd0ef78d73647c144,win.ghost_rat,"Farfli,Gh0st RAT,PCRat",Ghost RAT,1
+7cdd492f8bf92e342c2671c79baf274d,win.snappy_client,SilabRAT,SnappyClient,1
+7cec47740ae2e3a5914bb46bc2d0ffc6,win.agent_tesla,"AgenTesla,AgentTesla,Negasteal",Agent Tesla,1
+7d31b4d8fa391abaf49bf2c36d33fea2,win.akira,REDBIKE,Akira,1
+7d4dcace32850c5e3e9d5dff5a6ef08d,win.nanocore,"Nancrat,NanoCore",Nanocore RAT,1
+7da1c529f1cde0f28f08d5e90a64f19c,win.netwire,"NetWeird,NetWire,Recam",NetWire RC,1
+7dd5cd9ce3eb7740a35c1830e3794a8c,win.dcrat,DarkCrystal RAT,DCRat,1
+7dec659ecec8d9ff214b5af9f0e54d38,win.valley_rat,Winos,ValleyRAT,1
+7dfab6d94576579e466f5bc7ace0019b,win.phorpiex,"Tldr,Trik,TwizT,phorphiex",Phorpiex,1
+7e23f2323298ebd280e3fd2dea5fdab5,win.agendacrypt,"Agenda,Qilin",AgendaCrypt,1
+7e24bcfac39c612504d8f96883837345,win.netwire,"NetWeird,NetWire,Recam",NetWire RC,1
+7e303a6c2f8e3bd367e1d1474e2b328e,win.akira,REDBIKE,Akira,1
+7e3841913e2fd4e3ecf9d382dcd7becd,win.tofsee,Gheg,Tofsee,1
+7e3c8e6b6e28de7dd4e75ff8329c5da9,win.agendacrypt,"Agenda,Qilin",AgendaCrypt,1
+7e7c478b6016828d9bf035079574fdc5,win.valley_rat,Winos,ValleyRAT,1
+7ecd3b8fbf1d5242285e253d9910d1a8,win.wannacryptor,"Wana Decrypt0r,WannaCry,WannaCrypt,Wcry",WannaCryptor,1
+7efc3d83ce8f54d93966930c0a8b3316,win.netwire,"NetWeird,NetWire,Recam",NetWire RC,1
+7f1a28936f529e3d10244d3d81e604bd,win.formbook,win.xloader,Formbook,1
+7f3edcd0ad17cae6ef95cc16e208eedf,win.formbook,win.xloader,Formbook,1
+7f4dfafd6d37ad850e5d38f090eed2c9,win.ghost_rat,"Farfli,Gh0st RAT,PCRat",Ghost RAT,1
+7fa66cd078571662d30ac258f4f353c6,win.wannacryptor,"Wana Decrypt0r,WannaCry,WannaCrypt,Wcry",WannaCryptor,1
+7fe9e7c78b6338f423dbd0c46b923f4e,win.loda,"LodaRAT,Nymeria",Loda,1
+8043b87976309cfaf0ccff63f629b9b6,win.njrat,"Bladabindi,Lime-Worm",NjRAT,1
+80b9ce821562da8e4178c2e08e761aca,win.netwire,"NetWeird,NetWire,Recam",NetWire RC,1
+80dabe87dee2818816c1b8f79ddac79c,win.agendacrypt,"Agenda,Qilin",AgendaCrypt,1
+814500d9eed759f84863185d99ff4358,win.netwire,"NetWeird,NetWire,Recam",NetWire RC,1
+81a6699618caa9d38a99aac19a33b770,win.ghostnet,Remosh,Gh0stnet,1
+822086e8cca3a86d1845e0c86cc249a5,win.formbook,win.xloader,Formbook,1
+8240919c6c1723113f8db83d8dffcba3,win.wannacryptor,"Wana Decrypt0r,WannaCry,WannaCrypt,Wcry",WannaCryptor,1
+82454d9f0d4b22bc8357285e8397ee3a,win.dcrat,DarkCrystal RAT,DCRat,1
+825620363d5ff8e4d820a402bfcb425d,win.akira,REDBIKE,Akira,1
+825820fc81056e0cb65b2ef0dbffac08,win.formbook,win.xloader,Formbook,1
+8264bcaf76a6ff84e9d20bfd04f77ecf,win.valley_rat,Winos,ValleyRAT,1
+82a4bd3e8d17ab61c6fb376bdaa08edd,win.quasar_rat,"CinaRAT,QuasarRAT,Yggdrasil",Quasar RAT,1
+82d94a9e1a29ce0803fc5bd0b228a94f,win.cryptomix,"Azer,CryptFile2",CryptoMix,1
+82fa0aa7387d7173c9a9ebd1e8dcbb84,win.cobalt_strike,"Agentemis,BEACON,CobaltStrike,cobeacon",Cobalt Strike,1
+83235e61c6bdf0d75a1777e0478f2362,win.netwire,"NetWeird,NetWire,Recam",NetWire RC,1
+832e5ff3482cd9e4fba4e2fe22799cd8,win.ghost_rat,"Farfli,Gh0st RAT,PCRat",Ghost RAT,1
+83383615883396568ca7d3e26a3f52b0,win.nanocore,"Nancrat,NanoCore",Nanocore RAT,1
+8347c0d21537e847ab3572dd45ba17d5,win.phorpiex,"Tldr,Trik,TwizT,phorphiex",Phorpiex,1
+836dbe3a95c24eece97f788939523d6e,win.tofsee,Gheg,Tofsee,1
+83928513bb5518e71704d089dedfe44d,win.terra_stealer,"StealerOne,SONE,Taurus Loader Stealer Module",TerraStealer,1
+83aaec9b27ca20a5f1cdd75aa3c89d9a,win.agent_tesla,"AgenTesla,AgentTesla,Negasteal",Agent Tesla,1
+83cba23902bef1657ec8924f4428f9cb,win.valley_rat,Winos,ValleyRAT,1
+8401e96f3e47f9e0fb2544424acd1434,win.terra_stealer,"StealerOne,SONE,Taurus Loader Stealer Module",TerraStealer,1
+842c0ec2c16fd14a656b3caa6b0d93fc,jar.crossrat,Trupto,CrossRAT,1
+8465b5392ea382ceec662c25ea7acc34,jar.crossrat,Trupto,CrossRAT,1
+846f4ed47a679e24505470f61d9110db,win.valley_rat,Winos,ValleyRAT,1
+846fd66b3869f763ec131f18bec3468d,win.wannacryptor,"Wana Decrypt0r,WannaCry,WannaCrypt,Wcry",WannaCryptor,1
+84dcae246991d1aa893f10a803393bff,win.agendacrypt,"Agenda,Qilin",AgendaCrypt,1
+84e38378eaee827ee86bd112d3a7bc49,win.snappy_client,SilabRAT,SnappyClient,1
+853127445eba58f0a6a19a2b7590b91f,win.netwire,"NetWeird,NetWire,Recam",NetWire RC,1
+858d6d91e6d04cb26acb51fcb516f9c1,win.valley_rat,Winos,ValleyRAT,1
+8594a6fe0265fa1629c16411f0fd3d77,win.formbook,win.xloader,Formbook,1
+85b46fd53fbfcfaabf5a52f0dc25134f,win.agendacrypt,"Agenda,Qilin",AgendaCrypt,1
+85c170552c596662d5903e35fa3d0803,win.netwire,"NetWeird,NetWire,Recam",NetWire RC,1
+85e816f6bd731a288f1be797a2531b0e,win.akira,REDBIKE,Akira,1
+85ffd3ab8ed16a565046b0dd1dfe88a1,osx.amos,Atomic macOS Stealer,AMOS,1
+861952d1ea908f76fd9f581881e5a63a,win.zstealer,Z*Stealer,ZStealer,1
+861a9b7ff7e91010cf002fb2b669bf1c,win.pure_rat,"PureHVNC,ResolverRAT",PureRAT,1
+862b5f62028a30d7f6c8ef20d4450f29,win.agent_tesla,"AgenTesla,AgentTesla,Negasteal",Agent Tesla,1
+87180de7663dc32acab6edf49345abd8,jar.crossrat,Trupto,CrossRAT,1
+873fc496e92aa2cb806e215d11eb63ca,win.netwire,"NetWeird,NetWire,Recam",NetWire RC,1
+874c7ebcdc1be4d40b6a337d1299566b,win.agendacrypt,"Agenda,Qilin",AgendaCrypt,1
+8799d7664ef577e5904a49d75c610615,win.valley_rat,Winos,ValleyRAT,1
+87d63b1afea08697a07aefd3661c2a87,jar.crossrat,Trupto,CrossRAT,1
+880c2ae254a73ccc92d747de5993e976,win.valley_rat,Winos,ValleyRAT,1
+881bb1ac8a5f4f0be3c86867a331d269,win.netwire,"NetWeird,NetWire,Recam",NetWire RC,1
+88602976f7c64499ef40e4972ac17db6,win.formbook,win.xloader,Formbook,1
+8871665f04a761afb82cd425a9419130,win.cobalt_strike,"Agentemis,BEACON,CobaltStrike,cobeacon",Cobalt Strike,1
+8872f3bcad8c765127f75aa5838afd61,win.agendacrypt,"Agenda,Qilin",AgendaCrypt,1
+8873d6ba9da18451ee95da046c7c6de7,win.akira,REDBIKE,Akira,1
+88789a1cc82d672509fc1ce33dff1fe8,win.wannacryptor,"Wana Decrypt0r,WannaCry,WannaCrypt,Wcry",WannaCryptor,1
+88c303b6a584e5f22c771fe8bbabdf0c,win.netwire,"NetWeird,NetWire,Recam",NetWire RC,1
+88e1e1c77f64a17500d8569ee43b7a28,win.pslogger,ECCENTRICBANDWAGON,PSLogger,1
+88ea2182c8c30ba080f1199510e28c6e,win.netwire,"NetWeird,NetWire,Recam",NetWire RC,1
+8928e0f9ade1ca6b96c0a7539ff6c9fb,win.wannacryptor,"Wana Decrypt0r,WannaCry,WannaCrypt,Wcry",WannaCryptor,1
+893cf55eb5c958896580854b7f5c44e1,win.formbook,win.xloader,Formbook,1
+8951ce27300748d7b3d471020fbbd830,win.agent_tesla,"AgenTesla,AgentTesla,Negasteal",Agent Tesla,1
+8954631e8ffbb6b865e2353f3d847f0c,win.njrat,"Bladabindi,Lime-Worm",NjRAT,1
+895e427449556e15d357670e9e499dcb,jar.crossrat,Trupto,CrossRAT,1
+899935e293368b4aafd6ff8db7375844,win.agendacrypt,"Agenda,Qilin",AgendaCrypt,1
+899f8c35499817aa487210462eaf1e42,win.mydoom,"Novarg,Mimail",MyDoom,1
+89a42088178e5c5778bcef4b02930b14,win.agent_tesla,"AgenTesla,AgentTesla,Negasteal",Agent Tesla,1
+89f61b8bb4fa4229f6f18fab9e3a0a64,win.valley_rat,Winos,ValleyRAT,1
+8a14671854cab047338e08ae086b1fee,win.formbook,win.xloader,Formbook,1
+8a2bfd3db3c1c7174d79577ee3669e04,win.netwire,"NetWeird,NetWire,Recam",NetWire RC,1
+8a33c9c6ffdc7a24457639723c167353,win.agendacrypt,"Agenda,Qilin",AgendaCrypt,1
+8a626d844943da3456b044f38deae3a2,win.valley_rat,Winos,ValleyRAT,1
+8ad256c5b786abb5f1552d906df3482a,win.quasar_rat,"CinaRAT,QuasarRAT,Yggdrasil",Quasar RAT,1
+8b412017ea27ddf94c4bd31b70588969,win.formbook,win.xloader,Formbook,1
+8bcfc53fedfa845162b02f161a8a40e9,win.phorpiex,"Tldr,Trik,TwizT,phorphiex",Phorpiex,1
+8c113b3aa82c81eee7c6b4ed0ba9a90f,win.akira,REDBIKE,Akira,1
+8c21b2fbded2faeb6db2e7a20c513cdb,win.redline_stealer,RECORDSTEALER,RedLine Stealer,1
+8c224bd3347c99685ac39d0322fbcde5,win.netwire,"NetWeird,NetWire,Recam",NetWire RC,1
+8c36eceb4a02ff1fba10bb95cc037dc6,win.agendacrypt,"Agenda,Qilin",AgendaCrypt,1
+8c37e43091ae6750e9dd459f81f0f32c,win.tinymet,TiniMet,TinyMet,1
+8c3dd656daaafe66e19afd5cb76d8a7d,win.supper,"SocksShell,ZAPCAT",Supper,1
+8c801133cbc3bb52052bcf79a5216450,win.agendacrypt,"Agenda,Qilin",AgendaCrypt,1
+8c82f607f14980a6962993f8800cdf35,win.redline_stealer,RECORDSTEALER,RedLine Stealer,1
+8c84bbc4ae0513b991821a21fac9f8d6,win.njrat,"Bladabindi,Lime-Worm",NjRAT,1
+8c91dc9f4aaea6e073773138bac235b9,win.valley_rat,Winos,ValleyRAT,1
+8d1bcf322230e8935758228cebec1bb6,win.formbook,win.xloader,Formbook,1
+8d1f898379640ff3b9d61d256ede418f,win.phorpiex,"Tldr,Trik,TwizT,phorphiex",Phorpiex,1
+8d5944e69ec9d5578cc17348f5eb97e7,win.valley_rat,Winos,ValleyRAT,1
+8d641acb5d43017a27c9006d5b7ea739,win.agendacrypt,"Agenda,Qilin",AgendaCrypt,1
+8d85f3625bd3fb7b9b9595aa8faa4b53,win.wannacryptor,"Wana Decrypt0r,WannaCry,WannaCrypt,Wcry",WannaCryptor,1
+8d9fa801432654ebfe456974bb355bd2,win.ghost_rat,"Farfli,Gh0st RAT,PCRat",Ghost RAT,1
+8da0682a940f6fe660af38de8e003111,jar.crossrat,Trupto,CrossRAT,1
+8dcacca487b7a59431cf774dff3077b4,win.agendacrypt,"Agenda,Qilin",AgendaCrypt,1
+8df493738e037debafb8ef065095c30c,win.agent_tesla,"AgenTesla,AgentTesla,Negasteal",Agent Tesla,1
+8e168e0cacef78f10dc13a69d5bd0b1a,win.valley_rat,Winos,ValleyRAT,1
+8e178cda459ec88e20d9f81dbe9cd666,win.wannacryptor,"Wana Decrypt0r,WannaCry,WannaCrypt,Wcry",WannaCryptor,1
+8e584b7f95ee67a337c103260f122413,win.agent_tesla,"AgenTesla,AgentTesla,Negasteal",Agent Tesla,1
+8e9ac32cc675e6150664d9a663c1d403,win.wannacryptor,"Wana Decrypt0r,WannaCry,WannaCrypt,Wcry",WannaCryptor,1
+8ebe0cda768b18141bf5c50f1b54b0d0,win.wannacryptor,"Wana Decrypt0r,WannaCry,WannaCrypt,Wcry",WannaCryptor,1
+8f04da86c61ace10afba58bb25269c73,win.njrat,"Bladabindi,Lime-Worm",NjRAT,1
+8f45724779f470a3697b39fa6a6be4db,win.netwire,"NetWeird,NetWire,Recam",NetWire RC,1
+8f4d337438eaf684b61e294ea52588f1,win.valley_rat,Winos,ValleyRAT,1
+8f7f395cb7def20a202a092772e89a5f,win.netwire,"NetWeird,NetWire,Recam",NetWire RC,1
+8f82374cae854dcc3df5a9a6e849de1c,win.pure_rat,"PureHVNC,ResolverRAT",PureRAT,1
+8f93aa8aa04ca6c13477542655cdb74b,win.valley_rat,Winos,ValleyRAT,1
+8fa335df29a65265e791f22f053200b8,win.valley_rat,Winos,ValleyRAT,1
+8fb64d051848b0d8c38dcb683475d5f4,win.agendacrypt,"Agenda,Qilin",AgendaCrypt,1
+8fb7df395db994a847cb91c24482cd84,win.formbook,win.xloader,Formbook,1
+8fb9236c324c2fc8e9a691e0ef7fd5b6,win.netwire,"NetWeird,NetWire,Recam",NetWire RC,1
+8fdc8eb2b0739cdea9e5559342cf9152,win.netwire,"NetWeird,NetWire,Recam",NetWire RC,1
+90280056c5ad293736030e4747d80c01,win.akira,REDBIKE,Akira,1
+90434fecfdbd2498b48fb51e439571db,jar.crossrat,Trupto,CrossRAT,1
+904613f59987b5ebbc3e7d94b1390420,win.akira,REDBIKE,Akira,1
+9047bb218a5a60ca81e76acd719979d3,win.agendacrypt,"Agenda,Qilin",AgendaCrypt,1
+905c791b2ed300193fbc4248c5bca33d,win.valley_rat,Winos,ValleyRAT,1
+908a7f5bcdd8b0bc8e1f6bd86f217222,win.agendacrypt,"Agenda,Qilin",AgendaCrypt,1
+90e645041b6e91f8b83d0da2c62ec148,win.valley_rat,Winos,ValleyRAT,1
+9115bd384681bae8ad1fda391f0f3235,win.wannacryptor,"Wana Decrypt0r,WannaCry,WannaCrypt,Wcry",WannaCryptor,1
+91269eb3c084956392ddaf6a60139fd5,win.wannacryptor,"Wana Decrypt0r,WannaCry,WannaCrypt,Wcry",WannaCryptor,1
+9155bab3529858191b6ebbdd00bce6cf,win.agendacrypt,"Agenda,Qilin",AgendaCrypt,1
+915fde891a9af4c32c76c619b4301471,win.akira,REDBIKE,Akira,1
+9165819cd48cc6eb816b22a27f85aefe,win.valley_rat,Winos,ValleyRAT,1
+9167ebf77d442c08692aff65cdbc99d3,win.formbook,win.xloader,Formbook,1
+917337889870afed6fbc18dfbb96cb42,win.netwire,"NetWeird,NetWire,Recam",NetWire RC,1
+9185eaa9b3e19cda183ab18f8b914262,win.agendacrypt,"Agenda,Qilin",AgendaCrypt,1
+9190f4812fe3c0a33b9cc26672e44020,win.netwire,"NetWeird,NetWire,Recam",NetWire RC,1
+919d26f0f845dbfa79bcbad25afd7f10,win.pure_rat,"PureHVNC,ResolverRAT",PureRAT,1
+91b84b14b1e6d72dc63caf997a338c87,win.formbook,win.xloader,Formbook,1
+91ca1348736c8b8e8845aea6bf944845,win.netwire,"NetWeird,NetWire,Recam",NetWire RC,1
+91ca6805aabe73cabd12644fccf91ec5,win.valley_rat,Winos,ValleyRAT,1
+9209c4f81950da9422311103c970cb42,win.nanocore,"Nancrat,NanoCore",Nanocore RAT,1
+9212fe6f148538c752ed95789c963e3b,win.akira,REDBIKE,Akira,1
+924e0f3caf68b9dc2d770ec7731e4363,win.netwire,"NetWeird,NetWire,Recam",NetWire RC,1
+9274a2f9b3a4fb303eee9a725493a118,win.agendacrypt,"Agenda,Qilin",AgendaCrypt,1
+92d67d5f59e1c708af8a4ec0dbe1d8dc,win.netwire,"NetWeird,NetWire,Recam",NetWire RC,1
+92d6c394b1bf7357ee851b92e80296f4,win.formbook,win.xloader,Formbook,1
+930114eafd4d5b3b863c795bb99e9ce5,win.formbook,win.xloader,Formbook,1
+93031382c35368b570334ca96fc338d7,win.dcrat,DarkCrystal RAT,DCRat,1
+930dcdaff1c9d762e2c99e428de68d13,win.formbook,win.xloader,Formbook,1
+9333bb34844a2579ea99b40edd82e3fd,win.formbook,win.xloader,Formbook,1
+935335798cef23f623dbe580998e950f,win.agent_tesla,"AgenTesla,AgentTesla,Negasteal",Agent Tesla,1
+935ce08748c7a78cbf64a8d0e5341061,win.valley_rat,Winos,ValleyRAT,1
+9370214e8a6df62b2263cb73d0d335b1,win.formbook,win.xloader,Formbook,1
+9383dfc389707b42cb1792cd8b4828db,win.pure_rat,"PureHVNC,ResolverRAT",PureRAT,1
+9394e505be0e7a274cd7431abd53aef1,win.agendacrypt,"Agenda,Qilin",AgendaCrypt,1
+93a62112f02c40b89ed1e2589a263223,win.agent_tesla,"AgenTesla,AgentTesla,Negasteal",Agent Tesla,1
+93e61d5a877bbb937e885d3ca385ac8a,win.nanocore,"Nancrat,NanoCore",Nanocore RAT,1
+93e92dff263bbc1d53eaeed408652837,win.akira,REDBIKE,Akira,1
+9460E150E1981D5C165043520C5C12FE,win.cobalt_strike,"Agentemis,BEACON,CobaltStrike,cobeacon",Cobalt Strike,1
+9480a93d4617c0260a02aba0d7a973a3,win.netwire,"NetWeird,NetWire,Recam",NetWire RC,1
+94d2ca3c409914ad4d42ea57ce4b36b1,win.nanocore,"Nancrat,NanoCore",Nanocore RAT,1
+94da43172f8eb345594617df0937f4fd,win.valley_rat,Winos,ValleyRAT,1
+94e7502ee1d0fb12fa17acaa5588edb5,jar.crossrat,Trupto,CrossRAT,1
+951351f0fb96dbbbd8379548ad1767bc,win.njrat,"Bladabindi,Lime-Worm",NjRAT,1
+9562334dd9a47ec1239a8667ddc1f01c,win.netwire,"NetWeird,NetWire,Recam",NetWire RC,1
+956f2e9ba3205c88d64d6e308662c690,win.akira,REDBIKE,Akira,1
+95b2fcc982f7e28ea3e6fda09ebda0b5,win.agendacrypt,"Agenda,Qilin",AgendaCrypt,1
+95e32a3d60558c896f50ff50684fe125,win.formbook,win.xloader,Formbook,1
+95f15b2bb39901645985addaf2b596b5,win.formbook,win.xloader,Formbook,1
+95f6de7442e040fb10547140a05ddd45,win.akira,REDBIKE,Akira,1
+960d0238a337c963c5eba8ac6010b5d8,win.netwire,"NetWeird,NetWire,Recam",NetWire RC,1
+96643dad566ec23b8917bd08cd0bb575,win.pure_rat,"PureHVNC,ResolverRAT",PureRAT,1
+96bcdbf175c237e75c424d075b7ac4e4,win.netwire,"NetWeird,NetWire,Recam",NetWire RC,1
+96c6ecc564da576285526af14e026f54,win.supper,"SocksShell,ZAPCAT",Supper,1
+9717F005C5FB98E08D2AD983D88F94EE,win.cobalt_strike,"Agentemis,BEACON,CobaltStrike,cobeacon",Cobalt Strike,1
+9765e16983b302d180471084929544eb,win.akira,REDBIKE,Akira,1
+97960cb546365a3a320fd26dac47d10e,win.njrat,"Bladabindi,Lime-Worm",NjRAT,1
+97b43a41d7f2b2cdfb960693da5e97f5,win.blustealer,a310logger,BluStealer,1
+97d63f8a798d8195948ef4ea51909385,win.wannacryptor,"Wana Decrypt0r,WannaCry,WannaCrypt,Wcry",WannaCryptor,1
+97e42e50ecb6690f179b58c20f9de633,win.mispadu,URSA,Mispadu,1
+981d4eb72393f6460c64e5444c963d19,win.wannacryptor,"Wana Decrypt0r,WannaCry,WannaCrypt,Wcry",WannaCryptor,1
+9823c6808b6a115e65b36335b88742ce,win.netwire,"NetWeird,NetWire,Recam",NetWire RC,1
+983cca37c0534eb53f981fb4eb89a7f8,jar.crossrat,Trupto,CrossRAT,1
+9879433dd3c53dc70d52ca0ff2aec8e2,win.njrat,"Bladabindi,Lime-Worm",NjRAT,1
+98b8db2b82f626f52bd846cfe6c47ced,win.wannacryptor,"Wana Decrypt0r,WannaCry,WannaCrypt,Wcry",WannaCryptor,1
+98cf0b60a8b4015d47165b49a68ad676,win.nanocore,"Nancrat,NanoCore",Nanocore RAT,1
+98d8b9bb62d412dcb2914f919e4750c3,win.netwire,"NetWeird,NetWire,Recam",NetWire RC,1
+99088294d431c0b4b63269202dba2d00,win.wannacryptor,"Wana Decrypt0r,WannaCry,WannaCrypt,Wcry",WannaCryptor,1
+993e330b2c80db36a50514c5fd50466c,win.wannacryptor,"Wana Decrypt0r,WannaCry,WannaCrypt,Wcry",WannaCryptor,1
+996fef81d310d635efd4df1769e208f9,win.agendacrypt,"Agenda,Qilin",AgendaCrypt,1
+99951b90831ae5b6e96f72a6314243fa,apk.coper,"ExobotCompact,Octo",Coper,1
+999cd2cd1e3757f45dffedcc76042cfa,win.agendacrypt,"Agenda,Qilin",AgendaCrypt,1
+99a3781212849e4b243c73b69960b2ec,win.agent_tesla,"AgenTesla,AgentTesla,Negasteal",Agent Tesla,1
+9a0e23765cfcdfe7e28c9be6f458c620,win.wannacryptor,"Wana Decrypt0r,WannaCry,WannaCrypt,Wcry",WannaCryptor,1
+9a33b49d19660334e700e0c1f99966de,win.agent_tesla,"AgenTesla,AgentTesla,Negasteal",Agent Tesla,1
+9a3d0e61430550fc5f788c7cef6c1644,win.agent_tesla,"AgenTesla,AgentTesla,Negasteal",Agent Tesla,1
+9a5ea70bc0ca5362aacaa0db8564e415,win.formbook,win.xloader,Formbook,1
+9a779afa0414abb6d525956e43b0d0a6,win.wannacryptor,"Wana Decrypt0r,WannaCry,WannaCrypt,Wcry",WannaCryptor,1
+9a7af0a766f7717d478c94414b15d25e,win.akira,REDBIKE,Akira,1
+9aa852e7a34c4327b0fac4d8178ae94e,win.akira,REDBIKE,Akira,1
+9ac45cd7937cadf8ee6e9b45484aaec5,win.netwire,"NetWeird,NetWire,Recam",NetWire RC,1
+9ac564e1f6b5b1fb1fa22cf419566ef0,win.wannacryptor,"Wana Decrypt0r,WannaCry,WannaCrypt,Wcry",WannaCryptor,1
+9aed790a18f214b04619837cd71546d3,win.wannacryptor,"Wana Decrypt0r,WannaCry,WannaCrypt,Wcry",WannaCryptor,1
+9b1584c18fa9cb3a2667c3fd0fa05326,win.formbook,win.xloader,Formbook,1
+9b32572ea80935ca6944cffc999dd466,win.valley_rat,Winos,ValleyRAT,1
+9b3dce50e1056e6eca0faee733c33f35,win.akira,REDBIKE,Akira,1
+9b3f43a7fc536b20c354ba62f7626cd5,win.ghost_rat,"Farfli,Gh0st RAT,PCRat",Ghost RAT,1
+9b76d12f3786d918ffd01eefedd10026,win.agent_tesla,"AgenTesla,AgentTesla,Negasteal",Agent Tesla,1
+9b8e765efa5ec8ec2929102723b3f754,win.formbook,win.xloader,Formbook,1
+9bfefd00508f4793e6f8bfed2a1ab49c,win.agendacrypt,"Agenda,Qilin",AgendaCrypt,1
+9c4f86582a8186f10f9c33a712f38c4c,jar.crossrat,Trupto,CrossRAT,1
+9c986d7e311ce1e8db7bd65b8271a87d,win.valley_rat,Winos,ValleyRAT,1
+9cbeab45a4007ad4f4d65f5cc4c93326,win.formbook,win.xloader,Formbook,1
+9ce153849e117145877431ce9e43e110,jar.crossrat,Trupto,CrossRAT,1
+9ce1f4155fdb4cfc30d6a34483821b9a,win.formbook,win.xloader,Formbook,1
+9d4c5dc5e3e3fda1a041e655a539b8d6,win.wannacryptor,"Wana Decrypt0r,WannaCry,WannaCrypt,Wcry",WannaCryptor,1
+9d56be0a712cfcf3dd4338156269acb0,win.valley_rat,Winos,ValleyRAT,1
+9d59e6476c4022f7dbb738d7207cad30,win.agent_tesla,"AgenTesla,AgentTesla,Negasteal",Agent Tesla,1
+9d5a7bfc3f5c2a224970c91a4130f797,win.netwire,"NetWeird,NetWire,Recam",NetWire RC,1
+9d609843241b0cfaa6f79ef17f862862,win.valley_rat,Winos,ValleyRAT,1
+9d9bd074b5e349b11408a63256af6d5c,win.quasar_rat,"CinaRAT,QuasarRAT,Yggdrasil",Quasar RAT,1
+9d9e293be0bc3323060ff6271cc00d4f,win.wannacryptor,"Wana Decrypt0r,WannaCry,WannaCrypt,Wcry",WannaCryptor,1
+9dbe63ff5c9393de11670dbb2d40a957,win.phorpiex,"Tldr,Trik,TwizT,phorphiex",Phorpiex,1
+9e04e38658dc4c764ec10e04a9d50931,win.valley_rat,Winos,ValleyRAT,1
+9e1e726d8402f1e4cfa828b8c6e66e92,win.nanocore,"Nancrat,NanoCore",Nanocore RAT,1
+9e4329504365602cb6ca0c6d4c1dd66b,win.valley_rat,Winos,ValleyRAT,1
+9e4bb27199b9f8ef1c9efebe78703e06,win.agendacrypt,"Agenda,Qilin",AgendaCrypt,1
+9e848a4af00c33c6b7f6dbe7dc06ed35,jar.crossrat,Trupto,CrossRAT,1
+9e97a5673945badf4154608c6f460673,win.agendacrypt,"Agenda,Qilin",AgendaCrypt,1
+9eab119e1a445bdb9276dc76d572e20b,win.agent_tesla,"AgenTesla,AgentTesla,Negasteal",Agent Tesla,1
+9eb25dfce785796f0bda3c5694cac8c0,win.wannacryptor,"Wana Decrypt0r,WannaCry,WannaCrypt,Wcry",WannaCryptor,1
+9ebd4482171000ba6d4a2da22200c40d,win.agendacrypt,"Agenda,Qilin",AgendaCrypt,1
+9ef42799d880c522be09618a03a7b9e6,win.wannacryptor,"Wana Decrypt0r,WannaCry,WannaCrypt,Wcry",WannaCryptor,1
+9ef660730744dbcad26f40108654ceef,win.netwire,"NetWeird,NetWire,Recam",NetWire RC,1
+9f0c756af7f4a15a6e801aeb364a832d,win.cobalt_strike,"Agentemis,BEACON,CobaltStrike,cobeacon",Cobalt Strike,1
+9f6cf57a2791b8c53733f410804dcd1a,win.netwire,"NetWeird,NetWire,Recam",NetWire RC,1
+9f762f6edf24c297545951a74df4d45d,win.wannacryptor,"Wana Decrypt0r,WannaCry,WannaCrypt,Wcry",WannaCryptor,1
+9f85c8fceddfcebe29f4097697bc56b0,win.agendacrypt,"Agenda,Qilin",AgendaCrypt,1
+9f8c1135c656b7b91f1da74cbfee5ea2,win.netwire,"NetWeird,NetWire,Recam",NetWire RC,1
+9f987de2d727ed26dde4fc094f64bf8d,win.hijackloader,"DOILoader,GHOSTPULSE,IDAT Loader,SHADOWLADDER",HijackLoader,1
+9fa75d1ae8ba3a2c8c150cf4005c76b5,win.agendacrypt,"Agenda,Qilin",AgendaCrypt,1
+9fb21889c132ac78880f966496cc3e62,win.phorpiex,"Tldr,Trik,TwizT,phorphiex",Phorpiex,1
+9fb91bff7289b601bb0a7d91200fe770,win.valley_rat,Winos,ValleyRAT,1
+9fce0558dd8b2061c7a8baf0877d5384,win.dcrat,DarkCrystal RAT,DCRat,1
+a02aa86b025c34615a99437e118128fe,win.formbook,win.xloader,Formbook,1
+a0823dfc3073cb32be7c4ede5f17ed10,win.tinymet,TiniMet,TinyMet,1
+a08d54b8d16c4a4a71eb1714e5025be0,win.formbook,win.xloader,Formbook,1
+a0995e073911c897ff2b5652a8bad3a8,win.formbook,win.xloader,Formbook,1
+a0b1e68fd092dab3358444d5afff911c,win.agendacrypt,"Agenda,Qilin",AgendaCrypt,1
+a0ebe1250b23cb60d919aa4e7dbd7e40,win.nanocore,"Nancrat,NanoCore",Nanocore RAT,1
+a0f2727dd11b0f5ced13eadc3d5bba73,win.akira,REDBIKE,Akira,1
+a11bc7fddad2602881739faab6875ad6,win.formbook,win.xloader,Formbook,1
+a12583bca076954507329a37f52e2a5c,win.netwire,"NetWeird,NetWire,Recam",NetWire RC,1
+a15b1c2d6bb62de217644f47cba8ccbb,win.agendacrypt,"Agenda,Qilin",AgendaCrypt,1
+a16ee9fb562ceae9db13a9e6e683d2c6,win.cobalt_strike,"Agentemis,BEACON,CobaltStrike,cobeacon",Cobalt Strike,1
+a1e49c1cf7db97c042a5e5403fed0c79,win.lokipws,"Burkina,Loki,LokiBot,LokiPWS",Loki Password Stealer (PWS),1
+a205c4339b32ff40c1445f5bdcec5ede,win.netwire,"NetWeird,NetWire,Recam",NetWire RC,1
+a20ea51a49e18c2d2dc9d385fc4e2424,win.wannacryptor,"Wana Decrypt0r,WannaCry,WannaCrypt,Wcry",WannaCryptor,1
+a22dafac6eb243a8afc1ec6e4f9e467f,win.wannacryptor,"Wana Decrypt0r,WannaCry,WannaCrypt,Wcry",WannaCryptor,1
+a26818e34f35f4ee648f013982f368d0,win.agendacrypt,"Agenda,Qilin",AgendaCrypt,1
+a27c95793111ec5ad8be6d3d9728d94a,win.akira,REDBIKE,Akira,1
+a2c0862d74a77d74b4d5c945a994cba3,win.netwire,"NetWeird,NetWire,Recam",NetWire RC,1
+a2cdebad9d05915a5a5294850f74adfe,win.netwire,"NetWeird,NetWire,Recam",NetWire RC,1
+a31b3261aa04f232b7fcfc77777c43a7,win.formbook,win.xloader,Formbook,1
+a35aef682a5734efa974ca000104ca91,win.agendacrypt,"Agenda,Qilin",AgendaCrypt,1
+a3900e3007e1b91d38f7fcfd2194acfe,win.valley_rat,Winos,ValleyRAT,1
+a3a883fc818ff886d127f8677713b5bd,win.wannacryptor,"Wana Decrypt0r,WannaCry,WannaCrypt,Wcry",WannaCryptor,1
+a3db22547419f693905d3dd045ee9f84,win.cobalt_strike,"Agentemis,BEACON,CobaltStrike,cobeacon",Cobalt Strike,1
+a3f6cbc6b8366c4378504eedbb2408d1,win.formbook,win.xloader,Formbook,1
+a408b814a64621c15f42b4ddfa92540b,win.phorpiex,"Tldr,Trik,TwizT,phorphiex",Phorpiex,1
+a435d6c5f9780c325f01ae1e13d8e7e6,win.wannacryptor,"Wana Decrypt0r,WannaCry,WannaCrypt,Wcry",WannaCryptor,1
+a439f3ed1a23f8fad8a1b5b0e22bbea0,win.netwire,"NetWeird,NetWire,Recam",NetWire RC,1
+a4704f0e3a3ca3efc1078af02105d30f,jar.crossrat,Trupto,CrossRAT,1
+a48afa85b0b03c4765f32f4df0bf2ee7,win.agendacrypt,"Agenda,Qilin",AgendaCrypt,1
+a4ad709d219448e605e0537d3fafa399,win.formbook,win.xloader,Formbook,1
+a4ba482014b7881e331029d59c1fd739,win.agent_tesla,"AgenTesla,AgentTesla,Negasteal",Agent Tesla,1
+a4d5724a971bd46250c60267456bdec9,win.netwire,"NetWeird,NetWire,Recam",NetWire RC,1
+a4d82d842f1b42e49b1809c574385789,win.valley_rat,Winos,ValleyRAT,1
+a4e2ba7d3037eb8e153ee09366c08076,win.agent_tesla,"AgenTesla,AgentTesla,Negasteal",Agent Tesla,1
+a4f4aa29e5eebbdb1e86466b1c55976a,win.agent_tesla,"AgenTesla,AgentTesla,Negasteal",Agent Tesla,1
+a4fe1d12cfb25e841d32048c3c5a10bb,win.valley_rat,Winos,ValleyRAT,1
+a519b276895ca931fdc1c09e6d3a39b2,win.wannacryptor,"Wana Decrypt0r,WannaCry,WannaCrypt,Wcry",WannaCryptor,1
+a53d0903f4b158b1d1be8b9645a293af,win.formbook,win.xloader,Formbook,1
+a545e4ac2b59b5f5fb3aa14203f82d8e,win.agendacrypt,"Agenda,Qilin",AgendaCrypt,1
+a554260842be80f9fddffcb47f203d43,win.wannacryptor,"Wana Decrypt0r,WannaCry,WannaCrypt,Wcry",WannaCryptor,1
+a560021ea970572d26d453d3d02ccb25,win.formbook,win.xloader,Formbook,1
+a563ff5a153b001223ff8d93d68405c9,win.wannacryptor,"Wana Decrypt0r,WannaCry,WannaCrypt,Wcry",WannaCryptor,1
+a56af1b76500fad38edb4958e6a29399,win.netwire,"NetWeird,NetWire,Recam",NetWire RC,1
+a5775938fb23a1c405585b0248558323,win.akira,REDBIKE,Akira,1
+a59b7602663fb130c5a85507fbbe29a2,win.nanocore,"Nancrat,NanoCore",Nanocore RAT,1
+a5c784aaa18cb3d8abf3d8feaf7b4203,win.formbook,win.xloader,Formbook,1
+a5d8608c6bb4874880db60edcd90bbc6,win.agendacrypt,"Agenda,Qilin",AgendaCrypt,1
+a5f3d83774db7701a2dcc96cd42f09c3,win.valley_rat,Winos,ValleyRAT,1
+a61ecd4bce5b291686756e7f1cda5c7b,win.akira,REDBIKE,Akira,1
+a6482ea44033007a9da963cd3ff5ce49,win.agent_tesla,"AgenTesla,AgentTesla,Negasteal",Agent Tesla,1
+a65959f323391321beba89312391a706,win.orcus_rat,Schnorchel,Orcus RAT,1
+a65f533d10703afcd9cc1210ca559b75,win.netwire,"NetWeird,NetWire,Recam",NetWire RC,1
+a67819c12c69894357adbec5d970085d,win.netwire,"NetWeird,NetWire,Recam",NetWire RC,1
+a6a09b6e372bf40b716d2bf3237c2902,win.quasar_rat,"CinaRAT,QuasarRAT,Yggdrasil",Quasar RAT,1
+a6abfeb75c496d2cefb9061ddd992b71,win.agent_tesla,"AgenTesla,AgentTesla,Negasteal",Agent Tesla,1
+a6fa8faabd9ef050c7381c7bf9a7d05b,win.agendacrypt,"Agenda,Qilin",AgendaCrypt,1
+a71ebf9fd2b7e1969f15e73c9c6eda6e,win.wannacryptor,"Wana Decrypt0r,WannaCry,WannaCrypt,Wcry",WannaCryptor,1
+a7318a5f7aa1d21989ca284d9e750381,win.expiro,Xpiro,Expiro,1
+a74c5f1022edb72d1cb39381664809b5,win.agendacrypt,"Agenda,Qilin",AgendaCrypt,1
+a74dda53a5bd51574dd0dcf6c4fc3f19,win.netwire,"NetWeird,NetWire,Recam",NetWire RC,1
+a757a8b09d99acc2835fd0d26541e46c,win.agent_tesla,"AgenTesla,AgentTesla,Negasteal",Agent Tesla,1
+a77da66551da74d743efd55f09d46dc8,win.socks5_systemz,ProxyBox,Socks5Systemz,1
+a7d998d2b248f05c17f986e6d3bb1c69,win.agendacrypt,"Agenda,Qilin",AgendaCrypt,1
+a7e5aee5cc12f8fde0bc93668413722b,win.ghost_rat,"Farfli,Gh0st RAT,PCRat",Ghost RAT,1
+a81f5cc8fe2ee8f89c9406fbfe64ed19,win.netwire,"NetWeird,NetWire,Recam",NetWire RC,1
+a82006f49debbb71c624429efed67e58,win.akira,REDBIKE,Akira,1
+a8480f1bd4fc75a68930f3c60df63955,win.valley_rat,Winos,ValleyRAT,1
+a853b7d874f5d7957db8c44d1df1a800,win.nanocore,"Nancrat,NanoCore",Nanocore RAT,1
+a85f8ef34cc5ab90e0aa6c9b1a5b289d,win.agent_tesla,"AgenTesla,AgentTesla,Negasteal",Agent Tesla,1
+a861b1f119aaacee66cb650d35450e25,win.agendacrypt,"Agenda,Qilin",AgendaCrypt,1
+a8a3dc6184e2e05d6b0f0262640bfaa0,win.phorpiex,"Tldr,Trik,TwizT,phorphiex",Phorpiex,1
+a8b66f8f94cd9af16afe7d0e6025bd1e,win.formbook,win.xloader,Formbook,1
+a937ae4c5bfa00c9c8b178587368d783,win.netwire,"NetWeird,NetWire,Recam",NetWire RC,1
+a985c254ed2d791688736f83ee2befde,win.agent_tesla,"AgenTesla,AgentTesla,Negasteal",Agent Tesla,1
+a9e6652f5001b03df0cfb1e24620ae75,win.akira,REDBIKE,Akira,1
+aa1b178ea8f756e209b05880cfac8bbe,win.valley_rat,Winos,ValleyRAT,1
+aa1b9dafea5da9a91038446d0d6e0e8a,win.netwire,"NetWeird,NetWire,Recam",NetWire RC,1
+aa5eaae30652c27a23f084070f12e897,win.netwire,"NetWeird,NetWire,Recam",NetWire RC,1
+aa6160ad03a10f68a2069b8cb8ed567b,win.nanocore,"Nancrat,NanoCore",Nanocore RAT,1
+aa78486beff678d435e5b9e579f02b46,win.netwire,"NetWeird,NetWire,Recam",NetWire RC,1
+aa79d3a340aada7c95053fd745dd4850,win.agendacrypt,"Agenda,Qilin",AgendaCrypt,1
+aaa55d5c516e18e8d785f7dde08dd3c8,win.valley_rat,Winos,ValleyRAT,1
+aac21459dc203d21c539a72d54221102,win.formbook,win.xloader,Formbook,1
+aaccc00c1a56e171d41aaca42d78b989,win.ramnit,Nimnul,Ramnit,1
+aad6c0ce480a5c2fba6d56a58ac6eb05,win.wannacryptor,"Wana Decrypt0r,WannaCry,WannaCrypt,Wcry",WannaCryptor,1
+aae740360ec8cfe8c2573863f85d98be,win.netwire,"NetWeird,NetWire,Recam",NetWire RC,1
+aaed196675895fcb5816edf09b0cb120,win.cobalt_strike,"Agentemis,BEACON,CobaltStrike,cobeacon",Cobalt Strike,1
+ab236088ec7fad454fad6d3dd7d568ac,win.wannacryptor,"Wana Decrypt0r,WannaCry,WannaCrypt,Wcry",WannaCryptor,1
+ab359be0ab33876eb32325706e43f0c1,win.akira,REDBIKE,Akira,1
+ab6ab7c69d532b0a30664b1eae3179c1,win.netwire,"NetWeird,NetWire,Recam",NetWire RC,1
+ab94023e14dd50565704857b12952e54,win.akira,REDBIKE,Akira,1
+ab96159be2090be87021bf5ec7cd96ad,win.phorpiex,"Tldr,Trik,TwizT,phorphiex",Phorpiex,1
+ab9a2c07b3b1222f5ada4cb7c1fd144e,win.netwire,"NetWeird,NetWire,Recam",NetWire RC,1
+aba7b8104bf632cc981fa45dfaa4deca,win.netwire,"NetWeird,NetWire,Recam",NetWire RC,1
+abae76526888bc27bd26b1243e971140,win.netwire,"NetWeird,NetWire,Recam",NetWire RC,1
+abb0055779e755aed3f7f8a4492925fb,win.formbook,win.xloader,Formbook,1
+abbe0260e695691d018b8114dcaffb47,win.netwire,"NetWeird,NetWire,Recam",NetWire RC,1
+abe06e90aeb9e69647efe1431f6a1a68,win.akira,REDBIKE,Akira,1
+abffa933bba9273c4dc2096c0e125ff9,win.netwire,"NetWeird,NetWire,Recam",NetWire RC,1
+ac061db892ad8cd21a565996bdb33d5c,win.njrat,"Bladabindi,Lime-Worm",NjRAT,1
+ac14f6dacdf01b8257412a33709a2891,win.valley_rat,Winos,ValleyRAT,1
+ac250397bf3f4d207b568c4f40b29f17,win.netwire,"NetWeird,NetWire,Recam",NetWire RC,1
+ac727d7ed3a0452251ae8b3d0f7f5d80,win.formbook,win.xloader,Formbook,1
+ac8b9ad5dbb09bde6d9df0a3b724f6f0,win.agendacrypt,"Agenda,Qilin",AgendaCrypt,1
+aca7c39c5104d3ce16117e040783f853,win.phorpiex,"Tldr,Trik,TwizT,phorphiex",Phorpiex,1
+acac6acd95609352277af8c92a470f81,win.akira,REDBIKE,Akira,1
+acdce16891bae1babc5b953a0c3706c5,win.akira,REDBIKE,Akira,1
+ad02a396d2842b16b973bcd547aa0c81,win.netwire,"NetWeird,NetWire,Recam",NetWire RC,1
+ad26c937b235a8db39468fb7a4dae4de,win.teslacrypt,cryptesla,TeslaCrypt,1
+ad425d7410a864bf63a61ed811a8e77b,win.netwire,"NetWeird,NetWire,Recam",NetWire RC,1
+ad6a7fe9c9d21c0f6d68b3d44f966150,win.formbook,win.xloader,Formbook,1
+ad8699ff1e37c4939837e21aaa02ecf9,win.netwire,"NetWeird,NetWire,Recam",NetWire RC,1
+adb426d745a4bbbb62d8a45333e757ea,win.agendacrypt,"Agenda,Qilin",AgendaCrypt,1
+adf16430b4c278fcf6c9c71fec17c75d,win.formbook,win.xloader,Formbook,1
+adfbbaa06a48ff59d0a48672867da825,win.akira,REDBIKE,Akira,1
+ae26928df8ab313b5040563ac373b0e7,win.valley_rat,Winos,ValleyRAT,1
+ae58622241092d9ba1d2426a875119a7,win.formbook,win.xloader,Formbook,1
+ae5b3856ce4c1cfe8d84f0449e19af98,win.agendacrypt,"Agenda,Qilin",AgendaCrypt,1
+ae5b3e0e621abf17d9f80f51638897cb,win.nanocore,"Nancrat,NanoCore",Nanocore RAT,1
+ae9613c81a644178999b357600d1498a,win.tinymet,TiniMet,TinyMet,1
+ae9893c7a60b298f3f45b85726e09a98,win.netwire,"NetWeird,NetWire,Recam",NetWire RC,1
+af08bec973fdd3d7984edcadb24f3d42,win.netwire,"NetWeird,NetWire,Recam",NetWire RC,1
+af49d090af04cd0acba34c3308c45d23,win.wannacryptor,"Wana Decrypt0r,WannaCry,WannaCrypt,Wcry",WannaCryptor,1
+af720cb19686c51d8c68414bacba8dbe,win.phorpiex,"Tldr,Trik,TwizT,phorphiex",Phorpiex,1
+af7d2507954af45beb5350206202c41a,win.netwire,"NetWeird,NetWire,Recam",NetWire RC,1
+afaad51d8f656489a0e10ba45ca5dfc2,win.akira,REDBIKE,Akira,1
+afc61229018541efa19cd9affa1aeb72,win.valley_rat,Winos,ValleyRAT,1
+afdd9d7685e2394ef444e693964f4095,win.netwire,"NetWeird,NetWire,Recam",NetWire RC,1
+affe4cd2a433123d83231b353a74e4a6,win.wannacryptor,"Wana Decrypt0r,WannaCry,WannaCrypt,Wcry",WannaCryptor,1
+b000bf75dea341762cae37ba3cad28cf,win.wannacryptor,"Wana Decrypt0r,WannaCry,WannaCrypt,Wcry",WannaCryptor,1
+b00155089851d5307dc54b9948ed0a43,win.wannacryptor,"Wana Decrypt0r,WannaCry,WannaCrypt,Wcry",WannaCryptor,1
+b01231990bfbb7857d28c8e24aa6251b,win.phemedrone_stealer,Ov3r_Stealer,Phemedrone Stealer,1
+b04467d5385758b830565e1affd3e7a5,win.njrat,"Bladabindi,Lime-Worm",NjRAT,1
+b06380cb28347af4fc2c5e294fc779c3,win.valley_rat,Winos,ValleyRAT,1
+b084c127f03f2d2b96dae95d2495ea8e,win.phorpiex,"Tldr,Trik,TwizT,phorphiex",Phorpiex,1
+b099cf4e9fa8f53eca1a2749e2ac3aae,win.agent_tesla,"AgenTesla,AgentTesla,Negasteal",Agent Tesla,1
+b0a87d0fcdd49c072364c4378dfc9f8b,win.wannacryptor,"Wana Decrypt0r,WannaCry,WannaCrypt,Wcry",WannaCryptor,1
+b0a8d7ab2c65b6357c23069a2bf5f777,win.netwire,"NetWeird,NetWire,Recam",NetWire RC,1
+b0c4fe17a83df1621ce3db824684bb55,win.phorpiex,"Tldr,Trik,TwizT,phorphiex",Phorpiex,1
+b0df398b5457a15972b2625d16a21319,win.cobalt_strike,"Agentemis,BEACON,CobaltStrike,cobeacon",Cobalt Strike,1
+b0eac77c609e979069a74923fe5816de,win.pure_rat,"PureHVNC,ResolverRAT",PureRAT,1
+b109053a8ad8c696f75f66f07a8de618,win.agendacrypt,"Agenda,Qilin",AgendaCrypt,1
+b11a75c9d60e50866ba0d84af1a155c6,win.netwire,"NetWeird,NetWire,Recam",NetWire RC,1
+b1341da78ca16f4d04cb56d05c63a821,win.ave_maria,"AVE_MARIA,AveMariaRAT,Warzone RAT,WarzoneRAT,avemaria",Ave Maria,1
+b19dfd6c5c708e860712654606dfc5c2,win.phorpiex,"Tldr,Trik,TwizT,phorphiex",Phorpiex,1
+b1ceadb93463f22943f9677aa330f15a,win.quasar_rat,"CinaRAT,QuasarRAT,Yggdrasil",Quasar RAT,1
+b22f4529298513597f41a1ca0686d7f9,win.valley_rat,Winos,ValleyRAT,1
+b24f95b112c296b860092c4f359d74fd,win.valley_rat,Winos,ValleyRAT,1
+b2675bbbf831aa3c9a57d5078c1911eb,win.agendacrypt,"Agenda,Qilin",AgendaCrypt,1
+b274c8c20aa752171b716382707b85f3,win.netwire,"NetWeird,NetWire,Recam",NetWire RC,1
+b27a6bee3b698829ca290fdfa981d3f7,win.valley_rat,Winos,ValleyRAT,1
+b290f01d4988ccb3b0d67b89b79a3c63,win.valley_rat,Winos,ValleyRAT,1
+b2930338fad806be737dd392270160dc,win.ghost_rat,"Farfli,Gh0st RAT,PCRat",Ghost RAT,1
+b30e75738b06cca237b5a81cc15ad8a6,win.netwire,"NetWeird,NetWire,Recam",NetWire RC,1
+b32210d72550184a9bea08a0e087037f,win.akira,REDBIKE,Akira,1
+b3931310f20496f2b4a21fbb3f86ee16,win.agendacrypt,"Agenda,Qilin",AgendaCrypt,1
+b3e78d794ff6446ad9a77d75422262f0,win.valley_rat,Winos,ValleyRAT,1
+b3f9d748284ba06c5f74c062b11c6066,win.njrat,"Bladabindi,Lime-Worm",NjRAT,1
+b403e6dbe08ecd6f86b3d6858d2e4c7c,win.njrat,"Bladabindi,Lime-Worm",NjRAT,1
+b435c5fd83e345f30e7da1dbccf50aa6,win.socks5_systemz,ProxyBox,Socks5Systemz,1
+b4383d1cea47e89e1ff12432b38abb74,win.netwire,"NetWeird,NetWire,Recam",NetWire RC,1
+b499e00cc3d278a14ae18fe80adfb2fc,win.wannacryptor,"Wana Decrypt0r,WannaCry,WannaCrypt,Wcry",WannaCryptor,1
+b4bf72c31058da40e162ec2e1a567f14,win.phorpiex,"Tldr,Trik,TwizT,phorphiex",Phorpiex,1
+b4e61dcfcf46bbd01ee140b355d738c8,win.netwire,"NetWeird,NetWire,Recam",NetWire RC,1
+b51388e42f98c44816102b669880e625,win.formbook,win.xloader,Formbook,1
+b52d7bec07b3f11030e6960dcec13c61,win.agendacrypt,"Agenda,Qilin",AgendaCrypt,1
+b5bc59be0481febac3519e325ff5b90f,win.phorpiex,"Tldr,Trik,TwizT,phorphiex",Phorpiex,1
+b62119f0ae9ad41612f252dd703799d4,win.netwire,"NetWeird,NetWire,Recam",NetWire RC,1
+b679a2beed0436eec3009d85882e57eb,win.formbook,win.xloader,Formbook,1
+b67f12caf85101a89b7a8e6ba7a04c69,win.akira,REDBIKE,Akira,1
+b69cc5426070fb399791ce6bdc621049,win.netwire,"NetWeird,NetWire,Recam",NetWire RC,1
+b6e9a73504c62a3ee0c15cc2a3cbe9e7,win.netwire,"NetWeird,NetWire,Recam",NetWire RC,1
+b6f366e487fbf740c0479a8c286d7cd8,win.wannacryptor,"Wana Decrypt0r,WannaCry,WannaCrypt,Wcry",WannaCryptor,1
+b7721cf13508b02083feb0b010534423,win.agent_tesla,"AgenTesla,AgentTesla,Negasteal",Agent Tesla,1
+b788063bf3be1c07295283279ac41911,win.agendacrypt,"Agenda,Qilin",AgendaCrypt,1
+b7b1ef1e1dfcbd63f757c68f372e529b,win.phorpiex,"Tldr,Trik,TwizT,phorphiex",Phorpiex,1
+b82bc571bf628d692482af7b38cd16aa,win.wannacryptor,"Wana Decrypt0r,WannaCry,WannaCrypt,Wcry",WannaCryptor,1
+b83b607adaa4e982a4dfa29c57306a0d,win.valley_rat,Winos,ValleyRAT,1
+b85b33c6c8ac7242fb09c70c5c583a11,win.valley_rat,Winos,ValleyRAT,1
+b89d071659f8f1a5160a08148b34c959,win.netwire,"NetWeird,NetWire,Recam",NetWire RC,1
+b8a377be5d0b06abb2326267510c98a9,win.formbook,win.xloader,Formbook,1
+b8d3dfe5aff8f0c8955038c174e70195,win.wannacryptor,"Wana Decrypt0r,WannaCry,WannaCrypt,Wcry",WannaCryptor,1
+b8f547ae812d1ef149f42436880621f7,win.netwire,"NetWeird,NetWire,Recam",NetWire RC,1
+b91ce67cd66d3a3e33f4b972742ef46b,win.formbook,win.xloader,Formbook,1
+b948a85eddaaee53dfa68d4099ecb93b,win.netwire,"NetWeird,NetWire,Recam",NetWire RC,1
+b98589017bd2e0ef83b4fe7dc963a784,win.netwire,"NetWeird,NetWire,Recam",NetWire RC,1
+b98605e011d192ae414588870af2bbd1,win.valley_rat,Winos,ValleyRAT,1
+b99bdb8880e4ef03727885ea50a4a2fc,win.akira,REDBIKE,Akira,1
+b9c44e860de162f8f8430a5ce7b0d81b,win.netwire,"NetWeird,NetWire,Recam",NetWire RC,1
+b9c5b973ec910da2e3474468a85515e9,win.akira,REDBIKE,Akira,1
+b9cb30b2bfc0618c676e998ea9430102,win.agendacrypt,"Agenda,Qilin",AgendaCrypt,1
+b9dab429bacd0737e206af07f486f9df,win.netwire,"NetWeird,NetWire,Recam",NetWire RC,1
+b9fbf6f35099d3dd0f984ffb7e027b35,win.njrat,"Bladabindi,Lime-Worm",NjRAT,1
+ba2ff4a8b689fab54670cf87b4008528,win.ghost_rat,"Farfli,Gh0st RAT,PCRat",Ghost RAT,1
+ba37105a276d86e128bf737c1386e6cc,win.akira,REDBIKE,Akira,1
+ba5cfe07a33b3a75955756fe7fc10b96,win.wannacryptor,"Wana Decrypt0r,WannaCry,WannaCrypt,Wcry",WannaCryptor,1
+ba72eaf5f68103e43240c5b78711fb62,win.akira,REDBIKE,Akira,1
+ba9e9d8577544204e544d91a4cfbed9b,win.akira,REDBIKE,Akira,1
+bab937bd0f559a42ebd338416f5ed99f,win.netwire,"NetWeird,NetWire,Recam",NetWire RC,1
+bab942641669db23c43e76e650b83daf,win.valley_rat,Winos,ValleyRAT,1
+baf37d8f887d4c5a8d2da49feabd08f2,win.netwire,"NetWeird,NetWire,Recam",NetWire RC,1
+bb65215c42767d9a7f3943a024e39ef9,win.wannacryptor,"Wana Decrypt0r,WannaCry,WannaCrypt,Wcry",WannaCryptor,1
+bb80b31e43893a35fabbdca00c3fd55e,jar.crossrat,Trupto,CrossRAT,1
+bb8a2ab4dd693900fcf28a6d28eed368,win.valley_rat,Winos,ValleyRAT,1
+bbbcac5f44769f56780085fc5c455173,win.netwire,"NetWeird,NetWire,Recam",NetWire RC,1
+bbd5dd6263af978ebe7ddc57537204a4,win.formbook,win.xloader,Formbook,1
+bbd90a954ab2674a933d2468e18421b9,win.netwire,"NetWeird,NetWire,Recam",NetWire RC,1
+bbd9cd5ee29a18fbf5d953abab877368,win.valley_rat,Winos,ValleyRAT,1
+bc8c370a9bf67ef75534753fb0d601df,jar.crossrat,Trupto,CrossRAT,1
+bc8e8210e20a8dfeb04e8ad9ccc6fe9b,win.agendacrypt,"Agenda,Qilin",AgendaCrypt,1
+bcd65c46b1e2aec03311c2b14ecff880,win.akira,REDBIKE,Akira,1
+bce4944eabdb55b2b42df2c5a7bd7683,win.netwire,"NetWeird,NetWire,Recam",NetWire RC,1
+bd2c666c8c598630a65ac6d481b96ee4,win.valley_rat,Winos,ValleyRAT,1
+bd4a59eeea77957ab00a36d7d8424400,win.wannacryptor,"Wana Decrypt0r,WannaCry,WannaCrypt,Wcry",WannaCryptor,1
+bd9d6c8361b4d9ab9cf22f177273ca03,win.agent_tesla,"AgenTesla,AgentTesla,Negasteal",Agent Tesla,1
+bdab673b0e619e58212c9e8820d37d51,win.akira,REDBIKE,Akira,1
+bdc4cebe690b1862c3c6792e2b0103bb,win.netwire,"NetWeird,NetWire,Recam",NetWire RC,1
+bdc9611f2b5b48680eacdf9c2c0e0546,win.agendacrypt,"Agenda,Qilin",AgendaCrypt,1
+bde92ec067ba1011d451ae676aa2bcca,win.formbook,win.xloader,Formbook,1
+be6010d8bddef29ebbf3c8bb28f19517,win.akira,REDBIKE,Akira,1
+bededec78ff1c4fec324009c3ca8a00a,win.formbook,win.xloader,Formbook,1
+bedeeefa188f9fea4f050848adcb3f0a,win.formbook,win.xloader,Formbook,1
+beee4965c9e7cabb84d6142dfe716c8f,win.netwire,"NetWeird,NetWire,Recam",NetWire RC,1
+bf1e808d7e6812bed9d86fd5aea256dd,win.formbook,win.xloader,Formbook,1
+bf262e47207abca33fdb2d15d060f3f4,win.agendacrypt,"Agenda,Qilin",AgendaCrypt,1
+bf37c9919b35a2dfb460dc07f2e03f90,win.wannacryptor,"Wana Decrypt0r,WannaCry,WannaCrypt,Wcry",WannaCryptor,1
+bf596ceaa1fa56a7adcda06ed75a0f75,win.pure_rat,"PureHVNC,ResolverRAT",PureRAT,1
+bf598339cf5d38d525d761bf1eb62370,win.nanocore,"Nancrat,NanoCore",Nanocore RAT,1
+bf864e75a7c1f1a259c528cf616228d9,win.agendacrypt,"Agenda,Qilin",AgendaCrypt,1
+bf9f581fdc6b31ff7e5de3c56cd10619,win.valley_rat,Winos,ValleyRAT,1
+bfb8c3b715f56c56cd512135d5ff3f1c,py.pxa_stealer,"PXAStealer,PXA",PXA Stealer,1
+bfc0848e67feb2b80c7bf5ba9c1efe27,jar.crossrat,Trupto,CrossRAT,1
+c0259b0210de1109edef3eb814e1575a,win.netwire,"NetWeird,NetWire,Recam",NetWire RC,1
+c04a9778333a061ce8b2f3fee16d8cbb,win.socks5_systemz,ProxyBox,Socks5Systemz,1
+c05883a0cd30f17bbbb849af850e2e33,win.quasar_rat,"CinaRAT,QuasarRAT,Yggdrasil",Quasar RAT,1
+c086246a14362e356f3413615b778079,win.formbook,win.xloader,Formbook,1
+c0882cc19a0c5b9778ee44c00907a4e1,win.mydoom,"Novarg,Mimail",MyDoom,1
+c0a5f20bf77fda622bc93df6caccc626,win.akira,REDBIKE,Akira,1
+c0b5ba4fbb2d486362d4be79caecc2b9,win.wannacryptor,"Wana Decrypt0r,WannaCry,WannaCrypt,Wcry",WannaCryptor,1
+c0c6f6e0731a319cc92f90ca789dcc3d,win.netwire,"NetWeird,NetWire,Recam",NetWire RC,1
+c12dde993b1954bb7a890e0d6a3c1314,win.akira,REDBIKE,Akira,1
+c1414e595a76c9c5e2531d1d56b62d75,win.wannacryptor,"Wana Decrypt0r,WannaCry,WannaCrypt,Wcry",WannaCryptor,1
+c1497cc6759e5c9f0e3a86d40b601559,win.akira,REDBIKE,Akira,1
+c16f4547b8382591f560e1e37ae34f76,win.netwire,"NetWeird,NetWire,Recam",NetWire RC,1
+c189e3cd9342923a743770f191bd70cc,win.agent_tesla,"AgenTesla,AgentTesla,Negasteal",Agent Tesla,1
+c1b97db9b6cced29fcc4d75f342e9be4,win.agendacrypt,"Agenda,Qilin",AgendaCrypt,1
+c1f528dc2d05a9a3340ed362efbcb70a,win.akira,REDBIKE,Akira,1
+c20a54cc45596e10f5eaf83a388128fe,win.valley_rat,Winos,ValleyRAT,1
+c2129f59f43570484456038599bcf74b,win.valley_rat,Winos,ValleyRAT,1
+c21c6962c9902ddbf4d08537ea7d96a4,win.ghost_rat,"Farfli,Gh0st RAT,PCRat",Ghost RAT,1
+c23328926e8545b746664890921ff091,jar.crossrat,Trupto,CrossRAT,1
+c24e99f9437feacaa63766a3cde3fe3d,win.valley_rat,Winos,ValleyRAT,1
+c2972373fdc63127610f62f83b69767f,win.netwire,"NetWeird,NetWire,Recam",NetWire RC,1
+c29ddb54bb464846ba7e2de1d3eff471,jar.crossrat,Trupto,CrossRAT,1
+c2a26a388bbbf3ee700b938de066838b,win.netwire,"NetWeird,NetWire,Recam",NetWire RC,1
+c2c4fcaa0b2a62e71056e0d4f7411f9d,jar.crossrat,Trupto,CrossRAT,1
+c2c7b32b2c38a2d7f80ee7e0b5616ec4,win.valley_rat,Winos,ValleyRAT,1
+c2d1ac4a8b2cb770fc1f594c3b050a8a,win.phorpiex,"Tldr,Trik,TwizT,phorphiex",Phorpiex,1
+c2f7aef9adf4a6b1aa56e3b3f7210b62,win.agendacrypt,"Agenda,Qilin",AgendaCrypt,1
+c30e62ca61e04f6c8dd93e1a0b79bd86,win.phorpiex,"Tldr,Trik,TwizT,phorphiex",Phorpiex,1
+c31217109ba50059d7c081a7e832d0cf,win.hijackloader,"DOILoader,GHOSTPULSE,IDAT Loader,SHADOWLADDER",HijackLoader,1
+c32a11c53e93dcf9fcf66847e3b1f48f,win.netwire,"NetWeird,NetWire,Recam",NetWire RC,1
+c36775d184b8ce09562f299657331f1a,win.aurastealer,"AURA Stealer,AURASTEAL",Aura Stealer,1
+c367f434aa20c7309783ad1853f7260d,win.netwire,"NetWeird,NetWire,Recam",NetWire RC,1
+c37b66823272ad2020cbd4d34f2d6cef,win.netwire,"NetWeird,NetWire,Recam",NetWire RC,1
+c387b2eb96bb137cdd54220d920edce9,win.akira,REDBIKE,Akira,1
+c3884d3a6319f468c296a90668f127d4,win.phorpiex,"Tldr,Trik,TwizT,phorphiex",Phorpiex,1
+c3c71ee043ad639c27f25cd1310c3447,win.valley_rat,Winos,ValleyRAT,1
+c3d6b73e54ff4efd29651e46f751fe5b,win.valley_rat,Winos,ValleyRAT,1
+c3f59fc053ff6ade13667c98d808b9ba,win.wannacryptor,"Wana Decrypt0r,WannaCry,WannaCrypt,Wcry",WannaCryptor,1
+c41354155dc082e2cd6db84a69b35c28,win.cobalt_strike,"Agentemis,BEACON,CobaltStrike,cobeacon",Cobalt Strike,1
+c444b3012b12ec2b2d9f7f8e7696379a,win.nanocore,"Nancrat,NanoCore",Nanocore RAT,1
+c44e30aa705a5d352079d63eaa1f3dce,win.formbook,win.xloader,Formbook,1
+c45e616d499d5e938bd4051bf67b4bad,win.wannacryptor,"Wana Decrypt0r,WannaCry,WannaCrypt,Wcry",WannaCryptor,1
+c47d3c5861d34482ea87a4af4aa8539c,win.agendacrypt,"Agenda,Qilin",AgendaCrypt,1
+c4ed4c72d4e1cdfabeade9a6021d3ac9,win.valley_rat,Winos,ValleyRAT,1
+c4eefbb978a56227406460c5ba509ee1,win.phorpiex,"Tldr,Trik,TwizT,phorphiex",Phorpiex,1
+c5144ab045d1ddff2adcc8541060478e,win.tinymet,TiniMet,TinyMet,1
+c51ef0e96d102409320281316bce244e,win.netwire,"NetWeird,NetWire,Recam",NetWire RC,1
+c5a32a7a16d32f960b7387fc25ee7372,win.agent_tesla,"AgenTesla,AgentTesla,Negasteal",Agent Tesla,1
+c61d19c4b0884db44a5fe8cab6040b38,win.agendacrypt,"Agenda,Qilin",AgendaCrypt,1
+c62e2825d255db75b2a677396755736a,win.wannacryptor,"Wana Decrypt0r,WannaCry,WannaCrypt,Wcry",WannaCryptor,1
+c6645e3d5488e98c990bda3dcffb9a6a,win.formbook,win.xloader,Formbook,1
+c6991024d7107c592c6795a6a16ab6ed,win.akira,REDBIKE,Akira,1
+c6ac51470c5be4b1ea6197b64cd99836,win.cobalt_strike,"Agentemis,BEACON,CobaltStrike,cobeacon",Cobalt Strike,1
+c75668226449a2296a7788059616e975,win.netwire,"NetWeird,NetWire,Recam",NetWire RC,1
+c763e05c8ed4b4cad85c610abdefc5f1,win.wannacryptor,"Wana Decrypt0r,WannaCry,WannaCrypt,Wcry",WannaCryptor,1
+c772dfd71dde99b3d06f9047f593493e,win.agendacrypt,"Agenda,Qilin",AgendaCrypt,1
+c7be2421d4b0ecd2a630e4e4b3d3b1ac,win.zstealer,Z*Stealer,ZStealer,1
+c7c613a0bd28cc5b344d21e16c0d1f58,win.formbook,win.xloader,Formbook,1
+c7dfe7b9f5d6e98de85edf2e4f16e7e5,win.valley_rat,Winos,ValleyRAT,1
+c7e0541aece15b22683869fe25f2893f,win.agendacrypt,"Agenda,Qilin",AgendaCrypt,1
+c7e6b3208a4bf04ef28fd3b37008b7d2,win.phorpiex,"Tldr,Trik,TwizT,phorphiex",Phorpiex,1
+c7ed106493f459e9aebe37be31f84d8e,win.formbook,win.xloader,Formbook,1
+c7f4619f48242d4bef8a2c31910b2dd4,win.phorpiex,"Tldr,Trik,TwizT,phorphiex",Phorpiex,1
+c856731038d020706aaaa7da2a8e46a5,win.nanocore,"Nancrat,NanoCore",Nanocore RAT,1
+c87cdff96cf2f30bd7665a151e6ee3a5,win.valley_rat,Winos,ValleyRAT,1
+c8d43c18b4b451e1722ebb0adbd924b5,win.agendacrypt,"Agenda,Qilin",AgendaCrypt,1
+c966e728f948667972f3e54eb839b50a,win.formbook,win.xloader,Formbook,1
+c9728efa849979820dd1172ac7b90776,win.wannacryptor,"Wana Decrypt0r,WannaCry,WannaCrypt,Wcry",WannaCryptor,1
+c979a8fd94dd3ff97ece6074e9639960,win.agendacrypt,"Agenda,Qilin",AgendaCrypt,1
+c987878904b7808a850a8f300b9656e8,win.wannacryptor,"Wana Decrypt0r,WannaCry,WannaCrypt,Wcry",WannaCryptor,1
+c9d073ae0783c17d1c211a9fa1658ed8,win.agent_tesla,"AgenTesla,AgentTesla,Negasteal",Agent Tesla,1
+c9dd06b54122a3c7b27299720b403a92,win.valley_rat,Winos,ValleyRAT,1
+c9e024fa97e1551e3808405b7112207e,win.valley_rat,Winos,ValleyRAT,1
+ca0b75619126f690492350972c59baeb,win.netwire,"NetWeird,NetWire,Recam",NetWire RC,1
+ca4f85f75f459c4963f7e3eb4e295394,win.netwire,"NetWeird,NetWire,Recam",NetWire RC,1
+ca5004c9bcfd941fea02670a382e28cd,win.netwire,"NetWeird,NetWire,Recam",NetWire RC,1
+ca53df54d9c9d33fe719d666c46980e1,win.wannacryptor,"Wana Decrypt0r,WannaCry,WannaCrypt,Wcry",WannaCryptor,1
+ca69deb127174f928e7debff4dbcf4e9,win.valley_rat,Winos,ValleyRAT,1
+ca74f32dd56f3ad2e51dd1ec54643681,win.dyepack,"BanSwift,swift",DYEPACK,1
+ca7dfa9c03546e9ee624cf957219053b,win.formbook,win.xloader,Formbook,1
+ca9050aa6e139627dd5c0d4cdd5e3eaa,win.wannacryptor,"Wana Decrypt0r,WannaCry,WannaCrypt,Wcry",WannaCryptor,1
+cabad66c40768fd276c7ccd0ddcde204,win.akira,REDBIKE,Akira,1
+cacad1f7b2592c3aee7f573e2dcd018c,win.netwire,"NetWeird,NetWire,Recam",NetWire RC,1
+cacae2128226e58ba93a2c09b4caaa82,win.akira,REDBIKE,Akira,1
+cadb9db307c33b1808750b989e1fd8a8,win.formbook,win.xloader,Formbook,1
+caf61d5d2d0449eba635f900da57c26c,win.supper,"SocksShell,ZAPCAT",Supper,1
+cb0c6801af564392ff22f3865cd31759,win.valley_rat,Winos,ValleyRAT,1
+cb245fa68d9f08372281be72241876a0,win.wannacryptor,"Wana Decrypt0r,WannaCry,WannaCrypt,Wcry",WannaCryptor,1
+cb3ac44312acae80a626ba1aa593f4de,win.akira,REDBIKE,Akira,1
+cba5d54230e862787080f0b881f38b2f,win.quasar_rat,"CinaRAT,QuasarRAT,Yggdrasil",Quasar RAT,1
+cbd6a180fba88121622f18261d3292fc,win.quasar_rat,"CinaRAT,QuasarRAT,Yggdrasil",Quasar RAT,1
+cc4df344dc1c16f87237661240fa385a,win.wannacryptor,"Wana Decrypt0r,WannaCry,WannaCrypt,Wcry",WannaCryptor,1
+cc7e9ae7f054d90355af2dd379625ec3,jar.crossrat,Trupto,CrossRAT,1
+ccf64e37512e69bca4868894a1bf233b,win.agendacrypt,"Agenda,Qilin",AgendaCrypt,1
+ccff072ed5aa19a1eed7f6a769ed2c5d,win.netwire,"NetWeird,NetWire,Recam",NetWire RC,1
+cd22bb73046551dfbafcc7f4c3ed505f,win.valley_rat,Winos,ValleyRAT,1
+cd25c288c1027864c24e1ae91a84da10,win.akira,REDBIKE,Akira,1
+cd4247e33148b91be70282885447f757,win.valley_rat,Winos,ValleyRAT,1
+cd44fdd1585f6be07433627dbf3aa5f2,win.netwire,"NetWeird,NetWire,Recam",NetWire RC,1
+cd9bbcba0733e834a50214132f6338f7,win.formbook,win.xloader,Formbook,1
+cdba3f620f58b3283c37ad512452a9d7,win.netwire,"NetWeird,NetWire,Recam",NetWire RC,1
+ce08cd51504080093e47127c0d5894c3,win.wannacryptor,"Wana Decrypt0r,WannaCry,WannaCrypt,Wcry",WannaCryptor,1
+ce4ba16956b7c2802e7dba75244e0352,win.valley_rat,Winos,ValleyRAT,1
+ce606c0d5c379ed034b9df3f93510616,win.netwire,"NetWeird,NetWire,Recam",NetWire RC,1
+ce86bec69c0991c8cd99787e5f8a2c4d,win.valley_rat,Winos,ValleyRAT,1
+ce8a61aa2ea8ba555e41d2cba59bf397,win.akira,REDBIKE,Akira,1
+ce8dbd9fce3e739bfed8a23a96a92fe0,win.nanocore,"Nancrat,NanoCore",Nanocore RAT,1
+cee0e495adc06bbac4be33544bd393ca,win.njrat,"Bladabindi,Lime-Worm",NjRAT,1
+cee53ef94384940fbf12ca59041a55e2,win.netwire,"NetWeird,NetWire,Recam",NetWire RC,1
+cf135dac1f6d5c72cb2f361aad02591f,win.akira,REDBIKE,Akira,1
+cfa6d68a1f11511effebcff35bd8c82e,win.valley_rat,Winos,ValleyRAT,1
+d017feba12f5960520155ba240beb093,win.wannacryptor,"Wana Decrypt0r,WannaCry,WannaCrypt,Wcry",WannaCryptor,1
+d01940a0ebe8fd39c5358f39f069c1cd,win.valley_rat,Winos,ValleyRAT,1
+d0692bd690c992740cd43ed7b48e6a92,win.agendacrypt,"Agenda,Qilin",AgendaCrypt,1
+d0b37eaa763585c828d30b5d7ef2eb2d,win.valley_rat,Winos,ValleyRAT,1
+d11ea15f2c690f46bfc282f300f692c1,win.nanocore,"Nancrat,NanoCore",Nanocore RAT,1
+d121235211b62df289ee961414e06fa4,win.mydoom,"Novarg,Mimail",MyDoom,1
+d1f41d50627a69e02d4f7464beb2f8b8,win.agent_tesla,"AgenTesla,AgentTesla,Negasteal",Agent Tesla,1
+d20a462ee82fc009d69338c62a759272,win.phorpiex,"Tldr,Trik,TwizT,phorphiex",Phorpiex,1
+d2299a14e0e463e11a927402556ddf8f,win.akira,REDBIKE,Akira,1
+d24014049064389357dab970e72e6298,win.cobalt_strike,"Agentemis,BEACON,CobaltStrike,cobeacon",Cobalt Strike,1
+d25618ff921021bed6f79f10b41c40c8,win.formbook,win.xloader,Formbook,1
+d27b96db5cbe4b9f3446fd523bf27870,win.formbook,win.xloader,Formbook,1
+d2894a452a69cd574591dd927e38f105,win.valley_rat,Winos,ValleyRAT,1
+d297a3f1b263a489d1742181658cfdcb,win.netwire,"NetWeird,NetWire,Recam",NetWire RC,1
+d2a6531b53d38fa469a87bc5957963f8,win.netwire,"NetWeird,NetWire,Recam",NetWire RC,1
+d2d3e85f0d8d966d22c6dd7f6a94df13,win.nanocore,"Nancrat,NanoCore",Nanocore RAT,1
+d32f235bef8d215d9841d2ef4826f7c6,win.netwire,"NetWeird,NetWire,Recam",NetWire RC,1
+d343a2faa7dcd81c8c45ca87c78a9531,win.akira,REDBIKE,Akira,1
+d34632a9e6cb564ccf8eb2f8ec7e7c32,win.akira,REDBIKE,Akira,1
+d3a52221539ad3c09e494d95034eb992,win.tinynuke,"NukeBot,Nuclear Bot,MicroBankingTrojan,Xbot",TinyNuke,1
+d3cf7a81ddd61e65fc4773257331325d,win.akira,REDBIKE,Akira,1
+d3e37de6dd2dc8ce1bb72536259529cc,win.nanocore,"Nancrat,NanoCore",Nanocore RAT,1
+d3ee116e4d0edf012d7523cdfef1e6b8,win.formbook,win.xloader,Formbook,1
+d402ffe03674489bb2d5103c8ab3f60e,win.akira,REDBIKE,Akira,1
+d43e8f238e9071c06d19070a625d0056,win.agendacrypt,"Agenda,Qilin",AgendaCrypt,1
+d4924474fc65b01338656b91ca02291f,win.agendacrypt,"Agenda,Qilin",AgendaCrypt,1
+d4a176cf23226c155afe7aaf97c21b0d,win.wannacryptor,"Wana Decrypt0r,WannaCry,WannaCrypt,Wcry",WannaCryptor,1
+d4ad0cc7f55c93e3283afcf27fd367df,win.netwire,"NetWeird,NetWire,Recam",NetWire RC,1
+d4e044151a7c099f397c6c48af0a5ee3,win.agendacrypt,"Agenda,Qilin",AgendaCrypt,1
+d50cac4d6287863144292c6e0bd01ad6,win.akira,REDBIKE,Akira,1
+d532a55294f7634e26a01c0bee81404e,jar.crossrat,Trupto,CrossRAT,1
+d53974a4be8dc8fe98ca1bf1e8209b5c,win.akira,REDBIKE,Akira,1
+d55d6a4722973772857f242f86a2ef4a,win.tinymet,TiniMet,TinyMet,1
+d5e9cd5cd5ba38ae51a114cbc2189efa,win.netwire,"NetWeird,NetWire,Recam",NetWire RC,1
+d6016c0b8acc0c4d73d27019ed290ba5,win.valley_rat,Winos,ValleyRAT,1
+d62739dd92c54d194150ef0638c01895,win.formbook,win.xloader,Formbook,1
+d62d4b7811e37ce789b40ff9343e3458,win.cloudeye,"GuLoader,vbdropper",CloudEyE,1
+d6482f22ccd7de1105396b98008a4965,win.netwire,"NetWeird,NetWire,Recam",NetWire RC,1
+d68c82bfa227f4f8e10f640d1c5b341e,win.akira,REDBIKE,Akira,1
+d6a222fe26479140d221771bcbbfe14a,jar.crossrat,Trupto,CrossRAT,1
+d6b7daa0f357d6cc371e2bec28e27d6c,win.phorpiex,"Tldr,Trik,TwizT,phorphiex",Phorpiex,1
+d6d0aff94ec9c1d794fa31daf5fad87a,win.netwire,"NetWeird,NetWire,Recam",NetWire RC,1
+d6d231259254992a8c8958cc4e6aa1fc,win.formbook,win.xloader,Formbook,1
+d6f6c84364e483f1857b3b53c715afce,win.agendacrypt,"Agenda,Qilin",AgendaCrypt,1
+d71e0b1a9aa1135597d6e70f02e8b738,win.valley_rat,Winos,ValleyRAT,1
+d76b3e385a5f85b7c2a547ee7053342c,osx.xloader,Formbook,Xloader,1
+d772282592444d6215d3a334c7cc338f,win.akira,REDBIKE,Akira,1
+d77b96fe72bfd13d513ab559cba4b308,win.wannacryptor,"Wana Decrypt0r,WannaCry,WannaCrypt,Wcry",WannaCryptor,1
+d77ecb98f524306213dd2e2e4d2bbce0,win.netwire,"NetWeird,NetWire,Recam",NetWire RC,1
+d788aaf3d00ef5d0ded9d149c7d99376,win.phorpiex,"Tldr,Trik,TwizT,phorphiex",Phorpiex,1
+d7a4fac9c5fe0171f319a5f1a546d031,win.agendacrypt,"Agenda,Qilin",AgendaCrypt,1
+d8336b1ff9bb24fe0e116f909e3c9fc7,win.phorpiex,"Tldr,Trik,TwizT,phorphiex",Phorpiex,1
+d87b97d9015ba00ef095398f7fbfe4a0,win.netwire,"NetWeird,NetWire,Recam",NetWire RC,1
+d882aad77e0395c3db221213ff0f1a4f,win.akira,REDBIKE,Akira,1
+d8c48b948c8b4d6ca10e8cd5b210dee9,win.ghost_rat,"Farfli,Gh0st RAT,PCRat",Ghost RAT,1
+d8d19575c1de6c091ebf0624596478fa,win.agent_tesla,"AgenTesla,AgentTesla,Negasteal",Agent Tesla,1
+d8ff995ca4b9a9a2018b852331c1d0f6,win.agent_tesla,"AgenTesla,AgentTesla,Negasteal",Agent Tesla,1
+d907a8565b03664455b7eb68dae7a81c,win.akira,REDBIKE,Akira,1
+d91435c7250f01daa3dc6ddbd0bc9df0,jar.crossrat,Trupto,CrossRAT,1
+d9308962ded34dc930c02c17e615eb7d,win.formbook,win.xloader,Formbook,1
+d932537b9ac0c16f9294d7a4a007c196,win.phorpiex,"Tldr,Trik,TwizT,phorphiex",Phorpiex,1
+d96b417144fc484cdb1e6430e6884b08,win.agendacrypt,"Agenda,Qilin",AgendaCrypt,1
+d98f80b404cc25165f74c0cc3a8394d3,win.nanocore,"Nancrat,NanoCore",Nanocore RAT,1
+d9bf7b1a5f8cb94f92ef00e67f7a285d,win.agent_tesla,"AgenTesla,AgentTesla,Negasteal",Agent Tesla,1
+d9c681a726183af26a21128279ef0ced,win.valley_rat,Winos,ValleyRAT,1
+d9e58b4fa83412f34ee5f5c3cec259e6,win.phorpiex,"Tldr,Trik,TwizT,phorphiex",Phorpiex,1
+d9ff8fddd37c75d9d30fbacb1af24d6d,win.agendacrypt,"Agenda,Qilin",AgendaCrypt,1
+da26a2729ed04d876c8e9c55175ffc2f,win.ghost_rat,"Farfli,Gh0st RAT,PCRat",Ghost RAT,1
+da3635d346d58158cb0e09addd12f5b2,win.nanocore,"Nancrat,NanoCore",Nanocore RAT,1
+da3734f8176354f8f88f17651e56e91b,win.socks5_systemz,ProxyBox,Socks5Systemz,1
+da3c4fd3f4f3738f9f626c96de56a535,win.phorpiex,"Tldr,Trik,TwizT,phorphiex",Phorpiex,1
+da3e8045d4c7ad80a1fe6ce1f65d64b1,win.akira,REDBIKE,Akira,1
+da3f293b8ea8ef925c8e68eeaf4c2245,win.netwire,"NetWeird,NetWire,Recam",NetWire RC,1
+da6350db6be2cdc4ccdb5577e36f8b33,win.netwire,"NetWeird,NetWire,Recam",NetWire RC,1
+da6a114917bdb41286172fcaec6a05a3,win.valley_rat,Winos,ValleyRAT,1
+da6dada9aa8fb55bfafb1e9c84835710,win.agendacrypt,"Agenda,Qilin",AgendaCrypt,1
+da72110692c7133a76dbf5e06aa571ef,win.formbook,win.xloader,Formbook,1
+dabde1488755d4980b82dda7372d7917,win.aurastealer,"AURA Stealer,AURASTEAL",Aura Stealer,1
+daec53d5a033d22b522d9fa3973ece16,win.agendacrypt,"Agenda,Qilin",AgendaCrypt,1
+daecad02a61e55b9964b4f091d585819,win.agendacrypt,"Agenda,Qilin",AgendaCrypt,1
+db103b8f2eb1e1884492626dda6a3561,win.akira,REDBIKE,Akira,1
+db133a7ead8a83e3dd1a6b2bc4ee41c7,win.wannacryptor,"Wana Decrypt0r,WannaCry,WannaCrypt,Wcry",WannaCryptor,1
+db1d42421e41141175b3d14de1b5421f,win.akira,REDBIKE,Akira,1
+db5f9352503f9cd7f1c572d03a64f32d,win.netwire,"NetWeird,NetWire,Recam",NetWire RC,1
+db807ebaff3009ce314772baf347529a,win.wannacryptor,"Wana Decrypt0r,WannaCry,WannaCrypt,Wcry",WannaCryptor,1
+db967abae63200065e22c95bbc1fe380,win.netwire,"NetWeird,NetWire,Recam",NetWire RC,1
+dbaf29a9c995b983bc0cf6d65f9397fa,win.ghost_rat,"Farfli,Gh0st RAT,PCRat",Ghost RAT,1
+dbb8dd4954d8d0ea0c03492e02c57a5f,win.agendacrypt,"Agenda,Qilin",AgendaCrypt,1
+dc4054f1ff61a001d3d872ae280b3208,win.valley_rat,Winos,ValleyRAT,1
+dc614bc8781cb85e4ddf2bbb7860cb84,win.wannacryptor,"Wana Decrypt0r,WannaCry,WannaCrypt,Wcry",WannaCryptor,1
+dc993e02dd8b72b4c1d2d31e13811746,win.netwire,"NetWeird,NetWire,Recam",NetWire RC,1
+dca6afeddc135645ec068160a47c9510,win.agent_tesla,"AgenTesla,AgentTesla,Negasteal",Agent Tesla,1
+dcaac89539ff0f6313d8a48ce72a1e07,win.agendacrypt,"Agenda,Qilin",AgendaCrypt,1
+dcd580118706ee497e645311915996b0,win.valley_rat,Winos,ValleyRAT,1
+dcdfeeea89d07b5bc81e0f61051f34c2,win.agent_tesla,"AgenTesla,AgentTesla,Negasteal",Agent Tesla,1
+dcf102b1c40cbb682838adca7f0dc0af,win.ghost_rat,"Farfli,Gh0st RAT,PCRat",Ghost RAT,1
+dcfbe94f7ead20bb942b06ecb67937fd,win.zloader,"DELoader,SILENTNIGHT,Terdot",Zloader,1
+dd028eedfd0d276e6e75ac77356dfcc1,win.formbook,win.xloader,Formbook,1
+dd0634be42cda34fa24999471f418ad1,win.valley_rat,Winos,ValleyRAT,1
+dd0c0a97b2a17f1313051aa9cd52457d,win.akira,REDBIKE,Akira,1
+dd51094e4f4ac5bbb533a22156ae5050,win.agendacrypt,"Agenda,Qilin",AgendaCrypt,1
+dd6920d9209ea1cdcbb9be9e2e605d57,win.valley_rat,Winos,ValleyRAT,1
+dd71a4e1f9223545aa723c7be6f6d70d,win.formbook,win.xloader,Formbook,1
+ddb95711381fc35855472d28dbdb50e2,win.dcrat,DarkCrystal RAT,DCRat,1
+de13453b63073710dfd952b1e3305ed4,win.agendacrypt,"Agenda,Qilin",AgendaCrypt,1
+de295da07916a1e68e05fb9f6eb4fee5,win.netwire,"NetWeird,NetWire,Recam",NetWire RC,1
+de6cf7235bed85b5665ed7c8b047834c,win.agendacrypt,"Agenda,Qilin",AgendaCrypt,1
+de7490e3bc31ad29ece7a3e275588d18,win.valley_rat,Winos,ValleyRAT,1
+deba77ce237a412331cda6c87cf62cdc,win.agendacrypt,"Agenda,Qilin",AgendaCrypt,1
+dede7dfe4b5285ed0a3e770efe4db5ff,win.akira,REDBIKE,Akira,1
+dee3308c48a52fc15394c3e89221226d,win.njrat,"Bladabindi,Lime-Worm",NjRAT,1
+df436f62af38b7a5bcd8a3368a9f110a,win.nanocore,"Nancrat,NanoCore",Nanocore RAT,1
+df6eebe6085a7091f5e9e0508f2a2b25,win.formbook,win.xloader,Formbook,1
+df6f9ce4475da25b324829509ef5c186,win.quasar_rat,"CinaRAT,QuasarRAT,Yggdrasil",Quasar RAT,1
+df82f49a449258f8b3369a9e9e15ec51,win.netwire,"NetWeird,NetWire,Recam",NetWire RC,1
+df8969bc674b50844b205bfbe8053ee7,win.socks5_systemz,ProxyBox,Socks5Systemz,1
+df94520df3d218bd7982a7fc40e92530,win.netwire,"NetWeird,NetWire,Recam",NetWire RC,1
+df9e3ef15f695a1fd62d76b3d30fd4e0,win.netwire,"NetWeird,NetWire,Recam",NetWire RC,1
+dfa02c10692133124a81c074f5355773,win.valley_rat,Winos,ValleyRAT,1
+dfa5f0e5839ff343daeb096a57daef83,win.supper,"SocksShell,ZAPCAT",Supper,1
+dfa94b0185b88f097d6eb93b215ebd1c,win.valley_rat,Winos,ValleyRAT,1
+dfb3cccf389b73c970f4c3a9e4eb0937,win.wannacryptor,"Wana Decrypt0r,WannaCry,WannaCrypt,Wcry",WannaCryptor,1
+dfb3f9e4a0565e6f4328e3876a04f019,win.agendacrypt,"Agenda,Qilin",AgendaCrypt,1
+dfe1d52de0ab556d89bb292c8040f49a,win.agendacrypt,"Agenda,Qilin",AgendaCrypt,1
+e05fbd283c8ee39438fe1fb51c594015,win.formbook,win.xloader,Formbook,1
+e0b6ab4c98284b7e6818d3331011d945,jar.crossrat,Trupto,CrossRAT,1
+e0bf699a9016ef9a7740953c6ec4feb0,win.formbook,win.xloader,Formbook,1
+e10ba77977cf946b59d37a8089a6adca,win.formbook,win.xloader,Formbook,1
+e12f2359c07a123a2d80ed1993358515,win.phorpiex,"Tldr,Trik,TwizT,phorphiex",Phorpiex,1
+e1fcd966e28cfc73a481b0eb65b514ab,win.netwire,"NetWeird,NetWire,Recam",NetWire RC,1
+e2097b1fac5375439ff245b490399f3a,win.agendacrypt,"Agenda,Qilin",AgendaCrypt,1
+e218b8685c58080ff42dd0c8af154849,win.akira,REDBIKE,Akira,1
+e26e5728715f3aaf3f2267f86dce89e7,win.wannacryptor,"Wana Decrypt0r,WannaCry,WannaCrypt,Wcry",WannaCryptor,1
+e27588b211293274c70d2766c3b889dd,win.valley_rat,Winos,ValleyRAT,1
+e29f64a18e8b2a5f4e8ef07d5ff70d84,win.netwire,"NetWeird,NetWire,Recam",NetWire RC,1
+e2b4438f72c986add83c9d96d5aa46f7,win.agent_tesla,"AgenTesla,AgentTesla,Negasteal",Agent Tesla,1
+e2da5244179b68d7aeb36e764659132b,win.netwire,"NetWeird,NetWire,Recam",NetWire RC,1
+e2e001f0896a74144a4fb0bbabe8e672,win.formbook,win.xloader,Formbook,1
+e2f8bcbe8815b33869f87f1e99ab6f70,jar.crossrat,Trupto,CrossRAT,1
+e2fc1a8f0375978c269481f1908fbdb7,win.valley_rat,Winos,ValleyRAT,1
+e3588eea4c91251891eb52ce99489c16,win.formbook,win.xloader,Formbook,1
+e35bf4bd8ed78626b63cb917fb2fd576,win.formbook,win.xloader,Formbook,1
+e37fc2c689b56a5d66076c335cce334a,win.wannacryptor,"Wana Decrypt0r,WannaCry,WannaCrypt,Wcry",WannaCryptor,1
+e3db663bcd631c20072f0302c0f98192,win.formbook,win.xloader,Formbook,1
+e3ebd1db429e9ec95e75b8daaf43e2b3,win.wannacryptor,"Wana Decrypt0r,WannaCry,WannaCrypt,Wcry",WannaCryptor,1
+e44a70b628c96e4621411e51691422b1,win.valley_rat,Winos,ValleyRAT,1
+e44ee181d3235c52db5d99e2cc86d306,win.formbook,win.xloader,Formbook,1
+e4814c8dc3d6d83ecb0ed32bf1d6f593,win.agendacrypt,"Agenda,Qilin",AgendaCrypt,1
+e4841bff2e9072bb045ef9f6d0643280,win.netwire,"NetWeird,NetWire,Recam",NetWire RC,1
+e48e6c4a26379e2cf4a8e8c9a59ef094,win.akira,REDBIKE,Akira,1
+e4a34372eab0832d0682fa986a8e0b97,win.cobalt_strike,"Agentemis,BEACON,CobaltStrike,cobeacon",Cobalt Strike,1
+e4a57306d4d3d0271a3578643693ace9,win.netwire,"NetWeird,NetWire,Recam",NetWire RC,1
+e53da097f370175511c2a8c7734cfd37,win.agendacrypt,"Agenda,Qilin",AgendaCrypt,1
+e541636db753771f0635da1630ee2494,win.wannacryptor,"Wana Decrypt0r,WannaCry,WannaCrypt,Wcry",WannaCryptor,1
+e5604a5b1fa1d859e7b21db07cf0aa0f,win.pure_rat,"PureHVNC,ResolverRAT",PureRAT,1
+e57a87dc9ab5bd0bf814434f9579cfff,win.agent_tesla,"AgenTesla,AgentTesla,Negasteal",Agent Tesla,1
+e5a7e8a76088d1cb0db01c805588bbf2,win.phorpiex,"Tldr,Trik,TwizT,phorphiex",Phorpiex,1
+e5c4a6f40f5bbd19f090c1f95626687a,win.netwire,"NetWeird,NetWire,Recam",NetWire RC,1
+e5cd97b309afed34383aff420333d831,win.nanocore,"Nancrat,NanoCore",Nanocore RAT,1
+e5e3819b4c354a3416a0d1c9f483aa79,win.agendacrypt,"Agenda,Qilin",AgendaCrypt,1
+e5ef7d3f49ed27008fd24fe2aa7b458f,win.wannacryptor,"Wana Decrypt0r,WannaCry,WannaCrypt,Wcry",WannaCryptor,1
+e634daa853d4d5a55ad3ee5d20d336a9,win.agent_tesla,"AgenTesla,AgentTesla,Negasteal",Agent Tesla,1
+e6953f8c99055eca2c16f26bdc5fb3c0,win.valley_rat,Winos,ValleyRAT,1
+e6a5add76044236710a699d28da24437,win.wannacryptor,"Wana Decrypt0r,WannaCry,WannaCrypt,Wcry",WannaCryptor,1
+e6bd58f332c9aabe502e35ccedb38313,win.ghost_rat,"Farfli,Gh0st RAT,PCRat",Ghost RAT,1
+e6dca6bbb610070f9801a6bd10245601,win.wannacryptor,"Wana Decrypt0r,WannaCry,WannaCrypt,Wcry",WannaCryptor,1
+e7011edac362bacd77557b6dd2fcd6db,win.formbook,win.xloader,Formbook,1
+e729ad151614c96d872320b40e2f2ad2,win.snappy_client,SilabRAT,SnappyClient,1
+e76c8f8521a3c532b93466301076cccb,win.valley_rat,Winos,ValleyRAT,1
+e76d61ff0b8f528fa958b514f9a521dc,win.netwire,"NetWeird,NetWire,Recam",NetWire RC,1
+e7905f19dc5cebd37e3f9e2f65368b04,win.wannacryptor,"Wana Decrypt0r,WannaCry,WannaCrypt,Wcry",WannaCryptor,1
+e7a99c961596ae02b33bba60829df743,win.netwire,"NetWeird,NetWire,Recam",NetWire RC,1
+e7b918320c08c51bf439c7cf7d052968,win.valley_rat,Winos,ValleyRAT,1
+e80c4a3ceb6417d7194183326d498ea5,win.wannacryptor,"Wana Decrypt0r,WannaCry,WannaCrypt,Wcry",WannaCryptor,1
+e857eed1e71fa7360eae2d14126d9154,win.valley_rat,Winos,ValleyRAT,1
+e86536389821f0a45ff24820a6f2f2fe,win.valley_rat,Winos,ValleyRAT,1
+e8c5b5e6688f1b2ff4d72025e94e7b62,win.formbook,win.xloader,Formbook,1
+e8cd96c3d7f5a99f2ed2c39e23f8355b,win.agendacrypt,"Agenda,Qilin",AgendaCrypt,1
+e901de5f5639e2da79099beb3302d3aa,win.agendacrypt,"Agenda,Qilin",AgendaCrypt,1
+e989fab5128da2ce5cbbccea75b8b5e1,win.redline_stealer,RECORDSTEALER,RedLine Stealer,1
+ea0b00e05e0cb8f7075242b7930f781c,win.agendacrypt,"Agenda,Qilin",AgendaCrypt,1
+ea3d8bf23d059bf3e626583045dd48a0,win.wannacryptor,"Wana Decrypt0r,WannaCry,WannaCrypt,Wcry",WannaCryptor,1
+ea6af616eb4cb6efd68dc8140db720b0,win.netwire,"NetWeird,NetWire,Recam",NetWire RC,1
+ea71e89f31ae3244646c9e2eb671db99,win.nanocore,"Nancrat,NanoCore",Nanocore RAT,1
+ea8f7f13b9509d1d2699b8e25a14c114,win.akira,REDBIKE,Akira,1
+ea9653fc6e7780c699895a8f6a65f7e7,win.netwire,"NetWeird,NetWire,Recam",NetWire RC,1
+ead96eeb99f5d63df9ef73e00304960e,win.agent_tesla,"AgenTesla,AgentTesla,Negasteal",Agent Tesla,1
+eb6fff4ee0f03ae5191f11570ff221c5,win.agendacrypt,"Agenda,Qilin",AgendaCrypt,1
+eb80b24437ca144ae6cf0b19a03ca599,win.phorpiex,"Tldr,Trik,TwizT,phorphiex",Phorpiex,1
+eb913e273a6c623dec5d21405f2c559f,win.agendacrypt,"Agenda,Qilin",AgendaCrypt,1
+ebbdc2815774b02394c688f9415325bb,win.valley_rat,Winos,ValleyRAT,1
+ebcf21be8b00200b2ffba93aa86ab6d4,win.wannacryptor,"Wana Decrypt0r,WannaCry,WannaCrypt,Wcry",WannaCryptor,1
+ebd0b8e0f53ea8a997823dab5224f2e9,win.valley_rat,Winos,ValleyRAT,1
+ebd52cd0702b0f0705ab0cd300db1574,win.akira,REDBIKE,Akira,1
+ec20bdb75f0d4ddd40f559795b4cda74,win.akira,REDBIKE,Akira,1
+ec33eec246480c76716f671989cf9f88,win.arkei_stealer,ArkeiStealer,Arkei Stealer,1
+ec9416ccf51a95a73d9cbd6a54394212,jar.crossrat,Trupto,CrossRAT,1
+ecbb2a348b158d59d6eb1f81955d5e7b,win.agendacrypt,"Agenda,Qilin",AgendaCrypt,1
+ecbe908227806271221254ce5dd73a09,win.wannacryptor,"Wana Decrypt0r,WannaCry,WannaCrypt,Wcry",WannaCryptor,1
+ed15f74cb6cf66cfe4d24dbcbc5c30a9,win.nanocore,"Nancrat,NanoCore",Nanocore RAT,1
+ed32f554a6e15f3d3112e9b07f21e8fa,win.netwire,"NetWeird,NetWire,Recam",NetWire RC,1
+ed4ae654e0bbb7058128fef7bcad32a1,win.agent_tesla,"AgenTesla,AgentTesla,Negasteal",Agent Tesla,1
+ed5bb1ca1c6d80582d9565983646b856,win.akira,REDBIKE,Akira,1
+ed8b2d9b3400c6649ab14c3ed0238ff8,jar.crossrat,Trupto,CrossRAT,1
+ed8c27e5acb067148937e6da6e763d32,win.nanocore,"Nancrat,NanoCore",Nanocore RAT,1
+edc0d904974de3d03e654e98d24bfe9e,win.wannacryptor,"Wana Decrypt0r,WannaCry,WannaCrypt,Wcry",WannaCryptor,1
+ee11300d9a4fcec0e2172de5519049ac,win.akira,REDBIKE,Akira,1
+ee1ed321e64aee5b57ad715a43c23835,win.netwire,"NetWeird,NetWire,Recam",NetWire RC,1
+ee238e2b2cf81300aed1ac5fc8c25bec,win.akira,REDBIKE,Akira,1
+ee532fd47952c2b5ad8cb3cd3a92757d,win.valley_rat,Winos,ValleyRAT,1
+ee6376447ef8346bdd1fe625185fbfd0,win.akira,REDBIKE,Akira,1
+ef1df6880f861de62d8b30cd3623f410,win.akira,REDBIKE,Akira,1
+ef2e75f7e2d6ace02ab61cb6e8c79bcd,win.agendacrypt,"Agenda,Qilin",AgendaCrypt,1
+ef5b6211a47d0bec3ddb8d77b9c9586a,win.netwire,"NetWeird,NetWire,Recam",NetWire RC,1
+ef696834a9cae24973bb0d5f42d0d5d9,win.lambert,Plexor,Lambert,1
+eff8675fac22c49107a2a42d3c735f10,win.ghost_rat,"Farfli,Gh0st RAT,PCRat",Ghost RAT,1
+f01dfc649a81fb32b73cbc2e341328b3,win.dyepack,"BanSwift,swift",DYEPACK,1
+f039b4fd32d47ae406e42f2e01d4bd19,win.formbook,win.xloader,Formbook,1
+f06123222129e8092bda3ab9035a4fb2,win.wannacryptor,"Wana Decrypt0r,WannaCry,WannaCrypt,Wcry",WannaCryptor,1
+f070ad0d01de3696b7452420a8fdd254,win.ghost_rat,"Farfli,Gh0st RAT,PCRat",Ghost RAT,1
+f07826cd8101059cbab00ca5244d70d7,win.agent_tesla,"AgenTesla,AgentTesla,Negasteal",Agent Tesla,1
+f0d062c4f07188525d9b14c975e871ed,win.wannacryptor,"Wana Decrypt0r,WannaCry,WannaCrypt,Wcry",WannaCryptor,1
+f0e0c233b6385030953a8cdd31dfd928,win.wannacryptor,"Wana Decrypt0r,WannaCry,WannaCrypt,Wcry",WannaCryptor,1
+f1275a25ae3f83f91099e280a52da8be,win.valley_rat,Winos,ValleyRAT,1
+f12bb455c44905d39301d85baae785ef,win.netwire,"NetWeird,NetWire,Recam",NetWire RC,1
+f158a9b0f0f5bebaa35f1961717ff609,win.phorpiex,"Tldr,Trik,TwizT,phorphiex",Phorpiex,1
+f1688cb2537bd105e74c921e78c90cb7,win.formbook,win.xloader,Formbook,1
+f1a04ffaa889c11b99b33610e4a87dec,win.ghost_rat,"Farfli,Gh0st RAT,PCRat",Ghost RAT,1
+f1d2ea4574b06f39efcd2affba001567,win.agendacrypt,"Agenda,Qilin",AgendaCrypt,1
+f1dbe4e70de07fd3368915a29b376d1d,win.agendacrypt,"Agenda,Qilin",AgendaCrypt,1
+f1e78b13e21371ecfec02e6ca8fd5344,win.agendacrypt,"Agenda,Qilin",AgendaCrypt,1
+f1e9419110b9f316c070eca39bea63d6,win.akira,REDBIKE,Akira,1
+f238406f5cd53942450f145e1c977476,win.hijackloader,"DOILoader,GHOSTPULSE,IDAT Loader,SHADOWLADDER",HijackLoader,1
+f23fa10c058cd653d5d617308b38b9e4,jar.crossrat,Trupto,CrossRAT,1
+f28cc6d42c81624b02e76b34910b2d3c,win.agendacrypt,"Agenda,Qilin",AgendaCrypt,1
+f2a520db47f163760eef8629fc4a92e2,osx.xloader,Formbook,Xloader,1
+f2bab102784860e65cd488387e42ca50,win.akira,REDBIKE,Akira,1
+f2bf5c1aa8e8566cc2f3cb060556926c,win.akira,REDBIKE,Akira,1
+f2d73d70f95b645bbdfcc00f306ce16d,win.valley_rat,Winos,ValleyRAT,1
+f2e641d14aaff8fa4872a157d9d1be82,win.ghost_rat,"Farfli,Gh0st RAT,PCRat",Ghost RAT,1
+f2fe9af2aa1c6e57dc8db8d1645a0173,win.phorpiex,"Tldr,Trik,TwizT,phorphiex",Phorpiex,1
+f3053fed83a4d313e8aa9cace5db69ab,jar.crossrat,Trupto,CrossRAT,1
+f3095ae00c2b65df4c2353ce8f81974b,win.valley_rat,Winos,ValleyRAT,1
+f31bae04dadf2712d4e4d82a96a56156,win.phorpiex,"Tldr,Trik,TwizT,phorphiex",Phorpiex,1
+f32f66f210c25ea6dd97348034bb698b,win.nanocore,"Nancrat,NanoCore",Nanocore RAT,1
+f370ff620a0d83b45b133cfcb4a4c3fc,win.formbook,win.xloader,Formbook,1
+f3b531e3c02bf043db87ee26b1fdd6cd,win.agendacrypt,"Agenda,Qilin",AgendaCrypt,1
+f3d3fa71555ade263f753a6d543b81ab,win.netwire,"NetWeird,NetWire,Recam",NetWire RC,1
+f41c68d38d739ffb21cdc6d0371647bc,win.netwire,"NetWeird,NetWire,Recam",NetWire RC,1
+f455803cf736015a73d4f03f165963df,win.formbook,win.xloader,Formbook,1
+f45a7613a2d97c914743e192ba8f0aa7,win.phorpiex,"Tldr,Trik,TwizT,phorphiex",Phorpiex,1
+f45ee413107a3fc0ca47f529d9756b35,win.netwire,"NetWeird,NetWire,Recam",NetWire RC,1
+f466e3112ffdfa965f4457c98dee5b92,win.netwire,"NetWeird,NetWire,Recam",NetWire RC,1
+f4a01dfda391b0903a8d6807f49a9d72,win.formbook,win.xloader,Formbook,1
+f4a21c6c2dbc446fadce7744a112cb14,jar.crossrat,Trupto,CrossRAT,1
+f4b19ddac26cc4add956fb01856469d0,win.formbook,win.xloader,Formbook,1
+f4cb26da786b7dcf513ef3386086b566,win.valley_rat,Winos,ValleyRAT,1
+f512184d11309e3da83fa1967d3faff6,win.pure_rat,"PureHVNC,ResolverRAT",PureRAT,1
+f515e22d8f2ad0d4e1dab5eb173f6d52,win.netwire,"NetWeird,NetWire,Recam",NetWire RC,1
+f5236d7bb0342a14ab7eb986c6689d2b,win.phorpiex,"Tldr,Trik,TwizT,phorphiex",Phorpiex,1
+f5374f1aa0d2f2eac551b62c8c6ad4c1,win.agendacrypt,"Agenda,Qilin",AgendaCrypt,1
+f548df5972128c4fe852dfd221150738,win.akira,REDBIKE,Akira,1
+f54c99037385d1c3c2809ccbd540d486,win.quasar_rat,"CinaRAT,QuasarRAT,Yggdrasil",Quasar RAT,1
+f5ded90ef3ab418b2c9fd74e03d1751c,win.wannacryptor,"Wana Decrypt0r,WannaCry,WannaCrypt,Wcry",WannaCryptor,1
+f5ec29d01c9adb0ecabb2da6bc8fb81a,win.wannacryptor,"Wana Decrypt0r,WannaCry,WannaCrypt,Wcry",WannaCryptor,1
+f5ec392cae1e2e0c6f7ea66af09dfecc,win.netwire,"NetWeird,NetWire,Recam",NetWire RC,1
+f5f52b13178c96bc8e25d1b7e78d1497,win.akira,REDBIKE,Akira,1
+f6631ba02588c80f1a33a34eec8ea12a,win.akira,REDBIKE,Akira,1
+f69859707432442f70c49c2f0678f675,win.netwire,"NetWeird,NetWire,Recam",NetWire RC,1
+f69f1f4b7f421b81be3cbce9d71e17e3,win.tofsee,Gheg,Tofsee,1
+f6ad32434247191f22bb92daec16df79,win.socks5_systemz,ProxyBox,Socks5Systemz,1
+f6cf6f7882e162506eade5c67535ddca,win.agendacrypt,"Agenda,Qilin",AgendaCrypt,1
+f6db29a1c53467f9d613666064785e98,win.quasar_rat,"CinaRAT,QuasarRAT,Yggdrasil",Quasar RAT,1
+f6e76ba53c968b6c967b618fe1788b0d,win.wannacryptor,"Wana Decrypt0r,WannaCry,WannaCrypt,Wcry",WannaCryptor,1
+f6ed2d18961a10d7f3683f68ae2f9645,win.wannacryptor,"Wana Decrypt0r,WannaCry,WannaCrypt,Wcry",WannaCryptor,1
+f7217247715350ecb3679e6ae91c77f1,win.formbook,win.xloader,Formbook,1
+f72f667fac878f750e4b8d4d59643f26,win.njrat,"Bladabindi,Lime-Worm",NjRAT,1
+f77562b49448581c9b09a68ac78ff37b,win.agendacrypt,"Agenda,Qilin",AgendaCrypt,1
+f7933766ab76526e5aa391a019d99060,win.ghost_rat,"Farfli,Gh0st RAT,PCRat",Ghost RAT,1
+f7a9be6e4140bb14d916bd73f0868aad,win.wannacryptor,"Wana Decrypt0r,WannaCry,WannaCrypt,Wcry",WannaCryptor,1
+f7d83d241f4a45ea7a97ea74a1016dff,win.valley_rat,Winos,ValleyRAT,1
+f829810332b993b28f0a3f40cda8c589,win.wannacryptor,"Wana Decrypt0r,WannaCry,WannaCrypt,Wcry",WannaCryptor,1
+f8319f6f9c38d0bbeec1b2a153008055,win.netwire,"NetWeird,NetWire,Recam",NetWire RC,1
+f8459cec16c4c15d2ea9aee99c398f73,win.agendacrypt,"Agenda,Qilin",AgendaCrypt,1
+f85edfbd3b5d8c22774f4239c920727e,win.nanocore,"Nancrat,NanoCore",Nanocore RAT,1
+f87c6fa237e630491b09c12dfacbb94f,win.agendacrypt,"Agenda,Qilin",AgendaCrypt,1
+f89a414276e136a36bda7952ca8f6be2,win.valley_rat,Winos,ValleyRAT,1
+f8e82ec9f5fec8779e43e955f67b28ea,win.agendacrypt,"Agenda,Qilin",AgendaCrypt,1
+f9158f928bff45d130cc27d4ae20aee8,jar.crossrat,Trupto,CrossRAT,1
+f91cf21c1415ef1a90cff56e7dc7e88c,elf.akira,REDBIKE,Akira,1
+f92d8a2f5c3d9140c233c0012d9ad43e,win.dcrat,DarkCrystal RAT,DCRat,1
+f97369c65ce71afac2ebab1ae5c96e16,win.netwire,"NetWeird,NetWire,Recam",NetWire RC,1
+f9b26c03b294c0a05398462482860b27,win.netwire,"NetWeird,NetWire,Recam",NetWire RC,1
+f9b3f122b831b7d2bd4464b98c8b21b5,win.agendacrypt,"Agenda,Qilin",AgendaCrypt,1
+f9faf7b128cbe714fc5fea22fd6fcfca,win.hijackloader,"DOILoader,GHOSTPULSE,IDAT Loader,SHADOWLADDER",HijackLoader,1
+fa11f152e232a3362556598c33b71def,win.akira,REDBIKE,Akira,1
+fa1d0a6bce748dd794a27ee6179bf948,win.netwire,"NetWeird,NetWire,Recam",NetWire RC,1
+fa29ba375745ef6c0d1423cf38a83d71,win.agendacrypt,"Agenda,Qilin",AgendaCrypt,1
+fa7a39d34106ef52741a56adb281da3a,win.akira,REDBIKE,Akira,1
+fa94e3c046c382492715a9dcbc2eab36,win.wannacryptor,"Wana Decrypt0r,WannaCry,WannaCrypt,Wcry",WannaCryptor,1
+faabc72c2848caf771c29c6cddfd5254,win.wannacryptor,"Wana Decrypt0r,WannaCry,WannaCrypt,Wcry",WannaCryptor,1
+fafd5cc8363ceb4f0d8ffae09ffecd36,win.agendacrypt,"Agenda,Qilin",AgendaCrypt,1
+fb26fdde000d289ac423f5dd74865e43,win.agent_tesla,"AgenTesla,AgentTesla,Negasteal",Agent Tesla,1
+fb33520062ee28f1137e7704df12871c,win.njrat,"Bladabindi,Lime-Worm",NjRAT,1
+fb457a6418fc28940991bc763c342e3e,win.valley_rat,Winos,ValleyRAT,1
+fb7afbebc72c93238cbc81bb69c997f9,win.dcrat,DarkCrystal RAT,DCRat,1
+fbf5502d96d5e50e2084d6f11269460c,win.wannacryptor,"Wana Decrypt0r,WannaCry,WannaCrypt,Wcry",WannaCryptor,1
+fc979950fc9ea29928bee3be393a0fb1,win.nanocore,"Nancrat,NanoCore",Nanocore RAT,1
+fcac06aded114ab89c60bce606c5c217,win.formbook,win.xloader,Formbook,1
+fcacc7ea0897dce4fd6aa38979978db7,win.netwire,"NetWeird,NetWire,Recam",NetWire RC,1
+fceaf8af1a6e83e0a1ae35a4a2fa35a7,win.ghost_rat,"Farfli,Gh0st RAT,PCRat",Ghost RAT,1
+fcfa826b899ee297df49f4ef756857d2,win.valley_rat,Winos,ValleyRAT,1
+fd298cc6e4828b95473ed6f5d2af3113,win.agendacrypt,"Agenda,Qilin",AgendaCrypt,1
+fd35f58efcd6af8b7ad198bb07052fd2,win.zstealer,Z*Stealer,ZStealer,1
+fd5ace68d49a2d5d5663c1c6b134705b,win.agent_tesla,"AgenTesla,AgentTesla,Negasteal",Agent Tesla,1
+fd9284cedf382def729cf6450aec8e54,win.cobalt_strike,"Agentemis,BEACON,CobaltStrike,cobeacon",Cobalt Strike,1
+fd97ea4b8cfbe711cdeff06d6e8c502f,win.valley_rat,Winos,ValleyRAT,1
+fda577720a8c60c46a37650398fc0144,win.netwire,"NetWeird,NetWire,Recam",NetWire RC,1
+fdb48acaeddd23cc974897a18eba5b5c,win.netwire,"NetWeird,NetWire,Recam",NetWire RC,1
+fdb6c03e9d9e120f85e827954d55bd88,win.netwire,"NetWeird,NetWire,Recam",NetWire RC,1
+fdc1fc279a15ba9f8e02f1eb46616475,win.netwire,"NetWeird,NetWire,Recam",NetWire RC,1
+fe44783ba824629a0e2b909a6a9b80a2,win.netwire,"NetWeird,NetWire,Recam",NetWire RC,1
+fe609cbd263e01a51c53ce0651ad0ade,win.akira,REDBIKE,Akira,1
+fe6daf3d6816030d2288947b6c0aa5ed,win.nanocore,"Nancrat,NanoCore",Nanocore RAT,1
+fe99efbb5d6cc5e40adbc0be64767a08,win.agendacrypt,"Agenda,Qilin",AgendaCrypt,1
+fe9b98bcd6fdab8766d8744e2ebda2c0,win.akira,REDBIKE,Akira,1
+fee6d07c0dfef6724ba1646362fb7c4c,win.wannacryptor,"Wana Decrypt0r,WannaCry,WannaCrypt,Wcry",WannaCryptor,1
+fef0728b6266d5e778e64c5a75ea0852,win.akira,REDBIKE,Akira,1
+ff1de6f4d4f35c0a43d425822d66376a,win.wannacryptor,"Wana Decrypt0r,WannaCry,WannaCrypt,Wcry",WannaCryptor,1
+ff2a1cc7cdd7b93afc47eed96b214f7e,win.arkei_stealer,ArkeiStealer,Arkei Stealer,1
+ff398178642634364b05ae413091f831,win.agent_tesla,"AgenTesla,AgentTesla,Negasteal",Agent Tesla,1
+ff7fe11166b27eb6f3e0c8cb02a50f8c,win.agent_tesla,"AgenTesla,AgentTesla,Negasteal",Agent Tesla,1
+ff811bbbdc68edb723eddf12f71027b8,win.formbook,win.xloader,Formbook,1
