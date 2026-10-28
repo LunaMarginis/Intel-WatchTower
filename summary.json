@@ -1,8 +1,8 @@
 {
- "at": "2026-10-28T05:53:20+00:00",
+ "at": "2026-10-28T18:26:20+00:00",
  "checks": [
   {
-   "detail": "4256 KB in 1.8 s",
+   "detail": "4295 KB in 2.2 s",
    "name": "threatfox: download",
    "status": "pass"
   },
@@ -12,7 +12,7 @@
    "status": "pass"
   },
   {
-   "detail": "all 462 data lines parsed",
+   "detail": "all 409 data lines parsed",
    "name": "threatfox: lines read",
    "status": "pass"
   },
@@ -22,24 +22,24 @@
    "status": "pass"
   },
   {
-   "detail": "462 rows (last time 373)",
+   "detail": "409 rows (last time 462)",
    "name": "threatfox: volume",
    "status": "pass"
   },
   {
-   "detail": "newest hash is 10.3 h old",
+   "detail": "newest hash is 22.9 h old",
    "name": "threatfox: freshness",
    "status": "pass"
   },
   {
-   "detail": "export file is 0.2 h old",
+   "detail": "export file is 0.8 h old",
    "name": "threatfox: freshness",
    "status": "pass"
   },
   {
-   "detail": "89 new (recent average 27)",
+   "detail": "0 new, far below the recent average of 34",
    "name": "threatfox: new items",
-   "status": "pass"
+   "status": "warn"
   },
   {
    "detail": "https://urlhaus.abuse.ch/downloads/csv_recent/: HTTP 410",
@@ -52,7 +52,7 @@
    "status": "pass"
   },
   {
-   "detail": "all 4,346 data lines parsed",
+   "detail": "all 3,578 data lines parsed",
    "name": "threatfox domains: lines read",
    "status": "pass"
   },
@@ -62,17 +62,17 @@
    "status": "warn"
   },
   {
-   "detail": "4,338 rows (last time 4,398)",
+   "detail": "3,570 rows (last time 4,338)",
    "name": "threatfox domains: volume",
    "status": "pass"
   },
   {
-   "detail": "newest entry is 0.2 h old",
+   "detail": "newest entry is 1.3 h old",
    "name": "threatfox domains: freshness",
    "status": "pass"
   },
   {
-   "detail": "export file is 0.2 h old",
+   "detail": "export file is 0.8 h old",
    "name": "threatfox domains: freshness",
    "status": "pass"
   },
@@ -82,7 +82,7 @@
    "status": "pass"
   },
   {
-   "detail": "all 3,287 data lines parsed",
+   "detail": "all 3,288 data lines parsed",
    "name": "threatfox ips: lines read",
    "status": "pass"
   },
@@ -92,22 +92,22 @@
    "status": "pass"
   },
   {
-   "detail": "2,550 rows (last time 2,600)",
+   "detail": "2,543 rows (last time 2,550)",
    "name": "threatfox ips: volume",
    "status": "pass"
   },
   {
-   "detail": "newest entry is 0.2 h old",
+   "detail": "newest entry is 0.8 h old",
    "name": "threatfox ips: freshness",
    "status": "pass"
   },
   {
-   "detail": "export file is 0.2 h old",
+   "detail": "export file is 0.8 h old",
    "name": "threatfox ips: freshness",
    "status": "pass"
   },
   {
-   "detail": "12 published files contain no live URL",
+   "detail": "11 published files contain no live URL",
    "name": "output safety",
    "status": "pass"
   }
@@ -181,7 +181,7 @@
    {
     "aliases": [],
     "confidence": 95,
-    "count": 121,
+    "count": 119,
     "daily": [
      0,
      1,
@@ -192,15 +192,15 @@
      0
     ],
     "family": "SalatStealer",
-    "first_seen": "2026-10-21 13:41:10+00:00",
+    "first_seen": "2026-10-23 13:39:13+00:00",
     "key": "win.salatstealer",
     "last_seen": "2026-10-27 19:33:03+00:00",
-    "previous": 17
+    "previous": 19
    },
    {
     "aliases": [],
     "confidence": 95,
-    "count": 72,
+    "count": 42,
     "daily": [
      35,
      0,
@@ -211,15 +211,15 @@
      0
     ],
     "family": "Coinminer",
-    "first_seen": "2026-10-21 13:40:25+00:00",
+    "first_seen": "2026-10-22 12:50:39+00:00",
     "key": "win.coinminer",
     "last_seen": "2026-10-27 19:33:15+00:00",
-    "previous": 11
+    "previous": 41
    },
    {
     "aliases": [],
     "confidence": 95,
-    "count": 39,
+    "count": 36,
     "daily": [
      0,
      8,
@@ -230,15 +230,15 @@
      0
     ],
     "family": "Raven Stealer",
-    "first_seen": "2026-10-21 13:40:36+00:00",
+    "first_seen": "2026-10-23 13:39:18+00:00",
     "key": "win.ravenstealer",
     "last_seen": "2026-10-27 19:33:10+00:00",
-    "previous": 28
+    "previous": 31
    },
    {
     "aliases": [],
     "confidence": 95,
-    "count": 26,
+    "count": 23,
     "daily": [
      0,
      6,
@@ -249,10 +249,10 @@
      0
     ],
     "family": "Vidar",
-    "first_seen": "2026-10-21 13:40:50+00:00",
+    "first_seen": "2026-10-23 13:39:01+00:00",
     "key": "win.vidar",
     "last_seen": "2026-10-27 00:40:56+00:00",
-    "previous": 15
+    "previous": 18
    },
    {
     "aliases": [
@@ -273,46 +273,6 @@
     "first_seen": "2026-10-22 12:50:55+00:00",
     "key": "win.formbook",
     "last_seen": "2026-10-27 00:40:44+00:00",
-    "previous": 16
-   },
-   {
-    "aliases": [],
-    "confidence": 95,
-    "count": 13,
-    "daily": [
-     0,
-     4,
-     4,
-     3,
-     0,
-     0,
-     0
-    ],
-    "family": "stealler",
-    "first_seen": "2026-10-21 13:40:29+00:00",
-    "key": "py.stealler",
-    "last_seen": "2026-10-25 17:42:14+00:00",
-    "previous": 6
-   },
-   {
-    "aliases": [
-     "Winos"
-    ],
-    "confidence": 95,
-    "count": 13,
-    "daily": [
-     0,
-     1,
-     3,
-     1,
-     0,
-     7,
-     0
-    ],
-    "family": "ValleyRAT",
-    "first_seen": "2026-10-21 13:40:44+00:00",
-    "key": "win.valley_rat",
-    "last_seen": "2026-10-27 19:33:12+00:00",
     "previous": 16
    },
    {
@@ -337,6 +297,46 @@
     "key": "win.netwire",
     "last_seen": "2026-10-27 19:32:59+00:00",
     "previous": 9
+   },
+   {
+    "aliases": [
+     "Winos"
+    ],
+    "confidence": 95,
+    "count": 12,
+    "daily": [
+     0,
+     1,
+     3,
+     1,
+     0,
+     7,
+     0
+    ],
+    "family": "ValleyRAT",
+    "first_seen": "2026-10-23 13:39:28+00:00",
+    "key": "win.valley_rat",
+    "last_seen": "2026-10-27 19:33:12+00:00",
+    "previous": 17
+   },
+   {
+    "aliases": [],
+    "confidence": 95,
+    "count": 11,
+    "daily": [
+     0,
+     4,
+     4,
+     3,
+     0,
+     0,
+     0
+    ],
+    "family": "stealler",
+    "first_seen": "2026-10-23 13:39:03+00:00",
+    "key": "py.stealler",
+    "last_seen": "2026-10-25 17:42:14+00:00",
+    "previous": 8
    },
    {
     "aliases": [],
@@ -365,7 +365,7 @@
      "Wcry"
     ],
     "confidence": 95,
-    "count": 10,
+    "count": 9,
     "daily": [
      1,
      1,
@@ -376,10 +376,10 @@
      0
     ],
     "family": "WannaCryptor",
-    "first_seen": "2026-10-21 13:41:00+00:00",
+    "first_seen": "2026-10-22 12:50:53+00:00",
     "key": "win.wannacryptor",
     "last_seen": "2026-10-27 19:32:56+00:00",
-    "previous": 7
+    "previous": 8
    },
    {
     "aliases": [
@@ -402,67 +402,6 @@
     "key": "win.cloudeye",
     "last_seen": "2026-10-24 17:23:13+00:00",
     "previous": 0
-   },
-   {
-    "aliases": [],
-    "confidence": 95,
-    "count": 7,
-    "daily": [
-     0,
-     0,
-     1,
-     1,
-     0,
-     4,
-     0
-    ],
-    "family": "RN Stealer",
-    "first_seen": "2026-10-21 13:40:47+00:00",
-    "key": "py.rn_stealer",
-    "last_seen": "2026-10-27 00:40:18+00:00",
-    "previous": 10
-   },
-   {
-    "aliases": [],
-    "confidence": 95,
-    "count": 7,
-    "daily": [
-     0,
-     2,
-     0,
-     0,
-     0,
-     3,
-     0
-    ],
-    "family": "XWorm",
-    "first_seen": "2026-10-21 13:40:27+00:00",
-    "key": "win.xworm",
-    "last_seen": "2026-10-27 00:40:12+00:00",
-    "previous": 3
-   },
-   {
-    "aliases": [
-     "AgenTesla",
-     "AgentTesla",
-     "Negasteal"
-    ],
-    "confidence": 95,
-    "count": 6,
-    "daily": [
-     0,
-     1,
-     0,
-     0,
-     0,
-     3,
-     0
-    ],
-    "family": "Agent Tesla",
-    "first_seen": "2026-10-21 13:41:02+00:00",
-    "key": "win.agent_tesla",
-    "last_seen": "2026-10-27 19:32:18+00:00",
-    "previous": 2
    },
    {
     "aliases": [],
@@ -527,6 +466,25 @@
    {
     "aliases": [],
     "confidence": 95,
+    "count": 6,
+    "daily": [
+     0,
+     0,
+     1,
+     1,
+     0,
+     4,
+     0
+    ],
+    "family": "RN Stealer",
+    "first_seen": "2026-10-24 17:23:22+00:00",
+    "key": "py.rn_stealer",
+    "last_seen": "2026-10-27 00:40:18+00:00",
+    "previous": 11
+   },
+   {
+    "aliases": [],
+    "confidence": 95,
     "count": 5,
     "daily": [
      0,
@@ -544,25 +502,46 @@
     "previous": 0
    },
    {
-    "aliases": [
-     "Trupto"
-    ],
+    "aliases": [],
     "confidence": 95,
     "count": 5,
     "daily": [
      0,
+     2,
      0,
      0,
      0,
-     0,
-     4,
+     3,
      0
     ],
-    "family": "CrossRAT",
-    "first_seen": "2026-10-21 13:40:26+00:00",
-    "key": "jar.crossrat",
-    "last_seen": "2026-10-27 19:32:56+00:00",
-    "previous": 8
+    "family": "XWorm",
+    "first_seen": "2026-10-23 13:39:00+00:00",
+    "key": "win.xworm",
+    "last_seen": "2026-10-27 00:40:12+00:00",
+    "previous": 5
+   },
+   {
+    "aliases": [
+     "AgenTesla",
+     "AgentTesla",
+     "Negasteal"
+    ],
+    "confidence": 95,
+    "count": 4,
+    "daily": [
+     0,
+     1,
+     0,
+     0,
+     0,
+     3,
+     0
+    ],
+    "family": "Agent Tesla",
+    "first_seen": "2026-10-23 13:39:38+00:00",
+    "key": "win.agent_tesla",
+    "last_seen": "2026-10-27 19:32:18+00:00",
+    "previous": 4
    },
    {
     "aliases": [],
@@ -582,6 +561,27 @@
     "key": "win.code_core",
     "last_seen": "2026-10-24 17:23:30+00:00",
     "previous": 0
+   },
+   {
+    "aliases": [
+     "Trupto"
+    ],
+    "confidence": 95,
+    "count": 4,
+    "daily": [
+     0,
+     0,
+     0,
+     0,
+     0,
+     4,
+     0
+    ],
+    "family": "CrossRAT",
+    "first_seen": "2026-10-27 00:39:59+00:00",
+    "key": "jar.crossrat",
+    "last_seen": "2026-10-27 19:32:56+00:00",
+    "previous": 9
    },
    {
     "aliases": [
@@ -691,30 +691,6 @@
     "previous": 0
    },
    {
-    "aliases": [
-     "Agentemis",
-     "BEACON",
-     "CobaltStrike",
-     "cobeacon"
-    ],
-    "confidence": 98,
-    "count": 3,
-    "daily": [
-     0,
-     1,
-     0,
-     0,
-     0,
-     1,
-     0
-    ],
-    "family": "Cobalt Strike",
-    "first_seen": "2026-10-21 11:07:36+00:00",
-    "key": "win.cobalt_strike",
-    "last_seen": "2026-10-27 07:18:22+00:00",
-    "previous": 0
-   },
-   {
     "aliases": [],
     "confidence": 95,
     "count": 3,
@@ -753,6 +729,30 @@
     "key": "win.tinymet",
     "last_seen": "2026-10-27 19:31:59+00:00",
     "previous": 0
+   },
+   {
+    "aliases": [
+     "Agentemis",
+     "BEACON",
+     "CobaltStrike",
+     "cobeacon"
+    ],
+    "confidence": 98,
+    "count": 2,
+    "daily": [
+     0,
+     1,
+     0,
+     0,
+     0,
+     1,
+     0
+    ],
+    "family": "Cobalt Strike",
+    "first_seen": "2026-10-23 13:39:09+00:00",
+    "key": "win.cobalt_strike",
+    "last_seen": "2026-10-27 07:18:22+00:00",
+    "previous": 1
    },
    {
     "aliases": [
@@ -862,44 +862,6 @@
     "key": "win.hijackloader",
     "last_seen": "2026-10-27 19:32:40+00:00",
     "previous": 0
-   },
-   {
-    "aliases": [],
-    "confidence": 95,
-    "count": 2,
-    "daily": [
-     0,
-     1,
-     0,
-     0,
-     0,
-     0,
-     0
-    ],
-    "family": "PY#RATION",
-    "first_seen": "2026-10-21 13:40:32+00:00",
-    "key": "py.pyration",
-    "last_seen": "2026-10-23 13:39:29+00:00",
-    "previous": 1
-   },
-   {
-    "aliases": [],
-    "confidence": 95,
-    "count": 2,
-    "daily": [
-     0,
-     0,
-     0,
-     0,
-     0,
-     0,
-     0
-    ],
-    "family": "Shim RAT",
-    "first_seen": "2026-10-21 13:40:31+00:00",
-    "key": "win.shimrat",
-    "last_seen": "2026-10-21 13:40:32+00:00",
-    "previous": 3
    },
    {
     "aliases": [],
@@ -1175,25 +1137,6 @@
    },
    {
     "aliases": [],
-    "confidence": 95,
-    "count": 1,
-    "daily": [
-     0,
-     0,
-     0,
-     0,
-     0,
-     0,
-     0
-    ],
-    "family": "MASS Logger",
-    "first_seen": "2026-10-21 13:40:43+00:00",
-    "key": "win.masslogger",
-    "last_seen": "2026-10-21 13:40:43+00:00",
-    "previous": 2
-   },
-   {
-    "aliases": [],
     "confidence": 50,
     "count": 1,
     "daily": [
@@ -1267,6 +1210,25 @@
     "key": "win.prometei",
     "last_seen": "2026-10-25 17:42:00+00:00",
     "previous": 10
+   },
+   {
+    "aliases": [],
+    "confidence": 95,
+    "count": 1,
+    "daily": [
+     0,
+     1,
+     0,
+     0,
+     0,
+     0,
+     0
+    ],
+    "family": "PY#RATION",
+    "first_seen": "2026-10-23 13:39:29+00:00",
+    "key": "py.pyration",
+    "last_seen": "2026-10-23 13:39:29+00:00",
+    "previous": 2
    },
    {
     "aliases": [
@@ -1442,24 +1404,24 @@
     "previous": 0
    }
   ],
-  "families_in_export": 63,
-  "in_export": 462,
-  "last24h": 90,
-  "last7": 462,
-  "new_this_run": 89,
-  "newest_age_hours": 10.3,
+  "families_in_export": 61,
+  "in_export": 409,
+  "last24h": 89,
+  "last7": 409,
+  "new_this_run": 0,
+  "newest_age_hours": 22.9,
   "spark": "\u2583\u2583\u2583\u2582\u2583\u2583\u2583\u2583\u2583\u2584\u2584\u2581\u2588\u2581",
   "threat_types": [
    [
     "payload",
-    462
+    409
    ]
   ],
-  "window_hours": 152.4
+  "window_hours": 126.7
  },
  "infra": {
   "domains": {
-   "c2_7d": 405,
+   "c2_7d": 410,
    "daily": [
     [
      "2026-10-15",
@@ -1515,98 +1477,98 @@
     ],
     [
      "2026-10-28",
-     42
+     126
     ]
    ],
    "families": [
     [
      "IClickFix",
-     1539
+     1002
     ],
     [
      "ClearFake",
-     960
-    ],
-    [
-     "Unknown Loader",
-     682
+     952
     ],
     [
      "StrelaStealer",
-     632
+     620
+    ],
+    [
+     "Unknown Loader",
+     470
     ],
     [
      "php.shin_webshell",
-     215
+     211
     ],
     [
      "Vidar",
-     85
+     78
     ],
     [
      "Unknown malware",
-     45
+     49
     ],
     [
      "Unknown Stealer",
-     21
+     20
     ]
    ],
    "families_c2": [
     [
      "IClickFix",
-     155
+     154
     ],
     [
      "Vidar",
-     85
+     78
     ],
     [
      "Unknown malware",
-     37
-    ],
-    [
-     "Unknown RAT",
-     16
-    ],
-    [
-     "Remus",
-     14
+     40
     ],
     [
      "Remcos",
-     13
+     20
     ],
     [
-     "Mirai",
-     9
+     "Unknown RAT",
+     17
+    ],
+    [
+     "Remus",
+     13
     ],
     [
      "RedTail",
      9
+    ],
+    [
+     "RevStealer",
+     8
     ]
    ],
-   "in_export": 4338,
-   "last24h": 177,
-   "last7": 4334,
-   "new_this_run": 88,
-   "newest_age_hours": 0.2,
-   "other_7d": 3929,
+   "in_export": 3570,
+   "last24h": 169,
+   "last7": 3567,
+   "new_this_run": 84,
+   "newest_age_hours": 1.3,
+   "other_7d": 3157,
    "ports": [],
-   "spark": "\u2583\u2582\u2583\u2584\u2582\u2582\u2587\u2584\u2583\u2584\u2588\u2582\u2582\u2581",
+   "spark": "\u2583\u2582\u2583\u2584\u2582\u2582\u2587\u2584\u2583\u2584\u2588\u2582\u2582\u2582",
    "types": [
     [
      "payload_delivery",
-     3929
+     3157
     ],
     [
      "botnet_cc",
-     405
+     410
     ]
    ]
   },
   "ips": {
-   "c2_7d": 2407,
+   "c2_7d": 2411,
    "daily": [
     [
      "2026-10-15",
@@ -1650,7 +1612,7 @@
     ],
     [
      "2026-10-25",
-     1599
+     1601
     ],
     [
      "2026-10-26",
@@ -1662,21 +1624,21 @@
     ],
     [
      "2026-10-28",
-     6
+     123
     ]
    ],
    "families": [
     [
      "Unknown malware",
-     1240
+     1249
     ],
     [
      "VShell",
-     308
+     258
     ],
     [
      "Cobalt Strike",
-     173
+     203
     ],
     [
      "Sliver",
@@ -1684,15 +1646,15 @@
     ],
     [
      "Mirai",
-     91
+     86
     ],
     [
      "PureRAT",
-     61
+     68
     ],
     [
-     "Remcos",
-     40
+     "Unknown RAT",
+     39
     ],
     [
      "DeimosC2",
@@ -1702,15 +1664,15 @@
    "families_c2": [
     [
      "Unknown malware",
-     1233
+     1242
     ],
     [
      "VShell",
-     308
+     258
     ],
     [
      "Cobalt Strike",
-     173
+     203
     ],
     [
      "Sliver",
@@ -1718,35 +1680,35 @@
     ],
     [
      "Mirai",
-     85
+     80
     ],
     [
      "PureRAT",
-     61
+     68
     ],
     [
-     "Remcos",
-     40
+     "Unknown RAT",
+     39
     ],
     [
      "DeimosC2",
      37
     ]
    ],
-   "in_export": 2550,
-   "last24h": 111,
-   "last7": 2429,
-   "new_this_run": 22,
+   "in_export": 2543,
+   "last24h": 138,
+   "last7": 2433,
+   "new_this_run": 119,
    "newest_age_hours": 0.8,
    "other_7d": 22,
    "ports": [
     [
      3333,
-     400
+     404
     ],
     [
      443,
-     288
+     289
     ],
     [
      3000,
@@ -1754,30 +1716,30 @@
     ],
     [
      8877,
-     219
+     163
     ],
     [
      80,
-     110
+     139
     ],
     [
      8080,
-     105
+     107
     ],
     [
      31337,
-     92
+     91
     ],
     [
      8888,
-     87
+     89
     ]
    ],
-   "spark": "\u2582\u2582\u2581\u2582\u2581\u2581\u2582\u2582\u2582\u2582\u2588\u2582\u2581\u2581",
+   "spark": "\u2582\u2582\u2581\u2582\u2581\u2581\u2582\u2582\u2582\u2582\u2588\u2582\u2581\u2582",
    "types": [
     [
      "botnet_cc",
-     2407
+     2411
     ],
     [
      "payload_delivery",
@@ -1785,7 +1747,7 @@
     ]
    ]
   },
-  "overlap_total": 28
+  "overlap_total": 22
  },
  "status": "fail",
  "urls": {
