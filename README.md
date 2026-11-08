@@ -4,19 +4,19 @@ Daily malware intelligence from abuse.ch: what is new, who is behind it, and whe
 
 ![collect](https://github.com/LunaMarginis/Intel-WatchTower/actions/workflows/collect.yml/badge.svg)
 
-**Last run:** 2026-11-08 06:15 UTC · **Health:** ❌ **1 check(s) failed**, 1 warning(s): the affected data was kept from the previous good run.
+**Last run:** 2026-11-08 17:57 UTC · **Health:** ❌ **1 check(s) failed**, 3 warning(s): the affected data was kept from the previous good run.
 
 ## At a glance
 
 |  | 🧬 ThreatFox · MD5 hashes | 🔗 URLhaus · malware URLs |
 |---|---|---|
-| In the latest export | 563 | 33,970 |
-| New since the previous run | 45 | 472 |
-| Added in the last 24 hours | 87 | 472 |
-| Added in the last 7 days | 563 | 3,388 |
+| In the latest export | 480 | 33,970 |
+| New since the previous run | 0 | 472 |
+| Added in the last 24 hours | 0 | 472 |
+| Added in the last 7 days | 480 | 3,388 |
 | Online right now | – | 16,550 (49%) |
-| Period the export covers | 144.2 h | 30.5 days |
-| Newest entry | 13.5 h ago | 0 min ago |
+| Period the export covers | 115.3 h | 30.5 days |
+| Newest entry | 25.2 h ago | 0 min ago |
 
 _URL data refreshed 2026-10-21 11:43 UTC._
 
@@ -29,18 +29,18 @@ Unique MD5 hashes first reported in the last 7 days, against the 7 days before.
 | # | Family | Hashes (7 d) | vs previous 7 d | Per day | First seen (UTC) | Confidence | Also known as |
 |---|---|---|---|---|---|---|---|
 | 1 | **VShell** | 71 | ▲ +70 | `▅▄▄▄▆█▁` | 11-02 21:28 | 95% | – |
-| 2 | **SalatStealer** | 68 | ▼ -179 | `▅▃█▆▁▂▁` | 11-01 16:31 | 95% | – |
+| 2 | **SalatStealer** | 64 | ▼ -156 | `▅▃█▆▁▂▁` | 11-02 21:29 | 95% | – |
 | 3 | **ZStealer** | 51 | 🆕 new | `▁▁▁▁█▁▁` | 11-06 14:33 | 95% | ZStealer |
-| 4 | **Raven Stealer** | 42 | ▲ +25 | `▄▅▃▃▂█▁` | 11-01 16:32 | 95% | – |
+| 4 | **Raven Stealer** | 36 | ▲ +19 | `▄▅▃▃▂█▁` | 11-02 21:29 | 95% | – |
 | 5 | **Formbook** | 28 | ▲ +19 | `▆▇█▅▃▅▁` | 11-02 21:28 | 95% | win.xloader |
-| 6 | **RN Stealer** | 26 | ▲ +18 | `▂▂▁▃▁█▁` | 11-01 16:32 | 95% | – |
+| 6 | **RN Stealer** | 24 | ▲ +15 | `▂▂▁▃▁█▁` | 11-02 21:28 | 95% | – |
 | 7 | **Agent Tesla** | 22 | ▲ +17 | `▆█▅▄▂▃▁` | 11-02 21:28 | 95% | AgenTesla, AgentTesla, Negasteal |
-| 8 | **Creal Stealer** | 21 | ▲ +15 | `█▆▆▆█▁▁` | 11-01 16:31 | 95% | – |
-| 9 | **ValleyRAT** | 20 | ▲ +5 | `▃█▂▁▇▃▁` | 11-02 21:28 | 95% | Winos |
-| 10 | **Venus Stealer** | 15 | ▲ +12 | `▁▁▁█▄▅▁` | 11-01 16:32 | 95% | – |
+| 8 | **ValleyRAT** | 20 | ▲ +6 | `▃█▂▁▇▃▁` | 11-02 21:28 | 95% | Winos |
+| 9 | **Creal Stealer** | 12 | ▼ -3 | `█▆▆▆█▁▁` | 11-02 21:28 | 95% | – |
+| 10 | **Venus Stealer** | 10 | ▲ +2 | `▁▁▁█▄▅▁` | 11-05 14:35 | 95% | – |
 **New hashes per day, last 14 days:** `▁█▄▅▁▄▄▄▄▄▄▅▅▁` (today 0, busiest day 169).
 
-**Threat types:** payload 563  
+**Threat types:** payload 480  
 **Reporter confidence in the latest export:** 25–95% (average 95%)  
 
 _Archive: 1,562 hashes collected so far (kept up to 400 days)._
@@ -80,20 +80,20 @@ Domains and IP addresses reported to ThreatFox, with the malware family behind t
 
 |  | 🌐 Domains | 🖥️ IP addresses |
 |---|---|---|
-| In the latest export | 2,969 | 1,773 |
-| New since the previous run | 291 | 68 |
-| First reported, last 24 h | 350 | 104 |
-| First reported, last 7 days | 2,966 | 1,701 |
-| …of them command-and-control | 530 | 1,687 |
-| …delivery and other | 2,436 | 14 |
+| In the latest export | 2,685 | 1,740 |
+| New since the previous run | 200 | 34 |
+| First reported, last 24 h | 483 | 99 |
+| First reported, last 7 days | 2,682 | 1,668 |
+| …of them command-and-control | 618 | 1,655 |
+| …delivery and other | 2,064 | 13 |
 
 
-**Domains, top families (7 days):** ClearFake 809, IClickFix 572, Unknown Loader 567, Vidar 270, StrelaStealer 255  
-**Domains, top command-and-control families:** Vidar 270, Astaroth 66, ACR Stealer 34, IClickFix 29, Remcos 27  
+**Domains, top families (7 days):** ClearFake 847, Unknown Loader 543, Vidar 288, IClickFix 237, StrelaStealer 206  
+**Domains, top command-and-control families:** Vidar 288, ACR Stealer 66, Astaroth 66, Unknown malware 32, IClickFix 29  
 
-**IP addresses, top families (7 days):** Unknown malware 941, VShell 87, ValleyRAT 80, Cobalt Strike 67, Sliver 57  
-**IP addresses, top command-and-control families:** Unknown malware 937, VShell 87, ValleyRAT 80, Cobalt Strike 67, Sliver 57  
-**Most reported ports:** 443 (273), 5001 (228), 5000 (218), 702 (198), 701 (182), 8443 (111), 14101 (103), 21001 (71)  
+**IP addresses, top families (7 days):** Unknown malware 936, ValleyRAT 80, VShell 68, Cobalt Strike 64, Sliver 61  
+**IP addresses, top command-and-control families:** Unknown malware 932, ValleyRAT 80, VShell 68, Cobalt Strike 64, Sliver 61  
+**Most reported ports:** 443 (268), 5001 (228), 5000 (218), 702 (198), 701 (182), 8443 (108), 14101 (103), 21001 (71)  
 
 **Also serving malware in URLhaus:** 3 entries (the list itself is not published).
 
@@ -101,28 +101,28 @@ Domains and IP addresses reported to ThreatFox, with the malware family behind t
 
 |  | Check | Result |
 |---|---|---|
-| ✅ | `threatfox: download` | 4691 KB in 5.7 s |
+| ✅ | `threatfox: download` | 4711 KB in 5.1 s |
 | ✅ | `threatfox: columns` | all 10 needed columns present (5 others ignored) |
-| ✅ | `threatfox: lines read` | all 563 data lines parsed |
+| ✅ | `threatfox: lines read` | all 480 data lines parsed |
 | ✅ | `threatfox: values valid` | every row passed validation |
-| ✅ | `threatfox: volume` | 563 rows (last time 595) |
-| ✅ | `threatfox: freshness` | newest hash is 13.5 h old |
-| ✅ | `threatfox: freshness` | export file is 0.6 h old |
-| ✅ | `threatfox: new items` | 45 new (recent average 36) |
+| ✅ | `threatfox: volume` | 480 rows (last time 563) |
+| ⚠️ | `threatfox: freshness` | newest hash is 25.2 h old |
+| ✅ | `threatfox: freshness` | export file is 0.5 h old |
+| ⚠️ | `threatfox: new items` | 0 new far below the recent average of 40 |
 | ❌ | `urlhaus: download` | https://urlhaus.abuse.ch/downloads/csv_recent/: HTTP 410 |
 | ✅ | `threatfox domains: columns` | all 10 needed columns present (5 others ignored) |
-| ✅ | `threatfox domains: lines read` | all 2976 data lines parsed |
+| ✅ | `threatfox domains: lines read` | all 2692 data lines parsed |
 | ⚠️ | `threatfox domains: values valid` | 4 rows rejected |
-| ✅ | `threatfox domains: volume` | 2969 rows (last time 3170) |
-| ✅ | `threatfox domains: freshness` | newest entry is 0.6 h old |
-| ✅ | `threatfox domains: freshness` | export file is 0.6 h old |
+| ✅ | `threatfox domains: volume` | 2685 rows (last time 2969) |
+| ✅ | `threatfox domains: freshness` | newest entry is 0.5 h old |
+| ✅ | `threatfox domains: freshness` | export file is 0.5 h old |
 | ✅ | `threatfox ips: columns` | all 10 needed columns present (5 others ignored) |
-| ✅ | `threatfox ips: lines read` | all 2561 data lines parsed |
+| ✅ | `threatfox ips: lines read` | all 2530 data lines parsed |
 | ✅ | `threatfox ips: values valid` | every row passed validation |
-| ✅ | `threatfox ips: volume` | 1773 rows (last time 1831) |
+| ✅ | `threatfox ips: volume` | 1740 rows (last time 1773) |
 | ✅ | `threatfox ips: freshness` | newest entry is 1.0 h old |
-| ✅ | `threatfox ips: freshness` | export file is 0.6 h old |
-| ✅ | `output safety` | 12 published files contain no live URL |
+| ✅ | `threatfox ips: freshness` | export file is 0.5 h old |
+| ✅ | `output safety` | 11 published files contain no live URL |
 
 ## How this works
 
