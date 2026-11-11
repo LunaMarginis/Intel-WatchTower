@@ -1,8 +1,8 @@
 {
- "at": "2026-11-10T19:50:31+00:00",
+ "at": "2026-11-11T06:40:37+00:00",
  "checks": [
   {
-   "detail": "4728 KB in 1.7 s",
+   "detail": "4727 KB in 1.8 s",
    "name": "threatfox: download",
    "status": "pass"
   },
@@ -22,24 +22,24 @@
    "status": "pass"
   },
   {
-   "detail": "534 rows (last time 544)",
+   "detail": "534 rows (last time 534)",
    "name": "threatfox: volume",
    "status": "pass"
   },
   {
-   "detail": "newest hash is 4.8 h old",
+   "detail": "newest hash is 15.7 h old",
    "name": "threatfox: freshness",
    "status": "pass"
   },
   {
-   "detail": "export file is 0.3 h old",
+   "detail": "export file is 1.0 h old",
    "name": "threatfox: freshness",
    "status": "pass"
   },
   {
-   "detail": "69 new (recent average 39)",
+   "detail": "0 new, far below the recent average of 38",
    "name": "threatfox: new items",
-   "status": "pass"
+   "status": "warn"
   },
   {
    "detail": "https://urlhaus.abuse.ch/downloads/csv_recent/: HTTP 410",
@@ -52,7 +52,7 @@
    "status": "pass"
   },
   {
-   "detail": "all 1,736 data lines parsed",
+   "detail": "all 1,848 data lines parsed",
    "name": "threatfox domains: lines read",
    "status": "pass"
   },
@@ -62,17 +62,17 @@
    "status": "pass"
   },
   {
-   "detail": "1,732 rows (last time 1,765)",
+   "detail": "1,844 rows (last time 1,732)",
    "name": "threatfox domains: volume",
    "status": "pass"
   },
   {
-   "detail": "newest entry is 0.4 h old",
+   "detail": "newest entry is 1.3 h old",
    "name": "threatfox domains: freshness",
    "status": "pass"
   },
   {
-   "detail": "export file is 0.3 h old",
+   "detail": "export file is 1.0 h old",
    "name": "threatfox domains: freshness",
    "status": "pass"
   },
@@ -82,7 +82,7 @@
    "status": "pass"
   },
   {
-   "detail": "all 1,279 data lines parsed",
+   "detail": "all 1,324 data lines parsed",
    "name": "threatfox ips: lines read",
    "status": "pass"
   },
@@ -92,22 +92,22 @@
    "status": "pass"
   },
   {
-   "detail": "920 rows (last time 929)",
+   "detail": "957 rows (last time 920)",
    "name": "threatfox ips: volume",
    "status": "pass"
   },
   {
-   "detail": "newest entry is 0.8 h old",
+   "detail": "newest entry is 1.0 h old",
    "name": "threatfox ips: freshness",
    "status": "pass"
   },
   {
-   "detail": "export file is 0.3 h old",
+   "detail": "export file is 1.0 h old",
    "name": "threatfox ips: freshness",
    "status": "pass"
   },
   {
-   "detail": "12 published files contain no live URL",
+   "detail": "11 published files contain no live URL",
    "name": "output safety",
    "status": "pass"
   }
@@ -120,10 +120,6 @@
    "min": 25
   },
   "daily": [
-   [
-    "2026-10-28",
-    79
-   ],
    [
     "2026-10-29",
     88
@@ -175,6 +171,10 @@
    [
     "2026-11-10",
     69
+   ],
+   [
+    "2026-11-11",
+    0
    ]
   ],
   "families": [
@@ -183,12 +183,12 @@
     "confidence": 95,
     "count": 64,
     "daily": [
-     9,
      8,
      13,
      20,
      12,
      2,
+     0,
      0
     ],
     "family": "VShell",
@@ -202,13 +202,13 @@
     "confidence": 95,
     "count": 55,
     "daily": [
-     24,
      18,
      0,
      4,
      1,
      7,
-     1
+     1,
+     0
     ],
     "family": "SalatStealer",
     "first_seen": "2026-11-04 14:34:32+00:00",
@@ -221,13 +221,13 @@
     "confidence": 95,
     "count": 52,
     "daily": [
-     4,
      3,
      2,
      13,
      22,
      7,
-     1
+     1,
+     0
     ],
     "family": "Raven Stealer",
     "first_seen": "2026-11-04 14:34:41+00:00",
@@ -243,8 +243,8 @@
     "count": 51,
     "daily": [
      0,
-     0,
      51,
+     0,
      0,
      0,
      0,
@@ -261,12 +261,12 @@
     "confidence": 95,
     "count": 33,
     "daily": [
-     1,
      4,
      0,
      15,
      6,
      7,
+     0,
      0
     ],
     "family": "RN Stealer",
@@ -282,10 +282,10 @@
     "confidence": 95,
     "count": 17,
     "daily": [
-     7,
      4,
      2,
      4,
+     0,
      0,
      0,
      0
@@ -305,9 +305,9 @@
      0,
      0,
      0,
-     0,
      14,
-     2
+     2,
+     0
     ],
     "family": "Prometei",
     "first_seen": "2026-11-09 07:28:15+00:00",
@@ -322,13 +322,13 @@
     "confidence": 95,
     "count": 16,
     "daily": [
-     1,
      0,
      7,
      2,
      5,
      0,
-     1
+     1,
+     0
     ],
     "family": "ValleyRAT",
     "first_seen": "2026-11-04 14:34:27+00:00",
@@ -342,12 +342,12 @@
     "count": 13,
     "daily": [
      2,
-     2,
      3,
      0,
      5,
      0,
-     1
+     1,
+     0
     ],
     "family": "Creal Stealer",
     "first_seen": "2026-11-04 14:33:49+00:00",
@@ -360,13 +360,13 @@
     "confidence": 95,
     "count": 13,
     "daily": [
-     0,
      5,
      2,
      3,
      2,
      0,
-     1
+     1,
+     0
     ],
     "family": "Venus Stealer",
     "first_seen": "2026-11-05 14:35:15+00:00",
@@ -379,13 +379,13 @@
     "confidence": 95,
     "count": 12,
     "daily": [
-     1,
      2,
      0,
      0,
      3,
      0,
-     6
+     6,
+     0
     ],
     "family": "stealler",
     "first_seen": "2026-11-04 14:33:57+00:00",
@@ -398,13 +398,13 @@
     "confidence": 95,
     "count": 11,
     "daily": [
-     2,
      0,
      2,
      0,
      2,
      4,
-     1
+     1,
+     0
     ],
     "family": "AsyncRAT",
     "first_seen": "2026-11-04 14:34:03+00:00",
@@ -421,10 +421,10 @@
     "confidence": 95,
     "count": 10,
     "daily": [
-     4,
      3,
      1,
      2,
+     0,
      0,
      0,
      0
@@ -443,13 +443,13 @@
     "confidence": 95,
     "count": 10,
     "daily": [
-     1,
      3,
      0,
      0,
      2,
      0,
-     4
+     4,
+     0
     ],
     "family": "PureRAT",
     "first_seen": "2026-11-04 14:33:53+00:00",
@@ -462,11 +462,11 @@
     "confidence": 95,
     "count": 10,
     "daily": [
-     2,
      0,
      0,
      5,
      3,
+     0,
      0,
      0
     ],
@@ -483,11 +483,11 @@
     "confidence": 95,
     "count": 8,
     "daily": [
-     3,
      1,
      3,
      0,
      1,
+     0,
      0,
      0
     ],
@@ -505,13 +505,13 @@
     "confidence": 95,
     "count": 8,
     "daily": [
-     2,
      0,
      1,
      2,
      1,
      0,
-     2
+     2,
+     0
     ],
     "family": "NjRAT",
     "first_seen": "2026-11-04 14:34:14+00:00",
@@ -524,11 +524,11 @@
     "confidence": 95,
     "count": 7,
     "daily": [
-     1,
      2,
      0,
      0,
      4,
+     0,
      0,
      0
     ],
@@ -545,11 +545,11 @@
     "daily": [
      0,
      0,
-     0,
      1,
      0,
      0,
-     5
+     5,
+     0
     ],
     "family": "MASS Logger",
     "first_seen": "2026-11-07 16:43:18+00:00",
@@ -569,11 +569,11 @@
     "daily": [
      0,
      0,
-     0,
      4,
      0,
      1,
-     1
+     1,
+     0
     ],
     "family": "WannaCryptor",
     "first_seen": "2026-11-07 16:41:22+00:00",
@@ -591,10 +591,10 @@
     "count": 5,
     "daily": [
      1,
-     1,
      0,
      2,
      1,
+     0,
      0,
      0
     ],
@@ -609,13 +609,13 @@
     "confidence": 95,
     "count": 5,
     "daily": [
-     3,
      0,
      1,
      0,
      0,
      0,
-     1
+     1,
+     0
     ],
     "family": "XWorm",
     "first_seen": "2026-11-04 14:34:02+00:00",
@@ -631,11 +631,11 @@
     "confidence": 95,
     "count": 4,
     "daily": [
-     2,
      1,
      0,
      0,
      1,
+     0,
      0,
      0
     ],
@@ -654,13 +654,13 @@
     "confidence": 95,
     "count": 4,
     "daily": [
-     0,
      1,
      0,
      0,
      1,
      0,
-     2
+     2,
+     0
     ],
     "family": "Quasar RAT",
     "first_seen": "2026-11-05 14:35:07+00:00",
@@ -675,11 +675,11 @@
     "confidence": 95,
     "count": 4,
     "daily": [
-     1,
      0,
      0,
      1,
      2,
+     0,
      0,
      0
     ],
@@ -697,8 +697,8 @@
      0,
      0,
      0,
-     0,
      3,
+     0,
      0,
      0
     ],
@@ -713,8 +713,8 @@
     "confidence": 95,
     "count": 3,
     "daily": [
-     0,
      3,
+     0,
      0,
      0,
      0,
@@ -734,9 +734,9 @@
     "confidence": 95,
     "count": 3,
     "daily": [
-     2,
      0,
      1,
+     0,
      0,
      0,
      0,
@@ -758,8 +758,8 @@
      0,
      0,
      0,
-     0,
-     3
+     3,
+     0
     ],
     "family": "DOSTEALER",
     "first_seen": "2026-11-10 14:58:30+00:00",
@@ -773,8 +773,8 @@
     "count": 3,
     "daily": [
      0,
-     0,
      3,
+     0,
      0,
      0,
      0,
@@ -793,10 +793,10 @@
     "daily": [
      0,
      0,
-     0,
      1,
      0,
      2,
+     0,
      0
     ],
     "family": "GCleaner",
@@ -810,10 +810,10 @@
     "confidence": 95,
     "count": 3,
     "daily": [
-     2,
      0,
      0,
      1,
+     0,
      0,
      0,
      0
@@ -836,8 +836,8 @@
      0,
      0,
      0,
-     0,
-     3
+     3,
+     0
     ],
     "family": "Phemedrone Stealer",
     "first_seen": "2026-11-10 14:58:38+00:00",
@@ -853,8 +853,8 @@
     "confidence": 95,
     "count": 3,
     "daily": [
-     1,
      2,
+     0,
      0,
      0,
      0,
@@ -876,8 +876,8 @@
     "daily": [
      0,
      0,
-     0,
      3,
+     0,
      0,
      0,
      0
@@ -896,8 +896,8 @@
      0,
      0,
      0,
-     0,
      3,
+     0,
      0,
      0
     ],
@@ -917,8 +917,8 @@
      0,
      0,
      0,
-     0,
-     2
+     2,
+     0
     ],
     "family": "ArcaneStealer",
     "first_seen": "2026-11-10 14:58:53+00:00",
@@ -936,8 +936,8 @@
      0,
      0,
      0,
-     0,
-     2
+     2,
+     0
     ],
     "family": "DeltaStealer",
     "first_seen": "2026-11-10 14:58:48+00:00",
@@ -955,8 +955,8 @@
      0,
      0,
      0,
-     0,
-     2
+     2,
+     0
     ],
     "family": "GovRAT",
     "first_seen": "2026-11-10 14:59:25+00:00",
@@ -970,9 +970,9 @@
     "count": 2,
     "daily": [
      0,
+     1,
+     1,
      0,
-     1,
-     1,
      0,
      0,
      0
@@ -988,13 +988,13 @@
     "confidence": 95,
     "count": 2,
     "daily": [
+     0,
+     0,
+     0,
+     0,
+     0,
      1,
-     0,
-     0,
-     0,
-     0,
-     0,
-     1
+     0
     ],
     "family": "Keyhole",
     "first_seen": "2026-11-04 14:34:12+00:00",
@@ -1010,10 +1010,10 @@
     "count": 2,
     "daily": [
      0,
-     0,
      1,
      0,
      1,
+     0,
      0,
      0
     ],
@@ -1033,8 +1033,8 @@
      0,
      0,
      0,
-     0,
-     2
+     2,
+     0
     ],
     "family": "StormKittyRAT",
     "first_seen": "2026-11-10 14:58:35+00:00",
@@ -1047,11 +1047,11 @@
     "confidence": 95,
     "count": 2,
     "daily": [
-     0,
      1,
      0,
      0,
      1,
+     0,
      0,
      0
     ],
@@ -1066,7 +1066,7 @@
     "confidence": 95,
     "count": 1,
     "daily": [
-     1,
+     0,
      0,
      0,
      0,
@@ -1087,8 +1087,8 @@
     "confidence": 25,
     "count": 1,
     "daily": [
-     0,
      1,
+     0,
      0,
      0,
      0,
@@ -1111,8 +1111,8 @@
      0,
      0,
      0,
-     0,
-     1
+     1,
+     0
     ],
     "family": "AllcomeClipper",
     "first_seen": "2026-11-10 14:58:31+00:00",
@@ -1130,8 +1130,8 @@
      0,
      0,
      0,
-     0,
-     1
+     1,
+     0
     ],
     "family": "Ares",
     "first_seen": "2026-11-10 15:00:05+00:00",
@@ -1152,8 +1152,8 @@
     "daily": [
      0,
      0,
-     0,
      1,
+     0,
      0,
      0,
      0
@@ -1174,8 +1174,8 @@
      0,
      0,
      0,
-     0,
      1,
+     0,
      0,
      0
     ],
@@ -1195,8 +1195,8 @@
      0,
      0,
      0,
-     0,
-     1
+     1,
+     0
     ],
     "family": "BACKBEND",
     "first_seen": "2026-11-10 14:58:36+00:00",
@@ -1209,8 +1209,8 @@
     "confidence": 95,
     "count": 1,
     "daily": [
-     0,
      1,
+     0,
      0,
      0,
      0,
@@ -1230,8 +1230,8 @@
     "daily": [
      0,
      0,
-     0,
      1,
+     0,
      0,
      0,
      0
@@ -1252,8 +1252,8 @@
      0,
      0,
      0,
-     0,
-     1
+     1,
+     0
     ],
     "family": "Cobian RAT",
     "first_seen": "2026-11-10 14:58:59+00:00",
@@ -1269,8 +1269,8 @@
      0,
      0,
      0,
-     0,
      1,
+     0,
      0,
      0
     ],
@@ -1288,8 +1288,8 @@
     "count": 1,
     "daily": [
      0,
-     0,
      1,
+     0,
      0,
      0,
      0,
@@ -1307,8 +1307,8 @@
     "count": 1,
     "daily": [
      0,
-     0,
      1,
+     0,
      0,
      0,
      0,
@@ -1326,8 +1326,8 @@
     "count": 1,
     "daily": [
      0,
-     0,
      1,
+     0,
      0,
      0,
      0,
@@ -1349,8 +1349,8 @@
      0,
      0,
      0,
-     0,
-     1
+     1,
+     0
     ],
     "family": "EtherRAT",
     "first_seen": "2026-11-10 14:59:00+00:00",
@@ -1368,8 +1368,8 @@
      0,
      0,
      0,
-     0,
-     1
+     1,
+     0
     ],
     "family": "Ficker Stealer",
     "first_seen": "2026-11-10 14:58:45+00:00",
@@ -1390,8 +1390,8 @@
      0,
      0,
      0,
-     0,
      1,
+     0,
      0
     ],
     "family": "Ghost RAT",
@@ -1412,8 +1412,8 @@
      0,
      0,
      0,
-     0,
-     1
+     1,
+     0
     ],
     "family": "GootLoader",
     "first_seen": "2026-11-10 14:59:15+00:00",
@@ -1433,8 +1433,8 @@
      0,
      0,
      0,
-     0,
-     1
+     1,
+     0
     ],
     "family": "Graftor",
     "first_seen": "2026-11-10 14:59:53+00:00",
@@ -1452,8 +1452,8 @@
      0,
      0,
      0,
-     0,
-     1
+     1,
+     0
     ],
     "family": "htpRAT",
     "first_seen": "2026-11-10 14:59:12+00:00",
@@ -1468,8 +1468,8 @@
     "daily": [
      0,
      0,
-     0,
      1,
+     0,
      0,
      0,
      0
@@ -1485,7 +1485,7 @@
     "confidence": 95,
     "count": 1,
     "daily": [
-     1,
+     0,
      0,
      0,
      0,
@@ -1509,8 +1509,8 @@
      0,
      0,
      0,
-     0,
-     1
+     1,
+     0
     ],
     "family": "MetaStealer",
     "first_seen": "2026-11-10 14:58:44+00:00",
@@ -1523,7 +1523,7 @@
     "confidence": 95,
     "count": 1,
     "daily": [
-     1,
+     0,
      0,
      0,
      0,
@@ -1549,8 +1549,8 @@
      0,
      0,
      0,
-     0,
-     1
+     1,
+     0
     ],
     "family": "ModernLoader",
     "first_seen": "2026-11-10 14:58:28+00:00",
@@ -1568,8 +1568,8 @@
      0,
      0,
      0,
-     0,
-     1
+     1,
+     0
     ],
     "family": "MoonRise",
     "first_seen": "2026-11-10 15:00:06+00:00",
@@ -1587,8 +1587,8 @@
      0,
      0,
      0,
-     0,
-     1
+     1,
+     0
     ],
     "family": "OmniRAT",
     "first_seen": "2026-11-10 14:59:05+00:00",
@@ -1603,7 +1603,7 @@
     "confidence": 95,
     "count": 1,
     "daily": [
-     1,
+     0,
      0,
      0,
      0,
@@ -1627,8 +1627,8 @@
      0,
      0,
      0,
-     0,
-     1
+     1,
+     0
     ],
     "family": "PureCrypter",
     "first_seen": "2026-11-10 14:59:56+00:00",
@@ -1648,8 +1648,8 @@
      0,
      0,
      0,
-     0,
-     1
+     1,
+     0
     ],
     "family": "PwndLocker",
     "first_seen": "2026-11-10 14:58:41+00:00",
@@ -1667,8 +1667,8 @@
      0,
      0,
      0,
-     0,
-     1
+     1,
+     0
     ],
     "family": "PY#RATION",
     "first_seen": "2026-11-10 14:59:01+00:00",
@@ -1681,8 +1681,8 @@
     "confidence": 95,
     "count": 1,
     "daily": [
-     0,
      1,
+     0,
      0,
      0,
      0,
@@ -1705,8 +1705,8 @@
      0,
      0,
      0,
-     0,
-     1
+     1,
+     0
     ],
     "family": "RemRAT",
     "first_seen": "2026-11-10 14:58:53+00:00",
@@ -1724,8 +1724,8 @@
      0,
      0,
      0,
-     0,
-     1
+     1,
+     0
     ],
     "family": "ReverseRAT",
     "first_seen": "2026-11-10 14:58:33+00:00",
@@ -1742,8 +1742,8 @@
      0,
      0,
      0,
-     0,
      1,
+     0,
      0
     ],
     "family": "Sliver",
@@ -1760,8 +1760,8 @@
      0,
      0,
      0,
-     0,
      1,
+     0,
      0,
      0
     ],
@@ -1781,8 +1781,8 @@
      0,
      0,
      0,
-     0,
-     1
+     1,
+     0
     ],
     "family": "STRRAT",
     "first_seen": "2026-11-10 14:58:29+00:00",
@@ -1802,8 +1802,8 @@
      0,
      0,
      0,
-     0,
-     1
+     1,
+     0
     ],
     "family": "UFR Stealer",
     "first_seen": "2026-11-10 14:58:43+00:00",
@@ -1821,8 +1821,8 @@
      0,
      0,
      0,
-     0,
-     1
+     1,
+     0
     ],
     "family": "Upatre",
     "first_seen": "2026-11-10 14:58:46+00:00",
@@ -1843,8 +1843,8 @@
      0,
      0,
      0,
-     0,
-     1
+     1,
+     0
     ],
     "family": "Warezov",
     "first_seen": "2026-11-10 14:58:47+00:00",
@@ -1857,8 +1857,8 @@
     "confidence": 95,
     "count": 1,
     "daily": [
-     0,
      1,
+     0,
      0,
      0,
      0,
@@ -1876,7 +1876,7 @@
     "confidence": 95,
     "count": 1,
     "daily": [
-     1,
+     0,
      0,
      0,
      0,
@@ -1900,8 +1900,8 @@
      0,
      0,
      0,
-     0,
-     1
+     1,
+     0
     ],
     "family": "XenoRAT",
     "first_seen": "2026-11-10 14:59:21+00:00",
@@ -1919,8 +1919,8 @@
      0,
      0,
      0,
-     0,
-     1
+     1,
+     0
     ],
     "family": "XoriumStealer",
     "first_seen": "2026-11-10 14:59:09+00:00",
@@ -1938,8 +1938,8 @@
      0,
      0,
      0,
-     0,
-     1
+     1,
+     0
     ],
     "family": "Yokai",
     "first_seen": "2026-11-10 14:59:50+00:00",
@@ -1952,9 +1952,9 @@
   "in_export": 534,
   "last24h": 69,
   "last7": 534,
-  "new_this_run": 69,
-  "newest_age_hours": 4.8,
-  "spark": "\u2587\u2587\u2582\u2587\u2587\u2586\u2587\u2587\u2586\u2588\u2587\u2587\u2584\u2586",
+  "new_this_run": 0,
+  "newest_age_hours": 15.7,
+  "spark": "\u2587\u2582\u2587\u2587\u2586\u2587\u2587\u2586\u2588\u2587\u2587\u2584\u2586\u2581",
   "threat_types": [
    [
     "payload",
@@ -1965,12 +1965,8 @@
  },
  "infra": {
   "domains": {
-   "c2_7d": 703,
+   "c2_7d": 711,
    "daily": [
-    [
-     "2026-10-28",
-     377
-    ],
     [
      "2026-10-29",
      897
@@ -2021,17 +2017,21 @@
     ],
     [
      "2026-11-10",
-     201
+     310
+    ],
+    [
+     "2026-11-11",
+     60
     ]
    ],
    "families": [
     [
      "ClearFake",
-     450
+     501
     ],
     [
      "Vidar",
-     325
+     331
     ],
     [
      "php.shin_webshell",
@@ -2039,11 +2039,11 @@
     ],
     [
      "Unknown Loader",
-     180
+     194
     ],
     [
      "IClickFix",
-     121
+     156
     ],
     [
      "ACR Stealer",
@@ -2051,7 +2051,7 @@
     ],
     [
      "StrelaStealer",
-     75
+     71
     ],
     [
      "Astaroth",
@@ -2061,7 +2061,7 @@
    "families_c2": [
     [
      "Vidar",
-     325
+     331
     ],
     [
      "ACR Stealer",
@@ -2092,32 +2092,28 @@
      20
     ]
    ],
-   "in_export": 1732,
-   "last24h": 230,
-   "last7": 1730,
-   "new_this_run": 155,
-   "newest_age_hours": 0.4,
-   "other_7d": 1027,
+   "in_export": 1844,
+   "last24h": 324,
+   "last7": 1842,
+   "new_this_run": 169,
+   "newest_age_hours": 1.3,
+   "other_7d": 1131,
    "ports": [],
-   "spark": "\u2583\u2585\u2588\u2584\u2585\u2585\u2583\u2582\u2582\u2582\u2582\u2583\u2582\u2582",
+   "spark": "\u2585\u2588\u2584\u2585\u2585\u2583\u2582\u2582\u2582\u2582\u2583\u2582\u2582\u2581",
    "types": [
     [
      "payload_delivery",
-     1027
+     1131
     ],
     [
      "botnet_cc",
-     703
+     711
     ]
    ]
   },
   "ips": {
-   "c2_7d": 840,
+   "c2_7d": 877,
    "daily": [
-    [
-     "2026-10-28",
-     139
-    ],
     [
      "2026-10-29",
      185
@@ -2168,87 +2164,91 @@
     ],
     [
      "2026-11-10",
-     102
+     117
+    ],
+    [
+     "2026-11-11",
+     39
     ]
    ],
    "families": [
     [
      "Unknown malware",
-     174
+     198
     ],
     [
      "ValleyRAT",
-     75
+     74
     ],
     [
      "Sliver",
-     68
-    ],
-    [
-     "VShell",
-     63
+     69
     ],
     [
      "Cobalt Strike",
      57
     ],
     [
+     "VShell",
+     56
+    ],
+    [
      "PureRAT",
-     36
+     46
     ],
     [
      "Jackskid",
-     34
+     40
     ],
     [
      "Remcos",
-     34
+     36
     ]
    ],
    "families_c2": [
     [
      "Unknown malware",
-     171
+     195
     ],
     [
      "ValleyRAT",
-     75
+     74
     ],
     [
      "Sliver",
-     68
-    ],
-    [
-     "VShell",
-     63
+     69
     ],
     [
      "Cobalt Strike",
      57
     ],
     [
+     "VShell",
+     56
+    ],
+    [
      "PureRAT",
-     36
+     46
     ],
     [
      "Jackskid",
-     34
+     40
     ],
     [
      "Remcos",
-     34
+     36
     ]
    ],
-   "in_export": 920,
-   "last24h": 103,
-   "last7": 851,
+   "in_export": 957,
+   "last24h": 107,
+   "last7": 888,
    "new_this_run": 54,
-   "newest_age_hours": 0.8,
+   "newest_age_hours": 1.0,
    "other_7d": 11,
    "ports": [
     [
      443,
-     205
+     213
     ],
     [
      31337,
@@ -2256,7 +2256,7 @@
     ],
     [
      8888,
-     50
+     49
     ],
     [
      80,
@@ -2267,23 +2267,23 @@
      45
     ],
     [
+     3333,
+     35
+    ],
+    [
      8443,
      29
     ],
     [
      2404,
-     21
-    ],
-    [
-     3333,
-     20
+     23
     ]
    ],
-   "spark": "\u2582\u2583\u2582\u2583\u2582\u2588\u2582\u2582\u2582\u2583\u2582\u2582\u2582\u2582",
+   "spark": "\u2583\u2582\u2583\u2582\u2588\u2582\u2582\u2582\u2583\u2582\u2582\u2582\u2582\u2581",
    "types": [
     [
      "botnet_cc",
-     840
+     877
     ],
     [
      "payload_delivery",
