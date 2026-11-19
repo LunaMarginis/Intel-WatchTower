@@ -19,7 +19,8 @@ from . import __version__, analyze, checks as C, export, fetch, indicators, pars
 # One download of the full dump per run replaces the three downloads of the old files; each feed is cut out of it by ioc_type.
 THREATFOX_EXPORT = "https://threatfox-api.abuse.ch/v2/files/exports/{key}/full.csv.zip"
 THREATFOX_WINDOW_DAYS = 7       # the dump holds 6 months; keep the same recent window the old files had
-URLHAUS_URL = "https://urlhaus.abuse.ch/downloads/csv_recent/"
+# The same applies to URLhaus: downloads/csv_recent/ now answers HTTP 410, even with the key. The keyed export has the same format.
+URLHAUS_EXPORT = "https://urlhaus-api.abuse.ch/v2/files/exports/{key}/recent.csv"
 URL_REFRESH_HOURS = 20          # the big URL export is refreshed about once a day
 BLOCKING = ("download", "columns", "lines read", "volume")   # a failure of these keeps the previous data
 
@@ -40,12 +41,12 @@ def run(root: Path, *, offline: Path | None = None, now: datetime | None = None,
     # ------------------------------------------------------------ ThreatFox (hashes): every run
     tf_text, tf_fetch, tf_full = None, None, None   # tf_full: the parsed full dump (online runs only)
     since = now - timedelta(days=THREATFOX_WINDOW_DAYS)
+    key = os.environ.get("ABUSECH_AUTH_KEY", "").strip()   # one key for every abuse.ch export (ThreatFox and URLhaus)
     if offline:
         tf_text = (offline / "tf.csv").read_text(encoding="utf-8")
         tf_fetch = fetch.Fetched("offline", tf_text, 200, len(tf_text.encode()), 0.0, 1)
         cs.append(C.download("threatfox", tf_fetch))
     else:
-        key = os.environ.get("ABUSECH_AUTH_KEY", "").strip()
         try:
             if not key:
                 raise fetch.FetchError("ABUSECH_AUTH_KEY is not set (ThreatFox exports need an Auth-Key)")
@@ -98,7 +99,9 @@ def run(root: Path, *, offline: Path | None = None, now: datetime | None = None,
             cs.append(C.download("urlhaus", uh_fetch))
         else:
             try:
-                uh_fetch = fetch.get(URLHAUS_URL, timeout=120)
+                if not key:
+                    raise fetch.FetchError("ABUSECH_AUTH_KEY is not set (URLhaus exports need an Auth-Key)")
+                uh_fetch = fetch.get(URLHAUS_EXPORT.format(key=key), timeout=180, redact=key)   # ~30 MB
                 uh_text = uh_fetch.text
                 cs.append(C.download("urlhaus", uh_fetch))
             except fetch.FetchError as e:
