@@ -469,5 +469,50 @@ class AuthenticatedExportTests(unittest.TestCase):
         self.assertIn("<AUTH-KEY>", str(cm.exception))
 
 
+class UrlhausKeyedExportTests(unittest.TestCase):
+    """URLhaus's open csv_recent file answers HTTP 410; the export now needs the Auth-Key in the URL path."""
+    KEY = "SECRETKEY123"
+
+    def _online_run(self, key):
+        import os
+        from unittest import mock
+        from watchtower import fetch
+        tf, uh = fixtures()
+        calls = []
+
+        def fake_get(url, **kw):
+            calls.append((url, kw.get("redact", "")))
+            text = uh if "urlhaus" in url else tf
+            return fetch.Fetched(url.replace(self.KEY, "<AUTH-KEY>"), text, 200, len(text.encode()), 0.1, 1)
+
+        env = {"ABUSECH_AUTH_KEY": key} if key else {}
+        tmp = tempfile.TemporaryDirectory()
+        self.addCleanup(tmp.cleanup)
+        root = Path(tmp.name) / "repo"
+        with mock.patch.dict(os.environ, env, clear=False), mock.patch.object(run.fetch, "get", fake_get):
+            if not key:
+                os.environ.pop("ABUSECH_AUTH_KEY", None)
+            run.run(root, now=NOW, log=lambda *_: None)
+        return root, calls
+
+    def test_urlhaus_is_fetched_from_the_keyed_export_and_the_key_stays_out_of_the_output(self):
+        root, calls = self._online_run(self.KEY)
+        urls = [c for c in calls if "urlhaus" in c[0]]
+        self.assertEqual(urls, [(run.URLHAUS_EXPORT.format(key=self.KEY), self.KEY)])
+        self.assertNotIn("csv_recent", run.URLHAUS_EXPORT)
+        self.assertTrue((root / "urls.csv").exists())
+        for p in root.rglob("*"):
+            if p.is_file():
+                self.assertNotIn(self.KEY, p.read_text(encoding="utf-8", errors="replace"), str(p))
+
+    def test_without_a_key_urlhaus_is_not_requested_and_the_failure_is_reported(self):
+        root, calls = self._online_run("")
+        self.assertEqual([c for c in calls if "urlhaus" in c[0]], [])
+        self.assertFalse((root / "urls.csv").exists())
+        report = (root / "reports" / "2026-10-18.md").read_text(encoding="utf-8")
+        self.assertIn("urlhaus: download", report)
+        self.assertIn("ABUSECH_AUTH_KEY is not set (URLhaus exports need an Auth-Key)", report)
+
+
 if __name__ == "__main__":
     unittest.main()
