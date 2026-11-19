@@ -99,6 +99,15 @@ class ChecksTests(unittest.TestCase):
         self.assertEqual(C.defanged("x", "visit http://evil.example/payload now").status, C.FAIL)
         self.assertEqual(C.defanged("x", "docs at https://github.com/LunaMarginis/Intel-WatchTower ok").status, C.PASS)
 
+    def test_failed_download_message_with_the_api_host_is_not_a_live_url(self):
+        # the text of a failed-download check names the (key-redacted) export URL
+        for host in ("threatfox-api.abuse.ch", "urlhaus-api.abuse.ch"):
+            msg = f"download: https://{host}/v2/files/exports/<AUTH-KEY>/full.csv.zip: HTTP 429 (after 3 attempts)"
+            self.assertEqual(C.defanged("x", msg).status, C.PASS, host)
+        # only the exact hosts: look-alikes still fail
+        for evil in ("https://threatfox-api.abuse.ch.evil.example/x", "https://urlhaus-api.abuse.chx/x", "https://evil.example/threatfox-api.abuse.ch/"):
+            self.assertEqual(C.defanged("x", evil).status, C.FAIL, evil)
+
 
 class AnalyzeStoreExportTests(unittest.TestCase):
     def setUp(self):
@@ -443,6 +452,50 @@ class EndToEndTests(unittest.TestCase):
         self.assertEqual(cleaned, [{"name": "threatfox: values valid", "status": "warn", "detail": "2 rows rejected"}])
 
 
+class RateLimitTests(unittest.TestCase):
+    """abuse.ch answers 429 with a Retry-After of hours once the daily download quota is used up."""
+    KEY = "SECRETKEY123"
+
+    def _get(self, retry_after, ok_after=None):
+        import email.message
+        import io
+        import urllib.error
+        from unittest import mock
+        from watchtower import fetch
+        calls, naps = [], []
+
+        class Ok(io.BytesIO):
+            status = 200
+            def __enter__(self): return self
+            def __exit__(self, *a): return False
+
+        def fake_urlopen(req, timeout=None):
+            calls.append(1)
+            if ok_after is not None and len(calls) > ok_after:
+                return Ok(b"a,b\n")
+            headers = email.message.Message()
+            headers["Retry-After"] = str(retry_after)
+            raise urllib.error.HTTPError(req.full_url, 429, "Too Many Requests", headers, None)
+
+        with mock.patch.object(fetch.urllib.request, "urlopen", fake_urlopen):
+            try:
+                result = fetch.get(f"https://example.invalid/exports/{self.KEY}/full.csv.zip", redact=self.KEY, retries=3, sleep=naps.append)
+            except fetch.FetchError as e:
+                result = e
+        return result, len(calls), naps
+
+    def test_a_long_retry_after_fails_at_once_without_sleeping(self):
+        err, attempts, naps = self._get(54153)
+        self.assertEqual((attempts, naps), (1, []))        # one attempt, no waiting
+        self.assertIn("HTTP 429", str(err))
+        self.assertIn("15.0 h", str(err))
+        self.assertNotIn(self.KEY, str(err))
+
+    def test_a_short_retry_after_is_still_retried(self):
+        got, attempts, naps = self._get(5, ok_after=1)
+        self.assertEqual((got.status, attempts, naps), (200, 2, [5.0]))
+
+
 class AuthenticatedExportTests(unittest.TestCase):
     def test_select_type_keeps_one_type_inside_the_window(self):
         dom = ", ".join(f'"{v}"' for v in ((NOW - timedelta(days=1)).strftime("%Y-%m-%d %H:%M:%S"), 1, "c2.example.net", "domain", "botnet_cc", "win.vidar", "None", "Vidar", "None", 90, 0, "None", "None", 0, "r"))
@@ -504,6 +557,25 @@ class UrlhausKeyedExportTests(unittest.TestCase):
         for p in root.rglob("*"):
             if p.is_file():
                 self.assertNotIn(self.KEY, p.read_text(encoding="utf-8", errors="replace"), str(p))
+
+    def test_a_failed_threatfox_download_does_not_block_publishing_the_urlhaus_data(self):
+        import os
+        from unittest import mock
+        from watchtower import fetch
+        _, uh = fixtures()
+
+        def fake_get(url, **kw):
+            if "threatfox" in url:   # what fetch.get raises after the retries (key already redacted)
+                raise fetch.FetchError("https://threatfox-api.abuse.ch/v2/files/exports/<AUTH-KEY>/full.csv.zip: HTTP 429 (after 3 attempts)")
+            return fetch.Fetched(url.replace(self.KEY, "<AUTH-KEY>"), uh, 200, len(uh.encode()), 0.1, 1)
+
+        with tempfile.TemporaryDirectory() as d, mock.patch.dict(os.environ, {"ABUSECH_AUTH_KEY": self.KEY}), mock.patch.object(run.fetch, "get", fake_get):
+            root = Path(d) / "repo"
+            run.run(root, now=NOW, log=lambda *_: None)
+            report = (root / "reports" / "2026-10-18.md").read_text(encoding="utf-8")
+            self.assertIn("HTTP 429", report)                       # the failure is reported
+            self.assertNotIn("output safety: 1 live URL", report)   # ...but is not mistaken for a live URL
+            self.assertTrue((root / "urls.csv").exists())           # and the good URLhaus data is still published
 
     def test_without_a_key_urlhaus_is_not_requested_and_the_failure_is_reported(self):
         root, calls = self._online_run("")

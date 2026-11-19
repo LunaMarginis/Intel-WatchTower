@@ -10,6 +10,7 @@ from dataclasses import dataclass
 
 USER_AGENT = "Intel-WatchTower/2.0 (+https://github.com/LunaMarginis/Intel-WatchTower)"
 RETRY_STATUS = {429, 500, 502, 503, 504}
+MAX_WAIT = 300.0       # a longer Retry-After than this is not waited for (the next scheduled run tries again)
 
 
 class FetchError(RuntimeError):
@@ -52,6 +53,8 @@ def get(url: str, *, timeout: float = 60.0, retries: int = 3, backoff: float = 4
             if e.code not in RETRY_STATUS:
                 raise FetchError(f"{shown}: {last}") from None
             wait = _retry_after(e) or backoff * attempt
+            if wait > MAX_WAIT:   # e.g. abuse.ch's daily download quota (resets hours later): sleeping in a CI job cannot help
+                raise FetchError(f"{shown}: {last}, the server asks to wait {wait / 3600:.1f} h (quota); not retrying") from None
         except (urllib.error.URLError, TimeoutError, OSError) as e:
             last = hide(f"{type(e).__name__}: {getattr(e, 'reason', e)}")
             wait = backoff * attempt

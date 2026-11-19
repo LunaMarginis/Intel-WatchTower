@@ -85,7 +85,10 @@ def new_volume(label: str, new_count: int, recent: list[int]) -> Check:
 
 
 LIVE_URL = re.compile(r"https?://", re.IGNORECASE)
+# The *-api.abuse.ch hosts appear (with the key already replaced by <AUTH-KEY>) in the text of a failed-download check.
+# Without them, one failed download (e.g. HTTP 429) tripped the "no live URL" check and blocked everything from being published.
 ALLOWED_LINKS = ("https://github.com/LunaMarginis/", "https://threatfox.abuse.ch", "https://urlhaus.abuse.ch", "https://abuse.ch", "https://docs.github.com",
+                 "https://threatfox-api.abuse.ch/", "https://urlhaus-api.abuse.ch/",
                  "https://img.shields.io", "https://stix2.readthedocs.io", "https://oasis-open.github.io", "https://creativecommons.org")
 
 
