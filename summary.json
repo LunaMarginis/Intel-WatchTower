@@ -1,8 +1,8 @@
 {
- "at": "2026-11-24T00:00:14+00:00",
+ "at": "2026-11-24T10:02:30+00:00",
  "checks": [
   {
-   "detail": "5234 KB in 7.6 s",
+   "detail": "5228 KB in 1.7 s",
    "name": "threatfox: download",
    "status": "pass"
   },
@@ -27,7 +27,7 @@
    "status": "pass"
   },
   {
-   "detail": "newest hash is 8.5 h old",
+   "detail": "newest hash is 18.5 h old",
    "name": "threatfox: freshness",
    "status": "pass"
   },
@@ -37,13 +37,48 @@
    "status": "pass"
   },
   {
-   "detail": "70 new (recent average 36)",
+   "detail": "0 new, far below the recent average of 41",
    "name": "threatfox: new items",
+   "status": "warn"
+  },
+  {
+   "detail": "20554 KB in 5.2 s",
+   "name": "urlhaus: download",
    "status": "pass"
   },
   {
-   "detail": "not due: refreshed 2026-11-23 07:50 UTC (once a day)",
-   "name": "urlhaus: refresh",
+   "detail": "all 7 needed columns present (2 others ignored)",
+   "name": "urlhaus: columns",
+   "status": "pass"
+  },
+  {
+   "detail": "all 83,405 data lines parsed",
+   "name": "urlhaus: lines read",
+   "status": "pass"
+  },
+  {
+   "detail": "every row passed validation",
+   "name": "urlhaus: values valid",
+   "status": "pass"
+  },
+  {
+   "detail": "83,405 rows (last time 103,631)",
+   "name": "urlhaus: volume",
+   "status": "pass"
+  },
+  {
+   "detail": "export file is 0.3 h old",
+   "name": "urlhaus: freshness",
+   "status": "pass"
+  },
+  {
+   "detail": "newest URL is 0.3 h old",
+   "name": "urlhaus: freshness",
+   "status": "pass"
+  },
+  {
+   "detail": "739 new URLs and 362 status changes recorded",
+   "name": "urlhaus: indicators",
    "status": "pass"
   },
   {
@@ -52,7 +87,7 @@
    "status": "pass"
   },
   {
-   "detail": "all 3,224 data lines parsed",
+   "detail": "all 3,085 data lines parsed",
    "name": "threatfox domains: lines read",
    "status": "pass"
   },
@@ -62,7 +97,7 @@
    "status": "pass"
   },
   {
-   "detail": "3,221 rows (last time 3,495)",
+   "detail": "3,082 rows (last time 3,221)",
    "name": "threatfox domains: volume",
    "status": "pass"
   },
@@ -82,7 +117,7 @@
    "status": "pass"
   },
   {
-   "detail": "all 7,299 data lines parsed",
+   "detail": "all 7,558 data lines parsed",
    "name": "threatfox ips: lines read",
    "status": "pass"
   },
@@ -92,7 +127,7 @@
    "status": "pass"
   },
   {
-   "detail": "6,156 rows (last time 2,232)",
+   "detail": "6,398 rows (last time 6,156)",
    "name": "threatfox ips: volume",
    "status": "pass"
   },
@@ -107,7 +142,7 @@
    "status": "pass"
   },
   {
-   "detail": "12 published files contain no live URL",
+   "detail": "14 published files contain no live URL",
    "name": "output safety",
    "status": "pass"
   }
@@ -1441,10 +1476,10 @@
   ],
   "families_in_export": 63,
   "in_export": 497,
-  "last24h": 155,
+  "last24h": 70,
   "last7": 497,
-  "new_this_run": 70,
-  "newest_age_hours": 8.5,
+  "new_this_run": 0,
+  "newest_age_hours": 18.5,
   "spark": "\u2584\u2585\u2584\u2585\u2581\u2587\u2584\u2584\u2583\u2581\u2588\u2581\u2588\u2581",
   "threat_types": [
    [
@@ -1456,7 +1491,7 @@
  },
  "infra": {
   "domains": {
-   "c2_7d": 616,
+   "c2_7d": 615,
    "daily": [
     [
      "2026-11-11",
@@ -1512,7 +1547,7 @@
     ],
     [
      "2026-11-24",
-     0
+     70
     ]
    ],
    "families": [
@@ -1522,11 +1557,7 @@
     ],
     [
      "ClearFake",
-     411
-    ],
-    [
-     "Unknown Loader",
-     342
+     380
     ],
     [
      "Skimer",
@@ -1534,15 +1565,19 @@
     ],
     [
      "IClickFix",
-     328
+     313
+    ],
+    [
+     "Unknown Loader",
+     277
     ],
     [
      "Vidar",
-     244
+     245
     ],
     [
      "Unknown malware",
-     144
+     135
     ],
     [
      "magecart",
@@ -1552,7 +1587,7 @@
    "families_c2": [
     [
      "Vidar",
-     244
+     245
     ],
     [
      "Unknown malware",
@@ -1568,11 +1603,11 @@
     ],
     [
      "ACR Stealer",
-     27
+     25
     ],
     [
      "RevStealer",
-     18
+     17
     ],
     [
      "Agent Tesla",
@@ -1580,25 +1615,25 @@
     ],
     [
      "Remcos",
-     11
+     12
     ]
    ],
-   "in_export": 3221,
-   "last24h": 276,
-   "last7": 3221,
-   "new_this_run": 202,
+   "in_export": 3082,
+   "last24h": 233,
+   "last7": 3081,
+   "new_this_run": 70,
    "newest_age_hours": 0.3,
-   "other_7d": 2605,
+   "other_7d": 2466,
    "ports": [],
    "spark": "\u2585\u2584\u2586\u2582\u2588\u2584\u2585\u2583\u2582\u2582\u2585\u2588\u2583\u2581",
    "types": [
     [
      "payload_delivery",
-     2179
+     2040
     ],
     [
      "botnet_cc",
-     616
+     615
     ],
     [
      "cc_skimming",
@@ -1607,7 +1642,7 @@
    ]
   },
   "ips": {
-   "c2_7d": 5933,
+   "c2_7d": 6160,
    "daily": [
     [
      "2026-11-11",
@@ -1663,29 +1698,29 @@
     ],
     [
      "2026-11-24",
-     0
+     333
     ]
    ],
    "families": [
     [
      "Unknown malware",
-     5293
+     5506
     ],
     [
      "Sliver",
-     74
+     79
     ],
     [
      "Cobalt Strike",
-     65
+     66
     ],
     [
      "VShell",
-     52
+     53
     ],
     [
      "PureRAT",
-     49
+     47
     ],
     [
      "Mirai",
@@ -1703,23 +1738,23 @@
    "families_c2": [
     [
      "Unknown malware",
-     5282
+     5495
     ],
     [
      "Sliver",
-     74
+     79
     ],
     [
      "Cobalt Strike",
-     65
+     66
     ],
     [
      "VShell",
-     52
+     53
     ],
     [
      "PureRAT",
-     49
+     47
     ],
     [
      "Mirai",
@@ -1730,36 +1765,36 @@
      33
     ],
     [
-     "Jackskid",
-     27
+     "Potassium",
+     28
     ]
    ],
-   "in_export": 6156,
-   "last24h": 4152,
-   "last7": 5959,
-   "new_this_run": 4108,
+   "in_export": 6398,
+   "last24h": 4417,
+   "last7": 6186,
+   "new_this_run": 333,
    "newest_age_hours": 0.5,
    "other_7d": 26,
    "ports": [
     [
      8787,
-     2517
+     2612
     ],
     [
      443,
-     1032
+     1083
     ],
     [
      8080,
-     621
+     634
     ],
     [
      8443,
-     404
+     409
     ],
     [
      80,
-     278
+     272
     ],
     [
      8444,
@@ -1770,15 +1805,15 @@
      237
     ],
     [
-     31337,
-     69
+     3000,
+     108
     ]
    ],
-   "spark": "\u2581\u2581\u2581\u2581\u2581\u2582\u2582\u2581\u2581\u2582\u2582\u2581\u2588\u2581",
+   "spark": "\u2581\u2581\u2581\u2581\u2581\u2582\u2582\u2581\u2581\u2582\u2582\u2581\u2588\u2582",
    "types": [
     [
      "botnet_cc",
-     5933
+     6160
     ],
     [
      "payload_delivery",
@@ -1786,19 +1821,15 @@
     ]
    ]
   },
-  "overlap_total": 61
+  "overlap_total": 65
  },
- "status": "pass",
+ "status": "warn",
  "urls": {
-  "added_24h": 694,
-  "added_7d": 7252,
-  "bare_ip_online": 2265,
-  "bare_ip_share": 15,
+  "added_24h": 682,
+  "added_7d": 7361,
+  "bare_ip_online": 2278,
+  "bare_ip_share": 18,
   "daily": [
-   [
-    "2026-11-10",
-    711
-   ],
    [
     "2026-11-11",
     1085
@@ -1849,100 +1880,108 @@
    ],
    [
     "2026-11-23",
-    156
+    686
+   ],
+   [
+    "2026-11-24",
+    209
    ]
   ],
   "extensions": [
    [
     "zip",
-    48998
+    32372
    ],
    [
     "rar",
-    16337
+    12554
    ],
    [
     "(none)",
-    9970
+    9988
    ],
    [
     "exe",
-    9715
+    9836
    ],
    [
     "bat",
-    9035
+    9036
    ],
    [
     "sh",
-    4301
+    4264
    ],
    [
     "woff2",
-    1741
+    1747
    ],
    [
     "jar",
-    191
+    186
    ]
   ],
-  "new_since_last": 1795,
+  "new_since_last": 739,
   "newest_age_hours": 0.3,
-  "offline": 24028,
-  "online": 79603,
-  "online_share": 77,
-  "platform_share": 84,
-  "platform_urls": 86568,
+  "offline": 22606,
+  "online": 60799,
+  "online_share": 73,
+  "platform_share": 79,
+  "platform_urls": 66243,
   "platforms": [
    [
     "GitHub",
-    85659
+    65359
    ],
    [
     "Discord",
-    273
+    260
    ],
    [
     "GitLab",
-    172
+    174
    ],
    [
     "Google Drive",
-    144
+    143
    ],
    [
     "Dropbox",
-    87
+    79
    ],
    [
     "Cloudflare Workers",
-    82
+    79
    ],
    [
     "MediaFire",
-    45
+    44
    ],
    [
     "Cloudflare R2",
-    28
+    27
    ]
   ],
   "platforms_online": [
    [
     "GitHub",
-    77032
+    58227
    ],
    [
     "GitLab",
-    18
+    20
+   ],
+   [
+    "Discord",
+    9
    ],
    [
     "Cloudflare R2",
     9
    ],
    [
-    "Discord",
-    8
+    "Netlify",
+    7
    ],
    [
     "Google Drive",
@@ -1953,67 +1992,59 @@
     2
    ],
    [
-    "Dropbox",
-    1
-   ],
-   [
     "Cloudflare Pages",
     1
    ]
   ],
   "risers": [
    [
-    "js",
-    2406,
-    4
+    "github",
+    3523,
+    949
    ],
    [
-    "github",
-    3440,
-    1256
+    "js",
+    2391,
+    31
    ],
    [
     "VSCode",
-    2182,
-    0
+    2172,
+    19
    ],
    [
     "TxDataHiding",
-    1789,
-    0
+    1783,
+    10
    ],
    [
     "DEVPOPPER",
-    1557,
-    0
+    1551,
+    10
    ],
    [
-    "DEVBOX",
-    604,
-    0
+    "exe",
+    732,
+    24
    ]
   ],
-  "spark": "\u2584\u2586\u2585\u2584\u2584\u2586\u2584\u2584\u2588\u2587\u2586\u2588\u2585\u2582",
+  "spark": "\u2586\u2585\u2584\u2584\u2586\u2584\u2584\u2588\u2587\u2586\u2588\u2585\u2584\u2582",
   "tag_combos": [
    [
-    "github,SmartLoader,zip",
-    24135
-   ],
-   [
     "github,zapret",
-    21077
+    21130
    ],
    [
     "github,SalatStealer,zapret",
     13770
    ],
    [
-    "github,SalatStealer,zapret,zip",
-    9506
+    "github,SmartLoader,zip",
+    11592
    ],
    [
     "exe,github,SalatStealer",
-    5401
+    5519
    ],
    [
     "github,SalatStealer",
@@ -2021,115 +2052,119 @@
    ],
    [
     "Mozi",
-    3486
+    3434
    ],
    [
     "github,zapret,zip",
     2756
+   ],
+   [
+    "mirai",
+    2640
    ]
   ],
   "tags": [
    [
     "github",
-    85559
+    65282
    ],
    [
     "zapret",
-    47244
-   ],
-   [
-    "zip",
-    38040
+    39675
    ],
    [
     "SalatStealer",
-    32786
+    25282
+   ],
+   [
+    "zip",
+    17598
    ],
    [
     "SmartLoader",
-    25520
+    12674
    ],
    [
     "Mozi",
-    5971
+    5909
    ],
    [
     "exe",
-    5669
+    5786
    ],
    [
     "mirai",
-    4790
+    4861
    ],
    [
     "elf",
-    4585
+    4677
    ],
    [
     "js",
-    2412
+    2424
    ]
   ],
   "tags_online": [
    [
     "github",
-    76958
+    58175
    ],
    [
     "zapret",
-    43180
-   ],
-   [
-    "zip",
-    34499
+    36079
    ],
    [
     "SalatStealer",
-    27615
+    20579
+   ],
+   [
+    "zip",
+    15504
    ],
    [
     "SmartLoader",
-    23790
+    11971
    ],
    [
     "exe",
-    4264
+    4382
    ],
    [
     "js",
-    2386
+    2397
    ],
    [
     "VSCode",
-    2174
+    2183
    ],
    [
     "TxDataHiding",
-    1781
+    1785
    ],
    [
     "DEVPOPPER",
-    1551
+    1555
    ]
   ],
   "threats": [
    [
     "malware_download",
-    103629
+    83403
    ],
    [
     "c2",
     2
    ]
   ],
-  "total": 103631,
-  "unique_domains": 724,
-  "unique_hosts": 6370,
-  "unique_ips": 5646,
-  "unique_online_hosts": 537,
-  "untagged": 3108,
-  "window_days": 30.3
+  "total": 83405,
+  "unique_domains": 749,
+  "unique_hosts": 6368,
+  "unique_ips": 5619,
+  "unique_online_hosts": 550,
+  "untagged": 3045,
+  "window_days": 30.4
  },
- "urls_at": "2026-11-23T07:50:46.669373+00:00",
+ "urls_at": "2026-11-24T10:02:30.231519+00:00",
  "version": "2.0.0"
 }
