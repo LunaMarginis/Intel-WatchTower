@@ -1,40 +1,160 @@
 {
- "at": "2026-11-24T22:33:50+00:00",
+ "at": "2026-11-25T08:47:21+00:00",
  "checks": [
   {
-   "detail": "https://threatfox-api.abuse.ch/v2/files/exports/<AUTH-KEY>/full.csv.zip: HTTP 429, the server asks to wait 1.4 h (quota); not retrying",
+   "detail": "5262 KB in 1.7 s",
    "name": "threatfox: download",
-   "status": "fail"
-  },
-  {
-   "detail": "not due: refreshed 2026-11-24 10:02 UTC (once a day)",
-   "name": "urlhaus: refresh",
    "status": "pass"
   },
   {
-   "detail": "the ThreatFox export could not be downloaded",
-   "name": "threatfox domains: download",
-   "status": "fail"
+   "detail": "all 10 needed columns present (5 others ignored)",
+   "name": "threatfox: columns",
+   "status": "pass"
   },
   {
-   "detail": "the ThreatFox export could not be downloaded",
-   "name": "threatfox ips: download",
-   "status": "fail"
+   "detail": "all 526 data lines parsed",
+   "name": "threatfox: lines read",
+   "status": "pass"
   },
   {
-   "detail": "5 published files contain no live URL",
+   "detail": "every row passed validation",
+   "name": "threatfox: values valid",
+   "status": "pass"
+  },
+  {
+   "detail": "526 rows",
+   "name": "threatfox: volume",
+   "status": "pass"
+  },
+  {
+   "detail": "newest hash is 15.1 h old",
+   "name": "threatfox: freshness",
+   "status": "pass"
+  },
+  {
+   "detail": "export file is 0.4 h old",
+   "name": "threatfox: freshness",
+   "status": "pass"
+  },
+  {
+   "detail": "100 new (recent average 36)",
+   "name": "threatfox: new items",
+   "status": "pass"
+  },
+  {
+   "detail": "14454 KB in 2.4 s",
+   "name": "urlhaus: download",
+   "status": "pass"
+  },
+  {
+   "detail": "all 7 needed columns present (2 others ignored)",
+   "name": "urlhaus: columns",
+   "status": "pass"
+  },
+  {
+   "detail": "all 60,558 data lines parsed",
+   "name": "urlhaus: lines read",
+   "status": "pass"
+  },
+  {
+   "detail": "every row passed validation",
+   "name": "urlhaus: values valid",
+   "status": "pass"
+  },
+  {
+   "detail": "60,558 rows (last time 83,405)",
+   "name": "urlhaus: volume",
+   "status": "pass"
+  },
+  {
+   "detail": "export file is 0.3 h old",
+   "name": "urlhaus: freshness",
+   "status": "pass"
+  },
+  {
+   "detail": "newest URL is 0.3 h old",
+   "name": "urlhaus: freshness",
+   "status": "pass"
+  },
+  {
+   "detail": "616 new URLs and 433 status changes recorded",
+   "name": "urlhaus: indicators",
+   "status": "pass"
+  },
+  {
+   "detail": "all 10 needed columns present (5 others ignored)",
+   "name": "threatfox domains: columns",
+   "status": "pass"
+  },
+  {
+   "detail": "all 2,785 data lines parsed",
+   "name": "threatfox domains: lines read",
+   "status": "pass"
+  },
+  {
+   "detail": "every row passed validation",
+   "name": "threatfox domains: values valid",
+   "status": "pass"
+  },
+  {
+   "detail": "2,781 rows (last time 3,082)",
+   "name": "threatfox domains: volume",
+   "status": "pass"
+  },
+  {
+   "detail": "newest entry is 0.5 h old",
+   "name": "threatfox domains: freshness",
+   "status": "pass"
+  },
+  {
+   "detail": "export file is 0.4 h old",
+   "name": "threatfox domains: freshness",
+   "status": "pass"
+  },
+  {
+   "detail": "all 10 needed columns present (5 others ignored)",
+   "name": "threatfox ips: columns",
+   "status": "pass"
+  },
+  {
+   "detail": "all 7,902 data lines parsed",
+   "name": "threatfox ips: lines read",
+   "status": "pass"
+  },
+  {
+   "detail": "every row passed validation",
+   "name": "threatfox ips: values valid",
+   "status": "pass"
+  },
+  {
+   "detail": "6,745 rows (last time 6,398)",
+   "name": "threatfox ips: volume",
+   "status": "pass"
+  },
+  {
+   "detail": "newest entry is 0.4 h old",
+   "name": "threatfox ips: freshness",
+   "status": "pass"
+  },
+  {
+   "detail": "export file is 0.4 h old",
+   "name": "threatfox ips: freshness",
+   "status": "pass"
+  },
+  {
+   "detail": "15 published files contain no live URL",
    "name": "output safety",
    "status": "pass"
   }
  ],
  "hashes": {
-  "archive_total": 2693,
-  "confidence": {},
+  "archive_total": 2793,
+  "confidence": {
+   "avg": 95,
+   "max": 95,
+   "min": 95
+  },
   "daily": [
-   [
-    "2026-11-11",
-    72
-   ],
    [
     "2026-11-12",
     78
@@ -85,49 +205,53 @@
    ],
    [
     "2026-11-24",
+    100
+   ],
+   [
+    "2026-11-25",
     0
    ]
   ],
   "families": [
    {
-    "aliases": [],
-    "confidence": 95,
-    "count": 91,
-    "daily": [
-     15,
-     1,
-     0,
-     28,
-     0,
-     47,
-     0
-    ],
-    "family": "Raven Stealer",
-    "first_seen": "2026-11-18 14:33:00+00:00",
-    "key": "win.ravenstealer",
-    "last_seen": "2026-11-23 15:31:07+00:00",
-    "previous": 69
-   },
-   {
     "aliases": [
      "Z*Stealer"
     ],
     "confidence": 95,
-    "count": 84,
+    "count": 171,
     "daily": [
-     0,
      32,
      0,
      52,
      0,
      0,
+     87,
      0
     ],
     "family": "ZStealer",
     "first_seen": "2026-11-19 14:32:29+00:00",
     "key": "win.zstealer",
-    "last_seen": "2026-11-21 02:45:36+00:00",
+    "last_seen": "2026-11-24 17:38:25+00:00",
     "previous": 44
+   },
+   {
+    "aliases": [],
+    "confidence": 95,
+    "count": 96,
+    "daily": [
+     1,
+     0,
+     28,
+     0,
+     47,
+     5,
+     0
+    ],
+    "family": "Raven Stealer",
+    "first_seen": "2026-11-18 14:33:00+00:00",
+    "key": "win.ravenstealer",
+    "last_seen": "2026-11-24 17:36:55+00:00",
+    "previous": 63
    },
    {
     "aliases": [],
@@ -136,8 +260,8 @@
     "daily": [
      0,
      0,
-     0,
      40,
+     0,
      0,
      0,
      0
@@ -156,12 +280,12 @@
     "confidence": 95,
     "count": 26,
     "daily": [
-     5,
      4,
      0,
      1,
      0,
      16,
+     0,
      0
     ],
     "family": "NjRAT",
@@ -179,8 +303,8 @@
      0,
      0,
      0,
-     0,
      21,
+     0,
      0
     ],
     "family": "Vidar",
@@ -196,12 +320,12 @@
     "confidence": 95,
     "count": 18,
     "daily": [
-     5,
      0,
      0,
      6,
      0,
      7,
+     0,
      0
     ],
     "family": "ValleyRAT",
@@ -219,78 +343,78 @@
     "confidence": 95,
     "count": 14,
     "daily": [
-     4,
      1,
      0,
      0,
      0,
      9,
+     0,
      0
     ],
     "family": "Agent Tesla",
     "first_seen": "2026-11-18 14:33:01+00:00",
     "key": "win.agent_tesla",
     "last_seen": "2026-11-23 15:30:21+00:00",
-    "previous": 15
-   },
-   {
-    "aliases": [],
-    "confidence": 95,
-    "count": 14,
-    "daily": [
-     2,
-     0,
-     0,
-     8,
-     0,
-     4,
-     0
-    ],
-    "family": "SalatStealer",
-    "first_seen": "2026-11-18 14:33:47+00:00",
-    "key": "win.salatstealer",
-    "last_seen": "2026-11-23 15:30:58+00:00",
-    "previous": 82
+    "previous": 14
    },
    {
     "aliases": [
      "win.xloader"
     ],
     "confidence": 95,
-    "count": 12,
+    "count": 14,
     "daily": [
-     7,
      0,
      0,
      0,
      0,
      5,
+     2,
      0
     ],
     "family": "Formbook",
     "first_seen": "2026-11-18 14:33:02+00:00",
     "key": "win.formbook",
-    "last_seen": "2026-11-23 15:30:18+00:00",
+    "last_seen": "2026-11-24 17:38:38+00:00",
     "previous": 20
    },
    {
     "aliases": [],
     "confidence": 95,
-    "count": 9,
+    "count": 14,
     "daily": [
-     7,
+     0,
+     0,
+     8,
+     0,
+     4,
+     0,
+     0
+    ],
+    "family": "SalatStealer",
+    "first_seen": "2026-11-18 14:33:47+00:00",
+    "key": "win.salatstealer",
+    "last_seen": "2026-11-23 15:30:58+00:00",
+    "previous": 27
+   },
+   {
+    "aliases": [],
+    "confidence": 95,
+    "count": 10,
+    "daily": [
      0,
      0,
      0,
      0,
      2,
+     1,
      0
     ],
     "family": "XWorm",
     "first_seen": "2026-11-18 14:32:58+00:00",
     "key": "win.xworm",
-    "last_seen": "2026-11-23 15:30:10+00:00",
-    "previous": 8
+    "last_seen": "2026-11-24 17:38:35+00:00",
+    "previous": 7
    },
    {
     "aliases": [],
@@ -298,11 +422,11 @@
     "count": 8,
     "daily": [
      2,
-     2,
      0,
      0,
      0,
      4,
+     0,
      0
     ],
     "family": "MASS Logger",
@@ -320,8 +444,8 @@
      0,
      0,
      0,
-     0,
      8,
+     0,
      0
     ],
     "family": "VShell",
@@ -335,12 +459,12 @@
     "confidence": 95,
     "count": 7,
     "daily": [
-     1,
      0,
      0,
      3,
      0,
      3,
+     0,
      0
     ],
     "family": "Venus Stealer",
@@ -360,11 +484,11 @@
     "count": 7,
     "daily": [
      2,
-     2,
      0,
      2,
      0,
      1,
+     0,
      0
     ],
     "family": "WannaCryptor",
@@ -378,19 +502,38 @@
     "confidence": 95,
     "count": 6,
     "daily": [
-     2,
+     1,
+     0,
+     0,
+     0,
+     3,
+     1,
+     0
+    ],
+    "family": "AsyncRAT",
+    "first_seen": "2026-11-18 14:33:20+00:00",
+    "key": "win.asyncrat",
+    "last_seen": "2026-11-24 17:36:56+00:00",
+    "previous": 6
+   },
+   {
+    "aliases": [],
+    "confidence": 95,
+    "count": 6,
+    "daily": [
      0,
      0,
      0,
      0,
      4,
+     0,
      0
     ],
     "family": "Coinminer",
     "first_seen": "2026-11-18 14:32:58+00:00",
     "key": "win.coinminer",
     "last_seen": "2026-11-23 15:30:48+00:00",
-    "previous": 8
+    "previous": 7
    },
    {
     "aliases": [
@@ -403,8 +546,8 @@
      0,
      0,
      0,
-     0,
      5,
+     0,
      0
     ],
     "family": "Abyss Locker",
@@ -418,37 +561,18 @@
     "confidence": 95,
     "count": 5,
     "daily": [
-     1,
-     1,
-     0,
-     0,
-     0,
-     3,
-     0
-    ],
-    "family": "AsyncRAT",
-    "first_seen": "2026-11-18 14:33:20+00:00",
-    "key": "win.asyncrat",
-    "last_seen": "2026-11-23 15:30:00+00:00",
-    "previous": 6
-   },
-   {
-    "aliases": [],
-    "confidence": 95,
-    "count": 4,
-    "daily": [
-     0,
      0,
      0,
      4,
      0,
      0,
+     1,
      0
     ],
     "family": "stealler",
     "first_seen": "2026-11-21 02:42:44+00:00",
     "key": "py.stealler",
-    "last_seen": "2026-11-21 02:43:01+00:00",
+    "last_seen": "2026-11-24 17:36:57+00:00",
     "previous": 20
    },
    {
@@ -460,8 +584,27 @@
      0,
      0,
      0,
+     1,
+     1,
+     0
+    ],
+    "family": "DarkTortilla",
+    "first_seen": "2026-11-18 14:32:57+00:00",
+    "key": "win.darktortilla",
+    "last_seen": "2026-11-24 17:36:54+00:00",
+    "previous": 1
+   },
+   {
+    "aliases": [],
+    "confidence": 95,
+    "count": 3,
+    "daily": [
+     0,
+     0,
+     0,
      0,
      3,
+     0,
      0
     ],
     "family": "GUIDLOADER",
@@ -471,11 +614,32 @@
     "previous": 1
    },
    {
+    "aliases": [
+     "SilabRAT"
+    ],
+    "confidence": 95,
+    "count": 3,
+    "daily": [
+     0,
+     0,
+     0,
+     0,
+     2,
+     1,
+     0
+    ],
+    "family": "SnappyClient",
+    "first_seen": "2026-11-23 00:45:27+00:00",
+    "key": "win.snappy_client",
+    "last_seen": "2026-11-24 17:36:52+00:00",
+    "previous": 4
+   },
+   {
     "aliases": [],
     "confidence": 95,
     "count": 2,
     "daily": [
-     2,
+     0,
      0,
      0,
      0,
@@ -494,26 +658,7 @@
     "confidence": 95,
     "count": 2,
     "daily": [
-     1,
      0,
-     0,
-     0,
-     0,
-     1,
-     0
-    ],
-    "family": "DarkTortilla",
-    "first_seen": "2026-11-18 14:32:57+00:00",
-    "key": "win.darktortilla",
-    "last_seen": "2026-11-23 15:29:57+00:00",
-    "previous": 1
-   },
-   {
-    "aliases": [],
-    "confidence": 95,
-    "count": 2,
-    "daily": [
-     2,
      0,
      0,
      0,
@@ -532,8 +677,8 @@
     "confidence": 95,
     "count": 2,
     "daily": [
-     0,
      2,
+     0,
      0,
      0,
      0,
@@ -558,8 +703,8 @@
      0,
      0,
      0,
-     0,
      2,
+     0,
      0
     ],
     "family": "MyDoom",
@@ -573,8 +718,8 @@
     "confidence": 95,
     "count": 2,
     "daily": [
-     0,
      2,
+     0,
      0,
      0,
      0,
@@ -592,40 +737,19 @@
     "confidence": 95,
     "count": 2,
     "daily": [
-     1,
      0,
      0,
      0,
      0,
      1,
+     0,
      0
     ],
     "family": "RN Stealer",
     "first_seen": "2026-11-18 14:33:46+00:00",
     "key": "py.rn_stealer",
     "last_seen": "2026-11-23 00:46:21+00:00",
-    "previous": 30
-   },
-   {
-    "aliases": [
-     "SilabRAT"
-    ],
-    "confidence": 95,
-    "count": 2,
-    "daily": [
-     0,
-     0,
-     0,
-     0,
-     0,
-     2,
-     0
-    ],
-    "family": "SnappyClient",
-    "first_seen": "2026-11-23 00:45:27+00:00",
-    "key": "win.snappy_client",
-    "last_seen": "2026-11-23 00:45:28+00:00",
-    "previous": 4
+    "previous": 26
    },
    {
     "aliases": [
@@ -639,8 +763,8 @@
      0,
      0,
      0,
-     0,
      2,
+     0,
      0
     ],
     "family": "Supper",
@@ -658,8 +782,8 @@
      0,
      0,
      0,
-     0,
      1,
+     0,
      0
     ],
     "family": "Akira Stealer",
@@ -675,8 +799,8 @@
     "daily": [
      0,
      0,
-     0,
      1,
+     0,
      0,
      0,
      0
@@ -696,8 +820,8 @@
     "confidence": 95,
     "count": 1,
     "daily": [
-     0,
      1,
+     0,
      0,
      0,
      0,
@@ -719,8 +843,8 @@
     "daily": [
      0,
      0,
-     0,
      1,
+     0,
      0,
      0,
      0
@@ -736,7 +860,7 @@
     "confidence": 95,
     "count": 1,
     "daily": [
-     1,
+     0,
      0,
      0,
      0,
@@ -757,8 +881,8 @@
     "daily": [
      0,
      0,
-     0,
      1,
+     0,
      0,
      0,
      0
@@ -774,8 +898,8 @@
     "confidence": 95,
     "count": 1,
     "daily": [
-     0,
      1,
+     0,
      0,
      0,
      0,
@@ -797,8 +921,8 @@
      0,
      0,
      0,
-     0,
      1,
+     0,
      0
     ],
     "family": "fengine",
@@ -818,8 +942,8 @@
     "daily": [
      0,
      0,
-     0,
      1,
+     0,
      0,
      0,
      0
@@ -835,7 +959,7 @@
     "confidence": 95,
     "count": 1,
     "daily": [
-     1,
+     0,
      0,
      0,
      0,
@@ -858,8 +982,8 @@
      0,
      0,
      0,
-     0,
      1,
+     0,
      0
     ],
     "family": "Loki",
@@ -879,8 +1003,8 @@
     "daily": [
      0,
      0,
-     0,
      1,
+     0,
      0,
      0,
      0
@@ -896,7 +1020,7 @@
     "confidence": 95,
     "count": 1,
     "daily": [
-     1,
+     0,
      0,
      0,
      0,
@@ -915,7 +1039,7 @@
     "confidence": 95,
     "count": 1,
     "daily": [
-     1,
+     0,
      0,
      0,
      0,
@@ -934,7 +1058,7 @@
     "confidence": 95,
     "count": 1,
     "daily": [
-     1,
+     0,
      0,
      0,
      0,
@@ -955,7 +1079,7 @@
     "confidence": 95,
     "count": 1,
     "daily": [
-     1,
+     0,
      0,
      0,
      0,
@@ -977,7 +1101,7 @@
     "confidence": 95,
     "count": 1,
     "daily": [
-     1,
+     0,
      0,
      0,
      0,
@@ -996,7 +1120,7 @@
     "confidence": 95,
     "count": 1,
     "daily": [
-     1,
+     0,
      0,
      0,
      0,
@@ -1019,8 +1143,8 @@
      0,
      0,
      0,
-     0,
      1,
+     0,
      0
     ],
     "family": "RemRAT",
@@ -1034,7 +1158,7 @@
     "confidence": 95,
     "count": 1,
     "daily": [
-     1,
+     0,
      0,
      0,
      0,
@@ -1057,8 +1181,8 @@
      0,
      0,
      0,
-     0,
      1,
+     0,
      0
     ],
     "family": "Stealc",
@@ -1072,7 +1196,7 @@
     "confidence": 95,
     "count": 1,
     "daily": [
-     1,
+     0,
      0,
      0,
      0,
@@ -1087,13 +1211,32 @@
     "previous": 0
    },
    {
+    "aliases": [],
+    "confidence": 95,
+    "count": 1,
+    "daily": [
+     0,
+     0,
+     0,
+     0,
+     0,
+     1,
+     0
+    ],
+    "family": "sustes miner",
+    "first_seen": "2026-11-24 17:36:58+00:00",
+    "key": "elf.sustes",
+    "last_seen": "2026-11-24 17:36:58+00:00",
+    "previous": 0
+   },
+   {
     "aliases": [
      "TiniMet"
     ],
     "confidence": 95,
     "count": 1,
     "daily": [
-     1,
+     0,
      0,
      0,
      0,
@@ -1114,8 +1257,8 @@
     "daily": [
      0,
      0,
-     0,
      1,
+     0,
      0,
      0,
      0
@@ -1133,8 +1276,8 @@
     "daily": [
      0,
      0,
-     0,
      1,
+     0,
      0,
      0,
      0
@@ -1150,7 +1293,7 @@
     "confidence": 95,
     "count": 1,
     "daily": [
-     1,
+     0,
      0,
      0,
      0,
@@ -1165,29 +1308,25 @@
     "previous": 1
    }
   ],
-  "families_in_export": 0,
-  "in_export": 0,
-  "last24h": 0,
-  "last7": 426,
-  "new_this_run": 0,
-  "newest_age_hours": null,
-  "spark": "\u2584\u2585\u2584\u2585\u2581\u2587\u2584\u2584\u2583\u2581\u2588\u2581\u2588\u2581",
+  "families_in_export": 55,
+  "in_export": 526,
+  "last24h": 100,
+  "last7": 526,
+  "new_this_run": 100,
+  "newest_age_hours": 15.1,
+  "spark": "\u2585\u2584\u2585\u2581\u2587\u2584\u2584\u2583\u2581\u2588\u2581\u2588\u2586\u2581",
   "threat_types": [
    [
     "payload",
-    426
+    526
    ]
   ],
-  "window_hours": 0.0
+  "window_hours": 147.1
  },
  "infra": {
   "domains": {
-   "c2_7d": 615,
+   "c2_7d": 633,
    "daily": [
-    [
-     "2026-11-11",
-     708
-    ],
     [
      "2026-11-12",
      556
@@ -1238,7 +1377,11 @@
     ],
     [
      "2026-11-24",
-     70
+     176
+    ],
+    [
+     "2026-11-25",
+     80
     ]
    ],
    "families": [
@@ -1247,28 +1390,28 @@
      878
     ],
     [
-     "ClearFake",
-     380
-    ],
-    [
      "Skimer",
      333
     ],
     [
-     "IClickFix",
-     313
-    ],
-    [
-     "Unknown Loader",
-     277
+     "ClearFake",
+     318
     ],
     [
      "Vidar",
-     245
+     246
+    ],
+    [
+     "Unknown Loader",
+     212
+    ],
+    [
+     "IClickFix",
+     196
     ],
     [
      "Unknown malware",
-     135
+     149
     ],
     [
      "magecart",
@@ -1278,67 +1421,63 @@
    "families_c2": [
     [
      "Vidar",
-     245
+     246
     ],
     [
      "Unknown malware",
-     120
-    ],
-    [
-     "XWorm",
-     54
+     135
     ],
     [
      "Unknown Stealer",
-     42
+     61
     ],
     [
-     "ACR Stealer",
-     25
-    ],
-    [
-     "RevStealer",
-     17
+     "XWorm",
+     55
     ],
     [
      "Agent Tesla",
      16
     ],
     [
-     "Remcos",
-     12
+     "ACR Stealer",
+     15
+    ],
+    [
+     "RevStealer",
+     14
+    ],
+    [
+     "AsyncRAT",
+     11
     ]
    ],
-   "in_export": 3082,
-   "last24h": 233,
-   "last7": 3081,
-   "new_this_run": 70,
-   "newest_age_hours": 0.3,
-   "other_7d": 2466,
+   "in_export": 2781,
+   "last24h": 191,
+   "last7": 2781,
+   "new_this_run": 186,
+   "newest_age_hours": 0.5,
+   "other_7d": 2148,
    "ports": [],
-   "spark": "\u2585\u2584\u2586\u2582\u2588\u2584\u2585\u2583\u2582\u2582\u2585\u2588\u2583\u2581",
+   "spark": "\u2584\u2586\u2582\u2588\u2584\u2585\u2583\u2582\u2582\u2585\u2588\u2583\u2582\u2581",
    "types": [
     [
      "payload_delivery",
-     2040
+     1723
     ],
     [
      "botnet_cc",
-     615
+     633
     ],
     [
      "cc_skimming",
-     426
+     425
     ]
    ]
   },
   "ips": {
-   "c2_7d": 6160,
+   "c2_7d": 6449,
    "daily": [
-    [
-     "2026-11-11",
-     135
-    ],
     [
      "2026-11-12",
      97
@@ -1389,107 +1528,111 @@
     ],
     [
      "2026-11-24",
-     333
+     606
+    ],
+    [
+     "2026-11-25",
+     323
     ]
    ],
    "families": [
     [
      "Unknown malware",
-     5506
+     5796
     ],
     [
      "Sliver",
-     79
+     88
     ],
     [
      "Cobalt Strike",
-     66
+     70
     ],
     [
      "VShell",
-     53
+     59
     ],
     [
      "PureRAT",
-     47
+     51
     ],
     [
      "Mirai",
-     42
-    ],
-    [
-     "XWorm",
-     33
+     39
     ],
     [
      "Unknown Stealer",
-     30
+     31
+    ],
+    [
+     "XWorm",
+     31
     ]
    ],
    "families_c2": [
     [
      "Unknown malware",
-     5495
+     5787
     ],
     [
      "Sliver",
-     79
+     88
     ],
     [
      "Cobalt Strike",
-     66
+     70
     ],
     [
      "VShell",
-     53
+     59
     ],
     [
      "PureRAT",
-     47
+     51
     ],
     [
      "Mirai",
-     37
+     32
     ],
     [
      "XWorm",
-     33
+     31
     ],
     [
-     "Potassium",
+     "AsyncRAT",
      28
     ]
    ],
-   "in_export": 6398,
-   "last24h": 4417,
-   "last7": 6186,
-   "new_this_run": 333,
-   "newest_age_hours": 0.5,
-   "other_7d": 26,
+   "in_export": 6745,
+   "last24h": 699,
+   "last7": 6476,
+   "new_this_run": 596,
+   "newest_age_hours": 0.4,
+   "other_7d": 27,
    "ports": [
     [
      8787,
-     2612
+     2752
     ],
     [
      443,
-     1083
+     1176
     ],
     [
      8080,
-     634
+     586
     ],
     [
      8443,
-     409
+     433
     ],
     [
      80,
-     272
+     266
     ],
     [
      8444,
-     254
+     256
     ],
     [
      8666,
@@ -1497,41 +1640,37 @@
     ],
     [
      3000,
-     108
+     175
     ]
    ],
-   "spark": "\u2581\u2581\u2581\u2581\u2581\u2582\u2582\u2581\u2581\u2582\u2582\u2581\u2588\u2582",
+   "spark": "\u2581\u2581\u2581\u2581\u2582\u2582\u2581\u2581\u2582\u2582\u2581\u2588\u2582\u2582",
    "types": [
     [
      "botnet_cc",
-     6160
+     6449
     ],
     [
      "payload_delivery",
-     26
+     27
     ]
    ]
   },
-  "overlap_total": 65
+  "overlap_total": 64
  },
- "status": "fail",
+ "status": "pass",
  "urls": {
-  "added_24h": 682,
-  "added_7d": 7361,
-  "bare_ip_online": 2278,
-  "bare_ip_share": 18,
+  "added_24h": 629,
+  "added_7d": 6850,
+  "bare_ip_online": 2157,
+  "bare_ip_share": 25,
   "daily": [
-   [
-    "2026-11-11",
-    1085
-   ],
    [
     "2026-11-12",
     758
    ],
    [
     "2026-11-13",
-    577
+    575
    ],
    [
     "2026-11-14",
@@ -1539,7 +1678,7 @@
    ],
    [
     "2026-11-15",
-    1023
+    1022
    ],
    [
     "2026-11-16",
@@ -1551,7 +1690,7 @@
    ],
    [
     "2026-11-18",
-    1416
+    1412
    ],
    [
     "2026-11-19",
@@ -1559,7 +1698,7 @@
    ],
    [
     "2026-11-20",
-    1089
+    1085
    ],
    [
     "2026-11-21",
@@ -1567,7 +1706,7 @@
    ],
    [
     "2026-11-22",
-    879
+    878
    ],
    [
     "2026-11-23",
@@ -1575,66 +1714,70 @@
    ],
    [
     "2026-11-24",
-    209
+    636
+   ],
+   [
+    "2026-11-25",
+    189
    ]
   ],
   "extensions": [
    [
     "zip",
-    32372
-   ],
-   [
-    "rar",
-    12554
+    18694
    ],
    [
     "(none)",
-    9988
-   ],
-   [
-    "exe",
-    9836
+    9942
    ],
    [
     "bat",
-    9036
+    9037
+   ],
+   [
+    "exe",
+    8796
+   ],
+   [
+    "rar",
+    4561
    ],
    [
     "sh",
-    4264
+    4232
    ],
    [
     "woff2",
-    1747
+    1783
    ],
    [
-    "jar",
-    186
+    "ps1",
+    197
    ]
   ],
-  "new_since_last": 739,
+  "new_since_last": 616,
   "newest_age_hours": 0.3,
-  "offline": 22606,
-  "online": 60799,
-  "online_share": 73,
-  "platform_share": 79,
-  "platform_urls": 66243,
+  "offline": 21720,
+  "online": 38838,
+  "online_share": 64,
+  "platform_share": 72,
+  "platform_urls": 43591,
   "platforms": [
    [
     "GitHub",
-    65359
+    42737
    ],
    [
     "Discord",
-    260
-   ],
-   [
-    "GitLab",
-    174
+    262
    ],
    [
     "Google Drive",
-    143
+    159
+   ],
+   [
+    "GitLab",
+    127
    ],
    [
     "Dropbox",
@@ -1646,28 +1789,32 @@
    ],
    [
     "MediaFire",
-    44
+    42
    ],
    [
     "Cloudflare R2",
-    27
+    28
    ]
   ],
   "platforms_online": [
    [
     "GitHub",
-    58227
+    36382
+   ],
+   [
+    "Google Drive",
+    16
    ],
    [
     "GitLab",
-    20
-   ],
-   [
-    "Discord",
-    9
+    10
    ],
    [
     "Cloudflare R2",
+    10
+   ],
+   [
+    "Discord",
     9
    ],
    [
@@ -1675,187 +1822,183 @@
     7
    ],
    [
-    "Google Drive",
+    "Dropbox",
     3
    ],
    [
     "Cloudflare Workers",
     2
-   ],
-   [
-    "Cloudflare Pages",
-    1
    ]
   ],
   "risers": [
    [
     "github",
-    3523,
-    949
+    3271,
+    1169
    ],
    [
     "js",
-    2391,
-    31
+    2091,
+    366
    ],
    [
     "VSCode",
-    2172,
-    19
+    1929,
+    298
    ],
    [
     "TxDataHiding",
-    1783,
-    10
+    1635,
+    182
    ],
    [
     "DEVPOPPER",
-    1551,
-    10
+    1403,
+    182
    ],
    [
     "exe",
-    732,
-    24
+    799,
+    72
    ]
   ],
-  "spark": "\u2586\u2585\u2584\u2584\u2586\u2584\u2584\u2588\u2587\u2586\u2588\u2585\u2584\u2582",
+  "spark": "\u2585\u2584\u2584\u2586\u2584\u2584\u2588\u2587\u2586\u2588\u2585\u2584\u2584\u2582",
   "tag_combos": [
    [
-    "github,zapret",
-    21130
+    "github,SalatStealer,zapret",
+    13363
    ],
    [
-    "github,SalatStealer,zapret",
-    13770
+    "github,zapret",
+    7900
    ],
    [
     "github,SmartLoader,zip",
-    11592
+    7260
    ],
    [
     "exe,github,SalatStealer",
-    5519
+    4509
    ],
    [
     "github,SalatStealer",
-    3575
+    3574
    ],
    [
     "Mozi",
-    3434
-   ],
-   [
-    "github,zapret,zip",
-    2756
+    3379
    ],
    [
     "mirai",
-    2640
+    2577
+   ],
+   [
+    "DEVPOPPER,github,js,TxDataHiding,VSCode",
+    1583
    ]
   ],
   "tags": [
    [
     "github",
-    65282
+    42668
    ],
    [
     "zapret",
-    39675
+    22666
    ],
    [
     "SalatStealer",
-    25282
+    21979
    ],
    [
     "zip",
-    17598
+    9595
    ],
    [
     "SmartLoader",
-    12674
+    8043
    ],
    [
     "Mozi",
-    5909
+    5817
    ],
    [
     "exe",
-    5786
+    4776
    ],
    [
     "mirai",
-    4861
+    4741
    ],
    [
     "elf",
-    4677
+    4626
    ],
    [
     "js",
-    2424
+    2461
    ]
   ],
   "tags_online": [
    [
     "github",
-    58175
+    36338
    ],
    [
     "zapret",
-    36079
+    19464
    ],
    [
     "SalatStealer",
-    20579
+    17720
    ],
    [
     "zip",
-    15504
+    7997
    ],
    [
     "SmartLoader",
-    11971
+    7557
    ],
    [
     "exe",
-    4382
+    3536
    ],
    [
     "js",
-    2397
+    2434
    ],
    [
     "VSCode",
-    2183
+    2219
    ],
    [
     "TxDataHiding",
-    1785
+    1809
    ],
    [
     "DEVPOPPER",
-    1555
+    1579
    ]
   ],
   "threats": [
    [
     "malware_download",
-    83403
+    60556
    ],
    [
     "c2",
     2
    ]
   ],
-  "total": 83405,
-  "unique_domains": 749,
-  "unique_hosts": 6368,
-  "unique_ips": 5619,
-  "unique_online_hosts": 550,
-  "untagged": 3045,
+  "total": 60558,
+  "unique_domains": 762,
+  "unique_hosts": 6343,
+  "unique_ips": 5581,
+  "unique_online_hosts": 536,
+  "untagged": 3004,
   "window_days": 30.4
  },
- "urls_at": "2026-11-24T10:02:30.231519+00:00",
+ "urls_at": "2026-11-25T08:47:21.656389+00:00",
  "version": "2.0.0"
 }
