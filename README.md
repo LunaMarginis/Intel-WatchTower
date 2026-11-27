@@ -4,19 +4,19 @@ Daily malware intelligence from abuse.ch: what is new, who is behind it, and whe
 
 ![collect](https://github.com/LunaMarginis/Intel-WatchTower/actions/workflows/collect.yml/badge.svg)
 
-**Last run:** 2026-11-26 21:41 UTC · **Health:** ⚠️ 28 checks passed, **1 warning(s)**: see Data health.
+**Last run:** 2026-11-27 08:45 UTC · **Health:** ⚠️ 21 checks passed, **1 warning(s)**: see Data health.
 
 ## At a glance
 
 |  | 🧬 ThreatFox · MD5 hashes | 🔗 URLhaus · malware URLs |
 |---|---|---|
 | In the latest export | 590 | 41,739 |
-| New since the previous run | 184 | 1,010 |
+| New since the previous run | 0 | 1,010 |
 | Added in the last 24 hours | 85 | 749 |
 | Added in the last 7 days | 590 | 5,985 |
 | Online right now | – | 20,535 (49%) |
 | Period the export covers | 136.0 h | 30.9 days |
-| Newest entry | 3.0 h ago | 0 min ago |
+| Newest entry | 14.1 h ago | 0 min ago |
 
 _URL data refreshed 2026-11-26 21:41 UTC._
 
@@ -28,17 +28,17 @@ Unique MD5 hashes first reported in the last 7 days, against the 7 days before.
 
 | # | Family | Hashes (7 d) | vs previous 7 d | Per day | First seen (UTC) | Confidence | Also known as |
 |---|---|---|---|---|---|---|---|
-| 1 | **ZStealer** | 207 | ▲ +131 | `▁▅▁▁█▆▁` | 11-21 02:44 | 95% | ZStealer |
-| 2 | **Raven Stealer** | 101 | ▲ +22 | `▁▅▁█▂▂▃` | 11-21 02:42 | 95% | – |
-| 3 | **Merdoor** | 40 | 🆕 new | `▁█▁▁▁▁▁` | 11-21 02:43 | 95% | – |
-| 4 | **Vidar** | 34 | ▲ +19 | `▁▁▁█▁▄▂` | 11-23 00:45 | 95% | – |
-| 5 | **NjRAT** | 24 | ▼ -23 | `▁▁▁█▁▁▄` | 11-21 02:43 | 95% | Bladabindi, Lime-Worm |
-| 6 | **Agent Tesla** | 22 | ▲ +3 | `▁▁▁▆▁▁█` | 11-23 00:45 | 95% | AgenTesla, AgentTesla, Negasteal |
-| 7 | **Formbook** | 21 | ▼ -6 | `▁▁▁▄▂▂█` | 11-23 15:29 | 95% | win.xloader |
-| 8 | **ValleyRAT** | 18 | ▲ +2 | `▁▇▁█▁▁▆` | 11-21 02:42 | 95% | Winos |
-| 9 | **SalatStealer** | 12 | ▼ -17 | `▁█▁▅▁▁▁` | 11-21 02:42 | 95% | – |
-| 10 | **WannaCryptor** | 9 | ▼ -5 | `▁▄▁▂▁▂█` | 11-21 02:42 | 95% | Wana Decrypt0r, WannaCry, WannaCrypt |
-**New hashes per day, last 14 days:** `▄▅▁▇▄▄▃▁█▁█▆▅▅` (today 85, busiest day 155).
+| 1 | **ZStealer** | 207 | ▲ +131 | `▅▁▁█▆▁▁` | 11-21 02:44 | 95% | ZStealer |
+| 2 | **Raven Stealer** | 101 | ▲ +26 | `▅▁█▂▂▃▁` | 11-21 02:42 | 95% | – |
+| 3 | **Merdoor** | 40 | 🆕 new | `█▁▁▁▁▁▁` | 11-21 02:43 | 95% | – |
+| 4 | **Vidar** | 34 | ▲ +19 | `▁▁█▁▄▂▁` | 11-23 00:45 | 95% | – |
+| 5 | **NjRAT** | 24 | ▼ -4 | `▁▁█▁▁▄▁` | 11-21 02:43 | 95% | Bladabindi, Lime-Worm |
+| 6 | **Agent Tesla** | 22 | ▲ +5 | `▁▁▆▁▁█▁` | 11-23 00:45 | 95% | AgenTesla, AgentTesla, Negasteal |
+| 7 | **Formbook** | 21 | ▼ -1 | `▁▁▄▂▂█▁` | 11-23 15:29 | 95% | win.xloader |
+| 8 | **ValleyRAT** | 18 | ▲ +2 | `▇▁█▁▁▆▁` | 11-21 02:42 | 95% | Winos |
+| 9 | **SalatStealer** | 12 | ▼ -9 | `█▁▅▁▁▁▁` | 11-21 02:42 | 95% | – |
+| 10 | **WannaCryptor** | 9 | ▼ -4 | `▄▁▂▁▂█▁` | 11-21 02:42 | 95% | Wana Decrypt0r, WannaCry, WannaCrypt |
+**New hashes per day, last 14 days:** `▅▁▇▄▄▃▁█▁█▆▅▅▁` (today 0, busiest day 155).
 
 **Threat types:** payload 590  
 **Reporter confidence in the latest export:** 95–95% (average 95%)  
@@ -80,56 +80,49 @@ Domains and IP addresses reported to ThreatFox, with the malware family behind t
 
 |  | 🌐 Domains | 🖥️ IP addresses |
 |---|---|---|
-| In the latest export | 3,599 | 7,462 |
-| New since the previous run | 1,126 | 948 |
-| First reported, last 24 h | 803 | 606 |
-| First reported, last 7 days | 3,598 | 7,136 |
-| …of them command-and-control | 602 | 7,101 |
-| …delivery and other | 2,996 | 35 |
+| In the latest export | 3,617 | 7,770 |
+| New since the previous run | 90 | 459 |
+| First reported, last 24 h | 386 | 782 |
+| First reported, last 7 days | 3,616 | 7,435 |
+| …of them command-and-control | 604 | 7,383 |
+| …delivery and other | 3,012 | 52 |
 
 
-**Domains, top families (7 days):** Unknown Webinject 876, ClearFake 664, IClickFix 503, Unknown Loader 402, Skimer 333  
-**Domains, top command-and-control families:** Vidar 243, Unknown malware 111, Unknown Stealer 62, XWorm 59, ACR Stealer 19  
+**Domains, top families (7 days):** Unknown Webinject 876, ClearFake 676, IClickFix 503, Unknown Loader 403, Skimer 333  
+**Domains, top command-and-control families:** Vidar 242, Unknown malware 122, Unknown Stealer 62, XWorm 60, ACR Stealer 19  
 
-**IP addresses, top families (7 days):** Unknown malware 6,477, Sliver 87, Cobalt Strike 80, VShell 54, Mirai 44  
-**IP addresses, top command-and-control families:** Unknown malware 6,464, Sliver 87, Cobalt Strike 80, VShell 54, PureRAT 42  
-**Most reported ports:** 8787 (2,947), 443 (1,384), 8080 (655), 8443 (439), 80 (337), 3000 (278), 8444 (256), 8666 (237)  
+**IP addresses, top families (7 days):** Unknown malware 6,791, Cobalt Strike 77, Sliver 72, VShell 59, Mirai 43  
+**IP addresses, top command-and-control families:** Unknown malware 6,769, Cobalt Strike 77, Sliver 72, VShell 59, PureRAT 38  
+**Most reported ports:** 8787 (3,047), 443 (1,510), 8080 (657), 8443 (439), 80 (374), 3000 (279), 8444 (256), 8666 (237)  
 
-**Also serving malware in URLhaus:** 69 entries (the list itself is not published).
+**Also serving malware in URLhaus:** 76 entries (the list itself is not published).
 
 ## Data health
 
 |  | Check | Result |
 |---|---|---|
-| ✅ | `threatfox: download` | 5352 KB in 1.6 s |
+| ✅ | `threatfox: download` | 5368 KB in 2.0 s |
 | ✅ | `threatfox: columns` | all 10 needed columns present (5 others ignored) |
 | ✅ | `threatfox: lines read` | all 590 data lines parsed |
 | ✅ | `threatfox: values valid` | every row passed validation |
-| ✅ | `threatfox: volume` | 590 rows (last time 526) |
-| ✅ | `threatfox: freshness` | newest hash is 3.0 h old |
-| ✅ | `threatfox: freshness` | export file is 1.5 h old |
-| ⚠️ | `threatfox: new items` | 184 new far above the recent average of 38 |
-| ✅ | `urlhaus: download` | 9482 KB in 1.8 s |
-| ✅ | `urlhaus: columns` | all 7 needed columns present (2 others ignored) |
-| ✅ | `urlhaus: lines read` | all 41739 data lines parsed |
-| ✅ | `urlhaus: values valid` | every row passed validation |
-| ✅ | `urlhaus: volume` | 41739 rows (last time 60558) |
-| ✅ | `urlhaus: freshness` | export file is 0.4 h old |
-| ✅ | `urlhaus: freshness` | newest URL is 0.4 h old |
-| ✅ | `urlhaus: indicators` | 1010 new URLs and 618 status changes recorded |
+| ✅ | `threatfox: volume` | 590 rows (last time 590) |
+| ✅ | `threatfox: freshness` | newest hash is 14.1 h old |
+| ✅ | `threatfox: freshness` | export file is 1.2 h old |
+| ⚠️ | `threatfox: new items` | 0 new far below the recent average of 53 |
+| ✅ | `urlhaus: refresh` | not due: refreshed 2026-11-26 21:41 UTC (once a day) |
 | ✅ | `threatfox domains: columns` | all 10 needed columns present (5 others ignored) |
-| ✅ | `threatfox domains: lines read` | all 3602 data lines parsed |
+| ✅ | `threatfox domains: lines read` | all 3620 data lines parsed |
 | ✅ | `threatfox domains: values valid` | every row passed validation |
-| ✅ | `threatfox domains: volume` | 3599 rows (last time 2781) |
-| ✅ | `threatfox domains: freshness` | newest entry is 1.5 h old |
-| ✅ | `threatfox domains: freshness` | export file is 1.5 h old |
+| ✅ | `threatfox domains: volume` | 3617 rows (last time 3599) |
+| ✅ | `threatfox domains: freshness` | newest entry is 1.2 h old |
+| ✅ | `threatfox domains: freshness` | export file is 1.2 h old |
 | ✅ | `threatfox ips: columns` | all 10 needed columns present (5 others ignored) |
-| ✅ | `threatfox ips: lines read` | all 8697 data lines parsed |
+| ✅ | `threatfox ips: lines read` | all 9190 data lines parsed |
 | ✅ | `threatfox ips: values valid` | every row passed validation |
-| ✅ | `threatfox ips: volume` | 7462 rows (last time 6745) |
-| ✅ | `threatfox ips: freshness` | newest entry is 1.9 h old |
-| ✅ | `threatfox ips: freshness` | export file is 1.5 h old |
-| ✅ | `output safety` | 15 published files contain no live URL |
+| ✅ | `threatfox ips: volume` | 7770 rows (last time 7462) |
+| ✅ | `threatfox ips: freshness` | newest entry is 1.7 h old |
+| ✅ | `threatfox ips: freshness` | export file is 1.2 h old |
+| ✅ | `output safety` | 11 published files contain no live URL |
 
 ## How this works
 
